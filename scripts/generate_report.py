@@ -21,18 +21,33 @@ CATEGORY_LABELS = {
     'ai-paper': '📄 论文',
     'ai-general': '🔥 综合热点',
     'tip': '💡 技巧',
+    # AI处理后的分类
+    '工具': '🛠️ 工具',
+    '行业': '📰 行业',
+    '赚钱': '💰 赚钱',
+    '学习': '📚 学习',
+    '其他': '📌 其他',
 }
 
 CATEGORY_ORDER = [
-    'ai-models', 'ai-products', 'ai-tools', 'ai-industry',
-    'ai-paper', 'ai-general', 'tip',
+    '赚钱', '工具', '学习', 'ai-models', 'ai-products', 'ai-tools',
+    'ai-industry', 'ai-paper', 'ai-general', 'tip', '行业', '其他',
 ]
 
 
 def load_raw(date_str=None):
-    """加载指定日期的原始数据"""
+    """加载数据：优先用AI处理结果，fallback到原始数据"""
     if not date_str:
         date_str = datetime.now().strftime('%Y-%m-%d')
+    # 优先加载AI处理结果
+    processed_path = os.path.join(BASE_DIR, 'data', 'processed', f'{date_str}.json')
+    if os.path.exists(processed_path):
+        with open(processed_path, 'r', encoding='utf-8') as f:
+            items = json.load(f)
+        if items:
+            print(f'  使用AI处理结果: {len(items)} 条')
+            return items
+    # fallback到原始数据
     path = os.path.join(RAW_DIR, f'{date_str}.json')
     if not os.path.exists(path):
         print(f'[WARN] 未找到 {path}')
@@ -42,10 +57,10 @@ def load_raw(date_str=None):
 
 
 def categorize(items):
-    """按分类分组"""
+    """按分类分组（支持原始数据和AI处理后的数据）"""
     groups = {}
     for item in items:
-        cat = item.get('category', 'ai-general')
+        cat = item.get('category') or item.get('cat') or 'ai-general'
         if cat not in groups:
             groups[cat] = []
         groups[cat].append(item)
@@ -53,37 +68,34 @@ def categorize(items):
 
 
 def build_report(items):
-    """构建报告数据"""
+    """构建报告数据（支持原始数据和AI处理后的数据）"""
     groups = categorize(items)
 
-    # 统计来源
+    # 统计来源（兼容两种格式）
     sources = {}
     for item in items:
-        src = item.get('source_name', item.get('source', 'unknown'))
+        src = item.get('source_name') or item.get('source') or item.get('cat', 'AI精选')
         sources[src] = sources.get(src, 0) + 1
+
+    # 判断是否为AI处理后的数据
+    is_ai_processed = items and 'relevance' in items[0]
 
     report = {
         'date': datetime.now().strftime('%Y-%m-%d'),
         'generated_at': datetime.now().isoformat(),
         'total': len(items),
         'sources': sources,
+        'ai_processed': is_ai_processed,
         'categories': {},
     }
 
-    for cat in CATEGORY_ORDER:
-        if cat in groups:
-            report['categories'][cat] = {
-                'label': CATEGORY_LABELS.get(cat, cat),
-                'items': groups[cat],
-            }
-
-    # 未分类的
-    for cat, cat_items in groups.items():
-        if cat not in report['categories']:
-            report['categories'][cat] = {
-                'label': CATEGORY_LABELS.get(cat, cat),
-                'items': cat_items,
-            }
+    ordered_cats = [c for c in CATEGORY_ORDER if c in groups]
+    extra_cats = [c for c in groups if c not in CATEGORY_ORDER]
+    for cat in ordered_cats + extra_cats:
+        report['categories'][cat] = {
+            'label': CATEGORY_LABELS.get(cat, cat),
+            'items': groups[cat],
+        }
 
     return report
 

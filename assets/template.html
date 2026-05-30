@@ -5,229 +5,241 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title>AI 日报</title>
 <link rel="preconnect" href="https://fonts.googleapis.com">
-<link href="https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@400;700&family=Noto+Sans+SC:wght@400;500;700;900&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@400;600;700&family=Noto+Sans+SC:wght@400;500;700;900&display=swap" rel="stylesheet">
 <style>
 *{margin:0;padding:0;box-sizing:border-box}
 :root{
-  --bg:#06080a;--surface:#0c1015;--card:#111820;--border:#1a2332;
-  --text:#c8d6e5;--text2:#5a6e82;--dim:#2a3a4a;
-  --neon:#00f0ff;--neon2:#0aff9d;--neon3:#ff3e6c;--amber:#ffb800;
-  --glow:0 0 20px rgba(0,240,255,.15);
-  --radius:6px;
+  --bg:#050810;--surface:#0a0f1a;--card:#0f1525;--card2:#131b30;
+  --border:#1a2540;--border2:#243352;
+  --text:#d0d8e8;--text2:#5a6a82;--dim:#2a3a52;
+  --neon:#00e5ff;--green:#00ff88;--gold:#ffd700;--red:#ff3366;--purple:#a855f7;
+  --glow:0 0 30px rgba(0,229,255,.12);
+  --radius:8px;
 }
 html{scroll-behavior:smooth}
 body{
   font-family:'Noto Sans SC',sans-serif;background:var(--bg);color:var(--text);
-  min-height:100vh;position:relative;overflow-x:hidden;
+  min-height:100vh;position:relative;
 }
 body::before{
-  content:'';position:fixed;top:0;left:0;width:100%;height:100%;
-  background:repeating-linear-gradient(0deg,transparent,transparent 2px,rgba(0,240,255,.015) 2px,rgba(0,240,255,.015) 4px);
-  pointer-events:none;z-index:9999;
-}
-body::after{
-  content:'';position:fixed;top:0;left:0;width:100%;height:100%;
-  background:radial-gradient(ellipse at 50% 0%,rgba(0,240,255,.06) 0%,transparent 60%);
+  content:'';position:fixed;inset:0;
+  background:
+    radial-gradient(ellipse 80% 50% at 20% 0%,rgba(0,229,255,.04) 0%,transparent 50%),
+    radial-gradient(ellipse 60% 40% at 80% 100%,rgba(168,85,247,.03) 0%,transparent 50%);
   pointer-events:none;z-index:0;
 }
 a{color:var(--neon);text-decoration:none;transition:all .2s}
-a:hover{color:var(--neon2);text-shadow:0 0 12px rgba(0,255,157,.3)}
+a:hover{color:var(--green);text-shadow:0 0 15px rgba(0,255,136,.3)}
 
 /* ── HEADER ── */
-.header{
-  padding:48px 24px 32px;text-align:center;position:relative;z-index:1;
+.hero{
+  padding:52px 24px 36px;text-align:center;position:relative;z-index:1;
   border-bottom:1px solid var(--border);
+  background:linear-gradient(180deg,rgba(0,229,255,.03) 0%,transparent 100%);
 }
-.header::after{
+.hero::after{
   content:'';position:absolute;bottom:0;left:50%;transform:translateX(-50%);
-  width:200px;height:1px;background:linear-gradient(90deg,transparent,var(--neon),transparent);
+  width:120px;height:2px;background:linear-gradient(90deg,transparent,var(--neon),transparent);
 }
-.logo{
-  font-family:'JetBrains Mono',monospace;font-size:.75em;font-weight:700;
-  color:var(--neon);letter-spacing:6px;text-transform:uppercase;margin-bottom:8px;
-  opacity:.6;
+.brand{
+  font-family:'JetBrains Mono',monospace;font-size:.65em;font-weight:600;
+  color:var(--neon);letter-spacing:8px;text-transform:uppercase;opacity:.5;
+  margin-bottom:10px;
 }
-.header h1{
-  font-size:2.8em;font-weight:900;color:#fff;letter-spacing:-1px;
-  text-shadow:0 0 40px rgba(0,240,255,.2);
+.hero h1{
+  font-size:2.6em;font-weight:900;color:#fff;letter-spacing:-1px;
+  line-height:1.1;
 }
-.header h1 span{
-  background:linear-gradient(135deg,var(--neon),var(--neon2));
+.hero h1 em{
+  font-style:normal;
+  background:linear-gradient(135deg,var(--neon),var(--green));
   -webkit-background-clip:text;-webkit-text-fill-color:transparent;
 }
-.date{font-family:'JetBrains Mono',monospace;color:var(--text2);font-size:.85em;margin-top:10px;letter-spacing:1px}
+.date{
+  font-family:'JetBrains Mono',monospace;color:var(--text2);font-size:.8em;
+  margin-top:12px;letter-spacing:2px;
+}
+.ai-badge{
+  display:inline-flex;align-items:center;gap:6px;
+  margin-top:14px;padding:5px 14px;border-radius:20px;
+  background:rgba(0,229,255,.08);border:1px solid rgba(0,229,255,.2);
+  font-family:'JetBrains Mono',monospace;font-size:.72em;color:var(--neon);
+}
+.ai-badge .dot{width:6px;height:6px;border-radius:50%;background:var(--neon);animation:pulse 2s infinite}
+@keyframes pulse{0%,100%{opacity:1}50%{opacity:.3}}
 
-/* ── STATS BAR ── */
-.stats-bar{
-  display:flex;gap:1px;justify-content:center;margin-top:24px;flex-wrap:wrap;
-  background:var(--border);max-width:700px;margin-left:auto;margin-right:auto;border-radius:var(--radius);overflow:hidden;
+/* ── STATS ── */
+.stats{
+  display:flex;gap:1px;justify-content:center;margin:24px auto 0;
+  max-width:600px;border-radius:var(--radius);overflow:hidden;
+  background:var(--border);
 }
-.stat{
-  background:var(--surface);padding:14px 20px;text-align:center;flex:1;min-width:90px;
-}
+.stat{background:var(--surface);padding:16px 20px;text-align:center;flex:1}
 .stat .num{
-  font-family:'JetBrains Mono',monospace;font-size:1.5em;font-weight:700;
-  color:var(--neon);text-shadow:0 0 15px rgba(0,240,255,.3);
+  font-family:'JetBrains Mono',monospace;font-size:1.8em;font-weight:700;
+  color:var(--neon);text-shadow:0 0 20px rgba(0,229,255,.2);
 }
-.stat .label{color:var(--text2);font-size:.72em;margin-top:3px;letter-spacing:.5px}
+.stat .lbl{color:var(--text2);font-size:.7em;margin-top:2px;letter-spacing:1px}
 
 /* ── CONTROLS ── */
 .controls{
   max-width:960px;margin:28px auto;padding:0 20px;
-  display:flex;gap:12px;flex-wrap:wrap;align-items:center;position:relative;z-index:1;
+  display:flex;gap:10px;flex-wrap:wrap;align-items:center;position:relative;z-index:1;
 }
 .search{
-  flex:1;min-width:220px;padding:11px 18px;background:var(--surface);
-  border:1px solid var(--border);border-radius:var(--radius);
-  color:var(--text);font-size:.9em;font-family:'Noto Sans SC',sans-serif;outline:none;
-  transition:all .25s;
+  flex:1;min-width:200px;padding:11px 16px 11px 38px;
+  background:var(--surface);border:1px solid var(--border);border-radius:var(--radius);
+  color:var(--text);font-size:.88em;outline:none;transition:all .2s;
+  background-image:url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='16' height='16' fill='%235a6a82' viewBox='0 0 16 16'%3E%3Cpath d='M11.742 10.344a6.5 6.5 0 1 0-1.397 1.398h-.001l3.85 3.85a1 1 0 0 0 1.415-1.414l-3.85-3.85zm-5.242.156a5 5 0 1 1 0-10 5 5 0 0 1 0 10z'/%3E%3C/svg%3E");
+  background-repeat:no-repeat;background-position:12px center;
 }
-.search:focus{border-color:var(--neon);box-shadow:0 0 15px rgba(0,240,255,.1)}
+.search:focus{border-color:var(--neon);box-shadow:0 0 20px rgba(0,229,255,.08)}
 .search::placeholder{color:var(--dim)}
 .tags{display:flex;gap:6px;flex-wrap:wrap}
 .tag{
-  padding:6px 14px;border-radius:var(--radius);font-size:.78em;cursor:pointer;
+  padding:6px 13px;border-radius:var(--radius);font-size:.76em;cursor:pointer;
   border:1px solid var(--border);background:var(--surface);color:var(--text2);
-  font-family:'JetBrains Mono',monospace;letter-spacing:.3px;
-  transition:all .2s;
+  font-family:'JetBrains Mono',monospace;letter-spacing:.3px;transition:all .2s;
 }
 .tag:hover{border-color:var(--neon);color:var(--neon)}
 .tag.active{
-  background:rgba(0,240,255,.1);border-color:var(--neon);color:var(--neon);
-  box-shadow:0 0 12px rgba(0,240,255,.15);
+  background:rgba(0,229,255,.1);border-color:var(--neon);color:var(--neon);
+  box-shadow:0 0 15px rgba(0,229,255,.1);
 }
 
 /* ── MAIN ── */
 .main{max-width:960px;margin:0 auto;padding:0 20px 80px;position:relative;z-index:1}
 
 /* ── SECTION ── */
-.section{margin-top:40px}
-.section-head{
-  display:flex;align-items:center;gap:12px;margin-bottom:18px;
+.section{margin-top:36px}
+.sec-head{display:flex;align-items:center;gap:10px;margin-bottom:16px}
+.sec-icon{font-size:1.2em}
+.sec-title{
+  font-family:'JetBrains Mono',monospace;font-size:.82em;font-weight:700;
+  color:var(--neon);letter-spacing:1.5px;text-transform:uppercase;
 }
-.section-icon{font-size:1.3em}
-.section-title{
-  font-family:'JetBrains Mono',monospace;font-size:.9em;font-weight:700;
-  color:var(--neon);letter-spacing:1px;text-transform:uppercase;
-}
-.section-line{flex:1;height:1px;background:linear-gradient(90deg,var(--border),transparent)}
-.section-count{
-  font-family:'JetBrains Mono',monospace;font-size:.75em;
-  color:var(--dim);background:var(--surface);padding:3px 10px;
-  border:1px solid var(--border);border-radius:var(--radius);
+.sec-line{flex:1;height:1px;background:linear-gradient(90deg,var(--border),transparent)}
+.sec-count{
+  font-family:'JetBrains Mono',monospace;font-size:.7em;color:var(--dim);
+  background:var(--card);padding:3px 10px;border:1px solid var(--border);border-radius:4px;
 }
 
-/* ── ITEM CARD ── */
+/* ── ITEM ── */
 .item{
   display:block;background:var(--card);border:1px solid var(--border);
-  border-radius:var(--radius);padding:18px 22px;margin-bottom:8px;
+  border-radius:var(--radius);padding:18px 20px;margin-bottom:8px;
   transition:all .25s;position:relative;overflow:hidden;
 }
 .item::before{
   content:'';position:absolute;top:0;left:0;width:3px;height:100%;
-  background:var(--neon);opacity:0;transition:opacity .25s;
+  opacity:0;transition:opacity .25s;
 }
+.item.r5::before{background:var(--gold);opacity:1}
+.item.r4::before{background:var(--neon);opacity:.6}
 .item:hover{
-  border-color:rgba(0,240,255,.3);background:#131c28;
-  box-shadow:0 4px 20px rgba(0,0,0,.3),0 0 20px rgba(0,240,255,.05);
+  border-color:var(--border2);background:var(--card2);
+  box-shadow:0 4px 24px rgba(0,0,0,.3);
 }
 .item:hover::before{opacity:1}
-.item-title{
-  font-size:1em;font-weight:700;color:#e8edf2;line-height:1.6;
+
+.item-top{display:flex;align-items:flex-start;gap:10px;margin-bottom:6px}
+.item-title{font-size:1em;font-weight:700;color:#e8edf5;line-height:1.6;flex:1}
+.relevance{
+  font-family:'JetBrains Mono',monospace;font-size:.65em;font-weight:700;
+  padding:2px 8px;border-radius:4px;white-space:nowrap;flex-shrink:0;
+  letter-spacing:.5px;
 }
-.item-title .emoji{margin-right:4px}
+.relevance.r5{background:rgba(255,215,0,.15);color:var(--gold);border:1px solid rgba(255,215,0,.2)}
+.relevance.r4{background:rgba(0,229,255,.1);color:var(--neon);border:1px solid rgba(0,229,255,.15)}
+.relevance.r3{background:rgba(168,85,247,.1);color:var(--purple);border:1px solid rgba(168,85,247,.15)}
+.relevance.r2,.relevance.r1{background:rgba(90,106,130,.1);color:var(--text2);border:1px solid var(--border)}
+
 .item-summary{
-  color:var(--text2);font-size:.85em;margin-top:6px;line-height:1.6;
-  display:-webkit-box;-webkit-line-clamp:2;-webkit-box-orient:vertical;overflow:hidden;
+  color:var(--text2);font-size:.85em;line-height:1.6;margin-bottom:8px;
 }
 .item-meta{
-  display:flex;gap:14px;margin-top:10px;font-size:.78em;color:var(--dim);
-  font-family:'JetBrains Mono',monospace;letter-spacing:.3px;flex-wrap:wrap;
+  display:flex;gap:12px;font-size:.72em;color:var(--dim);
+  font-family:'JetBrains Mono',monospace;letter-spacing:.3px;flex-wrap:wrap;align-items:center;
 }
-.item-meta .src{
-  color:var(--neon2);font-weight:500;
-  background:rgba(0,255,157,.08);padding:1px 8px;border-radius:3px;
+.cat-tag{
+  padding:2px 8px;border-radius:3px;font-size:.9em;
+  background:rgba(0,229,255,.08);color:var(--neon);border:1px solid rgba(0,229,255,.12);
 }
-.item-meta .score{color:var(--amber)}
+.cat-tag赚钱{background:rgba(255,215,0,.1);color:var(--gold);border-color:rgba(255,215,0,.15)}
+.cat-tag工具{background:rgba(0,255,136,.08);color:var(--green);border-color:rgba(0,255,136,.12)}
+.cat-tag学习{background:rgba(168,85,247,.08);color:var(--purple);border-color:rgba(168,85,247,.12)}
+.cat-tag行业{background:rgba(0,229,255,.08);color:var(--neon);border-color:rgba(0,229,255,.12)}
 
 /* ── EMPTY / LOADING ── */
 .empty,.loading{text-align:center;padding:80px 20px;color:var(--text2)}
-.empty .icon{font-size:3em;margin-bottom:16px;opacity:.5}
-.loading-box{
-  display:inline-flex;flex-direction:column;align-items:center;gap:16px;
-}
+.empty .icon{font-size:3em;margin-bottom:16px;opacity:.4}
 .loader{
-  width:48px;height:48px;border:2px solid var(--border);border-top-color:var(--neon);
-  border-radius:50%;animation:spin .8s linear infinite;
+  width:44px;height:44px;border:2px solid var(--border);border-top-color:var(--neon);
+  border-radius:50%;animation:spin .7s linear infinite;margin:0 auto 16px;
 }
 @keyframes spin{to{transform:rotate(360deg)}}
 .loading-text{
-  font-family:'JetBrains Mono',monospace;font-size:.8em;color:var(--dim);
-  letter-spacing:2px;
+  font-family:'JetBrains Mono',monospace;font-size:.78em;color:var(--dim);letter-spacing:2px;
 }
 
 /* ── FOOTER ── */
 .footer{
-  text-align:center;padding:30px 20px;font-size:.75em;color:var(--dim);
+  text-align:center;padding:28px 20px;font-size:.7em;color:var(--dim);
   font-family:'JetBrains Mono',monospace;letter-spacing:1px;
   border-top:1px solid var(--border);max-width:960px;margin:0 auto;
 }
-.footer a{color:var(--text2)}
-.footer a:hover{color:var(--neon)}
 
 /* ── RESPONSIVE ── */
 @media(max-width:640px){
-  .header h1{font-size:1.8em}
-  .logo{font-size:.65em;letter-spacing:4px}
+  .hero h1{font-size:1.7em}
+  .brand{font-size:.6em;letter-spacing:5px}
   .controls{flex-direction:column}
-  .stats-bar{flex-direction:column;gap:0}
+  .stats{flex-direction:column}
   .stat{padding:10px 16px}
   .item{padding:14px 16px}
-  .section-title{font-size:.8em}
+  .item-top{flex-direction:column;gap:6px}
 }
 </style>
 </head>
 <body>
 
-<div class="header">
-  <div class="logo">▸ ai-daily-feed</div>
-  <h1><span>AI</span> 日报</h1>
+<div class="hero">
+  <div class="brand">▸ ai-daily-feed</div>
+  <h1><em>AI</em> 日报</h1>
   <div class="date" id="date"></div>
-  <div class="stats-bar" id="stats"></div>
+  <div class="ai-badge"><span class="dot"></span> AI 筛选 · 为你定制</div>
+  <div class="stats" id="stats"></div>
 </div>
 
 <div class="controls">
-  <input class="search" id="search" placeholder="▸ 搜索..." autocomplete="off">
+  <input class="search" id="search" placeholder="搜索..." autocomplete="off">
   <div class="tags" id="tags"></div>
 </div>
 
 <div class="main" id="main">
   <div class="loading">
-    <div class="loading-box">
-      <div class="loader"></div>
-      <div class="loading-text">SCANNING FEEDS...</div>
-    </div>
+    <div class="loader"></div>
+    <div class="loading-text">PROCESSING...</div>
   </div>
 </div>
 
 <div class="footer">
-  AI DAILY · 自动采集 6 个数据源 · <a href="https://github.com/kuangketongxue/ai-daily" target="_blank">GitHub</a>
+  AI DAILY · 为赚钱+高考复读生定制 · <a href="https://github.com/kuangketongxue/ai-daily" target="_blank">GitHub</a>
 </div>
 
 <script>
-const CAT_ICONS={'ai-models':'🧠','ai-products':'🚀','ai-tools':'🛠️','ai-industry':'📰','ai-paper':'📄','ai-general':'🔥','tip':'💡','industry':'🏢','paper':'📄'};
-const CAT_LABELS={'ai-models':'AI 模型','ai-products':'AI 产品','ai-tools':'开发工具','ai-industry':'行业动态','ai-paper':'论文','ai-general':'综合热点','tip':'技巧','industry':'行业','paper':'论文'};
+const CAT_ICONS={'赚钱':'💰','工具':'🛠️','学习':'📚','行业':'📰','ai-models':'🧠','ai-products':'🚀','ai-tools':'🛠️','ai-industry':'📰','ai-paper':'📄','ai-general':'🔥','tip':'💡'};
+const CAT_LABELS={'赚钱':'赚钱机会','工具':'实用工具','学习':'学习资源','行业':'行业动态','ai-models':'AI 模型','ai-products':'AI 产品','ai-tools':'开发工具','ai-industry':'行业动态','ai-paper':'论文','ai-general':'综合热点','tip':'技巧'};
 let activeTag='all';
-let DATA=null;/*__DATA__*/
-/*__EMBEDDED_DATA__*/async function loadData(){if(typeof DATA!=='undefined'&&DATA){render();return}try{const r=await fetch('./latest.json?t='+Date.now());if(!r.ok)throw new Error(r.status);DATA=await r.json();render()}catch(e){document.getElementById('main').innerHTML='<div class="empty"><div class="icon">📭</div><p>NO DATA AVAILABLE</p><p style="font-size:.8em;margin-top:8px;color:#3a4a5a">'+e.message+'</p></div>'}}
+let DATA=null;/*__DATA__*/async function loadData(){if(typeof DATA!=='undefined'&&DATA){render();return}try{const r=await fetch('./latest.json?t='+Date.now());if(!r.ok)throw new Error(r.status);DATA=await r.json();render()}catch(e){document.getElementById('main').innerHTML='<div class="empty"><div class="icon">📭</div><p>NO DATA</p></div>'}}
 
 function render(){
   if(!DATA)return;
   document.getElementById('date').textContent='[ '+DATA.date+' · '+new Date(DATA.generated_at).toLocaleTimeString('zh-CN',{hour:'2-digit',minute:'2-digit'})+' ]';
-  let sh='';for(const[s,c]of Object.entries(DATA.sources||{})){sh+=`<div class="stat"><div class="num">${c}</div><div class="label">${s}</div></div>`}
+  let sh='';for(const[s,c]of Object.entries(DATA.sources||{})){sh+=`<div class="stat"><div class="num">${c}</div><div class="lbl">${s}</div></div>`}
   document.getElementById('stats').innerHTML=sh;
   const cats=Object.keys(DATA.categories||{});let th='<div class="tag active" data-cat="all">ALL</div>';
-  for(const c of cats){const n=DATA.categories[c].items.length;th+=`<div class="tag" data-cat="${c}">${CAT_LABELS[c]||c} ${n}</div>`}
+  for(const c of cats){const n=DATA.categories[c].items.length;th+=`<div class="tag" data-cat="${c}">${CAT_ICONS[c]||'▸'} ${CAT_LABELS[c]||c} ${n}</div>`}
   document.getElementById('tags').innerHTML=th;
   document.querySelectorAll('.tag').forEach(t=>{t.onclick=()=>{document.querySelectorAll('.tag').forEach(x=>x.classList.remove('active'));t.classList.add('active');activeTag=t.dataset.cat;renderItems()}});
   renderItems()
@@ -237,11 +249,15 @@ function renderItems(){
   if(!DATA)return;const q=document.getElementById('search').value.toLowerCase();let html='';const cats=activeTag==='all'?Object.keys(DATA.categories||{}):[activeTag];let total=0;
   for(const cat of cats){
     const g=DATA.categories[cat];if(!g)continue;
-    const items=g.items.filter(i=>{if(q&&!i.title.toLowerCase().includes(q)&&!(i.summary||'').toLowerCase().includes(q))return false;return true});
+    const items=g.items.filter(i=>{
+      const t=(i.title||'').toLowerCase();const s=(i.summary||'').toLowerCase();
+      if(q&&!t.includes(q)&&!s.includes(q))return false;return true
+    });
     if(!items.length)continue;total+=items.length;
-    html+=`<div class="section"><div class="section-head"><span class="section-icon">${CAT_ICONS[cat]||'▸'}</span><span class="section-title">${CAT_LABELS[cat]||cat}</span><span class="section-line"></span><span class="section-count">${items.length}</span></div>`;
+    html+=`<div class="section"><div class="sec-head"><span class="sec-icon">${CAT_ICONS[cat]||'▸'}</span><span class="sec-title">${CAT_LABELS[cat]||cat}</span><span class="sec-line"></span><span class="sec-count">${items.length}</span></div>`;
     for(const it of items){
-      html+=`<a class="item" href="${esc(it.url)}" target="_blank" rel="noopener"><div class="item-title">${esc(it.title)}</div>${it.summary?`<div class="item-summary">${esc(it.summary.slice(0,160))}</div>`:''}<div class="item-meta"><span class="src">${esc(it.source_name||it.source)}</span><span>${timeAgo(it.published_at)}</span>${it.meta&&it.meta.score?`<span class="score">▲ ${it.meta.score}</span>`:''}${it.meta&&it.meta.stars?`<span>★ ${it.meta.stars}</span>`:''}</div></a>`}
+      const r=it.relevance||3;const rc=r>=5?'r5':r>=4?'r4':r>=3?'r3':'r2';
+      html+=`<a class="item ${rc}" href="${esc(it.url||'#')}" target="_blank" rel="noopener"><div class="item-top"><div class="item-title">${esc(it.title)}</div><span class="relevance ${rc}">${'★'.repeat(r)}${'☆'.repeat(Math.max(0,5-r))}</span></div>${it.summary?`<div class="item-summary">${esc(it.summary)}</div>`:''}<div class="item-meta"><span class="cat-tag ${cat}">${CAT_LABELS[cat]||cat}</span></div></a>`}
     html+='</div>'
   }
   if(!total)html='<div class="empty"><div class="icon">⊘</div><p>NO MATCHES</p></div>';
@@ -249,7 +265,6 @@ function renderItems(){
 }
 
 function esc(s){return(s||'').replace(/&/g,'&amp;').replace(/</g,'&lt;').replace(/>/g,'&gt;').replace(/"/g,'&quot;')}
-function timeAgo(iso){if(!iso)return'';try{const d=new Date(iso);const diff=(Date.now()-d.getTime())/1000;if(diff<60)return'刚刚';if(diff<3600)return Math.floor(diff/60)+'m ago';if(diff<86400)return Math.floor(diff/3600)+'h ago';return Math.floor(diff/86400)+'d ago'}catch(e){return''}}
 
 document.getElementById('search').addEventListener('input',renderItems);
 loadData();

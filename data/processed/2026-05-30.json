@@ -1,0 +1,163 @@
+[
+  {
+    "title": "Nano Banana Pro/2发布",
+    "summary": "Google新模型可生产使用，可直接调用API提升应用能力。",
+    "category": "行业",
+    "relevance": 4,
+    "url": "https://x.com/googleaidevs/status/2060685345738375640"
+  },
+  {
+    "title": "阶跃星辰开源小模型",
+    "summary": "中国开源多模态模型，可本地部署或用于学习研究。",
+    "category": "工具",
+    "relevance": 4,
+    "url": "https://x.com/StepFun_ai/status/2060678753030947226"
+  },
+  {
+    "title": "xAI放弃JAX转向自研框架",
+    "summary": "重大行业洗牌，影响GPU训练生态，值得关注趋势。",
+    "category": "行业",
+    "relevance": 5,
+    "url": "https://x.com/SemiAnalysis_/status/2060571944575963482"
+  },
+  {
+    "title": "Tiny-vLLM推理引擎开源自托管",
+    "summary": "高性能C/CUDA推理引擎，可本地运行大模型省成本。",
+    "category": "工具",
+    "relevance": 5,
+    "url": "https://github.com/jmaczan/tiny-vllm"
+  },
+  {
+    "title": "OpenAI实时翻译模型",
+    "summary": "支持70+语言语音输入转13种输出，可直接用于翻译赚钱。",
+    "category": "工具",
+    "relevance": 5,
+    "url": "https://x.com/gdb/status/2060452095279415725"
+  },
+  {
+    "title": "阶跃星辰Step 3.7 Flash",
+    "summary": "198B参数开源模型，专注智能体效率，适合开发AI应用。",
+    "category": "工具",
+    "relevance": 4,
+    "url": "https://x.com/StepFun_ai/status/2060149124117475791"
+  },
+  {
+    "title": "小米开源ControlFoley视频音效",
+    "summary": "文本/参考音频控制视频配音，可直接用于视频创作。",
+    "category": "工具",
+    "relevance": 4,
+    "url": "https://www.ithome.com/0/957/282.htm"
+  },
+  {
+    "title": "Qwen-VLA：从理解到行动",
+    "summary": "通义千问新模型，集多种能力于一体，可接入使用。",
+    "category": "行业",
+    "relevance": 4,
+    "url": "https://qwen.ai/blog?id=qwenvla"
+  },
+  {
+    "title": "Codex自主管理线程与任务",
+    "summary": "AI编程智能体可自动管理对话，提升开发效率。",
+    "category": "工具",
+    "relevance": 3,
+    "url": "https://x.com/gdb/status/2060486309886443787"
+  },
+  {
+    "title": "Gemini Omni草图变现实",
+    "summary": "上传草图即可生成图像，适合创意和社交内容制作。",
+    "category": "工具",
+    "relevance": 3,
+    "url": "https://x.com/GeminiApp/status/2060435981946503243"
+  },
+  {
+    "title": "Codex支持Windows远程控制",
+    "summary": "可在Windows电脑上执行操作，实现远程办公和自动化。",
+    "category": "工具",
+    "relevance": 4,
+    "url": "https://x.com/OpenAI/status/2060428604727771421"
+  },
+  {
+    "title": "Runway API新增多款模型",
+    "summary": "集成了Seedance、GPT Image等API，方便直接调用赚钱。",
+    "category": "工具",
+    "relevance": 4,
+    "url": "https://x.com/runwayml/status/2060453805519765548"
+  },
+  {
+    "title": "OpenRouter支持文件补丁生成",
+    "summary": "任何模型可通过API生成代码补丁，自动化编程工作。",
+    "category": "工具",
+    "relevance": 3,
+    "url": "https://x.com/OpenRouter/status/2060395056196936054"
+  },
+  {
+    "title": "ChatGPT上线对话目录",
+    "summary": "长对话自动生成目录，方便复习和查找历史信息。",
+    "category": "工具",
+    "relevance": 3,
+    "url": "https://x.com/ChatGPTapp/status/2060467129066070182"
+  },
+  {
+    "title": "Gemini月更新：界面与智能体",
+    "summary": "全新界面+全天候智能体助手，值得体验最新功能。",
+    "category": "行业",
+    "relevance": 4,
+    "url": "https://x.com/GeminiApp/status/2060389565052096911"
+  },
+  {
+    "title": "四部门：提升全民AI素养",
+    "summary": "政策利好，AI教育成热点，可关注相关学习资源和机会。",
+    "category": "学习",
+    "relevance": 4,
+    "url": "https://www.ithome.com/0/957/319.htm"
+  },
+  {
+    "title": "claude-design-card一键生成视觉卡",
+    "summary": "文字/URL转公众号首图、小红书卡片等，直接用于自媒体赚钱。",
+    "category": "工具",
+    "relevance": 5,
+    "url": "https://x.com/hongming731/status/2060487110906527820"
+  },
+  {
+    "title": "Adam's Law：用高频词写Prompt",
+    "summary": "实验证明高频词提升模型效果，可用此技巧优化提示词。",
+    "category": "学习",
+    "relevance": 4,
+    "url": "https://x.com/berryxia/status/2060212428584202428"
+  },
+  {
+    "title": "Cursor报告：AI提升开发效率",
+    "summary": "开发者周产出翻倍，AI代码留存率提升，展示AI变现趋势。",
+    "category": "行业",
+    "relevance": 3,
+    "url": "https://x.com/shao__meng/status/2060167182777249886"
+  },
+  {
+    "title": "ComfyUI可直接调用OpenRouter模型",
+    "summary": "在工作流中直接使用20+LLM，扩展AI绘画和文本能力。",
+    "category": "工具",
+    "relevance": 4,
+    "url": "https://x.com/OpenRouter/status/2060511136932315259"
+  },
+  {
+    "title": "Luma Agents自动生成宣传图",
+    "summary": "输入内容即可生成营销图片，适合做电商和推广赚钱。",
+    "category": "工具",
+    "relevance": 4,
+    "url": "https://x.com/LumaLabsAI/status/2060461313713909783"
+  },
+  {
+    "title": "LlamaIndex智能体模板处理文档",
+    "summary": "基于Google Agents API，可自动处理非结构文档，省时省力。",
+    "category": "学习",
+    "relevance": 3,
+    "url": "https://x.com/googleaidevs/status/2060439904929382700"
+  },
+  {
+    "title": "Anthropic估值9650亿超越OpenAI",
+    "summary": "AI行业格局变化，估值第一，关注相关动态和就业机会。",
+    "category": "行业",
+    "relevance": 5,
+    "url": "https://www.bloomberg.com/news/videos/2026-05-29/anthropic-valuation-of-965-billion-passes-openai-video"
+  }
+]
