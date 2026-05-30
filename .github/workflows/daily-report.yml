@@ -24,6 +24,12 @@ jobs:
       - name: Collect news
         run: python scripts/collect.py
 
+      - name: AI filter
+        if: env.DEEPSEEK_API_KEY != ''
+        env:
+          DEEPSEEK_API_KEY: ${{ secrets.DEEPSEEK_API_KEY }}
+        run: python scripts/process.py
+
       - name: Generate report
         run: python scripts/generate_report.py
 

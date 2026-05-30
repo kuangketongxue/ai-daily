@@ -8,7 +8,15 @@ import requests
 from datetime import datetime
 
 API_URL = 'https://api.chatst.org/v1/chat/completions'
-API_KEY = 'sk-AUFCHc3jdS0lCjWQySpwKP7l15AehGYQ1wZr2KbNEBIrDfna'
+API_KEY = os.environ.get('DEEPSEEK_API_KEY', '')
+if not API_KEY:
+    # fallback: 从 .env 文件读取
+    _env_path = os.path.join(os.path.dirname(os.path.dirname(os.path.abspath(__file__))), '.env')
+    if os.path.exists(_env_path):
+        with open(_env_path) as f:
+            for line in f:
+                if line.startswith('DEEPSEEK_API_KEY='):
+                    API_KEY = line.strip().split('=', 1)[1]
 MODEL = 'deepseek-v4-flash'
 
 BASE_DIR = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))

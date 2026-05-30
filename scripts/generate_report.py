@@ -115,18 +115,11 @@ def generate_html(report):
     os.makedirs(ASSETS_DIR, exist_ok=True)
 
     # 读取模板
-    if os.path.exists(TEMPLATE_PATH):
-        with open(TEMPLATE_PATH, 'r', encoding='utf-8') as f:
-            template = f.read()
-    else:
-        # 如果没有模板，用 index.html 作为模板
-        index_path = os.path.join(ASSETS_DIR, 'index.html')
-        if os.path.exists(index_path):
-            with open(index_path, 'r', encoding='utf-8') as f:
-                template = f.read()
-        else:
-            print('[ERR] 未找到模板文件')
-            return None
+    if not os.path.exists(TEMPLATE_PATH):
+        print(f'[ERR] 未找到模板文件: {TEMPLATE_PATH}')
+        return None
+    with open(TEMPLATE_PATH, 'r', encoding='utf-8') as f:
+        template = f.read()
 
     # 将 JSON 数据嵌入 HTML（替换 /*__DATA__*/ 标记）
     json_data = json.dumps(report, ensure_ascii=False)
