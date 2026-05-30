@@ -1,9 +1,10 @@
 {
   "date": "2026-05-30",
-  "generated_at": "2026-05-30T22:35:35.217068",
-  "total": 63,
+  "generated_at": "2026-05-30T14:48:00.854371",
+  "total": 68,
   "sources": {
     "Hugging Face": 8,
+    "GitHub AI": 6,
     "The Verge：AI（RSS）": 1,
     "Bloomberg：Technology（RSS）": 2,
     "X：Google AI for Developers (@googleaidevs)": 2,
@@ -28,7 +29,6 @@
     "X：Berry Xia (@berryxia)": 2,
     "X：邵猛 (@shao__meng)": 1,
     "TechCrunch：AI（RSS）": 2,
-    "B站·橘鸦Juya": 1,
     "NVIDIA Technical Blog（开发者技术博客 · RSS）": 3,
     "X：Luma AI (@LumaLabsAI)": 1,
     "X：Google AI (@GoogleAI)": 1,
@@ -331,6 +331,66 @@
           "category": "ai-tools",
           "published_at": "Fri, 22 May 2026 15:25:59 GMT",
           "summary": ""
+        },
+        {
+          "id": "2d1c2f7520f7",
+          "title": "⭐ pingcap/tidb",
+          "url": "https://github.com/pingcap/tidb",
+          "source": "GitHub AI",
+          "source_name": "GitHub AI",
+          "category": "ai-tools",
+          "published_at": "2026-05-30T14:47:57.238811+00:00",
+          "summary": "TiDB is built for agentic workloads that grow unpredictably, with ACID guarantees and native support for transactions, analytics, and vector search. No data silos. No noisy neighbors. No infrastructure ceiling."
+        },
+        {
+          "id": "a9d0db943297",
+          "title": "⭐ NVIDIA/Megatron-LM",
+          "url": "https://github.com/NVIDIA/Megatron-LM",
+          "source": "GitHub AI",
+          "source_name": "GitHub AI",
+          "category": "ai-tools",
+          "published_at": "2026-05-30T14:47:57.237436+00:00",
+          "summary": "Ongoing research training transformer models at scale"
+        },
+        {
+          "id": "95cdf36fac9c",
+          "title": "⭐ meilisearch/meilisearch",
+          "url": "https://github.com/meilisearch/meilisearch",
+          "source": "GitHub AI",
+          "source_name": "GitHub AI",
+          "category": "ai-tools",
+          "published_at": "2026-05-30T14:47:57.237304+00:00",
+          "summary": "A lightning-fast search engine API bringing AI-powered hybrid search to your sites and applications."
+        },
+        {
+          "id": "21fb6843c0a7",
+          "title": "⭐ PostHog/posthog",
+          "url": "https://github.com/PostHog/posthog",
+          "source": "GitHub AI",
+          "source_name": "GitHub AI",
+          "category": "ai-tools",
+          "published_at": "2026-05-30T14:47:57.237069+00:00",
+          "summary": "🦔 PostHog is an all-in-one developer platform for building successful products. We offer product analytics, web analytics, session replay, error tracking, feature flags, experimentation, surveys, data warehouse, a CDP, and an AI product assistant to help debug your code, ship features faster, and keep all your usage and customer data in one stack."
+        },
+        {
+          "id": "eeb23aefa2a0",
+          "title": "⭐ modelscope/FunASR",
+          "url": "https://github.com/modelscope/FunASR",
+          "source": "GitHub AI",
+          "source_name": "GitHub AI",
+          "category": "ai-tools",
+          "published_at": "2026-05-30T14:47:57.236943+00:00",
+          "summary": "Industrial-grade speech recognition toolkit: 170x realtime, 50+ languages, speaker diarization, emotion detection, streaming, and OpenAI-compatible API."
+        },
+        {
+          "id": "2c7b43a9c31a",
+          "title": "⭐ apache/airflow",
+          "url": "https://github.com/apache/airflow",
+          "source": "GitHub AI",
+          "source_name": "GitHub AI",
+          "category": "ai-tools",
+          "published_at": "2026-05-30T14:47:57.236663+00:00",
+          "summary": "Apache Airflow - A platform to programmatically author, schedule, and monitor workflows"
         }
       ]
     },
@@ -381,25 +441,6 @@
           "category": "ai-paper",
           "published_at": "2026-05-30T00:00:00.090Z",
           "summary": "我对这个适用于大规模生成模型新时代的视觉生成基准数据集感到非常兴奋！🤩"
-        }
-      ]
-    },
-    "ai-general": {
-      "label": "🔥 综合热点",
-      "items": [
-        {
-          "id": "823694b34f7e",
-          "title": "🎬 OpenAI 发布 Codex 与 ChatGPT 大量更新【AI 早报 2026-05-30】",
-          "url": "https://www.bilibili.com/video/BV11pVM6iERu",
-          "source": "bilibili",
-          "source_name": "B站·橘鸦Juya",
-          "category": "ai-general",
-          "published_at": "2026-05-30",
-          "summary": "AI 早报 2026-05-30\n概览\n要闻\nCodex 为 Windows 端上线 Computer use 与远程控制功能\n#1\nChatGPT 更新 GPT-5.5 Instant 模型并推出长对话目录功能\n#2\nMiniMax M3 即将发布并招募中文开源社区评测者\n#3\n开发生态\nllama.cpp 发布官方新网站与统一命令行工具\n#4\nHermes Agent 推出 Tool Search 并发布 v0.15.1 修复补丁\n#5\n阿里云百炼宣布推出并开源百炼 CLI\n#6\n产品应用\n谷歌Gemini调整配额规则：Ultra会员视频生成量翻倍\n#7\nDeepSeek 增加对话修改与内容刷新次数限制，且专家模式暂不支持搜索\n#8\n行业动态\nOpenAI推出Rosalind Biodefense项目，加速生物防御与防疫\n#9\n前瞻与传闻\n报道称智谱AI正开发终端硬件产品，首款设备已获工信部试用证\n#10\nCodex 为 Windows 端上线 Computer use 与远程控制功能\n#1\nOpenAI\n发布了\nCodex\n重大更新，\nComputer use\n功能登陆\nWindows\n平台。可前台操控桌面应用进行测试和调试，并支持通过移动端或\nMac\n远程控制\nWindows\n设备。此外，本次更新还为后台\nAgent\n引入了便于识别的像素头像，新增了对所有历史聊天内容的搜索支持，并上线了包含\nToken\n活动详情的新个人资料面板。同时，\niOS\n版\nChatGPT\n也迎来了\nCodex\n专项更新，引入了\n/side\n临时对话等高级功能。\nOpenAI\n发布了\nCodex\n编程\nAgent\n的重大更新，正式将\nComputer use\n能力扩展至\nWindows\n平台。\n借助该功能，\nCodex\n能够在前台操作\nWindows\n桌面应用程序以执行测试和调试，并允许用户通过\nChatGPT\n移动端（\niOS\n/\nAndroid\n）或\nMac\n端远程启动和引导\nWindows\n机器上的任务。\n此外，本次更新还为后台\nAgent\n引入了便于跨面板识别的稳定像素头像，新增了对所有历史聊天内容的搜索支持，并上线了包含\nToken\n活动详情的新个人资料面板。\n同时，\niOS\n版本的\nChatGPT\n也迎来了大规模的\nCodex\n专项更新，引入了\n/side\n临时对话、差异摘要及快捷指令等高级功能。\nhttps://x.com/OpenAI/status/2060428604727771421\nhttps://x.com/OpenAIDevs/status/2060478367921831936\nChatGPT 更新 GPT-5.5 Instant 模型并推出长对话目录功能\n#2\nOpenAI\n更新了\nGPT-5.5 Instant\n模型，让回复更加自然，并移除了\nCanvas\n功能，改为直接在回复中提供\nwriting blocks\n与\ncode blocks\n。同时，\nChatGPT\n为包含五条以上回复的长对话新增了自动目录功能。此外，官方宣布\nGPT-4.5\n与\no3\n将分别于\n2026年6月\n和\n8月\n从\nChatGPT\n下线，\nAPI\n调用不受影响。\nOpenAI\n近日更新了\nChatGPT\n和\nAPI\n中的\nGPT-5.5 Instant\n模型，旨在提升回复的自然度并减少冗长的项目符号回复。\n官方成员称其在事实性和多语言性能上亦有改进。\n伴随此次更新，\nGPT-5.5 Instant\n和\nGPT-5.5 Thinking\n将不再支持\ncanvas\n，相关写作和编码功能转为直接在聊天回复中支持。\n付费用户可暂时通过旧模型继续使用\ncanvas\n。\n此外，官方宣布\nGPT-4.5\n和\nOpenAI o3\n将分别于\n6 月 27 日\n和\n8 月 26 日\n从\nChatGPT\n退役，此举仅影响\nChatGPT\n而不影响\nAPI\n。\n另一项新功能是，\nChatGPT\n现已为包含\n5\n条以上回复的长对话自动生成目录，方便用户快速导航。\nhttps://help.openai.com/en/articles/6825453-chatgpt-release-notes?utm_source=chatgpt.com\nhttps://x.com/ChatGPTapp/status/2060467129066070182\nMiniMax M3 即将发布并招募中文开源社区评测者\n#3\nMiniMax M3\n即将发布，目前正邀请中文开源社区\ncontributor\n参与前期评测。申请者需具备开源贡献经验并在验证信息中附上过往\nwork\n，通过后即可第一时间体验。\nMiniMax\nM3\n模型即将发布，目前已开始面向部分开发者启动前期评测。\n用户\nJiayuan (JY) Zhang\n通过社交平台表示，正邀请中文开源社区的 contributor 优先体验该模型。\n相关的飞书体验群由社区成员\n阿岛（@SkylerMiao7）\n建立。\n申请参与评测的开发者需要具备开源项目的贡献经验，无论是个人独立项目还是参与他人的项目均可。\n申请者在加入飞书群时，必须在验证信息中附上自己过去的开源 work。\n通过审核后方可第一时间体验到该模型。\nhttps://x.com/jiayuan_jy/status/2060283302649749982\nllama.cpp 发布官方新网站与统一命令行工具\n#4\nllama.cpp\n发布官方新网站\nllama.app\n，并推出跨平台统一命令行工具\nllama\n，支持一键安装、本地模型运行及第三方\nAgent\n集成。\nllama.cpp\n项目创始人\nGeorgi Gerganov\n宣布推出官方新网站 llamma.app，并发布跨平台统一的\nllama\n命令行工具。\n新工具通过单行安装命令或\nHomebrew\n、\nWinget\n等包管理器部署。\n安装后用户获得统一的\nllama\n入口点，既可运行模型服务，也能与\nPi\n等本地编码\nAgent\n自动对接。\n同时已下载的\nGGUF\n模型会被自动识别并复用，无需重复下载。\n该工具保留了现有\nllama.cpp\n的所有高级功能。\n官方称未来数月将重点迭代\nUX\n与引擎，加强同本地友好型第三方\nAgent\n的无缝集成，并将根据社区反馈持续调整。\nhttps://llama.app/\nhttps://x.com/ggerganov/status/2060394400237109567\nHermes Agent 推出 Tool Search 并发布 v0.15.1 修复补丁\n#5\nHermes Agent\n推出\nTool Search\n功能，按需加载\nMCP\n与非核心插件工具的\nschema\n以减少上下文，同时官方发布\nv0.15.1\n补丁，修复了\nDashboard\n无限重载等\nBug\n。\nHermes Agent\n推出\nTool Search\n功能并发布\nv0.15.1\n热修复补丁。\nTool Search\n通过三个桥接工具按需检索并调用非核心工具的\nschema\n，以释放模型上下文。\n该功能默认在可延迟工具占用超\n10%\n上下文时触发，不适用内置核",
-          "meta": {
-            "plays": 37571,
-            "wechat_url": "https://mp.weixin.qq.com/s/xAOF8DKdH0PkQGBKaRkS8g"
-          }
         }
       ]
     },
