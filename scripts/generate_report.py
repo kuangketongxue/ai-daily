@@ -1,6 +1,6 @@
 """
 AI 热点日报 — 报告生成模块
-读取采集数据，生成 JSON + HTML 日报
+读取采集数据，生成 JSON + 自包含 HTML 日报
 """
 import json
 import os
@@ -11,6 +11,7 @@ BASE_DIR = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 RAW_DIR = os.path.join(BASE_DIR, 'data', 'raw')
 ARCHIVE_DIR = os.path.join(BASE_DIR, 'data', 'archive')
 ASSETS_DIR = os.path.join(BASE_DIR, 'assets')
+TEMPLATE_PATH = os.path.join(ASSETS_DIR, 'template.html')
 
 CATEGORY_LABELS = {
     'ai-models': '🧠 AI 模型',
@@ -20,13 +21,11 @@ CATEGORY_LABELS = {
     'ai-paper': '📄 论文',
     'ai-general': '🔥 综合热点',
     'tip': '💡 技巧',
-    'industry': '🏢 行业',
-    'paper': '📄 论文',
 }
 
 CATEGORY_ORDER = [
     'ai-models', 'ai-products', 'ai-tools', 'ai-industry',
-    'ai-paper', 'ai-general', 'tip', 'industry', 'paper',
+    'ai-paper', 'ai-general', 'tip',
 ]
 
 
@@ -99,6 +98,44 @@ def save_json(report):
     return path
 
 
+def generate_html(report):
+    """生成自包含 HTML（数据内嵌，支持 file:// 协议打开）"""
+    os.makedirs(ASSETS_DIR, exist_ok=True)
+
+    # 读取模板
+    if os.path.exists(TEMPLATE_PATH):
+        with open(TEMPLATE_PATH, 'r', encoding='utf-8') as f:
+            template = f.read()
+    else:
+        # 如果没有模板，用 index.html 作为模板
+        index_path = os.path.join(ASSETS_DIR, 'index.html')
+        if os.path.exists(index_path):
+            with open(index_path, 'r', encoding='utf-8') as f:
+                template = f.read()
+        else:
+            print('[ERR] 未找到模板文件')
+            return None
+
+    # 将 JSON 数据嵌入 HTML（替换 /*__DATA__*/ 标记）
+    json_data = json.dumps(report, ensure_ascii=False)
+    # 防止 </script> 注入
+    json_data = json_data.replace('</script>', '<\\/script>')
+    html = template.replace(
+        'let DATA=null;/*__DATA__*/',
+        f'let DATA={json_data};'
+    )
+    # 验证替换成功
+    if 'DATA=null' in html and json_data != 'null':
+        print('[ERR] DATA 替换失败，模板标记不匹配')
+        return None
+
+    out_path = os.path.join(ASSETS_DIR, 'index.html')
+    with open(out_path, 'w', encoding='utf-8') as f:
+        f.write(html)
+    print(f'已生成 HTML: {out_path}')
+    return out_path
+
+
 def archive_report(date_str=None):
     """归档原始数据"""
     if not date_str:
@@ -119,5 +156,6 @@ if __name__ == '__main__':
         exit(1)
     report = build_report(items)
     save_json(report)
+    generate_html(report)
     archive_report()
     print(f'报告生成完成: {report["total"]} 条新闻, {len(report["sources"])} 个来源')

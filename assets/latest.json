@@ -1,81 +1,336 @@
 {
   "date": "2026-05-30",
-  "generated_at": "2026-05-30T21:11:06.945515",
-  "total": 37,
+  "generated_at": "2026-05-30T22:35:35.217068",
+  "total": 63,
   "sources": {
-    "量子位": 10,
-    "GitHub Trending": 5,
-    "HackerNews": 7,
-    "arXiv": 15
+    "Hugging Face": 8,
+    "The Verge：AI（RSS）": 1,
+    "Bloomberg：Technology（RSS）": 2,
+    "X：Google AI for Developers (@googleaidevs)": 2,
+    "X：阶跃星辰 StepFun (@StepFun_ai)": 2,
+    "Hacker News 热门（buzzing.cc 中文翻译）": 4,
+    "X：SemiAnalysis (@SemiAnalysis_)": 1,
+    "X：阿里云 / Alibaba Cloud (@alibaba_cloud)": 1,
+    "X：Greg Brockman (@gdb)": 2,
+    "IT之家（RSS）": 6,
+    "Qwen：Blog Retrieval（API）": 1,
+    "X：Gemini (@GeminiApp)": 2,
+    "X：OpenAI (@OpenAI)": 1,
+    "OpenRouter：Announcements（RSS）": 1,
+    "X：Runway (@runwayml)": 1,
+    "X：OpenRouter (@OpenRouter)": 2,
+    "X：ChatGPT (@ChatGPTapp)": 1,
+    "OpenAI：官网动态（RSS · 排除企业/客户案例）": 4,
+    "Google Blog：AI（RSS）": 2,
+    "X：Fei-Fei Li (@drfeifei, World Labs)": 1,
+    "X：洪明 (@hongming731)": 1,
+    "X：Rohan Paul (@rohanpaul_ai)": 1,
+    "X：Berry Xia (@berryxia)": 2,
+    "X：邵猛 (@shao__meng)": 1,
+    "TechCrunch：AI（RSS）": 2,
+    "B站·橘鸦Juya": 1,
+    "NVIDIA Technical Blog（开发者技术博客 · RSS）": 3,
+    "X：Luma AI (@LumaLabsAI)": 1,
+    "X：Google AI (@GoogleAI)": 1,
+    "X：Replit (@Replit)": 1,
+    "X：可灵 Kling AI (@Kling_ai)": 1,
+    "X：PixVerse (@PixVerse_)": 1,
+    "Tomer Tunguz 博客（VC 分析）": 1,
+    "Hugging Face：Blog（RSS）": 1
   },
   "categories": {
+    "ai-models": {
+      "label": "🧠 AI 模型",
+      "items": [
+        {
+          "id": "144c130948ef",
+          "title": "Nano Banana Pro与Nano Banana 2正式发布",
+          "url": "https://x.com/googleaidevs/status/2060685345738375640",
+          "source": "aihot",
+          "source_name": "X：Google AI for Developers (@googleaidevs)",
+          "category": "ai-models",
+          "published_at": "2026-05-30T11:30:46.000Z",
+          "summary": "ICYMI：Nano Banana Pro 【gemini-3-pro-image】 和 Nano Banana 2 【gemini-3.1-flash-image】 现已正式发布，可通过 Gemini API 投入生产使用。\n\n查看这些优秀的社区示例，了解两个模型的实际能力 🧵"
+        },
+        {
+          "id": "fc37abd9fb5c",
+          "title": "小即是美：开源多模态模型发布",
+          "url": "https://x.com/StepFun_ai/status/2060678753030947226",
+          "source": "aihot",
+          "source_name": "X：阶跃星辰 StepFun (@StepFun_ai)",
+          "category": "ai-models",
+          "published_at": "2026-05-30T11:04:34.000Z",
+          "summary": "小即是美。😌"
+        },
+        {
+          "id": "7b3c14f371d9",
+          "title": "OpenAI推出实时翻译模型，支持70+语言输入",
+          "url": "https://x.com/gdb/status/2060452095279415725",
+          "source": "aihot",
+          "source_name": "X：Greg Brockman (@gdb)",
+          "category": "ai-models",
+          "published_at": "2026-05-30T00:00:00.090Z",
+          "summary": "OpenAI 实时翻译功能——使用70多种输入语言说话，翻译成13种输出语言： gpt-realtime-translate 接收任意语言的语音输入，并输出目标语言的语音。 大语言模型很棒，但特定用例需要专用模型。 我们正在智能眼镜上运行此功能。"
+        },
+        {
+          "id": "e40dcda3c599",
+          "title": "阶跃星辰 Step 3.7 Flash 发布，聚焦智能体效率",
+          "url": "https://x.com/StepFun_ai/status/2060149124117475791",
+          "source": "aihot",
+          "source_name": "X：阶跃星辰 StepFun (@StepFun_ai)",
+          "category": "ai-models",
+          "published_at": "2026-05-30T00:00:00.090Z",
+          "summary": "阶跃星辰（Step）发布了开源大模型 Step 3.7 Flash，主打智能体（Agent）工作流的效率。该模型在 ClawEval-1.1（67.1分）和 SimpleVQA Search（79.2分）评测中排名第一。其架构为 198B 参数的 MoE，约 11B 为活跃参数，支持 256K 上下文。模型具备多模态理解能力，能处理图像、文档并生成代码或调用工具执行任务。在工具使用方面，它致力于高可靠性，τ²-bench 得分超过 98%。Step 3.7 Flash 兼容 Claude Code、MCP 协议等工具链，并支持在 Mac Studio M4 Max 等设备上本地运行。模型权重以 Apache 2.0 许可开源。"
+        },
+        {
+          "id": "bcf340c3f157",
+          "title": "小米开源可控视频音效生成模型 ControlFoley，让声音“按你想要的来”",
+          "url": "https://www.ithome.com/0/957/282.htm",
+          "source": "aihot",
+          "source_name": "IT之家（RSS）",
+          "category": "ai-models",
+          "published_at": "2026-05-30T00:00:00.090Z",
+          "summary": "小米大模型应用团队发布开源可控视频音效生成模型 ControlFoley，旨在解决创作中的可控性难题。该模型统一支持文本引导视频配音、文本控制视频配音和参考音频控制视频配音三类任务。ControlFoley 在 VGGSound-Test 等多个 benchmark 上取得开源 SOTA 表现，其代码、模型权重和在线 Demo 均已开放。"
+        },
+        {
+          "id": "52c959d78a5e",
+          "title": "Qwen-VLA：从理解世界到在其中行动",
+          "url": "https://qwen.ai/blog?id=qwenvla",
+          "source": "aihot",
+          "source_name": "Qwen：Blog Retrieval（API）",
+          "category": "ai-models",
+          "published_at": "2026-05-30T00:00:00.090Z",
+          "summary": "Qwen Studio提供全面功能，涵盖聊天机器人、图像与视频理解、图像生成、文档处理、网络搜索集成、工具利用及Artifacts。"
+        }
+      ]
+    },
+    "ai-products": {
+      "label": "🚀 AI 产品",
+      "items": [
+        {
+          "id": "599576124b80",
+          "title": "Show HN： Tiny-vLLM--基于 C 和 CUDA 的高性能大型语言模型推理引擎",
+          "url": "https://github.com/jmaczan/tiny-vllm",
+          "source": "aihot",
+          "source_name": "Hacker News 热门（buzzing.cc 中文翻译）",
+          "category": "ai-products",
+          "published_at": "2026-05-30T03:25:01.798Z",
+          "summary": "Tiny-vLLM 是一个用 C 和 CUDA 编写的高性能大语言模型推理引擎，项目代码已开源至 GitHub。"
+        },
+        {
+          "id": "c7364c5750c8",
+          "title": "Codex可自主管理对话线程与并行任务",
+          "url": "https://x.com/gdb/status/2060486309886443787",
+          "source": "aihot",
+          "source_name": "X：Greg Brockman (@gdb)",
+          "category": "ai-products",
+          "published_at": "2026-05-30T00:00:00.090Z",
+          "summary": "Codex用于管理Codex界面： [引用 @guinnesschen]：如果你厌倦了管理Codex对话线程，就让Codex自己管理自己吧！Codex现在可以创建对话线程、搜索它们、整理它们、固定重要的线程，并为并行任务启动工作树。"
+        },
+        {
+          "id": "141e23d5c2c0",
+          "title": "Gemini Omni可将草图变为现实",
+          "url": "https://x.com/GeminiApp/status/2060435981946503243",
+          "source": "aihot",
+          "source_name": "X：Gemini (@GeminiApp)",
+          "category": "ai-products",
+          "published_at": "2026-05-30T00:00:00.090Z",
+          "summary": "Gemini Omni甚至能将简单的草图变为新的现实。 在Gemini应用中亲自尝试。上传一段有人画圆的视频，然后输入这个提示词：当我画完这个圆时，它变成了___。"
+        },
+        {
+          "id": "182b46f55e4f",
+          "title": "Codex现已支持Windows端计算机使用功能",
+          "url": "https://x.com/OpenAI/status/2060428604727771421",
+          "source": "aihot",
+          "source_name": "X：OpenAI (@OpenAI)",
+          "category": "ai-products",
+          "published_at": "2026-05-30T00:00:00.090Z",
+          "summary": "Windows用户，这条消息是给你的。 计算机使用功能现已在Windows上可用，因此Codex可以在你的Windows电脑上执行操作。 通过ChatGPT移动应用中Codex的Windows支持，你可以在工作继续在Windows电脑上进行时，随时随地启动、审查和引导任务。 这是一项早期体验，但我们正在努力提供更多方式，让你的工作无论身在何处都能持续进行。"
+        },
+        {
+          "id": "7277cfd3247c",
+          "title": "Guardrails：保护你的智能体、数据与成本",
+          "url": "https://openrouter.ai/announcements/guardrails",
+          "source": "aihot",
+          "source_name": "OpenRouter：Announcements（RSS）",
+          "category": "ai-products",
+          "published_at": "2026-05-30T00:00:00.090Z",
+          "summary": "Guardrails 是一套可配置的安全与治理工具，提供预算执行、零数据保留、模型与提供商限制、提示词注入防御及数据丢失预防等功能，旨在保护智能体（Agents）、数据与控制成本。"
+        },
+        {
+          "id": "0704ff85dbbc",
+          "title": "Runway API持续扩展模型与端点支持",
+          "url": "https://x.com/runwayml/status/2060453805519765548",
+          "source": "aihot",
+          "source_name": "X：Runway (@runwayml)",
+          "category": "ai-products",
+          "published_at": "2026-05-30T00:00:00.090Z",
+          "summary": "我们持续为 Runway API 添加新模型和端点，以便您能将最佳生成能力直接集成到应用、产品和平台中。通过 Runway API，您可以在一个地方获得所需的所有模型，包括 Seedance 2.0、GPT Image 2、HappyHorse 1.0、Nano Banana Pro、Magnific Precision Upscaler V2 等更多内容。请通过下方链接开始使用。"
+        },
+        {
+          "id": "8eb00c0202c7",
+          "title": "OpenRouter支持模型生成文件补丁",
+          "url": "https://x.com/OpenRouter/status/2060395056196936054",
+          "source": "aihot",
+          "source_name": "X：OpenRouter (@OpenRouter)",
+          "category": "ai-products",
+          "published_at": "2026-05-30T00:00:00.090Z",
+          "summary": "OpenRouter 现已支持 \"apply_patch\"，这是一个服务器工具，允许任何模型通过 Responses API 使用 V4A diffs 提出文件编辑建议。 模型生成一个补丁（创建、更新或删除文件）。OpenRouter 在服务器端验证 diff 语法。"
+        },
+        {
+          "id": "e579769af191",
+          "title": "ChatGPT对话目录功能现已上线",
+          "url": "https://x.com/ChatGPTapp/status/2060467129066070182",
+          "source": "aihot",
+          "source_name": "X：ChatGPT (@ChatGPTapp)",
+          "category": "ai-products",
+          "published_at": "2026-05-30T00:00:00.090Z",
+          "summary": "对于每个始于“就问一件事”却演变成完整长篇的ChatGPT对话：目录功能现已推出。 适用于包含5条以上回复的对话。"
+        },
+        {
+          "id": "454863265a17",
+          "title": "Gemini 本月更新：全新界面与智能体助手",
+          "url": "https://x.com/GeminiApp/status/2060389565052096911",
+          "source": "aihot",
+          "source_name": "X：Gemini (@GeminiApp)",
+          "category": "ai-products",
+          "published_at": "2026-05-30T00:00:00.090Z",
+          "summary": "从全新设计的 Gemini 界面，到 Gemini Spark 提供的全天候智能体辅助，以下是本月 Gemini 更新概览。🧵"
+        },
+        {
+          "id": "96fb618a4ae9",
+          "title": "ComfyUI现已支持OpenRouter模型直接调用",
+          "url": "https://x.com/OpenRouter/status/2060511136932315259",
+          "source": "aihot",
+          "source_name": "X：OpenRouter (@OpenRouter)",
+          "category": "ai-products",
+          "published_at": "2026-05-29T23:58:32.000Z",
+          "summary": "现在你可以直接在ComfyUI工作流中使用你的OpenRouter模型了！\n\n【引用 @ComfyUI】：ComfyUI刚刚添加了@OpenRouter支持。\n\n你不再局限于单一的大语言模型，现在可以直接在Comfy中访问20多个模型。\n\n更多灵活性，更少摩擦，同样的工作流。\n\n工作流链接在下方👇"
+        },
+        {
+          "id": "8619c3e41e29",
+          "title": "Luma Agents 自动生成宣传图，输入内容即可",
+          "url": "https://x.com/LumaLabsAI/status/2060461313713909783",
+          "source": "aihot",
+          "source_name": "X：Luma AI (@LumaLabsAI)",
+          "category": "ai-products",
+          "published_at": "2026-05-29T20:40:33.000Z",
+          "summary": "博客文章完成了思考。现在让宣传来发挥作用。\n\n输入内容。定义钩子。Luma Agents 从那里构建每一张宣传图。\n\n投入使用 → http：//lumalabs.ai/app"
+        },
+        {
+          "id": "f23c65cee329",
+          "title": "Canvas新功能与Clerk自定义登录介绍",
+          "url": "https://x.com/Replit/status/2060390354910859401",
+          "source": "aihot",
+          "source_name": "X：Replit (@Replit)",
+          "category": "ai-products",
+          "published_at": "2026-05-29T15:58:35.000Z",
+          "summary": "Canvas 新功能 + 使用 Clerk 自定义登录 https：//x.com/i/broadcasts/1pJdRRzreMRKW"
+        },
+        {
+          "id": "25a84100b948",
+          "title": "阿里云开源百炼 CLI，Agent 可调用全套模型和应用能力",
+          "url": "https://www.ithome.com/0/957/149.htm",
+          "source": "aihot",
+          "source_name": "IT之家（RSS）",
+          "category": "ai-products",
+          "published_at": "2026-05-29T07:15:20.000Z",
+          "summary": null
+        },
+        {
+          "id": "502ae771f346",
+          "title": "用 Rosalind Biodefense 增强社会韧性",
+          "url": "https://openai.com/index/strengthening-societal-resilience-with-rosalind-biodefense",
+          "source": "aihot",
+          "source_name": "OpenAI：官网动态（RSS · 排除企业/客户案例）",
+          "category": "ai-products",
+          "published_at": "2026-05-29T03:00:00.000Z",
+          "summary": "OpenAI 推出 Rosalind Biodefense，为通过审核的开发者和美国政府伙伴提供 GPT-Rosalind 的可信访问，以推动前沿 AI 在生物防御、公共卫生和大流行病准备方面的应用。"
+        }
+      ]
+    },
     "ai-tools": {
       "label": "🛠️ 开发工具",
       "items": [
         {
-          "id": "87c287af23d3",
-          "title": "⭐ modelscope/FunASR",
-          "url": "https://github.com/modelscope/FunASR",
-          "source": "github",
-          "source_name": "GitHub Trending",
+          "id": "90cbca0729ed",
+          "title": "ITBench-AA: Frontier Models Score Below 50% on the First Benchmark for Agentic Enterprise IT Tasks — by Artificial Analysis and IBM",
+          "url": "https://huggingface.co/blog/ibm-research/itbench-aa",
+          "source": "Hugging Face",
+          "source_name": "Hugging Face",
           "category": "ai-tools",
-          "published_at": "2026-05-30T13:07:36.633253+00:00",
-          "summary": "Industrial-grade speech recognition toolkit: 170x realtime, 50+ languages, speaker diarization, emotion detection, streaming, and OpenAI-compatible API.",
-          "meta": {
-            "stars": "165 stars today"
-          }
+          "published_at": "Wed, 27 May 2026 17:20:29 GMT",
+          "summary": ""
         },
         {
-          "id": "f84edcbdd7b5",
-          "title": "⭐ n8n-io/n8n",
-          "url": "https://github.com/n8n-io/n8n",
-          "source": "github",
-          "source_name": "GitHub Trending",
+          "id": "88004c9b8d4d",
+          "title": "Reachy Mini goes fully local",
+          "url": "https://huggingface.co/blog/local-reachy-mini-conversation",
+          "source": "Hugging Face",
+          "source_name": "Hugging Face",
           "category": "ai-tools",
-          "published_at": "2026-05-30T13:07:36.630901+00:00",
-          "summary": "Fair-code workflow automation platform with native AI capabilities. Combine visual building with custom code, self-host or cloud, 400+ integrations.",
-          "meta": {
-            "stars": "159 stars today"
-          }
+          "published_at": "Wed, 27 May 2026 00:00:00 GMT",
+          "summary": ""
         },
         {
-          "id": "b0894f0cfdef",
-          "title": "⭐ microsoft/onnxruntime",
-          "url": "https://github.com/microsoft/onnxruntime",
-          "source": "github",
-          "source_name": "GitHub Trending",
+          "id": "f51c51c8e274",
+          "title": "Shipping a Trillion Parameters With a Hub Bucket: Delta Weight Sync in TRL",
+          "url": "https://huggingface.co/blog/delta-weight-sync",
+          "source": "Hugging Face",
+          "source_name": "Hugging Face",
           "category": "ai-tools",
-          "published_at": "2026-05-30T13:07:36.619762+00:00",
-          "summary": "ONNX Runtime: cross-platform, high performance ML inferencing and training accelerator",
-          "meta": {
-            "stars": "10 stars today"
-          }
+          "published_at": "Wed, 27 May 2026 00:00:00 GMT",
+          "summary": ""
         },
         {
-          "id": "5a6b2211b3b7",
-          "title": "⭐ invoke-ai/InvokeAI",
-          "url": "https://github.com/invoke-ai/InvokeAI",
-          "source": "github",
-          "source_name": "GitHub Trending",
+          "id": "edecd2cea068",
+          "title": "OlmoEarth v1.1: A more efficient family of Earth observation models",
+          "url": "https://huggingface.co/blog/allenai/olmoearth-v1-1",
+          "source": "Hugging Face",
+          "source_name": "Hugging Face",
           "category": "ai-tools",
-          "published_at": "2026-05-30T13:07:36.606849+00:00",
-          "summary": "Invoke is a leading creative engine for Stable Diffusion models, empowering professionals, artists, and enthusiasts to generate and create visual media using the latest AI-driven technologies. The solution offers an industry leading WebUI, and serves as the foundation for multiple commercial products.",
-          "meta": {
-            "stars": "12 stars today"
-          }
+          "published_at": "Tue, 19 May 2026 18:38:09 GMT",
+          "summary": ""
         },
         {
-          "id": "35f2fa6f694c",
-          "title": "⭐ microsoft/qlib",
-          "url": "https://github.com/microsoft/qlib",
-          "source": "github",
-          "source_name": "GitHub Trending",
+          "id": "c9661f3916b7",
+          "title": "Towards Speed-of-Light Text Generation with Nemotron-Labs Diffusion Language Models",
+          "url": "https://huggingface.co/blog/nvidia/nemotron-labs-diffusion",
+          "source": "Hugging Face",
+          "source_name": "Hugging Face",
           "category": "ai-tools",
-          "published_at": "2026-05-30T13:07:36.599700+00:00",
-          "summary": "Qlib is an AI-oriented Quant investment platform that aims to use AI tech to empower Quant Research, from exploring ideas to implementing productions. Qlib supports diverse ML modeling paradigms, including supervised learning, market dynamics modeling, and RL, and is now equipped withhttps://github.com/microsoft/RD-Agentto automate R&D process.",
-          "meta": {
-            "stars": "46 stars today"
-          }
+          "published_at": "Sat, 23 May 2026 00:02:03 GMT",
+          "summary": ""
+        },
+        {
+          "id": "834587a4b2c9",
+          "title": "Harness, Scaffold, and the AI Agent Terms Worth Getting Right",
+          "url": "https://huggingface.co/blog/agent-glossary",
+          "source": "Hugging Face",
+          "source_name": "Hugging Face",
+          "category": "ai-tools",
+          "published_at": "Mon, 25 May 2026 00:00:00 GMT",
+          "summary": ""
+        },
+        {
+          "id": "2396b4dfc657",
+          "title": "Profiling in PyTorch (Part 1): A Beginner's Guide to torch.profiler",
+          "url": "https://huggingface.co/blog/torch-profiler",
+          "source": "Hugging Face",
+          "source_name": "Hugging Face",
+          "category": "ai-tools",
+          "published_at": "Fri, 29 May 2026 00:00:00 GMT",
+          "summary": ""
+        },
+        {
+          "id": "05d4b26aae44",
+          "title": "Specialization Beats Scale: A Strategic Variable Most AI Procurement Decisions Overlook",
+          "url": "https://huggingface.co/blog/Dharma-AI/specialization-beats-scale",
+          "source": "Hugging Face",
+          "source_name": "Hugging Face",
+          "category": "ai-tools",
+          "published_at": "Fri, 22 May 2026 15:25:59 GMT",
+          "summary": ""
         }
       ]
     },
@@ -83,104 +338,34 @@
       "label": "📰 行业动态",
       "items": [
         {
-          "id": "cb9c088780f2",
-          "title": "帮Gemini拿下IMO金牌的关键先生，差点成了职业钢琴家",
-          "url": "https://www.qbitai.com/2026/05/426706.html",
-          "source": "量子位",
-          "source_name": "量子位",
+          "id": "db6ce50af617",
+          "title": "中央网信办等四部门：提升全民人工智能素养，加快人才培育、深化普及应用",
+          "url": "https://www.ithome.com/0/957/319.htm",
+          "source": "aihot",
+          "source_name": "IT之家（RSS）",
           "category": "ai-industry",
-          "published_at": "Sat, 30 May 2026 06:43:26 +0000",
-          "summary": "（可能是）大模型圈里最会弹钢琴的人"
+          "published_at": "2026-05-30T00:00:00.090Z",
+          "summary": "中央网信办等四部门联合印发《2026年提升全民数字素养与技能工作要点》，部署了六项重点任务。其中明确要求“提升全民人工智能素养”，具体包括强化人工智能赋能教育、加快人工智能人才培育、深化人工智能普及应用。其他任务涵盖数字资源供给、应用场景建设、普惠包容发展、安全有序网络空间以及协同联动机制。"
         },
         {
-          "id": "a90129c2b90b",
-          "title": "英伟达清华团队提出Gamma-World：世界模型从「一个人玩」到「多人共处」",
-          "url": "https://www.qbitai.com/2026/05/426662.html",
-          "source": "量子位",
-          "source_name": "量子位",
+          "id": "48aac9f4e6e1",
+          "title": "波士顿儿童医院利用AI解锁新诊断",
+          "url": "https://openai.com/index/boston-childrens-hospital",
+          "source": "aihot",
+          "source_name": "OpenAI：官网动态（RSS · 排除企业/客户案例）",
           "category": "ai-industry",
-          "published_at": "Sat, 30 May 2026 06:33:58 +0000",
-          "summary": "让世界模型迈向多智能体交互仿真"
+          "published_at": "2026-05-30T00:00:00.090Z",
+          "summary": "波士顿儿童医院通过部署OpenAI技术，用于改善患者护理并减轻运营负担，成功帮助诊断了超过40种罕见病病例。"
         },
         {
-          "id": "6a4986085d76",
-          "title": "英伟达清华团队提出Gamma-World：世界模型从「一个人玩」到「多人共处」",
-          "url": "https://www.qbitai.com/2026/05/426643.html",
-          "source": "量子位",
-          "source_name": "量子位",
+          "id": "1841c01028ad",
+          "title": "滑铁卢大学未来实验室展示AI原型",
+          "url": "https://blog.google/innovation-and-ai/technology/ai/university-waterloo-labs",
+          "source": "aihot",
+          "source_name": "Google Blog：AI（RSS）",
           "category": "ai-industry",
-          "published_at": "Sat, 30 May 2026 03:17:17 +0000",
-          "summary": "让世界模型迈向多智能体交互仿真"
-        },
-        {
-          "id": "524c5955406e",
-          "title": "4nm！比亚迪自研AI芯片来了：制程对齐英伟达，算力拉爆特斯拉",
-          "url": "https://www.qbitai.com/2026/05/426557.html",
-          "source": "量子位",
-          "source_name": "量子位",
-          "category": "ai-industry",
-          "published_at": "Fri, 29 May 2026 14:30:20 +0000",
-          "summary": "智驾出事，比亚迪兜底"
-        },
-        {
-          "id": "c9bdeef95f56",
-          "title": "光帆科技与腾讯出行服务达成战略合作 开启新一轮预售",
-          "url": "https://www.qbitai.com/2026/05/426552.html",
-          "source": "量子位",
-          "source_name": "量子位",
-          "category": "ai-industry",
-          "published_at": "Fri, 29 May 2026 11:27:07 +0000",
-          "summary": ""
-        },
-        {
-          "id": "71635e987924",
-          "title": "PPIO入选非凡产研「2026 Global AI 100」，以AI实力领跑出海新浪潮",
-          "url": "https://www.qbitai.com/2026/05/426548.html",
-          "source": "量子位",
-          "source_name": "量子位",
-          "category": "ai-industry",
-          "published_at": "Fri, 29 May 2026 11:24:57 +0000",
-          "summary": ""
-        },
-        {
-          "id": "4a3fddfae342",
-          "title": "面壁智能「开源周」：一场定义端侧 AI 终局的系统性「亮剑」",
-          "url": "https://www.qbitai.com/2026/05/426542.html",
-          "source": "量子位",
-          "source_name": "量子位",
-          "category": "ai-industry",
-          "published_at": "Fri, 29 May 2026 09:13:24 +0000",
-          "summary": "端侧 AI 是一个系统性工程"
-        },
-        {
-          "id": "21bcf9e4d32c",
-          "title": "5亿Tokens白送！全球首个商用AI主机发布，终于能放开烧Token了",
-          "url": "https://www.qbitai.com/2026/05/426479.html",
-          "source": "量子位",
-          "source_name": "量子位",
-          "category": "ai-industry",
-          "published_at": "Fri, 29 May 2026 09:05:30 +0000",
-          "summary": "这是这个时代的印刷机"
-        },
-        {
-          "id": "b2c3159dda8f",
-          "title": "下限零基础，上限肝大作！腾讯这个AI游戏创作平台，太野了",
-          "url": "https://www.qbitai.com/2026/05/426447.html",
-          "source": "量子位",
-          "source_name": "量子位",
-          "category": "ai-industry",
-          "published_at": "Fri, 29 May 2026 08:50:10 +0000",
-          "summary": "下一波AI创作浪潮正在游戏领域发生"
-        },
-        {
-          "id": "ec94939d0906",
-          "title": "创意设计版WorkBuddy来了！腾讯发布智能体创意工作室Miora",
-          "url": "https://www.qbitai.com/2026/05/426400.html",
-          "source": "量子位",
-          "source_name": "量子位",
-          "category": "ai-industry",
-          "published_at": "Fri, 29 May 2026 08:32:52 +0000",
-          "summary": "一个人拥有整个创意工作室"
+          "published_at": "2026-05-30T00:00:00.090Z",
+          "summary": "滑铁卢大学未来实验室的学生开发了用于重塑教育和工作未来的AI原型，其中包括手语辅导工具。"
         }
       ]
     },
@@ -188,154 +373,14 @@
       "label": "📄 论文",
       "items": [
         {
-          "id": "e80a04059494",
-          "title": "📄 Physics Is All You Need? A Case Study in Physicist-Supervised AI Development of Scientific Software",
-          "url": "https://arxiv.org/abs/2605.30353v1",
-          "source": "arxiv",
-          "source_name": "arXiv",
+          "id": "bdd1acf3d699",
+          "title": "GPIC：大规模视觉生成基准数据集发布",
+          "url": "https://x.com/drfeifei/status/2060404846734512205",
+          "source": "aihot",
+          "source_name": "X：Fei-Fei Li (@drfeifei, World Labs)",
           "category": "ai-paper",
-          "published_at": "2026-05-28T17:59:59Z",
-          "summary": "Are AI agents tools, co-authors, or researchers? We present a quantified case study ($N=1$): a physicist supervising an AI coding agent (Claude Code, Sonnet and Opus models) over 12 work days and 57 s"
-        },
-        {
-          "id": "1e53781cb471",
-          "title": "📄 VideoMLA: Low-Rank Latent KV Cache for Minute-Scale Autoregressive Video Diffusion",
-          "url": "https://arxiv.org/abs/2605.30351v1",
-          "source": "arxiv",
-          "source_name": "arXiv",
-          "category": "ai-paper",
-          "published_at": "2026-05-28T17:59:57Z",
-          "summary": "Long-rollout causal video diffusion has converged on a fixed-size sliding-window KV cache, with recent progress innovating within this layout by changing which tokens occupy the window or how their po"
-        },
-        {
-          "id": "000a15bc3cb1",
-          "title": "📄 LLMSurgeon: Diagnosing Data Mixture of Large Language Models",
-          "url": "https://arxiv.org/abs/2605.30348v1",
-          "source": "arxiv",
-          "source_name": "arXiv",
-          "category": "ai-paper",
-          "published_at": "2026-05-28T17:59:53Z",
-          "summary": "The pretraining data mixture of Large Language Models (LLMs) constitutes their \"digital DNA\", shaping model behaviors, capabilities, and failure modes. Yet this composition is rarely disclosed, making"
-        },
-        {
-          "id": "b861fe54fded",
-          "title": "📄 SchGen: PCB Schematic Generation with Semantic-Grounded Code Representations",
-          "url": "https://arxiv.org/abs/2605.30345v1",
-          "source": "arxiv",
-          "source_name": "arXiv",
-          "category": "ai-paper",
-          "published_at": "2026-05-28T17:59:50Z",
-          "summary": "Printed circuit board (PCB) schematic design defines nearly all electronic hardware, but it remains manual and expertise-intensive. While generative AI has advanced digital and analog IC design, PCB s"
-        },
-        {
-          "id": "366035756d12",
-          "title": "📄 Tiny but Trusted: Efficient Vision-Language Reasoning for Time-Series Anomaly Detection",
-          "url": "https://arxiv.org/abs/2605.30344v1",
-          "source": "arxiv",
-          "source_name": "arXiv",
-          "category": "ai-paper",
-          "published_at": "2026-05-28T17:59:50Z",
-          "summary": "Recent advances in Vision-Language Models (VLMs) have achieved impressive performance across many tasks, yet prior studies report unsatisfactory performance when applying large language or multimodal "
-        },
-        {
-          "id": "bb85fd505729",
-          "title": "📄 Unlocking the Working Memory of Large Language Models for Latent Reasoning",
-          "url": "https://arxiv.org/abs/2605.30343v1",
-          "source": "arxiv",
-          "source_name": "arXiv",
-          "category": "ai-paper",
-          "published_at": "2026-05-28T17:59:49Z",
-          "summary": "To improve the reasoning capabilities of large language models, test-time compute is typically scaled by generating intermediate tokens before the final answer. However, this couples reasoning to auto"
-        },
-        {
-          "id": "8b2916f019b7",
-          "title": "📄 GPIC: A Giant Permissive Image Corpus for Visual Generation",
-          "url": "https://arxiv.org/abs/2605.30341v1",
-          "source": "arxiv",
-          "source_name": "arXiv",
-          "category": "ai-paper",
-          "published_at": "2026-05-28T17:59:26Z",
-          "summary": "Studying scalable methods for visual generative modeling requires large, accessible, and stable datasets. We introduce GPIC, a Giant Permissive Image Corpus of approximately 28 trillion pixels. GPIC c"
-        },
-        {
-          "id": "b4c57e237bd8",
-          "title": "📄 Locally Coherent, Globally Incoherent: Bounding Compositional Incoherence in Multi-Component LLM Agents",
-          "url": "https://arxiv.org/abs/2605.30335v1",
-          "source": "arxiv",
-          "source_name": "arXiv",
-          "category": "ai-paper",
-          "published_at": "2026-05-28T17:58:55Z",
-          "summary": "Multi-component LLM agents assemble probabilistic claims from components that each see only part of a joint problem; the composition can violate basic probability axioms even when every component is l"
-        },
-        {
-          "id": "b10037f24c00",
-          "title": "📄 Demystifying Data Organization for Enhanced LLM Training",
-          "url": "https://arxiv.org/abs/2605.30334v1",
-          "source": "arxiv",
-          "source_name": "arXiv",
-          "category": "ai-paper",
-          "published_at": "2026-05-28T17:58:53Z",
-          "summary": "Large Language Models (LLMs) have revolutionized various fields, yet their training efficiency is heavily reliant on effective data curation. While data selection has been widely studied, the strategi"
-        },
-        {
-          "id": "674ccda5d29e",
-          "title": "📄 Reasoning with Sampling: Cutting at Decision Points",
-          "url": "https://arxiv.org/abs/2605.30327v1",
-          "source": "arxiv",
-          "source_name": "arXiv",
-          "category": "ai-paper",
-          "published_at": "2026-05-28T17:57:32Z",
-          "summary": "Frontier reasoning models are produced by posttraining base language models with reinforcement learning. Recent work has challenged this by showing that sampling from a sharpened version of the base m"
-        },
-        {
-          "id": "eb5781b3c4b1",
-          "title": "📄 RoboWits: Unexpected Challenges for Robotic Creative Problem Solving",
-          "url": "https://arxiv.org/abs/2605.30326v1",
-          "source": "arxiv",
-          "source_name": "arXiv",
-          "category": "ai-paper",
-          "published_at": "2026-05-28T17:57:15Z",
-          "summary": "The ability to reason, adapt, and creatively solve problems under unexpected challenges is essential for robots operating in real-world environments. However, current robotic benchmarks primarily emph"
-        },
-        {
-          "id": "8b7a37af36c0",
-          "title": "📄 On Language Generation in the Limit with Bounded Memory",
-          "url": "https://arxiv.org/abs/2605.30324v1",
-          "source": "arxiv",
-          "source_name": "arXiv",
-          "category": "ai-paper",
-          "published_at": "2026-05-28T17:57:03Z",
-          "summary": "We study language generation in the limit under bounded memory. In this task, a learner observes examples from an unknown target language one at a time and must eventually output only new valid exampl"
-        },
-        {
-          "id": "5b87b1bd8eab",
-          "title": "📄 In-Context Reward Adaptation for Robust Preference Modeling",
-          "url": "https://arxiv.org/abs/2605.30323v1",
-          "source": "arxiv",
-          "source_name": "arXiv",
-          "category": "ai-paper",
-          "published_at": "2026-05-28T17:56:54Z",
-          "summary": "Reinforcement Learning from Human Feedback (RLHF) typically relies on static reward models to align Large Language Models with human preferences. However, human values are inherently diverse and heter"
-        },
-        {
-          "id": "3155681b4c3b",
-          "title": "📄 Gram: Assessing sabotage propensities via automated alignment auditing",
-          "url": "https://arxiv.org/abs/2605.30322v1",
-          "source": "arxiv",
-          "source_name": "arXiv",
-          "category": "ai-paper",
-          "published_at": "2026-05-28T17:56:18Z",
-          "summary": "We introduce Gram, an automated alignment auditing framework to assess the propensity of AI agents to engage in sabotage. We evaluate Gemini models across 17 simulated agentic deployment scenarios tha"
-        },
-        {
-          "id": "785d630d3a7b",
-          "title": "📄 Improved Guarantees for Heterogeneous Treatment-Effect Estimation via Matrix Completion",
-          "url": "https://arxiv.org/abs/2605.30319v1",
-          "source": "arxiv",
-          "source_name": "arXiv",
-          "category": "ai-paper",
-          "published_at": "2026-05-28T17:55:23Z",
-          "summary": "A central goal of modern causal inference is estimating heterogeneous treatment effects to answer questions like \"how does an intervention affect each unit,\" rather than only on average. We study this"
+          "published_at": "2026-05-30T00:00:00.090Z",
+          "summary": "我对这个适用于大规模生成模型新时代的视觉生成基准数据集感到非常兴奋！🤩"
         }
       ]
     },
@@ -343,95 +388,328 @@
       "label": "🔥 综合热点",
       "items": [
         {
-          "id": "876d2e3a32da",
-          "title": "Show HN: Helios – what plug-in solar could generate for any address in Britain",
-          "url": "https://helios.southlondonscientific.com/",
-          "source": "hackernews",
-          "source_name": "HackerNews",
+          "id": "823694b34f7e",
+          "title": "🎬 OpenAI 发布 Codex 与 ChatGPT 大量更新【AI 早报 2026-05-30】",
+          "url": "https://www.bilibili.com/video/BV11pVM6iERu",
+          "source": "bilibili",
+          "source_name": "B站·橘鸦Juya",
           "category": "ai-general",
-          "published_at": "2026-05-30T11:08:37+00:00",
-          "summary": "",
+          "published_at": "2026-05-30",
+          "summary": "AI 早报 2026-05-30\n概览\n要闻\nCodex 为 Windows 端上线 Computer use 与远程控制功能\n#1\nChatGPT 更新 GPT-5.5 Instant 模型并推出长对话目录功能\n#2\nMiniMax M3 即将发布并招募中文开源社区评测者\n#3\n开发生态\nllama.cpp 发布官方新网站与统一命令行工具\n#4\nHermes Agent 推出 Tool Search 并发布 v0.15.1 修复补丁\n#5\n阿里云百炼宣布推出并开源百炼 CLI\n#6\n产品应用\n谷歌Gemini调整配额规则：Ultra会员视频生成量翻倍\n#7\nDeepSeek 增加对话修改与内容刷新次数限制，且专家模式暂不支持搜索\n#8\n行业动态\nOpenAI推出Rosalind Biodefense项目，加速生物防御与防疫\n#9\n前瞻与传闻\n报道称智谱AI正开发终端硬件产品，首款设备已获工信部试用证\n#10\nCodex 为 Windows 端上线 Computer use 与远程控制功能\n#1\nOpenAI\n发布了\nCodex\n重大更新，\nComputer use\n功能登陆\nWindows\n平台。可前台操控桌面应用进行测试和调试，并支持通过移动端或\nMac\n远程控制\nWindows\n设备。此外，本次更新还为后台\nAgent\n引入了便于识别的像素头像，新增了对所有历史聊天内容的搜索支持，并上线了包含\nToken\n活动详情的新个人资料面板。同时，\niOS\n版\nChatGPT\n也迎来了\nCodex\n专项更新，引入了\n/side\n临时对话等高级功能。\nOpenAI\n发布了\nCodex\n编程\nAgent\n的重大更新，正式将\nComputer use\n能力扩展至\nWindows\n平台。\n借助该功能，\nCodex\n能够在前台操作\nWindows\n桌面应用程序以执行测试和调试，并允许用户通过\nChatGPT\n移动端（\niOS\n/\nAndroid\n）或\nMac\n端远程启动和引导\nWindows\n机器上的任务。\n此外，本次更新还为后台\nAgent\n引入了便于跨面板识别的稳定像素头像，新增了对所有历史聊天内容的搜索支持，并上线了包含\nToken\n活动详情的新个人资料面板。\n同时，\niOS\n版本的\nChatGPT\n也迎来了大规模的\nCodex\n专项更新，引入了\n/side\n临时对话、差异摘要及快捷指令等高级功能。\nhttps://x.com/OpenAI/status/2060428604727771421\nhttps://x.com/OpenAIDevs/status/2060478367921831936\nChatGPT 更新 GPT-5.5 Instant 模型并推出长对话目录功能\n#2\nOpenAI\n更新了\nGPT-5.5 Instant\n模型，让回复更加自然，并移除了\nCanvas\n功能，改为直接在回复中提供\nwriting blocks\n与\ncode blocks\n。同时，\nChatGPT\n为包含五条以上回复的长对话新增了自动目录功能。此外，官方宣布\nGPT-4.5\n与\no3\n将分别于\n2026年6月\n和\n8月\n从\nChatGPT\n下线，\nAPI\n调用不受影响。\nOpenAI\n近日更新了\nChatGPT\n和\nAPI\n中的\nGPT-5.5 Instant\n模型，旨在提升回复的自然度并减少冗长的项目符号回复。\n官方成员称其在事实性和多语言性能上亦有改进。\n伴随此次更新，\nGPT-5.5 Instant\n和\nGPT-5.5 Thinking\n将不再支持\ncanvas\n，相关写作和编码功能转为直接在聊天回复中支持。\n付费用户可暂时通过旧模型继续使用\ncanvas\n。\n此外，官方宣布\nGPT-4.5\n和\nOpenAI o3\n将分别于\n6 月 27 日\n和\n8 月 26 日\n从\nChatGPT\n退役，此举仅影响\nChatGPT\n而不影响\nAPI\n。\n另一项新功能是，\nChatGPT\n现已为包含\n5\n条以上回复的长对话自动生成目录，方便用户快速导航。\nhttps://help.openai.com/en/articles/6825453-chatgpt-release-notes?utm_source=chatgpt.com\nhttps://x.com/ChatGPTapp/status/2060467129066070182\nMiniMax M3 即将发布并招募中文开源社区评测者\n#3\nMiniMax M3\n即将发布，目前正邀请中文开源社区\ncontributor\n参与前期评测。申请者需具备开源贡献经验并在验证信息中附上过往\nwork\n，通过后即可第一时间体验。\nMiniMax\nM3\n模型即将发布，目前已开始面向部分开发者启动前期评测。\n用户\nJiayuan (JY) Zhang\n通过社交平台表示，正邀请中文开源社区的 contributor 优先体验该模型。\n相关的飞书体验群由社区成员\n阿岛（@SkylerMiao7）\n建立。\n申请参与评测的开发者需要具备开源项目的贡献经验，无论是个人独立项目还是参与他人的项目均可。\n申请者在加入飞书群时，必须在验证信息中附上自己过去的开源 work。\n通过审核后方可第一时间体验到该模型。\nhttps://x.com/jiayuan_jy/status/2060283302649749982\nllama.cpp 发布官方新网站与统一命令行工具\n#4\nllama.cpp\n发布官方新网站\nllama.app\n，并推出跨平台统一命令行工具\nllama\n，支持一键安装、本地模型运行及第三方\nAgent\n集成。\nllama.cpp\n项目创始人\nGeorgi Gerganov\n宣布推出官方新网站 llamma.app，并发布跨平台统一的\nllama\n命令行工具。\n新工具通过单行安装命令或\nHomebrew\n、\nWinget\n等包管理器部署。\n安装后用户获得统一的\nllama\n入口点，既可运行模型服务，也能与\nPi\n等本地编码\nAgent\n自动对接。\n同时已下载的\nGGUF\n模型会被自动识别并复用，无需重复下载。\n该工具保留了现有\nllama.cpp\n的所有高级功能。\n官方称未来数月将重点迭代\nUX\n与引擎，加强同本地友好型第三方\nAgent\n的无缝集成，并将根据社区反馈持续调整。\nhttps://llama.app/\nhttps://x.com/ggerganov/status/2060394400237109567\nHermes Agent 推出 Tool Search 并发布 v0.15.1 修复补丁\n#5\nHermes Agent\n推出\nTool Search\n功能，按需加载\nMCP\n与非核心插件工具的\nschema\n以减少上下文，同时官方发布\nv0.15.1\n补丁，修复了\nDashboard\n无限重载等\nBug\n。\nHermes Agent\n推出\nTool Search\n功能并发布\nv0.15.1\n热修复补丁。\nTool Search\n通过三个桥接工具按需检索并调用非核心工具的\nschema\n，以释放模型上下文。\n该功能默认在可延迟工具占用超\n10%\n上下文时触发，不适用内置核",
           "meta": {
-            "score": 21
+            "plays": 37571,
+            "wechat_url": "https://mp.weixin.qq.com/s/xAOF8DKdH0PkQGBKaRkS8g"
           }
+        }
+      ]
+    },
+    "tip": {
+      "label": "💡 技巧",
+      "items": [
+        {
+          "id": "d2a1a32d7eff",
+          "title": "最后一次技术面试",
+          "url": "https://steve-yegge.medium.com/the-last-technical-interview-bc13ddcf4564",
+          "source": "aihot",
+          "source_name": "Hacker News 热门（buzzing.cc 中文翻译）",
+          "category": "tip",
+          "published_at": "2026-05-30T07:25:10.263Z",
+          "summary": "Steve Yegge 在 Medium 发表观点文章《最后一次技术面试》，探讨 AI 时代传统技术面试的意义变化。文章在 Hacker News 社区获得 100 分关注。"
         },
         {
-          "id": "c0631a823efd",
-          "title": "The Kaiser and a \"Mediocre Man\" Theory of History",
-          "url": "https://www.deadcarl.com/p/the-kaiser-and-a-mediocre-man-theory",
-          "source": "hackernews",
-          "source_name": "HackerNews",
-          "category": "ai-general",
-          "published_at": "2026-05-30T09:18:49+00:00",
-          "summary": "",
-          "meta": {
-            "score": 62
-          }
+          "id": "f68c03fbd9ca",
+          "title": "这个 skill 看着不错，可将文字、URL 或文章直接生成公众号首图、小红书图文卡、教程步骤卡等视觉物料，支持 28 种布局和 10 种主题。",
+          "url": "https://x.com/hongming731/status/2060487110906527820",
+          "source": "aihot",
+          "source_name": "X：洪明 (@hongming731)",
+          "category": "tip",
+          "published_at": "2026-05-30T00:00:00.090Z",
+          "summary": "claude-design-card 是一款专为中文内容创作者设计的 Skill。它能将文字、URL 或文章直接转化为可发布的视觉卡片，如公众号首图、小红书图文卡、教程步骤卡等，支持 28 种布局与 10 种主题。其核心价值在于自动化了“写完文章”后最繁琐的流程：自动提炼重点、选择版式、生成 HTML 并截图成 PNG，替代了以往手动使用 Figma 或 Canva 等工具的步骤。该工具开源，适合经常撰写相关内容的创作者尝试。"
         },
         {
-          "id": "389e924a9668",
-          "title": "Show HN: Tiny-vLLM – high performance LLM inference engine in C++ and CUDA",
-          "url": "https://github.com/jmaczan/tiny-vllm",
-          "source": "hackernews",
-          "source_name": "HackerNews",
-          "category": "ai-general",
-          "published_at": "2026-05-29T19:38:27+00:00",
-          "summary": "",
-          "meta": {
-            "score": 158
-          }
+          "id": "c7b7f262f8b2",
+          "title": "亲测为实：难以置信的推理速度",
+          "url": "https://x.com/rohanpaul_ai/status/2060409504693645440",
+          "source": "aihot",
+          "source_name": "X：Rohan Paul (@rohanpaul_ai)",
+          "category": "tip",
+          "published_at": "2026-05-30T00:00:00.090Z",
+          "summary": "Kog团队在标准数据中心GPU上实现了极高的单用户推理速度，在8× AMD MI300X GPUs上达到3,000 tokens/s，在8× NVIDIA H200上达到2,100 tokens/s。相比常规推理速度（约100-300 tokens/s），实现了10-30倍提升。其核心思路是将LLM解码视为内存流问题，通过协同设计monokernel、重建同步机制、针对性内存访问映射及采用延迟张量并行的Laneformer模型架构，消除了传统流程的阻塞点。"
         },
         {
-          "id": "fa29709d6789",
-          "title": "Shift will clean homes for free to train future robots",
-          "url": "https://www.theverge.com/ai-artificial-intelligence/939765/ai-training-data-startup-shift-free-cleaning",
-          "source": "hackernews",
-          "source_name": "HackerNews",
-          "category": "ai-general",
-          "published_at": "2026-05-29T19:16:32+00:00",
-          "summary": "",
-          "meta": {
-            "score": 152
-          }
+          "id": "f34eb0754aa9",
+          "title": "Adam’s Law：用高频词写Prompt效果更好",
+          "url": "https://x.com/berryxia/status/2060212428584202428",
+          "source": "aihot",
+          "source_name": "X：Berry Xia (@berryxia)",
+          "category": "tip",
+          "published_at": "2026-05-30T00:00:00.090Z",
+          "summary": "FaceMind团队用100种语言和四大核心任务实验发现，在语义不变的前提下，使用预训练语料中出现频率更高的词汇（高频表达）来撰写提示词或进行微调，可以显著提升大语言模型的表现。这被总结为Adam’s Law（文本频率定律），它为数据工程补上了“频率”这一新维度。原理在于高频表达能让模型在它最熟悉的概率空间内工作，从而优化输出质量。"
         },
         {
-          "id": "3e663def8857",
-          "title": "Notes from the Mistral AI Now Summit",
-          "url": "https://koenvangilst.nl/lab/mistral-ai-now-summit",
-          "source": "hackernews",
-          "source_name": "HackerNews",
-          "category": "ai-general",
-          "published_at": "2026-05-29T16:22:01+00:00",
-          "summary": "",
-          "meta": {
-            "score": 399
-          }
+          "id": "b54347ae018c",
+          "title": "Cursor 团队发布《开发者习惯报告》",
+          "url": "https://x.com/shao__meng/status/2060167182777249886",
+          "source": "aihot",
+          "source_name": "X：邵猛 (@shao__meng)",
+          "category": "tip",
+          "published_at": "2026-05-30T00:00:00.090Z",
+          "summary": "报告显示，AI正深刻改变开发工作形态。开发者周均代码产出从约3.6K行增至8.6K行，更大规模的PR（千行以上）占比上升。AI智能体在单次会话中的工具调用数增加约30%，正在处理更复杂的任务。同时，被接受的AI代码在60分钟后的留存率从约76%提升至约81%，表明更多AI生成内容进入了实际代码库。这些趋势共同指向AI已从个人辅助工具，演进为推动开发向更大规模任务与自动化基础设施发展的核心力量。"
         },
         {
-          "id": "b18cccd56765",
-          "title": "Liquid AI reveals 8B-A1B MoE trained on 38T",
-          "url": "https://www.liquid.ai/blog/lfm2-5-8b-a1b",
-          "source": "hackernews",
-          "source_name": "HackerNews",
-          "category": "ai-general",
-          "published_at": "2026-05-29T16:19:54+00:00",
-          "summary": "",
-          "meta": {
-            "score": 203
-          }
+          "id": "5abf9f7d0433",
+          "title": "Claude Code——文档中未提及的所有可配置选项",
+          "url": "https://buildingbetter.tech/p/i-read-the-claude-code-source-code",
+          "source": "aihot",
+          "source_name": "Hacker News 热门（buzzing.cc 中文翻译）",
+          "category": "tip",
+          "published_at": "2026-05-30T00:00:00.090Z",
+          "summary": "该篇文章标题涉及“Claude Code”的可配置选项，但提供的正文内容仅包含一张图片和一个外部链接，未给出任何关于模型版本、参数、性能、价格或功能的具体信息。根据规则，无法在摘要中提及原文不存在的细节。"
         },
         {
-          "id": "fb82816d3574",
-          "title": "Is AI causing a repeat of frontend’s lost decade?",
-          "url": "https://mastrojs.github.io/blog/2026-05-23-is-AI-causing-a-repeat-of-frontends-lost-decade/",
-          "source": "hackernews",
-          "source_name": "HackerNews",
-          "category": "ai-general",
-          "published_at": "2026-05-29T11:09:32+00:00",
-          "summary": "",
-          "meta": {
-            "score": 372
-          }
+          "id": "8dd792a2412c",
+          "title": "当公司过于\"AI上瘾\"时会发生什么？",
+          "url": "https://techcrunch.com/video/what-happens-when-companies-become-too-ai-pilled",
+          "source": "aihot",
+          "source_name": "TechCrunch：AI（RSS）",
+          "category": "tip",
+          "published_at": "2026-05-30T00:00:00.090Z",
+          "summary": "Box创始人Aaron Levie指出，决定用AI替代员工的人往往最不了解工作的实际内容，他将此称为“AI psychosis”。ClickUp近期为部署AI智能体裁员22%即是一例。2026年的科技行业裁员规模已接近2025年全年。"
+        },
+        {
+          "id": "67b389409f9c",
+          "title": "特斯拉 FSD 安全性宣称遭质疑",
+          "url": "https://www.ithome.com/0/956/864.htm",
+          "source": "aihot",
+          "source_name": "IT之家（RSS）",
+          "category": "tip",
+          "published_at": "2026-05-30T00:00:00.090Z",
+          "summary": "特斯拉声称其全自动驾驶软件（FSD）安全性最高可达人类的10倍，但路透社调查发现此数据经不起推敲。参与训练FSD的员工表示该技术远未成熟，其安全演示高度依赖人工。统计方法被11位交通安全研究人员指出存在缺陷，例如与更广泛的联邦事故数据进行不恰当比较。相比之下，竞争对手Waymo采用了更严谨的统计方法。目前，特斯拉FSD仍需驾驶员主动监督，安全部署可能还需数年。"
+        },
+        {
+          "id": "d83ea1f7e842",
+          "title": "Cognition的Scott Wu表示：AI编程智能体不应取代人类",
+          "url": "https://techcrunch.com/2026/05/29/cognitions-scott-wu-says-ai-coding-agents-shouldnt-replace-humans",
+          "source": "aihot",
+          "source_name": "TechCrunch：AI（RSS）",
+          "category": "tip",
+          "published_at": "2026-05-30T00:00:00.090Z",
+          "summary": "Cognition公司开发了Devvin，这是一个号称首个且最成功的AI编程智能体。其著名程序员创始人Scott Wu明确表示，该智能体并非旨在取代人类程序员。"
+        },
+        {
+          "id": "703c79cb2202",
+          "title": "DynoSim：模拟帕累托前沿",
+          "url": "https://developer.nvidia.com/blog/dynosim-simulating-the-pareto-frontier",
+          "source": "aihot",
+          "source_name": "NVIDIA Technical Blog（开发者技术博客 · RSS）",
+          "category": "tip",
+          "published_at": "2026-05-29T22:31:03.000Z",
+          "summary": "现代大语言模型服务难以调优，因为每个部署都涉及模型后端、张量并行形状、预填充/解码分割、Worker数量、调度器设置、路由策略、KV缓存行为、自动扩展阈值和拓扑等相互关联的选择。这些选择在多个层级相互作用，局部优化可能导致瓶颈转移至其他环节。"
+        },
+        {
+          "id": "4032e65c4a3f",
+          "title": "LlamaIndex 团队基于 Google Agents API 构建 LlamaParse/LiteParse 智能体模板",
+          "url": "https://x.com/googleaidevs/status/2060439904929382700",
+          "source": "aihot",
+          "source_name": "X：Google AI for Developers (@googleaidevs)",
+          "category": "tip",
+          "published_at": "2026-05-29T19:15:29.000Z",
+          "summary": "LlamaIndex 团队基于 Google 新发布的 Agents API 构建了一个模板，使智能体能够访问 LlamaParse 和 LiteParse，从而自动处理非结构化文档。其工作流程为：配置数据与输出的 Git 仓库，将仓库克隆至智能体沙箱，安装 LiteParse CLI 与 LlamaParse SDK 及相关技能，最后通过提示词驱动智能体自主执行任务。该模板最终形成一个可直接使用 LlamaParse 和 LiteParse 处理真实世界文档的智能体。"
+        },
+        {
+          "id": "fcfd6685cb01",
+          "title": "参与我们的 I/O 2026 测验：该测验由 Google AI Studio 氛围编程生成",
+          "url": "https://blog.google/innovation-and-ai/technology/ai/io-2026-vibe-coded-quiz",
+          "source": "aihot",
+          "source_name": "Google Blog：AI（RSS）",
+          "category": "tip",
+          "published_at": "2026-05-29T19:00:00.000Z",
+          "summary": "Google 使用其开发工具 Google AI Studio，通过氛围编程（vibe coding）方式，创建了一个关于 Google I/O 2026 主要公告的在线测验。"
+        },
+        {
+          "id": "f182f6eb2051",
+          "title": "Gemini架构师分享AI前沿探索幕后故事",
+          "url": "https://x.com/GoogleAI/status/2060392191508488493",
+          "source": "aihot",
+          "source_name": "X：Google AI (@GoogleAI)",
+          "category": "tip",
+          "published_at": "2026-05-29T16:05:53.000Z",
+          "summary": "聆听Gemini的架构师们回顾他们持续推动AI前沿的旅程，本期Release Notes节目。\n\n@JeffDean、@koraykv、@OriolVinyalsML和@NoamShazeer一同出镜，分享模型背后团队的幕后故事，以及他们如何见证愿景的实现。"
+        },
+        {
+          "id": "a27fabde0e72",
+          "title": "如何使用 NVIDIA MCG Toolkit 实现 AI 模型文档自动化",
+          "url": "https://developer.nvidia.com/blog/how-to-automate-ai-model-documentation-with-the-nvidia-mcg-toolkit",
+          "source": "aihot",
+          "source_name": "NVIDIA Technical Blog（开发者技术博客 · RSS）",
+          "category": "tip",
+          "published_at": "2026-05-29T16:00:00.000Z",
+          "summary": "随着 AI 模型复杂性增加及加州 AB-2013、欧盟 AI 法案等监管框架加强，软件团队面临在模型发布前生成全面、可审计文档的挑战。NVIDIA MCG Toolkit 旨在自动化模型卡创建流程，该文档需涵盖模型工作原理、预期用途、许可证、训练数据与性能等关键信息。"
+        },
+        {
+          "id": "1c870216fa61",
+          "title": "Kling AI助力电影RAPHAEL创作全流程揭秘",
+          "url": "https://x.com/Kling_ai/status/2060375625404432757",
+          "source": "aihot",
+          "source_name": "X：可灵 Kling AI (@Kling_ai)",
+          "category": "tip",
+          "published_at": "2026-05-29T15:00:03.000Z",
+          "summary": "Kling AI戛纳展示--RAPHAEL：AI工作流幕后\n\n深入了解RAPHAEL，一部使用Kling AI创作的AI驱动故事片。看看创作者如何在整个电影制作流程中运用Kling AI，从创意构思到最终电影画面，简化制作并释放新的创作可能性。"
+        },
+        {
+          "id": "af081089c1f2",
+          "title": "Braintrust如何用Codex将客户请求转化为代码",
+          "url": "https://openai.com/index/braintrust",
+          "source": "aihot",
+          "source_name": "OpenAI：官网动态（RSS · 排除企业/客户案例）",
+          "category": "tip",
+          "published_at": "2026-05-29T12:00:00.000Z",
+          "summary": "Braintrust的工程师正在使用Codex结合GPT-5.5模型，以加速其实验运行与代码编写的流程。"
+        },
+        {
+          "id": "a8ebaa5e1b63",
+          "title": "Claude Code--文档中未提及的所有可配置选项",
+          "url": "https://buildingbetter.tech/p/i-read-the-claude-code-source-code",
+          "source": "aihot",
+          "source_name": "Hacker News 热门（buzzing.cc 中文翻译）",
+          "category": "tip",
+          "published_at": "2026-05-29T10:37:09.818Z",
+          "summary": "该篇文章标题涉及\"Claude Code\"的可配置选项，但提供的正文内容仅包含一张图片和一个外部链接，未给出任何关于模型版本、参数、性能、价格或功能的具体信息。根据规则，无法在摘要中提及原文不存在的细节。"
+        },
+        {
+          "id": "c87190b96c3a",
+          "title": "谷歌 DeepMind CEO 哈萨比斯：AGI 最快三年内到来，研发速度远超预期",
+          "url": "https://www.ithome.com/0/957/154.htm",
+          "source": "aihot",
+          "source_name": "IT之家（RSS）",
+          "category": "tip",
+          "published_at": "2026-05-29T07:18:53.000Z",
+          "summary": "谷歌 DeepMind 首席执行官德米斯·哈萨比斯预测，AGI 研发速度远超预期，最快可能在 2029 年至 2030 年前后出现。作为 AlphaGo、AlphaFold 的主导者，他认为当前 AI 智能体是未来更强智能的预演，随着多模态和自主决策能力成熟，三年内迎来 AGI 关键突破已非科幻。但他同时警示，全球社会对 AGI 到来的准备严重不足，必须提前建立规则与防护机制。"
+        },
+        {
+          "id": "8a04d91212cd",
+          "title": "Adam's Law：用高频词写Prompt效果更好",
+          "url": "https://x.com/berryxia/status/2060212428584202428",
+          "source": "aihot",
+          "source_name": "X：Berry Xia (@berryxia)",
+          "category": "tip",
+          "published_at": "2026-05-29T04:11:34.000Z",
+          "summary": "FaceMind团队用100种语言和四大核心任务实验发现，在语义不变的前提下，使用预训练语料中出现频率更高的词汇（高频表达）来撰写提示词或进行微调，可以显著提升大语言模型的表现。这被总结为Adam's Law（文本频率定律），它为数据工程补上了\"频率\"这一新维度。原理在于高频表达能让模型在它最熟悉的概率空间内工作，从而优化输出质量。"
+        },
+        {
+          "id": "d03b03d51821",
+          "title": "15秒动画IP预告片制作全流程分享",
+          "url": "https://x.com/PixVerse_/status/2060184048920826340",
+          "source": "aihot",
+          "source_name": "X：PixVerse (@PixVerse_)",
+          "category": "tip",
+          "published_at": "2026-05-29T02:18:48.000Z",
+          "summary": "我们制作了一个15秒的动画IP预告片--从角色设定到最终视频。认识一下MILO和BUMBLE：地下邮政骑手\n转发+关注+回复=我们会私信发送工作流程和提示词"
+        },
+        {
+          "id": "bb0697d530e2",
+          "title": "在 NVIDIA GPU 上运行面向企业级就绪的多模态 AI--Step 3.7 Flash",
+          "url": "https://developer.nvidia.com/blog/run-step-3-7-flash-on-nvidia-gpus-with-enterprise-ready-multimodal-ai",
+          "source": "aihot",
+          "source_name": "NVIDIA Technical Blog（开发者技术博客 · RSS）",
+          "category": "tip",
+          "published_at": "2026-05-29T00:07:11.000Z",
+          "summary": "阶跃星辰推出最新多模态模型 Step 3.7 Flash，这是一个 198B 参数的模型，现已可在 NVIDIA GPU 等加速基础设施上运行。该模型支持企业级部署，具备实时处理图像、文档、视频和语言等多模态信息的能力。"
+        },
+        {
+          "id": "f1ed3a6d31b2",
+          "title": "可信第三方评估的共享操作手册",
+          "url": "https://openai.com/index/trustworthy-third-party-evaluations-foundations",
+          "source": "aihot",
+          "source_name": "OpenAI：官网动态（RSS · 排除企业/客户案例）",
+          "category": "tip",
+          "published_at": "2026-05-29T00:00:00.000Z",
+          "summary": "OpenAI 发布了一份关于第三方 AI 评估的指导框架，内容涵盖如何评估前沿系统的能力、安全防护措施及评估本身的有效性。"
+        },
+        {
+          "id": "abb9adc6806b",
+          "title": "技能提炼",
+          "url": "https://www.tomtunguz.com/the-pi-agent-skill-distillation",
+          "source": "aihot",
+          "source_name": "Tomer Tunguz 博客（VC 分析）",
+          "category": "tip",
+          "published_at": "2026-05-29T00:00:00.000Z",
+          "summary": "\"技能提炼\"是一种知识转移方法，由前沿大模型（如 Opus 4.7、GPT-5.1、Gemini 3 Pro）负责撰写并优化标准化的 SKILL.md 流程文件。然后，本地运行的小模型（如 Qwen 35B、Gemma 26B）直接执行这些文件。此过程不同于压缩模型权重的知识蒸馏、训练权重的指令微调或检索事实的 RAG，其核心是提取并转移操作流程，让小模型按步骤执行，从而形成前沿模型作教师、小模型作执行者的循环。"
+        },
+        {
+          "id": "c26bd7467801",
+          "title": "PyTorch 中的性能分析（第一部分）：torch.profiler 初学者指南",
+          "url": "https://huggingface.co/blog/torch-profiler",
+          "source": "aihot",
+          "source_name": "Hugging Face：Blog（RSS）",
+          "category": "tip",
+          "published_at": "2026-05-29T00:00:00.000Z",
+          "summary": "该指南旨在介绍如何在 PyTorch 中使用 torch.profiler 进行性能分析。文章是系列教程的第一部分，面向初学者，讲解如何通过该工具分析模型训练与推理过程的性能瓶颈。"
+        }
+      ]
+    },
+    "industry": {
+      "label": "industry",
+      "items": [
+        {
+          "id": "733a82c29325",
+          "title": "AI 骗子正在创建虚假的黑人形象来销售 Shein 劣质商品",
+          "url": "https://www.theverge.com/ai-artificial-intelligence/938844/ai-tiktok-shop-blackface-shein-dropshipping",
+          "source": "aihot",
+          "source_name": "The Verge：AI（RSS）",
+          "category": "industry",
+          "published_at": "2026-05-30T13:00:00.000Z",
+          "summary": "有卖家利用 AI 生成虚假的黑人形象，在 TikTok、Facebook 和 Instagram 上扮演手工制品创作者进行销售。例如一个名为 Aliyah 的 AI 生成形象，以带泪诉说的方式售卖所谓手工皮带扣，但该形象及其产品均为虚构。此类 AI 虚拟网红被用于推广通过代发货模式销售的批量生产品。"
+        },
+        {
+          "id": "7b76220931a5",
+          "title": "新加坡防务论坛：AI 风险超过核武器",
+          "url": "https://www.bloomberg.com/news/articles/2026-05-30/ai-dangers-eclipse-nuclear-weapons-at-singapore-defense-forum",
+          "source": "aihot",
+          "source_name": "Bloomberg：Technology（RSS）",
+          "category": "industry",
+          "published_at": "2026-05-30T11:59:32.000Z",
+          "summary": "在新加坡举行的防务论坛上，专家警告AI风险已超越核武器。面板讨论指出，AI可能大幅压缩反应时间，导致决策者做出草率决定，对战略稳定构成威胁。"
+        },
+        {
+          "id": "b92d13633a68",
+          "title": "xAI放弃JAX GPU转向自研训练框架",
+          "url": "https://x.com/SemiAnalysis_/status/2060571944575963482",
+          "source": "aihot",
+          "source_name": "X：SemiAnalysis (@SemiAnalysis_)",
+          "category": "industry",
+          "published_at": "2026-05-30T04:00:09.000Z",
+          "summary": "突发新闻：JAX NVIDIA GPU & XLA：GPU最大客户刚刚宣布已放弃JAX GPU，宁愿用Grok Build\"氛围编程\"一个C训练框架。据报道xAI的JAX堆栈MFU低于10%。NVIDIA JAX团队过去两年全部主力996专注于支持xAI却失败了，我想他们现在可以休息并兑现期权了。"
+        },
+        {
+          "id": "c0797ed7f400",
+          "title": "阿里云与Qwen成为UEFA多年全球AI合作伙伴",
+          "url": "https://x.com/alibaba_cloud/status/2060520586489770167",
+          "source": "aihot",
+          "source_name": "X：阿里云 / Alibaba Cloud (@alibaba_cloud)",
+          "category": "industry",
+          "published_at": "2026-05-30T00:36:05.000Z",
+          "summary": "阿里云和Qwen成为UEFA官方独家AI、云计算与电子商务合作伙伴，合作期覆盖2027/2028赛季至2032/2033赛季的UEFA男子俱乐部赛事，以及UEFA EURO 2028。阿里巴巴集团主席蔡崇信表示，将投入云计算、全栈AI及全球电商平台能力，支持赛事运营。合作将利用Qwen大语言模型部署先进AI技术，增强球迷互动与媒体内容体验，并依托阿里云基础设施打造全球沉浸式观赛体验。"
+        },
+        {
+          "id": "73702f2dc502",
+          "title": "Anthropic估值9650亿美元超越OpenAI",
+          "url": "https://www.bloomberg.com/news/videos/2026-05-29/anthropic-valuation-of-965-billion-passes-openai-video",
+          "source": "aihot",
+          "source_name": "Bloomberg：Technology（RSS）",
+          "category": "industry",
+          "published_at": "2026-05-29T17:26:32.000Z",
+          "summary": "Anthropic在最新融资轮中筹集了650亿美元，融资后公司估值达到9650亿美元，首次超越竞争对手OpenAI的估值水平。"
+        },
+        {
+          "id": "d4014b9f22b1",
+          "title": "三星电子业内率先出样 HBM4E 内存",
+          "url": "https://www.ithome.com/0/956/851.htm",
+          "source": "aihot",
+          "source_name": "IT之家（RSS）",
+          "category": "industry",
+          "published_at": "2026-05-29T00:45:13.000Z",
+          "summary": null
         }
       ]
     }
