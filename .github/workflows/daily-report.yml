@@ -1,0 +1,36 @@
+name: AI Daily Report
+
+on:
+  schedule:
+    - cron: '15,45 * * * *'  # 每30分钟采集
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  collect:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+
+      - name: Install deps
+        run: pip install -r scripts/requirements.txt
+
+      - name: Collect news
+        run: python scripts/collect.py
+
+      - name: Generate report
+        run: python scripts/generate_report.py
+
+      - name: Commit changes
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git add data/ assets/latest.json
+          git diff --cached --quiet || git commit -m "chore: update ai daily report $(date -u +%Y-%m-%d)"
+          git push

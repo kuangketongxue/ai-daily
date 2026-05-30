@@ -1,0 +1,180 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>AI 日报</title>
+<style>
+*{margin:0;padding:0;box-sizing:border-box}
+:root{
+  --bg:#0a0a0f;--card:#14141f;--border:#1e1e2e;
+  --text:#e0e0e0;--text2:#888;--accent:#667eea;
+  --accent2:#764ba2;--green:#2ed573;--orange:#ffa502;--red:#ff4757;
+  --radius:12px;
+}
+body{font-family:-apple-system,BlinkMacSystemFont,'Segoe UI',sans-serif;background:var(--bg);color:var(--text);min-height:100vh}
+a{color:var(--accent);text-decoration:none}a:hover{text-decoration:underline}
+
+.header{text-align:center;padding:40px 20px 20px;position:relative}
+.header h1{font-size:2em;background:linear-gradient(135deg,var(--accent),var(--accent2));-webkit-background-clip:text;-webkit-text-fill-color:transparent;margin-bottom:8px}
+.header .date{color:var(--text2);font-size:.95em}
+.header .stats{display:flex;gap:20px;justify-content:center;margin-top:16px;flex-wrap:wrap}
+.stat{background:var(--card);border:1px solid var(--border);border-radius:var(--radius);padding:12px 20px;text-align:center;min-width:100px}
+.stat .num{font-size:1.6em;font-weight:800;color:var(--accent)}
+.stat .label{color:var(--text2);font-size:.8em;margin-top:2px}
+
+.controls{max-width:900px;margin:20px auto;padding:0 20px;display:flex;gap:12px;flex-wrap:wrap;align-items:center}
+.search{flex:1;min-width:200px;padding:10px 16px;background:var(--card);border:1px solid var(--border);border-radius:var(--radius);color:var(--text);font-size:.95em;outline:none}
+.search:focus{border-color:var(--accent)}
+.search::placeholder{color:var(--text2)}
+
+.tags{display:flex;gap:8px;flex-wrap:wrap}
+.tag{padding:6px 14px;border-radius:20px;font-size:.82em;cursor:pointer;border:1px solid var(--border);background:var(--card);color:var(--text2);transition:all .2s}
+.tag:hover,.tag.active{background:var(--accent);color:#fff;border-color:var(--accent)}
+
+.main{max-width:900px;margin:0 auto;padding:0 20px 60px}
+
+.section{margin-top:32px}
+.section-title{font-size:1.15em;font-weight:700;color:var(--text);margin-bottom:16px;padding-bottom:8px;border-bottom:1px solid var(--border)}
+
+.item{background:var(--card);border:1px solid var(--border);border-radius:var(--radius);padding:16px 20px;margin-bottom:10px;transition:border-color .2s;display:block}
+.item:hover{border-color:var(--accent)}
+.item-title{font-size:1em;font-weight:600;color:var(--text);line-height:1.5}
+.item-meta{display:flex;gap:12px;margin-top:8px;font-size:.82em;color:var(--text2);flex-wrap:wrap}
+.item-meta .source{color:var(--accent);font-weight:500}
+.item-summary{color:var(--text2);font-size:.88em;margin-top:6px;line-height:1.5}
+
+.source-pills{display:flex;gap:6px;flex-wrap:wrap;margin-top:8px}
+.source-pill{font-size:.72em;padding:2px 8px;border-radius:10px;background:rgba(102,126,234,.15);color:var(--accent)}
+
+.empty{text-align:center;padding:60px 20px;color:var(--text2)}
+.empty .icon{font-size:3em;margin-bottom:12px}
+
+.loading{text-align:center;padding:60px 20px;color:var(--text2)}
+.spinner{width:40px;height:40px;border:3px solid var(--border);border-top-color:var(--accent);border-radius:50%;animation:spin 1s linear infinite;margin:0 auto 16px}
+@keyframes spin{to{transform:rotate(360deg)}}
+
+@media(max-width:600px){
+  .header h1{font-size:1.5em}
+  .controls{flex-direction:column}
+  .item{padding:12px 16px}
+}
+</style>
+</head>
+<body>
+
+<div class="header">
+  <h1>🤖 AI 日报</h1>
+  <div class="date" id="date"></div>
+  <div class="stats" id="stats"></div>
+</div>
+
+<div class="controls">
+  <input class="search" id="search" placeholder="搜索新闻..." autocomplete="off">
+  <div class="tags" id="tags"></div>
+</div>
+
+<div class="main" id="main">
+  <div class="loading"><div class="spinner"></div>加载中...</div>
+</div>
+
+<script>
+const CAT_LABELS = {
+  'ai-models':'🧠 AI 模型','ai-products':'🚀 AI 产品','ai-tools':'🛠️ 开发工具',
+  'ai-industry':'📰 行业动态','ai-paper':'📄 论文','ai-general':'🔥 综合热点',
+  'tip':'💡 技巧','industry':'🏢 行业','paper':'📄 论文'
+};
+let DATA = null;
+let activeTag = 'all';
+
+async function loadData(){
+  try{
+    const r = await fetch('./latest.json?t='+Date.now());
+    if(!r.ok) throw new Error(r.status);
+    DATA = await r.json();
+    render();
+  }catch(e){
+    document.getElementById('main').innerHTML='<div class="empty"><div class="icon">📭</div><p>暂无数据，请稍后再试</p><p style="font-size:.85em;margin-top:8px;color:#555">'+e.message+'</p></div>';
+  }
+}
+
+function render(){
+  if(!DATA)return;
+  // Date
+  document.getElementById('date').textContent=DATA.date+' 生成于 '+new Date(DATA.generated_at).toLocaleTimeString('zh-CN');
+  // Stats
+  let statsHtml='';
+  for(const[src,cnt] of Object.entries(DATA.sources||{})){
+    statsHtml+=`<div class="stat"><div class="num">${cnt}</div><div class="label">${src}</div></div>`;
+  }
+  document.getElementById('stats').innerHTML=statsHtml;
+  // Tags
+  const cats=Object.keys(DATA.categories||{});
+  let tagsHtml='<div class="tag active" data-cat="all">全部</div>';
+  for(const cat of cats){
+    const label=CAT_LABELS[cat]||cat;
+    const count=DATA.categories[cat].items.length;
+    tagsHtml+=`<div class="tag" data-cat="${cat}">${label} (${count})</div>`;
+  }
+  document.getElementById('tags').innerHTML=tagsHtml;
+  document.querySelectorAll('.tag').forEach(t=>{
+    t.onclick=()=>{
+      document.querySelectorAll('.tag').forEach(x=>x.classList.remove('active'));
+      t.classList.add('active');
+      activeTag=t.dataset.cat;
+      renderItems();
+    };
+  });
+  renderItems();
+}
+
+function renderItems(){
+  if(!DATA)return;
+  const q=document.getElementById('search').value.toLowerCase();
+  let html='';
+  const cats=activeTag==='all'?Object.keys(DATA.categories||{}):[activeTag];
+  let total=0;
+  for(const cat of cats){
+    const group=DATA.categories[cat];
+    if(!group)continue;
+    const items=group.items.filter(i=>{
+      if(q&&!i.title.toLowerCase().includes(q)&&!(i.summary||'').toLowerCase().includes(q))return false;
+      return true;
+    });
+    if(!items.length)continue;
+    total+=items.length;
+    html+=`<div class="section"><div class="section-title">${group.label} (${items.length})</div>`;
+    for(const item of items){
+      html+=`<a class="item" href="${esc(item.url)}" target="_blank" rel="noopener">
+        <div class="item-title">${esc(item.title)}</div>
+        ${item.summary?`<div class="item-summary">${esc(item.summary.slice(0,150))}</div>`:''}
+        <div class="item-meta">
+          <span class="source">${esc(item.source_name||item.source)}</span>
+          <span>${timeAgo(item.published_at)}</span>
+          ${item.meta&&item.meta.score?`<span>⬆ ${item.meta.score}</span>`:''}
+          ${item.meta&&item.meta.stars?`<span>${item.meta.stars}</span>`:''}
+        </div>
+      </a>`;
+    }
+    html+='</div>';
+  }
+  if(!total)html='<div class="empty"><div class="icon">🔍</div><p>没有匹配的新闻</p></div>';
+  document.getElementById('main').innerHTML=html;
+}
+
+function esc(s){return(s||'').replace(/&/g,'&amp;').replace(/</g,'&lt;').replace(/>/g,'&gt;').replace(/"/g,'&quot;')}
+function timeAgo(iso){
+  if(!iso)return'';
+  try{
+    const d=new Date(iso);const now=Date.now();const diff=(now-d.getTime())/1000;
+    if(diff<60)return'刚刚';if(diff<3600)return Math.floor(diff/60)+'分钟前';
+    if(diff<86400)return Math.floor(diff/3600)+'小时前';
+    return Math.floor(diff/86400)+'天前';
+  }catch(e){return''}
+}
+
+document.getElementById('search').addEventListener('input',renderItems);
+loadData();
+</script>
+</body>
+</html>
