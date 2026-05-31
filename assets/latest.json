@@ -1,6 +1,6 @@
 {
   "date": "2026-05-31",
-  "generated_at": "2026-05-31T13:01:56.783230",
+  "generated_at": "2026-05-31T14:55:58.657076",
   "total": 61,
   "sources": {
     "Hugging Face": 8,
@@ -339,7 +339,7 @@
           "source": "GitHub AI",
           "source_name": "GitHub AI",
           "category": "ai-tools",
-          "published_at": "2026-05-31T13:01:54.574048+00:00",
+          "published_at": "2026-05-31T14:55:57.566962+00:00",
           "summary": "Implementation of Vision Transformer, a simple way to achieve SOTA in vision classification with only a single transformer encoder, in Pytorch"
         }
       ]
