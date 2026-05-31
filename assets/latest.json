@@ -1,6 +1,6 @@
 {
   "date": "2026-05-31",
-  "generated_at": "2026-05-31T09:37:13.507884",
+  "generated_at": "2026-05-31T11:20:12.103470",
   "total": 65,
   "sources": {
     "Hugging Face": 8,
@@ -339,7 +339,7 @@
           "source": "GitHub AI",
           "source_name": "GitHub AI",
           "category": "ai-tools",
-          "published_at": "2026-05-31T09:37:12.017540+00:00",
+          "published_at": "2026-05-31T11:20:10.791523+00:00",
           "summary": "Ongoing research training transformer models at scale"
         },
         {
@@ -349,7 +349,7 @@
           "source": "GitHub AI",
           "source_name": "GitHub AI",
           "category": "ai-tools",
-          "published_at": "2026-05-31T09:37:12.017404+00:00",
+          "published_at": "2026-05-31T11:20:10.791403+00:00",
           "summary": "A lightning-fast search engine API bringing AI-powered hybrid search to your sites and applications."
         },
         {
@@ -359,7 +359,7 @@
           "source": "GitHub AI",
           "source_name": "GitHub AI",
           "category": "ai-tools",
-          "published_at": "2026-05-31T09:37:12.017123+00:00",
+          "published_at": "2026-05-31T11:20:10.791141+00:00",
           "summary": "🦔 PostHog is an all-in-one developer platform for building successful products. We offer product analytics, web analytics, session replay, error tracking, feature flags, experimentation, surveys, data warehouse, a CDP, and an AI product assistant to help debug your code, ship features faster, and keep all your usage and customer data in one stack."
         },
         {
@@ -369,7 +369,7 @@
           "source": "GitHub AI",
           "source_name": "GitHub AI",
           "category": "ai-tools",
-          "published_at": "2026-05-31T09:37:12.015692+00:00",
+          "published_at": "2026-05-31T11:20:10.789822+00:00",
           "summary": "Industrial-grade speech recognition toolkit: 170x realtime, 50+ languages, speaker diarization, emotion detection, streaming, and OpenAI-compatible API."
         },
         {
@@ -379,7 +379,7 @@
           "source": "GitHub AI",
           "source_name": "GitHub AI",
           "category": "ai-tools",
-          "published_at": "2026-05-31T09:37:12.015357+00:00",
+          "published_at": "2026-05-31T11:20:10.789477+00:00",
           "summary": "Apache Airflow - A platform to programmatically author, schedule, and monitor workflows"
         }
       ]
