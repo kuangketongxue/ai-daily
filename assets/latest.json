@@ -1,14 +1,16 @@
 {
   "date": "2026-05-31",
-  "generated_at": "2026-05-31T16:35:59.482549",
+  "generated_at": "2026-05-31T17:44:06.315343",
   "total": 61,
   "sources": {
     "Hugging Face": 8,
     "GitHub AI": 1,
+    "X：Emad Mostaque (@EMostaque)": 1,
+    "Gary Marcus：The Road to AI We Can Trust（RSS）": 1,
     "X：Sam Altman (@sama)": 2,
     "Hacker News 热门（buzzing.cc 中文翻译）": 6,
     "X：Kim (@kimmonismus)": 1,
-    "IT之家（RSS）": 4,
+    "IT之家（RSS）": 3,
     "X：Google AI for Developers (@googleaidevs)": 2,
     "X：阶跃星辰 StepFun (@StepFun_ai)": 1,
     "X：SemiAnalysis (@SemiAnalysis_)": 1,
@@ -34,8 +36,7 @@
     "X：Replit (@Replit)": 1,
     "X：可灵 Kling AI (@Kling_ai)": 1,
     "OpenRouter：Announcements（RSS）": 1,
-    "OpenAI：官网动态（RSS · 排除企业/客户案例）": 2,
-    "Qwen：Blog Retrieval（API）": 1
+    "OpenAI：官网动态（RSS · 排除企业/客户案例）": 2
   },
   "ai_processed": false,
   "categories": {
@@ -81,16 +82,6 @@
           "category": "ai-models",
           "published_at": "2026-05-29T09:13:13.000Z",
           "summary": "小米大模型应用团队发布开源可控视频音效生成模型 ControlFoley，旨在解决创作中的可控性难题。该模型统一支持文本引导视频配音、文本控制视频配音和参考音频控制视频配音三类任务。ControlFoley 在 VGGSound-Test 等多个 benchmark 上取得开源 SOTA 表现，其代码、模型权重和在线 Demo 均已开放。"
-        },
-        {
-          "id": "ac9695fab8d4",
-          "title": "Qwen-VLA：从理解世界到在其中行动",
-          "url": "https://qwen.ai/blog?id=qwenvla",
-          "source": "aihot",
-          "source_name": "Qwen：Blog Retrieval（API）",
-          "category": "ai-models",
-          "published_at": "2026-05-29T09:00:00.000Z",
-          "summary": "Qwen Studio提供全面功能，涵盖聊天机器人、图像与视频理解、图像生成、文档处理、网络搜索集成、工具利用及Artifacts。"
         }
       ]
     },
@@ -329,7 +320,7 @@
           "source": "GitHub AI",
           "source_name": "GitHub AI",
           "category": "ai-tools",
-          "published_at": "2026-05-31T16:35:56.262345+00:00",
+          "published_at": "2026-05-31T17:44:05.277826+00:00",
           "summary": "Implementation of Vision Transformer, a simple way to achieve SOTA in vision classification with only a single transformer encoder, in Pytorch"
         }
       ]
@@ -402,6 +393,16 @@
     "tip": {
       "label": "💡 技巧",
       "items": [
+        {
+          "id": "7e5dcfbd5af8",
+          "title": "教皇似乎比Geoffrey Hinton更懂人工智能",
+          "url": "https://garymarcus.substack.com/p/the-pope-appears-to-understand-ai",
+          "source": "aihot",
+          "source_name": "Gary Marcus：The Road to AI We Can Trust（RSS）",
+          "category": "tip",
+          "published_at": "2026-05-31T16:38:20.000Z",
+          "summary": "这一观点强调，单纯分析AI的输出内容，无法还原其生成过程与背后的推理逻辑，触及了当前AI可解释性研究的核心挑战。"
+        },
         {
           "id": "05d4775cd5b7",
           "title": "我花200英镑把一台数据中心级GPU装进了我的游戏电脑",
@@ -581,22 +582,22 @@
           "category": "tip",
           "published_at": "2026-05-29T10:37:09.818Z",
           "summary": "该篇文章标题涉及\"Claude Code\"的可配置选项，但提供的正文内容仅包含一张图片和一个外部链接，未给出任何关于模型版本、参数、性能、价格或功能的具体信息。根据规则，无法在摘要中提及原文不存在的细节。"
-        },
-        {
-          "id": "c87190b96c3a",
-          "title": "谷歌 DeepMind CEO 哈萨比斯：AGI 最快三年内到来，研发速度远超预期",
-          "url": "https://www.ithome.com/0/957/154.htm",
-          "source": "aihot",
-          "source_name": "IT之家（RSS）",
-          "category": "tip",
-          "published_at": "2026-05-29T07:18:53.000Z",
-          "summary": "谷歌 DeepMind 首席执行官德米斯·哈萨比斯预测，AGI 研发速度远超预期，最快可能在 2029 年至 2030 年前后出现。作为 AlphaGo、AlphaFold 的主导者，他认为当前 AI 智能体是未来更强智能的预演，随着多模态和自主决策能力成熟，三年内迎来 AGI 关键突破已非科幻。但他同时警示，全球社会对 AGI 到来的准备严重不足，必须提前建立规则与防护机制。"
         }
       ]
     },
     "industry": {
       "label": "industry",
       "items": [
+        {
+          "id": "13ac655e2c07",
+          "title": "OpenAI机器人团队成立，聚焦硬件与ML协同研发",
+          "url": "https://x.com/EMostaque/status/2061131278091464906",
+          "source": "aihot",
+          "source_name": "X：Emad Mostaque (@EMostaque)",
+          "category": "industry",
+          "published_at": "2026-05-31T17:02:45.000Z",
+          "summary": "OpenAI的Sora世界模拟研究团队已转型为OpenAI Robotics机器人团队。团队由Aditya Ramesh领导，核心理念是AI应能帮助人类的物理世界。短期目标聚焦于开发支持技能工人、建设未来基础设施的机器人；长期愿景是为每个人打造个人机器人。该团队进展迅速，其基础是机器人硬件与ML研究的协同设计，目前正在招聘全栈硬件、系统及ML工程师。"
+        },
         {
           "id": "7880a86ea0d2",
           "title": "OpenAI正式进军机器人领域并启动招聘",
