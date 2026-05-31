@@ -1,15 +1,16 @@
 {
   "date": "2026-05-31",
-  "generated_at": "2026-05-31T18:53:10.826218",
+  "generated_at": "2026-05-31T20:20:52.116681",
   "total": 61,
   "sources": {
     "Hugging Face": 8,
     "GitHub AI": 1,
+    "X：opencode (@opencode)": 1,
     "Gary Marcus：The Road to AI We Can Trust（RSS）": 1,
     "X：Sam Altman (@sama)": 2,
     "Hacker News 热门（buzzing.cc 中文翻译）": 6,
     "X：Kim (@kimmonismus)": 1,
-    "IT之家（RSS）": 3,
+    "IT之家（RSS）": 2,
     "X：Google AI for Developers (@googleaidevs)": 2,
     "X：阶跃星辰 StepFun (@StepFun_ai)": 1,
     "X：SemiAnalysis (@SemiAnalysis_)": 1,
@@ -72,22 +73,22 @@
           "category": "ai-models",
           "published_at": "2026-05-29T20:03:55.000Z",
           "summary": "OpenAI 实时翻译功能--使用70多种输入语言说话，翻译成13种输出语言：\n\ngpt-realtime-translate 接收任意语言的语音输入，并输出目标语言的语音。\n\n大语言模型很棒，但特定用例需要专用模型。\n\n我们正在智能眼镜上运行此功能。"
-        },
-        {
-          "id": "d91aa6c3b687",
-          "title": "小米开源可控视频音效生成模型 ControlFoley，让声音\"按你想要的来\"",
-          "url": "https://www.ithome.com/0/957/282.htm",
-          "source": "aihot",
-          "source_name": "IT之家（RSS）",
-          "category": "ai-models",
-          "published_at": "2026-05-29T09:13:13.000Z",
-          "summary": "小米大模型应用团队发布开源可控视频音效生成模型 ControlFoley，旨在解决创作中的可控性难题。该模型统一支持文本引导视频配音、文本控制视频配音和参考音频控制视频配音三类任务。ControlFoley 在 VGGSound-Test 等多个 benchmark 上取得开源 SOTA 表现，其代码、模型权重和在线 Demo 均已开放。"
         }
       ]
     },
     "ai-products": {
       "label": "🚀 AI 产品",
       "items": [
+        {
+          "id": "d12e38bbfb83",
+          "title": "DeepSeek V4 Flash 已上线 OpenCode Zen",
+          "url": "https://x.com/opencode/status/2061153857321775209",
+          "source": "aihot",
+          "source_name": "X：opencode (@opencode)",
+          "category": "ai-products",
+          "published_at": "2026-05-31T18:32:28.000Z",
+          "summary": "DeepSeek V4 Flash 现已在 OpenCode Zen 上线。"
+        },
         {
           "id": "c69992be7d79",
           "title": "OpenAI发布生物防御AI工具Rosalind",
@@ -330,7 +331,7 @@
           "source": "GitHub AI",
           "source_name": "GitHub AI",
           "category": "ai-tools",
-          "published_at": "2026-05-31T18:53:06.545635+00:00",
+          "published_at": "2026-05-31T20:20:46.917566+00:00",
           "summary": "Implementation of Vision Transformer, a simple way to achieve SOTA in vision classification with only a single transformer encoder, in Pytorch"
         }
       ]
