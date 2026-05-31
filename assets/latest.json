@@ -1,10 +1,11 @@
 {
   "date": "2026-05-31",
-  "generated_at": "2026-05-31T01:52:20.505310",
+  "generated_at": "2026-05-31T06:34:49.183292",
   "total": 65,
   "sources": {
     "Hugging Face": 8,
     "GitHub AI": 5,
+    "IT之家（RSS）": 5,
     "X：Google AI for Developers (@googleaidevs)": 2,
     "X：阶跃星辰 StepFun (@StepFun_ai)": 1,
     "Hacker News 热门（buzzing.cc 中文翻译）": 5,
@@ -32,11 +33,9 @@
     "X：可灵 Kling AI (@Kling_ai)": 1,
     "OpenRouter：Announcements（RSS）": 1,
     "OpenAI：官网动态（RSS · 排除企业/客户案例）": 3,
-    "IT之家（RSS）": 4,
     "Qwen：Blog Retrieval（API）": 1,
     "X：Berry Xia (@berryxia)": 1,
-    "X：PixVerse (@PixVerse_)": 1,
-    "X：邵猛 (@shao__meng)": 1
+    "X：PixVerse (@PixVerse_)": 1
   },
   "ai_processed": false,
   "categories": {
@@ -340,7 +339,7 @@
           "source": "GitHub AI",
           "source_name": "GitHub AI",
           "category": "ai-tools",
-          "published_at": "2026-05-31T01:52:19.423362+00:00",
+          "published_at": "2026-05-31T06:34:48.109080+00:00",
           "summary": "Ongoing research training transformer models at scale"
         },
         {
@@ -350,7 +349,7 @@
           "source": "GitHub AI",
           "source_name": "GitHub AI",
           "category": "ai-tools",
-          "published_at": "2026-05-31T01:52:19.423248+00:00",
+          "published_at": "2026-05-31T06:34:48.108947+00:00",
           "summary": "A lightning-fast search engine API bringing AI-powered hybrid search to your sites and applications."
         },
         {
@@ -360,7 +359,7 @@
           "source": "GitHub AI",
           "source_name": "GitHub AI",
           "category": "ai-tools",
-          "published_at": "2026-05-31T01:52:19.422948+00:00",
+          "published_at": "2026-05-31T06:34:48.108671+00:00",
           "summary": "🦔 PostHog is an all-in-one developer platform for building successful products. We offer product analytics, web analytics, session replay, error tracking, feature flags, experimentation, surveys, data warehouse, a CDP, and an AI product assistant to help debug your code, ship features faster, and keep all your usage and customer data in one stack."
         },
         {
@@ -370,7 +369,7 @@
           "source": "GitHub AI",
           "source_name": "GitHub AI",
           "category": "ai-tools",
-          "published_at": "2026-05-31T01:52:19.421996+00:00",
+          "published_at": "2026-05-31T06:34:48.107849+00:00",
           "summary": "Industrial-grade speech recognition toolkit: 170x realtime, 50+ languages, speaker diarization, emotion detection, streaming, and OpenAI-compatible API."
         },
         {
@@ -380,7 +379,7 @@
           "source": "GitHub AI",
           "source_name": "GitHub AI",
           "category": "ai-tools",
-          "published_at": "2026-05-31T01:52:19.421712+00:00",
+          "published_at": "2026-05-31T06:34:48.107505+00:00",
           "summary": "Apache Airflow - A platform to programmatically author, schedule, and monitor workflows"
         }
       ]
@@ -652,22 +651,22 @@
           "category": "tip",
           "published_at": "2026-05-29T02:18:48.000Z",
           "summary": "我们制作了一个15秒的动画IP预告片--从角色设定到最终视频。认识一下MILO和BUMBLE：地下邮政骑手\n转发+关注+回复=我们会私信发送工作流程和提示词"
-        },
-        {
-          "id": "bce17d870459",
-          "title": "Cursor 团队发布《开发者习惯报告》",
-          "url": "https://x.com/shao__meng/status/2060167182777249886",
-          "source": "aihot",
-          "source_name": "X：邵猛 (@shao__meng)",
-          "category": "tip",
-          "published_at": "2026-05-29T01:11:47.000Z",
-          "summary": "报告显示，AI正深刻改变开发工作形态。开发者周均代码产出从约3.6K行增至8.6K行，更大规模的PR（千行以上）占比上升。AI智能体在单次会话中的工具调用数增加约30%，正在处理更复杂的任务。同时，被接受的AI代码在60分钟后的留存率从约76%提升至约81%，表明更多AI生成内容进入了实际代码库。这些趋势共同指向AI已从个人辅助工具，演进为推动开发向更大规模任务与自动化基础设施发展的核心力量。"
         }
       ]
     },
     "industry": {
       "label": "industry",
       "items": [
+        {
+          "id": "c54d2f70d590",
+          "title": "6000 多公里全程零干预：特斯拉 FSD 完成全球首次横穿加拿大自动驾驶",
+          "url": "https://www.ithome.com/0/957/718.htm",
+          "source": "aihot",
+          "source_name": "IT之家（RSS）",
+          "category": "industry",
+          "published_at": "2026-05-31T01:30:46.000Z",
+          "summary": "一辆特斯拉汽车搭载 FSD V14.3.3 版本软件，完成了全球首次全程零人工干预、横穿加拿大的自动驾驶行程。车辆从温哥华出发，历时 4 天 21 小时，行驶 3760 英里（6051 公里）抵达哈利法克斯，全程所有驾驶操作（包括高速并线、应对复杂路况与自动泊车）均由系统自主完成，无任何系统退出或人工修正。该版本随 2026.14.6.6 更新推送，整合了春季软件功能。"
+        },
         {
           "id": "86341e00d3c5",
           "title": "\"开玩笑吧\"：GitHub Copilot 新的基于 token 的计费模式引发开发者不满",
