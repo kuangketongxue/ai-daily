@@ -1,10 +1,11 @@
 {
   "date": "2026-05-31",
-  "generated_at": "2026-05-31T11:20:12.103470",
-  "total": 65,
+  "generated_at": "2026-05-31T13:01:56.783230",
+  "total": 61,
   "sources": {
     "Hugging Face": 8,
-    "GitHub AI": 5,
+    "GitHub AI": 1,
+    "X：Kim (@kimmonismus)": 1,
     "IT之家（RSS）": 5,
     "X：Google AI for Developers (@googleaidevs)": 2,
     "X：阶跃星辰 StepFun (@StepFun_ai)": 1,
@@ -34,8 +35,7 @@
     "OpenRouter：Announcements（RSS）": 1,
     "OpenAI：官网动态（RSS · 排除企业/客户案例）": 3,
     "Qwen：Blog Retrieval（API）": 1,
-    "X：Berry Xia (@berryxia)": 1,
-    "X：PixVerse (@PixVerse_)": 1
+    "X：Berry Xia (@berryxia)": 1
   },
   "ai_processed": false,
   "categories": {
@@ -333,54 +333,14 @@
           "summary": ""
         },
         {
-          "id": "a9d0db943297",
-          "title": "⭐ NVIDIA/Megatron-LM",
-          "url": "https://github.com/NVIDIA/Megatron-LM",
+          "id": "aabdad12a91e",
+          "title": "⭐ lucidrains/vit-pytorch",
+          "url": "https://github.com/lucidrains/vit-pytorch",
           "source": "GitHub AI",
           "source_name": "GitHub AI",
           "category": "ai-tools",
-          "published_at": "2026-05-31T11:20:10.791523+00:00",
-          "summary": "Ongoing research training transformer models at scale"
-        },
-        {
-          "id": "95cdf36fac9c",
-          "title": "⭐ meilisearch/meilisearch",
-          "url": "https://github.com/meilisearch/meilisearch",
-          "source": "GitHub AI",
-          "source_name": "GitHub AI",
-          "category": "ai-tools",
-          "published_at": "2026-05-31T11:20:10.791403+00:00",
-          "summary": "A lightning-fast search engine API bringing AI-powered hybrid search to your sites and applications."
-        },
-        {
-          "id": "21fb6843c0a7",
-          "title": "⭐ PostHog/posthog",
-          "url": "https://github.com/PostHog/posthog",
-          "source": "GitHub AI",
-          "source_name": "GitHub AI",
-          "category": "ai-tools",
-          "published_at": "2026-05-31T11:20:10.791141+00:00",
-          "summary": "🦔 PostHog is an all-in-one developer platform for building successful products. We offer product analytics, web analytics, session replay, error tracking, feature flags, experimentation, surveys, data warehouse, a CDP, and an AI product assistant to help debug your code, ship features faster, and keep all your usage and customer data in one stack."
-        },
-        {
-          "id": "eeb23aefa2a0",
-          "title": "⭐ modelscope/FunASR",
-          "url": "https://github.com/modelscope/FunASR",
-          "source": "GitHub AI",
-          "source_name": "GitHub AI",
-          "category": "ai-tools",
-          "published_at": "2026-05-31T11:20:10.789822+00:00",
-          "summary": "Industrial-grade speech recognition toolkit: 170x realtime, 50+ languages, speaker diarization, emotion detection, streaming, and OpenAI-compatible API."
-        },
-        {
-          "id": "2c7b43a9c31a",
-          "title": "⭐ apache/airflow",
-          "url": "https://github.com/apache/airflow",
-          "source": "GitHub AI",
-          "source_name": "GitHub AI",
-          "category": "ai-tools",
-          "published_at": "2026-05-31T11:20:10.789477+00:00",
-          "summary": "Apache Airflow - A platform to programmatically author, schedule, and monitor workflows"
+          "published_at": "2026-05-31T13:01:54.574048+00:00",
+          "summary": "Implementation of Vision Transformer, a simple way to achieve SOTA in vision classification with only a single transformer encoder, in Pytorch"
         }
       ]
     },
@@ -641,22 +601,22 @@
           "category": "tip",
           "published_at": "2026-05-29T04:11:34.000Z",
           "summary": "FaceMind团队用100种语言和四大核心任务实验发现，在语义不变的前提下，使用预训练语料中出现频率更高的词汇（高频表达）来撰写提示词或进行微调，可以显著提升大语言模型的表现。这被总结为Adam's Law（文本频率定律），它为数据工程补上了\"频率\"这一新维度。原理在于高频表达能让模型在它最熟悉的概率空间内工作，从而优化输出质量。"
-        },
-        {
-          "id": "d03b03d51821",
-          "title": "15秒动画IP预告片制作全流程分享",
-          "url": "https://x.com/PixVerse_/status/2060184048920826340",
-          "source": "aihot",
-          "source_name": "X：PixVerse (@PixVerse_)",
-          "category": "tip",
-          "published_at": "2026-05-29T02:18:48.000Z",
-          "summary": "我们制作了一个15秒的动画IP预告片--从角色设定到最终视频。认识一下MILO和BUMBLE：地下邮政骑手\n转发+关注+回复=我们会私信发送工作流程和提示词"
         }
       ]
     },
     "industry": {
       "label": "industry",
       "items": [
+        {
+          "id": "7f1ab13382a0",
+          "title": "苹果WWDC将推AI升级：Gemini蒸馏模型本地运行，但技术栈外部依赖显著",
+          "url": "https://x.com/kimmonismus/status/2061058117304262999",
+          "source": "aihot",
+          "source_name": "X：Kim (@kimmonismus)",
+          "category": "industry",
+          "published_at": "2026-05-31T12:12:02.000Z",
+          "summary": "苹果下月WWDC将重点展示延迟已久的Siri及设备端AI升级，核心是在iPhone芯片本地运行从Google Gemini蒸馏而来的更小模型，以强调隐私与降低token成本。但该技术栈大部分源自外部：本地模型由Gemini蒸馏，设备无法处理的复杂查询将路由至Google Cloud处理，并采用了Nvidia的机密计算技术。苹果据称正在寻觅小型设备端AI初创公司以加速模型缩减工作。此外，苹果2024年承诺的Private Cloud Compute方案原计划使用苹果芯片，因无法承载完整Gemini模型，现已部分转向谷歌云，但该名称仍将保留。"
+        },
         {
           "id": "c54d2f70d590",
           "title": "6000 多公里全程零干预：特斯拉 FSD 完成全球首次横穿加拿大自动驾驶",
