@@ -1,12 +1,16 @@
 {
   "date": "2026-06-01",
-  "generated_at": "2026-06-01T07:22:48.947792",
-  "total": 61,
+  "generated_at": "2026-06-01T13:18:05.792408",
+  "total": 66,
   "sources": {
     "Hugging Face": 8,
-    "GitHub AI": 1,
-    "IT之家（RSS）": 4,
-    "Runway：News（网页）": 1,
+    "GitHub AI": 6,
+    "X：Kim (@kimmonismus)": 2,
+    "IT之家（RSS）": 5,
+    "X：阿易 AI Notes (@AYi_AInotes)": 3,
+    "X：阿里云 / Alibaba Cloud (@alibaba_cloud)": 2,
+    "Runway：News（网页）": 2,
+    "X：腾讯混元 (@TencentHunyuan)": 1,
     "NVIDIA Blog：Generative AI（网页）": 1,
     "NVIDIA Blog：Agentic AI（网页）": 2,
     "NVIDIA Technical Blog（开发者技术博客 · RSS）": 5,
@@ -15,35 +19,38 @@
     "X：Sam Altman (@sama)": 2,
     "X：opencode (@opencode)": 1,
     "Claude Code：GitHub Releases（RSS）": 1,
-    "X：Kim (@kimmonismus)": 1,
     "Hacker News 热门（buzzing.cc 中文翻译）": 4,
     "Gary Marcus：The Road to AI We Can Trust（RSS）": 1,
     "Simon Willison 博客": 1,
-    "Bloomberg：Technology（RSS）": 3,
-    "X：阿易 AI Notes (@AYi_AInotes)": 2,
-    "TechCrunch：AI（RSS）": 2,
+    "Bloomberg：Technology（RSS）": 2,
+    "TechCrunch：AI（RSS）": 1,
     "The Verge：AI（RSS）": 1,
     "X：Google AI for Developers (@googleaidevs)": 2,
     "X：阶跃星辰 StepFun (@StepFun_ai)": 1,
     "X：SemiAnalysis (@SemiAnalysis_)": 1,
-    "X：阿里云 / Alibaba Cloud (@alibaba_cloud)": 1,
     "X：OpenRouter (@OpenRouter)": 1,
     "X：洪明 (@hongming731)": 1,
     "X：Greg Brockman (@gdb)": 2,
     "X：ChatGPT (@ChatGPTapp)": 1,
     "X：Luma AI (@LumaLabsAI)": 1,
     "X：Runway (@runwayml)": 1,
-    "Google Blog：AI（RSS）": 1,
-    "X：Gemini (@GeminiApp)": 1,
-    "X：OpenAI (@OpenAI)": 1,
-    "X：Rohan Paul (@rohanpaul_ai)": 1,
-    "X：Fei-Fei Li (@drfeifei, World Labs)": 1
+    "Google Blog：AI（RSS）": 1
   },
   "ai_processed": false,
   "categories": {
     "ai-models": {
       "label": "🧠 AI 模型",
       "items": [
+        {
+          "id": "0597126236e3",
+          "title": "NVIDIA开源Cosmos 3：首个物理AI全能模型",
+          "url": "https://x.com/kimmonismus/status/2061432501223162241",
+          "source": "aihot",
+          "source_name": "X：Kim (@kimmonismus)",
+          "category": "ai-models",
+          "published_at": "2026-06-01T12:59:42.000Z",
+          "summary": "NVIDIA在GTC Taipei上宣布完全开源Cosmos 3。这是首个针对物理AI的\"全能模型\"，具备原生视觉推理能力，可理解真实世界、预测未来并生成机器人应采取的行动。本次发布包含两个变体：Super（32B）和Nano（8B）。模型权重、代码及数据集均已完全开放。"
+        },
         {
           "id": "b436b1bca769",
           "title": "使用NVIDIA Cosmos 3开发物理AI推理、世界与行动模型",
@@ -109,6 +116,26 @@
     "ai-products": {
       "label": "🚀 AI 产品",
       "items": [
+        {
+          "id": "03b470eec2d9",
+          "title": "Apache RocketMQ 发布 AI 专用消息引擎",
+          "url": "https://x.com/alibaba_cloud/status/2061400724018217381",
+          "source": "aihot",
+          "source_name": "X：阿里云 / Alibaba Cloud (@alibaba_cloud)",
+          "category": "ai-products",
+          "published_at": "2026-06-01T10:53:26.000Z",
+          "summary": "🚀 Apache RocketMQ 为 AI 升级！推出 RocketMQ for AI--一个专为长时间会话、多智能体工作流和公平资源调度构建的新消息引擎。凭借 Lite-Topics、有序消息和智能流量整形，它解决了状态丢失、级联故障和突发负载问题。由阿里云大规模构建，现已开源。\n\n了解更多： https：//int.alibabacloud.com/m/1000413178/\n\n#RocketMQ #AI #CloudNative"
+        },
+        {
+          "id": "f3d01210de48",
+          "title": "腾讯混元发布智能体长期记忆插件Hy-Memory",
+          "url": "https://x.com/TencentHunyuan/status/2061372535267357029",
+          "source": "aihot",
+          "source_name": "X：腾讯混元 (@TencentHunyuan)",
+          "category": "ai-products",
+          "published_at": "2026-06-01T09:01:25.000Z",
+          "summary": "腾讯混元正式发布专为OpenClaw等长期协作智能体（Agent）设计的记忆插件 Hy-Memory。它基于6层记忆框架、System1/System2双系统与三层进化链构建，旨在成为智能体的\"第二大脑\"。该插件解决了记忆碎片化问题，实现了显著性能提升：记忆数量减少70%以上，单条记忆信息密度提升45%以上，在超长上下文场景中token消耗降低35%，记忆更新速度提升20%。"
+        },
         {
           "id": "c47ce378f561",
           "title": "NVIDIA 发布工厂运营蓝图，为工厂提供自主智能管理智能体",
@@ -248,26 +275,6 @@
           "category": "ai-products",
           "published_at": "2026-05-29T20:10:43.000Z",
           "summary": "我们持续为 Runway API 添加新模型和端点，以便您能将最佳生成能力直接集成到应用、产品和平台中。通过 Runway API，您可以在一个地方获得所需的所有模型，包括 Seedance 2.0、GPT Image 2、HappyHorse 1.0、Nano Banana Pro、Magnific Precision Upscaler V2 等更多内容。请通过下方链接开始使用。"
-        },
-        {
-          "id": "e39b04b892c1",
-          "title": "Gemini Omni可将草图变为现实",
-          "url": "https://x.com/GeminiApp/status/2060435981946503243",
-          "source": "aihot",
-          "source_name": "X：Gemini (@GeminiApp)",
-          "category": "ai-products",
-          "published_at": "2026-05-29T18:59:53.000Z",
-          "summary": "Gemini Omni甚至能将简单的草图变为新的现实。\n\n在Gemini应用中亲自尝试。上传一段有人画圆的视频，然后输入这个提示词：当我画完这个圆时，它变成了___。"
-        },
-        {
-          "id": "cb7c3fd8e6ca",
-          "title": "Codex现已支持Windows端计算机使用功能",
-          "url": "https://x.com/OpenAI/status/2060428604727771421",
-          "source": "aihot",
-          "source_name": "X：OpenAI (@OpenAI)",
-          "category": "ai-products",
-          "published_at": "2026-05-29T18:30:34.000Z",
-          "summary": "Windows用户，这条消息是给你的。\n\n计算机使用功能现已在Windows上可用，因此Codex可以在你的Windows电脑上执行操作。\n\n通过ChatGPT移动应用中Codex的Windows支持，你可以在工作继续在Windows电脑上进行时，随时随地启动、审查和引导任务。\n\n这是一项早期体验，但我们正在努力提供更多方式，让你的工作无论身在何处都能持续进行。"
         }
       ]
     },
@@ -355,14 +362,64 @@
           "summary": ""
         },
         {
-          "id": "aabdad12a91e",
-          "title": "⭐ lucidrains/vit-pytorch",
-          "url": "https://github.com/lucidrains/vit-pytorch",
+          "id": "c675223d60a8",
+          "title": "⭐ openai/openai-cookbook",
+          "url": "https://github.com/openai/openai-cookbook",
           "source": "GitHub AI",
           "source_name": "GitHub AI",
           "category": "ai-tools",
-          "published_at": "2026-06-01T07:22:44.207922+00:00",
-          "summary": "Implementation of Vision Transformer, a simple way to achieve SOTA in vision classification with only a single transformer encoder, in Pytorch"
+          "published_at": "2026-06-01T13:18:04.550756+00:00",
+          "summary": "Examples and guides for using the OpenAI API"
+        },
+        {
+          "id": "e7e536759784",
+          "title": "⭐ ggml-org/whisper.cpp",
+          "url": "https://github.com/ggml-org/whisper.cpp",
+          "source": "GitHub AI",
+          "source_name": "GitHub AI",
+          "category": "ai-tools",
+          "published_at": "2026-06-01T13:18:04.550642+00:00",
+          "summary": "Port of OpenAI's Whisper model in C/C++"
+        },
+        {
+          "id": "815a7809715f",
+          "title": "⭐ servo/servo",
+          "url": "https://github.com/servo/servo",
+          "source": "GitHub AI",
+          "source_name": "GitHub AI",
+          "category": "ai-tools",
+          "published_at": "2026-06-01T13:18:04.549555+00:00",
+          "summary": "Servo aims to empower developers with a lightweight, high-performance alternative for embedding web technologies in applications."
+        },
+        {
+          "id": "980822d185f7",
+          "title": "⭐ AUTOMATIC1111/stable-diffusion-webui",
+          "url": "https://github.com/AUTOMATIC1111/stable-diffusion-webui",
+          "source": "GitHub AI",
+          "source_name": "GitHub AI",
+          "category": "ai-tools",
+          "published_at": "2026-06-01T13:18:04.549392+00:00",
+          "summary": "Stable Diffusion web UI"
+        },
+        {
+          "id": "5428486be845",
+          "title": "⭐ OpenBB-finance/OpenBB",
+          "url": "https://github.com/OpenBB-finance/OpenBB",
+          "source": "GitHub AI",
+          "source_name": "GitHub AI",
+          "category": "ai-tools",
+          "published_at": "2026-06-01T13:18:04.549150+00:00",
+          "summary": "Financial data platform for analysts, quants and AI agents."
+        },
+        {
+          "id": "c82c9e096c0c",
+          "title": "⭐ microsoft/qlib",
+          "url": "https://github.com/microsoft/qlib",
+          "source": "GitHub AI",
+          "source_name": "GitHub AI",
+          "category": "ai-tools",
+          "published_at": "2026-06-01T13:18:04.548960+00:00",
+          "summary": "Qlib is an AI-oriented Quant investment platform that aims to use AI tech to empower Quant Research, from exploring ideas to implementing productions. Qlib supports diverse ML modeling paradigms, including supervised learning, market dynamics modeling, and RL, and is now equipped withhttps://github.com/microsoft/RD-Agentto automate R&D process."
         }
       ]
     },
@@ -404,6 +461,16 @@
     "tip": {
       "label": "💡 技巧",
       "items": [
+        {
+          "id": "6b4c58174517",
+          "title": "使用Claude Opus 4.8将书籍转化为AI技能的教程",
+          "url": "https://x.com/AYi_AInotes/status/2061419197154857286",
+          "source": "aihot",
+          "source_name": "X：阿易 AI Notes (@AYi_AInotes)",
+          "category": "tip",
+          "published_at": "2026-06-01T12:06:50.000Z",
+          "summary": "本文以《非暴力沟通》为例，提供了一个将书籍转化为可调用AI技能（Skill）的六步教程。作者使用Claude Opus 4.8模型，因其具备100万token上下文窗口、结构化输出及多步智能体（Agent）能力，能一次性处理全书逻辑。流程包含文本准备、全局结构分析、五类提炼（框架/原则/技法/反模式/作者声音）、技能生成及关键的自检步骤。生成的技能保留了书中原始框架命名（如OFNR四要素、长颈鹿语言），并将触发词优化为\"怎么提意见不像在指责\"等日常表达。整个流程耗时约45分钟，消耗约30万token，成本不到20元人民币。"
+        },
         {
           "id": "0278092d1998",
           "title": "如何使用 NVIDIA Alpamayo 在闭环中后训练自动驾驶模型",
@@ -523,32 +590,32 @@
           "category": "tip",
           "published_at": "2026-05-29T19:00:00.000Z",
           "summary": "Google 使用其开发工具 Google AI Studio，通过氛围编程（vibe coding）方式，创建了一个关于 Google I/O 2026 主要公告的在线测验。"
-        },
-        {
-          "id": "eff59dbadb29",
-          "title": "当公司过于\"AI上瘾\"时会发生什么？",
-          "url": "https://techcrunch.com/video/what-happens-when-companies-become-too-ai-pilled",
-          "source": "aihot",
-          "source_name": "TechCrunch：AI（RSS）",
-          "category": "tip",
-          "published_at": "2026-05-29T17:57:05.000Z",
-          "summary": "Box创始人Aaron Levie指出，决定用AI替代员工的人往往最不了解工作的实际内容，他将此称为\"AI psychosis\"。ClickUp近期为部署AI智能体裁员22%即是一例。2026年的科技行业裁员规模已接近2025年全年。"
-        },
-        {
-          "id": "5176bda89e7b",
-          "title": "亲测为实：难以置信的推理速度",
-          "url": "https://x.com/rohanpaul_ai/status/2060409504693645440",
-          "source": "aihot",
-          "source_name": "X：Rohan Paul (@rohanpaul_ai)",
-          "category": "tip",
-          "published_at": "2026-05-29T17:14:41.000Z",
-          "summary": "Kog团队在标准数据中心GPU上实现了极高的单用户推理速度，在8× AMD MI300X GPUs上达到3，000 tokens/s，在8× NVIDIA H200上达到2，100 tokens/s。相比常规推理速度（约100-300 tokens/s），实现了10-30倍提升。其核心思路是将LLM解码视为内存流问题，通过协同设计monokernel、重建同步机制、针对性内存访问映射及采用延迟张量并行的Laneformer模型架构，消除了传统流程的阻塞点。"
         }
       ]
     },
     "industry": {
       "label": "industry",
       "items": [
+        {
+          "id": "e63fe49e535e",
+          "title": "王兴：美团 AI Agent\"小美\"与腾讯元宝即将深度合作，用户订单无缝连接",
+          "url": "https://www.ithome.com/0/958/410.htm",
+          "source": "aihot",
+          "source_name": "IT之家（RSS）",
+          "category": "industry",
+          "published_at": "2026-06-01T12:34:05.000Z",
+          "summary": "美团2026年第一季度财报显示营收910.39亿元，净利润亏损68.27亿元。财报电话会上，CEO王兴透露其AI Agent\"小美\"将与腾讯元宝深度合作。用户在腾讯元宝中提交本地服务需求，将被无缝连接至美团的外卖点餐、配送等生态。王兴强调，面向智能体的服务（To A）正变得日益重要，美团已将AI助手\"小团\"置于App核心位置，并拓展AI服务外延。"
+        },
+        {
+          "id": "ee89d121c1cf",
+          "title": "Runway 在伦敦设立欧洲总部及世界模型研究中心",
+          "url": "https://runwayml.com/news/runway-opens-london-hq",
+          "source": "aihot",
+          "source_name": "Runway：News（网页）",
+          "category": "industry",
+          "published_at": "2026-06-01T10:24:49.447Z",
+          "summary": "Runway 宣布在伦敦建立新的欧洲总部和专注于通用世界模型的研究中心。公司计划在未来18个月向英国AI生态投资$100M，到2028年投资额将翻倍以上。过去12个月，其在欧洲的订阅销量增长了50%，企业客户占比超20%。新总部将扩大其在欧洲的研究与商业布局，公司正招聘欧洲负责人以组建跨研究、产品、工程和销售的团队，并深化与BBC、Fremantle、WPP等企业的合作。世界模型是其研究的核心，旨在将生成式AI的应用扩展至机器人、科学研究与工业模拟等领域。"
+        },
         {
           "id": "12db859bb25f",
           "title": "英伟达和台积电将 AI 引入晶圆厂，推动半导体设计与制造发展",
@@ -658,31 +725,6 @@
           "category": "industry",
           "published_at": "2026-05-30T00:36:05.000Z",
           "summary": "阿里云和Qwen成为UEFA官方独家AI、云计算与电子商务合作伙伴，合作期覆盖2027/2028赛季至2032/2033赛季的UEFA男子俱乐部赛事，以及UEFA EURO 2028。阿里巴巴集团主席蔡崇信表示，将投入云计算、全栈AI及全球电商平台能力，支持赛事运营。合作将利用Qwen大语言模型部署先进AI技术，增强球迷互动与媒体内容体验，并依托阿里云基础设施打造全球沉浸式观赛体验。"
-        },
-        {
-          "id": "73702f2dc502",
-          "title": "Anthropic估值9650亿美元超越OpenAI",
-          "url": "https://www.bloomberg.com/news/videos/2026-05-29/anthropic-valuation-of-965-billion-passes-openai-video",
-          "source": "aihot",
-          "source_name": "Bloomberg：Technology（RSS）",
-          "category": "industry",
-          "published_at": "2026-05-29T17:26:32.000Z",
-          "summary": "Anthropic在最新融资轮中筹集了650亿美元，融资后公司估值达到9650亿美元，首次超越竞争对手OpenAI的估值水平。"
-        }
-      ]
-    },
-    "paper": {
-      "label": "paper",
-      "items": [
-        {
-          "id": "32a07eb9f663",
-          "title": "GPIC：大规模视觉生成基准数据集发布",
-          "url": "https://x.com/drfeifei/status/2060404846734512205",
-          "source": "aihot",
-          "source_name": "X：Fei-Fei Li (@drfeifei, World Labs)",
-          "category": "paper",
-          "published_at": "2026-05-29T16:56:10.000Z",
-          "summary": "我对这个适用于大规模生成模型新时代的视觉生成基准数据集感到非常兴奋！🤩"
         }
       ]
     }
