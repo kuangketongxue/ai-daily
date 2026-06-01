@@ -1,26 +1,27 @@
 {
-  "date": "2026-05-31",
-  "generated_at": "2026-05-31T23:44:21.428905",
-  "total": 61,
+  "date": "2026-06-01",
+  "generated_at": "2026-06-01T02:02:23.326973",
+  "total": 60,
   "sources": {
     "Hugging Face": 8,
     "GitHub AI": 1,
-    "X：opencode (@opencode)": 1,
-    "Gary Marcus：The Road to AI We Can Trust（RSS）": 1,
-    "X：Sam Altman (@sama)": 2,
-    "Hacker News 热门（buzzing.cc 中文翻译）": 6,
-    "X：Kim (@kimmonismus)": 1,
     "IT之家（RSS）": 2,
+    "X：Sam Altman (@sama)": 2,
+    "X：opencode (@opencode)": 2,
+    "Claude Code：GitHub Releases（RSS）": 1,
+    "X：Kim (@kimmonismus)": 1,
+    "Hacker News 热门（buzzing.cc 中文翻译）": 4,
+    "Gary Marcus：The Road to AI We Can Trust（RSS）": 1,
+    "Simon Willison 博客": 1,
+    "Bloomberg：Technology（RSS）": 3,
+    "X：NVIDIA AI (@NVIDIAAI)": 1,
+    "X：阿易 AI Notes (@AYi_AInotes)": 2,
+    "TechCrunch：AI（RSS）": 3,
+    "The Verge：AI（RSS）": 1,
     "X：Google AI for Developers (@googleaidevs)": 2,
     "X：阶跃星辰 StepFun (@StepFun_ai)": 1,
     "X：SemiAnalysis (@SemiAnalysis_)": 1,
-    "The Verge：AI（RSS）": 1,
-    "Bloomberg：Technology（RSS）": 3,
-    "TechCrunch：AI（RSS）": 4,
     "X：阿里云 / Alibaba Cloud (@alibaba_cloud)": 1,
-    "X：阿易 AI Notes (@AYi_AInotes)": 2,
-    "Simon Willison 博客": 1,
-    "X：NVIDIA AI (@NVIDIAAI)": 1,
     "X：OpenRouter (@OpenRouter)": 2,
     "NVIDIA Technical Blog（开发者技术博客 · RSS）": 2,
     "X：洪明 (@hongming731)": 1,
@@ -45,23 +46,33 @@
       "label": "🧠 AI 模型",
       "items": [
         {
-          "id": "49e4dfa106be",
+          "id": "b8e8732675f4",
+          "title": "MiniMax M3即将发布，可免费试用",
+          "url": "https://x.com/opencode/status/2061233503337906187",
+          "source": "aihot",
+          "source_name": "X：opencode (@opencode)",
+          "category": "ai-models",
+          "published_at": "2026-05-31T23:48:57.000Z",
+          "summary": "MiniMax M3即将发布\n你现在就可以在OpenCode中免费试用"
+        },
+        {
+          "id": "144c130948ef",
           "title": "Nano Banana Pro与Nano Banana 2正式发布",
           "url": "https://x.com/googleaidevs/status/2060685345738375640",
           "source": "aihot",
           "source_name": "X：Google AI for Developers (@googleaidevs)",
           "category": "ai-models",
-          "published_at": "2026-05-31T00:00:15.569Z",
-          "summary": "ICYMI：Nano Banana Pro [gemini-3-pro-image] 和 Nano Banana 2 [gemini-3.1-flash-image] 现已正式发布，可通过 Gemini API 投入生产使用。 查看这些优秀的社区示例，了解两个模型的实际能力 🧵"
+          "published_at": "2026-05-30T11:30:46.000Z",
+          "summary": "ICYMI：Nano Banana Pro 【gemini-3-pro-image】 和 Nano Banana 2 【gemini-3.1-flash-image】 现已正式发布，可通过 Gemini API 投入生产使用。\n\n查看这些优秀的社区示例，了解两个模型的实际能力 🧵"
         },
         {
-          "id": "a7a2b853cfca",
+          "id": "fc37abd9fb5c",
           "title": "小即是美：开源多模态模型发布",
           "url": "https://x.com/StepFun_ai/status/2060678753030947226",
           "source": "aihot",
           "source_name": "X：阶跃星辰 StepFun (@StepFun_ai)",
           "category": "ai-models",
-          "published_at": "2026-05-31T00:00:15.569Z",
+          "published_at": "2026-05-30T11:04:34.000Z",
           "summary": "小即是美。😌"
         },
         {
@@ -80,34 +91,34 @@
       "label": "🚀 AI 产品",
       "items": [
         {
-          "id": "d12e38bbfb83",
-          "title": "DeepSeek V4 Flash 已上线 OpenCode Zen",
-          "url": "https://x.com/opencode/status/2061153857321775209",
-          "source": "aihot",
-          "source_name": "X：opencode (@opencode)",
-          "category": "ai-products",
-          "published_at": "2026-05-31T18:32:28.000Z",
-          "summary": "DeepSeek V4 Flash 现已在 OpenCode Zen 上线。"
-        },
-        {
-          "id": "c69992be7d79",
+          "id": "2ac22fba7696",
           "title": "OpenAI发布生物防御AI工具Rosalind",
           "url": "https://x.com/sama/status/2061101875303530871",
           "source": "aihot",
           "source_name": "X：Sam Altman (@sama)",
           "category": "ai-products",
-          "published_at": "2026-05-31T15:05:55.000Z",
+          "published_at": "2026-06-01T00:02:29.514Z",
           "summary": "我们希望帮助世界在生物防御领域抢占先机："
         },
         {
-          "id": "103b78abdb79",
-          "title": "Show HN: Tiny-vLLM——基于 C 和 CUDA 的高性能大型语言模型推理引擎",
-          "url": "https://github.com/jmaczan/tiny-vllm",
+          "id": "15d330afcf2c",
+          "title": "DeepSeek V4 Flash 已上线 OpenCode Zen",
+          "url": "https://x.com/opencode/status/2061153857321775209",
           "source": "aihot",
-          "source_name": "Hacker News 热门（buzzing.cc 中文翻译）",
+          "source_name": "X：opencode (@opencode)",
           "category": "ai-products",
-          "published_at": "2026-05-31T00:00:15.569Z",
-          "summary": "Tiny-vLLM 是一个用 C 和 CUDA 编写的高性能大语言模型推理引擎，项目代码已开源至 GitHub。"
+          "published_at": "2026-06-01T00:02:29.514Z",
+          "summary": "DeepSeek V4 Flash 现已在 OpenCode Zen 上线。"
+        },
+        {
+          "id": "57e0fdf038f1",
+          "title": "v2.1.159",
+          "url": "https://github.com/anthropics/claude-code/releases/tag/v2.1.159",
+          "source": "aihot",
+          "source_name": "Claude Code：GitHub Releases（RSS）",
+          "category": "ai-products",
+          "published_at": "2026-06-01T00:02:29.514Z",
+          "summary": "v2.1.159 版本更新包含内部基础设施改进，未引入任何面向用户的功能变更。此次更新预计不会影响现有功能或用户接口。"
         },
         {
           "id": "9650c31fe04c",
@@ -331,7 +342,7 @@
           "source": "GitHub AI",
           "source_name": "GitHub AI",
           "category": "ai-tools",
-          "published_at": "2026-05-31T23:44:20.178186+00:00",
+          "published_at": "2026-06-01T02:02:22.074305+00:00",
           "summary": "Implementation of Vision Transformer, a simple way to achieve SOTA in vision classification with only a single transformer encoder, in Pytorch"
         }
       ]
@@ -340,64 +351,34 @@
       "label": "📰 行业动态",
       "items": [
         {
-          "id": "6ae5b6585a89",
-          "title": "xAI放弃JAX GPU转向自研训练框架",
-          "url": "https://x.com/SemiAnalysis_/status/2060571944575963482",
+          "id": "750d9cc84372",
+          "title": "OpenAI正式进军机器人领域并启动招聘",
+          "url": "https://x.com/sama/status/2061117302528188712",
           "source": "aihot",
-          "source_name": "X：SemiAnalysis (@SemiAnalysis_)",
+          "source_name": "X：Sam Altman (@sama)",
           "category": "ai-industry",
-          "published_at": "2026-05-31T00:00:15.569Z",
-          "summary": "突发新闻：JAX NVIDIA GPU & XLA：GPU最大客户刚刚宣布已放弃JAX GPU，宁愿用Grok Build“氛围编程”一个C训练框架。据报道xAI的JAX堆栈MFU低于10%。NVIDIA JAX团队过去两年全部主力996专注于支持xAI却失败了，我想他们现在可以休息并兑现期权了。"
+          "published_at": "2026-06-01T00:02:29.514Z",
+          "summary": "OpenAI宣布成立OpenAI Robotics团队，并开始招聘全栈硬件、系统及ML工程师，以编程和制造能服务社会的机器人。该项目由Aditya Ramesh领导，其世界模拟研究计划已演变为机器人研究，强调硬件与ML研究的协同设计。短期目标是支持技术工人构建未来基础设施，长期愿景是为每个人提供个人机器人。"
         },
         {
-          "id": "d34fc19b5850",
-          "title": "AI 骗子正在创建虚假的黑人形象来销售 Shein 劣质商品",
-          "url": "https://www.theverge.com/ai-artificial-intelligence/938844/ai-tiktok-shop-blackface-shein-dropshipping",
+          "id": "77d3eed8ccf4",
+          "title": "苹果WWDC将推AI升级：Gemini蒸馏模型本地运行，但技术栈外部依赖显著",
+          "url": "https://x.com/kimmonismus/status/2061058117304262999",
           "source": "aihot",
-          "source_name": "The Verge：AI（RSS）",
+          "source_name": "X：Kim (@kimmonismus)",
           "category": "ai-industry",
-          "published_at": "2026-05-31T00:00:15.569Z",
-          "summary": "有卖家利用 AI 生成虚假的黑人形象，在 TikTok、Facebook 和 Instagram 上扮演手工制品创作者进行销售。例如一个名为 Aliyah 的 AI 生成形象，以带泪诉说的方式售卖所谓手工皮带扣，但该形象及其产品均为虚构。此类 AI 虚拟网红被用于推广通过代发货模式销售的批量生产品。"
+          "published_at": "2026-06-01T00:02:29.514Z",
+          "summary": "苹果下月WWDC将重点展示延迟已久的Siri及设备端AI升级，核心是在iPhone芯片本地运行从Google Gemini蒸馏而来的更小模型，以强调隐私与降低token成本。但该技术栈大部分源自外部：本地模型由Gemini蒸馏，设备无法处理的复杂查询将路由至Google Cloud处理，并采用了Nvidia的机密计算技术。苹果据称正在寻觅小型设备端AI初创公司以加速模型缩减工作。此外，苹果2024年承诺的Private Cloud Compute方案原计划使用苹果芯片，因无法承载完整Gemini模型，现已部分转向谷歌云，但该名称仍将保留。"
         },
         {
-          "id": "fb54bcf682d2",
-          "title": "新加坡防务论坛：AI 风险超过核武器",
-          "url": "https://www.bloomberg.com/news/articles/2026-05-30/ai-dangers-eclipse-nuclear-weapons-at-singapore-defense-forum",
+          "id": "536615c4577d",
+          "title": "6000 多公里全程零干预：特斯拉 FSD 完成全球首次横穿加拿大自动驾驶",
+          "url": "https://www.ithome.com/0/957/718.htm",
           "source": "aihot",
-          "source_name": "Bloomberg：Technology（RSS）",
+          "source_name": "IT之家（RSS）",
           "category": "ai-industry",
-          "published_at": "2026-05-31T00:00:15.569Z",
-          "summary": "在新加坡举行的防务论坛上，专家警告AI风险已超越核武器。面板讨论指出，AI可能大幅压缩反应时间，导致决策者做出草率决定，对战略稳定构成威胁。"
-        },
-        {
-          "id": "2916106ac943",
-          "title": "据报道：软银将在法国投资750亿欧元用于AI",
-          "url": "https://www.bloomberg.com/news/articles/2026-05-30/softbank-to-invest-some-75-billion-in-ai-in-france-reports-say",
-          "source": "aihot",
-          "source_name": "Bloomberg：Technology（RSS）",
-          "category": "ai-industry",
-          "published_at": "2026-05-31T00:00:15.569Z",
-          "summary": "软银集团计划投资高达750亿欧元（约合870亿美元），用于在法国建设人工智能数据中心。该投资计划由《论坛报》与《金融时报》报道。"
-        },
-        {
-          "id": "7dc3575d5b29",
-          "title": "“开玩笑吧”：GitHub Copilot 新的基于 token 的计费模式引发开发者不满",
-          "url": "https://techcrunch.com/2026/05/30/what-a-joke-github-copilots-new-token-based-billing-spurs-consternation-among-devs",
-          "source": "aihot",
-          "source_name": "TechCrunch：AI（RSS）",
-          "category": "ai-industry",
-          "published_at": "2026-05-31T00:00:15.569Z",
-          "summary": "微软旗下 GitHub Copilot 的黄金时代似乎正在终结。其新推出的计费模式改为按 token 计量，这一变化引发了开发者的广泛担忧与不满。"
-        },
-        {
-          "id": "dd6ef1c3f85e",
-          "title": "阿里云与Qwen成为UEFA多年全球AI合作伙伴",
-          "url": "https://x.com/alibaba_cloud/status/2060520586489770167",
-          "source": "aihot",
-          "source_name": "X：阿里云 / Alibaba Cloud (@alibaba_cloud)",
-          "category": "ai-industry",
-          "published_at": "2026-05-31T00:00:15.569Z",
-          "summary": "阿里云和Qwen成为UEFA官方独家AI、云计算与电子商务合作伙伴，合作期覆盖2027/2028赛季至2032/2033赛季的UEFA男子俱乐部赛事，以及UEFA EURO 2028。阿里巴巴集团主席蔡崇信表示，将投入云计算、全栈AI及全球电商平台能力，支持赛事运营。合作将利用Qwen大语言模型部署先进AI技术，增强球迷互动与媒体内容体验，并依托阿里云基础设施打造全球沉浸式观赛体验。"
+          "published_at": "2026-06-01T00:02:29.514Z",
+          "summary": "一辆特斯拉汽车搭载 FSD V14.3.3 版本软件，完成了全球首次全程零人工干预、横穿加拿大的自动驾驶行程。车辆从温哥华出发，历时 4 天 21 小时，行驶 3760 英里（6051 公里）抵达哈利法克斯，全程所有驾驶操作（包括高速并线、应对复杂路况与自动泊车）均由系统自主完成，无任何系统退出或人工修正。该版本随 2026.14.6.6 更新推送，整合了春季软件功能。"
         }
       ]
     },
@@ -405,73 +386,73 @@
       "label": "💡 技巧",
       "items": [
         {
-          "id": "7e5dcfbd5af8",
-          "title": "教皇似乎比Geoffrey Hinton更懂人工智能",
-          "url": "https://garymarcus.substack.com/p/the-pope-appears-to-understand-ai",
-          "source": "aihot",
-          "source_name": "Gary Marcus：The Road to AI We Can Trust（RSS）",
-          "category": "tip",
-          "published_at": "2026-05-31T16:38:20.000Z",
-          "summary": "这一观点强调，单纯分析AI的输出内容，无法还原其生成过程与背后的推理逻辑，触及了当前AI可解释性研究的核心挑战。"
-        },
-        {
-          "id": "05d4775cd5b7",
+          "id": "c3c12c949229",
           "title": "我花200英镑把一台数据中心级GPU装进了我的游戏电脑",
           "url": "https://blog.tymscar.com/posts/v100localllm",
           "source": "aihot",
           "source_name": "Hacker News 热门（buzzing.cc 中文翻译）",
           "category": "tip",
-          "published_at": "2026-05-31T15:55:27.025Z",
+          "published_at": "2026-06-01T00:02:29.514Z",
           "summary": "一名用户以200英镑的价格购入了一块数据中心级GPU，并将其成功安装到自己的游戏电脑中。文章记述了这一非标准硬件改装过程、遇到的技术挑战以及最终实现本地运行大语言模型的体验。"
         },
         {
-          "id": "706e9f571561",
-          "title": "NVIDIA 或将于六月发布整合 Blackwell GPU 与 AI 单元的 ARM 笔记本芯片 N1X",
-          "url": "https://x.com/AYi_AInotes/status/2060779431648547016",
+          "id": "fe3e3d3ae67f",
+          "title": "教皇似乎比Geoffrey Hinton更懂人工智能",
+          "url": "https://garymarcus.substack.com/p/the-pope-appears-to-understand-ai",
           "source": "aihot",
-          "source_name": "X：阿易 AI Notes (@AYi_AInotes)",
+          "source_name": "Gary Marcus：The Road to AI We Can Trust（RSS）",
           "category": "tip",
-          "published_at": "2026-05-31T00:00:15.569Z",
-          "summary": "NVIDIA、微软与 Arm 同步发布指向台北音乐中心的坐标，暗示 6 月 1 日发布会将有重大动作。此举被认为是 NVIDIA 与联发科合作的 ARM 笔记本芯片 N1X 的预告。该芯片整合了 CPU、基于 Blackwell 架构的 GPU 及 AI 单元，目标是使轻薄本具备接近 RTX 4070 的图形性能。这标志着 NVIDIA 的战略转变：从显卡供应商，转型为定义整机核心方案的提供商，将直接冲击 Intel、AMD 和高通在 PC 市场的地位。"
+          "published_at": "2026-06-01T00:02:29.514Z",
+          "summary": "这一观点强调，单纯分析AI的输出内容，无法还原其生成过程与背后的推理逻辑，触及了当前AI可解释性研究的核心挑战。"
         },
         {
-          "id": "89a98327a548",
-          "title": "免费领取6个月ChatGPT Pro及AI工具思考",
-          "url": "https://x.com/AYi_AInotes/status/2060740414273941874",
-          "source": "aihot",
-          "source_name": "X：阿易 AI Notes (@AYi_AInotes)",
-          "category": "tip",
-          "published_at": "2026-05-31T00:00:15.569Z",
-          "summary": "OpenAI为开源项目维护者提供福利，可免费领取6个月ChatGPT Pro（价值$1200），申请无硬性Star数要求，有项目链接即可。同时，文章引用讨论了AI工具的分类：一类是“agent型”（如Claude Code、Codex），可自主运行；另一类是“实习生型”（如Cursor），需人工决策，有助于使用者以术入道、培养判断力，但受限于需人在场。作者推荐了网易的UU远程工具，称其免费两年，支持4K 144帧无延迟连接Mac并可使用原生终端，解决了“实习生型”工具的地点限制问题。"
-        },
-        {
-          "id": "24fcdf6b988d",
+          "id": "0d21dcb0b760",
           "title": "在浏览器中通过 Pyodide 和 Service Worker 运行 Python ASGI 应用",
           "url": "https://simonwillison.net/2026/May/30/pyodide-asgi-browser",
           "source": "aihot",
           "source_name": "Simon Willison 博客",
           "category": "tip",
-          "published_at": "2026-05-31T00:00:15.569Z",
+          "published_at": "2026-05-30T21:02:16.000Z",
           "summary": "作者展示了如何在浏览器中通过 Pyodide 和 Service Worker 运行 Python ASGI 应用。此前的 Datasette Lite 使用 Web Workers，但无法执行 `<script>` 标签中的 JavaScript。新方案由 Claude Opus 4.8 协助完成开发，解决了这一问题。作者已展示了基础的 ASGI FastCGI 演示和运行 Datasette 1.0a31 的演示，并计划后续将此方法应用于升级 Datasette Lite。"
         },
         {
-          "id": "01bdf3c6ca38",
+          "id": "d4ffc4bdeeef",
+          "title": "NVIDIA 或将于六月发布整合 Blackwell GPU 与 AI 单元的 ARM 笔记本芯片 N1X",
+          "url": "https://x.com/AYi_AInotes/status/2060779431648547016",
+          "source": "aihot",
+          "source_name": "X：阿易 AI Notes (@AYi_AInotes)",
+          "category": "tip",
+          "published_at": "2026-05-30T17:44:38.000Z",
+          "summary": "NVIDIA、微软与 Arm 同步发布指向台北音乐中心的坐标，暗示 6 月 1 日发布会将有重大动作。此举被认为是 NVIDIA 与联发科合作的 ARM 笔记本芯片 N1X 的预告。该芯片整合了 CPU、基于 Blackwell 架构的 GPU 及 AI 单元，目标是使轻薄本具备接近 RTX 4070 的图形性能。这标志着 NVIDIA 的战略转变：从显卡供应商，转型为定义整机核心方案的提供商，将直接冲击 Intel、AMD 和高通在 PC 市场的地位。"
+        },
+        {
+          "id": "2da3c7b7efa6",
           "title": "随着成本飙升，美国企业开始对人工智能实施配给",
           "url": "https://www.wsj.com/tech/ai/corporate-america-is-starting-to-ration-ai-as-cost-skyrockets-1eb99d7a",
           "source": "aihot",
           "source_name": "Hacker News 热门（buzzing.cc 中文翻译）",
           "category": "tip",
-          "published_at": "2026-05-31T00:00:15.569Z",
+          "published_at": "2026-05-30T15:40:48.502Z",
           "summary": "由于运行和使用AI工具的成本持续飙升，美国企业正开始对人工智能的使用实施配给制。企业通过限制使用量、设置分层级审批流程等方式控制开支，以应对AI费用增长过快的问题。这种从广泛采用转向精细化管理的策略，标志着企业在AI应用上从追求速度转向注重成本效益。"
         },
         {
-          "id": "5d0c479a8f70",
+          "id": "4090cb438d78",
+          "title": "免费领取6个月ChatGPT Pro及AI工具思考",
+          "url": "https://x.com/AYi_AInotes/status/2060740414273941874",
+          "source": "aihot",
+          "source_name": "X：阿易 AI Notes (@AYi_AInotes)",
+          "category": "tip",
+          "published_at": "2026-05-30T15:09:36.000Z",
+          "summary": "OpenAI为开源项目维护者提供福利，可免费领取6个月ChatGPT Pro（价值$1200），申请无硬性Star数要求，有项目链接即可。同时，文章引用讨论了AI工具的分类：一类是\"agent型\"（如Claude Code、Codex），可自主运行；另一类是\"实习生型\"（如Cursor），需人工决策，有助于使用者以术入道、培养判断力，但受限于需人在场。作者推荐了网易的UU远程工具，称其免费两年，支持4K 144帧无延迟连接Mac并可使用原生终端，解决了\"实习生型\"工具的地点限制问题。"
+        },
+        {
+          "id": "d2a1a32d7eff",
           "title": "最后一次技术面试",
           "url": "https://steve-yegge.medium.com/the-last-technical-interview-bc13ddcf4564",
           "source": "aihot",
           "source_name": "Hacker News 热门（buzzing.cc 中文翻译）",
           "category": "tip",
-          "published_at": "2026-05-31T00:00:15.569Z",
+          "published_at": "2026-05-30T07:25:10.263Z",
           "summary": "Steve Yegge 在 Medium 发表观点文章《最后一次技术面试》，探讨 AI 时代传统技术面试的意义变化。文章在 Hacker News 社区获得 100 分关注。"
         },
         {
@@ -583,16 +564,6 @@
           "category": "tip",
           "published_at": "2026-05-29T12:00:00.000Z",
           "summary": "Braintrust的工程师正在使用Codex结合GPT-5.5模型，以加速其实验运行与代码编写的流程。"
-        },
-        {
-          "id": "a8ebaa5e1b63",
-          "title": "Claude Code--文档中未提及的所有可配置选项",
-          "url": "https://buildingbetter.tech/p/i-read-the-claude-code-source-code",
-          "source": "aihot",
-          "source_name": "Hacker News 热门（buzzing.cc 中文翻译）",
-          "category": "tip",
-          "published_at": "2026-05-29T10:37:09.818Z",
-          "summary": "该篇文章标题涉及\"Claude Code\"的可配置选项，但提供的正文内容仅包含一张图片和一个外部链接，未给出任何关于模型版本、参数、性能、价格或功能的具体信息。根据规则，无法在摘要中提及原文不存在的细节。"
         }
       ]
     },
@@ -600,34 +571,24 @@
       "label": "industry",
       "items": [
         {
-          "id": "7880a86ea0d2",
-          "title": "OpenAI正式进军机器人领域并启动招聘",
-          "url": "https://x.com/sama/status/2061117302528188712",
-          "source": "aihot",
-          "source_name": "X：Sam Altman (@sama)",
-          "category": "industry",
-          "published_at": "2026-05-31T16:07:13.000Z",
-          "summary": "OpenAI宣布成立OpenAI Robotics团队，并开始招聘全栈硬件、系统及ML工程师，以编程和制造能服务社会的机器人。该项目由Aditya Ramesh领导，其世界模拟研究计划已演变为机器人研究，强调硬件与ML研究的协同设计。短期目标是支持技术工人构建未来基础设施，长期愿景是为每个人提供个人机器人。"
-        },
-        {
-          "id": "7f1ab13382a0",
-          "title": "苹果WWDC将推AI升级：Gemini蒸馏模型本地运行，但技术栈外部依赖显著",
-          "url": "https://x.com/kimmonismus/status/2061058117304262999",
-          "source": "aihot",
-          "source_name": "X：Kim (@kimmonismus)",
-          "category": "industry",
-          "published_at": "2026-05-31T12:12:02.000Z",
-          "summary": "苹果下月WWDC将重点展示延迟已久的Siri及设备端AI升级，核心是在iPhone芯片本地运行从Google Gemini蒸馏而来的更小模型，以强调隐私与降低token成本。但该技术栈大部分源自外部：本地模型由Gemini蒸馏，设备无法处理的复杂查询将路由至Google Cloud处理，并采用了Nvidia的机密计算技术。苹果据称正在寻觅小型设备端AI初创公司以加速模型缩减工作。此外，苹果2024年承诺的Private Cloud Compute方案原计划使用苹果芯片，因无法承载完整Gemini模型，现已部分转向谷歌云，但该名称仍将保留。"
-        },
-        {
-          "id": "c54d2f70d590",
-          "title": "6000 多公里全程零干预：特斯拉 FSD 完成全球首次横穿加拿大自动驾驶",
-          "url": "https://www.ithome.com/0/957/718.htm",
+          "id": "13a7e65aee47",
+          "title": "全球首次：MWC26 上海将举办\"人形机器人点球大战\"，宇树科技等 8 支队伍参赛、参演",
+          "url": "https://www.ithome.com/0/957/938.htm",
           "source": "aihot",
           "source_name": "IT之家（RSS）",
           "category": "industry",
-          "published_at": "2026-05-31T01:30:46.000Z",
-          "summary": "一辆特斯拉汽车搭载 FSD V14.3.3 版本软件，完成了全球首次全程零人工干预、横穿加拿大的自动驾驶行程。车辆从温哥华出发，历时 4 天 21 小时，行驶 3760 英里（6051 公里）抵达哈利法克斯，全程所有驾驶操作（包括高速并线、应对复杂路况与自动泊车）均由系统自主完成，无任何系统退出或人工修正。该版本随 2026.14.6.6 更新推送，整合了春季软件功能。"
+          "published_at": "2026-06-01T00:55:00.000Z",
+          "summary": "全球首次\"人形机器人点球大战\"将于2026年6月在MWC上海举行。8支中国顶尖具身智能战队将进行自主对抗，无需人工操控或预设脚本。赛事旨在集中展示人形机器人在动态平衡、精准控制与自主决策等方面的技术突破。"
+        },
+        {
+          "id": "0f5272079689",
+          "title": "据报道：软银将在法国投资750亿欧元用于AI",
+          "url": "https://www.bloomberg.com/news/articles/2026-05-30/softbank-to-invest-some-75-billion-in-ai-in-france-reports-say",
+          "source": "aihot",
+          "source_name": "Bloomberg：Technology（RSS）",
+          "category": "industry",
+          "published_at": "2026-05-30T18:55:33.000Z",
+          "summary": "软银集团计划投资高达750亿欧元（约合870亿美元），用于在法国建设人工智能数据中心。该投资计划由《论坛报》与《金融时报》报道。"
         },
         {
           "id": "86341e00d3c5",
@@ -638,6 +599,46 @@
           "category": "industry",
           "published_at": "2026-05-30T16:30:00.000Z",
           "summary": "微软旗下 GitHub Copilot 的黄金时代似乎正在终结。其新推出的计费模式改为按 token 计量，这一变化引发了开发者的广泛担忧与不满。"
+        },
+        {
+          "id": "733a82c29325",
+          "title": "AI 骗子正在创建虚假的黑人形象来销售 Shein 劣质商品",
+          "url": "https://www.theverge.com/ai-artificial-intelligence/938844/ai-tiktok-shop-blackface-shein-dropshipping",
+          "source": "aihot",
+          "source_name": "The Verge：AI（RSS）",
+          "category": "industry",
+          "published_at": "2026-05-30T13:00:00.000Z",
+          "summary": "有卖家利用 AI 生成虚假的黑人形象，在 TikTok、Facebook 和 Instagram 上扮演手工制品创作者进行销售。例如一个名为 Aliyah 的 AI 生成形象，以带泪诉说的方式售卖所谓手工皮带扣，但该形象及其产品均为虚构。此类 AI 虚拟网红被用于推广通过代发货模式销售的批量生产品。"
+        },
+        {
+          "id": "7b76220931a5",
+          "title": "新加坡防务论坛：AI 风险超过核武器",
+          "url": "https://www.bloomberg.com/news/articles/2026-05-30/ai-dangers-eclipse-nuclear-weapons-at-singapore-defense-forum",
+          "source": "aihot",
+          "source_name": "Bloomberg：Technology（RSS）",
+          "category": "industry",
+          "published_at": "2026-05-30T11:59:32.000Z",
+          "summary": "在新加坡举行的防务论坛上，专家警告AI风险已超越核武器。面板讨论指出，AI可能大幅压缩反应时间，导致决策者做出草率决定，对战略稳定构成威胁。"
+        },
+        {
+          "id": "b92d13633a68",
+          "title": "xAI放弃JAX GPU转向自研训练框架",
+          "url": "https://x.com/SemiAnalysis_/status/2060571944575963482",
+          "source": "aihot",
+          "source_name": "X：SemiAnalysis (@SemiAnalysis_)",
+          "category": "industry",
+          "published_at": "2026-05-30T04:00:09.000Z",
+          "summary": "突发新闻：JAX NVIDIA GPU & XLA：GPU最大客户刚刚宣布已放弃JAX GPU，宁愿用Grok Build\"氛围编程\"一个C训练框架。据报道xAI的JAX堆栈MFU低于10%。NVIDIA JAX团队过去两年全部主力996专注于支持xAI却失败了，我想他们现在可以休息并兑现期权了。"
+        },
+        {
+          "id": "c0797ed7f400",
+          "title": "阿里云与Qwen成为UEFA多年全球AI合作伙伴",
+          "url": "https://x.com/alibaba_cloud/status/2060520586489770167",
+          "source": "aihot",
+          "source_name": "X：阿里云 / Alibaba Cloud (@alibaba_cloud)",
+          "category": "industry",
+          "published_at": "2026-05-30T00:36:05.000Z",
+          "summary": "阿里云和Qwen成为UEFA官方独家AI、云计算与电子商务合作伙伴，合作期覆盖2027/2028赛季至2032/2033赛季的UEFA男子俱乐部赛事，以及UEFA EURO 2028。阿里巴巴集团主席蔡崇信表示，将投入云计算、全栈AI及全球电商平台能力，支持赛事运营。合作将利用Qwen大语言模型部署先进AI技术，增强球迷互动与媒体内容体验，并依托阿里云基础设施打造全球沉浸式观赛体验。"
         },
         {
           "id": "73702f2dc502",
@@ -658,16 +659,6 @@
           "category": "industry",
           "published_at": "2026-05-29T12:00:00.000Z",
           "summary": "波士顿儿童医院通过部署OpenAI技术，用于改善患者护理并减轻运营负担，成功帮助诊断了超过40种罕见病病例。"
-        },
-        {
-          "id": "a519955caf2b",
-          "title": "中央网信办等四部门：提升全民人工智能素养，加快人才培育、深化普及应用",
-          "url": "https://www.ithome.com/0/957/319.htm",
-          "source": "aihot",
-          "source_name": "IT之家（RSS）",
-          "category": "industry",
-          "published_at": "2026-05-29T10:21:56.000Z",
-          "summary": "中央网信办等四部门联合印发《2026年提升全民数字素养与技能工作要点》，部署了六项重点任务。其中明确要求\"提升全民人工智能素养\"，具体包括强化人工智能赋能教育、加快人工智能人才培育、深化人工智能普及应用。其他任务涵盖数字资源供给、应用场景建设、普惠包容发展、安全有序网络空间以及协同联动机制。"
         }
       ]
     },
