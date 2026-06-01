@@ -1,15 +1,20 @@
 {
   "date": "2026-06-01",
-  "generated_at": "2026-06-01T19:13:38.190398",
+  "generated_at": "2026-06-01T22:17:18.550503",
   "total": 64,
   "sources": {
     "Hugging Face": 8,
     "GitHub AI": 6,
+    "X：Krea AI (@krea_ai)": 1,
+    "Bloomberg：Technology（RSS）": 1,
+    "X：Replit (@Replit)": 1,
+    "The Verge：订阅版科技（RSS）": 1,
+    "Ars Technica：AI（RSS）": 1,
     "X：Google AI for Developers (@googleaidevs)": 1,
     "X：Sam Altman (@sama)": 2,
     "X：Kim (@kimmonismus)": 1,
     "IT之家（RSS）": 6,
-    "Hacker News 热门（buzzing.cc 中文翻译）": 2,
+    "Hacker News 热门（buzzing.cc 中文翻译）": 1,
     "Gary Marcus：The Road to AI We Can Trust（RSS）": 1,
     "X：Perplexity (@perplexity_ai)": 1,
     "Anthropic：Newsroom（网页）": 1,
@@ -23,21 +28,19 @@
     "X：Microsoft Research (@MSFTResearch)": 1,
     "Nathan Lambert：Interconnects（RSS）": 1,
     "X：面壁智能 OpenBMB (@OpenBMB)": 1,
-    "X：阿易 AI Notes (@AYi_AInotes)": 3,
+    "X：阿易 AI Notes (@AYi_AInotes)": 1,
+    "OpenAI：官网动态（RSS · 排除企业/客户案例）": 2,
     "X：阿里云 / Alibaba Cloud (@alibaba_cloud)": 1,
     "Runway：News（网页）": 2,
     "X：腾讯混元 (@TencentHunyuan)": 1,
     "NVIDIA Blog：Generative AI（网页）": 1,
     "NVIDIA Blog：Agentic AI（网页）": 2,
     "NVIDIA Technical Blog（开发者技术博客 · RSS）": 4,
-    "X：NVIDIA AI (@NVIDIAAI)": 2,
+    "X：NVIDIA AI (@NVIDIAAI)": 1,
     "MiniMax：Blog（网页）": 1,
     "Qwen：Blog Retrieval（API）": 1,
     "xAI：News（网页）": 1,
-    "Tomer Tunguz 博客（VC 分析）": 1,
-    "Simon Willison 博客": 1,
-    "Bloomberg：Technology（RSS）": 1,
-    "TechCrunch：AI（RSS）": 1
+    "Tomer Tunguz 博客（VC 分析）": 1
   },
   "ai_processed": false,
   "categories": {
@@ -120,6 +123,26 @@
       "label": "🚀 AI 产品",
       "items": [
         {
+          "id": "69cc23c12287",
+          "title": "Krea AI 开放 Krea 2 LoRAs 全员使用",
+          "url": "https://x.com/krea_ai/status/2061554472925696128",
+          "source": "aihot",
+          "source_name": "X：Krea AI (@krea_ai)",
+          "category": "ai-products",
+          "published_at": "2026-06-01T21:04:22.000Z",
+          "summary": "Krea 2 LoRAs 现已向所有人开放。\n试试下面这个 👇"
+        },
+        {
+          "id": "46a44bb8e1ae",
+          "title": "Replit 用单个提示词构建完整业务",
+          "url": "https://x.com/Replit/status/2061534759520760112",
+          "source": "aihot",
+          "source_name": "X：Replit (@Replit)",
+          "category": "ai-products",
+          "published_at": "2026-06-01T19:46:02.000Z",
+          "summary": "你能用单个提示词免费构建一个真实的业务吗？\n\n从今天起，在 Replit 上，答案是肯定的。\n\n从一个提示词开始，获得一个网站、移动应用、幻灯片和发布视频。\n此外，还能解锁使用 @stripe @atlas， @QuickBooks， @mercury & @doolaHQ 运营业务的福利。"
+        },
+        {
           "id": "2ac22fba7696",
           "title": "OpenAI发布生物防御AI工具Rosalind",
           "url": "https://x.com/sama/status/2061101875303530871",
@@ -170,6 +193,16 @@
           "summary": "🚀 Apache RocketMQ 为 AI 升级！推出 RocketMQ for AI--一个专为长时间会话、多智能体工作流和公平资源调度构建的新消息引擎。凭借 Lite-Topics、有序消息和智能流量整形，它解决了状态丢失、级联故障和突发负载问题。由阿里云大规模构建，现已开源。\n\n了解更多： https：//int.alibabacloud.com/m/1000413178/\n\n#RocketMQ #AI #CloudNative"
         },
         {
+          "id": "bc73b3c19411",
+          "title": "OpenAI前沿模型与Codex现可在AWS上使用",
+          "url": "https://openai.com/index/openai-frontier-models-and-codex-are-now-available-on-aws",
+          "source": "aihot",
+          "source_name": "OpenAI：官网动态（RSS · 排除企业/客户案例）",
+          "category": "ai-products",
+          "published_at": "2026-06-01T10:00:00.000Z",
+          "summary": "OpenAI的前沿模型与Codex现已在AWS上全面可用。企业客户可通过其现有的AWS环境、控制与采购流程来使用OpenAI的AI技术，从而加速从评估到生产部署的过程。"
+        },
+        {
           "id": "f3d01210de48",
           "title": "腾讯混元发布智能体长期记忆插件Hy-Memory",
           "url": "https://x.com/TencentHunyuan/status/2061372535267357029",
@@ -218,16 +251,6 @@
           "category": "ai-products",
           "published_at": "2026-06-01T03:36:52.000Z",
           "summary": "NVIDIA DSX 平台为设计、模拟和构建 AI 工厂提供完整解决方案，旨在应对不断增长的智能需求。该平台通过开放、模块化的软件栈，帮助运营方更快地扩展规模、提高效率，并降低从能源、芯片、基础设施、模型到应用这五层架构的整体智能成本。"
-        },
-        {
-          "id": "9650c31fe04c",
-          "title": "DynoSim：模拟驱动推理堆栈优化",
-          "url": "https://x.com/NVIDIAAI/status/2060781385686659416",
-          "source": "aihot",
-          "source_name": "X：NVIDIA AI (@NVIDIAAI)",
-          "category": "ai-products",
-          "published_at": "2026-05-30T17:52:24.000Z",
-          "summary": "NVIDIA 发布 DynoSim，这是一个针对其 Dynamo 推理服务栈的工作负载驱动仿真工具。它将部署测试转化为\"模拟-验证\"循环：团队无需逐个测试部署选项，而是在单一虚拟时间线上建模整个堆栈，通过高保真仿真快速筛查数千种配置，仅将最佳候选方案投入实机验证。DynoSim 完全使用 Rust 实现，运行速度极快，在测试中达到实时速度的 1，500 倍。"
         }
       ]
     },
@@ -321,7 +344,7 @@
           "source": "GitHub AI",
           "source_name": "GitHub AI",
           "category": "ai-tools",
-          "published_at": "2026-06-01T19:13:33.334810+00:00",
+          "published_at": "2026-06-01T22:17:17.319327+00:00",
           "summary": "Examples and guides for using the OpenAI API"
         },
         {
@@ -331,7 +354,7 @@
           "source": "GitHub AI",
           "source_name": "GitHub AI",
           "category": "ai-tools",
-          "published_at": "2026-06-01T19:13:33.334656+00:00",
+          "published_at": "2026-06-01T22:17:17.319213+00:00",
           "summary": "Port of OpenAI's Whisper model in C/C++"
         },
         {
@@ -341,7 +364,7 @@
           "source": "GitHub AI",
           "source_name": "GitHub AI",
           "category": "ai-tools",
-          "published_at": "2026-06-01T19:13:33.333431+00:00",
+          "published_at": "2026-06-01T22:17:17.318118+00:00",
           "summary": "Servo aims to empower developers with a lightweight, high-performance alternative for embedding web technologies in applications."
         },
         {
@@ -351,7 +374,7 @@
           "source": "GitHub AI",
           "source_name": "GitHub AI",
           "category": "ai-tools",
-          "published_at": "2026-06-01T19:13:33.333253+00:00",
+          "published_at": "2026-06-01T22:17:17.317950+00:00",
           "summary": "Stable Diffusion web UI"
         },
         {
@@ -361,7 +384,7 @@
           "source": "GitHub AI",
           "source_name": "GitHub AI",
           "category": "ai-tools",
-          "published_at": "2026-06-01T19:13:33.332982+00:00",
+          "published_at": "2026-06-01T22:17:17.317690+00:00",
           "summary": "Financial data platform for analysts, quants and AI agents."
         },
         {
@@ -371,7 +394,7 @@
           "source": "GitHub AI",
           "source_name": "GitHub AI",
           "category": "ai-tools",
-          "published_at": "2026-06-01T19:13:33.332776+00:00",
+          "published_at": "2026-06-01T22:17:17.317504+00:00",
           "summary": "Qlib is an AI-oriented Quant investment platform that aims to use AI tech to empower Quant Research, from exploring ideas to implementing productions. Qlib supports diverse ML modeling paradigms, including supervised learning, market dynamics modeling, and RL, and is now equipped withhttps://github.com/microsoft/RD-Agentto automate R&D process."
         }
       ]
@@ -543,52 +566,42 @@
           "category": "tip",
           "published_at": "2026-06-01T00:00:00.000Z",
           "summary": "金融市场对AI的看跌情绪正从整体上升转向板块分化。上季度，软件、半导体、云及超大规模公司的空头比例中位数上升约24%。GPU数据中心业务空头股份在过去一年激增60%。AI云与新型云公司的当前空头比例中位数最高，达16.8%，SaaS与开发工具领域随后，分别为9.5%和8.9%。相比之下，超大规模公司和NVIDIA的空头比例极低，仅为1.1%和1.2%。市场怀疑主要针对那些AI业务仍依赖未来资本、需求或运营杠杆的中小型公司。"
-        },
-        {
-          "id": "0d21dcb0b760",
-          "title": "在浏览器中通过 Pyodide 和 Service Worker 运行 Python ASGI 应用",
-          "url": "https://simonwillison.net/2026/May/30/pyodide-asgi-browser",
-          "source": "aihot",
-          "source_name": "Simon Willison 博客",
-          "category": "tip",
-          "published_at": "2026-05-30T21:02:16.000Z",
-          "summary": "作者展示了如何在浏览器中通过 Pyodide 和 Service Worker 运行 Python ASGI 应用。此前的 Datasette Lite 使用 Web Workers，但无法执行 `<script>` 标签中的 JavaScript。新方案由 Claude Opus 4.8 协助完成开发，解决了这一问题。作者已展示了基础的 ASGI FastCGI 演示和运行 Datasette 1.0a31 的演示，并计划后续将此方法应用于升级 Datasette Lite。"
-        },
-        {
-          "id": "d4ffc4bdeeef",
-          "title": "NVIDIA 或将于六月发布整合 Blackwell GPU 与 AI 单元的 ARM 笔记本芯片 N1X",
-          "url": "https://x.com/AYi_AInotes/status/2060779431648547016",
-          "source": "aihot",
-          "source_name": "X：阿易 AI Notes (@AYi_AInotes)",
-          "category": "tip",
-          "published_at": "2026-05-30T17:44:38.000Z",
-          "summary": "NVIDIA、微软与 Arm 同步发布指向台北音乐中心的坐标，暗示 6 月 1 日发布会将有重大动作。此举被认为是 NVIDIA 与联发科合作的 ARM 笔记本芯片 N1X 的预告。该芯片整合了 CPU、基于 Blackwell 架构的 GPU 及 AI 单元，目标是使轻薄本具备接近 RTX 4070 的图形性能。这标志着 NVIDIA 的战略转变：从显卡供应商，转型为定义整机核心方案的提供商，将直接冲击 Intel、AMD 和高通在 PC 市场的地位。"
-        },
-        {
-          "id": "2da3c7b7efa6",
-          "title": "随着成本飙升，美国企业开始对人工智能实施配给",
-          "url": "https://www.wsj.com/tech/ai/corporate-america-is-starting-to-ration-ai-as-cost-skyrockets-1eb99d7a",
-          "source": "aihot",
-          "source_name": "Hacker News 热门（buzzing.cc 中文翻译）",
-          "category": "tip",
-          "published_at": "2026-05-30T15:40:48.502Z",
-          "summary": "由于运行和使用AI工具的成本持续飙升，美国企业正开始对人工智能的使用实施配给制。企业通过限制使用量、设置分层级审批流程等方式控制开支，以应对AI费用增长过快的问题。这种从广泛采用转向精细化管理的策略，标志着企业在AI应用上从追求速度转向注重成本效益。"
-        },
-        {
-          "id": "4090cb438d78",
-          "title": "免费领取6个月ChatGPT Pro及AI工具思考",
-          "url": "https://x.com/AYi_AInotes/status/2060740414273941874",
-          "source": "aihot",
-          "source_name": "X：阿易 AI Notes (@AYi_AInotes)",
-          "category": "tip",
-          "published_at": "2026-05-30T15:09:36.000Z",
-          "summary": "OpenAI为开源项目维护者提供福利，可免费领取6个月ChatGPT Pro（价值$1200），申请无硬性Star数要求，有项目链接即可。同时，文章引用讨论了AI工具的分类：一类是\"agent型\"（如Claude Code、Codex），可自主运行；另一类是\"实习生型\"（如Cursor），需人工决策，有助于使用者以术入道、培养判断力，但受限于需人在场。作者推荐了网易的UU远程工具，称其免费两年，支持4K 144帧无延迟连接Mac并可使用原生终端，解决了\"实习生型\"工具的地点限制问题。"
         }
       ]
     },
     "industry": {
       "label": "industry",
       "items": [
+        {
+          "id": "05384e60bf0c",
+          "title": "Alphabet将通过发行股票筹集800亿美元用于AI支出计划",
+          "url": "https://www.bloomberg.com/news/articles/2026-06-01/alphabet-to-raise-80-billion-in-equity-capital-for-ai-spending",
+          "source": "aihot",
+          "source_name": "Bloomberg：Technology（RSS）",
+          "category": "industry",
+          "published_at": "2026-06-01T20:50:33.000Z",
+          "summary": "Alphabet正在通过发行股票等方式筹集800亿美元资金，其中包括与Berkshire Hathaway的投资协议，以资助其雄心勃勃的AI支出计划。"
+        },
+        {
+          "id": "b2369c29c1f0",
+          "title": "Meta的AI被利用来劫持Instagram账号",
+          "url": "https://www.theverge.com/tech/941179/meta-instagram-ai-support-chatbot-exploit-hacked",
+          "source": "aihot",
+          "source_name": "The Verge：订阅版科技（RSS）",
+          "category": "industry",
+          "published_at": "2026-06-01T19:20:47.000Z",
+          "summary": "Meta的AI聊天机器人被发现存在安全漏洞，黑客可以通过请求该AI关联一个新的电子邮件地址，从而接管目标用户的Instagram账号。该漏洞利用了AI智能体直接执行账户管理操作的能力。"
+        },
+        {
+          "id": "3c2d8da9471c",
+          "title": "佛罗里达州起诉OpenAI与Sam Altman：涉多起ChatGPT相关谋杀案",
+          "url": "https://arstechnica.com/tech-policy/2026/06/florida-sues-openai-sam-altman-after-multiple-chatgpt-linked-murders",
+          "source": "aihot",
+          "source_name": "Ars Technica：AI（RSS）",
+          "category": "industry",
+          "published_at": "2026-06-01T18:52:19.000Z",
+          "summary": "佛罗里达州对OpenAI及其CEO Sam Altman提起诉讼。该州总检察长指控Altman对人命\"完全漠视\"，案件与多起涉及ChatGPT的谋杀事件相关。"
+        },
         {
           "id": "d9e4d8c31c62",
           "title": "Anthropic 保密向 SEC 提交 S-1 草案",
@@ -628,6 +641,16 @@
           "category": "industry",
           "published_at": "2026-06-01T12:34:05.000Z",
           "summary": "美团2026年第一季度财报显示营收910.39亿元，净利润亏损68.27亿元。财报电话会上，CEO王兴透露其AI Agent\"小美\"将与腾讯元宝深度合作。用户在腾讯元宝中提交本地服务需求，将被无缝连接至美团的外卖点餐、配送等生态。王兴强调，面向智能体的服务（To A）正变得日益重要，美团已将AI助手\"小团\"置于App核心位置，并拓展AI服务外延。"
+        },
+        {
+          "id": "0db11014039a",
+          "title": "OpenAI在密歇根州启动Stargate 1GW数据中心建设",
+          "url": "https://openai.com/index/stargate-michigan-data-center",
+          "source": "aihot",
+          "source_name": "OpenAI：官网动态（RSS · 排除企业/客户案例）",
+          "category": "industry",
+          "published_at": "2026-06-01T12:00:00.000Z",
+          "summary": "OpenAI在密歇根州启动了名为Stargate的1GW数据中心项目。作为AI基础设施建设的一部分，该项目旨在扩大人工智能技术的可及性、为当地创造就业机会并支持社区发展。"
         },
         {
           "id": "ee89d121c1cf",
@@ -688,26 +711,6 @@
           "category": "industry",
           "published_at": "2026-06-01T00:55:00.000Z",
           "summary": "全球首次\"人形机器人点球大战\"将于2026年6月在MWC上海举行。8支中国顶尖具身智能战队将进行自主对抗，无需人工操控或预设脚本。赛事旨在集中展示人形机器人在动态平衡、精准控制与自主决策等方面的技术突破。"
-        },
-        {
-          "id": "0f5272079689",
-          "title": "据报道：软银将在法国投资750亿欧元用于AI",
-          "url": "https://www.bloomberg.com/news/articles/2026-05-30/softbank-to-invest-some-75-billion-in-ai-in-france-reports-say",
-          "source": "aihot",
-          "source_name": "Bloomberg：Technology（RSS）",
-          "category": "industry",
-          "published_at": "2026-05-30T18:55:33.000Z",
-          "summary": "软银集团计划投资高达750亿欧元（约合870亿美元），用于在法国建设人工智能数据中心。该投资计划由《论坛报》与《金融时报》报道。"
-        },
-        {
-          "id": "86341e00d3c5",
-          "title": "\"开玩笑吧\"：GitHub Copilot 新的基于 token 的计费模式引发开发者不满",
-          "url": "https://techcrunch.com/2026/05/30/what-a-joke-github-copilots-new-token-based-billing-spurs-consternation-among-devs",
-          "source": "aihot",
-          "source_name": "TechCrunch：AI（RSS）",
-          "category": "industry",
-          "published_at": "2026-05-30T16:30:00.000Z",
-          "summary": "微软旗下 GitHub Copilot 的黄金时代似乎正在终结。其新推出的计费模式改为按 token 计量，这一变化引发了开发者的广泛担忧与不满。"
         }
       ]
     }
