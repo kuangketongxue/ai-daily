@@ -1,10 +1,12 @@
 {
   "date": "2026-06-01",
-  "generated_at": "2026-06-01T22:17:18.550503",
-  "total": 64,
+  "generated_at": "2026-06-01T23:57:21.125745",
+  "total": 67,
   "sources": {
     "Hugging Face": 8,
     "GitHub AI": 6,
+    "X：Rohan Paul (@rohanpaul_ai)": 1,
+    "X：ChatGPT (@ChatGPTapp)": 1,
     "X：Krea AI (@krea_ai)": 1,
     "Bloomberg：Technology（RSS）": 1,
     "X：Replit (@Replit)": 1,
@@ -33,6 +35,7 @@
     "X：阿里云 / Alibaba Cloud (@alibaba_cloud)": 1,
     "Runway：News（网页）": 2,
     "X：腾讯混元 (@TencentHunyuan)": 1,
+    "Cursor Blog": 1,
     "NVIDIA Blog：Generative AI（网页）": 1,
     "NVIDIA Blog：Agentic AI（网页）": 2,
     "NVIDIA Technical Blog（开发者技术博客 · RSS）": 4,
@@ -123,6 +126,16 @@
       "label": "🚀 AI 产品",
       "items": [
         {
+          "id": "644853c51537",
+          "title": "ChatGPT 新增长文编辑与保存功能",
+          "url": "https://x.com/ChatGPTapp/status/2061571468992126982",
+          "source": "aihot",
+          "source_name": "X：ChatGPT (@ChatGPTapp)",
+          "category": "ai-products",
+          "published_at": "2026-06-01T22:11:55.000Z",
+          "summary": "长文写作需要更多空间。\n\n现在你可以在全屏模式下编辑更长的文章，并将其保存到你的资料库中，以便稍后继续。"
+        },
+        {
           "id": "69cc23c12287",
           "title": "Krea AI 开放 Krea 2 LoRAs 全员使用",
           "url": "https://x.com/krea_ai/status/2061554472925696128",
@@ -211,6 +224,16 @@
           "category": "ai-products",
           "published_at": "2026-06-01T09:01:25.000Z",
           "summary": "腾讯混元正式发布专为OpenClaw等长期协作智能体（Agent）设计的记忆插件 Hy-Memory。它基于6层记忆框架、System1/System2双系统与三层进化链构建，旨在成为智能体的\"第二大脑\"。该插件解决了记忆碎片化问题，实现了显著性能提升：记忆数量减少70%以上，单条记忆信息密度提升45%以上，在超长上下文场景中token消耗降低35%，记忆更新速度提升20%。"
+        },
+        {
+          "id": "1a754ee77041",
+          "title": "Cursor Teams计划定价方案更新",
+          "url": "https://cursor.com/blog/teams-pricing-june-2026",
+          "source": "aihot",
+          "source_name": "Cursor Blog",
+          "category": "ai-products",
+          "published_at": "2026-06-01T07:00:00.000Z",
+          "summary": "Cursor Teams计划推出三项更新：增加Composer特定使用池，将第一方模型（Composer和Auto）与第三方API的使用额度分开计费；推出Premium席位，提供5倍于标准席位（$40/月）的使用量，价格为$96/月（年付）；仪表盘现可实时显示用户额度使用情况，管理员可通过Slack或邮件配置智能提醒。"
         },
         {
           "id": "c47ce378f561",
@@ -344,7 +367,7 @@
           "source": "GitHub AI",
           "source_name": "GitHub AI",
           "category": "ai-tools",
-          "published_at": "2026-06-01T22:17:17.319327+00:00",
+          "published_at": "2026-06-01T23:57:16.774264+00:00",
           "summary": "Examples and guides for using the OpenAI API"
         },
         {
@@ -354,7 +377,7 @@
           "source": "GitHub AI",
           "source_name": "GitHub AI",
           "category": "ai-tools",
-          "published_at": "2026-06-01T22:17:17.319213+00:00",
+          "published_at": "2026-06-01T23:57:16.774146+00:00",
           "summary": "Port of OpenAI's Whisper model in C/C++"
         },
         {
@@ -364,7 +387,7 @@
           "source": "GitHub AI",
           "source_name": "GitHub AI",
           "category": "ai-tools",
-          "published_at": "2026-06-01T22:17:17.318118+00:00",
+          "published_at": "2026-06-01T23:57:16.773046+00:00",
           "summary": "Servo aims to empower developers with a lightweight, high-performance alternative for embedding web technologies in applications."
         },
         {
@@ -374,7 +397,7 @@
           "source": "GitHub AI",
           "source_name": "GitHub AI",
           "category": "ai-tools",
-          "published_at": "2026-06-01T22:17:17.317950+00:00",
+          "published_at": "2026-06-01T23:57:16.772868+00:00",
           "summary": "Stable Diffusion web UI"
         },
         {
@@ -384,7 +407,7 @@
           "source": "GitHub AI",
           "source_name": "GitHub AI",
           "category": "ai-tools",
-          "published_at": "2026-06-01T22:17:17.317690+00:00",
+          "published_at": "2026-06-01T23:57:16.772629+00:00",
           "summary": "Financial data platform for analysts, quants and AI agents."
         },
         {
@@ -394,7 +417,7 @@
           "source": "GitHub AI",
           "source_name": "GitHub AI",
           "category": "ai-tools",
-          "published_at": "2026-06-01T22:17:17.317504+00:00",
+          "published_at": "2026-06-01T23:57:16.772443+00:00",
           "summary": "Qlib is an AI-oriented Quant investment platform that aims to use AI tech to empower Quant Research, from exploring ideas to implementing productions. Qlib supports diverse ML modeling paradigms, including supervised learning, market dynamics modeling, and RL, and is now equipped withhttps://github.com/microsoft/RD-Agentto automate R&D process."
         }
       ]
@@ -437,6 +460,16 @@
     "tip": {
       "label": "💡 技巧",
       "items": [
+        {
+          "id": "9d56d9f73f70",
+          "title": "Sam Altman强调AI发展应以人为本",
+          "url": "https://x.com/rohanpaul_ai/status/2061586179292831774",
+          "source": "aihot",
+          "source_name": "X：Rohan Paul (@rohanpaul_ai)",
+          "category": "tip",
+          "published_at": "2026-06-01T23:10:22.000Z",
+          "summary": "Sam Altman在采访中表示，AI不应被设计为追求脱离人类需求的目标，人类必须始终处于AI发展的中心。他批判了行业内\"AI将摧毁大量工作\"等言论，认为人们担忧的并非AI带来的好处，而是自身在未来的角色、经济前景与自主权。他指出，AI行业的失败在于未能清晰解释人类如何在每一步保持对未来的控制权，以及如何在AI时代继续拥有充实、有意义的生活。"
+        },
         {
           "id": "7d0489bfbe00",
           "title": "Google AI 展示并行子智能体自动整理文件",
