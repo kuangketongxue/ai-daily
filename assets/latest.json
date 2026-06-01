@@ -1,44 +1,43 @@
 {
   "date": "2026-06-01",
-  "generated_at": "2026-06-01T02:02:23.326973",
-  "total": 60,
+  "generated_at": "2026-06-01T07:22:48.947792",
+  "total": 61,
   "sources": {
     "Hugging Face": 8,
     "GitHub AI": 1,
-    "IT之家（RSS）": 2,
+    "IT之家（RSS）": 4,
+    "Runway：News（网页）": 1,
+    "NVIDIA Blog：Generative AI（网页）": 1,
+    "NVIDIA Blog：Agentic AI（网页）": 2,
+    "NVIDIA Technical Blog（开发者技术博客 · RSS）": 5,
+    "X：NVIDIA AI (@NVIDIAAI)": 2,
+    "MiniMax：Blog（网页）": 1,
     "X：Sam Altman (@sama)": 2,
-    "X：opencode (@opencode)": 2,
+    "X：opencode (@opencode)": 1,
     "Claude Code：GitHub Releases（RSS）": 1,
     "X：Kim (@kimmonismus)": 1,
     "Hacker News 热门（buzzing.cc 中文翻译）": 4,
     "Gary Marcus：The Road to AI We Can Trust（RSS）": 1,
     "Simon Willison 博客": 1,
     "Bloomberg：Technology（RSS）": 3,
-    "X：NVIDIA AI (@NVIDIAAI)": 1,
     "X：阿易 AI Notes (@AYi_AInotes)": 2,
-    "TechCrunch：AI（RSS）": 3,
+    "TechCrunch：AI（RSS）": 2,
     "The Verge：AI（RSS）": 1,
     "X：Google AI for Developers (@googleaidevs)": 2,
     "X：阶跃星辰 StepFun (@StepFun_ai)": 1,
     "X：SemiAnalysis (@SemiAnalysis_)": 1,
     "X：阿里云 / Alibaba Cloud (@alibaba_cloud)": 1,
-    "X：OpenRouter (@OpenRouter)": 2,
-    "NVIDIA Technical Blog（开发者技术博客 · RSS）": 2,
+    "X：OpenRouter (@OpenRouter)": 1,
     "X：洪明 (@hongming731)": 1,
     "X：Greg Brockman (@gdb)": 2,
     "X：ChatGPT (@ChatGPTapp)": 1,
     "X：Luma AI (@LumaLabsAI)": 1,
     "X：Runway (@runwayml)": 1,
     "Google Blog：AI（RSS）": 1,
-    "X：Gemini (@GeminiApp)": 2,
+    "X：Gemini (@GeminiApp)": 1,
     "X：OpenAI (@OpenAI)": 1,
     "X：Rohan Paul (@rohanpaul_ai)": 1,
-    "X：Fei-Fei Li (@drfeifei, World Labs)": 1,
-    "X：Google AI (@GoogleAI)": 1,
-    "X：Replit (@Replit)": 1,
-    "X：可灵 Kling AI (@Kling_ai)": 1,
-    "OpenRouter：Announcements（RSS）": 1,
-    "OpenAI：官网动态（RSS · 排除企业/客户案例）": 2
+    "X：Fei-Fei Li (@drfeifei, World Labs)": 1
   },
   "ai_processed": false,
   "categories": {
@@ -46,14 +45,34 @@
       "label": "🧠 AI 模型",
       "items": [
         {
-          "id": "b8e8732675f4",
-          "title": "MiniMax M3即将发布，可免费试用",
-          "url": "https://x.com/opencode/status/2061233503337906187",
+          "id": "b436b1bca769",
+          "title": "使用NVIDIA Cosmos 3开发物理AI推理、世界与行动模型",
+          "url": "https://developer.nvidia.com/blog/develop-physical-ai-reasoning-world-and-action-models-with-nvidia-cosmos-3",
           "source": "aihot",
-          "source_name": "X：opencode (@opencode)",
+          "source_name": "NVIDIA Technical Blog（开发者技术博客 · RSS）",
           "category": "ai-models",
-          "published_at": "2026-05-31T23:48:57.000Z",
-          "summary": "MiniMax M3即将发布\n你现在就可以在OpenCode中免费试用"
+          "published_at": "2026-06-01T04:43:58.000Z",
+          "summary": "NVIDIA Cosmos 3是一款面向物理AI的前沿基础模型。它能够帮助机器人、自动驾驶车辆和智能空间理解真实世界、预测事件发展并生成适应特定环境与任务的行动。该模型融合了物理推理、世界理解与行动生成能力。"
+        },
+        {
+          "id": "0a2eb1e4807d",
+          "title": "Nemotron 3 Ultra 本周即将发布",
+          "url": "https://x.com/NVIDIAAI/status/2061305524700758050",
+          "source": "aihot",
+          "source_name": "X：NVIDIA AI (@NVIDIAAI)",
+          "category": "ai-models",
+          "published_at": "2026-06-01T04:35:08.000Z",
+          "summary": "Nemotron 3 Ultra 本周即将发布。 ⌛️"
+        },
+        {
+          "id": "72308bd2fabe",
+          "title": "MiniMax M3：前沿编码、100万token上下文与原生多模态一体模型",
+          "url": "https://www.minimax.io/blog/minimax-m3",
+          "source": "aihot",
+          "source_name": "MiniMax：Blog（网页）",
+          "category": "ai-models",
+          "published_at": "2026-06-01T03:39:41.634Z",
+          "summary": "MiniMax M3 是一个开源前沿模型，具备先进的编码与AI智能体能力。它支持100万token的超长上下文窗口，并采用名为MSA（MiniMax Sparse Attention）的新型稀疏注意力架构。该架构使模型在100万token上下文下的每token计算成本降至前代的1/20，预填充速度提升9倍以上，解码速度提升15倍以上。在SWE-Bench Pro编码基准上，MiniMax M3得分59.0%，超越GPT-5.5和Gemini 3.1 Pro，性能接近Opus 4.7。该模型可通过MiniMax Code、Token Plan和API服务使用。"
         },
         {
           "id": "144c130948ef",
@@ -90,6 +109,46 @@
     "ai-products": {
       "label": "🚀 AI 产品",
       "items": [
+        {
+          "id": "c47ce378f561",
+          "title": "NVIDIA 发布工厂运营蓝图，为工厂提供自主智能管理智能体",
+          "url": "https://blogs.nvidia.com/blog/factory-operations-fox-blueprint-ai-brain",
+          "source": "aihot",
+          "source_name": "NVIDIA Blog：Agentic AI（网页）",
+          "category": "ai-products",
+          "published_at": "2026-06-01T05:00:47.000Z",
+          "summary": "NVIDIA 在 GTC Taipei 发布了 NVIDIA 工厂运营蓝图（FOX），这是一个用于构建自主工厂管理智能体的参考设计。该蓝图基于 NVIDIA NemoClaw、AI-Q Blueprint 和 NVIDIA Nemotron 开源模型构建，旨在为工厂提供一个统一的决策层，以连接实时机器信号、质量数据和操作警报，实现快速问题解决。蓝图针对 NVIDIA DGX Station 桌面 AI 超级计算机进行了优化。首批采用者包括富士康、和硕、研华和纬创。富士康利用 FOX 和 NemoClaw 构建了 MoMClaw 多智能体系统，预计将根源分析时间缩短 80%，劳动生产率提高 15%，机器故障率降低 10%。"
+        },
+        {
+          "id": "8d5bed95b082",
+          "title": "NVIDIA 发布 RTX Spark 及本地 AI 智能体安全与性能更新",
+          "url": "https://blogs.nvidia.com/blog/rtx-ai-garage-computex-spark-local-agents",
+          "source": "aihot",
+          "source_name": "NVIDIA Blog：Agentic AI（网页）",
+          "category": "ai-products",
+          "published_at": "2026-06-01T04:30:11.000Z",
+          "summary": "NVIDIA 发布了 RTX Spark，一款专为本地 AI 智能体设计的 Windows 电脑，提供 1 petaflops AI 算力与 128GB 统一内存。其推出的 OpenShell 运行时与微软合作，基于新的 Windows 安全原语，确保智能体在设备端安全私密运行。性能方面，通过在 llama.cpp 中采用多 token 预测等优化，Qwen 3.6 和 3.5 27B 模型推理吞吐量提升最高达 2 倍，35B 模型提升 1.6 倍；多 GPU 优化使 llama.cpp 和 ComfyUI 获得最高 2 倍性能提升。此外，Adobe、Blender 等应用也进行了更新。"
+        },
+        {
+          "id": "ba087a0e0549",
+          "title": "NVIDIA Vera CPU 为AI工厂的智能体工作负载设立新标准",
+          "url": "https://developer.nvidia.com/blog/nvidia-vera-cpu-sets-a-new-standard-for-agentic-workloads-in-ai-factories",
+          "source": "aihot",
+          "source_name": "NVIDIA Technical Blog（开发者技术博客 · RSS）",
+          "category": "ai-products",
+          "published_at": "2026-06-01T03:59:15.000Z",
+          "summary": "NVIDIA Vera CPU 旨在为AI工厂中智能体工作负载树立新性能标杆。文章阐述了AI领域扩展规律的演变：预训练通过更大数据集、更多参数和大规模并行GPU系统扩展智能；后训练通过指令微调扩展实用性，并重新调整GPU用于生成式推理；测试时缩放则通过给模型更多生成token来提升推理能力。当前，智能体AI与强化学习正推动下一阶段的扩展。"
+        },
+        {
+          "id": "534f2f9afc60",
+          "title": "NVIDIA DSX OS 提供开放、模块化软件用于规模化运营AI工厂",
+          "url": "https://developer.nvidia.com/blog/nvidia-dsx-os-delivers-open-modular-software-for-operating-ai-factories-at-scale",
+          "source": "aihot",
+          "source_name": "NVIDIA Technical Blog（开发者技术博客 · RSS）",
+          "category": "ai-products",
+          "published_at": "2026-06-01T03:36:52.000Z",
+          "summary": "NVIDIA DSX 平台为设计、模拟和构建 AI 工厂提供完整解决方案，旨在应对不断增长的智能需求。该平台通过开放、模块化的软件栈，帮助运营方更快地扩展规模、提高效率，并降低从能源、芯片、基础设施、模型到应用这五层架构的整体智能成本。"
+        },
         {
           "id": "2ac22fba7696",
           "title": "OpenAI发布生物防御AI工具Rosalind",
@@ -209,46 +268,6 @@
           "category": "ai-products",
           "published_at": "2026-05-29T18:30:34.000Z",
           "summary": "Windows用户，这条消息是给你的。\n\n计算机使用功能现已在Windows上可用，因此Codex可以在你的Windows电脑上执行操作。\n\n通过ChatGPT移动应用中Codex的Windows支持，你可以在工作继续在Windows电脑上进行时，随时随地启动、审查和引导任务。\n\n这是一项早期体验，但我们正在努力提供更多方式，让你的工作无论身在何处都能持续进行。"
-        },
-        {
-          "id": "a62630a68677",
-          "title": "OpenRouter支持模型生成文件补丁",
-          "url": "https://x.com/OpenRouter/status/2060395056196936054",
-          "source": "aihot",
-          "source_name": "X：OpenRouter (@OpenRouter)",
-          "category": "ai-products",
-          "published_at": "2026-05-29T16:17:16.000Z",
-          "summary": "OpenRouter 现已支持 \"apply_patch\"，这是一个服务器工具，允许任何模型通过 Responses API 使用 V4A diffs 提出文件编辑建议。\n\n模型生成一个补丁（创建、更新或删除文件）。OpenRouter 在服务器端验证 diff 语法。"
-        },
-        {
-          "id": "f23c65cee329",
-          "title": "Canvas新功能与Clerk自定义登录介绍",
-          "url": "https://x.com/Replit/status/2060390354910859401",
-          "source": "aihot",
-          "source_name": "X：Replit (@Replit)",
-          "category": "ai-products",
-          "published_at": "2026-05-29T15:58:35.000Z",
-          "summary": "Canvas 新功能 + 使用 Clerk 自定义登录 https：//x.com/i/broadcasts/1pJdRRzreMRKW"
-        },
-        {
-          "id": "3ed5bf8ff028",
-          "title": "Gemini 本月更新：全新界面与智能体助手",
-          "url": "https://x.com/GeminiApp/status/2060389565052096911",
-          "source": "aihot",
-          "source_name": "X：Gemini (@GeminiApp)",
-          "category": "ai-products",
-          "published_at": "2026-05-29T15:55:27.000Z",
-          "summary": "从全新设计的 Gemini 界面，到 Gemini Spark 提供的全天候智能体辅助，以下是本月 Gemini 更新概览。🧵"
-        },
-        {
-          "id": "e590c1735495",
-          "title": "Guardrails：保护你的智能体、数据与成本",
-          "url": "https://openrouter.ai/announcements/guardrails",
-          "source": "aihot",
-          "source_name": "OpenRouter：Announcements（RSS）",
-          "category": "ai-products",
-          "published_at": "2026-05-29T12:00:00.000Z",
-          "summary": "Guardrails 是一套可配置的安全与治理工具，提供预算执行、零数据保留、模型与提供商限制、提示词注入防御及数据丢失预防等功能，旨在保护智能体（Agents）、数据与控制成本。"
         }
       ]
     },
@@ -296,16 +315,6 @@
           "summary": ""
         },
         {
-          "id": "c9661f3916b7",
-          "title": "Towards Speed-of-Light Text Generation with Nemotron-Labs Diffusion Language Models",
-          "url": "https://huggingface.co/blog/nvidia/nemotron-labs-diffusion",
-          "source": "Hugging Face",
-          "source_name": "Hugging Face",
-          "category": "ai-tools",
-          "published_at": "Sat, 23 May 2026 00:02:03 GMT",
-          "summary": ""
-        },
-        {
           "id": "834587a4b2c9",
           "title": "Harness, Scaffold, and the AI Agent Terms Worth Getting Right",
           "url": "https://huggingface.co/blog/agent-glossary",
@@ -313,6 +322,16 @@
           "source_name": "Hugging Face",
           "category": "ai-tools",
           "published_at": "Mon, 25 May 2026 00:00:00 GMT",
+          "summary": ""
+        },
+        {
+          "id": "c9a1a7ce23cf",
+          "title": "Welcome NVIDIA Cosmos 3: The First Open Omni-model for Physical AI Reasoning and Action",
+          "url": "https://huggingface.co/blog/nvidia/cosmos-3-for-physical-ai",
+          "source": "Hugging Face",
+          "source_name": "Hugging Face",
+          "category": "ai-tools",
+          "published_at": "Mon, 01 Jun 2026 04:44:55 GMT",
           "summary": ""
         },
         {
@@ -342,7 +361,7 @@
           "source": "GitHub AI",
           "source_name": "GitHub AI",
           "category": "ai-tools",
-          "published_at": "2026-06-01T02:02:22.074305+00:00",
+          "published_at": "2026-06-01T07:22:44.207922+00:00",
           "summary": "Implementation of Vision Transformer, a simple way to achieve SOTA in vision classification with only a single transformer encoder, in Pytorch"
         }
       ]
@@ -385,6 +404,16 @@
     "tip": {
       "label": "💡 技巧",
       "items": [
+        {
+          "id": "0278092d1998",
+          "title": "如何使用 NVIDIA Alpamayo 在闭环中后训练自动驾驶模型",
+          "url": "https://developer.nvidia.com/blog/how-to-post-train-autonomous-vehicle-models-in-closed-loop-with-nvidia-alpamayo",
+          "source": "aihot",
+          "source_name": "NVIDIA Technical Blog（开发者技术博客 · RSS）",
+          "category": "tip",
+          "published_at": "2026-06-01T04:49:15.000Z",
+          "summary": "开发自动驾驶策略需要弥合训练与部署之间的鸿沟。现有的视觉-语言-动作模型虽然能推理更复杂的驾驶场景并产生更丰富的中间推理，但主要在开放循环中训练，即模型输出与真实行为直接比较，而不考虑其对环境产生的实际影响。NVIDIA Alpamayo 提供了一种在闭环环境中进行后训练的方法。"
+        },
         {
           "id": "c3c12c949229",
           "title": "我花200英镑把一台数据中心级GPU装进了我的游戏电脑",
@@ -514,62 +543,52 @@
           "category": "tip",
           "published_at": "2026-05-29T17:14:41.000Z",
           "summary": "Kog团队在标准数据中心GPU上实现了极高的单用户推理速度，在8× AMD MI300X GPUs上达到3，000 tokens/s，在8× NVIDIA H200上达到2，100 tokens/s。相比常规推理速度（约100-300 tokens/s），实现了10-30倍提升。其核心思路是将LLM解码视为内存流问题，通过协同设计monokernel、重建同步机制、针对性内存访问映射及采用延迟张量并行的Laneformer模型架构，消除了传统流程的阻塞点。"
-        },
-        {
-          "id": "781d8dc52b8a",
-          "title": "Cognition的Scott Wu表示：AI编程智能体不应取代人类",
-          "url": "https://techcrunch.com/2026/05/29/cognitions-scott-wu-says-ai-coding-agents-shouldnt-replace-humans",
-          "source": "aihot",
-          "source_name": "TechCrunch：AI（RSS）",
-          "category": "tip",
-          "published_at": "2026-05-29T16:13:47.000Z",
-          "summary": "Cognition公司开发了Devvin，这是一个号称首个且最成功的AI编程智能体。其著名程序员创始人Scott Wu明确表示，该智能体并非旨在取代人类程序员。"
-        },
-        {
-          "id": "f182f6eb2051",
-          "title": "Gemini架构师分享AI前沿探索幕后故事",
-          "url": "https://x.com/GoogleAI/status/2060392191508488493",
-          "source": "aihot",
-          "source_name": "X：Google AI (@GoogleAI)",
-          "category": "tip",
-          "published_at": "2026-05-29T16:05:53.000Z",
-          "summary": "聆听Gemini的架构师们回顾他们持续推动AI前沿的旅程，本期Release Notes节目。\n\n@JeffDean、@koraykv、@OriolVinyalsML和@NoamShazeer一同出镜，分享模型背后团队的幕后故事，以及他们如何见证愿景的实现。"
-        },
-        {
-          "id": "a27fabde0e72",
-          "title": "如何使用 NVIDIA MCG Toolkit 实现 AI 模型文档自动化",
-          "url": "https://developer.nvidia.com/blog/how-to-automate-ai-model-documentation-with-the-nvidia-mcg-toolkit",
-          "source": "aihot",
-          "source_name": "NVIDIA Technical Blog（开发者技术博客 · RSS）",
-          "category": "tip",
-          "published_at": "2026-05-29T16:00:00.000Z",
-          "summary": "随着 AI 模型复杂性增加及加州 AB-2013、欧盟 AI 法案等监管框架加强，软件团队面临在模型发布前生成全面、可审计文档的挑战。NVIDIA MCG Toolkit 旨在自动化模型卡创建流程，该文档需涵盖模型工作原理、预期用途、许可证、训练数据与性能等关键信息。"
-        },
-        {
-          "id": "1c870216fa61",
-          "title": "Kling AI助力电影RAPHAEL创作全流程揭秘",
-          "url": "https://x.com/Kling_ai/status/2060375625404432757",
-          "source": "aihot",
-          "source_name": "X：可灵 Kling AI (@Kling_ai)",
-          "category": "tip",
-          "published_at": "2026-05-29T15:00:03.000Z",
-          "summary": "Kling AI戛纳展示--RAPHAEL：AI工作流幕后\n\n深入了解RAPHAEL，一部使用Kling AI创作的AI驱动故事片。看看创作者如何在整个电影制作流程中运用Kling AI，从创意构思到最终电影画面，简化制作并释放新的创作可能性。"
-        },
-        {
-          "id": "af081089c1f2",
-          "title": "Braintrust如何用Codex将客户请求转化为代码",
-          "url": "https://openai.com/index/braintrust",
-          "source": "aihot",
-          "source_name": "OpenAI：官网动态（RSS · 排除企业/客户案例）",
-          "category": "tip",
-          "published_at": "2026-05-29T12:00:00.000Z",
-          "summary": "Braintrust的工程师正在使用Codex结合GPT-5.5模型，以加速其实验运行与代码编写的流程。"
         }
       ]
     },
     "industry": {
       "label": "industry",
       "items": [
+        {
+          "id": "12db859bb25f",
+          "title": "英伟达和台积电将 AI 引入晶圆厂，推动半导体设计与制造发展",
+          "url": "https://www.ithome.com/0/958/109.htm",
+          "source": "aihot",
+          "source_name": "IT之家（RSS）",
+          "category": "industry",
+          "published_at": "2026-06-01T06:13:32.000Z",
+          "summary": null
+        },
+        {
+          "id": "39efedcf936c",
+          "title": "介绍Cosmos Coalition",
+          "url": "https://runwayml.com/news/introducing-cosmos-coalition",
+          "source": "aihot",
+          "source_name": "Runway：News（网页）",
+          "category": "industry",
+          "published_at": "2026-06-01T05:24:22.746Z",
+          "summary": "Runway宣布作为创始成员加入Cosmos Coalition，该联盟与NVIDIA及多家领先AI实验室合作，旨在构建并开源面向物理AI的前沿世界模型。首个项目将由Runway与NVIDIA共同开发一个基础模型，以推动下一代开放世界模型的研究与发展。"
+        },
+        {
+          "id": "bde7ed5912fe",
+          "title": "NVIDIA与Google Cloud助力下一波AI构建者",
+          "url": "https://blogs.nvidia.com/blog/category/enterprise/cloud-2",
+          "source": "aihot",
+          "source_name": "NVIDIA Blog：Generative AI（网页）",
+          "category": "industry",
+          "published_at": "2026-06-01T05:00:56.000Z",
+          "summary": "在Google I/O大会上，NVIDIA与Google Cloud宣布深化合作，旨在支持其联合开发者社区中超过10万名开发者。合作将重点提供NVIDIA L4 Tensor Core GPU以优化AI推理与图形工作负载，并通过支持Vertex AI平台来增强Gemini模型性能。双方还将提供开源软件工具，以简化AI应用的构建与部署流程。"
+        },
+        {
+          "id": "e62c23db2d21",
+          "title": "上海：支持多模态智能体开发与应用，有序推进智能驾驶在共享出行、物流运输等多场景应用",
+          "url": "https://www.ithome.com/0/957/985.htm",
+          "source": "aihot",
+          "source_name": "IT之家（RSS）",
+          "category": "industry",
+          "published_at": "2026-06-01T02:16:40.000Z",
+          "summary": "上海市人民政府办公厅印发《上海市服务业发展\"十五五\"规划》，提出发展AI软件技术及服务产业集群。规划支持多模态智能体开发与应用，推动智能客服等工具规模化；有序推进智能驾驶在共享出行、物流运输等多场景应用；做强算运存协同布局的智算云网络，推广模型即服务（MaaS）；并支持开发面向家庭、养老、文旅等场景的具身智能整机产品，加速机器人向通用智能与精细化服务跃升。"
+        },
         {
           "id": "13a7e65aee47",
           "title": "全球首次：MWC26 上海将举办\"人形机器人点球大战\"，宇树科技等 8 支队伍参赛、参演",
@@ -649,16 +668,6 @@
           "category": "industry",
           "published_at": "2026-05-29T17:26:32.000Z",
           "summary": "Anthropic在最新融资轮中筹集了650亿美元，融资后公司估值达到9650亿美元，首次超越竞争对手OpenAI的估值水平。"
-        },
-        {
-          "id": "163d7e222df1",
-          "title": "波士顿儿童医院利用AI解锁新诊断",
-          "url": "https://openai.com/index/boston-childrens-hospital",
-          "source": "aihot",
-          "source_name": "OpenAI：官网动态（RSS · 排除企业/客户案例）",
-          "category": "industry",
-          "published_at": "2026-05-29T12:00:00.000Z",
-          "summary": "波士顿儿童医院通过部署OpenAI技术，用于改善患者护理并减轻运营负担，成功帮助诊断了超过40种罕见病病例。"
         }
       ]
     },
