@@ -1,53 +1,69 @@
 {
   "date": "2026-06-02",
-  "generated_at": "2026-06-02T13:01:49.747035",
-  "total": 62,
+  "generated_at": "2026-06-02T17:50:03.743772",
+  "total": 78,
   "sources": {
+    "Hugging Face": 8,
     "GitHub AI": 7,
+    "X：NVIDIA AI (@NVIDIAAI)": 2,
+    "X：Google DeepMind (@GoogleDeepMind)": 1,
+    "Claude：Blog（网页）": 1,
+    "X：Vista (@vista8)": 2,
+    "TechCrunch：AI（RSS）": 1,
+    "X：OpenAI (@OpenAI)": 1,
+    "X：OpenRouter (@OpenRouter)": 3,
+    "X：Replit (@Replit)": 2,
+    "The Verge：AI（RSS）": 1,
+    "Gary Marcus：The Road to AI We Can Trust（RSS）": 1,
+    "X：商汤 SenseTime (@SenseTime_AI)": 2,
+    "Hugging Face：Blog（RSS）": 3,
+    "X：Nathan Lambert (@natolambert)": 1,
+    "X：面壁智能 OpenBMB (@OpenBMB)": 2,
+    "Anthropic：Newsroom（网页）": 2,
+    "The Verge：订阅版科技（RSS）": 2,
     "Anthropic：Transformer Circuits（可解释性研究）": 1,
-    "X：阿里云 / Alibaba Cloud (@alibaba_cloud)": 2,
-    "IT之家（RSS）": 5,
+    "X：阿里云 / Alibaba Cloud (@alibaba_cloud)": 1,
+    "IT之家（RSS）": 4,
+    "OpenAI：官网动态（RSS · 排除企业/客户案例）": 5,
+    "NVIDIA AI Blog": 1,
     "X：卡兹克 (@Khazix0918)": 1,
     "X：阶跃星辰 StepFun (@StepFun_ai)": 1,
-    "OpenAI：官网动态（RSS · 排除企业/客户案例）": 4,
-    "NVIDIA Technical Blog（开发者技术博客 · RSS）": 3,
-    "X：邵猛 (@shao__meng)": 1,
+    "NVIDIA Technical Blog（开发者技术博客 · RSS）": 2,
     "X：Rohan Paul (@rohanpaul_ai)": 2,
     "MiniMax：Blog（网页）": 1,
     "xAI：News（网页）": 1,
     "Qwen：Blog Retrieval（API）": 1,
-    "X：商汤 SenseTime (@SenseTime_AI)": 1,
-    "Hugging Face：Blog（RSS）": 2,
-    "X：NVIDIA AI (@NVIDIAAI)": 1,
-    "X：面壁智能 OpenBMB (@OpenBMB)": 1,
-    "X：OpenRouter (@OpenRouter)": 2,
-    "X：Replit (@Replit)": 1,
     "X：腾讯混元 (@TencentHunyuan)": 1,
-    "NVIDIA Blog：Agentic AI（网页）": 2,
+    "NVIDIA Blog：Agentic AI（网页）": 1,
     "X：ChatGPT (@ChatGPTapp)": 1,
     "X：Perplexity (@perplexity_ai)": 1,
-    "Anthropic：Newsroom（网页）": 1,
     "Bloomberg：Technology（RSS）": 1,
     "Ars Technica：AI（RSS）": 1,
-    "The Verge：订阅版科技（RSS）": 1,
-    "X：Vista (@vista8)": 1,
     "X：阿易 AI Notes (@AYi_AInotes)": 1,
     "X：Gemini (@GeminiApp)": 1,
     "X：Google AI for Developers (@googleaidevs)": 1,
     "Nathan Lambert：Interconnects（RSS）": 1,
     "X：Microsoft Research (@MSFTResearch)": 1,
+    "Tomer Tunguz 博客（VC 分析）": 1,
     "X：Krea AI (@krea_ai)": 1,
     "X：Luma AI (@LumaLabsAI)": 1,
-    "X：百度 Baidu (@Baidu_Inc)": 1,
-    "Runway：News（网页）": 2,
-    "Cursor Blog": 1,
-    "NVIDIA Blog：Generative AI（网页）": 3
+    "X：百度 Baidu (@Baidu_Inc)": 1
   },
   "ai_processed": false,
   "categories": {
     "ai-models": {
       "label": "🧠 AI 模型",
       "items": [
+        {
+          "id": "e4055a0696fb",
+          "title": "Holo3.1：快速本地计算机使用智能体",
+          "url": "https://huggingface.co/blog/Hcompany/holo31",
+          "source": "aihot",
+          "source_name": "Hugging Face：Blog（RSS）",
+          "category": "ai-models",
+          "published_at": "2026-06-02T14:13:23.000Z",
+          "summary": "Holo3.1 是基于 Qwen 模型家族的计算机使用智能体系列，旨在提升在桌面、网页和移动环境中的鲁棒性。新模型提供 0.8B、4B、9B 和 35B-A3B 四种尺寸，并首次发布量化检查点，包括 FP8、Q4 GGUF 和 NVFP4，以优化本地推理。在 AndroidWorld 基准测试中，35B-A3B 模型得分从 67% 提升至 79.3%。在 DGX Spark 上，NVFP4 量化相比 BF16 实现 1.74 倍 token 吞吐量提升，并将平均步骤时间从 6.8 秒缩短至 3.3 秒。模型支持函数调用协议，可在第三方智能体框架中部署。"
+        },
         {
           "id": "505d7d086260",
           "title": "阶跃星辰Step 3.7 Flash发布，专为高效推理设计",
@@ -134,6 +150,66 @@
       "label": "🚀 AI 产品",
       "items": [
         {
+          "id": "f47057c53afa",
+          "title": "Google DeepMind 发布 Gemini 多智能体科研系统",
+          "url": "https://x.com/GoogleDeepMind/status/2061857539977842793",
+          "source": "aihot",
+          "source_name": "X：Google DeepMind (@GoogleDeepMind)",
+          "category": "ai-products",
+          "published_at": "2026-06-02T17:08:39.000Z",
+          "summary": "我们相信 AI 可以成为专属研究伙伴，帮助发现下一个突破。\n\n隆重推出 Co-Scientist：我们最新的基于 Gemini 的多智能体系统，能够为复杂科学问题生成、辩论和演进新颖的假设 🧵"
+        },
+        {
+          "id": "d82c76b2d86f",
+          "title": "OpenAI Codex 发布 Python SDK，可直接嵌入应用",
+          "url": "https://x.com/vista8/status/2061846741885018296",
+          "source": "aihot",
+          "source_name": "X：Vista (@vista8)",
+          "category": "ai-products",
+          "published_at": "2026-06-02T16:25:45.000Z",
+          "summary": "这个有点厉害，Codex 出 Python SDK了。\n\n安装指令：pip install openai-codex\n\n整合到自己的代码中，相当于直接内置了顶级编程和生图Agent？\n\n最关键的是，可以复用 Codex 登录态。"
+        },
+        {
+          "id": "1319f9d0905a",
+          "title": "OpenAI Codex Sites 功能发布",
+          "url": "https://x.com/OpenAI/status/2061845949170045346",
+          "source": "aihot",
+          "source_name": "X：OpenAI (@OpenAI)",
+          "category": "ai-products",
+          "published_at": "2026-06-02T16:22:36.000Z",
+          "summary": "构建应用从未如此简单。\n通过 Sites，Codex 可以将你的工作、想法和计划转化为一个交互式网站或应用，你的团队可以通过一个 URL 进行探索、使用和分享。\n该功能将首先向 Business 和 Enterprise 计划推出，之后会更广泛地扩展。"
+        },
+        {
+          "id": "d6c4d3abf449",
+          "title": "DigitalOcean AI云服务上线OpenRouter",
+          "url": "https://x.com/OpenRouter/status/2061840338973806961",
+          "source": "aihot",
+          "source_name": "X：OpenRouter (@OpenRouter)",
+          "category": "ai-products",
+          "published_at": "2026-06-02T16:00:18.000Z",
+          "summary": "⚡ 新增服务商：DigitalOcean 的 AI-Native Cloud 现已在 OpenRouter 上线。\n提供高性能推理，覆盖热门开源权重模型。在 DeepSeek V3.2 的输出速度和延迟方面排名第一（数据来自 @ArtificialAnlys）。\n查看其数据并试用模型：https：//openrouter.ai/provider/digitalocean"
+        },
+        {
+          "id": "e7d99940f303",
+          "title": "Replit Canvas 推出多项新功能",
+          "url": "https://x.com/Replit/status/2061840304534102036",
+          "source": "aihot",
+          "source_name": "X：Replit (@Replit)",
+          "category": "ai-products",
+          "published_at": "2026-06-02T16:00:10.000Z",
+          "summary": "Replit Canvas 有一些新更新！⭐️\n\n了解更多请访问：http：//replit.com/canvas\n\n展开讨论 🧵 ↓"
+        },
+        {
+          "id": "b664af2d7f21",
+          "title": "MiniCPM-V 4.6 现已支持 vLLM v0.22.0",
+          "url": "https://x.com/OpenBMB/status/2061810723169415205",
+          "source": "aihot",
+          "source_name": "X：面壁智能 OpenBMB (@OpenBMB)",
+          "category": "ai-products",
+          "published_at": "2026-06-02T14:02:37.000Z",
+          "summary": "MiniCPM-V 4.6 现已完全支持 vLLM v0.22.0！\n无需自定义分支，无需额外编译。\n只需拉取预构建包即可运行。\n非常感谢 @vllm_project 的顺畅集成！ 🤝\n🤗 http：//huggingface.co/openbmb/MiniCPM-V-4.6"
+        },
+        {
           "id": "a8dd87cbb046",
           "title": "阿里云发布AgentScope Java 1.1及Claw等新功能",
           "url": "https://x.com/alibaba_cloud/status/2061745401393291554",
@@ -142,6 +218,16 @@
           "category": "ai-products",
           "published_at": "2026-06-02T09:43:03.000Z",
           "summary": "🚀 AgentScope Java 1.1：构建可自我进化的智能体\n✨ Claw：具备Shell访问权限的本地\"MinQwenPaw\"\n✨ Builder：多租户、零代码企业平台\n✨ 工作区驱动的进化与分布式隔离\n从笔记本电脑到集群无缝扩展。👇\nhttps：//int.alibabacloud.com/m/1000413896/\n\n#AgentScope #AIAgents #Java"
+        },
+        {
+          "id": "b2fe9403c5b3",
+          "title": "为什么金融机构正汇聚在交易基础模型上来构建自身智能",
+          "url": "https://blogs.nvidia.com/blog/financial-institutions-transaction-foundation-models",
+          "source": "aihot",
+          "source_name": "NVIDIA AI Blog",
+          "category": "ai-products",
+          "published_at": "2026-06-02T06:00:36.000Z",
+          "summary": "金融机构正从为每个业务线构建独立AI模型，转向采用基于Transformer的交易基础模型，以统一理解消费者行为并克服数据孤岛限制。NVIDIA报告显示，65%的金融机构已使用AI，近90%正在部署或评估。实践案例包括：Revolut与NVIDIA合作构建了PRAGMA模型系列，在240亿事件上训练，单个模型在信用评分等领域超越特定任务模型；Mastercard正开发专有大型表格基础模型；Adyen的模型处理了1万亿美元支付；Stripe利用相关平台构建模型，去年阻止了近1120亿美元欺诈。"
         },
         {
           "id": "84d2523de34a",
@@ -242,36 +328,6 @@
           "category": "ai-products",
           "published_at": "2026-06-01T21:04:22.000Z",
           "summary": "Krea 2 LoRAs 现已向所有人开放。\n试试下面这个 👇"
-        },
-        {
-          "id": "03b470eec2d9",
-          "title": "Apache RocketMQ 发布 AI 专用消息引擎",
-          "url": "https://x.com/alibaba_cloud/status/2061400724018217381",
-          "source": "aihot",
-          "source_name": "X：阿里云 / Alibaba Cloud (@alibaba_cloud)",
-          "category": "ai-products",
-          "published_at": "2026-06-01T10:53:26.000Z",
-          "summary": "🚀 Apache RocketMQ 为 AI 升级！推出 RocketMQ for AI--一个专为长时间会话、多智能体工作流和公平资源调度构建的新消息引擎。凭借 Lite-Topics、有序消息和智能流量整形，它解决了状态丢失、级联故障和突发负载问题。由阿里云大规模构建，现已开源。\n\n了解更多： https：//int.alibabacloud.com/m/1000413178/\n\n#RocketMQ #AI #CloudNative"
-        },
-        {
-          "id": "1a754ee77041",
-          "title": "Cursor Teams计划定价方案更新",
-          "url": "https://cursor.com/blog/teams-pricing-june-2026",
-          "source": "aihot",
-          "source_name": "Cursor Blog",
-          "category": "ai-products",
-          "published_at": "2026-06-01T07:00:00.000Z",
-          "summary": "Cursor Teams计划推出三项更新：增加Composer特定使用池，将第一方模型（Composer和Auto）与第三方API的使用额度分开计费；推出Premium席位，提供5倍于标准席位（$40/月）的使用量，价格为$96/月（年付）；仪表盘现可实时显示用户额度使用情况，管理员可通过Slack或邮件配置智能提醒。"
-        },
-        {
-          "id": "2116e250434a",
-          "title": "NVIDIA 工厂运营蓝图为工厂打造 AI 大脑",
-          "url": "https://blogs.nvidia.com/blog/factory-operations-fox-blueprint-ai-brain",
-          "source": "aihot",
-          "source_name": "NVIDIA Blog：Generative AI（网页）",
-          "category": "ai-products",
-          "published_at": "2026-06-01T05:00:47.000Z",
-          "summary": "NVIDIA发布了工厂运营蓝图（FOX），这是一项用于构建自主工厂管理AI智能体的参考设计。该蓝图基于NVIDIA NemoClaw、AI-Q Blueprint及Nemotron开源模型构建，并针对DGX Station工作站进行了优化，可在配备GB300 Grace Blackwell Ultra芯片的本地环境运行。台湾制造商富士康、和硕、研华和纬创是首批部署FOX蓝图的厂商。其中，富士康基于该蓝图构建了MoMClaw多智能体系统，预计将根因分析时间缩短80%，劳动生产率提升15%，机器故障率降低10%。"
         }
       ]
     },
@@ -279,13 +335,93 @@
       "label": "🛠️ 开发工具",
       "items": [
         {
+          "id": "88004c9b8d4d",
+          "title": "Reachy Mini goes fully local",
+          "url": "https://huggingface.co/blog/local-reachy-mini-conversation",
+          "source": "Hugging Face",
+          "source_name": "Hugging Face",
+          "category": "ai-tools",
+          "published_at": "Wed, 27 May 2026 00:00:00 GMT",
+          "summary": ""
+        },
+        {
+          "id": "f51c51c8e274",
+          "title": "Shipping a Trillion Parameters With a Hub Bucket: Delta Weight Sync in TRL",
+          "url": "https://huggingface.co/blog/delta-weight-sync",
+          "source": "Hugging Face",
+          "source_name": "Hugging Face",
+          "category": "ai-tools",
+          "published_at": "Wed, 27 May 2026 00:00:00 GMT",
+          "summary": ""
+        },
+        {
+          "id": "a4c148230e32",
+          "title": "Holo3.1: Fast & Local Computer Use Agents",
+          "url": "https://huggingface.co/blog/Hcompany/holo31",
+          "source": "Hugging Face",
+          "source_name": "Hugging Face",
+          "category": "ai-tools",
+          "published_at": "Tue, 02 Jun 2026 14:13:23 GMT",
+          "summary": ""
+        },
+        {
+          "id": "834587a4b2c9",
+          "title": "Harness, Scaffold, and the AI Agent Terms Worth Getting Right",
+          "url": "https://huggingface.co/blog/agent-glossary",
+          "source": "Hugging Face",
+          "source_name": "Hugging Face",
+          "category": "ai-tools",
+          "published_at": "Mon, 25 May 2026 00:00:00 GMT",
+          "summary": ""
+        },
+        {
+          "id": "d218e9053d92",
+          "title": "Introducing Mellum2: A 12B Mixture-of-Experts Model by JetBrains",
+          "url": "https://huggingface.co/blog/JetBrains/mellum2-launch",
+          "source": "Hugging Face",
+          "source_name": "Hugging Face",
+          "category": "ai-tools",
+          "published_at": "Mon, 01 Jun 2026 15:45:17 GMT",
+          "summary": ""
+        },
+        {
+          "id": "6b412489667f",
+          "title": "Beyond LLMs: Why Scalable Enterprise AI Adoption Depends on Agent Logic",
+          "url": "https://huggingface.co/blog/ibm-research/agent-logic-and-scalable-ai-adoption",
+          "source": "Hugging Face",
+          "source_name": "Hugging Face",
+          "category": "ai-tools",
+          "published_at": "Mon, 01 Jun 2026 13:51:18 GMT",
+          "summary": ""
+        },
+        {
+          "id": "c9a1a7ce23cf",
+          "title": "Welcome NVIDIA Cosmos 3: The First Open Omni-model for Physical AI Reasoning and Action",
+          "url": "https://huggingface.co/blog/nvidia/cosmos-3-for-physical-ai",
+          "source": "Hugging Face",
+          "source_name": "Hugging Face",
+          "category": "ai-tools",
+          "published_at": "Mon, 01 Jun 2026 04:44:55 GMT",
+          "summary": ""
+        },
+        {
+          "id": "2396b4dfc657",
+          "title": "Profiling in PyTorch (Part 1): A Beginner's Guide to torch.profiler",
+          "url": "https://huggingface.co/blog/torch-profiler",
+          "source": "Hugging Face",
+          "source_name": "Hugging Face",
+          "category": "ai-tools",
+          "published_at": "Fri, 29 May 2026 00:00:00 GMT",
+          "summary": ""
+        },
+        {
           "id": "6e372cfd51fe",
           "title": "⭐ containerd/containerd",
           "url": "https://github.com/containerd/containerd",
           "source": "GitHub AI",
           "source_name": "GitHub AI",
           "category": "ai-tools",
-          "published_at": "2026-06-02T13:01:48.604901+00:00",
+          "published_at": "2026-06-02T17:50:02.579131+00:00",
           "summary": "An open and reliable container runtime"
         },
         {
@@ -295,7 +431,7 @@
           "source": "GitHub AI",
           "source_name": "GitHub AI",
           "category": "ai-tools",
-          "published_at": "2026-06-02T13:01:48.604663+00:00",
+          "published_at": "2026-06-02T17:50:02.578871+00:00",
           "summary": "🔥 🔥 🔥 A Free & Self-hostable Airtable Alternative"
         },
         {
@@ -305,7 +441,7 @@
           "source": "GitHub AI",
           "source_name": "GitHub AI",
           "category": "ai-tools",
-          "published_at": "2026-06-02T13:01:48.603999+00:00",
+          "published_at": "2026-06-02T17:50:02.578123+00:00",
           "summary": "Find vulnerabilities, misconfigurations, secrets, SBOM in containers, Kubernetes, code repositories, clouds and more"
         },
         {
@@ -315,7 +451,7 @@
           "source": "GitHub AI",
           "source_name": "GitHub AI",
           "category": "ai-tools",
-          "published_at": "2026-06-02T13:01:48.603881+00:00",
+          "published_at": "2026-06-02T17:50:02.577990+00:00",
           "summary": "Fair-code workflow automation platform with native AI capabilities. Combine visual building with custom code, self-host or cloud, 400+ integrations."
         },
         {
@@ -325,7 +461,7 @@
           "source": "GitHub AI",
           "source_name": "GitHub AI",
           "category": "ai-tools",
-          "published_at": "2026-06-02T13:01:48.603763+00:00",
+          "published_at": "2026-06-02T17:50:02.577859+00:00",
           "summary": "CloudNativePG is a comprehensive platform designed to seamlessly manage PostgreSQL databases within Kubernetes environments, covering the entire operational lifecycle from initial deployment to ongoing maintenance"
         },
         {
@@ -335,7 +471,7 @@
           "source": "GitHub AI",
           "source_name": "GitHub AI",
           "category": "ai-tools",
-          "published_at": "2026-06-02T13:01:48.603643+00:00",
+          "published_at": "2026-06-02T17:50:02.577725+00:00",
           "summary": "Industrial-grade speech recognition toolkit: 170x realtime, 50+ languages, speaker diarization, emotion detection, streaming, and OpenAI-compatible API."
         },
         {
@@ -345,7 +481,7 @@
           "source": "GitHub AI",
           "source_name": "GitHub AI",
           "category": "ai-tools",
-          "published_at": "2026-06-02T13:01:48.603501+00:00",
+          "published_at": "2026-06-02T17:50:02.577578+00:00",
           "summary": "DeepSpeed is a deep learning optimization library that makes distributed training and inference easy, efficient, and effective."
         }
       ]
@@ -439,6 +575,56 @@
       "label": "💡 技巧",
       "items": [
         {
+          "id": "fa26125adbba",
+          "title": "NVIDIA NemoClaw 部署 Hermes Agent 教程",
+          "url": "https://x.com/NVIDIAAI/status/2061858457519575280",
+          "source": "aihot",
+          "source_name": "X：NVIDIA AI (@NVIDIAAI)",
+          "category": "tip",
+          "published_at": "2026-06-02T17:12:18.000Z",
+          "summary": "教一个智能体一次工作流，让它在每次重建后都记住。\n本教程展示如何使用 NVIDIA NemoClaw 和 OpenShell 部署 NousResearch Hermes Agent，将其连接到 Slack、Outlook、GitHub 和 NVIDIA 开发者论坛，然后将聊天纠正转化为可复用的技能。\n私有数据保留在运行时策略之后。学到的技能在部署之间持续存在。"
+        },
+        {
+          "id": "4165dab8ad43",
+          "title": "Claude Code团队实践：智能体编程如何重塑工程组织与流程",
+          "url": "https://claude.com/blog/running-an-ai-native-engineering-org",
+          "source": "aihot",
+          "source_name": "Claude：Blog（网页）",
+          "category": "tip",
+          "published_at": "2026-06-02T16:45:23.372Z",
+          "summary": "在Code w/ Claude SF 2026活动上，Claude Code工程团队分享了将智能体编程设为默认工作方式后带来的流程与结构变革。核心变化包括：规划转向即时（JIT）模式，强调快速原型与反馈；上下文收集变为\"先问Claude\"；代码审查中Claude处理风格与测试，人工专注于法律、安全等专业判断。新范式下，工程瓶颈从编写代码转向验证、审查与安全维护。"
+        },
+        {
+          "id": "29d911ac75b3",
+          "title": "Gary Marcus：为什么事情终将崩塌",
+          "url": "https://garymarcus.substack.com/p/why-things-will-eventually-fall-apart",
+          "source": "aihot",
+          "source_name": "Gary Marcus：The Road to AI We Can Trust（RSS）",
+          "category": "tip",
+          "published_at": "2026-06-02T15:41:57.000Z",
+          "summary": "知名人工智能批评者Gary Marcus在其关于可信赖AI的专栏中，探讨了人工智能发展面临的根本性挑战。文章开篇即指向问题的核心，指出相关数学理论的局限性与人类心理的复杂性，是导致AI系统最终可能出现问题的根源。"
+        },
+        {
+          "id": "c1a71833b57d",
+          "title": "商汤开源SenseNova-Skills AI办公技能套件",
+          "url": "https://x.com/SenseTime_AI/status/2061822148076093625",
+          "source": "aihot",
+          "source_name": "X：商汤 SenseTime (@SenseTime_AI)",
+          "category": "tip",
+          "published_at": "2026-06-02T14:48:01.000Z",
+          "summary": "商汤开源了AI办公技能套件SenseNova-Skills。这是一个为任何技能兼容智能体（如OpenClaw与HermesAgent）设计的开源技能集合，提供四大核心功能：图像信息图表生成（可镜像参考风格）、数据分析（支持多表解析、清洗与可视化）、PPT创建（生成大纲内容并智能排版，输出可编辑文件）以及深度研究（跨学术、技术、社交等多源搜索并生成报告）。该技能套件现已完全开源。"
+        },
+        {
+          "id": "a13bab52daa6",
+          "title": "Gemini Spark：最令人印象深刻也最可怕的AI体验",
+          "url": "https://www.theverge.com/ai-artificial-intelligence/941388/gemini-spark-ai-agent-trip-planning",
+          "source": "aihot",
+          "source_name": "The Verge：订阅版科技（RSS）",
+          "category": "tip",
+          "published_at": "2026-06-02T12:38:08.000Z",
+          "summary": "Google DeepMind的AI模型Gemini Spark提供了一次极为深刻但同时令人感到不安的用户体验。该模型展现的强大能力令人印象深刻，但其带来的影响和潜力也引发了深刻的恐惧感。"
+        },
+        {
           "id": "9c8b4e0782ef",
           "title": "为了不花那120刀，我把电脑清理软件做成了开源skill",
           "url": "https://x.com/Khazix0918/status/2061669881725309048",
@@ -447,16 +633,6 @@
           "category": "tip",
           "published_at": "2026-06-02T04:42:58.000Z",
           "summary": "作者受一条推文启发，使用Codex对自己的MacBook进行了只读存储分析，发现了B站缓存视频等大量可清理空间（激进方案超140G）。为替代收费软件CleanMyMac，作者制作并开源了一个跨平台（支持Mac/Windows）的AI清理skill。该skill会扫描文件并生成可交互的HTML报告，通过三色分级（绿灯可放心清理、黄灯需人工判断、红灯禁止动）直观展示，并提供安全执行按钮。实测清理后释放了近120G空间，相比CleanMyMac仅扫描出的15.8G，其信息更透明、建议更详细。"
-        },
-        {
-          "id": "86bbb63c08b1",
-          "title": "Anthropic 开发者分享 Claude Code「理解验证」工作流",
-          "url": "https://x.com/shao__meng/status/2061612512580346245",
-          "source": "aihot",
-          "source_name": "X：邵猛 (@shao__meng)",
-          "category": "tip",
-          "published_at": "2026-06-02T00:55:00.000Z",
-          "summary": "Anthropic 核心开发者分享了一套用于 Claude Code 的「理解验证」工作流。该工作流将 AI 定位为\"高效且睿智的教师\"，成功标准不仅是完成任务，更是确保人类对问题、方案及影响有可复述、可辩护的掌握。它通过增量教学、用户复述、清单+测验等方式，围绕问题域、方案域和语境域三条轴线展开，具体包含8个可执行步骤，强调在进入下一阶段前需确认用户已真正理解。此工作流旨在对抗长会话中人类易沦为\"审批按钮\"的\"智能体黑箱\"问题，强制沉淀决策上下文，实现可审计的深度理解。"
         },
         {
           "id": "62053175fa3a",
@@ -549,6 +725,16 @@
           "summary": "大规模评估智能体行为，论证代码库优于文档，并邀请全球研究人员共同解决价值对齐问题。深入了解最新研究焦点。"
         },
         {
+          "id": "4a4382df0be9",
+          "title": "开放模型的繁荣生态",
+          "url": "https://www.tomtunguz.com/the-thriving-ecosystem-of-open-models",
+          "source": "aihot",
+          "source_name": "Tomer Tunguz 博客（VC 分析）",
+          "category": "tip",
+          "published_at": "2026-06-02T00:00:00.000Z",
+          "summary": "根据OpenRouter平台数据，自2025年以来，开放模型使用量显著增长。最新数据显示，开放权重模型产生了69.1%的token使用量，闭源模型为30.9%。新模型的发布会吸引开发者测试，推动token使用量达到新的平台期。开放模型市场内部竞争激烈，领导地位频繁更迭，如DeepSeek的早期优势在2025年末至2026年初被MiniMax与Kimi模型取代，随后MiMo、Qwen、腾讯Hy3、阿里巴巴及Arcee等模型的发布再次改变了份额格局。尽管开放模型目前仍只占推理总量的一小部分，但激烈的竞争与增长表明，开发者正越来越愿意将生产流量路由至开放模型。"
+        },
+        {
           "id": "1bca74f5e340",
           "title": "AI Pulse 探讨智能体时代新指标 DAA",
           "url": "https://x.com/Baidu_Inc/status/2061447687028039854",
@@ -567,16 +753,91 @@
           "category": "tip",
           "published_at": "2026-06-01T13:51:18.000Z",
           "summary": "可扩展的企业AI采用需超越大语言模型，依靠智能体逻辑来引导模型执行动态、长周期且受约束的企业工作流，从而提升质量、降低成本并建立信任。文中以IBM watsonx Code Assistant for Z为例，展示了智能体逻辑如何通过程序分析等技术，在理解大型遗留代码库时，相比纯LLM基线方法，能以约30倍更低的token消耗达到更优性能。在加速测试生成任务中，该方法亦能使代码覆盖度提升20%-45%，同时token消耗降低最高达15倍。"
+        }
+      ]
+    },
+    "industry": {
+      "label": "industry",
+      "items": [
+        {
+          "id": "ce20d8905b0e",
+          "title": "特朗普签署修订版AI行政命令，要求自愿预发布审查",
+          "url": "https://techcrunch.com/2026/06/02/trump-signs-narrower-executive-order-on-ai-oversight-after-industry-objections",
+          "source": "aihot",
+          "source_name": "TechCrunch：AI（RSS）",
+          "category": "industry",
+          "published_at": "2026-06-02T16:23:08.000Z",
+          "summary": "在业界反对后，特朗普总统签署了修订版AI行政命令，该命令要求对先进模型进行自愿预发布政府审查，而非强制要求。"
         },
         {
-          "id": "0278092d1998",
-          "title": "如何使用 NVIDIA Alpamayo 在闭环中后训练自动驾驶模型",
-          "url": "https://developer.nvidia.com/blog/how-to-post-train-autonomous-vehicle-models-in-closed-loop-with-nvidia-alpamayo",
+          "id": "2418f0151d68",
+          "title": "微软 Build 2026 开发者大会：关于 Windows、AI、RTX Spark 等的所有新闻",
+          "url": "https://www.theverge.com/tech/941668/microsoft-build-may-2026-live-news-updates",
           "source": "aihot",
-          "source_name": "NVIDIA Technical Blog（开发者技术博客 · RSS）",
-          "category": "tip",
-          "published_at": "2026-06-01T04:49:15.000Z",
-          "summary": "开发自动驾驶策略需要弥合训练与部署之间的鸿沟。现有的视觉-语言-动作模型虽然能推理更复杂的驾驶场景并产生更丰富的中间推理，但主要在开放循环中训练，即模型输出与真实行为直接比较，而不考虑其对环境产生的实际影响。NVIDIA Alpamayo 提供了一种在闭环环境中进行后训练的方法。"
+          "source_name": "The Verge：AI（RSS）",
+          "category": "industry",
+          "published_at": "2026-06-02T15:59:58.000Z",
+          "summary": "微软年度开发者大会 Build 2026 于 6 月 2 日在旧金山举行，主题演讲提供直播。预计将宣布新的 AI 模型、类似 OpenClaw 的智能体工具，以及配合 Windows 11 重大变革的 Copilot \"超级应用\"。此外，鉴于微软刚发布了搭载 Nvidia RTX Spark 的 Surface Laptop Ultra，本次大会可能还会有更多关于 Windows on ARM 的动态。"
+        },
+        {
+          "id": "f9102a972b8b",
+          "title": "Nathan Lambert离开Ai2，结束2.5年OLMO等项目工作",
+          "url": "https://x.com/natolambert/status/2061813361848029631",
+          "source": "aihot",
+          "source_name": "X：Nathan Lambert (@natolambert)",
+          "category": "industry",
+          "published_at": "2026-06-02T14:13:06.000Z",
+          "summary": "Ai2（Allen Institute for AI）研究员Nathan Lambert宣布离职。他在Ai2工作超过2.5年，期间主导或参与了OLMO和Tulu等开源模型项目，称其为职业生涯的巅峰。他表示将暂时休息，未来仍会继续深耕开源模型与开放科学领域。"
+        },
+        {
+          "id": "385f3d03cf80",
+          "title": "Anthropic扩展Project Glasswing计划",
+          "url": "https://www.anthropic.com/news/expanding-project-glasswing",
+          "source": "aihot",
+          "source_name": "Anthropic：Newsroom（网页）",
+          "category": "industry",
+          "published_at": "2026-06-02T13:28:13.607Z",
+          "summary": "Anthropic正将其Project Glasswing计划扩展至约150个新组织，此前首批约50个合作伙伴。新伙伴分布于十五个多国家，覆盖电力、水务、医疗、通信和硬件等关键基础设施行业。这些合作伙伴的共同点在于，其代码库若遭成功攻击，后果可能极其严重，影响或超1亿人。项目旨在利用Claude Mythos Preview等前沿模型扫描漏洞并协助修复，以应对AI驱动的网络安全挑战。同时，Anthropic推出了基于Claude Opus 4.8等公开模型的Claude Security产品，用于扫描代码并建议补丁。"
+        },
+        {
+          "id": "15c9d4742dd2",
+          "title": "SK会长崔泰源：SK海力士计划未来五年内晶圆产能翻倍",
+          "url": "https://www.ithome.com/0/958/810.htm",
+          "source": "aihot",
+          "source_name": "IT之家（RSS）",
+          "category": "industry",
+          "published_at": "2026-06-02T08:31:12.000Z",
+          "summary": "SK海力士会长崔泰源宣布，计划在未来五年内将整体晶圆产能提高一倍，以应对AI普及带来的持续存储供应短缺。他预测AI数据中心和AI PC的普及将持续拉动存储需求，供需紧张局面可能延续至2030年。SK海力士将投入大规模资金用于设备、建设等扩张，尽管面临前置时间长（新建晶圆厂至少三年）和资源成本上涨等挑战。目前，SK海力士市值已首次突破1万亿美元。"
+        },
+        {
+          "id": "c1be08d54654",
+          "title": "OpenAI呼吁通过全球领导力推进青年AI安全与机遇",
+          "url": "https://openai.com/index/advancing-youth-safety-and-opportunity-through-global-leadership",
+          "source": "aihot",
+          "source_name": "OpenAI：官网动态（RSS · 排除企业/客户案例）",
+          "category": "industry",
+          "published_at": "2026-06-02T07:00:00.000Z",
+          "summary": "OpenAI呼吁通过设立专门的AI安全研究所，在全球范围内采取行动，以保障青少年在使用AI时的安全，并创造更多发展机遇。"
+        },
+        {
+          "id": "56b10f23e494",
+          "title": "OpenAI的AI政策与政治倡导观点",
+          "url": "https://openai.com/index/our-views-on-ai-policy-and-political-advocacy",
+          "source": "aihot",
+          "source_name": "OpenAI：官网动态（RSS · 排除企业/客户案例）",
+          "category": "industry",
+          "published_at": "2026-06-01T17:00:00.000Z",
+          "summary": "OpenAI阐述了其在AI政策与政治倡导方面的立场，包括对透明度、深思熟虑的监管以及AI安全的支持。同时，公司明确表示，任何外部政治组织均不能代表OpenAI发言。"
+        },
+        {
+          "id": "3179b05afdb1",
+          "title": "Luma成立开放物理AI实验室攻克泛化难题",
+          "url": "https://x.com/LumaLabsAI/status/2061460217616027961",
+          "source": "aihot",
+          "source_name": "X：Luma AI (@LumaLabsAI)",
+          "category": "industry",
+          "published_at": "2026-06-01T14:49:50.000Z",
+          "summary": "为改善人类生活，AI系统必须能帮助我们改善物理世界。阻碍我们迈向这一繁荣未来的是物理AI的泛化问题。\n\n为解决此问题，我们在Luma建立了一个新的开放科学物理AI实验室。\n\n阅读更多 → https：//lumalabs.ai/news/luma-open-physical-ai-lab"
         }
       ]
     },
@@ -602,101 +863,6 @@
           "category": "paper",
           "published_at": "2026-06-02T02:00:00.000Z",
           "summary": "The Next Era of Knowledge Work报告指出，Codex正通过AI增强的研究、数据分析、工作流自动化与内容创作，变革知识工作的生产力。"
-        }
-      ]
-    },
-    "industry": {
-      "label": "industry",
-      "items": [
-        {
-          "id": "15c9d4742dd2",
-          "title": "SK会长崔泰源：SK海力士计划未来五年内晶圆产能翻倍",
-          "url": "https://www.ithome.com/0/958/810.htm",
-          "source": "aihot",
-          "source_name": "IT之家（RSS）",
-          "category": "industry",
-          "published_at": "2026-06-02T08:31:12.000Z",
-          "summary": "SK海力士会长崔泰源宣布，计划在未来五年内将整体晶圆产能提高一倍，以应对AI普及带来的持续存储供应短缺。他预测AI数据中心和AI PC的普及将持续拉动存储需求，供需紧张局面可能延续至2030年。SK海力士将投入大规模资金用于设备、建设等扩张，尽管面临前置时间长（新建晶圆厂至少三年）和资源成本上涨等挑战。目前，SK海力士市值已首次突破1万亿美元。"
-        },
-        {
-          "id": "56b10f23e494",
-          "title": "OpenAI的AI政策与政治倡导观点",
-          "url": "https://openai.com/index/our-views-on-ai-policy-and-political-advocacy",
-          "source": "aihot",
-          "source_name": "OpenAI：官网动态（RSS · 排除企业/客户案例）",
-          "category": "industry",
-          "published_at": "2026-06-01T17:00:00.000Z",
-          "summary": "OpenAI阐述了其在AI政策与政治倡导方面的立场，包括对透明度、深思熟虑的监管以及AI安全的支持。同时，公司明确表示，任何外部政治组织均不能代表OpenAI发言。"
-        },
-        {
-          "id": "3179b05afdb1",
-          "title": "Luma成立开放物理AI实验室攻克泛化难题",
-          "url": "https://x.com/LumaLabsAI/status/2061460217616027961",
-          "source": "aihot",
-          "source_name": "X：Luma AI (@LumaLabsAI)",
-          "category": "industry",
-          "published_at": "2026-06-01T14:49:50.000Z",
-          "summary": "为改善人类生活，AI系统必须能帮助我们改善物理世界。阻碍我们迈向这一繁荣未来的是物理AI的泛化问题。\n\n为解决此问题，我们在Luma建立了一个新的开放科学物理AI实验室。\n\n阅读更多 → https：//lumalabs.ai/news/luma-open-physical-ai-lab"
-        },
-        {
-          "id": "e63fe49e535e",
-          "title": "王兴：美团 AI Agent\"小美\"与腾讯元宝即将深度合作，用户订单无缝连接",
-          "url": "https://www.ithome.com/0/958/410.htm",
-          "source": "aihot",
-          "source_name": "IT之家（RSS）",
-          "category": "industry",
-          "published_at": "2026-06-01T12:34:05.000Z",
-          "summary": "美团2026年第一季度财报显示营收910.39亿元，净利润亏损68.27亿元。财报电话会上，CEO王兴透露其AI Agent\"小美\"将与腾讯元宝深度合作。用户在腾讯元宝中提交本地服务需求，将被无缝连接至美团的外卖点餐、配送等生态。王兴强调，面向智能体的服务（To A）正变得日益重要，美团已将AI助手\"小团\"置于App核心位置，并拓展AI服务外延。"
-        },
-        {
-          "id": "ee89d121c1cf",
-          "title": "Runway 在伦敦设立欧洲总部及世界模型研究中心",
-          "url": "https://runwayml.com/news/runway-opens-london-hq",
-          "source": "aihot",
-          "source_name": "Runway：News（网页）",
-          "category": "industry",
-          "published_at": "2026-06-01T10:24:49.447Z",
-          "summary": "Runway 宣布在伦敦建立新的欧洲总部和专注于通用世界模型的研究中心。公司计划在未来18个月向英国AI生态投资$100M，到2028年投资额将翻倍以上。过去12个月，其在欧洲的订阅销量增长了50%，企业客户占比超20%。新总部将扩大其在欧洲的研究与商业布局，公司正招聘欧洲负责人以组建跨研究、产品、工程和销售的团队，并深化与BBC、Fremantle、WPP等企业的合作。世界模型是其研究的核心，旨在将生成式AI的应用扩展至机器人、科学研究与工业模拟等领域。"
-        },
-        {
-          "id": "39efedcf936c",
-          "title": "介绍Cosmos Coalition",
-          "url": "https://runwayml.com/news/introducing-cosmos-coalition",
-          "source": "aihot",
-          "source_name": "Runway：News（网页）",
-          "category": "industry",
-          "published_at": "2026-06-01T05:24:22.746Z",
-          "summary": "Runway宣布作为创始成员加入Cosmos Coalition，该联盟与NVIDIA及多家领先AI实验室合作，旨在构建并开源面向物理AI的前沿世界模型。首个项目将由Runway与NVIDIA共同开发一个基础模型，以推动下一代开放世界模型的研究与发展。"
-        },
-        {
-          "id": "7c123b170341",
-          "title": "NVIDIA AI Cloud生态系统全球扩张，满足AI算力需求",
-          "url": "https://blogs.nvidia.com/blog/ai-cloud-ecosystem",
-          "source": "aihot",
-          "source_name": "NVIDIA Blog：Agentic AI（网页）",
-          "category": "industry",
-          "published_at": "2026-06-01T05:00:56.000Z",
-          "summary": "NVIDIA AI Cloud生态系统正通过与CoreWeave、Firmus、IREN、Nscale等全球合作伙伴合作，加速在六大洲建设AI工厂基础设施。该生态系统结合NVIDIA的加速计算、网络和AI软件，帮助合作伙伴为模型训练、微调、推理以及智能体AI（agentic AI）应用提供服务。此举旨在满足前沿模型开发、企业AI、电信及国家AI计划的需求，并支持亚太、美洲和非洲等地区的区域性与主权AI产能发展。"
-        },
-        {
-          "id": "bde7ed5912fe",
-          "title": "NVIDIA与Google Cloud助力下一波AI构建者",
-          "url": "https://blogs.nvidia.com/blog/category/enterprise/cloud-2",
-          "source": "aihot",
-          "source_name": "NVIDIA Blog：Generative AI（网页）",
-          "category": "industry",
-          "published_at": "2026-06-01T05:00:56.000Z",
-          "summary": "在Google I/O大会上，NVIDIA与Google Cloud宣布深化合作，旨在支持其联合开发者社区中超过10万名开发者。合作将重点提供NVIDIA L4 Tensor Core GPU以优化AI推理与图形工作负载，并通过支持Vertex AI平台来增强Gemini模型性能。双方还将提供开源软件工具，以简化AI应用的构建与部署流程。"
-        },
-        {
-          "id": "8789b59a662e",
-          "title": "台湾产业巨头借力NVIDIA加速全球AI基础设施建设",
-          "url": "https://blogs.nvidia.com/blog/taiwan-ecosystem-ai-infrastructure",
-          "source": "aihot",
-          "source_name": "NVIDIA Blog：Generative AI（网页）",
-          "category": "industry",
-          "published_at": "2026-06-01T05:00:41.000Z",
-          "summary": "台湾超过500家NVIDIA生态系统合作伙伴正参与制造NVIDIA Vera Rubin NVL72基础设施。TSMC使用NVIDIA cuLitho库将计算光刻的成本效益或周期时间提升20%-50%，cuEST库将半导体材料模拟速度平均提升50倍。Foxconn应用NVIDIA技术后，根因分析时间加快80%，劳动力生产率提高15%，机器故障率降低10%。Pegatron采用AI视觉检测，部署时间减少67%。广达、纬创等厂商也应用NVIDIA Omniverse等技术优化流程，展示了将AI基础设施深度融入制造的过程。"
         }
       ]
     }
