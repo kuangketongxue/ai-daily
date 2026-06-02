@@ -1,15 +1,18 @@
 {
   "date": "2026-06-02",
-  "generated_at": "2026-06-02T05:00:06.200954",
-  "total": 66,
+  "generated_at": "2026-06-02T09:17:55.404853",
+  "total": 69,
   "sources": {
     "Hugging Face": 8,
     "GitHub AI": 6,
+    "X：阿里云 / Alibaba Cloud (@alibaba_cloud)": 2,
+    "X：Rohan Paul (@rohanpaul_ai)": 3,
+    "IT之家（RSS）": 5,
     "X：卡兹克 (@Khazix0918)": 1,
     "X：阶跃星辰 StepFun (@StepFun_ai)": 1,
-    "NVIDIA Technical Blog（开发者技术博客 · RSS）": 5,
+    "OpenAI：官网动态（RSS · 排除企业/客户案例）": 4,
+    "NVIDIA Technical Blog（开发者技术博客 · RSS）": 3,
     "X：邵猛 (@shao__meng)": 1,
-    "X：Rohan Paul (@rohanpaul_ai)": 2,
     "MiniMax：Blog（网页）": 1,
     "xAI：News（网页）": 1,
     "Qwen：Blog Retrieval（API）": 1,
@@ -18,14 +21,12 @@
     "X：NVIDIA AI (@NVIDIAAI)": 1,
     "X：面壁智能 OpenBMB (@OpenBMB)": 1,
     "X：OpenRouter (@OpenRouter)": 2,
-    "OpenAI：官网动态（RSS · 排除企业/客户案例）": 3,
     "X：Replit (@Replit)": 1,
     "X：腾讯混元 (@TencentHunyuan)": 1,
     "NVIDIA Blog：Agentic AI（网页）": 2,
     "X：ChatGPT (@ChatGPTapp)": 1,
     "X：Perplexity (@perplexity_ai)": 1,
     "Anthropic：Newsroom（网页）": 1,
-    "IT之家（RSS）": 5,
     "Bloomberg：Technology（RSS）": 1,
     "Ars Technica：AI（RSS）": 1,
     "The Verge：订阅版科技（RSS）": 1,
@@ -38,10 +39,9 @@
     "X：Krea AI (@krea_ai)": 1,
     "X：Luma AI (@LumaLabsAI)": 1,
     "X：百度 Baidu (@Baidu_Inc)": 1,
-    "X：阿里云 / Alibaba Cloud (@alibaba_cloud)": 1,
     "Runway：News（网页）": 2,
     "Cursor Blog": 1,
-    "NVIDIA Blog：Generative AI（网页）": 1
+    "NVIDIA Blog：Generative AI（网页）": 3
   },
   "ai_processed": false,
   "categories": {
@@ -254,34 +254,14 @@
           "summary": "Cursor Teams计划推出三项更新：增加Composer特定使用池，将第一方模型（Composer和Auto）与第三方API的使用额度分开计费；推出Premium席位，提供5倍于标准席位（$40/月）的使用量，价格为$96/月（年付）；仪表盘现可实时显示用户额度使用情况，管理员可通过Slack或邮件配置智能提醒。"
         },
         {
-          "id": "8d5bed95b082",
-          "title": "NVIDIA 发布 RTX Spark 及本地 AI 智能体安全与性能更新",
-          "url": "https://blogs.nvidia.com/blog/rtx-ai-garage-computex-spark-local-agents",
+          "id": "2116e250434a",
+          "title": "NVIDIA 工厂运营蓝图为工厂打造 AI 大脑",
+          "url": "https://blogs.nvidia.com/blog/factory-operations-fox-blueprint-ai-brain",
           "source": "aihot",
-          "source_name": "NVIDIA Blog：Agentic AI（网页）",
+          "source_name": "NVIDIA Blog：Generative AI（网页）",
           "category": "ai-products",
-          "published_at": "2026-06-01T04:30:11.000Z",
-          "summary": "NVIDIA 发布了 RTX Spark，一款专为本地 AI 智能体设计的 Windows 电脑，提供 1 petaflops AI 算力与 128GB 统一内存。其推出的 OpenShell 运行时与微软合作，基于新的 Windows 安全原语，确保智能体在设备端安全私密运行。性能方面，通过在 llama.cpp 中采用多 token 预测等优化，Qwen 3.6 和 3.5 27B 模型推理吞吐量提升最高达 2 倍，35B 模型提升 1.6 倍；多 GPU 优化使 llama.cpp 和 ComfyUI 获得最高 2 倍性能提升。此外，Adobe、Blender 等应用也进行了更新。"
-        },
-        {
-          "id": "ba087a0e0549",
-          "title": "NVIDIA Vera CPU 为AI工厂的智能体工作负载设立新标准",
-          "url": "https://developer.nvidia.com/blog/nvidia-vera-cpu-sets-a-new-standard-for-agentic-workloads-in-ai-factories",
-          "source": "aihot",
-          "source_name": "NVIDIA Technical Blog（开发者技术博客 · RSS）",
-          "category": "ai-products",
-          "published_at": "2026-06-01T03:59:15.000Z",
-          "summary": "NVIDIA Vera CPU 旨在为AI工厂中智能体工作负载树立新性能标杆。文章阐述了AI领域扩展规律的演变：预训练通过更大数据集、更多参数和大规模并行GPU系统扩展智能；后训练通过指令微调扩展实用性，并重新调整GPU用于生成式推理；测试时缩放则通过给模型更多生成token来提升推理能力。当前，智能体AI与强化学习正推动下一阶段的扩展。"
-        },
-        {
-          "id": "534f2f9afc60",
-          "title": "NVIDIA DSX OS 提供开放、模块化软件用于规模化运营AI工厂",
-          "url": "https://developer.nvidia.com/blog/nvidia-dsx-os-delivers-open-modular-software-for-operating-ai-factories-at-scale",
-          "source": "aihot",
-          "source_name": "NVIDIA Technical Blog（开发者技术博客 · RSS）",
-          "category": "ai-products",
-          "published_at": "2026-06-01T03:36:52.000Z",
-          "summary": "NVIDIA DSX 平台为设计、模拟和构建 AI 工厂提供完整解决方案，旨在应对不断增长的智能需求。该平台通过开放、模块化的软件栈，帮助运营方更快地扩展规模、提高效率，并降低从能源、芯片、基础设施、模型到应用这五层架构的整体智能成本。"
+          "published_at": "2026-06-01T05:00:47.000Z",
+          "summary": "NVIDIA发布了工厂运营蓝图（FOX），这是一项用于构建自主工厂管理AI智能体的参考设计。该蓝图基于NVIDIA NemoClaw、AI-Q Blueprint及Nemotron开源模型构建，并针对DGX Station工作站进行了优化，可在配备GB300 Grace Blackwell Ultra芯片的本地环境运行。台湾制造商富士康、和硕、研华和纬创是首批部署FOX蓝图的厂商。其中，富士康基于该蓝图构建了MoMClaw多智能体系统，预计将根因分析时间缩短80%，劳动生产率提升15%，机器故障率降低10%。"
         }
       ]
     },
@@ -375,7 +355,7 @@
           "source": "GitHub AI",
           "source_name": "GitHub AI",
           "category": "ai-tools",
-          "published_at": "2026-06-02T05:00:00.191305+00:00",
+          "published_at": "2026-06-02T09:17:54.184756+00:00",
           "summary": "Examples and guides for using the OpenAI API"
         },
         {
@@ -385,7 +365,7 @@
           "source": "GitHub AI",
           "source_name": "GitHub AI",
           "category": "ai-tools",
-          "published_at": "2026-06-02T05:00:00.191172+00:00",
+          "published_at": "2026-06-02T09:17:54.184615+00:00",
           "summary": "Port of OpenAI's Whisper model in C/C++"
         },
         {
@@ -395,7 +375,7 @@
           "source": "GitHub AI",
           "source_name": "GitHub AI",
           "category": "ai-tools",
-          "published_at": "2026-06-02T05:00:00.189946+00:00",
+          "published_at": "2026-06-02T09:17:54.183375+00:00",
           "summary": "Servo aims to empower developers with a lightweight, high-performance alternative for embedding web technologies in applications."
         },
         {
@@ -405,7 +385,7 @@
           "source": "GitHub AI",
           "source_name": "GitHub AI",
           "category": "ai-tools",
-          "published_at": "2026-06-02T05:00:00.189768+00:00",
+          "published_at": "2026-06-02T09:17:54.183197+00:00",
           "summary": "Stable Diffusion web UI"
         },
         {
@@ -415,7 +395,7 @@
           "source": "GitHub AI",
           "source_name": "GitHub AI",
           "category": "ai-tools",
-          "published_at": "2026-06-02T05:00:00.189498+00:00",
+          "published_at": "2026-06-02T09:17:54.182929+00:00",
           "summary": "Financial data platform for analysts, quants and AI agents."
         },
         {
@@ -425,7 +405,7 @@
           "source": "GitHub AI",
           "source_name": "GitHub AI",
           "category": "ai-tools",
-          "published_at": "2026-06-02T05:00:00.189276+00:00",
+          "published_at": "2026-06-02T09:17:54.182725+00:00",
           "summary": "Qlib is an AI-oriented Quant investment platform that aims to use AI tech to empower Quant Research, from exploring ideas to implementing productions. Qlib supports diverse ML modeling paradigms, including supervised learning, market dynamics modeling, and RL, and is now equipped withhttps://github.com/microsoft/RD-Agentto automate R&D process."
         }
       ]
@@ -664,6 +644,36 @@
       "label": "industry",
       "items": [
         {
+          "id": "6706686b640e",
+          "title": "阿里云Qwen3.7模型登陆Vercel AI Gateway",
+          "url": "https://x.com/alibaba_cloud/status/2061734511935905841",
+          "source": "aihot",
+          "source_name": "X：阿里云 / Alibaba Cloud (@alibaba_cloud)",
+          "category": "industry",
+          "published_at": "2026-06-02T08:59:47.000Z",
+          "summary": "很高兴看到 Qwen3.7-Plus 和 Max 为 @vercel_dev 社区赋能！即日起至6月4日，可在 AI Gateway 上免费测试其原生智能体能力。🚀"
+        },
+        {
+          "id": "8b94e4ef32a1",
+          "title": "Alphabet 计划筹集800亿美元资金支持AI算力扩张",
+          "url": "https://x.com/rohanpaul_ai/status/2061734058229678319",
+          "source": "aihot",
+          "source_name": "X：Rohan Paul (@rohanpaul_ai)",
+          "category": "industry",
+          "published_at": "2026-06-02T08:57:59.000Z",
+          "summary": "Alphabet宣布计划通过多种方式筹集约800亿美元资金，以支持其AI算力扩张支出。该融资规模超过其过去28年间七次主要股权融资总和的10倍。融资结构包括承销股票、强制性可转换优先股、伯克希尔100亿美元的私募配售以及400亿美元的ATM计划（其中约300亿与员工股权税务相关）。市场将此举视为看涨信号，表明AI发展瓶颈已从需求和模型转向算力供应，Alphabet正通过融资投资于类似铁路、电网和晶圆厂的关键基础设施。"
+        },
+        {
+          "id": "15c9d4742dd2",
+          "title": "SK会长崔泰源：SK海力士计划未来五年内晶圆产能翻倍",
+          "url": "https://www.ithome.com/0/958/810.htm",
+          "source": "aihot",
+          "source_name": "IT之家（RSS）",
+          "category": "industry",
+          "published_at": "2026-06-02T08:31:12.000Z",
+          "summary": "SK海力士会长崔泰源宣布，计划在未来五年内将整体晶圆产能提高一倍，以应对AI普及带来的持续存储供应短缺。他预测AI数据中心和AI PC的普及将持续拉动存储需求，供需紧张局面可能延续至2030年。SK海力士将投入大规模资金用于设备、建设等扩张，尽管面临前置时间长（新建晶圆厂至少三年）和资源成本上涨等挑战。目前，SK海力士市值已首次突破1万亿美元。"
+        },
+        {
           "id": "56b10f23e494",
           "title": "OpenAI的AI政策与政治倡导观点",
           "url": "https://openai.com/index/our-views-on-ai-policy-and-political-advocacy",
@@ -714,6 +724,16 @@
           "summary": "Runway宣布作为创始成员加入Cosmos Coalition，该联盟与NVIDIA及多家领先AI实验室合作，旨在构建并开源面向物理AI的前沿世界模型。首个项目将由Runway与NVIDIA共同开发一个基础模型，以推动下一代开放世界模型的研究与发展。"
         },
         {
+          "id": "7c123b170341",
+          "title": "NVIDIA AI Cloud生态系统全球扩张，满足AI算力需求",
+          "url": "https://blogs.nvidia.com/blog/ai-cloud-ecosystem",
+          "source": "aihot",
+          "source_name": "NVIDIA Blog：Agentic AI（网页）",
+          "category": "industry",
+          "published_at": "2026-06-01T05:00:56.000Z",
+          "summary": "NVIDIA AI Cloud生态系统正通过与CoreWeave、Firmus、IREN、Nscale等全球合作伙伴合作，加速在六大洲建设AI工厂基础设施。该生态系统结合NVIDIA的加速计算、网络和AI软件，帮助合作伙伴为模型训练、微调、推理以及智能体AI（agentic AI）应用提供服务。此举旨在满足前沿模型开发、企业AI、电信及国家AI计划的需求，并支持亚太、美洲和非洲等地区的区域性与主权AI产能发展。"
+        },
+        {
           "id": "bde7ed5912fe",
           "title": "NVIDIA与Google Cloud助力下一波AI构建者",
           "url": "https://blogs.nvidia.com/blog/category/enterprise/cloud-2",
@@ -724,14 +744,29 @@
           "summary": "在Google I/O大会上，NVIDIA与Google Cloud宣布深化合作，旨在支持其联合开发者社区中超过10万名开发者。合作将重点提供NVIDIA L4 Tensor Core GPU以优化AI推理与图形工作负载，并通过支持Vertex AI平台来增强Gemini模型性能。双方还将提供开源软件工具，以简化AI应用的构建与部署流程。"
         },
         {
-          "id": "e62c23db2d21",
-          "title": "上海：支持多模态智能体开发与应用，有序推进智能驾驶在共享出行、物流运输等多场景应用",
-          "url": "https://www.ithome.com/0/957/985.htm",
+          "id": "8789b59a662e",
+          "title": "台湾产业巨头借力NVIDIA加速全球AI基础设施建设",
+          "url": "https://blogs.nvidia.com/blog/taiwan-ecosystem-ai-infrastructure",
           "source": "aihot",
-          "source_name": "IT之家（RSS）",
+          "source_name": "NVIDIA Blog：Generative AI（网页）",
           "category": "industry",
-          "published_at": "2026-06-01T02:16:40.000Z",
-          "summary": "上海市人民政府办公厅印发《上海市服务业发展\"十五五\"规划》，提出发展AI软件技术及服务产业集群。规划支持多模态智能体开发与应用，推动智能客服等工具规模化；有序推进智能驾驶在共享出行、物流运输等多场景应用；做强算运存协同布局的智算云网络，推广模型即服务（MaaS）；并支持开发面向家庭、养老、文旅等场景的具身智能整机产品，加速机器人向通用智能与精细化服务跃升。"
+          "published_at": "2026-06-01T05:00:41.000Z",
+          "summary": "台湾超过500家NVIDIA生态系统合作伙伴正参与制造NVIDIA Vera Rubin NVL72基础设施。TSMC使用NVIDIA cuLitho库将计算光刻的成本效益或周期时间提升20%-50%，cuEST库将半导体材料模拟速度平均提升50倍。Foxconn应用NVIDIA技术后，根因分析时间加快80%，劳动力生产率提高15%，机器故障率降低10%。Pegatron采用AI视觉检测，部署时间减少67%。广达、纬创等厂商也应用NVIDIA Omniverse等技术优化流程，展示了将AI基础设施深度融入制造的过程。"
+        }
+      ]
+    },
+    "paper": {
+      "label": "paper",
+      "items": [
+        {
+          "id": "11d31f4c8072",
+          "title": "Codex正在成为每个人的生产力工具",
+          "url": "https://openai.com/index/codex-for-knowledge-work",
+          "source": "aihot",
+          "source_name": "OpenAI：官网动态（RSS · 排除企业/客户案例）",
+          "category": "paper",
+          "published_at": "2026-06-02T02:00:00.000Z",
+          "summary": "The Next Era of Knowledge Work报告指出，Codex正通过AI增强的研究、数据分析、工作流自动化与内容创作，变革知识工作的生产力。"
         }
       ]
     }
