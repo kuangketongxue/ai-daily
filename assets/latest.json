@@ -1,20 +1,21 @@
 {
   "date": "2026-06-02",
-  "generated_at": "2026-06-02T21:24:20.230572",
+  "generated_at": "2026-06-02T23:21:18.348399",
   "total": 90,
   "sources": {
     "Hugging Face": 8,
     "GitHub AI": 7,
+    "X：Microsoft Research (@MSFTResearch)": 2,
+    "X：Anthropic (@AnthropicAI)": 1,
+    "X：Google AI for Developers (@googleaidevs)": 2,
     "Claude：Blog（网页）": 2,
-    "X：Rohan Paul (@rohanpaul_ai)": 3,
-    "X：Thariq (@trq212)": 1,
     "X：NVIDIA (@nvidia)": 1,
     "X：Claude Devs (@ClaudeDevs)": 2,
     "X：Runway (@runwayml)": 1,
     "X：OpenRouter (@OpenRouter)": 4,
     "X：Replit (@Replit)": 3,
     "X：OpenAI Developers (@OpenAIDevs)": 1,
-    "TechCrunch：AI（RSS）": 2,
+    "TechCrunch：AI（RSS）": 1,
     "Bloomberg：Technology（RSS）": 2,
     "The Verge：AI（RSS）": 1,
     "X：NVIDIA AI (@NVIDIAAI)": 3,
@@ -38,6 +39,7 @@
     "X：卡兹克 (@Khazix0918)": 1,
     "X：阶跃星辰 StepFun (@StepFun_ai)": 1,
     "NVIDIA Technical Blog（开发者技术博客 · RSS）": 2,
+    "X：Rohan Paul (@rohanpaul_ai)": 2,
     "MiniMax：Blog（网页）": 1,
     "xAI：News（网页）": 1,
     "Qwen：Blog Retrieval（API）": 1,
@@ -48,9 +50,7 @@
     "Ars Technica：AI（RSS）": 1,
     "X：阿易 AI Notes (@AYi_AInotes)": 1,
     "X：Gemini (@GeminiApp)": 1,
-    "X：Google AI for Developers (@googleaidevs)": 1,
     "Nathan Lambert：Interconnects（RSS）": 1,
-    "X：Microsoft Research (@MSFTResearch)": 1,
     "Tomer Tunguz 博客（VC 分析）": 1,
     "X：Logan Kilpatrick (@OfficialLoganK)": 1,
     "X：Krea AI (@krea_ai)": 1
@@ -60,16 +60,6 @@
     "ai-models": {
       "label": "🧠 AI 模型",
       "items": [
-        {
-          "id": "c55dd6244e1d",
-          "title": "微软发布 MAI-Thinking-1 模型",
-          "url": "https://x.com/rohanpaul_ai/status/2061913509399789924",
-          "source": "aihot",
-          "source_name": "X：Rohan Paul (@rohanpaul_ai)",
-          "category": "ai-models",
-          "published_at": "2026-06-02T20:51:03.000Z",
-          "summary": "微软发布了 MAI-Thinking-1，这是一款采用 MoE 架构的模型，拥有 35B 活跃参数和 1T 总参数。该模型从零开始在 30T tokens 上完成预训练，且未使用第三方模型蒸馏。微软称其迭代优化流程为\"爬山机器\"。在基准测试中，该模型于 AIME 2025 获得 97.0%，在 LiveCodeBench v6 获得 87.7%，在 SWE-Bench Pro 获得 52.8% 的成绩。"
-        },
         {
           "id": "6458e54c0fef",
           "title": "微软首款高级推理AI模型MAI-Thinking-1发布",
@@ -176,6 +166,16 @@
       "label": "🚀 AI 产品",
       "items": [
         {
+          "id": "18d3d7266453",
+          "title": "Google DeepMind 开源科学智能体工具包",
+          "url": "https://x.com/googleaidevs/status/2061924472245153863",
+          "source": "aihot",
+          "source_name": "X：Google AI for Developers (@googleaidevs)",
+          "category": "ai-products",
+          "published_at": "2026-06-02T21:34:37.000Z",
+          "summary": "构建用于科学发现的自主智能体？🧬🤖\n\n@GoogleDeepMind Science Skills 现已在 GitHub 上发布。我们已开源这个专用工具包，以科学基础和更高的 token 效率加速您的智能体工作流。\n\n立即下载 ↓\nhttps：//github.com/google-deepmind/science-skills"
+        },
+        {
           "id": "3a43aaaf0146",
           "title": "Claude Code 新增动态工作流功能",
           "url": "https://claude.com/blog/a-harness-for-every-task-dynamic-workflows-in-claude-code",
@@ -184,16 +184,6 @@
           "category": "ai-products",
           "published_at": "2026-06-02T21:16:49.491Z",
           "summary": "Claude Code 新增动态工作流功能，允许模型在运行时即兴创建和协调多智能体框架来处理复杂任务。该功能通过执行特定的 JavaScript 文件来生成和协调拥有独立上下文窗口的子代理，可解决单一上下文窗口中长时间执行任务可能出现的智能惰性等问题。工作流适用于研究、安全分析、代码审查等场景，通常消耗更多 token，更适合高价值复杂任务，其最佳实践仍在发展中。"
-        },
-        {
-          "id": "95d3bd57ec92",
-          "title": "Claude Code 动态工作流功能发布：为每个任务创建专属框架",
-          "url": "https://x.com/trq212/status/2061907337154367865",
-          "source": "aihot",
-          "source_name": "X：Thariq (@trq212)",
-          "category": "ai-products",
-          "published_at": "2026-06-02T20:26:32.000Z",
-          "summary": "Claude Code 新增动态工作流功能，使 Claude 能根据任务动态创建定制化的执行框架。该功能通过执行 JavaScript 文件来协调子智能体，并可指定模型与工作区隔离级别。它适用于研究、安全分析、代码审查等复杂任务，支持共享与复用。需要注意，动态工作流会消耗更多 token。"
         },
         {
           "id": "eb2e3adda423",
@@ -577,7 +567,7 @@
           "source": "GitHub AI",
           "source_name": "GitHub AI",
           "category": "ai-tools",
-          "published_at": "2026-06-02T21:24:19.102109+00:00",
+          "published_at": "2026-06-02T23:21:13.154285+00:00",
           "summary": "An open and reliable container runtime"
         },
         {
@@ -587,7 +577,7 @@
           "source": "GitHub AI",
           "source_name": "GitHub AI",
           "category": "ai-tools",
-          "published_at": "2026-06-02T21:24:19.101818+00:00",
+          "published_at": "2026-06-02T23:21:13.154018+00:00",
           "summary": "🔥 🔥 🔥 A Free & Self-hostable Airtable Alternative"
         },
         {
@@ -597,7 +587,7 @@
           "source": "GitHub AI",
           "source_name": "GitHub AI",
           "category": "ai-tools",
-          "published_at": "2026-06-02T21:24:19.101079+00:00",
+          "published_at": "2026-06-02T23:21:13.153243+00:00",
           "summary": "Find vulnerabilities, misconfigurations, secrets, SBOM in containers, Kubernetes, code repositories, clouds and more"
         },
         {
@@ -607,7 +597,7 @@
           "source": "GitHub AI",
           "source_name": "GitHub AI",
           "category": "ai-tools",
-          "published_at": "2026-06-02T21:24:19.100938+00:00",
+          "published_at": "2026-06-02T23:21:13.153110+00:00",
           "summary": "Fair-code workflow automation platform with native AI capabilities. Combine visual building with custom code, self-host or cloud, 400+ integrations."
         },
         {
@@ -617,7 +607,7 @@
           "source": "GitHub AI",
           "source_name": "GitHub AI",
           "category": "ai-tools",
-          "published_at": "2026-06-02T21:24:19.100785+00:00",
+          "published_at": "2026-06-02T23:21:13.152976+00:00",
           "summary": "CloudNativePG is a comprehensive platform designed to seamlessly manage PostgreSQL databases within Kubernetes environments, covering the entire operational lifecycle from initial deployment to ongoing maintenance"
         },
         {
@@ -627,7 +617,7 @@
           "source": "GitHub AI",
           "source_name": "GitHub AI",
           "category": "ai-tools",
-          "published_at": "2026-06-02T21:24:19.100650+00:00",
+          "published_at": "2026-06-02T23:21:13.152835+00:00",
           "summary": "Industrial-grade speech recognition toolkit: 170x realtime, 50+ languages, speaker diarization, emotion detection, streaming, and OpenAI-compatible API."
         },
         {
@@ -637,7 +627,7 @@
           "source": "GitHub AI",
           "source_name": "GitHub AI",
           "category": "ai-tools",
-          "published_at": "2026-06-02T21:24:19.100497+00:00",
+          "published_at": "2026-06-02T23:21:13.152657+00:00",
           "summary": "DeepSpeed is a deep learning optimization library that makes distributed training and inference easy, efficient, and effective."
         }
       ]
@@ -902,9 +892,54 @@
         }
       ]
     },
+    "paper": {
+      "label": "paper",
+      "items": [
+        {
+          "id": "358900147bf2",
+          "title": "微软研究：Aurora天气预报速度超传统超算数千倍",
+          "url": "https://x.com/MSFTResearch/status/2061927189977727450",
+          "source": "aihot",
+          "source_name": "X：Microsoft Research (@MSFTResearch)",
+          "category": "paper",
+          "published_at": "2026-06-02T21:45:25.000Z",
+          "summary": "天气预报速度比传统超级计算机快数千倍。听听Kenji Takeda在#MSBuild微软研究实验室关于Aurora的分享。了解更多：https：//msft.it/6018vjGUA"
+        },
+        {
+          "id": "d013f6430279",
+          "title": "Anthropic可解释性研究：区分因果效应相似的特征",
+          "url": "https://transformer-circuits.pub/2026/may-update/index.html",
+          "source": "aihot",
+          "source_name": "Anthropic：Transformer Circuits（可解释性研究）",
+          "category": "paper",
+          "published_at": "2026-06-02T09:52:20.287Z",
+          "summary": "Anthropic可解释性团队介绍了其Circuits研究的新进展。为区分那些激活模式相似但因果效应不同的模型特征，团队提出一种新方法。该方法通过分析特征的下游连接来预测其实际影响，并使用基于共激活统计的TWERA（虚拟权重）对连接进行加权排序。实验表明，借助下游连接信息能更准确地判断哪个特征会引导特定输出。此方法为识别模型内部真正的因果组件提供了新途径。"
+        },
+        {
+          "id": "11d31f4c8072",
+          "title": "Codex正在成为每个人的生产力工具",
+          "url": "https://openai.com/index/codex-for-knowledge-work",
+          "source": "aihot",
+          "source_name": "OpenAI：官网动态（RSS · 排除企业/客户案例）",
+          "category": "paper",
+          "published_at": "2026-06-02T02:00:00.000Z",
+          "summary": "The Next Era of Knowledge Work报告指出，Codex正通过AI增强的研究、数据分析、工作流自动化与内容创作，变革知识工作的生产力。"
+        }
+      ]
+    },
     "industry": {
       "label": "industry",
       "items": [
+        {
+          "id": "0040b0e2d719",
+          "title": "Anthropic支持美国AI行政令实施",
+          "url": "https://x.com/AnthropicAI/status/2061924580222968183",
+          "source": "aihot",
+          "source_name": "X：Anthropic (@AnthropicAI)",
+          "category": "industry",
+          "published_at": "2026-06-02T21:35:03.000Z",
+          "summary": "这项行政令是加强美国AI领导地位的重要一步。\n\n我们期待与白宫合作，支持其实施。\n\nhttps：//www.whitehouse.gov/presidential-actions/2026/06/promoting-advanced-artificial-intelligence-innovation-and-security/"
+        },
         {
           "id": "99e4d2594c1f",
           "title": "Alphabet拟融资800亿美元 Anthropic提交IPO申请",
@@ -914,16 +949,6 @@
           "category": "industry",
           "published_at": "2026-06-02T18:39:17.000Z",
           "summary": "Alphabet宣布拟通过股权融资800亿美元，用于扩展AI基础设施。Anthropic已秘密提交IPO申请，在上市竞赛中领先于竞争对手OpenAI。此外，SpaceX正与华尔街机构协商其IPO的承销费用，HPE则因AI基础设施需求旺盛，年度销售预期超出市场估计。"
-        },
-        {
-          "id": "ce20d8905b0e",
-          "title": "特朗普签署修订版AI行政命令，要求自愿预发布审查",
-          "url": "https://techcrunch.com/2026/06/02/trump-signs-narrower-executive-order-on-ai-oversight-after-industry-objections",
-          "source": "aihot",
-          "source_name": "TechCrunch：AI（RSS）",
-          "category": "industry",
-          "published_at": "2026-06-02T16:23:08.000Z",
-          "summary": "在业界反对后，特朗普总统签署了修订版AI行政命令，该命令要求对先进模型进行自愿预发布政府审查，而非强制要求。"
         },
         {
           "id": "f9102a972b8b",
@@ -964,31 +989,6 @@
           "category": "industry",
           "published_at": "2026-06-02T07:00:00.000Z",
           "summary": "OpenAI呼吁通过设立专门的AI安全研究所，在全球范围内采取行动，以保障青少年在使用AI时的安全，并创造更多发展机遇。"
-        }
-      ]
-    },
-    "paper": {
-      "label": "paper",
-      "items": [
-        {
-          "id": "d013f6430279",
-          "title": "Anthropic可解释性研究：区分因果效应相似的特征",
-          "url": "https://transformer-circuits.pub/2026/may-update/index.html",
-          "source": "aihot",
-          "source_name": "Anthropic：Transformer Circuits（可解释性研究）",
-          "category": "paper",
-          "published_at": "2026-06-02T09:52:20.287Z",
-          "summary": "Anthropic可解释性团队介绍了其Circuits研究的新进展。为区分那些激活模式相似但因果效应不同的模型特征，团队提出一种新方法。该方法通过分析特征的下游连接来预测其实际影响，并使用基于共激活统计的TWERA（虚拟权重）对连接进行加权排序。实验表明，借助下游连接信息能更准确地判断哪个特征会引导特定输出。此方法为识别模型内部真正的因果组件提供了新途径。"
-        },
-        {
-          "id": "11d31f4c8072",
-          "title": "Codex正在成为每个人的生产力工具",
-          "url": "https://openai.com/index/codex-for-knowledge-work",
-          "source": "aihot",
-          "source_name": "OpenAI：官网动态（RSS · 排除企业/客户案例）",
-          "category": "paper",
-          "published_at": "2026-06-02T02:00:00.000Z",
-          "summary": "The Next Era of Knowledge Work报告指出，Codex正通过AI增强的研究、数据分析、工作流自动化与内容创作，变革知识工作的生产力。"
         }
       ]
     }
