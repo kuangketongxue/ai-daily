@@ -1,22 +1,31 @@
 {
   "date": "2026-06-02",
-  "generated_at": "2026-06-02T17:50:03.743772",
-  "total": 78,
+  "generated_at": "2026-06-02T21:24:20.230572",
+  "total": 90,
   "sources": {
     "Hugging Face": 8,
     "GitHub AI": 7,
-    "X：NVIDIA AI (@NVIDIAAI)": 2,
-    "X：Google DeepMind (@GoogleDeepMind)": 1,
-    "Claude：Blog（网页）": 1,
-    "X：Vista (@vista8)": 2,
-    "TechCrunch：AI（RSS）": 1,
-    "X：OpenAI (@OpenAI)": 1,
-    "X：OpenRouter (@OpenRouter)": 3,
-    "X：Replit (@Replit)": 2,
+    "Claude：Blog（网页）": 2,
+    "X：Rohan Paul (@rohanpaul_ai)": 3,
+    "X：Thariq (@trq212)": 1,
+    "X：NVIDIA (@nvidia)": 1,
+    "X：Claude Devs (@ClaudeDevs)": 2,
+    "X：Runway (@runwayml)": 1,
+    "X：OpenRouter (@OpenRouter)": 4,
+    "X：Replit (@Replit)": 3,
+    "X：OpenAI Developers (@OpenAIDevs)": 1,
+    "TechCrunch：AI（RSS）": 2,
+    "Bloomberg：Technology（RSS）": 2,
     "The Verge：AI（RSS）": 1,
+    "X：NVIDIA AI (@NVIDIAAI)": 3,
+    "X：OpenClaw (@openclaw)": 1,
+    "GitHub Blog": 1,
+    "X：Google DeepMind (@GoogleDeepMind)": 1,
+    "X：Vista (@vista8)": 2,
+    "X：OpenAI (@OpenAI)": 1,
     "Gary Marcus：The Road to AI We Can Trust（RSS）": 1,
     "X：商汤 SenseTime (@SenseTime_AI)": 2,
-    "Hugging Face：Blog（RSS）": 3,
+    "Hugging Face：Blog（RSS）": 2,
     "X：Nathan Lambert (@natolambert)": 1,
     "X：面壁智能 OpenBMB (@OpenBMB)": 2,
     "Anthropic：Newsroom（网页）": 2,
@@ -24,12 +33,11 @@
     "Anthropic：Transformer Circuits（可解释性研究）": 1,
     "X：阿里云 / Alibaba Cloud (@alibaba_cloud)": 1,
     "IT之家（RSS）": 4,
-    "OpenAI：官网动态（RSS · 排除企业/客户案例）": 5,
+    "OpenAI：官网动态（RSS · 排除企业/客户案例）": 4,
     "NVIDIA AI Blog": 1,
     "X：卡兹克 (@Khazix0918)": 1,
     "X：阶跃星辰 StepFun (@StepFun_ai)": 1,
     "NVIDIA Technical Blog（开发者技术博客 · RSS）": 2,
-    "X：Rohan Paul (@rohanpaul_ai)": 2,
     "MiniMax：Blog（网页）": 1,
     "xAI：News（网页）": 1,
     "Qwen：Blog Retrieval（API）": 1,
@@ -37,7 +45,6 @@
     "NVIDIA Blog：Agentic AI（网页）": 1,
     "X：ChatGPT (@ChatGPTapp)": 1,
     "X：Perplexity (@perplexity_ai)": 1,
-    "Bloomberg：Technology（RSS）": 1,
     "Ars Technica：AI（RSS）": 1,
     "X：阿易 AI Notes (@AYi_AInotes)": 1,
     "X：Gemini (@GeminiApp)": 1,
@@ -45,15 +52,34 @@
     "Nathan Lambert：Interconnects（RSS）": 1,
     "X：Microsoft Research (@MSFTResearch)": 1,
     "Tomer Tunguz 博客（VC 分析）": 1,
-    "X：Krea AI (@krea_ai)": 1,
-    "X：Luma AI (@LumaLabsAI)": 1,
-    "X：百度 Baidu (@Baidu_Inc)": 1
+    "X：Logan Kilpatrick (@OfficialLoganK)": 1,
+    "X：Krea AI (@krea_ai)": 1
   },
   "ai_processed": false,
   "categories": {
     "ai-models": {
       "label": "🧠 AI 模型",
       "items": [
+        {
+          "id": "c55dd6244e1d",
+          "title": "微软发布 MAI-Thinking-1 模型",
+          "url": "https://x.com/rohanpaul_ai/status/2061913509399789924",
+          "source": "aihot",
+          "source_name": "X：Rohan Paul (@rohanpaul_ai)",
+          "category": "ai-models",
+          "published_at": "2026-06-02T20:51:03.000Z",
+          "summary": "微软发布了 MAI-Thinking-1，这是一款采用 MoE 架构的模型，拥有 35B 活跃参数和 1T 总参数。该模型从零开始在 30T tokens 上完成预训练，且未使用第三方模型蒸馏。微软称其迭代优化流程为\"爬山机器\"。在基准测试中，该模型于 AIME 2025 获得 97.0%，在 LiveCodeBench v6 获得 87.7%，在 SWE-Bench Pro 获得 52.8% 的成绩。"
+        },
+        {
+          "id": "6458e54c0fef",
+          "title": "微软首款高级推理AI模型MAI-Thinking-1发布",
+          "url": "https://www.theverge.com/tech/941664/microsoft-ai-model-reasoning-mai-thinking-1-build-2026",
+          "source": "aihot",
+          "source_name": "The Verge：AI（RSS）",
+          "category": "ai-models",
+          "published_at": "2026-06-02T18:12:44.000Z",
+          "summary": "微软在Build 2026上发布了其首款高级推理AI模型MAI-Thinking-1。该模型被定位为\"中等规模\"，能在\"关键\"软件工程基准测试中达到领先模型的水平。微软称其完全从头使用干净数据进行训练，未涉及从第三方模型进行知识蒸馏。这标志着微软在自研AI模型上迈出重要一步，此前其主要依赖OpenAI。近期两家公司已重新协商合作协议，关系有所松绑。"
+        },
         {
           "id": "e4055a0696fb",
           "title": "Holo3.1：快速本地计算机使用智能体",
@@ -149,6 +175,126 @@
     "ai-products": {
       "label": "🚀 AI 产品",
       "items": [
+        {
+          "id": "3a43aaaf0146",
+          "title": "Claude Code 新增动态工作流功能",
+          "url": "https://claude.com/blog/a-harness-for-every-task-dynamic-workflows-in-claude-code",
+          "source": "aihot",
+          "source_name": "Claude：Blog（网页）",
+          "category": "ai-products",
+          "published_at": "2026-06-02T21:16:49.491Z",
+          "summary": "Claude Code 新增动态工作流功能，允许模型在运行时即兴创建和协调多智能体框架来处理复杂任务。该功能通过执行特定的 JavaScript 文件来生成和协调拥有独立上下文窗口的子代理，可解决单一上下文窗口中长时间执行任务可能出现的智能惰性等问题。工作流适用于研究、安全分析、代码审查等场景，通常消耗更多 token，更适合高价值复杂任务，其最佳实践仍在发展中。"
+        },
+        {
+          "id": "95d3bd57ec92",
+          "title": "Claude Code 动态工作流功能发布：为每个任务创建专属框架",
+          "url": "https://x.com/trq212/status/2061907337154367865",
+          "source": "aihot",
+          "source_name": "X：Thariq (@trq212)",
+          "category": "ai-products",
+          "published_at": "2026-06-02T20:26:32.000Z",
+          "summary": "Claude Code 新增动态工作流功能，使 Claude 能根据任务动态创建定制化的执行框架。该功能通过执行 JavaScript 文件来协调子智能体，并可指定模型与工作区隔离级别。它适用于研究、安全分析、代码审查等复杂任务，支持共享与复用。需要注意，动态工作流会消耗更多 token。"
+        },
+        {
+          "id": "eb2e3adda423",
+          "title": "NVIDIA DGX Station 开始交付开发者和研究人员",
+          "url": "https://x.com/nvidia/status/2061904438478970985",
+          "source": "aihot",
+          "source_name": "X：NVIDIA (@nvidia)",
+          "category": "ai-products",
+          "published_at": "2026-06-02T20:15:01.000Z",
+          "summary": "NVIDIA DGX Station 系统正开始送达开发者和研究人员的办公桌。📦\n\n企业团队可以本地部署数据中心级性能，搭载 GB300 的系统正从华硕、戴尔、技嘉、惠普、微星和超微等合作伙伴处发货。\n\n👉 阅读博客：https：//nvda.ws/4x3VdBr"
+        },
+        {
+          "id": "f7353db9ce24",
+          "title": "Runway API 推出 Aleph 2.0 视频编辑功能",
+          "url": "https://x.com/runwayml/status/2061895998545244342",
+          "source": "aihot",
+          "source_name": "X：Runway (@runwayml)",
+          "category": "ai-products",
+          "published_at": "2026-06-02T19:41:28.000Z",
+          "summary": "Aleph 2.0 现已通过 Runway API 提供。将精准视频编辑直接集成到您的应用、产品和平台中。支持在多镜头序列中编辑最长 30 秒、1080p 分辨率的视频，仅修改您想要的部分。\n\n请通过以下链接开始使用。"
+        },
+        {
+          "id": "d0b38f670d82",
+          "title": "OpenRouter上线微软三款新模型",
+          "url": "https://x.com/OpenRouter/status/2061894672847671724",
+          "source": "aihot",
+          "source_name": "X：OpenRouter (@OpenRouter)",
+          "category": "ai-products",
+          "published_at": "2026-06-02T19:36:12.000Z",
+          "summary": "三款新的 @MicrosoftAI 模型现已在 OpenRouter 上线！\n同步推出：MAI-Image-2.5、MAI-Transcribe-1.5 和 MAI-Voice-2。详情见下文 🧵"
+        },
+        {
+          "id": "09c12591e2dd",
+          "title": "Replit 与微软合作发布 Fabric 集成",
+          "url": "https://x.com/Replit/status/2061892255028486435",
+          "source": "aihot",
+          "source_name": "X：Replit (@Replit)",
+          "category": "ai-products",
+          "published_at": "2026-06-02T19:26:36.000Z",
+          "summary": "宣布与 @Microsoft 的新合作\n\n组织现在可以在 Replit 中构建内部工具、工作流或数据仪表板，并直接发布到 Microsoft Fabric，内置安全、身份验证和治理功能。"
+        },
+        {
+          "id": "0f24dc090576",
+          "title": "OpenAI Codex 推出团队专属插件",
+          "url": "https://x.com/OpenAIDevs/status/2061888366791246071",
+          "source": "aihot",
+          "source_name": "X：OpenAI Developers (@OpenAIDevs)",
+          "category": "ai-products",
+          "published_at": "2026-06-02T19:11:09.000Z",
+          "summary": "Codex 中的角色专属插件围绕团队实际工作构建。\n\n数据分析、创意制作和产品设计插件为 Codex 提供了创建报告、创意方向和原型的工具与上下文。\n\n由 OpenAI 团队构建并使用。"
+        },
+        {
+          "id": "6c639528fc71",
+          "title": "微软发布开源框架 Adaptive Spec-driven Scoring：支持用文本描述创建 AI 评估测试",
+          "url": "https://techcrunch.com/2026/06/02/new-microsoft-tool-lets-devs-spin-up-ai-behavior-tests-using-text-descriptions",
+          "source": "aihot",
+          "source_name": "TechCrunch：AI（RSS）",
+          "category": "ai-products",
+          "published_at": "2026-06-02T19:02:21.000Z",
+          "summary": "微软开源发布 Adaptive Spec-driven Scoring for Evaluation and Regression Testing 框架。开发者可通过文本描述快速生成 AI 行为测试，用于模型评估与回归测试。"
+        },
+        {
+          "id": "b38d8bd7879b",
+          "title": "Claude Platform 新增 CLI 工具",
+          "url": "https://x.com/ClaudeDevs/status/2061877343078244459",
+          "source": "aihot",
+          "source_name": "X：Claude Devs (@ClaudeDevs)",
+          "category": "ai-products",
+          "published_at": "2026-06-02T18:27:21.000Z",
+          "summary": "我们为 Claude Platform 添加了一个 CLI，使每个 API 端点都可以从你的终端运行。\n调用 Messages API，启动 Claude 托管智能体，并将结果直接管道传输到你的 shell。\nant CLI 被使用 claude-api 技能的编码智能体（Claude Code）很好地理解。"
+        },
+        {
+          "id": "ac44315632d7",
+          "title": "NVIDIA发布自进化Hermes智能体",
+          "url": "https://x.com/NVIDIAAI/status/2061870499232190967",
+          "source": "aihot",
+          "source_name": "X：NVIDIA AI (@NVIDIAAI)",
+          "category": "ai-products",
+          "published_at": "2026-06-02T18:00:09.000Z",
+          "summary": "自进化Hermes智能体：随使用而改进的企业AI | Nemotron Labs"
+        },
+        {
+          "id": "ca7f4f26a6be",
+          "title": "OpenClaw 与微软合作进入企业生态",
+          "url": "https://x.com/openclaw/status/2061869633624580452",
+          "source": "aihot",
+          "source_name": "X：OpenClaw (@openclaw)",
+          "category": "ai-products",
+          "published_at": "2026-06-02T17:56:42.000Z",
+          "summary": "\"你现在可以在公司内部运行 OpenClaw 了。\" 宣布我们与 @Microsoft 的合作，将 OpenClaw 带入微软和 Windows 生态系统。Claws 现在可以在企业环境中安全运行。"
+        },
+        {
+          "id": "55c2c28ce550",
+          "title": "GitHub Copilot应用：智能体原生的桌面体验",
+          "url": "https://github.blog/news-insights/product-news/github-copilot-app-the-agent-native-desktop-experience",
+          "source": "aihot",
+          "source_name": "GitHub Blog",
+          "category": "ai-products",
+          "published_at": "2026-06-02T17:30:03.000Z",
+          "summary": "在微软 Build 2026 大会上，GitHub 发布了新的工具和更新，并将 Copilot 应用定位为\"智能体原生的桌面体验\"。其核心目标是让 AI 智能体能够以用户已经习惯的方式进行工作。"
+        },
         {
           "id": "f47057c53afa",
           "title": "Google DeepMind 发布 Gemini 多智能体科研系统",
@@ -320,6 +466,16 @@
           "summary": "推出Search as Code，我们为AI智能体打造的全新搜索架构。 它直接编写Python代码调用我们的搜索栈，而非逐个循环函数调用。 现已在Perplexity Agent API中提供，并成为Computer的默认选项。 https://research.perplexity.ai/articles/rethinking-search-as-code-generation"
         },
         {
+          "id": "15ba91222644",
+          "title": "Google AI Studio 新增 Gmail 等应用构建能力",
+          "url": "https://x.com/OfficialLoganK/status/2061568290984800740",
+          "source": "aihot",
+          "source_name": "X：Logan Kilpatrick (@OfficialLoganK)",
+          "category": "ai-products",
+          "published_at": "2026-06-01T21:59:17.000Z",
+          "summary": "我们刚刚上线了在 @GoogleAIStudio 内直接构建连接 Gmail、Drive、Sheets 等应用的功能，无需跳转其他网站，你可以直接在 AI Studio 内添加测试人员，完整的公开分享功能即将推出！！"
+        },
+        {
           "id": "69cc23c12287",
           "title": "Krea AI 开放 Krea 2 LoRAs 全员使用",
           "url": "https://x.com/krea_ai/status/2061554472925696128",
@@ -421,7 +577,7 @@
           "source": "GitHub AI",
           "source_name": "GitHub AI",
           "category": "ai-tools",
-          "published_at": "2026-06-02T17:50:02.579131+00:00",
+          "published_at": "2026-06-02T21:24:19.102109+00:00",
           "summary": "An open and reliable container runtime"
         },
         {
@@ -431,7 +587,7 @@
           "source": "GitHub AI",
           "source_name": "GitHub AI",
           "category": "ai-tools",
-          "published_at": "2026-06-02T17:50:02.578871+00:00",
+          "published_at": "2026-06-02T21:24:19.101818+00:00",
           "summary": "🔥 🔥 🔥 A Free & Self-hostable Airtable Alternative"
         },
         {
@@ -441,7 +597,7 @@
           "source": "GitHub AI",
           "source_name": "GitHub AI",
           "category": "ai-tools",
-          "published_at": "2026-06-02T17:50:02.578123+00:00",
+          "published_at": "2026-06-02T21:24:19.101079+00:00",
           "summary": "Find vulnerabilities, misconfigurations, secrets, SBOM in containers, Kubernetes, code repositories, clouds and more"
         },
         {
@@ -451,7 +607,7 @@
           "source": "GitHub AI",
           "source_name": "GitHub AI",
           "category": "ai-tools",
-          "published_at": "2026-06-02T17:50:02.577990+00:00",
+          "published_at": "2026-06-02T21:24:19.100938+00:00",
           "summary": "Fair-code workflow automation platform with native AI capabilities. Combine visual building with custom code, self-host or cloud, 400+ integrations."
         },
         {
@@ -461,7 +617,7 @@
           "source": "GitHub AI",
           "source_name": "GitHub AI",
           "category": "ai-tools",
-          "published_at": "2026-06-02T17:50:02.577859+00:00",
+          "published_at": "2026-06-02T21:24:19.100785+00:00",
           "summary": "CloudNativePG is a comprehensive platform designed to seamlessly manage PostgreSQL databases within Kubernetes environments, covering the entire operational lifecycle from initial deployment to ongoing maintenance"
         },
         {
@@ -471,7 +627,7 @@
           "source": "GitHub AI",
           "source_name": "GitHub AI",
           "category": "ai-tools",
-          "published_at": "2026-06-02T17:50:02.577725+00:00",
+          "published_at": "2026-06-02T21:24:19.100650+00:00",
           "summary": "Industrial-grade speech recognition toolkit: 170x realtime, 50+ languages, speaker diarization, emotion detection, streaming, and OpenAI-compatible API."
         },
         {
@@ -481,7 +637,7 @@
           "source": "GitHub AI",
           "source_name": "GitHub AI",
           "category": "ai-tools",
-          "published_at": "2026-06-02T17:50:02.577578+00:00",
+          "published_at": "2026-06-02T21:24:19.100497+00:00",
           "summary": "DeepSpeed is a deep learning optimization library that makes distributed training and inference easy, efficient, and effective."
         }
       ]
@@ -574,6 +730,16 @@
     "tip": {
       "label": "💡 技巧",
       "items": [
+        {
+          "id": "b790be3c92e8",
+          "title": "Claude Code 自我检查与反馈闭环技巧",
+          "url": "https://x.com/ClaudeDevs/status/2061900434722496604",
+          "source": "aihot",
+          "source_name": "X：Claude Devs (@ClaudeDevs)",
+          "category": "tip",
+          "published_at": "2026-06-02T19:59:06.000Z",
+          "summary": "如何让 Claude Code 在交回工作前检查自己的成果？\n看看如何编码你的手动检查，让 Claude 自己关闭反馈循环："
+        },
         {
           "id": "fa26125adbba",
           "title": "NVIDIA NemoClaw 部署 Hermes Agent 教程",
@@ -733,32 +899,22 @@
           "category": "tip",
           "published_at": "2026-06-02T00:00:00.000Z",
           "summary": "根据OpenRouter平台数据，自2025年以来，开放模型使用量显著增长。最新数据显示，开放权重模型产生了69.1%的token使用量，闭源模型为30.9%。新模型的发布会吸引开发者测试，推动token使用量达到新的平台期。开放模型市场内部竞争激烈，领导地位频繁更迭，如DeepSeek的早期优势在2025年末至2026年初被MiniMax与Kimi模型取代，随后MiMo、Qwen、腾讯Hy3、阿里巴巴及Arcee等模型的发布再次改变了份额格局。尽管开放模型目前仍只占推理总量的一小部分，但激烈的竞争与增长表明，开发者正越来越愿意将生产流量路由至开放模型。"
-        },
-        {
-          "id": "1bca74f5e340",
-          "title": "AI Pulse 探讨智能体时代新指标 DAA",
-          "url": "https://x.com/Baidu_Inc/status/2061447687028039854",
-          "source": "aihot",
-          "source_name": "X：百度 Baidu (@Baidu_Inc)",
-          "category": "tip",
-          "published_at": "2026-06-01T14:00:03.000Z",
-          "summary": "ICYMI：我们最新的 AI Pulse 探讨了日活跃智能体（DAA）--一个衡量智能体时代价值的指标--以及我们的智能体组合。"
-        },
-        {
-          "id": "2cfca741fee5",
-          "title": "超越LLM：为何可扩展的企业AI采用取决于智能体逻辑",
-          "url": "https://huggingface.co/blog/ibm-research/agent-logic-and-scalable-ai-adoption",
-          "source": "aihot",
-          "source_name": "Hugging Face：Blog（RSS）",
-          "category": "tip",
-          "published_at": "2026-06-01T13:51:18.000Z",
-          "summary": "可扩展的企业AI采用需超越大语言模型，依靠智能体逻辑来引导模型执行动态、长周期且受约束的企业工作流，从而提升质量、降低成本并建立信任。文中以IBM watsonx Code Assistant for Z为例，展示了智能体逻辑如何通过程序分析等技术，在理解大型遗留代码库时，相比纯LLM基线方法，能以约30倍更低的token消耗达到更优性能。在加速测试生成任务中，该方法亦能使代码覆盖度提升20%-45%，同时token消耗降低最高达15倍。"
         }
       ]
     },
     "industry": {
       "label": "industry",
       "items": [
+        {
+          "id": "99e4d2594c1f",
+          "title": "Alphabet拟融资800亿美元 Anthropic提交IPO申请",
+          "url": "https://www.bloomberg.com/news/videos/2026-06-02/bloomberg-tech-6-2-2026-video",
+          "source": "aihot",
+          "source_name": "Bloomberg：Technology（RSS）",
+          "category": "industry",
+          "published_at": "2026-06-02T18:39:17.000Z",
+          "summary": "Alphabet宣布拟通过股权融资800亿美元，用于扩展AI基础设施。Anthropic已秘密提交IPO申请，在上市竞赛中领先于竞争对手OpenAI。此外，SpaceX正与华尔街机构协商其IPO的承销费用，HPE则因AI基础设施需求旺盛，年度销售预期超出市场估计。"
+        },
         {
           "id": "ce20d8905b0e",
           "title": "特朗普签署修订版AI行政命令，要求自愿预发布审查",
@@ -768,16 +924,6 @@
           "category": "industry",
           "published_at": "2026-06-02T16:23:08.000Z",
           "summary": "在业界反对后，特朗普总统签署了修订版AI行政命令，该命令要求对先进模型进行自愿预发布政府审查，而非强制要求。"
-        },
-        {
-          "id": "2418f0151d68",
-          "title": "微软 Build 2026 开发者大会：关于 Windows、AI、RTX Spark 等的所有新闻",
-          "url": "https://www.theverge.com/tech/941668/microsoft-build-may-2026-live-news-updates",
-          "source": "aihot",
-          "source_name": "The Verge：AI（RSS）",
-          "category": "industry",
-          "published_at": "2026-06-02T15:59:58.000Z",
-          "summary": "微软年度开发者大会 Build 2026 于 6 月 2 日在旧金山举行，主题演讲提供直播。预计将宣布新的 AI 模型、类似 OpenClaw 的智能体工具，以及配合 Windows 11 重大变革的 Copilot \"超级应用\"。此外，鉴于微软刚发布了搭载 Nvidia RTX Spark 的 Surface Laptop Ultra，本次大会可能还会有更多关于 Windows on ARM 的动态。"
         },
         {
           "id": "f9102a972b8b",
@@ -818,26 +964,6 @@
           "category": "industry",
           "published_at": "2026-06-02T07:00:00.000Z",
           "summary": "OpenAI呼吁通过设立专门的AI安全研究所，在全球范围内采取行动，以保障青少年在使用AI时的安全，并创造更多发展机遇。"
-        },
-        {
-          "id": "56b10f23e494",
-          "title": "OpenAI的AI政策与政治倡导观点",
-          "url": "https://openai.com/index/our-views-on-ai-policy-and-political-advocacy",
-          "source": "aihot",
-          "source_name": "OpenAI：官网动态（RSS · 排除企业/客户案例）",
-          "category": "industry",
-          "published_at": "2026-06-01T17:00:00.000Z",
-          "summary": "OpenAI阐述了其在AI政策与政治倡导方面的立场，包括对透明度、深思熟虑的监管以及AI安全的支持。同时，公司明确表示，任何外部政治组织均不能代表OpenAI发言。"
-        },
-        {
-          "id": "3179b05afdb1",
-          "title": "Luma成立开放物理AI实验室攻克泛化难题",
-          "url": "https://x.com/LumaLabsAI/status/2061460217616027961",
-          "source": "aihot",
-          "source_name": "X：Luma AI (@LumaLabsAI)",
-          "category": "industry",
-          "published_at": "2026-06-01T14:49:50.000Z",
-          "summary": "为改善人类生活，AI系统必须能帮助我们改善物理世界。阻碍我们迈向这一繁荣未来的是物理AI的泛化问题。\n\n为解决此问题，我们在Luma建立了一个新的开放科学物理AI实验室。\n\n阅读更多 → https：//lumalabs.ai/news/luma-open-physical-ai-lab"
         }
       ]
     },
