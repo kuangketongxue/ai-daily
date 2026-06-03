@@ -1,14 +1,15 @@
 {
   "date": "2026-06-03",
-  "generated_at": "2026-06-03T07:13:44.187133",
-  "total": 67,
+  "generated_at": "2026-06-03T12:12:37.729737",
+  "total": 70,
   "sources": {
     "Hugging Face": 8,
     "GitHub AI": 7,
+    "X：阿里云 / Alibaba Cloud (@alibaba_cloud)": 2,
+    "Anthropic：Research（发表成果 · 网页）": 1,
     "X：硅基流动 SiliconFlow (@SiliconFlowAI)": 2,
     "IT之家（RSS）": 3,
     "X：Satya Nadella (@satyanadella)": 1,
-    "X：阿里云 / Alibaba Cloud (@alibaba_cloud)": 2,
     "Hacker News 热门（buzzing.cc 中文翻译）": 1,
     "X：邵猛 (@shao__meng)": 1,
     "The Verge：AI（RSS）": 1,
@@ -31,11 +32,10 @@
     "Anthropic：Transformer Circuits（可解释性研究）": 1,
     "X：卡兹克 (@Khazix0918)": 1,
     "X：商汤 SenseTime (@SenseTime_AI)": 1,
-    "X：Rohan Paul (@rohanpaul_ai)": 1,
+    "X：Rohan Paul (@rohanpaul_ai)": 2,
     "The Verge：订阅版科技（RSS）": 1,
     "Tomer Tunguz 博客（VC 分析）": 1,
     "Gary Marcus：The Road to AI We Can Trust（RSS）": 1,
-    "NVIDIA Blog：Agentic AI（网页）": 1,
     "X：NVIDIA (@nvidia)": 1,
     "X：OpenRouter (@OpenRouter)": 2,
     "X：OpenAI Developers (@OpenAIDevs)": 1,
@@ -46,7 +46,9 @@
     "X：面壁智能 OpenBMB (@OpenBMB)": 1,
     "HuggingFace Daily Papers（社区热门论文）": 1,
     "NVIDIA AI Blog": 1,
-    "NVIDIA Technical Blog（开发者技术博客 · RSS）": 1
+    "NVIDIA Technical Blog（开发者技术博客 · RSS）": 1,
+    "X：ChatGPT (@ChatGPTapp)": 1,
+    "X：Logan Kilpatrick (@OfficialLoganK)": 1
   },
   "ai_processed": false,
   "categories": {
@@ -179,16 +181,6 @@
           "summary": "宣布与 @Microsoft 的新合作 组织现在可以在 Replit 中构建内部工具、工作流或数据仪表板，并直接发布到 Microsoft Fabric，内置安全、身份验证和治理功能。"
         },
         {
-          "id": "3fcc3fce3e08",
-          "title": "NVIDIA 推出 NemoClaw 平台，助力工业软件厂商构建自主 AI 工程师",
-          "url": "https://blogs.nvidia.com/blog/industrial-software-leaders-secure-autonomous-ai-engineers-nemoclaw",
-          "source": "aihot",
-          "source_name": "NVIDIA Blog：Agentic AI（网页）",
-          "category": "ai-products",
-          "published_at": "2026-06-02T22:00:58.000Z",
-          "summary": "在 COMPUTEX 上，NVIDIA 发布了 NemoClaw 平台，这是一个用于构建专业、长时间运行 AI 智能体的开放蓝图。该平台提供安全运行时、前沿模型支持以及多种编排框架集成选项，可通过 DGX Spark、数据中心或云端部署。其核心开源运行时 OpenShell 实施基于策略的安全管控，规范智能体对文件、网络和工具的访问。Cadence、达索系统、西门子、Synopsys 等十多家工业软件厂商正基于 NemoClaw 构建用于 CAE 和 EDA 工作流的自主 AI 工程师，旨在将原本需数周的仿真与设计任务压缩至数小时。"
-        },
-        {
           "id": "eb2e3adda423",
           "title": "NVIDIA DGX Station 开始交付开发者和研究人员",
           "url": "https://x.com/nvidia/status/2061904438478970985",
@@ -289,16 +281,6 @@
           "summary": "MiniCPM-V 4.6 现已完全支持 vLLM v0.22.0！\n无需自定义分支，无需额外编译。\n只需拉取预构建包即可运行。\n非常感谢 @vllm_project 的顺畅集成！ 🤝\n🤗 http：//huggingface.co/openbmb/MiniCPM-V-4.6"
         },
         {
-          "id": "a8dd87cbb046",
-          "title": "阿里云发布AgentScope Java 1.1及Claw等新功能",
-          "url": "https://x.com/alibaba_cloud/status/2061745401393291554",
-          "source": "aihot",
-          "source_name": "X：阿里云 / Alibaba Cloud (@alibaba_cloud)",
-          "category": "ai-products",
-          "published_at": "2026-06-02T09:43:03.000Z",
-          "summary": "🚀 AgentScope Java 1.1：构建可自我进化的智能体\n✨ Claw：具备Shell访问权限的本地\"MinQwenPaw\"\n✨ Builder：多租户、零代码企业平台\n✨ 工作区驱动的进化与分布式隔离\n从笔记本电脑到集群无缝扩展。👇\nhttps：//int.alibabacloud.com/m/1000413896/\n\n#AgentScope #AIAgents #Java"
-        },
-        {
           "id": "b2fe9403c5b3",
           "title": "为什么金融机构正汇聚在交易基础模型上来构建自身智能",
           "url": "https://blogs.nvidia.com/blog/financial-institutions-transaction-foundation-models",
@@ -317,6 +299,26 @@
           "category": "ai-products",
           "published_at": "2026-06-02T02:00:00.000Z",
           "summary": "NVIDIA JetPack 7.2发布，支持一键部署开源NVIDIA NemoClaw堆栈，该堆栈为OpenClaw添加了隐私与安全控制。同时引入NVIDIA agent skills for Jetson，为Jetson设备提供智能体技能。该版本优化了内存效率，旨在加速AI代理从数字世界向物理环境的边缘部署。"
+        },
+        {
+          "id": "644853c51537",
+          "title": "ChatGPT 新增长文编辑与保存功能",
+          "url": "https://x.com/ChatGPTapp/status/2061571468992126982",
+          "source": "aihot",
+          "source_name": "X：ChatGPT (@ChatGPTapp)",
+          "category": "ai-products",
+          "published_at": "2026-06-01T22:11:55.000Z",
+          "summary": "长文写作需要更多空间。\n\n现在你可以在全屏模式下编辑更长的文章，并将其保存到你的资料库中，以便稍后继续。"
+        },
+        {
+          "id": "15ba91222644",
+          "title": "Google AI Studio 新增 Gmail 等应用构建能力",
+          "url": "https://x.com/OfficialLoganK/status/2061568290984800740",
+          "source": "aihot",
+          "source_name": "X：Logan Kilpatrick (@OfficialLoganK)",
+          "category": "ai-products",
+          "published_at": "2026-06-01T21:59:17.000Z",
+          "summary": "我们刚刚上线了在 @GoogleAIStudio 内直接构建连接 Gmail、Drive、Sheets 等应用的功能，无需跳转其他网站，你可以直接在 AI Studio 内添加测试人员，完整的公开分享功能即将推出！！"
         }
       ]
     },
@@ -410,7 +412,7 @@
           "source": "GitHub AI",
           "source_name": "GitHub AI",
           "category": "ai-tools",
-          "published_at": "2026-06-03T07:13:43.073737+00:00",
+          "published_at": "2026-06-03T12:12:32.294395+00:00",
           "summary": "An open and reliable container runtime"
         },
         {
@@ -420,7 +422,7 @@
           "source": "GitHub AI",
           "source_name": "GitHub AI",
           "category": "ai-tools",
-          "published_at": "2026-06-03T07:13:43.073512+00:00",
+          "published_at": "2026-06-03T12:12:32.294162+00:00",
           "summary": "🔥 🔥 🔥 A Free & Self-hostable Airtable Alternative"
         },
         {
@@ -430,7 +432,7 @@
           "source": "GitHub AI",
           "source_name": "GitHub AI",
           "category": "ai-tools",
-          "published_at": "2026-06-03T07:13:43.072850+00:00",
+          "published_at": "2026-06-03T12:12:32.293484+00:00",
           "summary": "Find vulnerabilities, misconfigurations, secrets, SBOM in containers, Kubernetes, code repositories, clouds and more"
         },
         {
@@ -440,7 +442,7 @@
           "source": "GitHub AI",
           "source_name": "GitHub AI",
           "category": "ai-tools",
-          "published_at": "2026-06-03T07:13:43.072733+00:00",
+          "published_at": "2026-06-03T12:12:32.293368+00:00",
           "summary": "Fair-code workflow automation platform with native AI capabilities. Combine visual building with custom code, self-host or cloud, 400+ integrations."
         },
         {
@@ -450,7 +452,7 @@
           "source": "GitHub AI",
           "source_name": "GitHub AI",
           "category": "ai-tools",
-          "published_at": "2026-06-03T07:13:43.072618+00:00",
+          "published_at": "2026-06-03T12:12:32.293252+00:00",
           "summary": "CloudNativePG is a comprehensive platform designed to seamlessly manage PostgreSQL databases within Kubernetes environments, covering the entire operational lifecycle from initial deployment to ongoing maintenance"
         },
         {
@@ -460,7 +462,7 @@
           "source": "GitHub AI",
           "source_name": "GitHub AI",
           "category": "ai-tools",
-          "published_at": "2026-06-03T07:13:43.072499+00:00",
+          "published_at": "2026-06-03T12:12:32.293132+00:00",
           "summary": "Industrial-grade speech recognition toolkit: 170x realtime, 50+ languages, speaker diarization, emotion detection, streaming, and OpenAI-compatible API."
         },
         {
@@ -470,7 +472,7 @@
           "source": "GitHub AI",
           "source_name": "GitHub AI",
           "category": "ai-tools",
-          "published_at": "2026-06-03T07:13:43.072358+00:00",
+          "published_at": "2026-06-03T12:12:32.292987+00:00",
           "summary": "DeepSpeed is a deep learning optimization library that makes distributed training and inference easy, efficient, and effective."
         }
       ]
@@ -687,12 +689,32 @@
           "category": "tip",
           "published_at": "2026-06-03T00:00:18.182Z",
           "summary": "知名人工智能批评者Gary Marcus在其关于可信赖AI的专栏中，探讨了人工智能发展面临的根本性挑战。文章开篇即指向问题的核心，指出相关数学理论的局限性与人类心理的复杂性，是导致AI系统最终可能出现问题的根源。"
+        },
+        {
+          "id": "9d56d9f73f70",
+          "title": "Sam Altman强调AI发展应以人为本",
+          "url": "https://x.com/rohanpaul_ai/status/2061586179292831774",
+          "source": "aihot",
+          "source_name": "X：Rohan Paul (@rohanpaul_ai)",
+          "category": "tip",
+          "published_at": "2026-06-01T23:10:22.000Z",
+          "summary": "Sam Altman在采访中表示，AI不应被设计为追求脱离人类需求的目标，人类必须始终处于AI发展的中心。他批判了行业内\"AI将摧毁大量工作\"等言论，认为人们担忧的并非AI带来的好处，而是自身在未来的角色、经济前景与自主权。他指出，AI行业的失败在于未能清晰解释人类如何在每一步保持对未来的控制权，以及如何在AI时代继续拥有充实、有意义的生活。"
         }
       ]
     },
     "industry": {
       "label": "industry",
       "items": [
+        {
+          "id": "4c623790e879",
+          "title": "Qwen Cloud全球AI黑客马拉松启动",
+          "url": "https://x.com/alibaba_cloud/status/2062113338994172169",
+          "source": "aihot",
+          "source_name": "X：阿里云 / Alibaba Cloud (@alibaba_cloud)",
+          "category": "industry",
+          "published_at": "2026-06-03T10:05:06.000Z",
+          "summary": "首届Qwen Cloud全球AI黑客马拉松现已启动！\n\n参与5大高级赛道，在全球舞台上挑战AI智能体极限。\n\n总奖金池超过70，000美元（赛道冠军1万美元）。\n\n立即在Devpost报名：https：//click.qwencloud.com/m/20000000281/"
+        },
         {
           "id": "493c31a033c1",
           "title": "消息称 DeepSeek 首轮融资拟筹集 500 亿元，腾讯、宁德时代等参投",
@@ -738,6 +760,16 @@
     "paper": {
       "label": "paper",
       "items": [
+        {
+          "id": "7b3450b90d89",
+          "title": "Anthropic 分析 832 个 AI 恶意账户：中高风险攻击者半年从 33% 跃至 56%",
+          "url": "https://www.anthropic.com/news/AI-enabled-cyber-threats-mitre-attack",
+          "source": "aihot",
+          "source_name": "Anthropic：Research（发表成果 · 网页）",
+          "category": "paper",
+          "published_at": "2026-06-03T09:51:21.088Z",
+          "summary": "Anthropic 分析 2025 年 3 月至 2026 年 3 月间 832 个被封禁的恶意账户，映射至 MITRE ATT&CK 框架。67.3% 使用 AI 编写恶意软件，6.5% 用于横向移动。六个月间中高风险攻击者占比从 33% 升至 56%。AI 用于账户发现增长 8.9%，AI 辅助钓鱼下降 8.6%。传统基于技术数量或平台（Claude Code、API、聊天界面）的威胁评估失效，而 MITRE ATT&CK 框架尚未收录此类智能体编排行为。"
+        },
         {
           "id": "f541c4ab1931",
           "title": "斯坦福大学法学院研究：人工智能的表现优于法学教授",
