@@ -1,10 +1,23 @@
 {
   "date": "2026-06-03",
-  "generated_at": "2026-06-03T12:12:37.729737",
-  "total": 70,
+  "generated_at": "2026-06-03T17:18:27.407320",
+  "total": 78,
   "sources": {
     "Hugging Face": 8,
     "GitHub AI": 7,
+    "X：Replit (@Replit)": 3,
+    "X：Kim (@kimmonismus)": 1,
+    "X：NVIDIA AI (@NVIDIAAI)": 2,
+    "X：xAI (@xai)": 1,
+    "X：Microsoft Research (@MSFTResearch)": 2,
+    "X：NVIDIA (@nvidia)": 2,
+    "X：Perplexity (@perplexity_ai)": 1,
+    "X：Suno (@suno)": 1,
+    "The Verge：订阅版科技（RSS）": 2,
+    "TechCrunch：AI（RSS）": 2,
+    "Anthropic：Newsroom（网页）": 2,
+    "Hugging Face：Blog（RSS）": 3,
+    "Bloomberg：Technology（RSS）": 2,
     "X：阿里云 / Alibaba Cloud (@alibaba_cloud)": 2,
     "Anthropic：Research（发表成果 · 网页）": 1,
     "X：硅基流动 SiliconFlow (@SiliconFlowAI)": 2,
@@ -13,48 +26,43 @@
     "Hacker News 热门（buzzing.cc 中文翻译）": 1,
     "X：邵猛 (@shao__meng)": 1,
     "The Verge：AI（RSS）": 1,
-    "Hugging Face：Blog（RSS）": 1,
     "X：阶跃星辰 StepFun (@StepFun_ai)": 1,
     "Claude：Blog（网页）": 2,
     "X：Claude Devs (@ClaudeDevs)": 2,
     "X：Vista (@vista8)": 1,
     "X：Google AI for Developers (@googleaidevs)": 1,
-    "TechCrunch：AI（RSS）": 1,
     "X：Runway (@runwayml)": 1,
     "GitHub Blog": 1,
-    "X：Replit (@Replit)": 2,
-    "Bloomberg：Technology（RSS）": 1,
     "X：Nathan Lambert (@natolambert)": 1,
-    "Anthropic：Newsroom（网页）": 1,
     "X：Anthropic (@AnthropicAI)": 1,
     "OpenAI：官网动态（RSS · 排除企业/客户案例）": 3,
-    "X：Microsoft Research (@MSFTResearch)": 1,
     "Anthropic：Transformer Circuits（可解释性研究）": 1,
     "X：卡兹克 (@Khazix0918)": 1,
     "X：商汤 SenseTime (@SenseTime_AI)": 1,
-    "X：Rohan Paul (@rohanpaul_ai)": 2,
-    "The Verge：订阅版科技（RSS）": 1,
-    "Tomer Tunguz 博客（VC 分析）": 1,
+    "X：Rohan Paul (@rohanpaul_ai)": 1,
+    "Tomer Tunguz 博客（VC 分析）": 2,
     "Gary Marcus：The Road to AI We Can Trust（RSS）": 1,
-    "X：NVIDIA (@nvidia)": 1,
     "X：OpenRouter (@OpenRouter)": 2,
     "X：OpenAI Developers (@OpenAIDevs)": 1,
-    "X：NVIDIA AI (@NVIDIAAI)": 1,
     "X：OpenClaw (@openclaw)": 1,
     "X：Google DeepMind (@GoogleDeepMind)": 1,
-    "X：OpenAI (@OpenAI)": 1,
-    "X：面壁智能 OpenBMB (@OpenBMB)": 1,
-    "HuggingFace Daily Papers（社区热门论文）": 1,
-    "NVIDIA AI Blog": 1,
-    "NVIDIA Technical Blog（开发者技术博客 · RSS）": 1,
-    "X：ChatGPT (@ChatGPTapp)": 1,
-    "X：Logan Kilpatrick (@OfficialLoganK)": 1
+    "X：OpenAI (@OpenAI)": 1
   },
   "ai_processed": false,
   "categories": {
     "ai-models": {
       "label": "🧠 AI 模型",
       "items": [
+        {
+          "id": "d3ab1d4ef12a",
+          "title": "Miso One 开源语音模型：8B 参数、110ms 延迟、一次语音克隆",
+          "url": "https://x.com/kimmonismus/status/2062210845308780639",
+          "source": "aihot",
+          "source_name": "X：Kim (@kimmonismus)",
+          "category": "ai-models",
+          "published_at": "2026-06-03T16:32:34.000Z",
+          "summary": "Miso One 正式发布，一个 8B 参数的开源权重语音模型（TTS），旨在模拟真实人类朗读的温暖与节奏。它支持一次语音克隆（只需短样本），推理延迟仅 110ms。模型权重已开源至 GitHub，无需 API 即可自托管，音频数据不离开本地。API 访问即将推出。演示已上线，可先试听再克隆仓库。"
+        },
         {
           "id": "98fad54781c0",
           "title": "微软首款高级推理AI模型MAI-Thinking-1发布",
@@ -90,6 +98,66 @@
     "ai-products": {
       "label": "🚀 AI 产品",
       "items": [
+        {
+          "id": "b61f2fc72db0",
+          "title": "Replit上线SEO Agent助应用被发现",
+          "url": "https://x.com/Replit/status/2062211976995188871",
+          "source": "aihot",
+          "source_name": "X：Replit (@Replit)",
+          "category": "ai-products",
+          "published_at": "2026-06-03T16:37:04.000Z",
+          "summary": "你发布了你的应用。然后呢？\n\n你的应用可能看起来很棒，但如果没人能找到它，它就依然不可见。\n\n发布只是开始。\n\n认识一下SEO Agent。它会为你运行一次扫描，并建议修复措施，帮助你的应用在网页搜索和AI搜索中被发现。"
+        },
+        {
+          "id": "c319c3febd21",
+          "title": "OpenShell v0.0.55 发布：新增 Vertex AI 推理支持",
+          "url": "https://x.com/NVIDIAAI/status/2062210034109677665",
+          "source": "aihot",
+          "source_name": "X：NVIDIA AI (@NVIDIAAI)",
+          "category": "ai-products",
+          "published_at": "2026-06-03T16:29:20.000Z",
+          "summary": "OpenShell v0.0.55\n\n🧩 Google Vertex AI 推理提供者\n🔒 基于配置文件的策略可见性\n🐳 网关中更好的 Podman 检测\n🖥️ 恢复 GPU procfs 基准行为\n🔧 CI 与文档修复\n\n运行智能体对接 Vertex AI，同时拥有改进的策略可见性以及更可靠的 Podman 和 GPU 沙箱行为。\n\nhttps：//github.com/NVIDIA/OpenShell/releases/tag/v0.0.55"
+        },
+        {
+          "id": "ff2c3edaaa51",
+          "title": "xAI Grok语音模型上线Vapi平台",
+          "url": "https://x.com/xai/status/2062209374039499178",
+          "source": "aihot",
+          "source_name": "X：xAI (@xai)",
+          "category": "ai-products",
+          "published_at": "2026-06-03T16:26:43.000Z",
+          "summary": "试试 @Vapi_AI 上最自然的TTS和性价比最高的STT API。\n\n来自 @xai 的Grok STT和Grok TTS现已在企业语音AI平台Vapi上线。基于Vapi构建自定义语音智能体，可让它们用客户的语言交流、在受监管的工作流中捕捉重要细节，并在每次通话中明显更具人性化。"
+        },
+        {
+          "id": "46d36d2890a5",
+          "title": "Perplexity Personal Computer 登陆 Windows",
+          "url": "https://x.com/perplexity_ai/status/2062189045728596080",
+          "source": "aihot",
+          "source_name": "X：Perplexity (@perplexity_ai)",
+          "category": "ai-products",
+          "published_at": "2026-06-03T15:05:56.000Z",
+          "summary": "Personal Computer 即将登陆 Windows。\n\n面向 Windows 的 Personal Computer 在你的机器上运行，并协调你每天使用的应用和文件。\n\n我们将首先向等候名单上的付费 Max 和 Enterprise Max 订阅用户推送。"
+        },
+        {
+          "id": "90a24eede2ec",
+          "title": "Meta 面向 WhatsApp Business 的 AI 智能体现已全球上线",
+          "url": "https://techcrunch.com/2026/06/03/metas-ai-agent-for-whatsapp-business-is-now-available-globally",
+          "source": "aihot",
+          "source_name": "TechCrunch：AI（RSS）",
+          "category": "ai-products",
+          "published_at": "2026-06-03T13:40:00.000Z",
+          "summary": "Meta 为 WhatsApp Business 打造的 AI 智能体面向全球商家开放，将按照模型 token 使用量向企业收费。"
+        },
+        {
+          "id": "eea4974dfa31",
+          "title": "介绍 Claude Partner Network 的 Services Track 和 Partner Hub",
+          "url": "https://www.anthropic.com/news/services-track-partner-hub",
+          "source": "aihot",
+          "source_name": "Anthropic：Newsroom（网页）",
+          "category": "ai-products",
+          "published_at": "2026-06-03T13:30:21.674Z",
+          "summary": "Anthropic 扩展 Claude Partner Network，推出 Services Track 分级体系和 Partner Hub 门户。Services Track 设 Select、Preferred、Global Premier 三级，按认证人数、投产客户数及客户推荐信量化评定。Partner Hub 提供每日更新仪表盘和公开目录，方便合作伙伴查看进展、客户寻找供应商。该网络三月启动以来已有超 4 万家公司申请，逾 1 万顾问获认证；Accenture 训练 3 万人，Cognizant 部署约 35 万员工，Deloitte 惠及 47 万人，KPMG 覆盖 27.6 万，Infosys 构建行业智能体，PwC 先在美推广再扩至全球。"
+        },
         {
           "id": "f1de63e4e35c",
           "title": "NousResearch 发布 Hermes Agent 桌面应用公测版",
@@ -269,56 +337,6 @@
           "category": "ai-products",
           "published_at": "2026-06-02T16:00:10.000Z",
           "summary": "Replit Canvas 有一些新更新！⭐️\n\n了解更多请访问：http：//replit.com/canvas\n\n展开讨论 🧵 ↓"
-        },
-        {
-          "id": "b664af2d7f21",
-          "title": "MiniCPM-V 4.6 现已支持 vLLM v0.22.0",
-          "url": "https://x.com/OpenBMB/status/2061810723169415205",
-          "source": "aihot",
-          "source_name": "X：面壁智能 OpenBMB (@OpenBMB)",
-          "category": "ai-products",
-          "published_at": "2026-06-02T14:02:37.000Z",
-          "summary": "MiniCPM-V 4.6 现已完全支持 vLLM v0.22.0！\n无需自定义分支，无需额外编译。\n只需拉取预构建包即可运行。\n非常感谢 @vllm_project 的顺畅集成！ 🤝\n🤗 http：//huggingface.co/openbmb/MiniCPM-V-4.6"
-        },
-        {
-          "id": "b2fe9403c5b3",
-          "title": "为什么金融机构正汇聚在交易基础模型上来构建自身智能",
-          "url": "https://blogs.nvidia.com/blog/financial-institutions-transaction-foundation-models",
-          "source": "aihot",
-          "source_name": "NVIDIA AI Blog",
-          "category": "ai-products",
-          "published_at": "2026-06-02T06:00:36.000Z",
-          "summary": "金融机构正从为每个业务线构建独立AI模型，转向采用基于Transformer的交易基础模型，以统一理解消费者行为并克服数据孤岛限制。NVIDIA报告显示，65%的金融机构已使用AI，近90%正在部署或评估。实践案例包括：Revolut与NVIDIA合作构建了PRAGMA模型系列，在240亿事件上训练，单个模型在信用评分等领域超越特定任务模型；Mastercard正开发专有大型表格基础模型；Adyen的模型处理了1万亿美元支付；Stripe利用相关平台构建模型，去年阻止了近1120亿美元欺诈。"
-        },
-        {
-          "id": "84d2523de34a",
-          "title": "NVIDIA JetPack 7.2支持内存优化的边缘智能体部署",
-          "url": "https://developer.nvidia.com/blog/deploy-agentic-ready-ai-at-the-edge-with-memory-efficiency-in-nvidia-jetpack-7-2",
-          "source": "aihot",
-          "source_name": "NVIDIA Technical Blog（开发者技术博客 · RSS）",
-          "category": "ai-products",
-          "published_at": "2026-06-02T02:00:00.000Z",
-          "summary": "NVIDIA JetPack 7.2发布，支持一键部署开源NVIDIA NemoClaw堆栈，该堆栈为OpenClaw添加了隐私与安全控制。同时引入NVIDIA agent skills for Jetson，为Jetson设备提供智能体技能。该版本优化了内存效率，旨在加速AI代理从数字世界向物理环境的边缘部署。"
-        },
-        {
-          "id": "644853c51537",
-          "title": "ChatGPT 新增长文编辑与保存功能",
-          "url": "https://x.com/ChatGPTapp/status/2061571468992126982",
-          "source": "aihot",
-          "source_name": "X：ChatGPT (@ChatGPTapp)",
-          "category": "ai-products",
-          "published_at": "2026-06-01T22:11:55.000Z",
-          "summary": "长文写作需要更多空间。\n\n现在你可以在全屏模式下编辑更长的文章，并将其保存到你的资料库中，以便稍后继续。"
-        },
-        {
-          "id": "15ba91222644",
-          "title": "Google AI Studio 新增 Gmail 等应用构建能力",
-          "url": "https://x.com/OfficialLoganK/status/2061568290984800740",
-          "source": "aihot",
-          "source_name": "X：Logan Kilpatrick (@OfficialLoganK)",
-          "category": "ai-products",
-          "published_at": "2026-06-01T21:59:17.000Z",
-          "summary": "我们刚刚上线了在 @GoogleAIStudio 内直接构建连接 Gmail、Drive、Sheets 等应用的功能，无需跳转其他网站，你可以直接在 AI Studio 内添加测试人员，完整的公开分享功能即将推出！！"
         }
       ]
     },
@@ -336,13 +354,23 @@
           "summary": ""
         },
         {
-          "id": "f51c51c8e274",
-          "title": "Shipping a Trillion Parameters With a Hub Bucket: Delta Weight Sync in TRL",
-          "url": "https://huggingface.co/blog/delta-weight-sync",
+          "id": "813b3f6ba430",
+          "title": "Direct Preference Optimization Beyond Chatbots",
+          "url": "https://huggingface.co/blog/Dharma-AI/direct-preference-optimization-beyond-chatbots",
           "source": "Hugging Face",
           "source_name": "Hugging Face",
           "category": "ai-tools",
-          "published_at": "Wed, 27 May 2026 00:00:00 GMT",
+          "published_at": "Wed, 03 Jun 2026 12:55:11 GMT",
+          "summary": ""
+        },
+        {
+          "id": "63cb8013d933",
+          "title": "Adding MCP Tools to Reachy Mini",
+          "url": "https://huggingface.co/blog/adding-mcp-tools-to-reachy-mini",
+          "source": "Hugging Face",
+          "source_name": "Hugging Face",
+          "category": "ai-tools",
+          "published_at": "Wed, 03 Jun 2026 00:00:00 GMT",
           "summary": ""
         },
         {
@@ -353,16 +381,6 @@
           "source_name": "Hugging Face",
           "category": "ai-tools",
           "published_at": "Tue, 02 Jun 2026 14:13:23 GMT",
-          "summary": ""
-        },
-        {
-          "id": "834587a4b2c9",
-          "title": "Harness, Scaffold, and the AI Agent Terms Worth Getting Right",
-          "url": "https://huggingface.co/blog/agent-glossary",
-          "source": "Hugging Face",
-          "source_name": "Hugging Face",
-          "category": "ai-tools",
-          "published_at": "Mon, 25 May 2026 00:00:00 GMT",
           "summary": ""
         },
         {
@@ -406,34 +424,44 @@
           "summary": ""
         },
         {
-          "id": "6e372cfd51fe",
-          "title": "⭐ containerd/containerd",
-          "url": "https://github.com/containerd/containerd",
+          "id": "8cfec2a9a634",
+          "title": "⭐ datahub-project/datahub",
+          "url": "https://github.com/datahub-project/datahub",
           "source": "GitHub AI",
           "source_name": "GitHub AI",
           "category": "ai-tools",
-          "published_at": "2026-06-03T12:12:32.294395+00:00",
-          "summary": "An open and reliable container runtime"
+          "published_at": "2026-06-03T17:18:26.390586+00:00",
+          "summary": "The Context Platform for your Data and AI Stack"
         },
         {
-          "id": "ed3e3832a109",
-          "title": "⭐ nocodb/nocodb",
-          "url": "https://github.com/nocodb/nocodb",
+          "id": "47dba96b1c44",
+          "title": "⭐ mnfst/manifest",
+          "url": "https://github.com/mnfst/manifest",
           "source": "GitHub AI",
           "source_name": "GitHub AI",
           "category": "ai-tools",
-          "published_at": "2026-06-03T12:12:32.294162+00:00",
-          "summary": "🔥 🔥 🔥 A Free & Self-hostable Airtable Alternative"
+          "published_at": "2026-06-03T17:18:26.390474+00:00",
+          "summary": "Smart Model Routing for Agents. Cut Costs up to 70% 🦚"
         },
         {
-          "id": "6384330518cc",
-          "title": "⭐ aquasecurity/trivy",
-          "url": "https://github.com/aquasecurity/trivy",
+          "id": "815a7809715f",
+          "title": "⭐ servo/servo",
+          "url": "https://github.com/servo/servo",
           "source": "GitHub AI",
           "source_name": "GitHub AI",
           "category": "ai-tools",
-          "published_at": "2026-06-03T12:12:32.293484+00:00",
-          "summary": "Find vulnerabilities, misconfigurations, secrets, SBOM in containers, Kubernetes, code repositories, clouds and more"
+          "published_at": "2026-06-03T17:18:26.390248+00:00",
+          "summary": "Servo aims to empower developers with a lightweight, high-performance alternative for embedding web technologies in applications."
+        },
+        {
+          "id": "5886526da3f5",
+          "title": "⭐ docker/compose",
+          "url": "https://github.com/docker/compose",
+          "source": "GitHub AI",
+          "source_name": "GitHub AI",
+          "category": "ai-tools",
+          "published_at": "2026-06-03T17:18:26.389910+00:00",
+          "summary": "Define and run multi-container applications with Docker"
         },
         {
           "id": "58e900d0f3ce",
@@ -442,18 +470,8 @@
           "source": "GitHub AI",
           "source_name": "GitHub AI",
           "category": "ai-tools",
-          "published_at": "2026-06-03T12:12:32.293368+00:00",
+          "published_at": "2026-06-03T17:18:26.389205+00:00",
           "summary": "Fair-code workflow automation platform with native AI capabilities. Combine visual building with custom code, self-host or cloud, 400+ integrations."
-        },
-        {
-          "id": "07d2b9a79e3d",
-          "title": "⭐ cloudnative-pg/cloudnative-pg",
-          "url": "https://github.com/cloudnative-pg/cloudnative-pg",
-          "source": "GitHub AI",
-          "source_name": "GitHub AI",
-          "category": "ai-tools",
-          "published_at": "2026-06-03T12:12:32.293252+00:00",
-          "summary": "CloudNativePG is a comprehensive platform designed to seamlessly manage PostgreSQL databases within Kubernetes environments, covering the entire operational lifecycle from initial deployment to ongoing maintenance"
         },
         {
           "id": "eeb23aefa2a0",
@@ -462,18 +480,18 @@
           "source": "GitHub AI",
           "source_name": "GitHub AI",
           "category": "ai-tools",
-          "published_at": "2026-06-03T12:12:32.293132+00:00",
+          "published_at": "2026-06-03T17:18:26.389085+00:00",
           "summary": "Industrial-grade speech recognition toolkit: 170x realtime, 50+ languages, speaker diarization, emotion detection, streaming, and OpenAI-compatible API."
         },
         {
-          "id": "c51cfae99e17",
-          "title": "⭐ deepspeedai/DeepSpeed",
-          "url": "https://github.com/deepspeedai/DeepSpeed",
+          "id": "6384330518cc",
+          "title": "⭐ aquasecurity/trivy",
+          "url": "https://github.com/aquasecurity/trivy",
           "source": "GitHub AI",
           "source_name": "GitHub AI",
           "category": "ai-tools",
-          "published_at": "2026-06-03T12:12:32.292987+00:00",
-          "summary": "DeepSpeed is a deep learning optimization library that makes distributed training and inference easy, efficient, and effective."
+          "published_at": "2026-06-03T17:18:26.388367+00:00",
+          "summary": "Find vulnerabilities, misconfigurations, secrets, SBOM in containers, Kubernetes, code repositories, clouds and more"
         }
       ]
     },
@@ -591,6 +609,16 @@
       "label": "💡 技巧",
       "items": [
         {
+          "id": "267509f7821c",
+          "title": "超越聊天机器人的直接偏好优化",
+          "url": "https://huggingface.co/blog/Dharma-AI/direct-preference-optimization-beyond-chatbots",
+          "source": "aihot",
+          "source_name": "Hugging Face：Blog（RSS）",
+          "category": "tip",
+          "published_at": "2026-06-03T12:55:11.000Z",
+          "summary": "Dharma-AI 在 Hugging Face 博客发文，探讨直接偏好优化（Direct Preference Optimization，DPO）在聊天机器人之外的更广泛应用场景。"
+        },
+        {
           "id": "b7904a53952a",
           "title": "Karpathy 的 llm-wiki 项目获超五千星",
           "url": "https://x.com/SiliconFlowAI/status/2062054848762450324",
@@ -691,20 +719,105 @@
           "summary": "知名人工智能批评者Gary Marcus在其关于可信赖AI的专栏中，探讨了人工智能发展面临的根本性挑战。文章开篇即指向问题的核心，指出相关数学理论的局限性与人类心理的复杂性，是导致AI系统最终可能出现问题的根源。"
         },
         {
-          "id": "9d56d9f73f70",
-          "title": "Sam Altman强调AI发展应以人为本",
-          "url": "https://x.com/rohanpaul_ai/status/2061586179292831774",
+          "id": "647e37217933",
+          "title": "Reachy Mini 添加 MCP 工具",
+          "url": "https://huggingface.co/blog/adding-mcp-tools-to-reachy-mini",
           "source": "aihot",
-          "source_name": "X：Rohan Paul (@rohanpaul_ai)",
+          "source_name": "Hugging Face：Blog（RSS）",
           "category": "tip",
-          "published_at": "2026-06-01T23:10:22.000Z",
-          "summary": "Sam Altman在采访中表示，AI不应被设计为追求脱离人类需求的目标，人类必须始终处于AI发展的中心。他批判了行业内\"AI将摧毁大量工作\"等言论，认为人们担忧的并非AI带来的好处，而是自身在未来的角色、经济前景与自主权。他指出，AI行业的失败在于未能清晰解释人类如何在每一步保持对未来的控制权，以及如何在AI时代继续拥有充实、有意义的生活。"
+          "published_at": "2026-06-03T00:00:00.000Z",
+          "summary": "Reachy Mini 推出了公开的 MCP canary Space，用于远程工具调用。"
+        },
+        {
+          "id": "1742ca8af6c6",
+          "title": "智能性价比",
+          "url": "https://www.tomtunguz.com/tokens-per-result",
+          "source": "aihot",
+          "source_name": "Tomer Tunguz 博客（VC 分析）",
+          "category": "tip",
+          "published_at": "2026-06-03T00:00:00.000Z",
+          "summary": "微软在模型发布卡中首次加入平均token使用量指标。其模型在SWE-Bench Verified上达71.6分，仅消耗约Claude Haiku 4.5三分之一的token。Artificial Analysis的Intelligence Index显示GPT 5.5与Claude Opus 4.8得分相近（约60分），但Opus 4.8运行成本高出40%（$4，685 vs $3，357）。Uber因四个月内AI预算超支而限制员工使用；Salesforce花费$3亿购买Anthropic tokens并冻结工程招聘。模型公司如今需同时在性能和成本两个维度竞争。"
+        }
+      ]
+    },
+    "paper": {
+      "label": "paper",
+      "items": [
+        {
+          "id": "21dc10f2f1f2",
+          "title": "微软研究：装瓶厂AI从聊天到决策",
+          "url": "https://x.com/MSFTResearch/status/2062204914223169635",
+          "source": "aihot",
+          "source_name": "X：Microsoft Research (@MSFTResearch)",
+          "category": "paper",
+          "published_at": "2026-06-03T16:09:00.000Z",
+          "summary": "一份在中西部装瓶厂进行的三个月试点显示，当AI超越聊天进入决策领域时会发生什么--约束条件变化、风险真实、答案必须可靠。 https：//msft.it/6015vjYUN"
+        },
+        {
+          "id": "f73ae858fe6e",
+          "title": "NVIDIA CVPR 2026发布三篇Physical AI论文",
+          "url": "https://x.com/nvidia/status/2062191093748523401",
+          "source": "aihot",
+          "source_name": "X：NVIDIA (@nvidia)",
+          "category": "paper",
+          "published_at": "2026-06-03T15:14:05.000Z",
+          "summary": "NVIDIA Research在CVPR 2026展示三篇Physical AI论文：GraspGen-X是首个零样本抓取基础模型，基于数十亿模拟抓取训练；LCDrive用紧凑潜在表示取代昂贵文本推理；NitroGen是通用游戏AI基础模型，基于NVIDIA Isaac GR00T训练具身智能体。"
+        },
+        {
+          "id": "7b3450b90d89",
+          "title": "Anthropic 分析 832 个 AI 恶意账户：中高风险攻击者半年从 33% 跃至 56%",
+          "url": "https://www.anthropic.com/news/AI-enabled-cyber-threats-mitre-attack",
+          "source": "aihot",
+          "source_name": "Anthropic：Research（发表成果 · 网页）",
+          "category": "paper",
+          "published_at": "2026-06-03T09:51:21.088Z",
+          "summary": "Anthropic 分析 2025 年 3 月至 2026 年 3 月间 832 个被封禁的恶意账户，映射至 MITRE ATT&CK 框架。67.3% 使用 AI 编写恶意软件，6.5% 用于横向移动。六个月间中高风险攻击者占比从 33% 升至 56%。AI 用于账户发现增长 8.9%，AI 辅助钓鱼下降 8.6%。传统基于技术数量或平台（Claude Code、API、聊天界面）的威胁评估失效，而 MITRE ATT&CK 框架尚未收录此类智能体编排行为。"
+        },
+        {
+          "id": "f541c4ab1931",
+          "title": "斯坦福大学法学院研究：人工智能的表现优于法学教授",
+          "url": "https://law.stanford.edu/press/ai-outperforms-law-professors-in-stanford-law-study",
+          "source": "aihot",
+          "source_name": "Hacker News 热门（buzzing.cc 中文翻译）",
+          "category": "paper",
+          "published_at": "2026-06-03T02:33:56.784Z",
+          "summary": "斯坦福大学法学院的一项研究表明，人工智能的表现优于法学教授。该发现引发了广泛关注，在Hacker News平台获得了104个Points。"
         }
       ]
     },
     "industry": {
       "label": "industry",
       "items": [
+        {
+          "id": "8f8c42aaa716",
+          "title": "Suno完成4亿美元D轮融资",
+          "url": "https://x.com/suno/status/2062183524887675243",
+          "source": "aihot",
+          "source_name": "X：Suno (@suno)",
+          "category": "industry",
+          "published_at": "2026-06-03T14:44:00.000Z",
+          "summary": "我们激动地宣布Suno的新篇章：4亿美元D轮融资，估值54亿美元！🚀\n我们的使命一直很简单：让更多人能体验制作音乐的乐趣。非常感谢我们不可思议的社区和投资者与我们共同建设。\n\n点击此处阅读Mikey的博客：https：//suno.com/blog/series-d-announcement"
+        },
+        {
+          "id": "7013b12ee48a",
+          "title": "微软与OpenAI分道扬镳--如今双方准备正面交锋",
+          "url": "https://www.theverge.com/ai-artificial-intelligence/942242/microsoft-build-ai-agents-openai-competition",
+          "source": "aihot",
+          "source_name": "The Verge：订阅版科技（RSS）",
+          "category": "industry",
+          "published_at": "2026-06-03T14:04:00.000Z",
+          "summary": "微软与OpenAI的合作关系已彻底破裂，双方进入正面竞争态势。前DeepMind高管、现任微软AI主管Mustafa Suleyman明确表示，微软现在必须从头证明自己能独立完成所有必需的任务。这标志着两家科技巨头从紧密合作伙伴转变为直接竞争对手。"
+        },
+        {
+          "id": "2cd2d71f1f5f",
+          "title": "欧盟公布全面技术主权计划，推动芯片与AI自主发展",
+          "url": "https://www.bloomberg.com/news/articles/2026-06-03/europe-unveils-sweeping-tech-sovereignty-plan-to-boost-chips-ai",
+          "source": "aihot",
+          "source_name": "Bloomberg：Technology（RSS）",
+          "category": "industry",
+          "published_at": "2026-06-03T12:12:15.000Z",
+          "summary": "欧盟公布一项全面技术主权计划，旨在扩大本土半导体、人工智能和云计算供应链，以减少对美国和亚洲的依赖。该计划覆盖芯片制造、AI基础设施及云计算服务等多个关键领域，目标是增强欧洲在核心技术上的自主能力。"
+        },
         {
           "id": "4c623790e879",
           "title": "Qwen Cloud全球AI黑客马拉松启动",
@@ -754,41 +867,6 @@
           "category": "industry",
           "published_at": "2026-06-03T01:31:15.000Z",
           "summary": "据市场情报机构 Sensor Tower 估计，OpenAI 旗下 ChatGPT 全球月活跃用户在 2025 年 5 月突破 10 亿，成为达成此里程碑最快的应用，增速超过 Google Maps、TikTok 等。同期，其竞争对手 Anthropic 的 Claude 月活达 5600 万，同比增幅约 640%，增长势头迅猛。数据显示，部分用户已开始在 Claude 与 ChatGPT 间切换使用。在达成用户里程碑之际，Anthropic 已秘密递交 IPO 申请，OpenAI 也计划筹备上市。"
-        }
-      ]
-    },
-    "paper": {
-      "label": "paper",
-      "items": [
-        {
-          "id": "7b3450b90d89",
-          "title": "Anthropic 分析 832 个 AI 恶意账户：中高风险攻击者半年从 33% 跃至 56%",
-          "url": "https://www.anthropic.com/news/AI-enabled-cyber-threats-mitre-attack",
-          "source": "aihot",
-          "source_name": "Anthropic：Research（发表成果 · 网页）",
-          "category": "paper",
-          "published_at": "2026-06-03T09:51:21.088Z",
-          "summary": "Anthropic 分析 2025 年 3 月至 2026 年 3 月间 832 个被封禁的恶意账户，映射至 MITRE ATT&CK 框架。67.3% 使用 AI 编写恶意软件，6.5% 用于横向移动。六个月间中高风险攻击者占比从 33% 升至 56%。AI 用于账户发现增长 8.9%，AI 辅助钓鱼下降 8.6%。传统基于技术数量或平台（Claude Code、API、聊天界面）的威胁评估失效，而 MITRE ATT&CK 框架尚未收录此类智能体编排行为。"
-        },
-        {
-          "id": "f541c4ab1931",
-          "title": "斯坦福大学法学院研究：人工智能的表现优于法学教授",
-          "url": "https://law.stanford.edu/press/ai-outperforms-law-professors-in-stanford-law-study",
-          "source": "aihot",
-          "source_name": "Hacker News 热门（buzzing.cc 中文翻译）",
-          "category": "paper",
-          "published_at": "2026-06-03T02:33:56.784Z",
-          "summary": "斯坦福大学法学院的一项研究表明，人工智能的表现优于法学教授。该发现引发了广泛关注，在Hacker News平台获得了104个Points。"
-        },
-        {
-          "id": "c5203e076846",
-          "title": "世界模型与语言模型：论具体推理与抽象推理的互补性",
-          "url": "https://arxiv.org/abs/2606.03603",
-          "source": "aihot",
-          "source_name": "HuggingFace Daily Papers（社区热门论文）",
-          "category": "paper",
-          "published_at": "2026-06-02T13:07:49.000Z",
-          "summary": "本研究探讨了世界模型与多模态大语言模型在预测未来状态时的互补性。世界模型可生成具体的视觉未来轨迹，但可能视觉合理却任务错误；多模态大语言模型则擅长抽象推理。为此，研究提出了\"受控的具体推理\"框架，并构建了VRQABench和OpenWorldQA两个基准。同时，提出了Privileged-Future On-Policy Self-Distillation（PF-OPSD）方法，该方法在训练时利用真实未来视频作为特权上下文评估推理轨迹，但部署时无需真实未来。实验结果显示，PF-OPSD在两个基准上分别比基线高出10.6%和10.9%，并提升了对噪声或冲突轨迹的鲁棒性。"
         }
       ]
     }
