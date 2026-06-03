@@ -1,33 +1,39 @@
 {
   "date": "2026-06-03",
-  "generated_at": "2026-06-03T17:18:27.407320",
-  "total": 78,
+  "generated_at": "2026-06-03T20:42:08.025727",
+  "total": 83,
   "sources": {
     "Hugging Face": 8,
     "GitHub AI": 7,
-    "X：Replit (@Replit)": 3,
+    "Hacker News 热门（buzzing.cc 中文翻译）": 2,
+    "X：Fei-Fei Li (@drfeifei, World Labs)": 1,
+    "Google Research：Blog（网页）": 1,
+    "X：cb_doge (@cb_doge)": 1,
+    "X：NVIDIA (@nvidia)": 2,
+    "X：Krea AI (@krea_ai)": 1,
+    "Claude：Blog（网页）": 3,
+    "X：Replit (@Replit)": 2,
     "X：Kim (@kimmonismus)": 1,
     "X：NVIDIA AI (@NVIDIAAI)": 2,
     "X：xAI (@xai)": 1,
     "X：Microsoft Research (@MSFTResearch)": 2,
-    "X：NVIDIA (@nvidia)": 2,
     "X：Perplexity (@perplexity_ai)": 1,
+    "NVIDIA AI Blog": 1,
     "X：Suno (@suno)": 1,
     "The Verge：订阅版科技（RSS）": 2,
     "TechCrunch：AI（RSS）": 2,
     "Anthropic：Newsroom（网页）": 2,
     "Hugging Face：Blog（RSS）": 3,
     "Bloomberg：Technology（RSS）": 2,
+    "Cursor Blog": 1,
     "X：阿里云 / Alibaba Cloud (@alibaba_cloud)": 2,
     "Anthropic：Research（发表成果 · 网页）": 1,
     "X：硅基流动 SiliconFlow (@SiliconFlowAI)": 2,
     "IT之家（RSS）": 3,
     "X：Satya Nadella (@satyanadella)": 1,
-    "Hacker News 热门（buzzing.cc 中文翻译）": 1,
     "X：邵猛 (@shao__meng)": 1,
     "The Verge：AI（RSS）": 1,
     "X：阶跃星辰 StepFun (@StepFun_ai)": 1,
-    "Claude：Blog（网页）": 2,
     "X：Claude Devs (@ClaudeDevs)": 2,
     "X：Vista (@vista8)": 1,
     "X：Google AI for Developers (@googleaidevs)": 1,
@@ -42,17 +48,36 @@
     "X：Rohan Paul (@rohanpaul_ai)": 1,
     "Tomer Tunguz 博客（VC 分析）": 2,
     "Gary Marcus：The Road to AI We Can Trust（RSS）": 1,
-    "X：OpenRouter (@OpenRouter)": 2,
+    "X：OpenRouter (@OpenRouter)": 1,
     "X：OpenAI Developers (@OpenAIDevs)": 1,
     "X：OpenClaw (@openclaw)": 1,
-    "X：Google DeepMind (@GoogleDeepMind)": 1,
-    "X：OpenAI (@OpenAI)": 1
+    "X：Google DeepMind (@GoogleDeepMind)": 1
   },
   "ai_processed": false,
   "categories": {
     "ai-models": {
       "label": "🧠 AI 模型",
       "items": [
+        {
+          "id": "afea4659f4ff",
+          "title": "Grok Imagine 1.5 预览版发布",
+          "url": "https://x.com/cb_doge/status/2062242490745594085",
+          "source": "aihot",
+          "source_name": "X：cb_doge (@cb_doge)",
+          "category": "ai-models",
+          "published_at": "2026-06-03T18:38:19.000Z",
+          "summary": "Grok Imagine 1.5 预览版已发布，即日起可在 API 中体验。SpaceXAI 正在发力。"
+        },
+        {
+          "id": "09f7671bf253",
+          "title": "Ideogram v4.0 发布：2K 分辨率和 JSON 提示支持",
+          "url": "https://x.com/krea_ai/status/2062227837130887567",
+          "source": "aihot",
+          "source_name": "X：Krea AI (@krea_ai)",
+          "category": "ai-models",
+          "published_at": "2026-06-03T17:40:05.000Z",
+          "summary": "介绍 Ideogram v4.0。\n\n原生 2K 分辨率，出色的文字渲染，支持 JSON 提示词。\n\n立即在 Krea 中体验。"
+        },
         {
           "id": "d3ab1d4ef12a",
           "title": "Miso One 开源语音模型：8B 参数、110ms 延迟、一次语音克隆",
@@ -98,6 +123,16 @@
     "ai-products": {
       "label": "🚀 AI 产品",
       "items": [
+        {
+          "id": "015637648789",
+          "title": "黄仁勋与纳德拉共议智能体AI时代",
+          "url": "https://x.com/nvidia/status/2062228974273716457",
+          "source": "aihot",
+          "source_name": "X：NVIDIA (@nvidia)",
+          "category": "ai-products",
+          "published_at": "2026-06-03T17:44:36.000Z",
+          "summary": "智能体AI时代来了。\n\n从台北，黄仁勋与@satyanadella共同出席#MSBuild，展示NVIDIA与@Microsoft如何携手构建，从Windows设备到规模化AI工厂。\n\n▶️ 观看对话：https：//nvda.ws/4uefQbs"
+        },
         {
           "id": "b61f2fc72db0",
           "title": "Replit上线SEO Agent助应用被发现",
@@ -157,6 +192,16 @@
           "category": "ai-products",
           "published_at": "2026-06-03T13:30:21.674Z",
           "summary": "Anthropic 扩展 Claude Partner Network，推出 Services Track 分级体系和 Partner Hub 门户。Services Track 设 Select、Preferred、Global Premier 三级，按认证人数、投产客户数及客户推荐信量化评定。Partner Hub 提供每日更新仪表盘和公开目录，方便合作伙伴查看进展、客户寻找供应商。该网络三月启动以来已有超 4 万家公司申请，逾 1 万顾问获认证；Accenture 训练 3 万人，Cognizant 部署约 35 万员工，Deloitte 惠及 47 万人，KPMG 覆盖 27.6 万，Infosys 构建行业智能体，PwC 先在美推广再扩至全球。"
+        },
+        {
+          "id": "ab384d44a880",
+          "title": "Cursor Enterprise 推出 Organizations 组织管理功能",
+          "url": "https://cursor.com/blog/organizations",
+          "source": "aihot",
+          "source_name": "Cursor Blog",
+          "category": "ai-products",
+          "published_at": "2026-06-03T12:00:00.000Z",
+          "summary": "Cursor Enterprise 正式推出 Organizations 结构，允许企业在统一面板中管理多个团队。每个团队可独立设置预算、安全策略、模型访问和功能控制。新增 Groups 作为跨团队或团队内的轻量级用户集合，用于分段管理模型访问、花销上限和智能体权限，不同设置取最宽松权限生效。管理员可创建沙箱团队预先测试新功能，再向全公司推送；也可按部门划分模型访问和预算。组织级仪表盘汇总所有团队的 token 用量与花费，支持按团队、用户等维度筛选。身份提供商和 SCIM 目录在组织层面一次配置，成员自动同步。该功能现已全面开放给所有 Enterprise 客户。"
         },
         {
           "id": "f1de63e4e35c",
@@ -307,36 +352,6 @@
           "category": "ai-products",
           "published_at": "2026-06-02T17:08:39.000Z",
           "summary": "我们相信 AI 可以成为专属研究伙伴，帮助发现下一个突破。\n\n隆重推出 Co-Scientist：我们最新的基于 Gemini 的多智能体系统，能够为复杂科学问题生成、辩论和演进新颖的假设 🧵"
-        },
-        {
-          "id": "1319f9d0905a",
-          "title": "OpenAI Codex Sites 功能发布",
-          "url": "https://x.com/OpenAI/status/2061845949170045346",
-          "source": "aihot",
-          "source_name": "X：OpenAI (@OpenAI)",
-          "category": "ai-products",
-          "published_at": "2026-06-02T16:22:36.000Z",
-          "summary": "构建应用从未如此简单。\n通过 Sites，Codex 可以将你的工作、想法和计划转化为一个交互式网站或应用，你的团队可以通过一个 URL 进行探索、使用和分享。\n该功能将首先向 Business 和 Enterprise 计划推出，之后会更广泛地扩展。"
-        },
-        {
-          "id": "d6c4d3abf449",
-          "title": "DigitalOcean AI云服务上线OpenRouter",
-          "url": "https://x.com/OpenRouter/status/2061840338973806961",
-          "source": "aihot",
-          "source_name": "X：OpenRouter (@OpenRouter)",
-          "category": "ai-products",
-          "published_at": "2026-06-02T16:00:18.000Z",
-          "summary": "⚡ 新增服务商：DigitalOcean 的 AI-Native Cloud 现已在 OpenRouter 上线。\n提供高性能推理，覆盖热门开源权重模型。在 DeepSeek V3.2 的输出速度和延迟方面排名第一（数据来自 @ArtificialAnlys）。\n查看其数据并试用模型：https：//openrouter.ai/provider/digitalocean"
-        },
-        {
-          "id": "e7d99940f303",
-          "title": "Replit Canvas 推出多项新功能",
-          "url": "https://x.com/Replit/status/2061840304534102036",
-          "source": "aihot",
-          "source_name": "X：Replit (@Replit)",
-          "category": "ai-products",
-          "published_at": "2026-06-02T16:00:10.000Z",
-          "summary": "Replit Canvas 有一些新更新！⭐️\n\n了解更多请访问：http：//replit.com/canvas\n\n展开讨论 🧵 ↓"
         }
       ]
     },
@@ -430,7 +445,7 @@
           "source": "GitHub AI",
           "source_name": "GitHub AI",
           "category": "ai-tools",
-          "published_at": "2026-06-03T17:18:26.390586+00:00",
+          "published_at": "2026-06-03T20:42:04.381526+00:00",
           "summary": "The Context Platform for your Data and AI Stack"
         },
         {
@@ -440,7 +455,7 @@
           "source": "GitHub AI",
           "source_name": "GitHub AI",
           "category": "ai-tools",
-          "published_at": "2026-06-03T17:18:26.390474+00:00",
+          "published_at": "2026-06-03T20:42:04.381369+00:00",
           "summary": "Smart Model Routing for Agents. Cut Costs up to 70% 🦚"
         },
         {
@@ -450,7 +465,7 @@
           "source": "GitHub AI",
           "source_name": "GitHub AI",
           "category": "ai-tools",
-          "published_at": "2026-06-03T17:18:26.390248+00:00",
+          "published_at": "2026-06-03T20:42:04.381107+00:00",
           "summary": "Servo aims to empower developers with a lightweight, high-performance alternative for embedding web technologies in applications."
         },
         {
@@ -460,7 +475,7 @@
           "source": "GitHub AI",
           "source_name": "GitHub AI",
           "category": "ai-tools",
-          "published_at": "2026-06-03T17:18:26.389910+00:00",
+          "published_at": "2026-06-03T20:42:04.380748+00:00",
           "summary": "Define and run multi-container applications with Docker"
         },
         {
@@ -470,7 +485,7 @@
           "source": "GitHub AI",
           "source_name": "GitHub AI",
           "category": "ai-tools",
-          "published_at": "2026-06-03T17:18:26.389205+00:00",
+          "published_at": "2026-06-03T20:42:04.379903+00:00",
           "summary": "Fair-code workflow automation platform with native AI capabilities. Combine visual building with custom code, self-host or cloud, 400+ integrations."
         },
         {
@@ -480,7 +495,7 @@
           "source": "GitHub AI",
           "source_name": "GitHub AI",
           "category": "ai-tools",
-          "published_at": "2026-06-03T17:18:26.389085+00:00",
+          "published_at": "2026-06-03T20:42:04.379763+00:00",
           "summary": "Industrial-grade speech recognition toolkit: 170x realtime, 50+ languages, speaker diarization, emotion detection, streaming, and OpenAI-compatible API."
         },
         {
@@ -490,7 +505,7 @@
           "source": "GitHub AI",
           "source_name": "GitHub AI",
           "category": "ai-tools",
-          "published_at": "2026-06-03T17:18:26.388367+00:00",
+          "published_at": "2026-06-03T20:42:04.378972+00:00",
           "summary": "Find vulnerabilities, misconfigurations, secrets, SBOM in containers, Kubernetes, code repositories, clouds and more"
         }
       ]
@@ -608,6 +623,46 @@
     "tip": {
       "label": "💡 技巧",
       "items": [
+        {
+          "id": "20475f2a4f3c",
+          "title": "优步每月 1，500 美元的 AI 使用上限为 AI 工具定价提供参考",
+          "url": "https://simonwillison.net/2026/Jun/3/uber-caps-usage",
+          "source": "aihot",
+          "source_name": "Hacker News 热门（buzzing.cc 中文翻译）",
+          "category": "tip",
+          "published_at": "2026-06-03T19:00:08.294Z",
+          "summary": "优步将 AI 工具每月使用上限定为 1500 美元，这一做法为行业 AI 工具定价提供了有价值的参考信号。"
+        },
+        {
+          "id": "0f08ce93ce06",
+          "title": "世界模型的功能分类",
+          "url": "https://x.com/drfeifei/status/2062247238143996275",
+          "source": "aihot",
+          "source_name": "X：Fei-Fei Li (@drfeifei, World Labs)",
+          "category": "tip",
+          "published_at": "2026-06-03T18:57:10.000Z",
+          "summary": "World Labs团队与李飞飞发文，梳理\"世界模型\"这一被滥用的术语。对比语言模型学习文本统计，世界模型学习空间与时间统计（如光照、物理规律）。基于部分可观马尔可夫决策过程（POMDP）框架，智能体通过动作影响世界状态，观测是部分视图。当前被称为\"世界模型\"的不同系统本质上是同一循环的不同投影：第一类为渲染器，输出给人眼看的像素，以视觉保真度为核心。文章着重于概念分层，未给出具体模型名、参数或基准分数。"
+        },
+        {
+          "id": "50950bf91f3d",
+          "title": "洪水韧性新篇章：Google 开源水文建模框架",
+          "url": "https://research.google/blog/the-next-chapter-in-flood-resilience-open-sourcing-googles-hydrology-framework",
+          "source": "aihot",
+          "source_name": "Google Research：Blog（网页）",
+          "category": "tip",
+          "published_at": "2026-06-03T18:49:39.703Z",
+          "summary": "Google Research 在 GitHub 开源了其水文建模框架，这是一个基于 PyTorch 的 Python 包，采用与 Flood Hub 河段洪水预报相同的模型架构和训练数据。该框架允许研究者和预报员训练 AI 洪水预报模型、添加新模型与数据，并已与捷克水文气象研究所（CHMI）等合作测试。开放模型架构和训练管线旨在让各国气象水文部门在保留数据完全控制权的同时，整合基于 AI 的洪水预报。"
+        },
+        {
+          "id": "0b5ecfde5e90",
+          "title": "Anthropic 用 Claude 赋能自助数据分析",
+          "url": "https://claude.com/blog/how-anthropic-enables-self-service-data-analytics-with-claude",
+          "source": "aihot",
+          "source_name": "Claude：Blog（网页）",
+          "category": "tip",
+          "published_at": "2026-06-03T17:23:16.528Z",
+          "summary": "Anthropic 使用 Claude 自动化了 95% 的业务分析查询，整体准确率约 95%。其关键在于构建智能体分析栈（agentic analytics stack），通过数据基础层、维护验证流程和技能（skills）分别解决概念-实体歧义、数据过时和检索失败三大错误来源。相比编码场景，数据分析的难点在于将用户问题映射到正确的数据实体，而执行 SQL 反而是简单的。Anthropic 的数据科学团队因此得以专注于因果建模、预测和机器学习等战略工作。"
+        },
         {
           "id": "267509f7821c",
           "title": "超越聊天机器人的直接偏好优化",
@@ -754,14 +809,14 @@
           "summary": "一份在中西部装瓶厂进行的三个月试点显示，当AI超越聊天进入决策领域时会发生什么--约束条件变化、风险真实、答案必须可靠。 https：//msft.it/6015vjYUN"
         },
         {
-          "id": "f73ae858fe6e",
-          "title": "NVIDIA CVPR 2026发布三篇Physical AI论文",
-          "url": "https://x.com/nvidia/status/2062191093748523401",
+          "id": "7a34a76796fc",
+          "title": "NVIDIA Research 在 CVPR 2026 发表三篇论文：规模化训练实现抓取、自动驾驶与智能体泛化",
+          "url": "https://blogs.nvidia.com/blog/cvpr-research-grasping-driving-agent-training",
           "source": "aihot",
-          "source_name": "X：NVIDIA (@nvidia)",
+          "source_name": "NVIDIA AI Blog",
           "category": "paper",
-          "published_at": "2026-06-03T15:14:05.000Z",
-          "summary": "NVIDIA Research在CVPR 2026展示三篇Physical AI论文：GraspGen-X是首个零样本抓取基础模型，基于数十亿模拟抓取训练；LCDrive用紧凑潜在表示取代昂贵文本推理；NitroGen是通用游戏AI基础模型，基于NVIDIA Isaac GR00T训练具身智能体。"
+          "published_at": "2026-06-03T15:00:57.000Z",
+          "summary": "NVIDIA Research 在 CVPR 2026 上发表三篇论文，展示规模化训练带来的泛化能力。GraspGen-X 是首个零样本抓取基础模型，基于 20 亿次模拟抓取训练，可为任意末端执行器生成抓取姿态。LCDrive 用紧凑潜在表示替代文本推理，让自动驾驶在嵌入式硬件上更快推理。NitroGen 基于 Isaac GR00T 架构，在大量虚拟环境中训练具身智能体。此外还发布了新的物理 AI 智能体技能，以及配合 GraspGen-X 使用的 CUDA 加速运动规划库 curoboV2 和闭环抓取论文 Grasp-MPC。"
         },
         {
           "id": "7b3450b90d89",
