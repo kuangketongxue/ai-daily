@@ -1,10 +1,15 @@
 {
   "date": "2026-06-03",
-  "generated_at": "2026-06-03T02:12:58.395688",
-  "total": 66,
+  "generated_at": "2026-06-03T07:13:44.187133",
+  "total": 67,
   "sources": {
     "Hugging Face": 8,
     "GitHub AI": 7,
+    "X：硅基流动 SiliconFlow (@SiliconFlowAI)": 2,
+    "IT之家（RSS）": 3,
+    "X：Satya Nadella (@satyanadella)": 1,
+    "X：阿里云 / Alibaba Cloud (@alibaba_cloud)": 2,
+    "Hacker News 热门（buzzing.cc 中文翻译）": 1,
     "X：邵猛 (@shao__meng)": 1,
     "The Verge：AI（RSS）": 1,
     "Hugging Face：Blog（RSS）": 1,
@@ -16,19 +21,18 @@
     "TechCrunch：AI（RSS）": 1,
     "X：Runway (@runwayml)": 1,
     "GitHub Blog": 1,
-    "X：Replit (@Replit)": 3,
-    "Bloomberg：Technology（RSS）": 2,
+    "X：Replit (@Replit)": 2,
+    "Bloomberg：Technology（RSS）": 1,
     "X：Nathan Lambert (@natolambert)": 1,
     "Anthropic：Newsroom（网页）": 1,
-    "IT之家（RSS）": 1,
     "X：Anthropic (@AnthropicAI)": 1,
     "OpenAI：官网动态（RSS · 排除企业/客户案例）": 3,
     "X：Microsoft Research (@MSFTResearch)": 1,
     "Anthropic：Transformer Circuits（可解释性研究）": 1,
     "X：卡兹克 (@Khazix0918)": 1,
     "X：商汤 SenseTime (@SenseTime_AI)": 1,
-    "X：Rohan Paul (@rohanpaul_ai)": 2,
-    "The Verge：订阅版科技（RSS）": 2,
+    "X：Rohan Paul (@rohanpaul_ai)": 1,
+    "The Verge：订阅版科技（RSS）": 1,
     "Tomer Tunguz 博客（VC 分析）": 1,
     "Gary Marcus：The Road to AI We Can Trust（RSS）": 1,
     "NVIDIA Blog：Agentic AI（网页）": 1,
@@ -40,12 +44,9 @@
     "X：Google DeepMind (@GoogleDeepMind)": 1,
     "X：OpenAI (@OpenAI)": 1,
     "X：面壁智能 OpenBMB (@OpenBMB)": 1,
-    "X：阿里云 / Alibaba Cloud (@alibaba_cloud)": 1,
+    "HuggingFace Daily Papers（社区热门论文）": 1,
     "NVIDIA AI Blog": 1,
-    "NVIDIA Technical Blog（开发者技术博客 · RSS）": 1,
-    "X：ChatGPT (@ChatGPTapp)": 1,
-    "X：Logan Kilpatrick (@OfficialLoganK)": 1,
-    "X：Krea AI (@krea_ai)": 1
+    "NVIDIA Technical Blog（开发者技术博客 · RSS）": 1
   },
   "ai_processed": false,
   "categories": {
@@ -87,6 +88,16 @@
     "ai-products": {
       "label": "🚀 AI 产品",
       "items": [
+        {
+          "id": "f1de63e4e35c",
+          "title": "NousResearch 发布 Hermes Agent 桌面应用公测版",
+          "url": "https://x.com/SiliconFlowAI/status/2062042813852995899",
+          "source": "aihot",
+          "source_name": "X：硅基流动 SiliconFlow (@SiliconFlowAI)",
+          "category": "ai-products",
+          "published_at": "2026-06-03T05:24:52.000Z",
+          "summary": "官方 Hermes Agent 桌面应用现已推出！"
+        },
         {
           "id": "ccf0136cd1e3",
           "title": "Claude Code 新增动态工作流功能",
@@ -306,46 +317,6 @@
           "category": "ai-products",
           "published_at": "2026-06-02T02:00:00.000Z",
           "summary": "NVIDIA JetPack 7.2发布，支持一键部署开源NVIDIA NemoClaw堆栈，该堆栈为OpenClaw添加了隐私与安全控制。同时引入NVIDIA agent skills for Jetson，为Jetson设备提供智能体技能。该版本优化了内存效率，旨在加速AI代理从数字世界向物理环境的边缘部署。"
-        },
-        {
-          "id": "644853c51537",
-          "title": "ChatGPT 新增长文编辑与保存功能",
-          "url": "https://x.com/ChatGPTapp/status/2061571468992126982",
-          "source": "aihot",
-          "source_name": "X：ChatGPT (@ChatGPTapp)",
-          "category": "ai-products",
-          "published_at": "2026-06-01T22:11:55.000Z",
-          "summary": "长文写作需要更多空间。\n\n现在你可以在全屏模式下编辑更长的文章，并将其保存到你的资料库中，以便稍后继续。"
-        },
-        {
-          "id": "15ba91222644",
-          "title": "Google AI Studio 新增 Gmail 等应用构建能力",
-          "url": "https://x.com/OfficialLoganK/status/2061568290984800740",
-          "source": "aihot",
-          "source_name": "X：Logan Kilpatrick (@OfficialLoganK)",
-          "category": "ai-products",
-          "published_at": "2026-06-01T21:59:17.000Z",
-          "summary": "我们刚刚上线了在 @GoogleAIStudio 内直接构建连接 Gmail、Drive、Sheets 等应用的功能，无需跳转其他网站，你可以直接在 AI Studio 内添加测试人员，完整的公开分享功能即将推出！！"
-        },
-        {
-          "id": "69cc23c12287",
-          "title": "Krea AI 开放 Krea 2 LoRAs 全员使用",
-          "url": "https://x.com/krea_ai/status/2061554472925696128",
-          "source": "aihot",
-          "source_name": "X：Krea AI (@krea_ai)",
-          "category": "ai-products",
-          "published_at": "2026-06-01T21:04:22.000Z",
-          "summary": "Krea 2 LoRAs 现已向所有人开放。\n试试下面这个 👇"
-        },
-        {
-          "id": "46a44bb8e1ae",
-          "title": "Replit 用单个提示词构建完整业务",
-          "url": "https://x.com/Replit/status/2061534759520760112",
-          "source": "aihot",
-          "source_name": "X：Replit (@Replit)",
-          "category": "ai-products",
-          "published_at": "2026-06-01T19:46:02.000Z",
-          "summary": "你能用单个提示词免费构建一个真实的业务吗？\n\n从今天起，在 Replit 上，答案是肯定的。\n\n从一个提示词开始，获得一个网站、移动应用、幻灯片和发布视频。\n此外，还能解锁使用 @stripe @atlas， @QuickBooks， @mercury & @doolaHQ 运营业务的福利。"
         }
       ]
     },
@@ -439,7 +410,7 @@
           "source": "GitHub AI",
           "source_name": "GitHub AI",
           "category": "ai-tools",
-          "published_at": "2026-06-03T02:12:53.504435+00:00",
+          "published_at": "2026-06-03T07:13:43.073737+00:00",
           "summary": "An open and reliable container runtime"
         },
         {
@@ -449,7 +420,7 @@
           "source": "GitHub AI",
           "source_name": "GitHub AI",
           "category": "ai-tools",
-          "published_at": "2026-06-03T02:12:53.504212+00:00",
+          "published_at": "2026-06-03T07:13:43.073512+00:00",
           "summary": "🔥 🔥 🔥 A Free & Self-hostable Airtable Alternative"
         },
         {
@@ -459,7 +430,7 @@
           "source": "GitHub AI",
           "source_name": "GitHub AI",
           "category": "ai-tools",
-          "published_at": "2026-06-03T02:12:53.503550+00:00",
+          "published_at": "2026-06-03T07:13:43.072850+00:00",
           "summary": "Find vulnerabilities, misconfigurations, secrets, SBOM in containers, Kubernetes, code repositories, clouds and more"
         },
         {
@@ -469,7 +440,7 @@
           "source": "GitHub AI",
           "source_name": "GitHub AI",
           "category": "ai-tools",
-          "published_at": "2026-06-03T02:12:53.503416+00:00",
+          "published_at": "2026-06-03T07:13:43.072733+00:00",
           "summary": "Fair-code workflow automation platform with native AI capabilities. Combine visual building with custom code, self-host or cloud, 400+ integrations."
         },
         {
@@ -479,7 +450,7 @@
           "source": "GitHub AI",
           "source_name": "GitHub AI",
           "category": "ai-tools",
-          "published_at": "2026-06-03T02:12:53.503301+00:00",
+          "published_at": "2026-06-03T07:13:43.072618+00:00",
           "summary": "CloudNativePG is a comprehensive platform designed to seamlessly manage PostgreSQL databases within Kubernetes environments, covering the entire operational lifecycle from initial deployment to ongoing maintenance"
         },
         {
@@ -489,7 +460,7 @@
           "source": "GitHub AI",
           "source_name": "GitHub AI",
           "category": "ai-tools",
-          "published_at": "2026-06-03T02:12:53.503184+00:00",
+          "published_at": "2026-06-03T07:13:43.072499+00:00",
           "summary": "Industrial-grade speech recognition toolkit: 170x realtime, 50+ languages, speaker diarization, emotion detection, streaming, and OpenAI-compatible API."
         },
         {
@@ -499,7 +470,7 @@
           "source": "GitHub AI",
           "source_name": "GitHub AI",
           "category": "ai-tools",
-          "published_at": "2026-06-03T02:12:53.503047+00:00",
+          "published_at": "2026-06-03T07:13:43.072358+00:00",
           "summary": "DeepSpeed is a deep learning optimization library that makes distributed training and inference easy, efficient, and effective."
         }
       ]
@@ -618,6 +589,16 @@
       "label": "💡 技巧",
       "items": [
         {
+          "id": "b7904a53952a",
+          "title": "Karpathy 的 llm-wiki 项目获超五千星",
+          "url": "https://x.com/SiliconFlowAI/status/2062054848762450324",
+          "source": "aihot",
+          "source_name": "X：硅基流动 SiliconFlow (@SiliconFlowAI)",
+          "category": "tip",
+          "published_at": "2026-06-03T06:12:41.000Z",
+          "summary": "@karpathy 的 llm-wiki 在几周内获得了 5，000+ 颗星。\n\n其理念是：停止在每个会话中重新发现知识。让一个大语言模型构建并维护一个维基，每次使用时它都会变得更智能。\n\n以下是如何使用 @opencode + @justsisyphus OMO + SiliconFlow 构建你自己的版本 🧵"
+        },
+        {
           "id": "4eb60b71d444",
           "title": "智能体工程实战窍门全录",
           "url": "https://x.com/shao__meng/status/2061974983094755575",
@@ -706,16 +687,6 @@
           "category": "tip",
           "published_at": "2026-06-03T00:00:18.182Z",
           "summary": "知名人工智能批评者Gary Marcus在其关于可信赖AI的专栏中，探讨了人工智能发展面临的根本性挑战。文章开篇即指向问题的核心，指出相关数学理论的局限性与人类心理的复杂性，是导致AI系统最终可能出现问题的根源。"
-        },
-        {
-          "id": "9d56d9f73f70",
-          "title": "Sam Altman强调AI发展应以人为本",
-          "url": "https://x.com/rohanpaul_ai/status/2061586179292831774",
-          "source": "aihot",
-          "source_name": "X：Rohan Paul (@rohanpaul_ai)",
-          "category": "tip",
-          "published_at": "2026-06-01T23:10:22.000Z",
-          "summary": "Sam Altman在采访中表示，AI不应被设计为追求脱离人类需求的目标，人类必须始终处于AI发展的中心。他批判了行业内\"AI将摧毁大量工作\"等言论，认为人们担忧的并非AI带来的好处，而是自身在未来的角色、经济前景与自主权。他指出，AI行业的失败在于未能清晰解释人类如何在每一步保持对未来的控制权，以及如何在AI时代继续拥有充实、有意义的生活。"
         }
       ]
     },
@@ -723,24 +694,69 @@
       "label": "industry",
       "items": [
         {
-          "id": "05384e60bf0c",
-          "title": "Alphabet将通过发行股票筹集800亿美元用于AI支出计划",
-          "url": "https://www.bloomberg.com/news/articles/2026-06-01/alphabet-to-raise-80-billion-in-equity-capital-for-ai-spending",
+          "id": "493c31a033c1",
+          "title": "消息称 DeepSeek 首轮融资拟筹集 500 亿元，腾讯、宁德时代等参投",
+          "url": "https://www.ithome.com/0/959/249.htm",
           "source": "aihot",
-          "source_name": "Bloomberg：Technology（RSS）",
+          "source_name": "IT之家（RSS）",
           "category": "industry",
-          "published_at": "2026-06-01T20:50:33.000Z",
-          "summary": "Alphabet正在通过发行股票等方式筹集800亿美元资金，其中包括与Berkshire Hathaway的投资协议，以资助其雄心勃勃的AI支出计划。"
+          "published_at": "2026-06-03T04:36:30.000Z",
+          "summary": "DeepSeek 计划在首轮融资中从腾讯、宁德时代等投资方处筹集约 500 亿元人民币。融资落地后，其投后估值预计在 3500 亿至 4000 亿元。创始人梁文峰将出资 200 亿元，腾讯和宁德时代分别拟投资 100 亿元和 50 亿元，成为最大外部投资者。DeepSeek 去年凭借 V3 大模型与 R1 推理模型获得广泛认可。此次融资凸显了中国正打造从大模型到算力能源基建的全链条 AI 产业。"
         },
         {
-          "id": "b2369c29c1f0",
-          "title": "Meta的AI被利用来劫持Instagram账号",
-          "url": "https://www.theverge.com/tech/941179/meta-instagram-ai-support-chatbot-exploit-hacked",
+          "id": "72444d6f8b36",
+          "title": "Satya Nadella 谈微软 Build 大会主旨演讲",
+          "url": "https://x.com/satyanadella/status/2062022060176801826",
           "source": "aihot",
-          "source_name": "The Verge：订阅版科技（RSS）",
+          "source_name": "X：Satya Nadella (@satyanadella)",
           "category": "industry",
-          "published_at": "2026-06-01T19:20:47.000Z",
-          "summary": "Meta的AI聊天机器人被发现存在安全漏洞，黑客可以通过请求该AI关联一个新的电子邮件地址，从而接管目标用户的Instagram账号。该漏洞利用了AI智能体直接执行账户管理操作的能力。"
+          "published_at": "2026-06-03T04:02:24.000Z",
+          "summary": "与我们共同构建前沿智能生态系统。\n\n今早我在 Microsoft Build 上的主旨演讲亮点。"
+        },
+        {
+          "id": "b7c5f9ab3a39",
+          "title": "宏利香港与阿里云达成AI战略合作",
+          "url": "https://x.com/alibaba_cloud/status/2062006591377829922",
+          "source": "aihot",
+          "source_name": "X：阿里云 / Alibaba Cloud (@alibaba_cloud)",
+          "category": "industry",
+          "published_at": "2026-06-03T03:00:56.000Z",
+          "summary": "宏利香港宣布与阿里云建立战略合作伙伴关系，旨在构建一个专注于推进负责任的AI创新，并加速AI技术在业务中部署的合作框架。"
+        },
+        {
+          "id": "9056cd48b726",
+          "title": "Sensor Tower：OpenAI 旗下 ChatGPT 月活已破 10 亿，史上最快",
+          "url": "https://www.ithome.com/0/959/083.htm",
+          "source": "aihot",
+          "source_name": "IT之家（RSS）",
+          "category": "industry",
+          "published_at": "2026-06-03T01:31:15.000Z",
+          "summary": "据市场情报机构 Sensor Tower 估计，OpenAI 旗下 ChatGPT 全球月活跃用户在 2025 年 5 月突破 10 亿，成为达成此里程碑最快的应用，增速超过 Google Maps、TikTok 等。同期，其竞争对手 Anthropic 的 Claude 月活达 5600 万，同比增幅约 640%，增长势头迅猛。数据显示，部分用户已开始在 Claude 与 ChatGPT 间切换使用。在达成用户里程碑之际，Anthropic 已秘密递交 IPO 申请，OpenAI 也计划筹备上市。"
+        }
+      ]
+    },
+    "paper": {
+      "label": "paper",
+      "items": [
+        {
+          "id": "f541c4ab1931",
+          "title": "斯坦福大学法学院研究：人工智能的表现优于法学教授",
+          "url": "https://law.stanford.edu/press/ai-outperforms-law-professors-in-stanford-law-study",
+          "source": "aihot",
+          "source_name": "Hacker News 热门（buzzing.cc 中文翻译）",
+          "category": "paper",
+          "published_at": "2026-06-03T02:33:56.784Z",
+          "summary": "斯坦福大学法学院的一项研究表明，人工智能的表现优于法学教授。该发现引发了广泛关注，在Hacker News平台获得了104个Points。"
+        },
+        {
+          "id": "c5203e076846",
+          "title": "世界模型与语言模型：论具体推理与抽象推理的互补性",
+          "url": "https://arxiv.org/abs/2606.03603",
+          "source": "aihot",
+          "source_name": "HuggingFace Daily Papers（社区热门论文）",
+          "category": "paper",
+          "published_at": "2026-06-02T13:07:49.000Z",
+          "summary": "本研究探讨了世界模型与多模态大语言模型在预测未来状态时的互补性。世界模型可生成具体的视觉未来轨迹，但可能视觉合理却任务错误；多模态大语言模型则擅长抽象推理。为此，研究提出了\"受控的具体推理\"框架，并构建了VRQABench和OpenWorldQA两个基准。同时，提出了Privileged-Future On-Policy Self-Distillation（PF-OPSD）方法，该方法在训练时利用真实未来视频作为特权上下文评估推理轨迹，但部署时无需真实未来。实验结果显示，PF-OPSD在两个基准上分别比基线高出10.6%和10.9%，并提升了对噪声或冲突轨迹的鲁棒性。"
         }
       ]
     }
