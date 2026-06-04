@@ -1,18 +1,20 @@
 {
   "date": "2026-06-04",
-  "generated_at": "2026-06-04T21:52:56.100796",
-  "total": 77,
+  "generated_at": "2026-06-04T23:36:03.278814",
+  "total": 81,
   "sources": {
     "Hugging Face": 7,
     "GitHub AI": 5,
+    "X：NotebookLM (@NotebookLM)": 2,
+    "X：Gemini (@GeminiApp)": 1,
     "Hacker News 热门（buzzing.cc 中文翻译）": 4,
     "X：NVIDIA (@nvidia)": 2,
+    "Ethan Mollick：One Useful Thing（RSS）": 1,
     "Google Research：Blog（网页）": 2,
     "X：OpenAI Developers (@OpenAIDevs)": 2,
     "Hugging Face：Blog（RSS）": 8,
     "X：Google AI for Developers (@googleaidevs)": 1,
     "X：Replit (@Replit)": 2,
-    "X：NotebookLM (@NotebookLM)": 1,
     "LMSYS：Blog（Chatbot Arena 团队）": 1,
     "Dwarkesh Patel：Podcast & Blog（RSS）": 1,
     "X：硅基流动 SiliconFlow (@SiliconFlowAI)": 3,
@@ -20,6 +22,7 @@
     "X：OpenRouter (@OpenRouter)": 1,
     "NVIDIA Technical Blog（开发者技术博客 · RSS）": 1,
     "X：Kim (@kimmonismus)": 2,
+    "OpenRouter：Announcements（RSS）": 1,
     "Bloomberg：Technology（RSS）": 2,
     "OpenAI：官网动态（RSS · 排除企业/客户案例）": 2,
     "MarkTechPost（RSS）": 1,
@@ -135,6 +138,26 @@
     "ai-products": {
       "label": "🚀 AI 产品",
       "items": [
+        {
+          "id": "2931570f4c27",
+          "title": "NotebookLM 来源归属功能上线",
+          "url": "https://x.com/NotebookLM/status/2062653124326863077",
+          "source": "aihot",
+          "source_name": "X：NotebookLM (@NotebookLM)",
+          "category": "ai-products",
+          "published_at": "2026-06-04T21:50:01.000Z",
+          "summary": "今天，我们推出又一项呼声很高的功能：来源归属！🥳\n\n无需再猜测。现在你可以看到每个创作物背后所用的确切公式（提示词 + 来源）。想要调整？只需轻点\"迭代\"，随心定制 💖"
+        },
+        {
+          "id": "0ed2f1cefb41",
+          "title": "Gemini macOS 双击 Command 附加活动窗口",
+          "url": "https://x.com/GeminiApp/status/2062652523945836770",
+          "source": "aihot",
+          "source_name": "X：Gemini (@GeminiApp)",
+          "category": "ai-products",
+          "published_at": "2026-06-04T21:47:38.000Z",
+          "summary": "使用适用于 macOS 的 Gemini 应用，获取针对屏幕内容的定制帮助。💻\n\n只需同时按下两个 Command ⌘ 键，即可将当前活动窗口无缝附加到聊天中，无需手动截图或切换标签页。"
+        },
         {
           "id": "ff53af35bd37",
           "title": "Anthropic 开源 AI 驱动漏洞发现框架",
@@ -407,7 +430,7 @@
           "source": "GitHub AI",
           "source_name": "GitHub AI",
           "category": "ai-tools",
-          "published_at": "2026-06-04T21:52:55.092731+00:00",
+          "published_at": "2026-06-04T23:36:00.878356+00:00",
           "summary": "Define and run multi-container applications with Docker"
         },
         {
@@ -417,7 +440,7 @@
           "source": "GitHub AI",
           "source_name": "GitHub AI",
           "category": "ai-tools",
-          "published_at": "2026-06-04T21:52:55.092498+00:00",
+          "published_at": "2026-06-04T23:36:00.878170+00:00",
           "summary": "🐶 Kubernetes CLI To Manage Your Clusters In Style!"
         },
         {
@@ -427,7 +450,7 @@
           "source": "GitHub AI",
           "source_name": "GitHub AI",
           "category": "ai-tools",
-          "published_at": "2026-06-04T21:52:55.091624+00:00",
+          "published_at": "2026-06-04T23:36:00.877498+00:00",
           "summary": "Financial data platform for analysts, quants and AI agents."
         },
         {
@@ -437,7 +460,7 @@
           "source": "GitHub AI",
           "source_name": "GitHub AI",
           "category": "ai-tools",
-          "published_at": "2026-06-04T21:52:55.091230+00:00",
+          "published_at": "2026-06-04T23:36:00.877214+00:00",
           "summary": "🤗 Transformers: the model-definition framework for state-of-the-art machine learning models in text, vision, audio, and multimodal models, for both inference and training."
         },
         {
@@ -447,7 +470,7 @@
           "source": "GitHub AI",
           "source_name": "GitHub AI",
           "category": "ai-tools",
-          "published_at": "2026-06-04T21:52:55.091060+00:00",
+          "published_at": "2026-06-04T23:36:00.877079+00:00",
           "summary": "Find vulnerabilities, misconfigurations, secrets, SBOM in containers, Kubernetes, code repositories, clouds and more"
         }
       ]
@@ -586,6 +609,16 @@
       "label": "💡 技巧",
       "items": [
         {
+          "id": "5fd30e004cfc",
+          "title": "共存与协同智能的终结",
+          "url": "https://www.oneusefulthing.org/p/co-existence-and-the-end-of-co-intelligence",
+          "source": "aihot",
+          "source_name": "Ethan Mollick：One Useful Thing（RSS）",
+          "category": "tip",
+          "published_at": "2026-06-04T21:13:42.000Z",
+          "summary": "Ethan Mollick 在 One Useful Thing 博客中，以\"共存与协同智能的终结\"为题，并附带介绍了如何向 AI 推销一本书。"
+        },
+        {
           "id": "89cda50d9193",
           "title": "Boson AI 与 LMSYS 发布基于 SGLang-Omni 的 Higgs Audio v3 TTS 端到端服务",
           "url": "https://www.lmsys.org/blog/2026-06-04-higgs-audio-v3-tts",
@@ -624,6 +657,16 @@
           "category": "tip",
           "published_at": "2026-06-04T12:51:00.000Z",
           "summary": "OpenAI刚刚写道：\"我们也看到了当今系统中递归自我改进（RSI）的早期迹象：AI开发本身正被AI加速。\n\n我们预计这将加剧开发者与国家之间的竞争压力，并带来现有机构无法应对的治理挑战。\n\n随着RSI的出现，社会将需要找到塑造AI发展轨迹的方法，确保其服务于人类利益。\"\n\n气氛变了，有事正在发生。"
+        },
+        {
+          "id": "82689a65b6b0",
+          "title": "OpenRouter 翻遍 11 款 LLM 找最快的决策模型：Claude vs. Grok 领衔",
+          "url": "https://openrouter.ai/announcements/royale-last-agent-standing",
+          "source": "aihot",
+          "source_name": "OpenRouter：Announcements（RSS）",
+          "category": "tip",
+          "published_at": "2026-06-04T12:00:00.000Z",
+          "summary": "OpenRouter 用总价 482 美元的推理花费，让 11 款大语言模型在 30 轮实时决策的\"大逃杀\"挑战中正面竞争。实验结果表明，传统的静态 benchmark 排名无法反映模型在需要即时反应的智能体任务（如自主控制机器人）中的真实表现，Claude 和 Grok 系列模型在决策速度与任务成功率上表现突出，而多项高分模型的实时调度能力未达预期。"
         },
         {
           "id": "55070f6f7f52",
