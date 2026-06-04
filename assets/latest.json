@@ -1,6 +1,6 @@
 {
   "date": "2026-06-04",
-  "generated_at": "2026-06-04T06:55:41.138979",
+  "generated_at": "2026-06-04T10:44:46.733932",
   "total": 70,
   "sources": {
     "Hugging Face": 8,
@@ -366,7 +366,7 @@
           "source": "GitHub AI",
           "source_name": "GitHub AI",
           "category": "ai-tools",
-          "published_at": "2026-06-04T06:55:40.118790+00:00",
+          "published_at": "2026-06-04T10:44:40.619047+00:00",
           "summary": "The Context Platform for your Data and AI Stack"
         },
         {
@@ -376,7 +376,7 @@
           "source": "GitHub AI",
           "source_name": "GitHub AI",
           "category": "ai-tools",
-          "published_at": "2026-06-04T06:55:40.118654+00:00",
+          "published_at": "2026-06-04T10:44:40.618932+00:00",
           "summary": "Smart Model Routing for Agents. Cut Costs up to 70% 🦚"
         },
         {
@@ -386,7 +386,7 @@
           "source": "GitHub AI",
           "source_name": "GitHub AI",
           "category": "ai-tools",
-          "published_at": "2026-06-04T06:55:40.118391+00:00",
+          "published_at": "2026-06-04T10:44:40.618708+00:00",
           "summary": "Servo aims to empower developers with a lightweight, high-performance alternative for embedding web technologies in applications."
         },
         {
@@ -396,7 +396,7 @@
           "source": "GitHub AI",
           "source_name": "GitHub AI",
           "category": "ai-tools",
-          "published_at": "2026-06-04T06:55:40.118008+00:00",
+          "published_at": "2026-06-04T10:44:40.618386+00:00",
           "summary": "Define and run multi-container applications with Docker"
         },
         {
@@ -406,7 +406,7 @@
           "source": "GitHub AI",
           "source_name": "GitHub AI",
           "category": "ai-tools",
-          "published_at": "2026-06-04T06:55:40.117173+00:00",
+          "published_at": "2026-06-04T10:44:40.617658+00:00",
           "summary": "Fair-code workflow automation platform with native AI capabilities. Combine visual building with custom code, self-host or cloud, 400+ integrations."
         },
         {
@@ -416,7 +416,7 @@
           "source": "GitHub AI",
           "source_name": "GitHub AI",
           "category": "ai-tools",
-          "published_at": "2026-06-04T06:55:40.117034+00:00",
+          "published_at": "2026-06-04T10:44:40.617538+00:00",
           "summary": "Industrial-grade speech recognition toolkit: 170x realtime, 50+ languages, speaker diarization, emotion detection, streaming, and OpenAI-compatible API."
         },
         {
@@ -426,7 +426,7 @@
           "source": "GitHub AI",
           "source_name": "GitHub AI",
           "category": "ai-tools",
-          "published_at": "2026-06-04T06:55:40.116240+00:00",
+          "published_at": "2026-06-04T10:44:40.616822+00:00",
           "summary": "Find vulnerabilities, misconfigurations, secrets, SBOM in containers, Kubernetes, code repositories, clouds and more"
         }
       ]
