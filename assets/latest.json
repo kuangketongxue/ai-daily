@@ -1,25 +1,27 @@
 {
   "date": "2026-06-04",
-  "generated_at": "2026-06-04T01:47:58.149815",
-  "total": 69,
+  "generated_at": "2026-06-04T06:55:41.138979",
+  "total": 70,
   "sources": {
     "Hugging Face": 8,
     "GitHub AI": 7,
+    "MarkTechPost（RSS）": 1,
+    "X：小互 (@xiaohu)": 1,
+    "X：NVIDIA AI (@NVIDIAAI)": 2,
     "IT之家（RSS）": 3,
     "X：cb_doge (@cb_doge)": 1,
     "X：MiniMax (@MiniMax_AI)": 1,
     "X：Kim (@kimmonismus)": 1,
     "X：Krea AI (@krea_ai)": 1,
-    "TechCrunch：AI（RSS）": 2,
+    "TechCrunch：AI（RSS）": 1,
     "X：硅基流动 SiliconFlow (@SiliconFlowAI)": 2,
     "X：xAI (@xai)": 2,
-    "X：NVIDIA AI (@NVIDIAAI)": 2,
     "X：Replit (@Replit)": 2,
-    "X：OpenClaw (@openclaw)": 2,
+    "X：OpenClaw (@openclaw)": 1,
     "X：NVIDIA (@nvidia)": 2,
     "The Verge：订阅版科技（RSS）": 2,
     "X：Satya Nadella (@satyanadella)": 1,
-    "Bloomberg：Technology（RSS）": 2,
+    "Bloomberg：Technology（RSS）": 1,
     "X：Suno (@suno)": 1,
     "X：阿里云 / Alibaba Cloud (@alibaba_cloud)": 2,
     "Hacker News 热门（buzzing.cc 中文翻译）": 3,
@@ -34,14 +36,13 @@
     "X：Perplexity (@perplexity_ai)": 1,
     "Anthropic：Newsroom（网页）": 1,
     "Cursor Blog": 1,
-    "xAI：News（网页）": 1,
+    "HuggingFace Daily Papers（社区热门论文）": 4,
+    "xAI：News（网页）": 2,
     "Tomer Tunguz 博客（VC 分析）": 1,
     "X：Anthropic (@AnthropicAI)": 1,
     "X：Google AI for Developers (@googleaidevs)": 1,
-    "X：Claude Devs (@ClaudeDevs)": 2,
-    "X：OpenRouter (@OpenRouter)": 1,
-    "X：OpenAI Developers (@OpenAIDevs)": 1,
-    "The Verge：AI（RSS）": 1
+    "X：Claude Devs (@ClaudeDevs)": 1,
+    "X：OpenRouter (@OpenRouter)": 1
   },
   "ai_processed": false,
   "categories": {
@@ -97,22 +98,22 @@
           "category": "ai-models",
           "published_at": "2026-06-03T00:00:00.000Z",
           "summary": "xAI 通过 API 发布了图像转视频模型 `grok-imagine-video-1.5-preview`（Grok Imagine 1.5 预览版）。该模型能将单张静态图片转为流畅的电影感视频，用户提供起始帧和描述运动的提示词后，模型可生成包含相机移动、氛围和物理效果的动画，并保持对源图像的忠实。支持生成 720p 片段，可使用自然语言指令控制镜头、节奏和音效，并支持逐帧拼接成长场景。模型目前通过 xAI API 提供预览使用。"
-        },
-        {
-          "id": "6458e54c0fef",
-          "title": "微软首款高级推理AI模型MAI-Thinking-1发布",
-          "url": "https://www.theverge.com/tech/941664/microsoft-ai-model-reasoning-mai-thinking-1-build-2026",
-          "source": "aihot",
-          "source_name": "The Verge：AI（RSS）",
-          "category": "ai-models",
-          "published_at": "2026-06-02T18:12:44.000Z",
-          "summary": "微软在Build 2026上发布了其首款高级推理AI模型MAI-Thinking-1。该模型被定位为\"中等规模\"，能在\"关键\"软件工程基准测试中达到领先模型的水平。微软称其完全从头使用干净数据进行训练，未涉及从第三方模型进行知识蒸馏。这标志着微软在自研AI模型上迈出重要一步，此前其主要依赖OpenAI。近期两家公司已重新协商合作协议，关系有所松绑。"
         }
       ]
     },
     "ai-products": {
       "label": "🚀 AI 产品",
       "items": [
+        {
+          "id": "e58b412ccc21",
+          "title": "Meet OpenJarvis：一个本地优先的设备端个人AI智能体框架，支持工具、记忆与学习",
+          "url": "https://www.marktechpost.com/2026/06/03/meet-openjarvis-a-local-first-framework-for-on-device-personal-ai-agents-with-tools-memory-and-learning",
+          "source": "aihot",
+          "source_name": "MarkTechPost（RSS）",
+          "category": "ai-products",
+          "published_at": "2026-06-04T06:23:10.000Z",
+          "summary": "Stanford 研究人员发布 OpenJarvis，一个完全在设备端运行推理、智能体、记忆与学习的开源框架。它将个人 AI 系统分解为五个可组合原语：Intelligence、Engine、Agents、Tools & Memory 和 Learning。该框架与最佳云端模型的性能差距在 3.2 points 以内，边际 API 成本降低约 800 倍。"
+        },
         {
           "id": "7be3cf54424b",
           "title": "Meta 面向 WhatsApp Business 的 AI 智能体现已全球上线",
@@ -224,6 +225,16 @@
           "summary": "Cursor Enterprise 正式推出 Organizations 结构，允许企业在统一面板中管理多个团队。每个团队可独立设置预算、安全策略、模型访问和功能控制。新增 Groups 作为跨团队或团队内的轻量级用户集合，用于分段管理模型访问、花销上限和智能体权限，不同设置取最宽松权限生效。管理员可创建沙箱团队预先测试新功能，再向全公司推送；也可按部门划分模型访问和预算。组织级仪表盘汇总所有团队的 token 用量与花费，支持按团队、用户等维度筛选。身份提供商和 SCIM 目录在组织层面一次配置，成员自动同步。该功能现已全面开放给所有 Enterprise 客户。"
         },
         {
+          "id": "81b65f7b35d5",
+          "title": "Grok 成为 Vapi 的默认语音引擎",
+          "url": "https://x.ai/news/grok-vapi",
+          "source": "aihot",
+          "source_name": "xAI：News（网页）",
+          "category": "ai-products",
+          "published_at": "2026-06-03T00:00:00.000Z",
+          "summary": "xAI 宣布与 Vapi 合作，Grok 将作为 Vapi 平台上 12 种核心语音的默认引擎，覆盖超过 250 万个语音智能体。在 Vapi 独立盲测中，Grok Voice 位列第一；X 平台上的人机语音盲猜中，超 4500 名用户有一半无法区分 Grok 与真人。现在，Grok Speech-to-Text 和 Text-to-Speech 已集成至 Vapi Dashboard，团队还可通过 Grok Voice API 获取高级定制选项（含语音克隆），用于旁白、播客、广告等场景。"
+        },
+        {
           "id": "18d3d7266453",
           "title": "Google DeepMind 开源科学智能体工具包",
           "url": "https://x.com/googleaidevs/status/2061924472245153863",
@@ -262,56 +273,6 @@
           "category": "ai-products",
           "published_at": "2026-06-02T19:26:36.000Z",
           "summary": "宣布与 @Microsoft 的新合作\n\n组织现在可以在 Replit 中构建内部工具、工作流或数据仪表板，并直接发布到 Microsoft Fabric，内置安全、身份验证和治理功能。"
-        },
-        {
-          "id": "0f24dc090576",
-          "title": "OpenAI Codex 推出团队专属插件",
-          "url": "https://x.com/OpenAIDevs/status/2061888366791246071",
-          "source": "aihot",
-          "source_name": "X：OpenAI Developers (@OpenAIDevs)",
-          "category": "ai-products",
-          "published_at": "2026-06-02T19:11:09.000Z",
-          "summary": "Codex 中的角色专属插件围绕团队实际工作构建。\n\n数据分析、创意制作和产品设计插件为 Codex 提供了创建报告、创意方向和原型的工具与上下文。\n\n由 OpenAI 团队构建并使用。"
-        },
-        {
-          "id": "6c639528fc71",
-          "title": "微软发布开源框架 Adaptive Spec-driven Scoring：支持用文本描述创建 AI 评估测试",
-          "url": "https://techcrunch.com/2026/06/02/new-microsoft-tool-lets-devs-spin-up-ai-behavior-tests-using-text-descriptions",
-          "source": "aihot",
-          "source_name": "TechCrunch：AI（RSS）",
-          "category": "ai-products",
-          "published_at": "2026-06-02T19:02:21.000Z",
-          "summary": "微软开源发布 Adaptive Spec-driven Scoring for Evaluation and Regression Testing 框架。开发者可通过文本描述快速生成 AI 行为测试，用于模型评估与回归测试。"
-        },
-        {
-          "id": "b38d8bd7879b",
-          "title": "Claude Platform 新增 CLI 工具",
-          "url": "https://x.com/ClaudeDevs/status/2061877343078244459",
-          "source": "aihot",
-          "source_name": "X：Claude Devs (@ClaudeDevs)",
-          "category": "ai-products",
-          "published_at": "2026-06-02T18:27:21.000Z",
-          "summary": "我们为 Claude Platform 添加了一个 CLI，使每个 API 端点都可以从你的终端运行。\n调用 Messages API，启动 Claude 托管智能体，并将结果直接管道传输到你的 shell。\nant CLI 被使用 claude-api 技能的编码智能体（Claude Code）很好地理解。"
-        },
-        {
-          "id": "ac44315632d7",
-          "title": "NVIDIA发布自进化Hermes智能体",
-          "url": "https://x.com/NVIDIAAI/status/2061870499232190967",
-          "source": "aihot",
-          "source_name": "X：NVIDIA AI (@NVIDIAAI)",
-          "category": "ai-products",
-          "published_at": "2026-06-02T18:00:09.000Z",
-          "summary": "自进化Hermes智能体：随使用而改进的企业AI | Nemotron Labs"
-        },
-        {
-          "id": "ca7f4f26a6be",
-          "title": "OpenClaw 与微软合作进入企业生态",
-          "url": "https://x.com/openclaw/status/2061869633624580452",
-          "source": "aihot",
-          "source_name": "X：OpenClaw (@openclaw)",
-          "category": "ai-products",
-          "published_at": "2026-06-02T17:56:42.000Z",
-          "summary": "\"你现在可以在公司内部运行 OpenClaw 了。\" 宣布我们与 @Microsoft 的合作，将 OpenClaw 带入微软和 Windows 生态系统。Claws 现在可以在企业环境中安全运行。"
         }
       ]
     },
@@ -405,7 +366,7 @@
           "source": "GitHub AI",
           "source_name": "GitHub AI",
           "category": "ai-tools",
-          "published_at": "2026-06-04T01:47:49.750341+00:00",
+          "published_at": "2026-06-04T06:55:40.118790+00:00",
           "summary": "The Context Platform for your Data and AI Stack"
         },
         {
@@ -415,7 +376,7 @@
           "source": "GitHub AI",
           "source_name": "GitHub AI",
           "category": "ai-tools",
-          "published_at": "2026-06-04T01:47:49.750222+00:00",
+          "published_at": "2026-06-04T06:55:40.118654+00:00",
           "summary": "Smart Model Routing for Agents. Cut Costs up to 70% 🦚"
         },
         {
@@ -425,7 +386,7 @@
           "source": "GitHub AI",
           "source_name": "GitHub AI",
           "category": "ai-tools",
-          "published_at": "2026-06-04T01:47:49.749991+00:00",
+          "published_at": "2026-06-04T06:55:40.118391+00:00",
           "summary": "Servo aims to empower developers with a lightweight, high-performance alternative for embedding web technologies in applications."
         },
         {
@@ -435,7 +396,7 @@
           "source": "GitHub AI",
           "source_name": "GitHub AI",
           "category": "ai-tools",
-          "published_at": "2026-06-04T01:47:49.749648+00:00",
+          "published_at": "2026-06-04T06:55:40.118008+00:00",
           "summary": "Define and run multi-container applications with Docker"
         },
         {
@@ -445,7 +406,7 @@
           "source": "GitHub AI",
           "source_name": "GitHub AI",
           "category": "ai-tools",
-          "published_at": "2026-06-04T01:47:49.748918+00:00",
+          "published_at": "2026-06-04T06:55:40.117173+00:00",
           "summary": "Fair-code workflow automation platform with native AI capabilities. Combine visual building with custom code, self-host or cloud, 400+ integrations."
         },
         {
@@ -455,7 +416,7 @@
           "source": "GitHub AI",
           "source_name": "GitHub AI",
           "category": "ai-tools",
-          "published_at": "2026-06-04T01:47:49.748789+00:00",
+          "published_at": "2026-06-04T06:55:40.117034+00:00",
           "summary": "Industrial-grade speech recognition toolkit: 170x realtime, 50+ languages, speaker diarization, emotion detection, streaming, and OpenAI-compatible API."
         },
         {
@@ -465,7 +426,7 @@
           "source": "GitHub AI",
           "source_name": "GitHub AI",
           "category": "ai-tools",
-          "published_at": "2026-06-04T01:47:49.748024+00:00",
+          "published_at": "2026-06-04T06:55:40.116240+00:00",
           "summary": "Find vulnerabilities, misconfigurations, secrets, SBOM in containers, Kubernetes, code repositories, clouds and more"
         }
       ]
@@ -719,6 +680,16 @@
       "label": "industry",
       "items": [
         {
+          "id": "2b4f4e88e189",
+          "title": "Cloudflare Radar：机器人流量首次超过人类占比57.5%",
+          "url": "https://x.com/xiaohu/status/2062367357868355622",
+          "source": "aihot",
+          "source_name": "X：小互 (@xiaohu)",
+          "category": "industry",
+          "published_at": "2026-06-04T02:54:29.000Z",
+          "summary": "Cloudflare Radar 实时统计显示，过去一周（5月28日至6月4日）全球所有 HTML 网页请求流量中，57.5% 来自机器人（爬虫、AI 抓取、自动化脚本），仅42.5%来自真人浏览器，机器人流量首次超过人类。按所有 HTTP 流量返回内容分类，JSON（API 机器通信）占33.1%居首，HTML 仅12%。互联网流量主体已从人类浏览网页转向机器间通信和机器人抓取。"
+        },
+        {
           "id": "0f5ce21d34d7",
           "title": "联合国报告：2030年AI数据中心水电消耗将翻倍",
           "url": "https://www.ithome.com/0/959/607.htm",
@@ -747,22 +718,62 @@
           "category": "industry",
           "published_at": "2026-06-02T21:35:03.000Z",
           "summary": "这项行政令是加强美国AI领导地位的重要一步。\n\n我们期待与白宫合作，支持其实施。\n\nhttps：//www.whitehouse.gov/presidential-actions/2026/06/promoting-advanced-artificial-intelligence-innovation-and-security/"
-        },
-        {
-          "id": "99e4d2594c1f",
-          "title": "Alphabet拟融资800亿美元 Anthropic提交IPO申请",
-          "url": "https://www.bloomberg.com/news/videos/2026-06-02/bloomberg-tech-6-2-2026-video",
-          "source": "aihot",
-          "source_name": "Bloomberg：Technology（RSS）",
-          "category": "industry",
-          "published_at": "2026-06-02T18:39:17.000Z",
-          "summary": "Alphabet宣布拟通过股权融资800亿美元，用于扩展AI基础设施。Anthropic已秘密提交IPO申请，在上市竞赛中领先于竞争对手OpenAI。此外，SpaceX正与华尔街机构协商其IPO的承销费用，HPE则因AI基础设施需求旺盛，年度销售预期超出市场估计。"
         }
       ]
     },
     "paper": {
       "label": "paper",
       "items": [
+        {
+          "id": "2097cd5b262f",
+          "title": "NVIDIA PPISP：补偿光度变化提升3D重建",
+          "url": "https://x.com/NVIDIAAI/status/2062358080222876041",
+          "source": "aihot",
+          "source_name": "X：NVIDIA AI (@NVIDIAAI)",
+          "category": "paper",
+          "published_at": "2026-06-04T02:17:37.000Z",
+          "summary": "辐射场的质量取决于其背后的图像。\n\nPPISP 可帮助补偿不同拍摄之间的光度变化，使 3D 重建在光照和相机设置不完全一致时更加鲁棒。\n\n🔗 项目：https：//nvda.ws/43JeJpk"
+        },
+        {
+          "id": "3f64063237ab",
+          "title": "MapAgent：面向城市级车道级地图生成的工业级智能体框架",
+          "url": "https://arxiv.org/abs/2606.04513",
+          "source": "aihot",
+          "source_name": "HuggingFace Daily Papers（社区热门论文）",
+          "category": "paper",
+          "published_at": "2026-06-03T00:00:00.000Z",
+          "summary": "MapAgent是一种工业级智能体架构，用于生成符合规范的车道级地图。它在矢量化骨干网络基础上，通过Judge-Planner-Worker循环，利用视觉语言模型诊断错误、调用工具生成最小修正编辑并重新验证。系统仅在骨干网络置信度低的瓦片区域选择性触发，保持高吞吐量。MapAgent已集成至百度地图，支撑全国360多个城市的车道级地图生成，整体生产自动化率超95%。"
+        },
+        {
+          "id": "5ab9b2b7c661",
+          "title": "Echo-Infinity：学习演化记忆实现实时无限视频生成",
+          "url": "https://arxiv.org/abs/2606.04527",
+          "source": "aihot",
+          "source_name": "HuggingFace Daily Papers（社区热门论文）",
+          "category": "paper",
+          "published_at": "2026-06-03T00:00:00.000Z",
+          "summary": "Echo-Infinity 是一个自回归（AR）框架，用于实时无限视频生成。它用可学习的演化记忆替代人工缓存策略，通过注意力机制和门控更新 Memory Query，与视频扩散 Transformer（DiTs）端到端优化，支持任意压缩比且计算量不随视频长度增加。同时引入 Unified Relative RoPE Recipe，锚定 sink 帧从 id 0 开始、最新帧 id 不超过预训练最大时间 RoPE id，解除有限 RoPE 约束并缩小外推差距。在长/短视频生成中达到 SOTA，首次实现 24 小时（超 130 万帧）实时滚动生成。"
+        },
+        {
+          "id": "433843537798",
+          "title": "StreamMA：多智能体推理中的流式通信",
+          "url": "https://arxiv.org/abs/2606.05158",
+          "source": "aihot",
+          "source_name": "HuggingFace Daily Papers（社区热门论文）",
+          "category": "paper",
+          "published_at": "2026-06-03T00:00:00.000Z",
+          "summary": "StreamMA 采用\"流式通信\"范式，每个推理步骤生成后立即流式传输给下游智能体，通过流水线相邻智能体降低端到端延迟。该方法还提升了效果，因为早期步骤更可靠，可避免错误后期步骤误导下游智能体。在数学、科学和代码八项推理基准上，使用 Claude Opus 4.6 和 GPT-5.4 两种大语言模型，及 Chain、Tree、Graph 三种拓扑，StreamMA 平均优于基线 +7.3 个百分点，在 HMMT 2026 上最高达 +22.4 个百分点。研究还发现\"步骤级缩放定律\"：增加每智能体步骤数可同时提升效果与效率。"
+        },
+        {
+          "id": "476a0a7bb7b3",
+          "title": "Meta-Agent Challenge：自主智能体开发能力评估框架",
+          "url": "https://arxiv.org/abs/2606.04455",
+          "source": "aihot",
+          "source_name": "HuggingFace Daily Papers（社区热门论文）",
+          "category": "paper",
+          "published_at": "2026-06-03T00:00:00.000Z",
+          "summary": "论文提出Meta-Agent Challenge（MAC）评估框架，测试前沿模型自主开发智能体系统的能力。元智能体在沙盒环境中借助评估API和时限，迭代编程出能在五个领域保留测试集上最大化性能的智能体工件，并采用多层防御防止奖励攻击。实验表明，元智能体极少达到人类基线策略，少数成功者由专有前沿模型主导；设计过程高方差，高优化压力催生了真实值外泄等对抗行为，暴露鲁棒性与对齐缺陷。MAC作为开源基准，为评估递归自我改进提供实证代理。"
+        },
         {
           "id": "358900147bf2",
           "title": "微软研究：Aurora天气预报速度超传统超算数千倍",
