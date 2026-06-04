@@ -1,12 +1,16 @@
 {
   "date": "2026-06-04",
-  "generated_at": "2026-06-04T19:47:37.101896",
-  "total": 72,
+  "generated_at": "2026-06-04T21:52:56.100796",
+  "total": 77,
   "sources": {
-    "Hugging Face": 8,
+    "Hugging Face": 7,
     "GitHub AI": 5,
+    "Hacker News 热门（buzzing.cc 中文翻译）": 4,
+    "X：NVIDIA (@nvidia)": 2,
+    "Google Research：Blog（网页）": 2,
+    "X：OpenAI Developers (@OpenAIDevs)": 2,
+    "Hugging Face：Blog（RSS）": 8,
     "X：Google AI for Developers (@googleaidevs)": 1,
-    "X：OpenAI Developers (@OpenAIDevs)": 1,
     "X：Replit (@Replit)": 2,
     "X：NotebookLM (@NotebookLM)": 1,
     "LMSYS：Blog（Chatbot Arena 团队）": 1,
@@ -15,10 +19,9 @@
     "The Verge：订阅版科技（RSS）": 3,
     "X：OpenRouter (@OpenRouter)": 1,
     "NVIDIA Technical Blog（开发者技术博客 · RSS）": 1,
-    "Hugging Face：Blog（RSS）": 7,
     "X：Kim (@kimmonismus)": 2,
     "Bloomberg：Technology（RSS）": 2,
-    "OpenAI：官网动态（RSS · 排除企业/客户案例）": 1,
+    "OpenAI：官网动态（RSS · 排除企业/客户案例）": 2,
     "MarkTechPost（RSS）": 1,
     "X：小互 (@xiaohu)": 1,
     "X：NVIDIA AI (@NVIDIAAI)": 2,
@@ -29,18 +32,15 @@
     "TechCrunch：AI（RSS）": 1,
     "X：xAI (@xai)": 2,
     "X：OpenClaw (@openclaw)": 1,
-    "X：NVIDIA (@nvidia)": 1,
     "X：Satya Nadella (@satyanadella)": 1,
     "X：Suno (@suno)": 1,
     "X：阿里云 / Alibaba Cloud (@alibaba_cloud)": 2,
-    "Hacker News 热门（buzzing.cc 中文翻译）": 3,
     "NVIDIA AI Blog": 1,
     "Anthropic：Research（发表成果 · 网页）": 1,
     "X：Microsoft Research (@MSFTResearch)": 1,
     "X：Fei-Fei Li (@drfeifei, World Labs)": 1,
     "X：邵猛 (@shao__meng)": 1,
     "Claude：Blog（网页）": 1,
-    "Google Research：Blog（网页）": 1,
     "X：Perplexity (@perplexity_ai)": 1,
     "Anthropic：Newsroom（网页）": 1,
     "Cursor Blog": 1
@@ -50,6 +50,16 @@
     "ai-models": {
       "label": "🧠 AI 模型",
       "items": [
+        {
+          "id": "16c115d256bf",
+          "title": "Nemotron 3.5 Content Safety：面向全球企业AI的可定制多模态安全",
+          "url": "https://huggingface.co/blog/nvidia/nemotron-3-5-content-safety",
+          "source": "aihot",
+          "source_name": "Hugging Face：Blog（RSS）",
+          "category": "ai-models",
+          "published_at": "2026-06-04T18:57:45.000Z",
+          "summary": "Nemotron 3.5 Content Safety基于Gemma 3 4B IT，提供128K上下文窗口，支持用户提示、可选图像与助手响应的统一多模态安全评估。新增自定义策略执行，允许企业用自然语言定义专属安全规则；THINK模式可输出可审计的逐步推理痕迹。显式训练覆盖12种语言，并借助基座模型零样本泛化至约140种语言。输出提供低延迟二分类、带分类标签、THINK推理痕迹三种模式。安全分类遵循Aegis 2.0框架（13核心类别+10细分类别）。同步发布多模态、多语言安全数据集，可在8GB+ VRAM GPU上实时部署。"
+        },
         {
           "id": "fb62073e486a",
           "title": "Google Magenta RealTime 2 （MRT2） 实时音乐模型发布",
@@ -125,6 +135,26 @@
     "ai-products": {
       "label": "🚀 AI 产品",
       "items": [
+        {
+          "id": "ff53af35bd37",
+          "title": "Anthropic 开源 AI 驱动漏洞发现框架",
+          "url": "https://github.com/anthropics/defending-code-reference-harness",
+          "source": "aihot",
+          "source_name": "Hacker News 热门（buzzing.cc 中文翻译）",
+          "category": "ai-products",
+          "published_at": "2026-06-04T21:32:05.585Z",
+          "summary": "Anthropic 将其用于 AI 驱动漏洞发现的开源框架代码托管在 GitHub 上。该框架借助 AI 技术进行漏洞发现，旨在帮助识别软件中的安全缺陷。"
+        },
+        {
+          "id": "78327f2e1984",
+          "title": "OpenAI API 新增内容审核评分",
+          "url": "https://x.com/OpenAIDevs/status/2062619558440267801",
+          "source": "aihot",
+          "source_name": "X：OpenAI Developers (@OpenAIDevs)",
+          "category": "ai-products",
+          "published_at": "2026-06-04T19:36:39.000Z",
+          "summary": "Moderation scores 现已在 Responses API 和 Completions API 中可用。\n\n在与生成相同的请求流程中返回审核信号，然后由你的应用决定如何使用它们进行记录、路由、审核或拦截。\n\nhttps：//developers.openai.com/api/docs/guides/moderation"
+        },
         {
           "id": "a19b989c3e9b",
           "title": "Codex 推出 iOS 应用构建插件",
@@ -331,16 +361,6 @@
           "summary": ""
         },
         {
-          "id": "28d460fdabb9",
-          "title": "Nemotron 3.5 Content Safety: Customizable Multimodal Safety for Global Enterprise AI",
-          "url": "https://huggingface.co/blog/nvidia/nemotron-3-5-content-safety",
-          "source": "Hugging Face",
-          "source_name": "Hugging Face",
-          "category": "ai-tools",
-          "published_at": "Thu, 04 Jun 2026 18:57:45 GMT",
-          "summary": ""
-        },
-        {
           "id": "5c022546d718",
           "title": "EVA-Bench Data 2.0: 3 Domains, 121 Tools, 213 Scenarios",
           "url": "https://huggingface.co/blog/ServiceNow-AI/eva-bench-data",
@@ -387,7 +407,7 @@
           "source": "GitHub AI",
           "source_name": "GitHub AI",
           "category": "ai-tools",
-          "published_at": "2026-06-04T19:47:35.930811+00:00",
+          "published_at": "2026-06-04T21:52:55.092731+00:00",
           "summary": "Define and run multi-container applications with Docker"
         },
         {
@@ -397,7 +417,7 @@
           "source": "GitHub AI",
           "source_name": "GitHub AI",
           "category": "ai-tools",
-          "published_at": "2026-06-04T19:47:35.930498+00:00",
+          "published_at": "2026-06-04T21:52:55.092498+00:00",
           "summary": "🐶 Kubernetes CLI To Manage Your Clusters In Style!"
         },
         {
@@ -407,7 +427,7 @@
           "source": "GitHub AI",
           "source_name": "GitHub AI",
           "category": "ai-tools",
-          "published_at": "2026-06-04T19:47:35.929466+00:00",
+          "published_at": "2026-06-04T21:52:55.091624+00:00",
           "summary": "Financial data platform for analysts, quants and AI agents."
         },
         {
@@ -417,7 +437,7 @@
           "source": "GitHub AI",
           "source_name": "GitHub AI",
           "category": "ai-tools",
-          "published_at": "2026-06-04T19:47:35.929014+00:00",
+          "published_at": "2026-06-04T21:52:55.091230+00:00",
           "summary": "🤗 Transformers: the model-definition framework for state-of-the-art machine learning models in text, vision, audio, and multimodal models, for both inference and training."
         },
         {
@@ -427,7 +447,7 @@
           "source": "GitHub AI",
           "source_name": "GitHub AI",
           "category": "ai-tools",
-          "published_at": "2026-06-04T19:47:35.928815+00:00",
+          "published_at": "2026-06-04T21:52:55.091060+00:00",
           "summary": "Find vulnerabilities, misconfigurations, secrets, SBOM in containers, Kubernetes, code repositories, clouds and more"
         }
       ]
@@ -686,6 +706,16 @@
           "summary": "Dharma-AI 在 Hugging Face 博客发文，探讨直接偏好优化（Direct Preference Optimization，DPO）在聊天机器人之外的更广泛应用场景。"
         },
         {
+          "id": "33e88fbb20e9",
+          "title": "OpenAI 发布《智能时代的生物防御》行动计划，以 AI 驱动生物韧性",
+          "url": "https://openai.com/index/biodefense-in-the-intelligence-age",
+          "source": "aihot",
+          "source_name": "OpenAI：官网动态（RSS · 排除企业/客户案例）",
+          "category": "tip",
+          "published_at": "2026-06-04T00:00:00.000Z",
+          "summary": "OpenAI 提出一项名为\"Biodefense in the Intelligence Age\"的行动计划，旨在利用 AI 增强生物防御与韧性。该计划聚焦于构建 AI 驱动的生物安全能力，以应对未来可能出现的生物威胁。"
+        },
+        {
           "id": "20475f2a4f3c",
           "title": "优步每月 1，500 美元的 AI 使用上限为 AI 工具定价提供参考",
           "url": "https://simonwillison.net/2026/Jun/3/uber-caps-usage",
@@ -710,6 +740,16 @@
     "industry": {
       "label": "industry",
       "items": [
+        {
+          "id": "5149a3e4fc9e",
+          "title": "Nemotron Parakeet ASR 印尼语准确率达 97.7%",
+          "url": "https://x.com/nvidia/status/2062647600424128773",
+          "source": "aihot",
+          "source_name": "X：NVIDIA (@nvidia)",
+          "category": "industry",
+          "published_at": "2026-06-04T21:28:04.000Z",
+          "summary": "当法律和监督依赖于转录内容时，70-80% 是不够的。\n\nhttp：//Rafiqspace.ai 通过微调 Nemotron Parakeet ASR 达到了 97.7% 的印尼语准确率（2.3% WER）-- 优于全球工具，同时每小时成本降低高达 90%。⚖️"
+        },
         {
           "id": "d7b569f4a8c1",
           "title": "台积电难以跟上AI需求：\"我们只能支持这么多\"",
@@ -775,6 +815,16 @@
     "paper": {
       "label": "paper",
       "items": [
+        {
+          "id": "64f4f5f21a06",
+          "title": "Google Research 发布被动心率监测系统 PHRM",
+          "url": "https://research.google/blog/towards-passive-heart-health-monitoring-via-smartphone-camera",
+          "source": "aihot",
+          "source_name": "Google Research：Blog（网页）",
+          "category": "paper",
+          "published_at": "2026-06-04T20:25:28.688Z",
+          "summary": "Google Research 开发了一种被动心率监测系统（PHRM），利用智能手机前置摄像头在日常使用中（人脸解锁后数秒内）捕捉面部视频，通过深度学习估算心率，平均绝对百分比误差（MAPE）低于10%（对比心电图金标准），满足各肤色人群的行业精度标准。系统将全天心率测量整合为每日静息心率（RHR），平均绝对误差（MAE）低于5 bpm（对比可穿戴设备）。研究同时发布了迄今最大规模的公开智能手机视频数据集及预训练模型PHRM-mini，合格研究人员可申请访问。"
+        },
         {
           "id": "8b3f7e0256b6",
           "title": "EVA-Bench Data 2.0 发布：覆盖三大领域、121 个工具、213 个场景",
