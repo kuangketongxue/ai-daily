@@ -1,18 +1,21 @@
 {
   "date": "2026-06-04",
-  "generated_at": "2026-06-04T17:22:00.323062",
-  "total": 71,
+  "generated_at": "2026-06-04T19:47:37.101896",
+  "total": 72,
   "sources": {
     "Hugging Face": 8,
     "GitHub AI": 5,
+    "X：Google AI for Developers (@googleaidevs)": 1,
+    "X：OpenAI Developers (@OpenAIDevs)": 1,
+    "X：Replit (@Replit)": 2,
+    "X：NotebookLM (@NotebookLM)": 1,
     "LMSYS：Blog（Chatbot Arena 团队）": 1,
-    "X：Anthropic (@AnthropicAI)": 1,
     "Dwarkesh Patel：Podcast & Blog（RSS）": 1,
     "X：硅基流动 SiliconFlow (@SiliconFlowAI)": 3,
     "The Verge：订阅版科技（RSS）": 3,
     "X：OpenRouter (@OpenRouter)": 1,
     "NVIDIA Technical Blog（开发者技术博客 · RSS）": 1,
-    "Hugging Face：Blog（RSS）": 6,
+    "Hugging Face：Blog（RSS）": 7,
     "X：Kim (@kimmonismus)": 2,
     "Bloomberg：Technology（RSS）": 2,
     "OpenAI：官网动态（RSS · 排除企业/客户案例）": 1,
@@ -25,7 +28,6 @@
     "X：Krea AI (@krea_ai)": 1,
     "TechCrunch：AI（RSS）": 1,
     "X：xAI (@xai)": 2,
-    "X：Replit (@Replit)": 1,
     "X：OpenClaw (@openclaw)": 1,
     "X：NVIDIA (@nvidia)": 1,
     "X：Satya Nadella (@satyanadella)": 1,
@@ -41,15 +43,23 @@
     "Google Research：Blog（网页）": 1,
     "X：Perplexity (@perplexity_ai)": 1,
     "Anthropic：Newsroom（网页）": 1,
-    "Cursor Blog": 1,
-    "HuggingFace Daily Papers（社区热门论文）": 2,
-    "xAI：News（网页）": 1
+    "Cursor Blog": 1
   },
   "ai_processed": false,
   "categories": {
     "ai-models": {
       "label": "🧠 AI 模型",
       "items": [
+        {
+          "id": "fb62073e486a",
+          "title": "Google Magenta RealTime 2 （MRT2） 实时音乐模型发布",
+          "url": "https://x.com/googleaidevs/status/2062603374789263646",
+          "source": "aihot",
+          "source_name": "X：Google AI for Developers (@googleaidevs)",
+          "category": "ai-models",
+          "published_at": "2026-06-04T18:32:20.000Z",
+          "summary": "Google AI for Developers 宣布推出开放权重的实时音乐模型 Magenta RealTime 2 （MRT2）。该模型可通过 MIDI 键盘、实时文本提示甚至手势进行演奏。MRT2 在 MacBook 上原生运行，延迟低于 200ms，提供开放权重、开源推理引擎以及配套应用和插件套件。"
+        },
         {
           "id": "6c7e868cf4bd",
           "title": "Nex-N2-Pro 发布：基于 Qwen3.5 的 397B MoE 推理模型，性能达 GPT-5.5 水平",
@@ -115,6 +125,36 @@
     "ai-products": {
       "label": "🚀 AI 产品",
       "items": [
+        {
+          "id": "a19b989c3e9b",
+          "title": "Codex 推出 iOS 应用构建插件",
+          "url": "https://x.com/OpenAIDevs/status/2062599291479478275",
+          "source": "aihot",
+          "source_name": "X：OpenAI Developers (@OpenAIDevs)",
+          "category": "ai-products",
+          "published_at": "2026-06-04T18:16:06.000Z",
+          "summary": "更多 iOS 应用循环，现已集成至 Codex。\n\nBuild iOS Apps 插件让 Codex 可在应用内浏览器查看和测试你的 iOS 应用，打开 SwiftUI 预览，并无需离开 Codex 即可热重载编辑。"
+        },
+        {
+          "id": "02c3ef91c816",
+          "title": "Replit Agent 联手 Shopify 快速建店",
+          "url": "https://x.com/Replit/status/2062594881625940379",
+          "source": "aihot",
+          "source_name": "X：Replit (@Replit)",
+          "category": "ai-products",
+          "published_at": "2026-06-04T17:58:35.000Z",
+          "summary": "我们与 Shopify 合作，让你从想法到上线商店只需几分钟\n\n只需告诉 Replit Agent 你想卖什么。它会：\n\n- 构建自定义店铺页面\n- 创建你的 Shopify 商店\n- 帮你添加商品\n\n在 Shopify 中认领店铺，设置支付，即可开业。"
+        },
+        {
+          "id": "551b853de3c2",
+          "title": "NotebookLM 推出福尔摩斯游戏笔记本",
+          "url": "https://x.com/NotebookLM/status/2062582348194197743",
+          "source": "aihot",
+          "source_name": "X：NotebookLM (@NotebookLM)",
+          "category": "ai-products",
+          "published_at": "2026-06-04T17:08:47.000Z",
+          "summary": "专业技巧：将笔记本游戏化\n\n不要只是阅读笔记--去调查它们。我们全新的福尔摩斯笔记本将学习变成一款互动侦探游戏。推理事实，发现线索，证明即使是最复杂的问题也能迎刃而解。\n\n➡️ https：//goo.gle/Sherlock"
+        },
         {
           "id": "6a0097e24102",
           "title": "Dreaming： ChatGPT 推出更强的记忆系统，更好记住用户偏好",
@@ -254,16 +294,6 @@
           "category": "ai-products",
           "published_at": "2026-06-03T12:00:00.000Z",
           "summary": "Cursor Enterprise 正式推出 Organizations 结构，允许企业在统一面板中管理多个团队。每个团队可独立设置预算、安全策略、模型访问和功能控制。新增 Groups 作为跨团队或团队内的轻量级用户集合，用于分段管理模型访问、花销上限和智能体权限，不同设置取最宽松权限生效。管理员可创建沙箱团队预先测试新功能，再向全公司推送；也可按部门划分模型访问和预算。组织级仪表盘汇总所有团队的 token 用量与花费，支持按团队、用户等维度筛选。身份提供商和 SCIM 目录在组织层面一次配置，成员自动同步。该功能现已全面开放给所有 Enterprise 客户。"
-        },
-        {
-          "id": "81b65f7b35d5",
-          "title": "Grok 成为 Vapi 的默认语音引擎",
-          "url": "https://x.ai/news/grok-vapi",
-          "source": "aihot",
-          "source_name": "xAI：News（网页）",
-          "category": "ai-products",
-          "published_at": "2026-06-03T00:00:00.000Z",
-          "summary": "xAI 宣布与 Vapi 合作，Grok 将作为 Vapi 平台上 12 种核心语音的默认引擎，覆盖超过 250 万个语音智能体。在 Vapi 独立盲测中，Grok Voice 位列第一；X 平台上的人机语音盲猜中，超 4500 名用户有一半无法区分 Grok 与真人。现在，Grok Speech-to-Text 和 Text-to-Speech 已集成至 Vapi Dashboard，团队还可通过 Grok Voice API 获取高级定制选项（含语音克隆），用于旁白、播客、广告等场景。"
         }
       ]
     },
@@ -301,13 +331,13 @@
           "summary": ""
         },
         {
-          "id": "9c519bb75f8d",
-          "title": "How to Fine-Tune Nemotron 3.5 ASR for Your Language, Domain, or Accent",
-          "url": "https://huggingface.co/blog/nvidia/fine-tuning-nemotron-35-asr",
+          "id": "28d460fdabb9",
+          "title": "Nemotron 3.5 Content Safety: Customizable Multimodal Safety for Global Enterprise AI",
+          "url": "https://huggingface.co/blog/nvidia/nemotron-3-5-content-safety",
           "source": "Hugging Face",
           "source_name": "Hugging Face",
           "category": "ai-tools",
-          "published_at": "Thu, 04 Jun 2026 12:59:35 GMT",
+          "published_at": "Thu, 04 Jun 2026 18:57:45 GMT",
           "summary": ""
         },
         {
@@ -357,7 +387,7 @@
           "source": "GitHub AI",
           "source_name": "GitHub AI",
           "category": "ai-tools",
-          "published_at": "2026-06-04T17:21:59.079862+00:00",
+          "published_at": "2026-06-04T19:47:35.930811+00:00",
           "summary": "Define and run multi-container applications with Docker"
         },
         {
@@ -367,7 +397,7 @@
           "source": "GitHub AI",
           "source_name": "GitHub AI",
           "category": "ai-tools",
-          "published_at": "2026-06-04T17:21:59.079622+00:00",
+          "published_at": "2026-06-04T19:47:35.930498+00:00",
           "summary": "🐶 Kubernetes CLI To Manage Your Clusters In Style!"
         },
         {
@@ -377,7 +407,7 @@
           "source": "GitHub AI",
           "source_name": "GitHub AI",
           "category": "ai-tools",
-          "published_at": "2026-06-04T17:21:59.078737+00:00",
+          "published_at": "2026-06-04T19:47:35.929466+00:00",
           "summary": "Financial data platform for analysts, quants and AI agents."
         },
         {
@@ -387,7 +417,7 @@
           "source": "GitHub AI",
           "source_name": "GitHub AI",
           "category": "ai-tools",
-          "published_at": "2026-06-04T17:21:59.078332+00:00",
+          "published_at": "2026-06-04T19:47:35.929014+00:00",
           "summary": "🤗 Transformers: the model-definition framework for state-of-the-art machine learning models in text, vision, audio, and multimodal models, for both inference and training."
         },
         {
@@ -397,7 +427,7 @@
           "source": "GitHub AI",
           "source_name": "GitHub AI",
           "category": "ai-tools",
-          "published_at": "2026-06-04T17:21:59.078150+00:00",
+          "published_at": "2026-06-04T19:47:35.928815+00:00",
           "summary": "Find vulnerabilities, misconfigurations, secrets, SBOM in containers, Kubernetes, code repositories, clouds and more"
         }
       ]
@@ -546,16 +576,6 @@
           "summary": "Boson AI 与 LMSYS 联合推出基于 SGLang-Omni 推理框架的 Higgs Audio v3 TTS 端到端服务。该模型约 4B 参数，基于 Qwen3-4B 骨干，支持 100 种语言（内部评测覆盖 111 种），在 Seed-TTS、CV3、MiniMax-Multilingual 及 Higgs-Multilingual 零样本语音克隆任务中达到单字级 WER/CER。开发者可通过文本内控制标签实时调整情感（20+种）、风格、韵律（语速/音高/停顿）及音效。模型支持流式合成，文本未完整时即可开始生成语音并保持一致性。SGLang-Omni 专为多阶段生成模型设计，统一调度 AR 解码与轻量计算，实现低延迟推理。"
         },
         {
-          "id": "8013dccd226c",
-          "title": "Claude加速AI递归自我改进突破",
-          "url": "https://x.com/AnthropicAI/status/2062568862479208923",
-          "source": "aihot",
-          "source_name": "X：Anthropic (@AnthropicAI)",
-          "category": "tip",
-          "published_at": "2026-06-04T16:15:12.000Z",
-          "summary": "我们的内部数据显示，Claude 正在加速 AI 发展--这是一条通往递归自我改进的可能路径，也就是 AI 自主构建一个更强大的后继者。\n\n这发生得比我们预想的更快，其影响值得更多关注。"
-        },
-        {
           "id": "ee3097595980",
           "title": "Alex Imas 和 Phil Trammell：AGI 后什么仍然稀缺？",
           "url": "https://www.dwarkesh.com/p/alex-imas-phil-trammell",
@@ -566,14 +586,14 @@
           "summary": "经济学家 Alex Imas 和 Phil Trammell 指出，AGI 时代机器人数量可以快速复制增长，但人类独特技能（以芭蕾舞演员为例）的数量保持不变，揭示了即使技术大幅进步，某些稀缺资源仍不可替代。"
         },
         {
-          "id": "a7fbfb161e79",
-          "title": "如何在 Nemotron 3.5 ASR 上针对你的语言、领域或口音进行微调",
+          "id": "b437ba28dea2",
+          "title": "Nemotron 3.5 ASR：为你的语言、领域或口音进行微调",
           "url": "https://huggingface.co/blog/nvidia/fine-tuning-nemotron-35-asr",
           "source": "aihot",
           "source_name": "Hugging Face：Blog（RSS）",
           "category": "tip",
           "published_at": "2026-06-04T12:59:35.000Z",
-          "summary": "NVIDIA 在 Hugging Face 发布博客，介绍如何针对特定语言、领域或口音微调 Nemotron 3.5 ASR 模型。"
+          "summary": "Nemotron 3.5 ASR 是一个 600M 参数的多语言流式语音识别模型，单个检查点覆盖 40 种语言-地区（含英、西、德、法、意、日、韩、中、阿拉伯等）。采用 Cache-Aware FastConformer 编码器与 RNNT 解码器，缓存内部状态避免重复计算，实现低延迟流式转录且不损失精度。模型原生输出带标点和大写的生产级文本，无需后处理。支持指定语言（target_lang=es-ES）或自动语言检测（target_lang=auto）。通过注意力上下文大小（att_context_size）可在推理时直接调节延迟-准确率权衡，范围从 80ms 到 1.12s，无需重新训练。模型以 NeMo 检查点形式发布，可用于微调以适配特定语言、领域或口音。"
         },
         {
           "id": "d6502fe5adf7",
@@ -674,6 +694,16 @@
           "category": "tip",
           "published_at": "2026-06-03T19:00:08.294Z",
           "summary": "优步将 AI 工具每月使用上限定为 1500 美元，这一做法为行业 AI 工具定价提供了有价值的参考信号。"
+        },
+        {
+          "id": "bd7a3002e95e",
+          "title": "DharmaOCR 利用 DPO 将文本退化率降低 59.4%",
+          "url": "https://huggingface.co/blog/Dharma-AI/direct-preference-optimization-beyond-chatbots",
+          "source": "aihot",
+          "source_name": "Hugging Face：Blog（RSS）",
+          "category": "tip",
+          "published_at": "2026-06-03T12:55:11.000Z",
+          "summary": "4月发布的DharmaOCR（结构化OCR模型）在巴西葡萄牙语文档提取任务中，使用直接偏好优化（DPO）作为监督微调（SFT）后的第二训练阶段。SFT无法直接惩罚文本退化（重复循环），而DPO以模型自身失败输出（退化循环）作为负样本进行偏好训练，使所有测试模型族的文本退化率平均降低59.4%，最高达87.6%（如Nanonets-OCR2-3B从1.61%降至0.20%）。传统DPO多用于聊天对齐，该工作将其扩展至客观的OCR任务，证明DPO可针对性修复特定失败模式。"
         }
       ]
     },
@@ -746,14 +776,14 @@
       "label": "paper",
       "items": [
         {
-          "id": "709e4cf2ec0a",
-          "title": "EVA-Bench Data 2.0：3 大领域、121 个工具、213 个场景",
+          "id": "8b3f7e0256b6",
+          "title": "EVA-Bench Data 2.0 发布：覆盖三大领域、121 个工具、213 个场景",
           "url": "https://huggingface.co/blog/ServiceNow-AI/eva-bench-data",
           "source": "aihot",
           "source_name": "Hugging Face：Blog（RSS）",
           "category": "paper",
           "published_at": "2026-06-04T12:24:58.000Z",
-          "summary": "ServiceNow-AI 发布 EVA-Bench Data 2.0 数据集，覆盖 3 个领域、121 个工具和 213 个场景，用于评估 AI 智能体的工具使用能力。"
+          "summary": "EVA-Bench Data 2.0 将评估范围从单一企业领域扩展至航空公司客户服务管理（CSM）、企业 IT 服务管理（ITSM）和医疗 HR 服务交付（HRSD）三个领域，共涵盖 121 个工具、213 个场景，场景数较原始版本增长约 4 倍。每个场景均经 OpenAI GPT-5.4、Google Gemini 3.1 Pro 和 Anthropic Claude Opus 4.6 验证可解性。数据集遵循语音优先、真实性、多样性、认证流程和可复现性五项设计原则，包含单意图、多意图（最多 4 个意图）和对抗性呼叫类型。所有三个数据集已开源，可通过 `load_dataset` 从 Hugging Face 直接下载。后续将推出多语言扩展。"
         },
         {
           "id": "f14d4cc7d3b9",
@@ -774,26 +804,6 @@
           "category": "paper",
           "published_at": "2026-06-04T02:17:37.000Z",
           "summary": "辐射场的质量取决于其背后的图像。\n\nPPISP 可帮助补偿不同拍摄之间的光度变化，使 3D 重建在光照和相机设置不完全一致时更加鲁棒。\n\n🔗 项目：https：//nvda.ws/43JeJpk"
-        },
-        {
-          "id": "3f64063237ab",
-          "title": "MapAgent：面向城市级车道级地图生成的工业级智能体框架",
-          "url": "https://arxiv.org/abs/2606.04513",
-          "source": "aihot",
-          "source_name": "HuggingFace Daily Papers（社区热门论文）",
-          "category": "paper",
-          "published_at": "2026-06-03T00:00:00.000Z",
-          "summary": "MapAgent是一种工业级智能体架构，用于生成符合规范的车道级地图。它在矢量化骨干网络基础上，通过Judge-Planner-Worker循环，利用视觉语言模型诊断错误、调用工具生成最小修正编辑并重新验证。系统仅在骨干网络置信度低的瓦片区域选择性触发，保持高吞吐量。MapAgent已集成至百度地图，支撑全国360多个城市的车道级地图生成，整体生产自动化率超95%。"
-        },
-        {
-          "id": "5ab9b2b7c661",
-          "title": "Echo-Infinity：学习演化记忆实现实时无限视频生成",
-          "url": "https://arxiv.org/abs/2606.04527",
-          "source": "aihot",
-          "source_name": "HuggingFace Daily Papers（社区热门论文）",
-          "category": "paper",
-          "published_at": "2026-06-03T00:00:00.000Z",
-          "summary": "Echo-Infinity 是一个自回归（AR）框架，用于实时无限视频生成。它用可学习的演化记忆替代人工缓存策略，通过注意力机制和门控更新 Memory Query，与视频扩散 Transformer（DiTs）端到端优化，支持任意压缩比且计算量不随视频长度增加。同时引入 Unified Relative RoPE Recipe，锚定 sink 帧从 id 0 开始、最新帧 id 不超过预训练最大时间 RoPE id，解除有限 RoPE 约束并缩小外推差距。在长/短视频生成中达到 SOTA，首次实现 24 小时（超 130 万帧）实时滚动生成。"
         }
       ]
     }
