@@ -1,9 +1,11 @@
 {
   "date": "2026-06-05",
-  "generated_at": "2026-06-05T06:43:24.162414",
-  "total": 58,
+  "generated_at": "2026-06-05T10:37:19.126799",
+  "total": 65,
   "sources": {
+    "Hugging Face": 7,
     "GitHub AI": 5,
+    "X：腾讯混元 (@TencentHunyuan)": 1,
     "X：阿里云 / Alibaba Cloud (@alibaba_cloud)": 2,
     "NVIDIA AI Blog": 1,
     "Hacker News 热门（buzzing.cc 中文翻译）": 3,
@@ -37,8 +39,7 @@
     "X：OpenClaw (@openclaw)": 1,
     "X：Fei-Fei Li (@drfeifei, World Labs)": 1,
     "X：Krea AI (@krea_ai)": 1,
-    "X：Microsoft Research (@MSFTResearch)": 1,
-    "X：Perplexity (@perplexity_ai)": 1
+    "X：Microsoft Research (@MSFTResearch)": 1
   },
   "ai_processed": false,
   "categories": {
@@ -289,16 +290,6 @@
           "category": "ai-products",
           "published_at": "2026-06-03T16:29:20.000Z",
           "summary": "OpenShell v0.0.55\n\n🧩 Google Vertex AI 推理提供者\n🔒 基于配置文件的策略可见性\n🐳 网关中更好的 Podman 检测\n🖥️ 恢复 GPU procfs 基准行为\n🔧 CI 与文档修复\n\n运行智能体对接 Vertex AI，同时拥有改进的策略可见性以及更可靠的 Podman 和 GPU 沙箱行为。\n\nhttps：//github.com/NVIDIA/OpenShell/releases/tag/v0.0.55"
-        },
-        {
-          "id": "46d36d2890a5",
-          "title": "Perplexity Personal Computer 登陆 Windows",
-          "url": "https://x.com/perplexity_ai/status/2062189045728596080",
-          "source": "aihot",
-          "source_name": "X：Perplexity (@perplexity_ai)",
-          "category": "ai-products",
-          "published_at": "2026-06-03T15:05:56.000Z",
-          "summary": "Personal Computer 即将登陆 Windows。\n\n面向 Windows 的 Personal Computer 在你的机器上运行，并协调你每天使用的应用和文件。\n\n我们将首先向等候名单上的付费 Max 和 Enterprise Max 订阅用户推送。"
         }
       ]
     },
@@ -306,13 +297,83 @@
       "label": "🛠️ 开发工具",
       "items": [
         {
+          "id": "813b3f6ba430",
+          "title": "Direct Preference Optimization Beyond Chatbots",
+          "url": "https://huggingface.co/blog/Dharma-AI/direct-preference-optimization-beyond-chatbots",
+          "source": "Hugging Face",
+          "source_name": "Hugging Face",
+          "category": "ai-tools",
+          "published_at": "Wed, 03 Jun 2026 12:55:11 GMT",
+          "summary": ""
+        },
+        {
+          "id": "63cb8013d933",
+          "title": "Adding MCP Tools to Reachy Mini",
+          "url": "https://huggingface.co/blog/adding-mcp-tools-to-reachy-mini",
+          "source": "Hugging Face",
+          "source_name": "Hugging Face",
+          "category": "ai-tools",
+          "published_at": "Wed, 03 Jun 2026 00:00:00 GMT",
+          "summary": ""
+        },
+        {
+          "id": "a4c148230e32",
+          "title": "Holo3.1: Fast & Local Computer Use Agents",
+          "url": "https://huggingface.co/blog/Hcompany/holo31",
+          "source": "Hugging Face",
+          "source_name": "Hugging Face",
+          "category": "ai-tools",
+          "published_at": "Tue, 02 Jun 2026 14:13:23 GMT",
+          "summary": ""
+        },
+        {
+          "id": "5c022546d718",
+          "title": "EVA-Bench Data 2.0: 3 Domains, 121 Tools, 213 Scenarios",
+          "url": "https://huggingface.co/blog/ServiceNow-AI/eva-bench-data",
+          "source": "Hugging Face",
+          "source_name": "Hugging Face",
+          "category": "ai-tools",
+          "published_at": "Thu, 04 Jun 2026 12:24:58 GMT",
+          "summary": ""
+        },
+        {
+          "id": "e360b6f539a9",
+          "title": "Designing the hf CLI as an agent-optimized way to work with the Hub",
+          "url": "https://huggingface.co/blog/hf-cli-for-agents",
+          "source": "Hugging Face",
+          "source_name": "Hugging Face",
+          "category": "ai-tools",
+          "published_at": "Thu, 04 Jun 2026 00:00:00 GMT",
+          "summary": ""
+        },
+        {
+          "id": "d218e9053d92",
+          "title": "Introducing Mellum2: A 12B Mixture-of-Experts Model by JetBrains",
+          "url": "https://huggingface.co/blog/JetBrains/mellum2-launch",
+          "source": "Hugging Face",
+          "source_name": "Hugging Face",
+          "category": "ai-tools",
+          "published_at": "Mon, 01 Jun 2026 15:45:17 GMT",
+          "summary": ""
+        },
+        {
+          "id": "6b412489667f",
+          "title": "Beyond LLMs: Why Scalable Enterprise AI Adoption Depends on Agent Logic",
+          "url": "https://huggingface.co/blog/ibm-research/agent-logic-and-scalable-ai-adoption",
+          "source": "Hugging Face",
+          "source_name": "Hugging Face",
+          "category": "ai-tools",
+          "published_at": "Mon, 01 Jun 2026 13:51:18 GMT",
+          "summary": ""
+        },
+        {
           "id": "5886526da3f5",
           "title": "⭐ docker/compose",
           "url": "https://github.com/docker/compose",
           "source": "GitHub AI",
           "source_name": "GitHub AI",
           "category": "ai-tools",
-          "published_at": "2026-06-05T06:43:21.323615+00:00",
+          "published_at": "2026-06-05T10:37:18.169018+00:00",
           "summary": "Define and run multi-container applications with Docker"
         },
         {
@@ -322,7 +383,7 @@
           "source": "GitHub AI",
           "source_name": "GitHub AI",
           "category": "ai-tools",
-          "published_at": "2026-06-05T06:43:21.323364+00:00",
+          "published_at": "2026-06-05T10:37:18.168782+00:00",
           "summary": "🐶 Kubernetes CLI To Manage Your Clusters In Style!"
         },
         {
@@ -332,7 +393,7 @@
           "source": "GitHub AI",
           "source_name": "GitHub AI",
           "category": "ai-tools",
-          "published_at": "2026-06-05T06:43:21.322539+00:00",
+          "published_at": "2026-06-05T10:37:18.167939+00:00",
           "summary": "Financial data platform for analysts, quants and AI agents."
         },
         {
@@ -342,7 +403,7 @@
           "source": "GitHub AI",
           "source_name": "GitHub AI",
           "category": "ai-tools",
-          "published_at": "2026-06-05T06:43:21.322168+00:00",
+          "published_at": "2026-06-05T10:37:18.167552+00:00",
           "summary": "🤗 Transformers: the model-definition framework for state-of-the-art machine learning models in text, vision, audio, and multimodal models, for both inference and training."
         },
         {
@@ -352,7 +413,7 @@
           "source": "GitHub AI",
           "source_name": "GitHub AI",
           "category": "ai-tools",
-          "published_at": "2026-06-05T06:43:21.321996+00:00",
+          "published_at": "2026-06-05T10:37:18.167379+00:00",
           "summary": "Find vulnerabilities, misconfigurations, secrets, SBOM in containers, Kubernetes, code repositories, clouds and more"
         }
       ]
@@ -470,6 +531,16 @@
     "tip": {
       "label": "💡 技巧",
       "items": [
+        {
+          "id": "81c0e8597156",
+          "title": "腾讯混元联合人大开源PlanningBench评估框架",
+          "url": "https://x.com/TencentHunyuan/status/2062803141314437391",
+          "source": "aihot",
+          "source_name": "X：腾讯混元 (@TencentHunyuan)",
+          "category": "tip",
+          "published_at": "2026-06-05T07:46:08.000Z",
+          "summary": "腾讯混元（Tencent Hunyuan）与中国人民大学高瓴人工智能学院合作，开源PlanningBench--一个可扩展、可验证的LLM规划能力评估与训练框架。该框架包含30+真实世界规划任务，支持自动验证和训练。PlanningBench旨在推动LLM从\"说\"到\"做\"的规划能力发展。资源已发布于arXiv、GitHub及HuggingFace。"
+        },
         {
           "id": "a833da9f822e",
           "title": "Open Code Review - 一款基于人工智能的代码审查命令行工具",
