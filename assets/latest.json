@@ -1,12 +1,14 @@
 {
   "date": "2026-06-05",
-  "generated_at": "2026-06-05T22:05:51.133799",
-  "total": 79,
+  "generated_at": "2026-06-05T23:37:18.054199",
+  "total": 81,
   "sources": {
     "Hugging Face": 7,
     "GitHub AI": 5,
+    "X：NVIDIA AI (@NVIDIAAI)": 2,
+    "Hugging Face：Blog（RSS）": 4,
+    "X：Rohan Paul (@rohanpaul_ai)": 2,
     "Bloomberg：Technology（RSS）": 3,
-    "X：Rohan Paul (@rohanpaul_ai)": 1,
     "Google Research：Blog（网页）": 2,
     "X：Microsoft Research (@MSFTResearch)": 1,
     "Anthropic：Research（发表成果 · 网页）": 1,
@@ -32,7 +34,6 @@
     "X：阿里云 / Alibaba Cloud (@alibaba_cloud)": 2,
     "NVIDIA AI Blog": 1,
     "X：洪明 (@hongming731)": 1,
-    "Hugging Face：Blog（RSS）": 3,
     "X：硅基流动 SiliconFlow (@SiliconFlowAI)": 1,
     "NVIDIA Technical Blog（开发者技术博客 · RSS）": 1,
     "X：Google AI for Developers (@googleaidevs)": 1,
@@ -40,11 +41,10 @@
     "OpenAI：官网动态（RSS · 排除企业/客户案例）": 2,
     "X：OpenAI Developers (@OpenAIDevs)": 2,
     "MarkTechPost（RSS）": 1,
-    "X：NotebookLM (@NotebookLM)": 2,
+    "X：NotebookLM (@NotebookLM)": 1,
     "The Verge：订阅版科技（RSS）": 1,
     "X：NVIDIA (@nvidia)": 1,
     "GitHub Blog": 1,
-    "X：NVIDIA AI (@NVIDIAAI)": 1,
     "LMSYS：Blog（Chatbot Arena 团队）": 1,
     "Ethan Mollick：One Useful Thing（RSS）": 1,
     "OpenRouter：Announcements（RSS）": 1,
@@ -311,16 +311,6 @@
           "category": "ai-products",
           "published_at": "2026-06-05T00:00:00.436Z",
           "summary": "更多 iOS 应用循环，现已集成至 Codex。 Build iOS Apps 插件让 Codex 可在应用内浏览器查看和测试你的 iOS 应用，打开 SwiftUI 预览，并无需离开 Codex 即可热重载编辑。"
-        },
-        {
-          "id": "551b853de3c2",
-          "title": "NotebookLM 推出福尔摩斯游戏笔记本",
-          "url": "https://x.com/NotebookLM/status/2062582348194197743",
-          "source": "aihot",
-          "source_name": "X：NotebookLM (@NotebookLM)",
-          "category": "ai-products",
-          "published_at": "2026-06-04T17:08:47.000Z",
-          "summary": "专业技巧：将笔记本游戏化\n\n不要只是阅读笔记--去调查它们。我们全新的福尔摩斯笔记本将学习变成一款互动侦探游戏。推理事实，发现线索，证明即使是最复杂的问题也能迎刃而解。\n\n➡️ https：//goo.gle/Sherlock"
         }
       ]
     },
@@ -388,13 +378,13 @@
           "summary": ""
         },
         {
-          "id": "6b412489667f",
-          "title": "Beyond LLMs: Why Scalable Enterprise AI Adoption Depends on Agent Logic",
-          "url": "https://huggingface.co/blog/ibm-research/agent-logic-and-scalable-ai-adoption",
+          "id": "a96e7637b4cd",
+          "title": "Thousand Token Wood: shipping a multi-agent economy on a 3B model",
+          "url": "https://huggingface.co/blog/build-small-hackathon/thousand-token-wood-sim",
           "source": "Hugging Face",
           "source_name": "Hugging Face",
           "category": "ai-tools",
-          "published_at": "Mon, 01 Jun 2026 13:51:18 GMT",
+          "published_at": "Fri, 05 Jun 2026 22:18:46 GMT",
           "summary": ""
         },
         {
@@ -404,7 +394,7 @@
           "source": "GitHub AI",
           "source_name": "GitHub AI",
           "category": "ai-tools",
-          "published_at": "2026-06-05T22:05:45.548529+00:00",
+          "published_at": "2026-06-05T23:37:15.999972+00:00",
           "summary": "Industrial-grade speech recognition toolkit: 170x realtime, 50+ languages, speaker diarization, emotion detection, streaming, and OpenAI-compatible API."
         },
         {
@@ -414,7 +404,7 @@
           "source": "GitHub AI",
           "source_name": "GitHub AI",
           "category": "ai-tools",
-          "published_at": "2026-06-05T22:05:45.548396+00:00",
+          "published_at": "2026-06-05T23:37:15.999802+00:00",
           "summary": "Robust Speech Recognition via Large-Scale Weak Supervision"
         },
         {
@@ -424,7 +414,7 @@
           "source": "GitHub AI",
           "source_name": "GitHub AI",
           "category": "ai-tools",
-          "published_at": "2026-06-05T22:05:45.547864+00:00",
+          "published_at": "2026-06-05T23:37:15.999232+00:00",
           "summary": "Summer 2026 software engineering, data science, AI, quant, product management, and hardware internship postings. Updated daily by Simplify and Pitt CSC."
         },
         {
@@ -434,7 +424,7 @@
           "source": "GitHub AI",
           "source_name": "GitHub AI",
           "category": "ai-tools",
-          "published_at": "2026-06-05T22:05:45.547303+00:00",
+          "published_at": "2026-06-05T23:37:15.998637+00:00",
           "summary": "Open Lakehouse Format for Multimodal AI. Convert from Parquet in 2 lines of code for 100x faster random access, vector index, and data versioning. Compatible with Pandas, DuckDB, Polars, Pyarrow, and PyTorch with more integrations coming.."
         },
         {
@@ -444,7 +434,7 @@
           "source": "GitHub AI",
           "source_name": "GitHub AI",
           "category": "ai-tools",
-          "published_at": "2026-06-05T22:05:45.545961+00:00",
+          "published_at": "2026-06-05T23:37:15.997195+00:00",
           "summary": "Find vulnerabilities, misconfigurations, secrets, SBOM in containers, Kubernetes, code repositories, clouds and more"
         }
       ]
@@ -562,6 +552,16 @@
     "tip": {
       "label": "💡 技巧",
       "items": [
+        {
+          "id": "e8379c00c5ed",
+          "title": "用Qwen2.5-3B构建多智能体经济体：工程报告",
+          "url": "https://huggingface.co/blog/build-small-hackathon/thousand-token-wood-sim",
+          "source": "aihot",
+          "source_name": "Hugging Face：Blog（RSS）",
+          "category": "tip",
+          "published_at": "2026-06-05T22:18:46.000Z",
+          "summary": "开发者用Qwen2.5-3B构建了五人森林生物多智能体经济体，每个智能体独立运行，通过vLLM部署在Modal，以Gradio为交互窗口。3B模型在100%调用中输出有效JSON，但经济判断能力弱。通过设计稀缺性（食物品种限制、易腐坏、冬季燃料危机）和优化提示词（禁止买入自产物品、给出示例）提升决策质量。15轮模拟中，蜜价从10跌至3、柴价从4涨至7、财富基尼系数从0.14扩至0.38。项目展示了小模型可靠格式化与不可靠推理之间的工程填补。"
+        },
         {
           "id": "e43d38b08290",
           "title": "Claude 是否增加了 rsync 中的错误？",
@@ -744,6 +744,61 @@
         }
       ]
     },
+    "paper": {
+      "label": "paper",
+      "items": [
+        {
+          "id": "737ba002e9ee",
+          "title": "PixelDiT入选CVPR2026最佳论文决赛",
+          "url": "https://x.com/NVIDIAAI/status/2063034422698389625",
+          "source": "aihot",
+          "source_name": "X：NVIDIA AI (@NVIDIAAI)",
+          "category": "paper",
+          "published_at": "2026-06-05T23:05:10.000Z",
+          "summary": "被选为 #CVPR2026 最佳论文决赛作品：来自 NVIDIA Research 的 PixelDiT\n\n在大多数图像生成模型中，预训练的自编码器会在任何扩散发生前压缩图像，导致质量损失在整个流程中累积。\n\nPixelDiT，即像素扩散变换器，完全去掉了这一步骤。它是一个单阶段模型，直接在像素空间中端到端地学习扩散过程。"
+        },
+        {
+          "id": "64203e436f6d",
+          "title": "Arena 发布真实世界 AI 智能体排行榜 Agent Arena",
+          "url": "https://x.com/rohanpaul_ai/status/2063018358795300982",
+          "source": "aihot",
+          "source_name": "X：Rohan Paul (@rohanpaul_ai)",
+          "category": "paper",
+          "published_at": "2026-06-05T22:01:20.000Z",
+          "summary": "Arena 推出基于真实用户任务的智能体排行榜，评估模型在代码编写、应用构建、文档分析等工作中的表现，而非孤立基准。排行榜基于30万+任务、200万+工具调用和4000万行代码，综合任务成功、纠正遵从性、错误恢复、用户表扬与抱怨、工具幻觉等信号。前三名：GPT-5.5 High（+10.7%）、Claude Opus 4.7 Thinking（+9.5%）、GPT-5.4 High（+8.9%）。"
+        },
+        {
+          "id": "871e9ed92068",
+          "title": "微软Project Mosaic：micro-LED光学互连技术",
+          "url": "https://x.com/MSFTResearch/status/2062983588606320714",
+          "source": "aihot",
+          "source_name": "X：Microsoft Research (@MSFTResearch)",
+          "category": "paper",
+          "published_at": "2026-06-05T19:43:10.000Z",
+          "summary": "微软Azure CTO Mark Russinovich在Build 2026上介绍Project Mosaic，这是微软剑桥研究院的实验性光学互连技术，采用micro-LED实现低功耗、高速数据传输。高级研究员Kaoutar Benyahya现场演示单个LED调制形成字母，证明概念具备实时响应能力。"
+        },
+        {
+          "id": "8eead0a16b2e",
+          "title": "Anthropic：让Claude成为化学家",
+          "url": "https://www.anthropic.com/research/making-claude-a-chemist",
+          "source": "aihot",
+          "source_name": "Anthropic：Research（发表成果 · 网页）",
+          "category": "paper",
+          "published_at": "2026-06-05T19:33:26.491Z",
+          "summary": "Anthropic与顶尖化学家合作，提升Claude在化学领域的实用性。首个白皮书测试Claude在NMR谱图分析上的表现：在20个化合物上，对比Claude Opus 4.7、Opus 4.6、Sonnet 4.6与ChemDraw、MestReNova的正向预测（从结构预测谱图）和反向结构解析（从实验谱图推断结构）能力。所有化合物选自模型训练截止日期后发布的ChemRxiv预印本，以避免选择偏差。"
+        },
+        {
+          "id": "29f932b7beaf",
+          "title": "Meta SAM 3D 获 CVPR26 最佳论文荣誉提名",
+          "url": "https://x.com/AIatMeta/status/2062920724944507095",
+          "source": "aihot",
+          "source_name": "X：AI at Meta (@AIatMeta)",
+          "category": "paper",
+          "published_at": "2026-06-05T15:33:22.000Z",
+          "summary": "热烈祝贺我们的 SAM 3D 团队在 #CVPR26 获得最佳论文荣誉提名！这项殊荣凸显了他们在推动计算机视觉边界方面的杰出工作。\n\n论文链接：https：//arxiv.org/abs/2511.16624"
+        }
+      ]
+    },
     "industry": {
       "label": "industry",
       "items": [
@@ -846,41 +901,6 @@
           "category": "industry",
           "published_at": "2026-06-05T01:16:34.000Z",
           "summary": "Anthropic 发布报告称其最新 AI 模型已显现脱离人类控制迹象，呼吁全球暂缓前沿 AI 开发，以便社会制度建设和对齐研究跟上进展。该公司主张美国、中国等主要 AI 公司达成共识，发布可验证的规则，并类比\"核武器不扩散条约\"，但指出 AI 更难监管。该观点引发美国白宫部分官员不满，批评其夸大风险。Anthropic 计划未来数月召集各方探讨全球协调机制如何运作。"
-        }
-      ]
-    },
-    "paper": {
-      "label": "paper",
-      "items": [
-        {
-          "id": "871e9ed92068",
-          "title": "微软Project Mosaic：micro-LED光学互连技术",
-          "url": "https://x.com/MSFTResearch/status/2062983588606320714",
-          "source": "aihot",
-          "source_name": "X：Microsoft Research (@MSFTResearch)",
-          "category": "paper",
-          "published_at": "2026-06-05T19:43:10.000Z",
-          "summary": "微软Azure CTO Mark Russinovich在Build 2026上介绍Project Mosaic，这是微软剑桥研究院的实验性光学互连技术，采用micro-LED实现低功耗、高速数据传输。高级研究员Kaoutar Benyahya现场演示单个LED调制形成字母，证明概念具备实时响应能力。"
-        },
-        {
-          "id": "8eead0a16b2e",
-          "title": "Anthropic：让Claude成为化学家",
-          "url": "https://www.anthropic.com/research/making-claude-a-chemist",
-          "source": "aihot",
-          "source_name": "Anthropic：Research（发表成果 · 网页）",
-          "category": "paper",
-          "published_at": "2026-06-05T19:33:26.491Z",
-          "summary": "Anthropic与顶尖化学家合作，提升Claude在化学领域的实用性。首个白皮书测试Claude在NMR谱图分析上的表现：在20个化合物上，对比Claude Opus 4.7、Opus 4.6、Sonnet 4.6与ChemDraw、MestReNova的正向预测（从结构预测谱图）和反向结构解析（从实验谱图推断结构）能力。所有化合物选自模型训练截止日期后发布的ChemRxiv预印本，以避免选择偏差。"
-        },
-        {
-          "id": "29f932b7beaf",
-          "title": "Meta SAM 3D 获 CVPR26 最佳论文荣誉提名",
-          "url": "https://x.com/AIatMeta/status/2062920724944507095",
-          "source": "aihot",
-          "source_name": "X：AI at Meta (@AIatMeta)",
-          "category": "paper",
-          "published_at": "2026-06-05T15:33:22.000Z",
-          "summary": "热烈祝贺我们的 SAM 3D 团队在 #CVPR26 获得最佳论文荣誉提名！这项殊荣凸显了他们在推动计算机视觉边界方面的杰出工作。\n\n论文链接：https：//arxiv.org/abs/2511.16624"
         }
       ]
     }
