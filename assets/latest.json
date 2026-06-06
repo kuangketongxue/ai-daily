@@ -1,17 +1,17 @@
 {
   "date": "2026-06-06",
-  "generated_at": "2026-06-06T19:58:08.071913",
+  "generated_at": "2026-06-06T21:17:14.942307",
   "total": 69,
   "sources": {
     "Hugging Face": 8,
     "GitHub AI": 8,
+    "Hugging Face：Blog（RSS）": 4,
     "Gary Marcus：The Road to AI We Can Trust（RSS）": 2,
-    "Hugging Face：Blog（RSS）": 3,
     "X：Rohan Paul (@rohanpaul_ai)": 3,
     "IT之家（RSS）": 6,
     "公众号：阶跃星辰（Step）": 1,
     "X：OpenRouter (@OpenRouter)": 1,
-    "X：Gemini (@GeminiApp)": 2,
+    "X：Gemini (@GeminiApp)": 1,
     "X：Michael Truell (@mntruell)": 1,
     "X：Google AI (@GoogleAI)": 1,
     "X：阿里云 / Alibaba Cloud (@alibaba_cloud)": 2,
@@ -21,7 +21,7 @@
     "X：面壁智能 OpenBMB (@OpenBMB)": 1,
     "Bloomberg：Technology（RSS）": 2,
     "X：Epoch AI (@EpochAIResearch)": 1,
-    "Hacker News 热门（buzzing.cc 中文翻译）": 5,
+    "Hacker News 热门（buzzing.cc 中文翻译）": 4,
     "X：NVIDIA AI (@NVIDIAAI)": 1,
     "Anthropic：Research（发表成果 · 网页）": 1,
     "X：AI at Meta (@AIatMeta)": 1,
@@ -33,14 +33,15 @@
     "X：腾讯混元 (@TencentHunyuan)": 1,
     "Suno：Blog（网页）": 1,
     "X：Viggle AI (@ViggleAI)": 1,
+    "公众号：腾讯混元": 1,
     "公众号：火山引擎": 1,
     "公众号：百度智能云（文心）": 1,
+    "公众号：通义实验室（千问）": 1,
     "NVIDIA AI Blog": 1,
     "公众号：数字生命卡兹克": 1,
     "Tomer Tunguz 博客（VC 分析）": 1,
     "X：cb_doge (@cb_doge)": 1,
-    "X：NotebookLM (@NotebookLM)": 1,
-    "X：NVIDIA (@nvidia)": 1
+    "X：NotebookLM (@NotebookLM)": 1
   },
   "ai_processed": false,
   "categories": {
@@ -221,26 +222,6 @@
           "category": "ai-products",
           "published_at": "2026-06-04T21:50:01.000Z",
           "summary": "今天，我们推出又一项呼声很高的功能：来源归属！🥳\n\n无需再猜测。现在你可以看到每个创作物背后所用的确切公式（提示词 + 来源）。想要调整？只需轻点\"迭代\"，随心定制 💖"
-        },
-        {
-          "id": "0ed2f1cefb41",
-          "title": "Gemini macOS 双击 Command 附加活动窗口",
-          "url": "https://x.com/GeminiApp/status/2062652523945836770",
-          "source": "aihot",
-          "source_name": "X：Gemini (@GeminiApp)",
-          "category": "ai-products",
-          "published_at": "2026-06-04T21:47:38.000Z",
-          "summary": "使用适用于 macOS 的 Gemini 应用，获取针对屏幕内容的定制帮助。💻\n\n只需同时按下两个 Command ⌘ 键，即可将当前活动窗口无缝附加到聊天中，无需手动截图或切换标签页。"
-        },
-        {
-          "id": "ff53af35bd37",
-          "title": "Anthropic 开源 AI 驱动漏洞发现框架",
-          "url": "https://github.com/anthropics/defending-code-reference-harness",
-          "source": "aihot",
-          "source_name": "Hacker News 热门（buzzing.cc 中文翻译）",
-          "category": "ai-products",
-          "published_at": "2026-06-04T21:32:05.585Z",
-          "summary": "Anthropic 将其用于 AI 驱动漏洞发现的开源框架代码托管在 GitHub 上。该框架借助 AI 技术进行漏洞发现，旨在帮助识别软件中的安全缺陷。"
         }
       ]
     },
@@ -334,7 +315,7 @@
           "source": "GitHub AI",
           "source_name": "GitHub AI",
           "category": "ai-tools",
-          "published_at": "2026-06-06T19:58:05.787493+00:00",
+          "published_at": "2026-06-06T21:17:13.868535+00:00",
           "summary": "Ongoing research training transformer models at scale"
         },
         {
@@ -344,7 +325,7 @@
           "source": "GitHub AI",
           "source_name": "GitHub AI",
           "category": "ai-tools",
-          "published_at": "2026-06-06T19:58:05.786816+00:00",
+          "published_at": "2026-06-06T21:17:13.867960+00:00",
           "summary": "The easiest, most secure way to use WireGuard and 2FA."
         },
         {
@@ -354,7 +335,7 @@
           "source": "GitHub AI",
           "source_name": "GitHub AI",
           "category": "ai-tools",
-          "published_at": "2026-06-06T19:58:05.786677+00:00",
+          "published_at": "2026-06-06T21:17:13.867847+00:00",
           "summary": "🦔 PostHog is an all-in-one developer platform for building successful products. We offer product analytics, web analytics, session replay, error tracking, feature flags, experimentation, surveys, data warehouse, a CDP, and an AI product assistant to help debug your code, ship features faster, and keep all your usage and customer data in one stack."
         },
         {
@@ -364,7 +345,7 @@
           "source": "GitHub AI",
           "source_name": "GitHub AI",
           "category": "ai-tools",
-          "published_at": "2026-06-06T19:58:05.786537+00:00",
+          "published_at": "2026-06-06T21:17:13.867732+00:00",
           "summary": "🤗 Transformers: the model-definition framework for state-of-the-art machine learning models in text, vision, audio, and multimodal models, for both inference and training."
         },
         {
@@ -374,7 +355,7 @@
           "source": "GitHub AI",
           "source_name": "GitHub AI",
           "category": "ai-tools",
-          "published_at": "2026-06-06T19:58:05.785926+00:00",
+          "published_at": "2026-06-06T21:17:13.867210+00:00",
           "summary": "The Postgres development platform. Supabase gives you a dedicated Postgres database to build your web, mobile, and AI applications."
         },
         {
@@ -384,7 +365,7 @@
           "source": "GitHub AI",
           "source_name": "GitHub AI",
           "category": "ai-tools",
-          "published_at": "2026-06-06T19:58:05.785614+00:00",
+          "published_at": "2026-06-06T21:17:13.866929+00:00",
           "summary": "Your AI second brain. Self-hostable. Get answers from the web or your docs. Build custom agents, schedule automations, do deep research. Turn any online or local LLM into your personal, autonomous AI (gpt, claude, gemini, llama, qwen, mistral). Get started - free."
         },
         {
@@ -394,7 +375,7 @@
           "source": "GitHub AI",
           "source_name": "GitHub AI",
           "category": "ai-tools",
-          "published_at": "2026-06-06T19:58:05.785203+00:00",
+          "published_at": "2026-06-06T21:17:13.866564+00:00",
           "summary": "Robust Speech Recognition via Large-Scale Weak Supervision"
         },
         {
@@ -404,7 +385,7 @@
           "source": "GitHub AI",
           "source_name": "GitHub AI",
           "category": "ai-tools",
-          "published_at": "2026-06-06T19:58:05.785030+00:00",
+          "published_at": "2026-06-06T21:17:13.866403+00:00",
           "summary": "Find vulnerabilities, misconfigurations, secrets, SBOM in containers, Kubernetes, code repositories, clouds and more"
         }
       ]
@@ -552,6 +533,16 @@
     "tip": {
       "label": "💡 技巧",
       "items": [
+        {
+          "id": "ff6ce7a10f6f",
+          "title": "五个实验室，五个心智：用小模型构建多模型金融剧情游戏",
+          "url": "https://huggingface.co/blog/build-small-hackathon/thousand-token-wood-sim-v2",
+          "source": "aihot",
+          "source_name": "Hugging Face：Blog（RSS）",
+          "category": "tip",
+          "published_at": "2026-06-06T19:02:33.000Z",
+          "summary": "Thousand Token Wood v2使用四个不同实验室的小模型（gpt-oss-20b、MiniCPM3-4B、Nemotron-Mini-4B及微调Qwen 0.5B）驱动金融模拟游戏的智能体。核心发现是异构服务层摩擦在于vLLM 0.22.1需CUDA工具包，而非模型本身。通过容忍性JSON解析层，添加模型只需一条配置。信息隔离确保内幕标志不在提示词中，扫描测试验证无泄露。记忆用情绪摘要截断避免淹没。微调0.5B模型实现0%自成交、100%有效报价，真相防火墙零泄露。小模型是可靠格式生成器但不可靠推理器，可通过结构化、提示词和微调弥补。"
+        },
         {
           "id": "319832b33117",
           "title": "AI 的黑色星期五",
@@ -756,16 +747,31 @@
           "category": "industry",
           "published_at": "2026-06-05T03:04:23.000Z",
           "summary": "在 6 月 5 日的腾讯云 AI 产业应用大会上，腾讯高级执行副总裁汤道生表示，今年腾讯大部分代码都由 AI 生成，工程师将更多时间用于架构设计，定期指导与修正 AI 输出。腾讯 2026 年 Q1 财报显示，重组后的 AI 研发团队重构了基础设施，并搭建了 Hy3 preview 模型。腾讯总裁刘炽平今年 3 月透露，去年腾讯在 AI 新产品上投入 180 亿元，今年投入至少翻倍。"
+        }
+      ]
+    },
+    "paper": {
+      "label": "paper",
+      "items": [
+        {
+          "id": "01975414218c",
+          "title": "首字延迟降低3.6倍，腾讯混元提出Stem稀疏注意力算法，长文推理加速新SOTA",
+          "url": "https://mp.weixin.qq.com/s/XneOSvjt-7A-DU546cGoZA",
+          "source": "aihot",
+          "source_name": "公众号：腾讯混元",
+          "category": "paper",
+          "published_at": "2026-06-05T11:22:41.000Z",
+          "summary": null
         },
         {
-          "id": "5149a3e4fc9e",
-          "title": "Nemotron Parakeet ASR 印尼语准确率达 97.7%",
-          "url": "https://x.com/nvidia/status/2062647600424128773",
+          "id": "cbd12a31aaf9",
+          "title": "PawBench：给通用智能体一把可度量的尺",
+          "url": "https://mp.weixin.qq.com/s/Q1fa3KwT63HBOF2fmWKzlg",
           "source": "aihot",
-          "source_name": "X：NVIDIA (@nvidia)",
-          "category": "industry",
-          "published_at": "2026-06-04T21:28:04.000Z",
-          "summary": "当法律和监督依赖于转录内容时，70-80% 是不够的。\n\nhttp：//Rafiqspace.ai 通过微调 Nemotron Parakeet ASR 达到了 97.7% 的印尼语准确率（2.3% WER）-- 优于全球工具，同时每小时成本降低高达 90%。⚖️"
+          "source_name": "公众号：通义实验室（千问）",
+          "category": "paper",
+          "published_at": "2026-06-05T09:54:27.000Z",
+          "summary": null
         }
       ]
     }
