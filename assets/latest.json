@@ -1,13 +1,14 @@
 {
   "date": "2026-06-06",
-  "generated_at": "2026-06-06T15:39:36.214979",
-  "total": 66,
+  "generated_at": "2026-06-06T16:45:54.594283",
+  "total": 67,
   "sources": {
-    "Hugging Face": 7,
+    "Hugging Face": 6,
     "GitHub AI": 8,
+    "Gary Marcus：The Road to AI We Can Trust（RSS）": 2,
+    "Hugging Face：Blog（RSS）": 4,
     "X：Rohan Paul (@rohanpaul_ai)": 3,
     "IT之家（RSS）": 6,
-    "Hugging Face：Blog（RSS）": 3,
     "X：OpenRouter (@OpenRouter)": 1,
     "X：Gemini (@GeminiApp)": 2,
     "X：Michael Truell (@mntruell)": 1,
@@ -29,17 +30,16 @@
     "X：小互 (@xiaohu)": 1,
     "X：swyx (@swyx)": 1,
     "X：腾讯混元 (@TencentHunyuan)": 1,
-    "Google Research：Blog（网页）": 1,
     "Suno：Blog（网页）": 1,
     "X：Viggle AI (@ViggleAI)": 1,
-    "Gary Marcus：The Road to AI We Can Trust（RSS）": 1,
     "NVIDIA AI Blog": 1,
     "Tomer Tunguz 博客（VC 分析）": 1,
     "X：cb_doge (@cb_doge)": 1,
     "X：NotebookLM (@NotebookLM)": 1,
     "X：NVIDIA (@nvidia)": 1,
     "Ethan Mollick：One Useful Thing（RSS）": 1,
-    "X：OpenAI Developers (@OpenAIDevs)": 1
+    "X：OpenAI Developers (@OpenAIDevs)": 1,
+    "X：Google AI for Developers (@googleaidevs)": 1
   },
   "ai_processed": false,
   "categories": {
@@ -65,6 +65,16 @@
           "category": "ai-models",
           "published_at": "2026-06-04T18:57:45.000Z",
           "summary": "Nemotron 3.5 Content Safety基于Gemma 3 4B IT，提供128K上下文窗口，支持用户提示、可选图像与助手响应的统一多模态安全评估。新增自定义策略执行，允许企业用自然语言定义专属安全规则；THINK模式可输出可审计的逐步推理痕迹。显式训练覆盖12种语言，并借助基座模型零样本泛化至约140种语言。输出提供低延迟二分类、带分类标签、THINK推理痕迹三种模式。安全分类遵循Aegis 2.0框架（13核心类别+10细分类别）。同步发布多模态、多语言安全数据集，可在8GB+ VRAM GPU上实时部署。"
+        },
+        {
+          "id": "fb62073e486a",
+          "title": "Google Magenta RealTime 2 （MRT2） 实时音乐模型发布",
+          "url": "https://x.com/googleaidevs/status/2062603374789263646",
+          "source": "aihot",
+          "source_name": "X：Google AI for Developers (@googleaidevs)",
+          "category": "ai-models",
+          "published_at": "2026-06-04T18:32:20.000Z",
+          "summary": "Google AI for Developers 宣布推出开放权重的实时音乐模型 Magenta RealTime 2 （MRT2）。该模型可通过 MIDI 键盘、实时文本提示甚至手势进行演奏。MRT2 在 MacBook 上原生运行，延迟低于 200ms，提供开放权重、开源推理引擎以及配套应用和插件套件。"
         }
       ]
     },
@@ -180,16 +190,6 @@
           "category": "ai-products",
           "published_at": "2026-06-06T00:01:06.701Z",
           "summary": "社区开发者使用面壁智能MiniCPM-V 4.6构建了AccountingLLM（quaesto.com），用于自动化财务文档分析。该工具可上传IPO招股书、年报或审计文件，自动从复杂PDF中提取财务表格、重建跨页表格、对照会计等式检查关键数据，并标记可疑条目供人工审核。开发者已将其商业化，成为实际可用的产品。"
-        },
-        {
-          "id": "bb9a23595b94",
-          "title": "谷歌推出基于 Gemini Enterprise Agent Platform 的 Agentic RAG 框架",
-          "url": "https://research.google/blog/unlocking-dependable-responses-with-gemini-enterprise-agent-platforms-agentic-rag",
-          "source": "aihot",
-          "source_name": "Google Research：Blog（网页）",
-          "category": "ai-products",
-          "published_at": "2026-06-05T20:30:02.046Z",
-          "summary": "Google Research 与 Google Cloud 合作推出跨语料库检索（Cross-Corpus Retrieval）框架，作为 Gemini Enterprise Agent Platform 的 Agentic RAG。该多智能体工作流将复杂企业查询分解为子任务，通过规划、重写和路由，迭代搜索多个数据源直至获得充分上下文，再生成可靠回答。与标准 RAG 相比，在事实性数据集上准确率最高提升 34%；在多个领域特定内部数据集上也实现了更好的接地与推理准确性。"
         },
         {
           "id": "960cdbfb857b",
@@ -317,16 +317,6 @@
           "summary": ""
         },
         {
-          "id": "c0d6e7a067fc",
-          "title": "Job Searcher",
-          "url": "https://huggingface.co/blog/build-small-hackathon/job-search-blog",
-          "source": "Hugging Face",
-          "source_name": "Hugging Face",
-          "category": "ai-tools",
-          "published_at": "Sat, 06 Jun 2026 15:36:51 GMT",
-          "summary": ""
-        },
-        {
           "id": "d218e9053d92",
           "title": "Introducing Mellum2: A 12B Mixture-of-Experts Model by JetBrains",
           "url": "https://huggingface.co/blog/JetBrains/mellum2-launch",
@@ -343,7 +333,7 @@
           "source": "GitHub AI",
           "source_name": "GitHub AI",
           "category": "ai-tools",
-          "published_at": "2026-06-06T15:39:34.422862+00:00",
+          "published_at": "2026-06-06T16:45:49.242108+00:00",
           "summary": "Ongoing research training transformer models at scale"
         },
         {
@@ -353,7 +343,7 @@
           "source": "GitHub AI",
           "source_name": "GitHub AI",
           "category": "ai-tools",
-          "published_at": "2026-06-06T15:39:34.422300+00:00",
+          "published_at": "2026-06-06T16:45:49.241544+00:00",
           "summary": "The easiest, most secure way to use WireGuard and 2FA."
         },
         {
@@ -363,7 +353,7 @@
           "source": "GitHub AI",
           "source_name": "GitHub AI",
           "category": "ai-tools",
-          "published_at": "2026-06-06T15:39:34.422183+00:00",
+          "published_at": "2026-06-06T16:45:49.241431+00:00",
           "summary": "🦔 PostHog is an all-in-one developer platform for building successful products. We offer product analytics, web analytics, session replay, error tracking, feature flags, experimentation, surveys, data warehouse, a CDP, and an AI product assistant to help debug your code, ship features faster, and keep all your usage and customer data in one stack."
         },
         {
@@ -373,7 +363,7 @@
           "source": "GitHub AI",
           "source_name": "GitHub AI",
           "category": "ai-tools",
-          "published_at": "2026-06-06T15:39:34.422064+00:00",
+          "published_at": "2026-06-06T16:45:49.241312+00:00",
           "summary": "🤗 Transformers: the model-definition framework for state-of-the-art machine learning models in text, vision, audio, and multimodal models, for both inference and training."
         },
         {
@@ -383,7 +373,7 @@
           "source": "GitHub AI",
           "source_name": "GitHub AI",
           "category": "ai-tools",
-          "published_at": "2026-06-06T15:39:34.421535+00:00",
+          "published_at": "2026-06-06T16:45:49.240786+00:00",
           "summary": "The Postgres development platform. Supabase gives you a dedicated Postgres database to build your web, mobile, and AI applications."
         },
         {
@@ -393,7 +383,7 @@
           "source": "GitHub AI",
           "source_name": "GitHub AI",
           "category": "ai-tools",
-          "published_at": "2026-06-06T15:39:34.421255+00:00",
+          "published_at": "2026-06-06T16:45:49.240490+00:00",
           "summary": "Your AI second brain. Self-hostable. Get answers from the web or your docs. Build custom agents, schedule automations, do deep research. Turn any online or local LLM into your personal, autonomous AI (gpt, claude, gemini, llama, qwen, mistral). Get started - free."
         },
         {
@@ -403,7 +393,7 @@
           "source": "GitHub AI",
           "source_name": "GitHub AI",
           "category": "ai-tools",
-          "published_at": "2026-06-06T15:39:34.420894+00:00",
+          "published_at": "2026-06-06T16:45:49.240050+00:00",
           "summary": "Robust Speech Recognition via Large-Scale Weak Supervision"
         },
         {
@@ -413,7 +403,7 @@
           "source": "GitHub AI",
           "source_name": "GitHub AI",
           "category": "ai-tools",
-          "published_at": "2026-06-06T15:39:34.420714+00:00",
+          "published_at": "2026-06-06T16:45:49.239894+00:00",
           "summary": "Find vulnerabilities, misconfigurations, secrets, SBOM in containers, Kubernetes, code repositories, clouds and more"
         }
       ]
@@ -561,6 +551,26 @@
     "tip": {
       "label": "💡 技巧",
       "items": [
+        {
+          "id": "319832b33117",
+          "title": "AI 的黑色星期五",
+          "url": "https://garymarcus.substack.com/p/ais-black-friday",
+          "source": "aihot",
+          "source_name": "Gary Marcus：The Road to AI We Can Trust（RSS）",
+          "category": "tip",
+          "published_at": "2026-06-06T16:24:04.000Z",
+          "summary": "Gary Marcus 在文章中分享了对 AI 领域刚刚发生事件的看法，表达了对当前 AI 发展方向的思考。"
+        },
+        {
+          "id": "a5d0fdf4e45d",
+          "title": "Job Searcher",
+          "url": "https://huggingface.co/blog/build-small-hackathon/job-search-blog",
+          "source": "aihot",
+          "source_name": "Hugging Face：Blog（RSS）",
+          "category": "tip",
+          "published_at": "2026-06-06T15:36:51.000Z",
+          "summary": "Hugging Face 发布 Job Searcher，一个基于 AI 的求职搜索工具。用户上传简历并设定偏好后，系统使用教师模型 DeepSeek V4 Pro 生成 LinkedIn 搜索查询，通过 JobSpy 抓取职位，再对学生模型 Qwen3-8B（8B 参数）进行 LoRA 微调，对每个职位从技能匹配、经验相关性、教育背景、行业领域契合度和资历对齐五个维度给出评分和推理。训练在 Modal 平台单张 A100 上完成。推理部署于 Hugging Face ZeroGPU Space，使用 llama.cpp 实现流式输出。项目开源。"
+        },
         {
           "id": "c9d7228b9753",
           "title": "Open Code Review – 一款基于人工智能的代码审查命令行工具",
