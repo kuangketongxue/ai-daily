@@ -1,10 +1,11 @@
 {
   "date": "2026-06-06",
-  "generated_at": "2026-06-06T21:17:14.942307",
+  "generated_at": "2026-06-06T22:42:50.831094",
   "total": 69,
   "sources": {
     "Hugging Face": 8,
     "GitHub AI": 8,
+    "Hacker News 热门（buzzing.cc 中文翻译）": 5,
     "Hugging Face：Blog（RSS）": 4,
     "Gary Marcus：The Road to AI We Can Trust（RSS）": 2,
     "X：Rohan Paul (@rohanpaul_ai)": 3,
@@ -21,7 +22,6 @@
     "X：面壁智能 OpenBMB (@OpenBMB)": 1,
     "Bloomberg：Technology（RSS）": 2,
     "X：Epoch AI (@EpochAIResearch)": 1,
-    "Hacker News 热门（buzzing.cc 中文翻译）": 4,
     "X：NVIDIA AI (@NVIDIAAI)": 1,
     "Anthropic：Research（发表成果 · 网页）": 1,
     "X：AI at Meta (@AIatMeta)": 1,
@@ -40,8 +40,7 @@
     "NVIDIA AI Blog": 1,
     "公众号：数字生命卡兹克": 1,
     "Tomer Tunguz 博客（VC 分析）": 1,
-    "X：cb_doge (@cb_doge)": 1,
-    "X：NotebookLM (@NotebookLM)": 1
+    "X：cb_doge (@cb_doge)": 1
   },
   "ai_processed": false,
   "categories": {
@@ -212,16 +211,6 @@
           "category": "ai-products",
           "published_at": "2026-06-05T06:04:59.000Z",
           "summary": "阿里云推出SkillClaw与Nacos结合，构建AI智能体技能进化流水线。关键特性：自动从真实对话中提取经验并封装为可复用技能（Skill）；Nacos负责集中化版本管理、审核与审计；打破本地孤岛，实现团队安全共享与分发；形成完整的\"生成-治理-分发\"持续进化闭环。目标是将个人洞察转化为团队的AI资产。"
-        },
-        {
-          "id": "2931570f4c27",
-          "title": "NotebookLM 来源归属功能上线",
-          "url": "https://x.com/NotebookLM/status/2062653124326863077",
-          "source": "aihot",
-          "source_name": "X：NotebookLM (@NotebookLM)",
-          "category": "ai-products",
-          "published_at": "2026-06-04T21:50:01.000Z",
-          "summary": "今天，我们推出又一项呼声很高的功能：来源归属！🥳\n\n无需再猜测。现在你可以看到每个创作物背后所用的确切公式（提示词 + 来源）。想要调整？只需轻点\"迭代\"，随心定制 💖"
         }
       ]
     },
@@ -315,7 +304,7 @@
           "source": "GitHub AI",
           "source_name": "GitHub AI",
           "category": "ai-tools",
-          "published_at": "2026-06-06T21:17:13.868535+00:00",
+          "published_at": "2026-06-06T22:42:49.641375+00:00",
           "summary": "Ongoing research training transformer models at scale"
         },
         {
@@ -325,7 +314,7 @@
           "source": "GitHub AI",
           "source_name": "GitHub AI",
           "category": "ai-tools",
-          "published_at": "2026-06-06T21:17:13.867960+00:00",
+          "published_at": "2026-06-06T22:42:49.640702+00:00",
           "summary": "The easiest, most secure way to use WireGuard and 2FA."
         },
         {
@@ -335,7 +324,7 @@
           "source": "GitHub AI",
           "source_name": "GitHub AI",
           "category": "ai-tools",
-          "published_at": "2026-06-06T21:17:13.867847+00:00",
+          "published_at": "2026-06-06T22:42:49.640564+00:00",
           "summary": "🦔 PostHog is an all-in-one developer platform for building successful products. We offer product analytics, web analytics, session replay, error tracking, feature flags, experimentation, surveys, data warehouse, a CDP, and an AI product assistant to help debug your code, ship features faster, and keep all your usage and customer data in one stack."
         },
         {
@@ -345,7 +334,7 @@
           "source": "GitHub AI",
           "source_name": "GitHub AI",
           "category": "ai-tools",
-          "published_at": "2026-06-06T21:17:13.867732+00:00",
+          "published_at": "2026-06-06T22:42:49.640422+00:00",
           "summary": "🤗 Transformers: the model-definition framework for state-of-the-art machine learning models in text, vision, audio, and multimodal models, for both inference and training."
         },
         {
@@ -355,7 +344,7 @@
           "source": "GitHub AI",
           "source_name": "GitHub AI",
           "category": "ai-tools",
-          "published_at": "2026-06-06T21:17:13.867210+00:00",
+          "published_at": "2026-06-06T22:42:49.639815+00:00",
           "summary": "The Postgres development platform. Supabase gives you a dedicated Postgres database to build your web, mobile, and AI applications."
         },
         {
@@ -365,7 +354,7 @@
           "source": "GitHub AI",
           "source_name": "GitHub AI",
           "category": "ai-tools",
-          "published_at": "2026-06-06T21:17:13.866929+00:00",
+          "published_at": "2026-06-06T22:42:49.639503+00:00",
           "summary": "Your AI second brain. Self-hostable. Get answers from the web or your docs. Build custom agents, schedule automations, do deep research. Turn any online or local LLM into your personal, autonomous AI (gpt, claude, gemini, llama, qwen, mistral). Get started - free."
         },
         {
@@ -375,7 +364,7 @@
           "source": "GitHub AI",
           "source_name": "GitHub AI",
           "category": "ai-tools",
-          "published_at": "2026-06-06T21:17:13.866564+00:00",
+          "published_at": "2026-06-06T22:42:49.639107+00:00",
           "summary": "Robust Speech Recognition via Large-Scale Weak Supervision"
         },
         {
@@ -385,7 +374,7 @@
           "source": "GitHub AI",
           "source_name": "GitHub AI",
           "category": "ai-tools",
-          "published_at": "2026-06-06T21:17:13.866403+00:00",
+          "published_at": "2026-06-06T22:42:49.638913+00:00",
           "summary": "Find vulnerabilities, misconfigurations, secrets, SBOM in containers, Kubernetes, code repositories, clouds and more"
         }
       ]
@@ -708,6 +697,16 @@
     "industry": {
       "label": "industry",
       "items": [
+        {
+          "id": "66f984e7ef4e",
+          "title": "美国众议院议员发布法案草案，旨在禁止各州制定人工智能相关法规",
+          "url": "https://www.reuters.com/business/us-house-lawmakers-release-draft-bill-regulate-ai-2026-06-04",
+          "source": "aihot",
+          "source_name": "Hacker News 热门（buzzing.cc 中文翻译）",
+          "category": "industry",
+          "published_at": "2026-06-06T21:47:39.887Z",
+          "summary": "美国众议院议员发布一项法案草案，旨在禁止各州自行制定人工智能相关法规，将AI监管权力集中到联邦层面。"
+        },
         {
           "id": "63f5290dd514",
           "title": "阶跃首席科学家张祥雨合著论文 ResNet 获 CVPR 2026 「时间检验奖」",
