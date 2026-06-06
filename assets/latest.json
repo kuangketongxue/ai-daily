@@ -1,6 +1,6 @@
 {
   "date": "2026-06-06",
-  "generated_at": "2026-06-06T14:07:09.226305",
+  "generated_at": "2026-06-06T15:39:36.214979",
   "total": 66,
   "sources": {
     "Hugging Face": 7,
@@ -317,13 +317,13 @@
           "summary": ""
         },
         {
-          "id": "8d5cbaf89245",
-          "title": "Persona Atlas: Mapping How Famous Minds Think",
-          "url": "https://huggingface.co/blog/build-small-hackathon/persona-atlas",
+          "id": "c0d6e7a067fc",
+          "title": "Job Searcher",
+          "url": "https://huggingface.co/blog/build-small-hackathon/job-search-blog",
           "source": "Hugging Face",
           "source_name": "Hugging Face",
           "category": "ai-tools",
-          "published_at": "Sat, 06 Jun 2026 11:42:01 GMT",
+          "published_at": "Sat, 06 Jun 2026 15:36:51 GMT",
           "summary": ""
         },
         {
@@ -343,7 +343,7 @@
           "source": "GitHub AI",
           "source_name": "GitHub AI",
           "category": "ai-tools",
-          "published_at": "2026-06-06T14:07:08.111987+00:00",
+          "published_at": "2026-06-06T15:39:34.422862+00:00",
           "summary": "Ongoing research training transformer models at scale"
         },
         {
@@ -353,7 +353,7 @@
           "source": "GitHub AI",
           "source_name": "GitHub AI",
           "category": "ai-tools",
-          "published_at": "2026-06-06T14:07:08.111310+00:00",
+          "published_at": "2026-06-06T15:39:34.422300+00:00",
           "summary": "The easiest, most secure way to use WireGuard and 2FA."
         },
         {
@@ -363,7 +363,7 @@
           "source": "GitHub AI",
           "source_name": "GitHub AI",
           "category": "ai-tools",
-          "published_at": "2026-06-06T14:07:08.111177+00:00",
+          "published_at": "2026-06-06T15:39:34.422183+00:00",
           "summary": "🦔 PostHog is an all-in-one developer platform for building successful products. We offer product analytics, web analytics, session replay, error tracking, feature flags, experimentation, surveys, data warehouse, a CDP, and an AI product assistant to help debug your code, ship features faster, and keep all your usage and customer data in one stack."
         },
         {
@@ -373,7 +373,7 @@
           "source": "GitHub AI",
           "source_name": "GitHub AI",
           "category": "ai-tools",
-          "published_at": "2026-06-06T14:07:08.110963+00:00",
+          "published_at": "2026-06-06T15:39:34.422064+00:00",
           "summary": "🤗 Transformers: the model-definition framework for state-of-the-art machine learning models in text, vision, audio, and multimodal models, for both inference and training."
         },
         {
@@ -383,7 +383,7 @@
           "source": "GitHub AI",
           "source_name": "GitHub AI",
           "category": "ai-tools",
-          "published_at": "2026-06-06T14:07:08.110373+00:00",
+          "published_at": "2026-06-06T15:39:34.421535+00:00",
           "summary": "The Postgres development platform. Supabase gives you a dedicated Postgres database to build your web, mobile, and AI applications."
         },
         {
@@ -393,7 +393,7 @@
           "source": "GitHub AI",
           "source_name": "GitHub AI",
           "category": "ai-tools",
-          "published_at": "2026-06-06T14:07:08.110062+00:00",
+          "published_at": "2026-06-06T15:39:34.421255+00:00",
           "summary": "Your AI second brain. Self-hostable. Get answers from the web or your docs. Build custom agents, schedule automations, do deep research. Turn any online or local LLM into your personal, autonomous AI (gpt, claude, gemini, llama, qwen, mistral). Get started - free."
         },
         {
@@ -403,7 +403,7 @@
           "source": "GitHub AI",
           "source_name": "GitHub AI",
           "category": "ai-tools",
-          "published_at": "2026-06-06T14:07:08.109642+00:00",
+          "published_at": "2026-06-06T15:39:34.420894+00:00",
           "summary": "Robust Speech Recognition via Large-Scale Weak Supervision"
         },
         {
@@ -413,7 +413,7 @@
           "source": "GitHub AI",
           "source_name": "GitHub AI",
           "category": "ai-tools",
-          "published_at": "2026-06-06T14:07:08.109480+00:00",
+          "published_at": "2026-06-06T15:39:34.420714+00:00",
           "summary": "Find vulnerabilities, misconfigurations, secrets, SBOM in containers, Kubernetes, code repositories, clouds and more"
         }
       ]
