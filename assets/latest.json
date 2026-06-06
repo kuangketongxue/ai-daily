@@ -1,10 +1,13 @@
 {
   "date": "2026-06-06",
-  "generated_at": "2026-06-06T12:01:21.765428",
-  "total": 63,
+  "generated_at": "2026-06-06T14:07:09.226305",
+  "total": 66,
   "sources": {
     "Hugging Face": 7,
-    "GitHub AI": 5,
+    "GitHub AI": 8,
+    "X：Rohan Paul (@rohanpaul_ai)": 3,
+    "IT之家（RSS）": 6,
+    "Hugging Face：Blog（RSS）": 3,
     "X：OpenRouter (@OpenRouter)": 1,
     "X：Gemini (@GeminiApp)": 2,
     "X：Michael Truell (@mntruell)": 1,
@@ -14,9 +17,7 @@
     "Cloudflare Blog": 1,
     "X：ChatGPT (@ChatGPTapp)": 1,
     "X：面壁智能 OpenBMB (@OpenBMB)": 1,
-    "IT之家（RSS）": 5,
     "Bloomberg：Technology（RSS）": 2,
-    "X：Rohan Paul (@rohanpaul_ai)": 2,
     "X：Epoch AI (@EpochAIResearch)": 1,
     "Hacker News 热门（buzzing.cc 中文翻译）": 5,
     "X：NVIDIA AI (@NVIDIAAI)": 1,
@@ -27,7 +28,6 @@
     "X：洪明 (@hongming731)": 1,
     "X：小互 (@xiaohu)": 1,
     "X：swyx (@swyx)": 1,
-    "Hugging Face：Blog（RSS）": 2,
     "X：腾讯混元 (@TencentHunyuan)": 1,
     "Google Research：Blog（网页）": 1,
     "Suno：Blog（网页）": 1,
@@ -39,9 +39,7 @@
     "X：NotebookLM (@NotebookLM)": 1,
     "X：NVIDIA (@nvidia)": 1,
     "Ethan Mollick：One Useful Thing（RSS）": 1,
-    "X：OpenAI Developers (@OpenAIDevs)": 2,
-    "X：Google AI for Developers (@googleaidevs)": 1,
-    "X：Replit (@Replit)": 1
+    "X：OpenAI Developers (@OpenAIDevs)": 1
   },
   "ai_processed": false,
   "categories": {
@@ -67,22 +65,42 @@
           "category": "ai-models",
           "published_at": "2026-06-04T18:57:45.000Z",
           "summary": "Nemotron 3.5 Content Safety基于Gemma 3 4B IT，提供128K上下文窗口，支持用户提示、可选图像与助手响应的统一多模态安全评估。新增自定义策略执行，允许企业用自然语言定义专属安全规则；THINK模式可输出可审计的逐步推理痕迹。显式训练覆盖12种语言，并借助基座模型零样本泛化至约140种语言。输出提供低延迟二分类、带分类标签、THINK推理痕迹三种模式。安全分类遵循Aegis 2.0框架（13核心类别+10细分类别）。同步发布多模态、多语言安全数据集，可在8GB+ VRAM GPU上实时部署。"
-        },
-        {
-          "id": "fb62073e486a",
-          "title": "Google Magenta RealTime 2 （MRT2） 实时音乐模型发布",
-          "url": "https://x.com/googleaidevs/status/2062603374789263646",
-          "source": "aihot",
-          "source_name": "X：Google AI for Developers (@googleaidevs)",
-          "category": "ai-models",
-          "published_at": "2026-06-04T18:32:20.000Z",
-          "summary": "Google AI for Developers 宣布推出开放权重的实时音乐模型 Magenta RealTime 2 （MRT2）。该模型可通过 MIDI 键盘、实时文本提示甚至手势进行演奏。MRT2 在 MacBook 上原生运行，延迟低于 200ms，提供开放权重、开源推理引擎以及配套应用和插件套件。"
         }
       ]
     },
     "ai-products": {
       "label": "🚀 AI 产品",
       "items": [
+        {
+          "id": "46f27436e6d5",
+          "title": "GitHub 开源 Spec Kit 工具包，用产品规范引导 AI 编码",
+          "url": "https://x.com/rohanpaul_ai/status/2063246343842501091",
+          "source": "aihot",
+          "source_name": "X：Rohan Paul (@rohanpaul_ai)",
+          "category": "ai-products",
+          "published_at": "2026-06-06T13:07:16.000Z",
+          "summary": "GitHub 发布开源工具包 Spec Kit，旨在解决 \"vibe coding\" 的最大弱点--AI 常在规则未明确时就开始编码。它把流程从 \"让 AI 直接构建\" 改为 \"先写产品规范，再让 AI 根据规范实现\"。当前 AI 编码模式常因松散提示直接跳入代码，导致需求薄弱、边界遗漏和反复返工。Spec Kit 推动反向流程：先定义产品功能，再澄清差距、制订技术计划、分解任务，最后让 agent 执行。规范成为可执行的开发合约，支持 Copilot、Claude Code、Codex、Gemini、Cursor、Qwen 等 30+ agent 集成。项目已获 109K+ 星标。"
+        },
+        {
+          "id": "95404538b7ab",
+          "title": "OpenCV 5 发布：升级全新 DNN 引擎、原生支持大模型",
+          "url": "https://www.ithome.com/0/960/969.htm",
+          "source": "aihot",
+          "source_name": "IT之家（RSS）",
+          "category": "ai-products",
+          "published_at": "2026-06-06T12:48:12.000Z",
+          "summary": "OpenCV 5 正式发布，采用基于图的 DNN 引擎，ONNX 算子覆盖率从 4.x 的不到 23% 提升至超 80%，原生支持 Transformer、视觉语言模型（VLM）和大语言模型（LLM）。其他更新包括：更好的 Python 集成与命名参数、更紧凑核心代码、清晰硬件加速层、原生 FP16/BF16、规范化 0D/1D 张量、扩展 3D 视觉及现代化文档。该库 GitHub 拥有超 86，000 stars，每日安装量超一百万次。"
+        },
+        {
+          "id": "9d4ca6bb8148",
+          "title": "Persona Atlas：Hugging Face 上的开源人物思维映射工具",
+          "url": "https://huggingface.co/blog/build-small-hackathon/persona-atlas",
+          "source": "aihot",
+          "source_name": "Hugging Face：Blog（RSS）",
+          "category": "ai-products",
+          "published_at": "2026-06-06T11:42:01.000Z",
+          "summary": "Persona Atlas 是一个运行在 Hugging Face Inference Providers 上的开源项目。它通过工具调用代理执行真实网络搜索，生成公众人物的资料、事实清单和风格假设，然后让该人物回答十个关于身份、伦理等开放式问题。每个回答被转化为嵌入向量，从而在向量空间中对不同人物进行距离比较，并基于十个特质锚点绘制热力图。前端采用 Gradio，提供研究、比较和检查代理完整追溯三个标签页，预设多个人物角色，无需 token 即可直接体验。"
+        },
         {
           "id": "1e7f0e82974e",
           "title": "Gemini Live 支持实时创建编辑图像",
@@ -242,26 +260,6 @@
           "category": "ai-products",
           "published_at": "2026-06-04T19:36:39.000Z",
           "summary": "Moderation scores 现已在 Responses API 和 Completions API 中可用。\n\n在与生成相同的请求流程中返回审核信号，然后由你的应用决定如何使用它们进行记录、路由、审核或拦截。\n\nhttps：//developers.openai.com/api/docs/guides/moderation"
-        },
-        {
-          "id": "a19b989c3e9b",
-          "title": "Codex 推出 iOS 应用构建插件",
-          "url": "https://x.com/OpenAIDevs/status/2062599291479478275",
-          "source": "aihot",
-          "source_name": "X：OpenAI Developers (@OpenAIDevs)",
-          "category": "ai-products",
-          "published_at": "2026-06-04T18:16:06.000Z",
-          "summary": "更多 iOS 应用循环，现已集成至 Codex。\n\nBuild iOS Apps 插件让 Codex 可在应用内浏览器查看和测试你的 iOS 应用，打开 SwiftUI 预览，并无需离开 Codex 即可热重载编辑。"
-        },
-        {
-          "id": "02c3ef91c816",
-          "title": "Replit Agent 联手 Shopify 快速建店",
-          "url": "https://x.com/Replit/status/2062594881625940379",
-          "source": "aihot",
-          "source_name": "X：Replit (@Replit)",
-          "category": "ai-products",
-          "published_at": "2026-06-04T17:58:35.000Z",
-          "summary": "我们与 Shopify 合作，让你从想法到上线商店只需几分钟\n\n只需告诉 Replit Agent 你想卖什么。它会：\n\n- 构建自定义店铺页面\n- 创建你的 Shopify 商店\n- 帮你添加商品\n\n在 Shopify 中认领店铺，设置支付，即可开业。"
         }
       ]
     },
@@ -319,6 +317,16 @@
           "summary": ""
         },
         {
+          "id": "8d5cbaf89245",
+          "title": "Persona Atlas: Mapping How Famous Minds Think",
+          "url": "https://huggingface.co/blog/build-small-hackathon/persona-atlas",
+          "source": "Hugging Face",
+          "source_name": "Hugging Face",
+          "category": "ai-tools",
+          "published_at": "Sat, 06 Jun 2026 11:42:01 GMT",
+          "summary": ""
+        },
+        {
           "id": "d218e9053d92",
           "title": "Introducing Mellum2: A 12B Mixture-of-Experts Model by JetBrains",
           "url": "https://huggingface.co/blog/JetBrains/mellum2-launch",
@@ -329,24 +337,64 @@
           "summary": ""
         },
         {
-          "id": "6b412489667f",
-          "title": "Beyond LLMs: Why Scalable Enterprise AI Adoption Depends on Agent Logic",
-          "url": "https://huggingface.co/blog/ibm-research/agent-logic-and-scalable-ai-adoption",
-          "source": "Hugging Face",
-          "source_name": "Hugging Face",
-          "category": "ai-tools",
-          "published_at": "Mon, 01 Jun 2026 13:51:18 GMT",
-          "summary": ""
-        },
-        {
-          "id": "eeb23aefa2a0",
-          "title": "⭐ modelscope/FunASR",
-          "url": "https://github.com/modelscope/FunASR",
+          "id": "a9d0db943297",
+          "title": "⭐ NVIDIA/Megatron-LM",
+          "url": "https://github.com/NVIDIA/Megatron-LM",
           "source": "GitHub AI",
           "source_name": "GitHub AI",
           "category": "ai-tools",
-          "published_at": "2026-06-06T12:01:20.768459+00:00",
-          "summary": "Industrial-grade speech recognition toolkit: 170x realtime, 50+ languages, speaker diarization, emotion detection, streaming, and OpenAI-compatible API."
+          "published_at": "2026-06-06T14:07:08.111987+00:00",
+          "summary": "Ongoing research training transformer models at scale"
+        },
+        {
+          "id": "04c3de1b9f8f",
+          "title": "⭐ tailscale/tailscale",
+          "url": "https://github.com/tailscale/tailscale",
+          "source": "GitHub AI",
+          "source_name": "GitHub AI",
+          "category": "ai-tools",
+          "published_at": "2026-06-06T14:07:08.111310+00:00",
+          "summary": "The easiest, most secure way to use WireGuard and 2FA."
+        },
+        {
+          "id": "21fb6843c0a7",
+          "title": "⭐ PostHog/posthog",
+          "url": "https://github.com/PostHog/posthog",
+          "source": "GitHub AI",
+          "source_name": "GitHub AI",
+          "category": "ai-tools",
+          "published_at": "2026-06-06T14:07:08.111177+00:00",
+          "summary": "🦔 PostHog is an all-in-one developer platform for building successful products. We offer product analytics, web analytics, session replay, error tracking, feature flags, experimentation, surveys, data warehouse, a CDP, and an AI product assistant to help debug your code, ship features faster, and keep all your usage and customer data in one stack."
+        },
+        {
+          "id": "23bf05c3e846",
+          "title": "⭐ huggingface/transformers",
+          "url": "https://github.com/huggingface/transformers",
+          "source": "GitHub AI",
+          "source_name": "GitHub AI",
+          "category": "ai-tools",
+          "published_at": "2026-06-06T14:07:08.110963+00:00",
+          "summary": "🤗 Transformers: the model-definition framework for state-of-the-art machine learning models in text, vision, audio, and multimodal models, for both inference and training."
+        },
+        {
+          "id": "b689521e7dcb",
+          "title": "⭐ supabase/supabase",
+          "url": "https://github.com/supabase/supabase",
+          "source": "GitHub AI",
+          "source_name": "GitHub AI",
+          "category": "ai-tools",
+          "published_at": "2026-06-06T14:07:08.110373+00:00",
+          "summary": "The Postgres development platform. Supabase gives you a dedicated Postgres database to build your web, mobile, and AI applications."
+        },
+        {
+          "id": "4787c587f0ea",
+          "title": "⭐ khoj-ai/khoj",
+          "url": "https://github.com/khoj-ai/khoj",
+          "source": "GitHub AI",
+          "source_name": "GitHub AI",
+          "category": "ai-tools",
+          "published_at": "2026-06-06T14:07:08.110062+00:00",
+          "summary": "Your AI second brain. Self-hostable. Get answers from the web or your docs. Build custom agents, schedule automations, do deep research. Turn any online or local LLM into your personal, autonomous AI (gpt, claude, gemini, llama, qwen, mistral). Get started - free."
         },
         {
           "id": "b8d37aa6cd3a",
@@ -355,28 +403,8 @@
           "source": "GitHub AI",
           "source_name": "GitHub AI",
           "category": "ai-tools",
-          "published_at": "2026-06-06T12:01:20.768344+00:00",
+          "published_at": "2026-06-06T14:07:08.109642+00:00",
           "summary": "Robust Speech Recognition via Large-Scale Weak Supervision"
-        },
-        {
-          "id": "c6c88cf76fd4",
-          "title": "⭐ SimplifyJobs/Summer2026-Internships",
-          "url": "https://github.com/SimplifyJobs/Summer2026-Internships",
-          "source": "GitHub AI",
-          "source_name": "GitHub AI",
-          "category": "ai-tools",
-          "published_at": "2026-06-06T12:01:20.767856+00:00",
-          "summary": "Summer 2026 software engineering, data science, AI, quant, product management, and hardware internship postings. Updated daily by Simplify and Pitt CSC."
-        },
-        {
-          "id": "779a4a599d04",
-          "title": "⭐ lance-format/lance",
-          "url": "https://github.com/lance-format/lance",
-          "source": "GitHub AI",
-          "source_name": "GitHub AI",
-          "category": "ai-tools",
-          "published_at": "2026-06-06T12:01:20.767343+00:00",
-          "summary": "Open Lakehouse Format for Multimodal AI. Convert from Parquet in 2 lines of code for 100x faster random access, vector index, and data versioning. Compatible with Pandas, DuckDB, Polars, Pyarrow, and PyTorch with more integrations coming.."
         },
         {
           "id": "6384330518cc",
@@ -385,7 +413,7 @@
           "source": "GitHub AI",
           "source_name": "GitHub AI",
           "category": "ai-tools",
-          "published_at": "2026-06-06T12:01:20.766057+00:00",
+          "published_at": "2026-06-06T14:07:08.109480+00:00",
           "summary": "Find vulnerabilities, misconfigurations, secrets, SBOM in containers, Kubernetes, code repositories, clouds and more"
         }
       ]
