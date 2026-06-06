@@ -1,10 +1,11 @@
 {
   "date": "2026-06-06",
-  "generated_at": "2026-06-06T22:42:50.831094",
+  "generated_at": "2026-06-06T23:44:28.345139",
   "total": 69,
   "sources": {
     "Hugging Face": 8,
     "GitHub AI": 8,
+    "X：MiniMax (@MiniMax_AI)": 1,
     "Hacker News 热门（buzzing.cc 中文翻译）": 5,
     "Hugging Face：Blog（RSS）": 4,
     "Gary Marcus：The Road to AI We Can Trust（RSS）": 2,
@@ -39,8 +40,7 @@
     "公众号：通义实验室（千问）": 1,
     "NVIDIA AI Blog": 1,
     "公众号：数字生命卡兹克": 1,
-    "Tomer Tunguz 博客（VC 分析）": 1,
-    "X：cb_doge (@cb_doge)": 1
+    "Tomer Tunguz 博客（VC 分析）": 1
   },
   "ai_processed": false,
   "categories": {
@@ -304,7 +304,7 @@
           "source": "GitHub AI",
           "source_name": "GitHub AI",
           "category": "ai-tools",
-          "published_at": "2026-06-06T22:42:49.641375+00:00",
+          "published_at": "2026-06-06T23:44:26.042376+00:00",
           "summary": "Ongoing research training transformer models at scale"
         },
         {
@@ -314,7 +314,7 @@
           "source": "GitHub AI",
           "source_name": "GitHub AI",
           "category": "ai-tools",
-          "published_at": "2026-06-06T22:42:49.640702+00:00",
+          "published_at": "2026-06-06T23:44:26.041741+00:00",
           "summary": "The easiest, most secure way to use WireGuard and 2FA."
         },
         {
@@ -324,7 +324,7 @@
           "source": "GitHub AI",
           "source_name": "GitHub AI",
           "category": "ai-tools",
-          "published_at": "2026-06-06T22:42:49.640564+00:00",
+          "published_at": "2026-06-06T23:44:26.041604+00:00",
           "summary": "🦔 PostHog is an all-in-one developer platform for building successful products. We offer product analytics, web analytics, session replay, error tracking, feature flags, experimentation, surveys, data warehouse, a CDP, and an AI product assistant to help debug your code, ship features faster, and keep all your usage and customer data in one stack."
         },
         {
@@ -334,7 +334,7 @@
           "source": "GitHub AI",
           "source_name": "GitHub AI",
           "category": "ai-tools",
-          "published_at": "2026-06-06T22:42:49.640422+00:00",
+          "published_at": "2026-06-06T23:44:26.041465+00:00",
           "summary": "🤗 Transformers: the model-definition framework for state-of-the-art machine learning models in text, vision, audio, and multimodal models, for both inference and training."
         },
         {
@@ -344,7 +344,7 @@
           "source": "GitHub AI",
           "source_name": "GitHub AI",
           "category": "ai-tools",
-          "published_at": "2026-06-06T22:42:49.639815+00:00",
+          "published_at": "2026-06-06T23:44:26.040864+00:00",
           "summary": "The Postgres development platform. Supabase gives you a dedicated Postgres database to build your web, mobile, and AI applications."
         },
         {
@@ -354,7 +354,7 @@
           "source": "GitHub AI",
           "source_name": "GitHub AI",
           "category": "ai-tools",
-          "published_at": "2026-06-06T22:42:49.639503+00:00",
+          "published_at": "2026-06-06T23:44:26.040552+00:00",
           "summary": "Your AI second brain. Self-hostable. Get answers from the web or your docs. Build custom agents, schedule automations, do deep research. Turn any online or local LLM into your personal, autonomous AI (gpt, claude, gemini, llama, qwen, mistral). Get started - free."
         },
         {
@@ -364,7 +364,7 @@
           "source": "GitHub AI",
           "source_name": "GitHub AI",
           "category": "ai-tools",
-          "published_at": "2026-06-06T22:42:49.639107+00:00",
+          "published_at": "2026-06-06T23:44:26.040142+00:00",
           "summary": "Robust Speech Recognition via Large-Scale Weak Supervision"
         },
         {
@@ -374,7 +374,7 @@
           "source": "GitHub AI",
           "source_name": "GitHub AI",
           "category": "ai-tools",
-          "published_at": "2026-06-06T22:42:49.638913+00:00",
+          "published_at": "2026-06-06T23:44:26.039971+00:00",
           "summary": "Find vulnerabilities, misconfigurations, secrets, SBOM in containers, Kubernetes, code repositories, clouds and more"
         }
       ]
@@ -522,6 +522,16 @@
     "tip": {
       "label": "💡 技巧",
       "items": [
+        {
+          "id": "ff56c103bd14",
+          "title": "M3与Opus代码审计13个bug：$0.07 vs $1.30",
+          "url": "https://x.com/MiniMax_AI/status/2063397618034844135",
+          "source": "aihot",
+          "source_name": "X：MiniMax (@MiniMax_AI)",
+          "category": "tip",
+          "published_at": "2026-06-06T23:08:22.000Z",
+          "summary": "对 Claude Opus 4.8 和 MiniMax M3 进行相同的代码审计：同一代码库、同一提示词，预先植入 17 个已知 bug。MiniMax M3 以 $0.07 抓到 13 个；最便宜的 Claude 运行同样抓到 13 个，花费 $1.30。MiniMax 表示这一对比非常有趣，绝对值得一读。"
+        },
         {
           "id": "ff6ce7a10f6f",
           "title": "五个实验室，五个心智：用小模型构建多模型金融剧情游戏",
@@ -681,16 +691,6 @@
           "category": "tip",
           "published_at": "2026-06-05T00:00:00.000Z",
           "summary": "作者通过技能蒸馏将78%的AI工作交由Mac本地模型处理，仅复杂任务发往云端。智能体自动分类任务：简单任务本地数秒完成，复杂任务路由至云端。过去一周本地处理峰值达88%。双车道设计使吞吐量提升约25%，平均任务时长从47秒降至19秒，队列等待时间从73秒降至4秒（降幅94%）。该模式类比Nucor小钢厂，每台能运行蒸馏模型的边缘设备都成为小型AI工厂，仅对那1/5困难任务支付云费用。未来几年，数以千万计的此类设备将在企业内部增殖，逐步取代现阶段云厂商账单上的大部分工作负载。"
-        },
-        {
-          "id": "d45b765300d1",
-          "title": "马斯克谈SpaceX上市：正处大规模资本扩张期",
-          "url": "https://x.com/cb_doge/status/2062681226633523250",
-          "source": "aihot",
-          "source_name": "X：cb_doge (@cb_doge)",
-          "category": "tip",
-          "published_at": "2026-06-04T23:41:41.000Z",
-          "summary": "马斯克在JPMorgan活动上回应SpaceX上市问题：他已被建议上市近10年，自2014-2015年起SpaceX就已实现正现金流并自筹资金，之前的私募轮次实际是面向投资者和员工的流动性/回购轮次。当前不同之处在于SpaceX正进入显著资本增长阶段，计划发射约10万颗通信卫星（可能超10万颗），AI和机器人对带宽需求巨大，还将在太空中建设AI数据中心，马斯克认为这将成为AI扩张的主要手段。"
         }
       ]
     },
