@@ -1,6 +1,6 @@
 {
   "date": "2026-06-06",
-  "generated_at": "2026-06-06T10:21:52.673896",
+  "generated_at": "2026-06-06T12:01:21.765428",
   "total": 63,
   "sources": {
     "Hugging Face": 7,
@@ -329,13 +329,13 @@
           "summary": ""
         },
         {
-          "id": "a96e7637b4cd",
-          "title": "Thousand Token Wood: shipping a multi-agent economy on a 3B model",
-          "url": "https://huggingface.co/blog/build-small-hackathon/thousand-token-wood-sim",
+          "id": "6b412489667f",
+          "title": "Beyond LLMs: Why Scalable Enterprise AI Adoption Depends on Agent Logic",
+          "url": "https://huggingface.co/blog/ibm-research/agent-logic-and-scalable-ai-adoption",
           "source": "Hugging Face",
           "source_name": "Hugging Face",
           "category": "ai-tools",
-          "published_at": "Fri, 05 Jun 2026 22:18:46 GMT",
+          "published_at": "Mon, 01 Jun 2026 13:51:18 GMT",
           "summary": ""
         },
         {
@@ -345,7 +345,7 @@
           "source": "GitHub AI",
           "source_name": "GitHub AI",
           "category": "ai-tools",
-          "published_at": "2026-06-06T10:21:51.475656+00:00",
+          "published_at": "2026-06-06T12:01:20.768459+00:00",
           "summary": "Industrial-grade speech recognition toolkit: 170x realtime, 50+ languages, speaker diarization, emotion detection, streaming, and OpenAI-compatible API."
         },
         {
@@ -355,7 +355,7 @@
           "source": "GitHub AI",
           "source_name": "GitHub AI",
           "category": "ai-tools",
-          "published_at": "2026-06-06T10:21:51.475522+00:00",
+          "published_at": "2026-06-06T12:01:20.768344+00:00",
           "summary": "Robust Speech Recognition via Large-Scale Weak Supervision"
         },
         {
@@ -365,7 +365,7 @@
           "source": "GitHub AI",
           "source_name": "GitHub AI",
           "category": "ai-tools",
-          "published_at": "2026-06-06T10:21:51.474994+00:00",
+          "published_at": "2026-06-06T12:01:20.767856+00:00",
           "summary": "Summer 2026 software engineering, data science, AI, quant, product management, and hardware internship postings. Updated daily by Simplify and Pitt CSC."
         },
         {
@@ -375,7 +375,7 @@
           "source": "GitHub AI",
           "source_name": "GitHub AI",
           "category": "ai-tools",
-          "published_at": "2026-06-06T10:21:51.474401+00:00",
+          "published_at": "2026-06-06T12:01:20.767343+00:00",
           "summary": "Open Lakehouse Format for Multimodal AI. Convert from Parquet in 2 lines of code for 100x faster random access, vector index, and data versioning. Compatible with Pandas, DuckDB, Polars, Pyarrow, and PyTorch with more integrations coming.."
         },
         {
@@ -385,7 +385,7 @@
           "source": "GitHub AI",
           "source_name": "GitHub AI",
           "category": "ai-tools",
-          "published_at": "2026-06-06T10:21:51.473059+00:00",
+          "published_at": "2026-06-06T12:01:20.766057+00:00",
           "summary": "Find vulnerabilities, misconfigurations, secrets, SBOM in containers, Kubernetes, code repositories, clouds and more"
         }
       ]
