@@ -1,6 +1,6 @@
 {
   "date": "2026-06-07",
-  "generated_at": "2026-06-07T21:49:32.592060",
+  "generated_at": "2026-06-07T23:18:54.857683",
   "total": 70,
   "sources": {
     "Hugging Face": 8,
@@ -309,7 +309,7 @@
           "source": "GitHub AI",
           "source_name": "GitHub AI",
           "category": "ai-tools",
-          "published_at": "2026-06-07T21:49:29.861439+00:00",
+          "published_at": "2026-06-07T23:18:53.689018+00:00",
           "summary": "A maintained, feature-rich and performance oriented, neofetch like system information tool."
         },
         {
@@ -319,7 +319,7 @@
           "source": "GitHub AI",
           "source_name": "GitHub AI",
           "category": "ai-tools",
-          "published_at": "2026-06-07T21:49:29.860316+00:00",
+          "published_at": "2026-06-07T23:18:53.688074+00:00",
           "summary": "The easiest, most secure way to use WireGuard and 2FA."
         },
         {
@@ -329,7 +329,7 @@
           "source": "GitHub AI",
           "source_name": "GitHub AI",
           "category": "ai-tools",
-          "published_at": "2026-06-07T21:49:29.859999+00:00",
+          "published_at": "2026-06-07T23:18:53.687840+00:00",
           "summary": "Find vulnerabilities, misconfigurations, secrets, SBOM in containers, Kubernetes, code repositories, clouds and more"
         },
         {
@@ -339,7 +339,7 @@
           "source": "GitHub AI",
           "source_name": "GitHub AI",
           "category": "ai-tools",
-          "published_at": "2026-06-07T21:49:29.859863+00:00",
+          "published_at": "2026-06-07T23:18:53.687702+00:00",
           "summary": "Robust Speech Recognition via Large-Scale Weak Supervision"
         },
         {
@@ -349,7 +349,7 @@
           "source": "GitHub AI",
           "source_name": "GitHub AI",
           "category": "ai-tools",
-          "published_at": "2026-06-07T21:49:29.859730+00:00",
+          "published_at": "2026-06-07T23:18:53.687586+00:00",
           "summary": "🎧 Open source music streaming app! Available for both desktop & mobile!"
         },
         {
@@ -359,7 +359,7 @@
           "source": "GitHub AI",
           "source_name": "GitHub AI",
           "category": "ai-tools",
-          "published_at": "2026-06-07T21:49:29.859462+00:00",
+          "published_at": "2026-06-07T23:18:53.687343+00:00",
           "summary": "The Open Source Feature Store for AI/ML"
         },
         {
@@ -369,7 +369,7 @@
           "source": "GitHub AI",
           "source_name": "GitHub AI",
           "category": "ai-tools",
-          "published_at": "2026-06-07T21:49:29.859301+00:00",
+          "published_at": "2026-06-07T23:18:53.687197+00:00",
           "summary": "Your AI second brain. Self-hostable. Get answers from the web or your docs. Build custom agents, schedule automations, do deep research. Turn any online or local LLM into your personal, autonomous AI (gpt, claude, gemini, llama, qwen, mistral). Get started - free."
         },
         {
@@ -379,7 +379,7 @@
           "source": "GitHub AI",
           "source_name": "GitHub AI",
           "category": "ai-tools",
-          "published_at": "2026-06-07T21:49:29.859058+00:00",
+          "published_at": "2026-06-07T23:18:53.687000+00:00",
           "summary": "Build product integrations with AI."
         }
       ]
