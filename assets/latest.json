@@ -1,10 +1,11 @@
 {
   "date": "2026-06-07",
-  "generated_at": "2026-06-07T17:39:52.152818",
+  "generated_at": "2026-06-07T18:56:14.536348",
   "total": 70,
   "sources": {
     "Hugging Face": 8,
     "GitHub AI": 8,
+    "X：宝玉 (@dotey)": 2,
     "X：Rohan Paul (@rohanpaul_ai)": 4,
     "TechCrunch：AI（RSS）": 1,
     "Gary Marcus：The Road to AI We Can Trust（RSS）": 4,
@@ -15,7 +16,6 @@
     "NVIDIA AI Blog": 1,
     "MarkTechPost（RSS）": 1,
     "X：OpenRouter (@OpenRouter)": 2,
-    "X：宝玉 (@dotey)": 1,
     "IT之家（RSS）": 4,
     "公众号：阶跃星辰（Step）": 2,
     "公众号：MiniMax（稀宇科技）": 1,
@@ -35,8 +35,7 @@
     "X：面壁智能 OpenBMB (@OpenBMB)": 1,
     "Cloudflare Blog": 1,
     "公众号：腾讯混元": 1,
-    "公众号：火山引擎": 1,
-    "X：swyx (@swyx)": 1
+    "公众号：火山引擎": 1
   },
   "ai_processed": false,
   "categories": {
@@ -310,7 +309,7 @@
           "source": "GitHub AI",
           "source_name": "GitHub AI",
           "category": "ai-tools",
-          "published_at": "2026-06-07T17:39:50.857012+00:00",
+          "published_at": "2026-06-07T18:56:08.292600+00:00",
           "summary": "A maintained, feature-rich and performance oriented, neofetch like system information tool."
         },
         {
@@ -320,7 +319,7 @@
           "source": "GitHub AI",
           "source_name": "GitHub AI",
           "category": "ai-tools",
-          "published_at": "2026-06-07T17:39:50.856025+00:00",
+          "published_at": "2026-06-07T18:56:08.291504+00:00",
           "summary": "The easiest, most secure way to use WireGuard and 2FA."
         },
         {
@@ -330,7 +329,7 @@
           "source": "GitHub AI",
           "source_name": "GitHub AI",
           "category": "ai-tools",
-          "published_at": "2026-06-07T17:39:50.855777+00:00",
+          "published_at": "2026-06-07T18:56:08.291218+00:00",
           "summary": "Find vulnerabilities, misconfigurations, secrets, SBOM in containers, Kubernetes, code repositories, clouds and more"
         },
         {
@@ -340,7 +339,7 @@
           "source": "GitHub AI",
           "source_name": "GitHub AI",
           "category": "ai-tools",
-          "published_at": "2026-06-07T17:39:50.855656+00:00",
+          "published_at": "2026-06-07T18:56:08.291079+00:00",
           "summary": "Robust Speech Recognition via Large-Scale Weak Supervision"
         },
         {
@@ -350,7 +349,7 @@
           "source": "GitHub AI",
           "source_name": "GitHub AI",
           "category": "ai-tools",
-          "published_at": "2026-06-07T17:39:50.855533+00:00",
+          "published_at": "2026-06-07T18:56:08.290936+00:00",
           "summary": "🎧 Open source music streaming app! Available for both desktop & mobile!"
         },
         {
@@ -360,7 +359,7 @@
           "source": "GitHub AI",
           "source_name": "GitHub AI",
           "category": "ai-tools",
-          "published_at": "2026-06-07T17:39:50.855283+00:00",
+          "published_at": "2026-06-07T18:56:08.290663+00:00",
           "summary": "The Open Source Feature Store for AI/ML"
         },
         {
@@ -370,7 +369,7 @@
           "source": "GitHub AI",
           "source_name": "GitHub AI",
           "category": "ai-tools",
-          "published_at": "2026-06-07T17:39:50.855130+00:00",
+          "published_at": "2026-06-07T18:56:08.290494+00:00",
           "summary": "Your AI second brain. Self-hostable. Get answers from the web or your docs. Build custom agents, schedule automations, do deep research. Turn any online or local LLM into your personal, autonomous AI (gpt, claude, gemini, llama, qwen, mistral). Get started - free."
         },
         {
@@ -380,7 +379,7 @@
           "source": "GitHub AI",
           "source_name": "GitHub AI",
           "category": "ai-tools",
-          "published_at": "2026-06-07T17:39:50.854921+00:00",
+          "published_at": "2026-06-07T18:56:08.290257+00:00",
           "summary": "Build product integrations with AI."
         }
       ]
@@ -612,22 +611,22 @@
           "category": "tip",
           "published_at": "2026-06-05T14:22:50.000Z",
           "summary": "这是一则AI提示词，让AI扮演极度严格的老师，通过逐阶段教学、持续维护MD检查清单来确保用户真正理解。AI先让用户复述当前理解，再填补漏洞，并用开放式或选择题（随机选项顺序，提交前不公布答案）测试。教学必须覆盖问题本身、解决方案、宏观背景三个层面，并不断深挖\"为什么\"。仅当用户通过清单上所有项目的验证，会话才算结束。提示词强调对理解程度的主动验证，而非一次性灌输。"
-        },
-        {
-          "id": "3ebbbf88c621",
-          "title": "微软CEO Satya Nadella最新访谈上线",
-          "url": "https://x.com/swyx/status/2062854555562565741",
-          "source": "aihot",
-          "source_name": "X：swyx (@swyx)",
-          "category": "tip",
-          "published_at": "2026-06-05T11:10:26.000Z",
-          "summary": "Satya Nadella 在 Latent Space 发布最新访谈，链接见原文。原推文仅评论\"chat is he cooked\"。"
         }
       ]
     },
     "industry": {
       "label": "industry",
       "items": [
+        {
+          "id": "e9f252e1c50b",
+          "title": "ChatGPT 要变 AgentGPT 了",
+          "url": "https://x.com/dotey/status/2063686036895478162",
+          "source": "aihot",
+          "source_name": "X：宝玉 (@dotey)",
+          "category": "industry",
+          "published_at": "2026-06-07T18:14:27.000Z",
+          "summary": "OpenAI 正筹备 ChatGPT 自 2022 年上线以来最大规模改版，从聊天机器人转向超级应用/Agent 平台，整合编程工具 Codex、图像生成及第三方应用（Canva、Booking）。高管称\"聊天已死\"，目标成为跨平台个人 AI 助手，未来甚至省去用户输入提示词。改版预计未来几周在网页和手机端上线。商业压力：ChatGPT 有 9 亿周活用户、5000 万付费用户、月收入 20 亿美元但未盈利；企业客户贡献约 40% 收入，目标年底达 50%；Codex 桌面版周活超 500 万。竞争对手 Anthropic 估值已达 9650 亿美元。OpenAI 刚完成 1220 亿美元融资，估值 8520 亿美元，IPO 目标估值可能超 1 万亿美元。"
+        },
         {
           "id": "99f7a0e9f857",
           "title": "特朗普政府与OpenAI讨论通过公共财富基金入股AI初创公司",
