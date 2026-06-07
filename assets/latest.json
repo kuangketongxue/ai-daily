@@ -1,10 +1,11 @@
 {
   "date": "2026-06-07",
-  "generated_at": "2026-06-07T06:42:01.714692",
+  "generated_at": "2026-06-07T09:50:46.308046",
   "total": 70,
   "sources": {
     "Hugging Face": 8,
     "GitHub AI": 8,
+    "NVIDIA AI Blog": 2,
     "MarkTechPost（RSS）": 1,
     "X：OpenRouter (@OpenRouter)": 2,
     "Hacker News 热门（buzzing.cc 中文翻译）": 6,
@@ -37,9 +38,7 @@
     "公众号：百度智能云（文心）": 1,
     "公众号：通义实验室（千问）": 1,
     "X：腾讯混元 (@TencentHunyuan)": 1,
-    "X：阿里云 / Alibaba Cloud (@alibaba_cloud)": 2,
-    "NVIDIA AI Blog": 1,
-    "X：洪明 (@hongming731)": 1
+    "X：阿里云 / Alibaba Cloud (@alibaba_cloud)": 2
   },
   "ai_processed": false,
   "categories": {
@@ -71,6 +70,16 @@
     "ai-products": {
       "label": "🚀 AI 产品",
       "items": [
+        {
+          "id": "c5e3fe7ebc6e",
+          "title": "NVIDIA 与 KRAFTON、NC、T1 在韩国 PC 房庆祝 RTX Spark 发布",
+          "url": "https://blogs.nvidia.com/blog/krafton-nc-t1-korea-gaming-pc-bang-rtx-spark",
+          "source": "aihot",
+          "source_name": "NVIDIA AI Blog",
+          "category": "ai-products",
+          "published_at": "2026-06-07T07:00:15.000Z",
+          "summary": "继上周 GTC Taipei 发布后，NVIDIA CEO Jensen Huang 前往韩国，向当地游戏社区正式介绍 RTX Spark 超芯片。该芯片集成 30 年 NVIDIA 技术，可在 Windows 笔记本上实现全天续航，并以 1440p 分辨率、超过 100fps 运行 AAA 游戏，支持包括 DLSS 4.5 Ray Reconstruction（基于第二代 Transformer 模型）在内的全套 RTX 技术。KRAFTON、NC 与 Riot Games 正合作将旗下游戏适配 RTX Spark。周五，Huang 在 T1 电竞场馆与 Faker 共同亮相，并突袭江南区网吧，演示《PUBG： BATTLEGROUNDS》及基于 NVIDIA ACE 的\"PUBG Ally\"AI 队友、《CINDER CITY》《AION 2》等作品。《CINDER CITY》首发支持 DLSS 4.5 动态多帧生成与超分辨率。已有超过 100 家 Windows 软件与游戏开发商采纳 RTX Spark。"
+        },
         {
           "id": "d950f91aaffc",
           "title": "Opus 4.8 缓存命中率与有效价格可实时查看",
@@ -313,7 +322,7 @@
           "source": "GitHub AI",
           "source_name": "GitHub AI",
           "category": "ai-tools",
-          "published_at": "2026-06-07T06:42:00.495013+00:00",
+          "published_at": "2026-06-07T09:50:41.794357+00:00",
           "summary": "Ongoing research training transformer models at scale"
         },
         {
@@ -323,7 +332,7 @@
           "source": "GitHub AI",
           "source_name": "GitHub AI",
           "category": "ai-tools",
-          "published_at": "2026-06-07T06:42:00.494457+00:00",
+          "published_at": "2026-06-07T09:50:41.793716+00:00",
           "summary": "The easiest, most secure way to use WireGuard and 2FA."
         },
         {
@@ -333,7 +342,7 @@
           "source": "GitHub AI",
           "source_name": "GitHub AI",
           "category": "ai-tools",
-          "published_at": "2026-06-07T06:42:00.494329+00:00",
+          "published_at": "2026-06-07T09:50:41.793572+00:00",
           "summary": "🦔 PostHog is an all-in-one developer platform for building successful products. We offer product analytics, web analytics, session replay, error tracking, feature flags, experimentation, surveys, data warehouse, a CDP, and an AI product assistant to help debug your code, ship features faster, and keep all your usage and customer data in one stack."
         },
         {
@@ -343,7 +352,7 @@
           "source": "GitHub AI",
           "source_name": "GitHub AI",
           "category": "ai-tools",
-          "published_at": "2026-06-07T06:42:00.494210+00:00",
+          "published_at": "2026-06-07T09:50:41.793411+00:00",
           "summary": "🤗 Transformers: the model-definition framework for state-of-the-art machine learning models in text, vision, audio, and multimodal models, for both inference and training."
         },
         {
@@ -353,7 +362,7 @@
           "source": "GitHub AI",
           "source_name": "GitHub AI",
           "category": "ai-tools",
-          "published_at": "2026-06-07T06:42:00.493698+00:00",
+          "published_at": "2026-06-07T09:50:41.792834+00:00",
           "summary": "The Postgres development platform. Supabase gives you a dedicated Postgres database to build your web, mobile, and AI applications."
         },
         {
@@ -363,7 +372,7 @@
           "source": "GitHub AI",
           "source_name": "GitHub AI",
           "category": "ai-tools",
-          "published_at": "2026-06-07T06:42:00.493408+00:00",
+          "published_at": "2026-06-07T09:50:41.792511+00:00",
           "summary": "Your AI second brain. Self-hostable. Get answers from the web or your docs. Build custom agents, schedule automations, do deep research. Turn any online or local LLM into your personal, autonomous AI (gpt, claude, gemini, llama, qwen, mistral). Get started - free."
         },
         {
@@ -373,7 +382,7 @@
           "source": "GitHub AI",
           "source_name": "GitHub AI",
           "category": "ai-tools",
-          "published_at": "2026-06-07T06:42:00.493032+00:00",
+          "published_at": "2026-06-07T09:50:41.792089+00:00",
           "summary": "Robust Speech Recognition via Large-Scale Weak Supervision"
         },
         {
@@ -383,7 +392,7 @@
           "source": "GitHub AI",
           "source_name": "GitHub AI",
           "category": "ai-tools",
-          "published_at": "2026-06-07T06:42:00.492882+00:00",
+          "published_at": "2026-06-07T09:50:41.791917+00:00",
           "summary": "Find vulnerabilities, misconfigurations, secrets, SBOM in containers, Kubernetes, code repositories, clouds and more"
         }
       ]
@@ -605,16 +614,6 @@
           "category": "tip",
           "published_at": "2026-06-05T05:16:06.561Z",
           "summary": "Open Code Review 是一个基于人工智能的代码审查命令行（CLI）工具，旨在帮助开发者通过自动化的方式提升代码审查效率。"
-        },
-        {
-          "id": "d56b1c013491",
-          "title": "375个公众号RSS源优化Agent输入",
-          "url": "https://x.com/hongming731/status/2062764845494317493",
-          "source": "aihot",
-          "source_name": "X：洪明 (@hongming731)",
-          "category": "tip",
-          "published_at": "2026-06-05T05:13:58.000Z",
-          "summary": "你的 Agent 还在全网垃圾里捞内容？不如先喂它 375 个高质量微信公众号 RSS 源。 🔽"
         }
       ]
     },
