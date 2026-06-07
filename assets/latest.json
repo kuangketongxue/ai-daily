@@ -1,10 +1,11 @@
 {
   "date": "2026-06-07",
-  "generated_at": "2026-06-07T14:19:40.144256",
+  "generated_at": "2026-06-07T15:57:48.875396",
   "total": 70,
   "sources": {
     "Hugging Face": 8,
     "GitHub AI": 8,
+    "Gary Marcus：The Road to AI We Can Trust（RSS）": 4,
     "Bloomberg：Technology（RSS）": 3,
     "Hacker News 热门（buzzing.cc 中文翻译）": 6,
     "X：阿易 AI Notes (@AYi_AInotes)": 1,
@@ -17,7 +18,6 @@
     "IT之家（RSS）": 4,
     "公众号：阶跃星辰（Step）": 2,
     "公众号：MiniMax（稀宇科技）": 1,
-    "Gary Marcus：The Road to AI We Can Trust（RSS）": 3,
     "X：MiniMax (@MiniMax_AI)": 1,
     "X：NVIDIA AI (@NVIDIAAI)": 1,
     "X：Microsoft Research (@MSFTResearch)": 1,
@@ -37,8 +37,7 @@
     "公众号：火山引擎": 1,
     "X：swyx (@swyx)": 1,
     "公众号：百度智能云（文心）": 1,
-    "公众号：通义实验室（千问）": 1,
-    "X：腾讯混元 (@TencentHunyuan)": 1
+    "公众号：通义实验室（千问）": 1
   },
   "ai_processed": false,
   "categories": {
@@ -312,7 +311,7 @@
           "source": "GitHub AI",
           "source_name": "GitHub AI",
           "category": "ai-tools",
-          "published_at": "2026-06-07T14:19:35.796123+00:00",
+          "published_at": "2026-06-07T15:57:47.898515+00:00",
           "summary": "A maintained, feature-rich and performance oriented, neofetch like system information tool."
         },
         {
@@ -322,7 +321,7 @@
           "source": "GitHub AI",
           "source_name": "GitHub AI",
           "category": "ai-tools",
-          "published_at": "2026-06-07T14:19:35.795134+00:00",
+          "published_at": "2026-06-07T15:57:47.897440+00:00",
           "summary": "The easiest, most secure way to use WireGuard and 2FA."
         },
         {
@@ -332,7 +331,7 @@
           "source": "GitHub AI",
           "source_name": "GitHub AI",
           "category": "ai-tools",
-          "published_at": "2026-06-07T14:19:35.794898+00:00",
+          "published_at": "2026-06-07T15:57:47.897181+00:00",
           "summary": "Find vulnerabilities, misconfigurations, secrets, SBOM in containers, Kubernetes, code repositories, clouds and more"
         },
         {
@@ -342,7 +341,7 @@
           "source": "GitHub AI",
           "source_name": "GitHub AI",
           "category": "ai-tools",
-          "published_at": "2026-06-07T14:19:35.794772+00:00",
+          "published_at": "2026-06-07T15:57:47.897022+00:00",
           "summary": "Robust Speech Recognition via Large-Scale Weak Supervision"
         },
         {
@@ -352,7 +351,7 @@
           "source": "GitHub AI",
           "source_name": "GitHub AI",
           "category": "ai-tools",
-          "published_at": "2026-06-07T14:19:35.794635+00:00",
+          "published_at": "2026-06-07T15:57:47.896882+00:00",
           "summary": "🎧 Open source music streaming app! Available for both desktop & mobile!"
         },
         {
@@ -362,7 +361,7 @@
           "source": "GitHub AI",
           "source_name": "GitHub AI",
           "category": "ai-tools",
-          "published_at": "2026-06-07T14:19:35.794310+00:00",
+          "published_at": "2026-06-07T15:57:47.896560+00:00",
           "summary": "The Open Source Feature Store for AI/ML"
         },
         {
@@ -372,7 +371,7 @@
           "source": "GitHub AI",
           "source_name": "GitHub AI",
           "category": "ai-tools",
-          "published_at": "2026-06-07T14:19:35.794165+00:00",
+          "published_at": "2026-06-07T15:57:47.896401+00:00",
           "summary": "Your AI second brain. Self-hostable. Get answers from the web or your docs. Build custom agents, schedule automations, do deep research. Turn any online or local LLM into your personal, autonomous AI (gpt, claude, gemini, llama, qwen, mistral). Get started - free."
         },
         {
@@ -382,7 +381,7 @@
           "source": "GitHub AI",
           "source_name": "GitHub AI",
           "category": "ai-tools",
-          "published_at": "2026-06-07T14:19:35.793952+00:00",
+          "published_at": "2026-06-07T15:57:47.896191+00:00",
           "summary": "Build product integrations with AI."
         }
       ]
@@ -445,6 +444,16 @@
     "tip": {
       "label": "💡 技巧",
       "items": [
+        {
+          "id": "da1b36d5d74f",
+          "title": "Slop、生产力，以及为何AI驱动的世界进展甚微",
+          "url": "https://garymarcus.substack.com/p/slop-productivity-and-why-the-ai",
+          "source": "aihot",
+          "source_name": "Gary Marcus：The Road to AI We Can Trust（RSS）",
+          "category": "tip",
+          "published_at": "2026-06-07T15:31:43.000Z",
+          "summary": "Gary Marcus在金融时报上看到John Burn-Murdoch的一张图表，认为它精准提炼了自己一直试图表达的观点。"
+        },
         {
           "id": "f2dd3134a7a2",
           "title": "苹果秘密会议内幕：它终于认真对待AI",
@@ -614,16 +623,6 @@
           "category": "tip",
           "published_at": "2026-06-05T11:10:26.000Z",
           "summary": "Satya Nadella 在 Latent Space 发布最新访谈，链接见原文。原推文仅评论\"chat is he cooked\"。"
-        },
-        {
-          "id": "81c0e8597156",
-          "title": "腾讯混元联合人大开源PlanningBench评估框架",
-          "url": "https://x.com/TencentHunyuan/status/2062803141314437391",
-          "source": "aihot",
-          "source_name": "X：腾讯混元 (@TencentHunyuan)",
-          "category": "tip",
-          "published_at": "2026-06-05T07:46:08.000Z",
-          "summary": "腾讯混元（Tencent Hunyuan）与中国人民大学高瓴人工智能学院合作，开源PlanningBench--一个可扩展、可验证的LLM规划能力评估与训练框架。该框架包含30+真实世界规划任务，支持自动验证和训练。PlanningBench旨在推动LLM从\"说\"到\"做\"的规划能力发展。资源已发布于arXiv、GitHub及HuggingFace。"
         }
       ]
     },
