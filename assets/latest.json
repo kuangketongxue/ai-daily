@@ -1,6 +1,6 @@
 {
   "date": "2026-06-07",
-  "generated_at": "2026-06-07T18:56:14.536348",
+  "generated_at": "2026-06-07T20:37:23.787940",
   "total": 70,
   "sources": {
     "Hugging Face": 8,
@@ -283,13 +283,13 @@
           "summary": ""
         },
         {
-          "id": "6b687c41720d",
-          "title": "Sponsors especially OPENAI CODEX voucher usage for codex - openAI challange",
-          "url": "https://huggingface.co/blog/build-small-hackathon/sponsors-vouchers",
+          "id": "c5ecf752bbdc",
+          "title": "Amazing Digital Dentures (a failed project)",
+          "url": "https://huggingface.co/blog/build-small-hackathon/amazingdigitaldentures",
           "source": "Hugging Face",
           "source_name": "Hugging Face",
           "category": "ai-tools",
-          "published_at": "Sun, 07 Jun 2026 11:38:54 GMT",
+          "published_at": "Sun, 07 Jun 2026 19:44:27 GMT",
           "summary": ""
         },
         {
@@ -309,7 +309,7 @@
           "source": "GitHub AI",
           "source_name": "GitHub AI",
           "category": "ai-tools",
-          "published_at": "2026-06-07T18:56:08.292600+00:00",
+          "published_at": "2026-06-07T20:37:22.561646+00:00",
           "summary": "A maintained, feature-rich and performance oriented, neofetch like system information tool."
         },
         {
@@ -319,7 +319,7 @@
           "source": "GitHub AI",
           "source_name": "GitHub AI",
           "category": "ai-tools",
-          "published_at": "2026-06-07T18:56:08.291504+00:00",
+          "published_at": "2026-06-07T20:37:22.560705+00:00",
           "summary": "The easiest, most secure way to use WireGuard and 2FA."
         },
         {
@@ -329,7 +329,7 @@
           "source": "GitHub AI",
           "source_name": "GitHub AI",
           "category": "ai-tools",
-          "published_at": "2026-06-07T18:56:08.291218+00:00",
+          "published_at": "2026-06-07T20:37:22.560479+00:00",
           "summary": "Find vulnerabilities, misconfigurations, secrets, SBOM in containers, Kubernetes, code repositories, clouds and more"
         },
         {
@@ -339,7 +339,7 @@
           "source": "GitHub AI",
           "source_name": "GitHub AI",
           "category": "ai-tools",
-          "published_at": "2026-06-07T18:56:08.291079+00:00",
+          "published_at": "2026-06-07T20:37:22.560356+00:00",
           "summary": "Robust Speech Recognition via Large-Scale Weak Supervision"
         },
         {
@@ -349,7 +349,7 @@
           "source": "GitHub AI",
           "source_name": "GitHub AI",
           "category": "ai-tools",
-          "published_at": "2026-06-07T18:56:08.290936+00:00",
+          "published_at": "2026-06-07T20:37:22.560239+00:00",
           "summary": "🎧 Open source music streaming app! Available for both desktop & mobile!"
         },
         {
@@ -359,7 +359,7 @@
           "source": "GitHub AI",
           "source_name": "GitHub AI",
           "category": "ai-tools",
-          "published_at": "2026-06-07T18:56:08.290663+00:00",
+          "published_at": "2026-06-07T20:37:22.559998+00:00",
           "summary": "The Open Source Feature Store for AI/ML"
         },
         {
@@ -369,7 +369,7 @@
           "source": "GitHub AI",
           "source_name": "GitHub AI",
           "category": "ai-tools",
-          "published_at": "2026-06-07T18:56:08.290494+00:00",
+          "published_at": "2026-06-07T20:37:22.559835+00:00",
           "summary": "Your AI second brain. Self-hostable. Get answers from the web or your docs. Build custom agents, schedule automations, do deep research. Turn any online or local LLM into your personal, autonomous AI (gpt, claude, gemini, llama, qwen, mistral). Get started - free."
         },
         {
@@ -379,7 +379,7 @@
           "source": "GitHub AI",
           "source_name": "GitHub AI",
           "category": "ai-tools",
-          "published_at": "2026-06-07T18:56:08.290257+00:00",
+          "published_at": "2026-06-07T20:37:22.559638+00:00",
           "summary": "Build product integrations with AI."
         }
       ]
