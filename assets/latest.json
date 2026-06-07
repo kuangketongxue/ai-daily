@@ -1,18 +1,19 @@
 {
   "date": "2026-06-07",
-  "generated_at": "2026-06-07T09:50:46.308046",
+  "generated_at": "2026-06-07T12:01:41.044813",
   "total": 70,
   "sources": {
     "Hugging Face": 8,
     "GitHub AI": 8,
-    "NVIDIA AI Blog": 2,
+    "X：阿易 AI Notes (@AYi_AInotes)": 1,
+    "Hugging Face：Blog（RSS）": 5,
+    "NVIDIA AI Blog": 1,
     "MarkTechPost（RSS）": 1,
     "X：OpenRouter (@OpenRouter)": 2,
-    "Hacker News 热门（buzzing.cc 中文翻译）": 6,
+    "Hacker News 热门（buzzing.cc 中文翻译）": 5,
     "X：宝玉 (@dotey)": 1,
     "X：Rohan Paul (@rohanpaul_ai)": 3,
     "IT之家（RSS）": 4,
-    "Hugging Face：Blog（RSS）": 4,
     "公众号：阶跃星辰（Step）": 2,
     "公众号：MiniMax（稀宇科技）": 1,
     "Gary Marcus：The Road to AI We Can Trust（RSS）": 3,
@@ -70,6 +71,16 @@
     "ai-products": {
       "label": "🚀 AI 产品",
       "items": [
+        {
+          "id": "7520ca336ad6",
+          "title": "Her · हेर - Claude Code 会话分析工具",
+          "url": "https://huggingface.co/blog/build-small-hackathon/her-blog",
+          "source": "aihot",
+          "source_name": "Hugging Face：Blog（RSS）",
+          "category": "ai-products",
+          "published_at": "2026-06-07T10:13:41.000Z",
+          "summary": "Her（हेर）是专为 Claude Code 设计的会话分析工具。用户上传 `.jsonl` 文件后，Her 用自然语言重建每轮交互，标记部署、配置变更、秘密等高风险操作并定位到具体轮次。它展示 token 消耗、所用工具、子智能体、技能和 MCP 服务器，并结合 Anthropic 与社区最佳实践给出改进建议（仅在有明确可修复模式时）。内置\"Ask Her\"问答功能，支持单会话与跨会话项目分析。工具不调用第三方 AI API，使用 Nemotron-Mini-4B-Instruct 模型在 Hugging Face ZeroGPU 上运行，评估引擎完全确定，模型仅负责文本生成与建议。Her 内置 Homebrew、npm、PyPI 主流 CLI 工具数据库，自动识别会话中使用的工具，并对部署工具、数据库客户端等执行活动进行标记提醒。"
+        },
         {
           "id": "c5e3fe7ebc6e",
           "title": "NVIDIA 与 KRAFTON、NC、T1 在韩国 PC 房庆祝 RTX Spark 发布",
@@ -296,13 +307,13 @@
           "summary": ""
         },
         {
-          "id": "c5c28b6e2659",
-          "title": "Five labs, five minds: building a multi-model finance drama on small models",
-          "url": "https://huggingface.co/blog/build-small-hackathon/thousand-token-wood-sim-v2",
+          "id": "6b687c41720d",
+          "title": "Sponsors especially OPENAI CODEX voucher usage for codex - openAI challange",
+          "url": "https://huggingface.co/blog/build-small-hackathon/sponsors-vouchers",
           "source": "Hugging Face",
           "source_name": "Hugging Face",
           "category": "ai-tools",
-          "published_at": "Sat, 06 Jun 2026 19:02:33 GMT",
+          "published_at": "Sun, 07 Jun 2026 11:38:54 GMT",
           "summary": ""
         },
         {
@@ -316,14 +327,14 @@
           "summary": ""
         },
         {
-          "id": "a9d0db943297",
-          "title": "⭐ NVIDIA/Megatron-LM",
-          "url": "https://github.com/NVIDIA/Megatron-LM",
+          "id": "c251a02c6e67",
+          "title": "⭐ fastfetch-cli/fastfetch",
+          "url": "https://github.com/fastfetch-cli/fastfetch",
           "source": "GitHub AI",
           "source_name": "GitHub AI",
           "category": "ai-tools",
-          "published_at": "2026-06-07T09:50:41.794357+00:00",
-          "summary": "Ongoing research training transformer models at scale"
+          "published_at": "2026-06-07T12:01:37.501621+00:00",
+          "summary": "A maintained, feature-rich and performance oriented, neofetch like system information tool."
         },
         {
           "id": "04c3de1b9f8f",
@@ -332,58 +343,8 @@
           "source": "GitHub AI",
           "source_name": "GitHub AI",
           "category": "ai-tools",
-          "published_at": "2026-06-07T09:50:41.793716+00:00",
+          "published_at": "2026-06-07T12:01:37.500639+00:00",
           "summary": "The easiest, most secure way to use WireGuard and 2FA."
-        },
-        {
-          "id": "21fb6843c0a7",
-          "title": "⭐ PostHog/posthog",
-          "url": "https://github.com/PostHog/posthog",
-          "source": "GitHub AI",
-          "source_name": "GitHub AI",
-          "category": "ai-tools",
-          "published_at": "2026-06-07T09:50:41.793572+00:00",
-          "summary": "🦔 PostHog is an all-in-one developer platform for building successful products. We offer product analytics, web analytics, session replay, error tracking, feature flags, experimentation, surveys, data warehouse, a CDP, and an AI product assistant to help debug your code, ship features faster, and keep all your usage and customer data in one stack."
-        },
-        {
-          "id": "23bf05c3e846",
-          "title": "⭐ huggingface/transformers",
-          "url": "https://github.com/huggingface/transformers",
-          "source": "GitHub AI",
-          "source_name": "GitHub AI",
-          "category": "ai-tools",
-          "published_at": "2026-06-07T09:50:41.793411+00:00",
-          "summary": "🤗 Transformers: the model-definition framework for state-of-the-art machine learning models in text, vision, audio, and multimodal models, for both inference and training."
-        },
-        {
-          "id": "b689521e7dcb",
-          "title": "⭐ supabase/supabase",
-          "url": "https://github.com/supabase/supabase",
-          "source": "GitHub AI",
-          "source_name": "GitHub AI",
-          "category": "ai-tools",
-          "published_at": "2026-06-07T09:50:41.792834+00:00",
-          "summary": "The Postgres development platform. Supabase gives you a dedicated Postgres database to build your web, mobile, and AI applications."
-        },
-        {
-          "id": "4787c587f0ea",
-          "title": "⭐ khoj-ai/khoj",
-          "url": "https://github.com/khoj-ai/khoj",
-          "source": "GitHub AI",
-          "source_name": "GitHub AI",
-          "category": "ai-tools",
-          "published_at": "2026-06-07T09:50:41.792511+00:00",
-          "summary": "Your AI second brain. Self-hostable. Get answers from the web or your docs. Build custom agents, schedule automations, do deep research. Turn any online or local LLM into your personal, autonomous AI (gpt, claude, gemini, llama, qwen, mistral). Get started - free."
-        },
-        {
-          "id": "b8d37aa6cd3a",
-          "title": "⭐ openai/whisper",
-          "url": "https://github.com/openai/whisper",
-          "source": "GitHub AI",
-          "source_name": "GitHub AI",
-          "category": "ai-tools",
-          "published_at": "2026-06-07T09:50:41.792089+00:00",
-          "summary": "Robust Speech Recognition via Large-Scale Weak Supervision"
         },
         {
           "id": "6384330518cc",
@@ -392,8 +353,58 @@
           "source": "GitHub AI",
           "source_name": "GitHub AI",
           "category": "ai-tools",
-          "published_at": "2026-06-07T09:50:41.791917+00:00",
+          "published_at": "2026-06-07T12:01:37.500403+00:00",
           "summary": "Find vulnerabilities, misconfigurations, secrets, SBOM in containers, Kubernetes, code repositories, clouds and more"
+        },
+        {
+          "id": "b8d37aa6cd3a",
+          "title": "⭐ openai/whisper",
+          "url": "https://github.com/openai/whisper",
+          "source": "GitHub AI",
+          "source_name": "GitHub AI",
+          "category": "ai-tools",
+          "published_at": "2026-06-07T12:01:37.500279+00:00",
+          "summary": "Robust Speech Recognition via Large-Scale Weak Supervision"
+        },
+        {
+          "id": "8671ab41e0cc",
+          "title": "⭐ KRTirtho/spotube",
+          "url": "https://github.com/KRTirtho/spotube",
+          "source": "GitHub AI",
+          "source_name": "GitHub AI",
+          "category": "ai-tools",
+          "published_at": "2026-06-07T12:01:37.500161+00:00",
+          "summary": "🎧 Open source music streaming app! Available for both desktop & mobile!"
+        },
+        {
+          "id": "1c344c8b0071",
+          "title": "⭐ feast-dev/feast",
+          "url": "https://github.com/feast-dev/feast",
+          "source": "GitHub AI",
+          "source_name": "GitHub AI",
+          "category": "ai-tools",
+          "published_at": "2026-06-07T12:01:37.499823+00:00",
+          "summary": "The Open Source Feature Store for AI/ML"
+        },
+        {
+          "id": "4787c587f0ea",
+          "title": "⭐ khoj-ai/khoj",
+          "url": "https://github.com/khoj-ai/khoj",
+          "source": "GitHub AI",
+          "source_name": "GitHub AI",
+          "category": "ai-tools",
+          "published_at": "2026-06-07T12:01:37.499676+00:00",
+          "summary": "Your AI second brain. Self-hostable. Get answers from the web or your docs. Build custom agents, schedule automations, do deep research. Turn any online or local LLM into your personal, autonomous AI (gpt, claude, gemini, llama, qwen, mistral). Get started - free."
+        },
+        {
+          "id": "36a6419c832e",
+          "title": "⭐ NangoHQ/nango",
+          "url": "https://github.com/NangoHQ/nango",
+          "source": "GitHub AI",
+          "source_name": "GitHub AI",
+          "category": "ai-tools",
+          "published_at": "2026-06-07T12:01:37.499471+00:00",
+          "summary": "Build product integrations with AI."
         }
       ]
     },
@@ -455,6 +466,16 @@
     "tip": {
       "label": "💡 技巧",
       "items": [
+        {
+          "id": "bc95550e4bf0",
+          "title": "\"我在田里雇了一名工程师，它叫 Codex\" -- 北海道一个西兰花农的 8 个真实 AI 用法",
+          "url": "https://x.com/AYi_AInotes/status/2063573709672104286",
+          "source": "aihot",
+          "source_name": "X：阿易 AI Notes (@AYi_AInotes)",
+          "category": "tip",
+          "published_at": "2026-06-07T10:48:06.000Z",
+          "summary": "日本北海道农民富安弘毅用 ChatGPT 和 Codex 解决农场实际问题，涵盖 8 个用法：拍照识别西兰花病害、卫星监测获取 NDVI 数据、用 ESP32 和 LINE 机器人远程控制温室卷帘、为农场群聊开发机器人管理温度与排期、从聊天记录追踪播种数量、学习 RTK-GPS 自动转向原理并评估自建成本、设计基于 Airtable 的农场管理数据库。他说 AI 让传统昂贵的自动化变得低成本可及，\"如同身边有一位超级工程师\"。"
+        },
         {
           "id": "6f3bda83a297",
           "title": "Harness 工程：在智能体优先的世界中运用 Codex",
@@ -604,16 +625,6 @@
           "category": "tip",
           "published_at": "2026-06-05T07:46:08.000Z",
           "summary": "腾讯混元（Tencent Hunyuan）与中国人民大学高瓴人工智能学院合作，开源PlanningBench--一个可扩展、可验证的LLM规划能力评估与训练框架。该框架包含30+真实世界规划任务，支持自动验证和训练。PlanningBench旨在推动LLM从\"说\"到\"做\"的规划能力发展。资源已发布于arXiv、GitHub及HuggingFace。"
-        },
-        {
-          "id": "a833da9f822e",
-          "title": "Open Code Review - 一款基于人工智能的代码审查命令行工具",
-          "url": "https://github.com/alibaba/open-code-review",
-          "source": "aihot",
-          "source_name": "Hacker News 热门（buzzing.cc 中文翻译）",
-          "category": "tip",
-          "published_at": "2026-06-05T05:16:06.561Z",
-          "summary": "Open Code Review 是一个基于人工智能的代码审查命令行（CLI）工具，旨在帮助开发者通过自动化的方式提升代码审查效率。"
         }
       ]
     },
@@ -764,16 +775,6 @@
           "category": "industry",
           "published_at": "2026-06-05T10:52:01.000Z",
           "summary": "FluxA与百度智能云达成合作，标志着DAA时代到来--AI开始实现自身盈利，不再依赖外部投入。"
-        },
-        {
-          "id": "3f86c466b7c4",
-          "title": "NVIDIA CEO 黄仁勋访问首尔：与韩国共建 AI 未来",
-          "url": "https://blogs.nvidia.com/blog/korea-ecosystem-2026",
-          "source": "aihot",
-          "source_name": "NVIDIA AI Blog",
-          "category": "industry",
-          "published_at": "2026-06-05T05:38:37.000Z",
-          "summary": "NVIDIA 创始人兼 CEO 黄仁勋本周到访首尔，会见韩国的 AI 建造者、主权基础设施合作伙伴及游戏社区。黄仁勋表示，为应对下半年繁忙的 AI 基础设施建设，需对齐 AI 供应链。他指出 Grace Blackwell 系统表现良好，Vera Rubin 已全面投产。他还强调机器人技术将成为韩国的下一个重要产业，并呼吁韩国投资 AI。"
         }
       ]
     }
