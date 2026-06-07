@@ -1,14 +1,17 @@
 {
   "date": "2026-06-07",
-  "generated_at": "2026-06-07T01:57:19.493946",
+  "generated_at": "2026-06-07T06:42:01.714692",
   "total": 70,
   "sources": {
     "Hugging Face": 8,
     "GitHub AI": 8,
+    "MarkTechPost（RSS）": 1,
+    "X：OpenRouter (@OpenRouter)": 2,
+    "Hacker News 热门（buzzing.cc 中文翻译）": 6,
+    "X：宝玉 (@dotey)": 1,
     "X：Rohan Paul (@rohanpaul_ai)": 3,
-    "IT之家（RSS）": 6,
+    "IT之家（RSS）": 4,
     "Hugging Face：Blog（RSS）": 4,
-    "Hacker News 热门（buzzing.cc 中文翻译）": 5,
     "公众号：阶跃星辰（Step）": 2,
     "公众号：MiniMax（稀宇科技）": 1,
     "Gary Marcus：The Road to AI We Can Trust（RSS）": 3,
@@ -17,7 +20,6 @@
     "Bloomberg：Technology（RSS）": 2,
     "X：Microsoft Research (@MSFTResearch)": 1,
     "X：Michael Truell (@mntruell)": 1,
-    "X：OpenRouter (@OpenRouter)": 1,
     "X：ChatGPT (@ChatGPTapp)": 1,
     "X：Google AI (@GoogleAI)": 1,
     "X：Gemini (@GeminiApp)": 1,
@@ -37,15 +39,23 @@
     "X：腾讯混元 (@TencentHunyuan)": 1,
     "X：阿里云 / Alibaba Cloud (@alibaba_cloud)": 2,
     "NVIDIA AI Blog": 1,
-    "X：洪明 (@hongming731)": 1,
-    "公众号：数字生命卡兹克": 1,
-    "Tomer Tunguz 博客（VC 分析）": 1
+    "X：洪明 (@hongming731)": 1
   },
   "ai_processed": false,
   "categories": {
     "ai-models": {
       "label": "🧠 AI 模型",
       "items": [
+        {
+          "id": "bf8740541b39",
+          "title": "Harness-1：基于强化学习训练的有状态搜索20B检索子智能体",
+          "url": "https://www.marktechpost.com/2026/06/06/meet-harness-1-a-20b-retrieval-subagent-trained-with-reinforcement-learning-inside-a-stateful-search-harness-on-gpt-oss-20b",
+          "source": "aihot",
+          "source_name": "MarkTechPost（RSS）",
+          "category": "ai-models",
+          "published_at": "2026-06-07T06:25:18.000Z",
+          "summary": "UIUC与Chroma联合推出Harness-1，一个20B参数的检索子智能体。它通过强化学习在一个有状态搜索框架中训练，该框架维护候选池、重要性标注集、证据图和验证记录，由策略决定搜索、筛选、验证及停止的时机。Harness-1在8个基准测试上达到0.730平均curated recall，比下一个最佳开源子智能体高出11.4个百分点，仅落后于Opus-4.6。模型权重和框架代码均已公开。"
+        },
         {
           "id": "3f66b2b108f3",
           "title": "Riverflow 2.5：可控制评分标准的图像模型",
@@ -61,6 +71,16 @@
     "ai-products": {
       "label": "🚀 AI 产品",
       "items": [
+        {
+          "id": "d950f91aaffc",
+          "title": "Opus 4.8 缓存命中率与有效价格可实时查看",
+          "url": "https://x.com/OpenRouter/status/2063504950429147376",
+          "source": "aihot",
+          "source_name": "X：OpenRouter (@OpenRouter)",
+          "category": "ai-products",
+          "published_at": "2026-06-07T06:14:52.000Z",
+          "summary": "不同模型提供商在缓存命中率和有效价格上有什么差异？\n\n现在你可以从 Pricing 标签查看实时缓存命中率和历史流量。这里是 Opus 4.8：https：//openrouter.ai/anthropic/claude-opus-4.8/pricing"
+        },
         {
           "id": "8b10abb5c1ee",
           "title": "GitHub 开源 Spec Kit 工具包，用产品规范引导 AI 编码",
@@ -293,7 +313,7 @@
           "source": "GitHub AI",
           "source_name": "GitHub AI",
           "category": "ai-tools",
-          "published_at": "2026-06-07T01:57:15.056618+00:00",
+          "published_at": "2026-06-07T06:42:00.495013+00:00",
           "summary": "Ongoing research training transformer models at scale"
         },
         {
@@ -303,7 +323,7 @@
           "source": "GitHub AI",
           "source_name": "GitHub AI",
           "category": "ai-tools",
-          "published_at": "2026-06-07T01:57:15.056071+00:00",
+          "published_at": "2026-06-07T06:42:00.494457+00:00",
           "summary": "The easiest, most secure way to use WireGuard and 2FA."
         },
         {
@@ -313,7 +333,7 @@
           "source": "GitHub AI",
           "source_name": "GitHub AI",
           "category": "ai-tools",
-          "published_at": "2026-06-07T01:57:15.055956+00:00",
+          "published_at": "2026-06-07T06:42:00.494329+00:00",
           "summary": "🦔 PostHog is an all-in-one developer platform for building successful products. We offer product analytics, web analytics, session replay, error tracking, feature flags, experimentation, surveys, data warehouse, a CDP, and an AI product assistant to help debug your code, ship features faster, and keep all your usage and customer data in one stack."
         },
         {
@@ -323,7 +343,7 @@
           "source": "GitHub AI",
           "source_name": "GitHub AI",
           "category": "ai-tools",
-          "published_at": "2026-06-07T01:57:15.055837+00:00",
+          "published_at": "2026-06-07T06:42:00.494210+00:00",
           "summary": "🤗 Transformers: the model-definition framework for state-of-the-art machine learning models in text, vision, audio, and multimodal models, for both inference and training."
         },
         {
@@ -333,7 +353,7 @@
           "source": "GitHub AI",
           "source_name": "GitHub AI",
           "category": "ai-tools",
-          "published_at": "2026-06-07T01:57:15.055309+00:00",
+          "published_at": "2026-06-07T06:42:00.493698+00:00",
           "summary": "The Postgres development platform. Supabase gives you a dedicated Postgres database to build your web, mobile, and AI applications."
         },
         {
@@ -343,7 +363,7 @@
           "source": "GitHub AI",
           "source_name": "GitHub AI",
           "category": "ai-tools",
-          "published_at": "2026-06-07T01:57:15.055030+00:00",
+          "published_at": "2026-06-07T06:42:00.493408+00:00",
           "summary": "Your AI second brain. Self-hostable. Get answers from the web or your docs. Build custom agents, schedule automations, do deep research. Turn any online or local LLM into your personal, autonomous AI (gpt, claude, gemini, llama, qwen, mistral). Get started - free."
         },
         {
@@ -353,7 +373,7 @@
           "source": "GitHub AI",
           "source_name": "GitHub AI",
           "category": "ai-tools",
-          "published_at": "2026-06-07T01:57:15.054661+00:00",
+          "published_at": "2026-06-07T06:42:00.493032+00:00",
           "summary": "Robust Speech Recognition via Large-Scale Weak Supervision"
         },
         {
@@ -363,7 +383,7 @@
           "source": "GitHub AI",
           "source_name": "GitHub AI",
           "category": "ai-tools",
-          "published_at": "2026-06-07T01:57:15.054507+00:00",
+          "published_at": "2026-06-07T06:42:00.492882+00:00",
           "summary": "Find vulnerabilities, misconfigurations, secrets, SBOM in containers, Kubernetes, code repositories, clouds and more"
         }
       ]
@@ -426,6 +446,26 @@
     "tip": {
       "label": "💡 技巧",
       "items": [
+        {
+          "id": "6f3bda83a297",
+          "title": "Harness 工程：在智能体优先的世界中运用 Codex",
+          "url": "https://openai.com/index/harness-engineering",
+          "source": "aihot",
+          "source_name": "Hacker News 热门（buzzing.cc 中文翻译）",
+          "category": "tip",
+          "published_at": "2026-06-07T03:39:37.239Z",
+          "summary": "Harness 工程在智能体优先的世界中利用 OpenAI Codex 的实践文章，6月6日发布于 openai.com，在 Hacker News 上获得 102 点热度。"
+        },
+        {
+          "id": "cf4ac47ee3aa",
+          "title": "对比一下 GPT-5.5 的设计效果和 Opus 4.8 的设计效果",
+          "url": "https://x.com/dotey/status/2063464057647075379",
+          "source": "aihot",
+          "source_name": "X：宝玉 (@dotey)",
+          "category": "tip",
+          "published_at": "2026-06-07T03:32:23.000Z",
+          "summary": "宝玉对比了GPT-5.5与Opus 4.8的设计能力，认为Opus 4.8效果远优于GPT-5.5。他使用了基于Cursor浏览器和元素标注的baoyu-design Skill，该Skill通过npx skills add JimLiu/baoyu-design安装，可在本地运行：描述屏幕需求即可生成精良HTML，点击预览中任意元素即可发出修改指令。官方推荐搭配Opus 4.8以获得最佳效果。工具GitHub仓库：https：//github.com/JimLiu/baoyu-design。"
+        },
         {
           "id": "705820132098",
           "title": "AI 的黑色星期五",
@@ -575,26 +615,6 @@
           "category": "tip",
           "published_at": "2026-06-05T05:13:58.000Z",
           "summary": "你的 Agent 还在全网垃圾里捞内容？不如先喂它 375 个高质量微信公众号 RSS 源。 🔽"
-        },
-        {
-          "id": "7e8de9d4d795",
-          "title": "Anthropic万字长文：当AI开始构建自己，人类该何去何从？",
-          "url": "https://mp.weixin.qq.com/s/mJbuKJChVk7ktIHEtKzChg",
-          "source": "aihot",
-          "source_name": "公众号：数字生命卡兹克",
-          "category": "tip",
-          "published_at": "2026-06-05T01:31:15.000Z",
-          "summary": null
-        },
-        {
-          "id": "a8c93ec622ce",
-          "title": "AI的微型钢厂",
-          "url": "https://www.tomtunguz.com/using-local-ai-to-work-faster",
-          "source": "aihot",
-          "source_name": "Tomer Tunguz 博客（VC 分析）",
-          "category": "tip",
-          "published_at": "2026-06-05T00:00:00.000Z",
-          "summary": "作者通过技能蒸馏将78%的AI工作交由Mac本地模型处理，仅复杂任务发往云端。智能体自动分类任务：简单任务本地数秒完成，复杂任务路由至云端。过去一周本地处理峰值达88%。双车道设计使吞吐量提升约25%，平均任务时长从47秒降至19秒，队列等待时间从73秒降至4秒（降幅94%）。该模式类比Nucor小钢厂，每台能运行蒸馏模型的边缘设备都成为小型AI工厂，仅对那1/5困难任务支付云费用。未来几年，数以千万计的此类设备将在企业内部增殖，逐步取代现阶段云厂商账单上的大部分工作负载。"
         }
       ]
     },
@@ -755,26 +775,6 @@
           "category": "industry",
           "published_at": "2026-06-05T05:38:37.000Z",
           "summary": "NVIDIA 创始人兼 CEO 黄仁勋本周到访首尔，会见韩国的 AI 建造者、主权基础设施合作伙伴及游戏社区。黄仁勋表示，为应对下半年繁忙的 AI 基础设施建设，需对齐 AI 供应链。他指出 Grace Blackwell 系统表现良好，Vera Rubin 已全面投产。他还强调机器人技术将成为韩国的下一个重要产业，并呼吁韩国投资 AI。"
-        },
-        {
-          "id": "619e8f8c96f2",
-          "title": "腾讯高级执行副总裁汤道生：今年腾讯大部分代码都由 AI 生成",
-          "url": "https://www.ithome.com/0/960/323.htm",
-          "source": "aihot",
-          "source_name": "IT之家（RSS）",
-          "category": "industry",
-          "published_at": "2026-06-05T03:04:23.000Z",
-          "summary": "在 6 月 5 日的腾讯云 AI 产业应用大会上，腾讯高级执行副总裁汤道生表示，今年腾讯大部分代码都由 AI 生成，工程师将更多时间用于架构设计，定期指导与修正 AI 输出。腾讯 2026 年 Q1 财报显示，重组后的 AI 研发团队重构了基础设施，并搭建了 Hy3 preview 模型。腾讯总裁刘炽平今年 3 月透露，去年腾讯在 AI 新产品上投入 180 亿元，今年投入至少翻倍。"
-        },
-        {
-          "id": "ea6de477773c",
-          "title": "Anthropic 称其最新 AI 模型 Mythos 显现脱离人类控制迹象，呼吁全球暂缓先进 AI 研发",
-          "url": "https://www.ithome.com/0/960/218.htm",
-          "source": "aihot",
-          "source_name": "IT之家（RSS）",
-          "category": "industry",
-          "published_at": "2026-06-05T01:16:34.000Z",
-          "summary": "Anthropic 发布报告称其最新 AI 模型已显现脱离人类控制迹象，呼吁全球暂缓前沿 AI 开发，以便社会制度建设和对齐研究跟上进展。该公司主张美国、中国等主要 AI 公司达成共识，发布可验证的规则，并类比\"核武器不扩散条约\"，但指出 AI 更难监管。该观点引发美国白宫部分官员不满，批评其夸大风险。Anthropic 计划未来数月召集各方探讨全球协调机制如何运作。"
         }
       ]
     }
