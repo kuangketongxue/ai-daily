@@ -1,16 +1,17 @@
 {
   "date": "2026-06-07",
-  "generated_at": "2026-06-07T12:01:41.044813",
+  "generated_at": "2026-06-07T14:19:40.144256",
   "total": 70,
   "sources": {
     "Hugging Face": 8,
     "GitHub AI": 8,
+    "Bloomberg：Technology（RSS）": 3,
+    "Hacker News 热门（buzzing.cc 中文翻译）": 6,
     "X：阿易 AI Notes (@AYi_AInotes)": 1,
     "Hugging Face：Blog（RSS）": 5,
     "NVIDIA AI Blog": 1,
     "MarkTechPost（RSS）": 1,
     "X：OpenRouter (@OpenRouter)": 2,
-    "Hacker News 热门（buzzing.cc 中文翻译）": 5,
     "X：宝玉 (@dotey)": 1,
     "X：Rohan Paul (@rohanpaul_ai)": 3,
     "IT之家（RSS）": 4,
@@ -19,7 +20,6 @@
     "Gary Marcus：The Road to AI We Can Trust（RSS）": 3,
     "X：MiniMax (@MiniMax_AI)": 1,
     "X：NVIDIA AI (@NVIDIAAI)": 1,
-    "Bloomberg：Technology（RSS）": 2,
     "X：Microsoft Research (@MSFTResearch)": 1,
     "X：Michael Truell (@mntruell)": 1,
     "X：ChatGPT (@ChatGPTapp)": 1,
@@ -38,8 +38,7 @@
     "X：swyx (@swyx)": 1,
     "公众号：百度智能云（文心）": 1,
     "公众号：通义实验室（千问）": 1,
-    "X：腾讯混元 (@TencentHunyuan)": 1,
-    "X：阿里云 / Alibaba Cloud (@alibaba_cloud)": 2
+    "X：腾讯混元 (@TencentHunyuan)": 1
   },
   "ai_processed": false,
   "categories": {
@@ -220,26 +219,6 @@
           "category": "ai-products",
           "published_at": "2026-06-05T11:17:53.000Z",
           "summary": "Seedance 2.0进入广告核心生产流程，旨在同时应对品牌TVC的高质感、叙事统一需求与效果素材的快速迭代、量产压力。传统广告制作中，品牌广告与效果广告依赖两套不同的生产体系，前者周期长、重视觉统一，后者需高频更新。Seedance 2.0试图融合两种模式，提升内容上新速度和项目交付效率。"
-        },
-        {
-          "id": "782a7172bb35",
-          "title": "PolarDB-X Zero 上线：30秒全分布式数据库",
-          "url": "https://x.com/alibaba_cloud/status/2062781182417490310",
-          "source": "aihot",
-          "source_name": "X：阿里云 / Alibaba Cloud (@alibaba_cloud)",
-          "category": "ai-products",
-          "published_at": "2026-06-05T06:18:53.000Z",
-          "summary": "PolarDB-X Zero 上线了！\n\n无需注册。无需配置。只需一次 API 调用。\n30 秒内获得一个全分布式数据库。\n原生 HNSW 向量索引--内置兼容 MySQL 的引擎。\n关系型 + 语义搜索--一条 SQL 语句。\nAI 智能体就绪--MCP 协议、AI IDE 兼容（Cursor、Claude、Qoder、Qodex 等）\n\n立即尝试：https：//zero.polardbx.com\n#AlibabaCloud #PolarDB #ApsaraDB"
-        },
-        {
-          "id": "31c1f1a56684",
-          "title": "阿里云发布SkillClaw与Nacos的Agent技能进化循环",
-          "url": "https://x.com/alibaba_cloud/status/2062777684120244656",
-          "source": "aihot",
-          "source_name": "X：阿里云 / Alibaba Cloud (@alibaba_cloud)",
-          "category": "ai-products",
-          "published_at": "2026-06-05T06:04:59.000Z",
-          "summary": "阿里云推出SkillClaw与Nacos结合，构建AI智能体技能进化流水线。关键特性：自动从真实对话中提取经验并封装为可复用技能（Skill）；Nacos负责集中化版本管理、审核与审计；打破本地孤岛，实现团队安全共享与分发；形成完整的\"生成-治理-分发\"持续进化闭环。目标是将个人洞察转化为团队的AI资产。"
         }
       ]
     },
@@ -333,7 +312,7 @@
           "source": "GitHub AI",
           "source_name": "GitHub AI",
           "category": "ai-tools",
-          "published_at": "2026-06-07T12:01:37.501621+00:00",
+          "published_at": "2026-06-07T14:19:35.796123+00:00",
           "summary": "A maintained, feature-rich and performance oriented, neofetch like system information tool."
         },
         {
@@ -343,7 +322,7 @@
           "source": "GitHub AI",
           "source_name": "GitHub AI",
           "category": "ai-tools",
-          "published_at": "2026-06-07T12:01:37.500639+00:00",
+          "published_at": "2026-06-07T14:19:35.795134+00:00",
           "summary": "The easiest, most secure way to use WireGuard and 2FA."
         },
         {
@@ -353,7 +332,7 @@
           "source": "GitHub AI",
           "source_name": "GitHub AI",
           "category": "ai-tools",
-          "published_at": "2026-06-07T12:01:37.500403+00:00",
+          "published_at": "2026-06-07T14:19:35.794898+00:00",
           "summary": "Find vulnerabilities, misconfigurations, secrets, SBOM in containers, Kubernetes, code repositories, clouds and more"
         },
         {
@@ -363,7 +342,7 @@
           "source": "GitHub AI",
           "source_name": "GitHub AI",
           "category": "ai-tools",
-          "published_at": "2026-06-07T12:01:37.500279+00:00",
+          "published_at": "2026-06-07T14:19:35.794772+00:00",
           "summary": "Robust Speech Recognition via Large-Scale Weak Supervision"
         },
         {
@@ -373,7 +352,7 @@
           "source": "GitHub AI",
           "source_name": "GitHub AI",
           "category": "ai-tools",
-          "published_at": "2026-06-07T12:01:37.500161+00:00",
+          "published_at": "2026-06-07T14:19:35.794635+00:00",
           "summary": "🎧 Open source music streaming app! Available for both desktop & mobile!"
         },
         {
@@ -383,7 +362,7 @@
           "source": "GitHub AI",
           "source_name": "GitHub AI",
           "category": "ai-tools",
-          "published_at": "2026-06-07T12:01:37.499823+00:00",
+          "published_at": "2026-06-07T14:19:35.794310+00:00",
           "summary": "The Open Source Feature Store for AI/ML"
         },
         {
@@ -393,7 +372,7 @@
           "source": "GitHub AI",
           "source_name": "GitHub AI",
           "category": "ai-tools",
-          "published_at": "2026-06-07T12:01:37.499676+00:00",
+          "published_at": "2026-06-07T14:19:35.794165+00:00",
           "summary": "Your AI second brain. Self-hostable. Get answers from the web or your docs. Build custom agents, schedule automations, do deep research. Turn any online or local LLM into your personal, autonomous AI (gpt, claude, gemini, llama, qwen, mistral). Get started - free."
         },
         {
@@ -403,7 +382,7 @@
           "source": "GitHub AI",
           "source_name": "GitHub AI",
           "category": "ai-tools",
-          "published_at": "2026-06-07T12:01:37.499471+00:00",
+          "published_at": "2026-06-07T14:19:35.793952+00:00",
           "summary": "Build product integrations with AI."
         }
       ]
@@ -466,6 +445,26 @@
     "tip": {
       "label": "💡 技巧",
       "items": [
+        {
+          "id": "f2dd3134a7a2",
+          "title": "苹果秘密会议内幕：它终于认真对待AI",
+          "url": "https://www.bloomberg.com/news/newsletters/2026-06-07/wwdc-2026-apple-s-secret-meeting-that-led-it-to-take-ai-seriously-ios-27",
+          "source": "aihot",
+          "source_name": "Bloomberg：Technology（RSS）",
+          "category": "tip",
+          "published_at": "2026-06-07T14:00:01.000Z",
+          "summary": "苹果在一次内部秘密会议后，终于决定将AI作为核心战略。这场会议促使公司全面转向AI领域，相关进展预计将在WWDC 2026上公布。"
+        },
+        {
+          "id": "a9560e151bb8",
+          "title": "Symbolica 2.0：适用于 Python 和 Rust 的可编程符号系统",
+          "url": "https://symbolica.io/posts/symbolica_2_0_release",
+          "source": "aihot",
+          "source_name": "Hacker News 热门（buzzing.cc 中文翻译）",
+          "category": "tip",
+          "published_at": "2026-06-07T12:59:12.136Z",
+          "summary": "Symbolica 2.0 发布，这是一款可编程符号系统，支持 Python 和 Rust 语言。该版本在 Hacker News 上获得 100 点热度。"
+        },
         {
           "id": "bc95550e4bf0",
           "title": "\"我在田里雇了一名工程师，它叫 Codex\" -- 北海道一个西兰花农的 8 个真实 AI 用法",
