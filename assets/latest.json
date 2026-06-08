@@ -1,15 +1,16 @@
 {
   "date": "2026-06-08",
-  "generated_at": "2026-06-08T21:17:34.610585",
-  "total": 67,
+  "generated_at": "2026-06-08T23:03:14.627820",
+  "total": 69,
   "sources": {
     "Hugging Face": 8,
     "GitHub AI": 6,
-    "Hacker News 热门（buzzing.cc 中文翻译）": 4,
+    "Claude：Blog（网页）": 2,
+    "X：Rohan Paul (@rohanpaul_ai)": 2,
     "X：Viggle AI (@ViggleAI)": 1,
-    "Claude：Blog（网页）": 1,
     "X：Anthropic (@AnthropicAI)": 1,
     "Apple：Newsroom（RSS）": 3,
+    "Hacker News 热门（buzzing.cc 中文翻译）": 3,
     "Dwarkesh Patel：Podcast & Blog（RSS）": 1,
     "Anthropic：Research（发表成果 · 网页）": 1,
     "X：Claude Devs (@ClaudeDevs)": 1,
@@ -21,6 +22,7 @@
     "X：Kim (@kimmonismus)": 1,
     "X：小米 MiMo (@XiaomiMiMo)": 1,
     "X：面壁智能 OpenBMB (@OpenBMB)": 1,
+    "OpenAI：官网动态（RSS · 排除企业/客户案例）": 2,
     "The Verge：AI（RSS）": 1,
     "公众号：月之暗面（Kimi）": 1,
     "X：小互 (@xiaohu)": 1,
@@ -34,15 +36,13 @@
     "Bloomberg：Technology（RSS）": 3,
     "X：PixVerse (@PixVerse_)": 1,
     "X：腾讯混元 (@TencentHunyuan)": 1,
-    "OpenAI：官网动态（RSS · 排除企业/客户案例）": 1,
     "MarkTechPost（RSS）": 1,
     "NVIDIA AI Blog": 1,
     "X：宝玉 (@dotey)": 2,
-    "X：Rohan Paul (@rohanpaul_ai)": 1,
     "TechCrunch：AI（RSS）": 1,
     "X：阿易 AI Notes (@AYi_AInotes)": 2,
     "Gary Marcus：The Road to AI We Can Trust（RSS）": 1,
-    "Tomer Tunguz 博客（VC 分析）": 1
+    "Apple Machine Learning Research（RSS）": 1
   },
   "ai_processed": false,
   "categories": {
@@ -88,12 +88,32 @@
           "category": "ai-models",
           "published_at": "2026-06-08T00:03:37.849Z",
           "summary": "UIUC与Chroma联合推出Harness-1，一个20B参数的检索子智能体。它通过强化学习在一个有状态搜索框架中训练，该框架维护候选池、重要性标注集、证据图和验证记录，由策略决定搜索、筛选、验证及停止的时机。Harness-1在8个基准测试上达到0.730平均curated recall，比下一个最佳开源子智能体高出11.4个百分点，仅落后于Opus-4.6。模型权重和框架代码均已公开。"
+        },
+        {
+          "id": "5bd0f79021dd",
+          "title": "苹果发布第三代 Apple Foundation Models（AFM）",
+          "url": "https://machinelearning.apple.com/research/introducing-third-generation-of-apple-foundation-models",
+          "source": "aihot",
+          "source_name": "Apple Machine Learning Research（RSS）",
+          "category": "ai-models",
+          "published_at": "2026-06-08T00:00:00.000Z",
+          "summary": "苹果推出第三代 Apple Foundation Models（AFM）基础模型家族，与 Google 合作定制，包含五个模型，覆盖从设备端到基于 Private Cloud Compute 的服务器端模型。这些模型旨在驱动 Apple Intelligence 功能，包括全新 Siri 和智能工具，以用户为中心深度融合操作系统，隐私为核心设计原则。"
         }
       ]
     },
     "ai-products": {
       "label": "🚀 AI 产品",
       "items": [
+        {
+          "id": "244edfb2fb74",
+          "title": "Claude 支持 Apple Foundation Models 框架，推出新 Swift 包",
+          "url": "https://claude.com/blog/claude-for-foundation-models",
+          "source": "aihot",
+          "source_name": "Claude：Blog（网页）",
+          "category": "ai-products",
+          "published_at": "2026-06-08T22:24:02.356Z",
+          "summary": "Anthropic 通过一个新 Swift 包，让 Apple 开发者能在 Foundation Models 框架中直接调用 Claude。开发者用 Apple 框架以原生 Swift 方式，仅需三行代码即可通过引导生成返回类型化 Swift 值。当请求涉及多步推理、代码生成、联网搜索或数据分析时，Claude 可接手处理，并将流式响应传回同一视图。该支持可在 iOS 27、iPadOS 27、macOS 27、visionOS 27 和 watchOS 27 上使用，开发者需添加包并配置 Anthropic API 密钥。"
+        },
         {
           "id": "45358abe413d",
           "title": "Viggle API 上线：任意角色任意动作秒级生成",
@@ -346,7 +366,7 @@
           "source": "GitHub AI",
           "source_name": "GitHub AI",
           "category": "ai-tools",
-          "published_at": "2026-06-08T21:17:30.548883+00:00",
+          "published_at": "2026-06-08T23:03:13.440561+00:00",
           "summary": "🎧 Open source music streaming app! Available for both desktop & mobile!"
         },
         {
@@ -356,7 +376,7 @@
           "source": "GitHub AI",
           "source_name": "GitHub AI",
           "category": "ai-tools",
-          "published_at": "2026-06-08T21:17:30.548309+00:00",
+          "published_at": "2026-06-08T23:03:13.439989+00:00",
           "summary": "Your AI second brain. Self-hostable. Get answers from the web or your docs. Build custom agents, schedule automations, do deep research. Turn any online or local LLM into your personal, autonomous AI (gpt, claude, gemini, llama, qwen, mistral). Get started - free."
         },
         {
@@ -366,7 +386,7 @@
           "source": "GitHub AI",
           "source_name": "GitHub AI",
           "category": "ai-tools",
-          "published_at": "2026-06-08T21:17:30.548157+00:00",
+          "published_at": "2026-06-08T23:03:13.439838+00:00",
           "summary": "AI Agents & MCPs & AI Workflow Automation • (~400 MCP servers for AI agents) • AI Automation / AI Agent with MCPs • AI Workflows & AI Agents • MCPs for AI Agents"
         },
         {
@@ -376,7 +396,7 @@
           "source": "GitHub AI",
           "source_name": "GitHub AI",
           "category": "ai-tools",
-          "published_at": "2026-06-08T21:17:30.548041+00:00",
+          "published_at": "2026-06-08T23:03:13.439720+00:00",
           "summary": "Build product integrations with AI."
         },
         {
@@ -386,7 +406,7 @@
           "source": "GitHub AI",
           "source_name": "GitHub AI",
           "category": "ai-tools",
-          "published_at": "2026-06-08T21:17:30.547385+00:00",
+          "published_at": "2026-06-08T23:03:13.439055+00:00",
           "summary": "Stable Diffusion web UI"
         },
         {
@@ -396,7 +416,7 @@
           "source": "GitHub AI",
           "source_name": "GitHub AI",
           "category": "ai-tools",
-          "published_at": "2026-06-08T21:17:30.546987+00:00",
+          "published_at": "2026-06-08T23:03:13.438658+00:00",
           "summary": "Robust Speech Recognition via Large-Scale Weak Supervision"
         }
       ]
@@ -439,6 +459,16 @@
     "tip": {
       "label": "💡 技巧",
       "items": [
+        {
+          "id": "6969ad4e154a",
+          "title": "OpenAI计划到2028年由AI主导研究",
+          "url": "https://x.com/rohanpaul_ai/status/2064096574142390755",
+          "source": "aihot",
+          "source_name": "X：Rohan Paul (@rohanpaul_ai)",
+          "category": "tip",
+          "published_at": "2026-06-08T21:25:46.000Z",
+          "summary": "Sam Altman关于OpenAI未来路径的新博客称，到2028年3月，其大量研究将由AI完成。\n\n该路径主要有3个目标：构建自动AI研究员，利用它加速科学和生产，然后给每个人一个个人AGI，帮助处理工作、学习、编程、商业、健康文书和决策。"
+        },
         {
           "id": "22cd6cd706f4",
           "title": "Anthropic：AI编码快于生物学的缘由",
@@ -648,32 +678,12 @@
           "category": "tip",
           "published_at": "2026-06-07T10:48:06.000Z",
           "summary": "日本北海道农民富安弘毅用 ChatGPT 和 Codex 解决农场实际问题，涵盖 8 个用法：拍照识别西兰花病害、卫星监测获取 NDVI 数据、用 ESP32 和 LINE 机器人远程控制温室卷帘、为农场群聊开发机器人管理温度与排期、从聊天记录追踪播种数量、学习 RTK-GPS 自动转向原理并评估自建成本、设计基于 Airtable 的农场管理数据库。他说 AI 让传统昂贵的自动化变得低成本可及，\"如同身边有一位超级工程师\"。"
-        },
-        {
-          "id": "2cceebb74a6d",
-          "title": "AI 替代浪潮：三大力量重塑成本结构",
-          "url": "https://www.tomtunguz.com/inflation-deflation-ai",
-          "source": "aihot",
-          "source_name": "Tomer Tunguz 博客（VC 分析）",
-          "category": "tip",
-          "published_at": "2026-06-07T00:00:00.000Z",
-          "summary": "三大力量重塑 AI 成本：前沿闭源模型持续涨价，开源模型在多数场景已足够好，买家开始替代。Coinbase 将提示词路由至更便宜模型，成本持平但 token 用量指数增长。Lindy 全切至 DeepSeek v4，节省数百万美元且多项核心性能提升。Harvey 在 Legal Agent Benchmark 上通过 SFT 使 Kimi 2.6 all-pass 率达 15%，超越 Opus 的 14%，同一 100 任务成本 $84 vs $954（约 11 倍价差）。Cursor 后训练 Kimi K2.5 得到 Composer 2.5，称其\"性能优异且效率高达同类模型 10 倍\"。闭源越来越贵，开源平价且性能接近，选择决定企业单位经济学的斜率。"
         }
       ]
     },
     "industry": {
       "label": "industry",
       "items": [
-        {
-          "id": "cc88ce12ecab",
-          "title": "苹果揭晓基于谷歌 Gemini 模型构建的新 AI 架构",
-          "url": "https://www.macrumors.com/2026/06/08/apple-reveals-new-ai-architecture",
-          "source": "aihot",
-          "source_name": "Hacker News 热门（buzzing.cc 中文翻译）",
-          "category": "industry",
-          "published_at": "2026-06-08T20:41:12.244Z",
-          "summary": "苹果推出新 AI 架构，核心基于谷歌 Gemini 模型构建。该架构由苹果研发，旨在整合 Gemini 的模型能力至苹果生态系统中，具体细节尚未披露。"
-        },
         {
           "id": "aa91c1b46b64",
           "title": "苹果 WWDC 2026 直播",
@@ -693,6 +703,16 @@
           "category": "industry",
           "published_at": "2026-06-08T18:13:26.639Z",
           "summary": "由于欧盟《数字市场法案》（DMA），Apple 无法在 iOS 27 和 iPadOS 27 发布时于欧盟地区推出 Siri AI。该功能在欧盟的上线时间将晚于其他地区，具体时间未公布。"
+        },
+        {
+          "id": "a8c56e27a649",
+          "title": "OpenAI 向 SEC 机密提交 S-1 草案，上市时间未定",
+          "url": "https://openai.com/index/openai-submits-confidential-s-1",
+          "source": "aihot",
+          "source_name": "OpenAI：官网动态（RSS · 排除企业/客户案例）",
+          "category": "industry",
+          "published_at": "2026-06-08T14:00:00.000Z",
+          "summary": "OpenAI 近日向 SEC 机密提交了 S-1 草案（即首次公开募股注册声明），目前尚未决定上市时间。"
         },
         {
           "id": "ebc11f7e2bae",
