@@ -1,15 +1,17 @@
 {
   "date": "2026-06-08",
-  "generated_at": "2026-06-08T19:08:28.139622",
+  "generated_at": "2026-06-08T21:17:34.610585",
   "total": 67,
   "sources": {
     "Hugging Face": 8,
     "GitHub AI": 6,
+    "Hacker News 热门（buzzing.cc 中文翻译）": 4,
+    "X：Viggle AI (@ViggleAI)": 1,
+    "Claude：Blog（网页）": 1,
+    "X：Anthropic (@AnthropicAI)": 1,
+    "Apple：Newsroom（RSS）": 3,
     "Dwarkesh Patel：Podcast & Blog（RSS）": 1,
-    "X：Testing Catalog (@testingcatalog)": 1,
     "Anthropic：Research（发表成果 · 网页）": 1,
-    "IT之家（RSS）": 4,
-    "The Verge：订阅版科技（RSS）": 1,
     "X：Claude Devs (@ClaudeDevs)": 1,
     "X：Perplexity (@perplexity_ai)": 1,
     "X：ChatGPT (@ChatGPTapp)": 1,
@@ -22,24 +24,25 @@
     "The Verge：AI（RSS）": 1,
     "公众号：月之暗面（Kimi）": 1,
     "X：小互 (@xiaohu)": 1,
-    "Hugging Face：Blog（RSS）": 7,
+    "Hugging Face：Blog（RSS）": 5,
+    "OpenRouter：Announcements（RSS）": 1,
     "公众号：通义实验室（千问）": 1,
     "公众号：数字生命卡兹克": 1,
     "公众号：生数科技（Vidu·视频）": 1,
     "X：邵猛 (@shao__meng)": 1,
+    "IT之家（RSS）": 2,
     "Bloomberg：Technology（RSS）": 3,
     "X：PixVerse (@PixVerse_)": 1,
     "X：腾讯混元 (@TencentHunyuan)": 1,
+    "OpenAI：官网动态（RSS · 排除企业/客户案例）": 1,
     "MarkTechPost（RSS）": 1,
     "NVIDIA AI Blog": 1,
     "X：宝玉 (@dotey)": 2,
-    "X：Rohan Paul (@rohanpaul_ai)": 2,
+    "X：Rohan Paul (@rohanpaul_ai)": 1,
     "TechCrunch：AI（RSS）": 1,
     "X：阿易 AI Notes (@AYi_AInotes)": 2,
-    "Hacker News 热门（buzzing.cc 中文翻译）": 3,
-    "Gary Marcus：The Road to AI We Can Trust（RSS）": 2,
-    "Tomer Tunguz 博客（VC 分析）": 1,
-    "X：MiniMax (@MiniMax_AI)": 1
+    "Gary Marcus：The Road to AI We Can Trust（RSS）": 1,
+    "Tomer Tunguz 博客（VC 分析）": 1
   },
   "ai_processed": false,
   "categories": {
@@ -92,34 +95,44 @@
       "label": "🚀 AI 产品",
       "items": [
         {
-          "id": "9329e39ed8f7",
-          "title": "苹果发布全新Siri AI及专用App",
-          "url": "https://x.com/testingcatalog/status/2064041993454367102",
+          "id": "45358abe413d",
+          "title": "Viggle API 上线：任意角色任意动作秒级生成",
+          "url": "https://x.com/ViggleAI/status/2064083087806390319",
           "source": "aihot",
-          "source_name": "X：Testing Catalog (@testingcatalog)",
+          "source_name": "X：Viggle AI (@ViggleAI)",
           "category": "ai-products",
-          "published_at": "2026-06-08T17:48:53.000Z",
-          "summary": "WWDC 🔥：苹果宣布推出全新Siri AI，以及专用App、可定制语音、屏幕和视觉理解等功能！\n\nSiri App支持大多数平台，包括VisionOS！"
+          "published_at": "2026-06-08T20:32:11.000Z",
+          "summary": "推出 Viggle API。\n\n给任意角色添加任意动作，一次 API 调用--数秒内即可激活。\n\n可接入 Claude、Codex 或你正在构建的任何智能体。起价 $0.01/秒。\n\n注册即获 100 次免费额度。\n\n转发 + 关注 + 评论，10 位中奖者再获 100 次！\n\n了解更多👇"
         },
         {
-          "id": "1abb46cde89f",
-          "title": "苹果推出 Siri AI：独立 App，为灵动岛优化",
-          "url": "https://www.ithome.com/0/961/669.htm",
+          "id": "c8b6c63ef3db",
+          "title": "Claude 为 Connector 开发者推出性能监控仪表盘",
+          "url": "https://claude.com/blog/observability-for-developers-building-connectors",
           "source": "aihot",
-          "source_name": "IT之家（RSS）",
+          "source_name": "Claude：Blog（网页）",
           "category": "ai-products",
-          "published_at": "2026-06-08T17:38:14.000Z",
-          "summary": "苹果在 2026 年全球开发者大会（WWDC）上发布 Siri AI，称为\"全新版本的 Siri\"，具备更强的对话能力和表现力，用户可自定义语速、语气和口音。Siri AI 支持系统范围内读取屏幕内容并与应用互动，配有独立 App，灵动岛会显示大气泡。苹果强调每一步以隐私为重。语音优化同时适用于 CarPlay 和 AirPods，可用于查询演唱会信息、提醒报名抽奖、搜索照片等场景。"
+          "published_at": "2026-06-08T18:50:51.580Z",
+          "summary": "Claude 为目录中已发布的 Connector 新增性能监控仪表盘（公开测试版）。所有者可追踪活跃用户、工具调用次数、目录排名、健康评分、错误率、延迟，并按工具细分错误归因；还能按 Claude、Claude Code、Cowork 等产品分解使用情况。访问需 Team 或 Enterprise 账号（Admin/Owner 权限或自定义角色）。基于 MCP 构建的 Connector 可直接在 Claude 应用内提交至目录，该目录已有超 300 个第三方 Connector，每日被数百万人使用。"
         },
         {
-          "id": "86332f7fa707",
-          "title": "苹果发布 Siri AI 及下一代 Apple Intelligence",
-          "url": "https://www.theverge.com/tech/942416/apple-siri-ai-update-wwdc",
+          "id": "f78dc5a12cab",
+          "title": "Apple发布新一代Apple Intelligence和Siri AI",
+          "url": "https://www.apple.com/newsroom/2026/06/apple-unveils-next-generation-of-apple-intelligence-siri-ai-and-more",
           "source": "aihot",
-          "source_name": "The Verge：订阅版科技（RSS）",
+          "source_name": "Apple：Newsroom（RSS）",
           "category": "ai-products",
-          "published_at": "2026-06-08T17:34:24.000Z",
-          "summary": "苹果宣布推出 Siri AI 和下一代 Apple Intelligence，旨在提升苹果设备的能力。"
+          "published_at": "2026-06-08T18:18:43.157Z",
+          "summary": "今天Apple预览了即将推出的软件版本，将带来新一代Apple Intelligence和Siri AI。"
+        },
+        {
+          "id": "088571a4ba46",
+          "title": "Apple Intelligence 将强大 AI 能力融入日常体验",
+          "url": "https://www.apple.com/newsroom/2026/06/apple-intelligence-brings-powerful-ai-capabilities-into-everyday-experiences",
+          "source": "aihot",
+          "source_name": "Apple：Newsroom（RSS）",
+          "category": "ai-products",
+          "published_at": "2026-06-08T18:17:44.449Z",
+          "summary": "Apple 发布下一代 Apple Intelligence，将 AI 能力集成到 iPhone、iPad 和 Mac 中，带来更个性化和有帮助的日常体验。"
         },
         {
           "id": "7012486309e0",
@@ -160,6 +173,16 @@
           "category": "ai-products",
           "published_at": "2026-06-08T13:44:16.000Z",
           "summary": "Kimi Code 开源 Coding Agent 迎来大版本升级：一行命令安装，毫秒级启动；新增视频理解能力，支持提取视频风格生成 LUT 文件、长视频切片、根据录屏生成代码；集成同花顺、天眼查等权威数据源，可查询股票价格、财报、学术论文；支持 ACP 协议，可在 JetBrains、Zed 中使用；丰富 hook 生态方便集成其他工具。底层视觉推理由 Kimi K2.6 模型提供。"
+        },
+        {
+          "id": "1115fd650054",
+          "title": "EU AI Act 合规：面向 AI 智能体的人工监督",
+          "url": "https://openrouter.ai/blog/human-oversight-eu-ai-act-compliance-agent-sdk",
+          "source": "aihot",
+          "source_name": "OpenRouter：Announcements（RSS）",
+          "category": "ai-products",
+          "published_at": "2026-06-08T12:00:00.000Z",
+          "summary": "使用智能体 SDK 的人机协作（HITL）工具，可满足 EU AI Act、Colorado AI Act 和 NIST AI RMF 对 AI 智能体的合规要求。"
         },
         {
           "id": "c66312300cbd",
@@ -230,26 +253,6 @@
           "category": "ai-products",
           "published_at": "2026-06-07T10:13:41.000Z",
           "summary": "Her（हेर）是专为 Claude Code 设计的会话分析工具。用户上传 `.jsonl` 文件后，Her 用自然语言重建每轮交互，标记部署、配置变更、秘密等高风险操作并定位到具体轮次。它展示 token 消耗、所用工具、子智能体、技能和 MCP 服务器，并结合 Anthropic 与社区最佳实践给出改进建议（仅在有明确可修复模式时）。内置\"Ask Her\"问答功能，支持单会话与跨会话项目分析。工具不调用第三方 AI API，使用 Nemotron-Mini-4B-Instruct 模型在 Hugging Face ZeroGPU 上运行，评估引擎完全确定，模型仅负责文本生成与建议。Her 内置 Homebrew、npm、PyPI 主流 CLI 工具数据库，自动识别会话中使用的工具，并对部署工具、数据库客户端等执行活动进行标记提醒。"
-        },
-        {
-          "id": "46f27436e6d5",
-          "title": "GitHub 开源 Spec Kit 工具包，用产品规范引导 AI 编码",
-          "url": "https://x.com/rohanpaul_ai/status/2063246343842501091",
-          "source": "aihot",
-          "source_name": "X：Rohan Paul (@rohanpaul_ai)",
-          "category": "ai-products",
-          "published_at": "2026-06-06T13:07:16.000Z",
-          "summary": "GitHub 发布开源工具包 Spec Kit，旨在解决 \"vibe coding\" 的最大弱点--AI 常在规则未明确时就开始编码。它把流程从 \"让 AI 直接构建\" 改为 \"先写产品规范，再让 AI 根据规范实现\"。当前 AI 编码模式常因松散提示直接跳入代码，导致需求薄弱、边界遗漏和反复返工。Spec Kit 推动反向流程：先定义产品功能，再澄清差距、制订技术计划、分解任务，最后让 agent 执行。规范成为可执行的开发合约，支持 Copilot、Claude Code、Codex、Gemini、Cursor、Qwen 等 30+ agent 集成。项目已获 109K+ 星标。"
-        },
-        {
-          "id": "95404538b7ab",
-          "title": "OpenCV 5 发布：升级全新 DNN 引擎、原生支持大模型",
-          "url": "https://www.ithome.com/0/960/969.htm",
-          "source": "aihot",
-          "source_name": "IT之家（RSS）",
-          "category": "ai-products",
-          "published_at": "2026-06-06T12:48:12.000Z",
-          "summary": "OpenCV 5 正式发布，采用基于图的 DNN 引擎，ONNX 算子覆盖率从 4.x 的不到 23% 提升至超 80%，原生支持 Transformer、视觉语言模型（VLM）和大语言模型（LLM）。其他更新包括：更好的 Python 集成与命名参数、更紧凑核心代码、清晰硬件加速层、原生 FP16/BF16、规范化 0D/1D 张量、扩展 3D 视觉及现代化文档。该库 GitHub 拥有超 86，000 stars，每日安装量超一百万次。"
         }
       ]
     },
@@ -343,7 +346,7 @@
           "source": "GitHub AI",
           "source_name": "GitHub AI",
           "category": "ai-tools",
-          "published_at": "2026-06-08T19:08:26.825184+00:00",
+          "published_at": "2026-06-08T21:17:30.548883+00:00",
           "summary": "🎧 Open source music streaming app! Available for both desktop & mobile!"
         },
         {
@@ -353,7 +356,7 @@
           "source": "GitHub AI",
           "source_name": "GitHub AI",
           "category": "ai-tools",
-          "published_at": "2026-06-08T19:08:26.824575+00:00",
+          "published_at": "2026-06-08T21:17:30.548309+00:00",
           "summary": "Your AI second brain. Self-hostable. Get answers from the web or your docs. Build custom agents, schedule automations, do deep research. Turn any online or local LLM into your personal, autonomous AI (gpt, claude, gemini, llama, qwen, mistral). Get started - free."
         },
         {
@@ -363,7 +366,7 @@
           "source": "GitHub AI",
           "source_name": "GitHub AI",
           "category": "ai-tools",
-          "published_at": "2026-06-08T19:08:26.824406+00:00",
+          "published_at": "2026-06-08T21:17:30.548157+00:00",
           "summary": "AI Agents & MCPs & AI Workflow Automation • (~400 MCP servers for AI agents) • AI Automation / AI Agent with MCPs • AI Workflows & AI Agents • MCPs for AI Agents"
         },
         {
@@ -373,7 +376,7 @@
           "source": "GitHub AI",
           "source_name": "GitHub AI",
           "category": "ai-tools",
-          "published_at": "2026-06-08T19:08:26.824263+00:00",
+          "published_at": "2026-06-08T21:17:30.548041+00:00",
           "summary": "Build product integrations with AI."
         },
         {
@@ -383,7 +386,7 @@
           "source": "GitHub AI",
           "source_name": "GitHub AI",
           "category": "ai-tools",
-          "published_at": "2026-06-08T19:08:26.823550+00:00",
+          "published_at": "2026-06-08T21:17:30.547385+00:00",
           "summary": "Stable Diffusion web UI"
         },
         {
@@ -393,7 +396,7 @@
           "source": "GitHub AI",
           "source_name": "GitHub AI",
           "category": "ai-tools",
-          "published_at": "2026-06-08T19:08:26.823094+00:00",
+          "published_at": "2026-06-08T21:17:30.546987+00:00",
           "summary": "Robust Speech Recognition via Large-Scale Weak Supervision"
         }
       ]
@@ -436,6 +439,16 @@
     "tip": {
       "label": "💡 技巧",
       "items": [
+        {
+          "id": "22cd6cd706f4",
+          "title": "Anthropic：AI编码快于生物学的缘由",
+          "url": "https://x.com/AnthropicAI/status/2064054837294354677",
+          "source": "aihot",
+          "source_name": "X：Anthropic (@AnthropicAI)",
+          "category": "tip",
+          "published_at": "2026-06-08T18:39:56.000Z",
+          "summary": "新的科学博客：为什么 AI 在编码方面的进步比在生物学方面更快？\n\n对智能体而言，生物数据库就像汽车发明前建造的城市--开进去会让人抓狂，因为它们是针对不同的交通流量设计的。\n\n我们如何构建智能体可以使用的基础设施？\nhttps：//www.anthropic.com/research/agents-in-biology"
+        },
         {
           "id": "c3d31b5b9722",
           "title": "样本效率黑洞：AI能力背后隐藏的数据需求深渊",
@@ -557,6 +570,16 @@
           "summary": "CoreWeave 对当前计算市场进行了分析，指出推动增长的因素和限制增长的因素。该公司的市场看法即围绕这两个维度展开。"
         },
         {
+          "id": "7a6fc5250462",
+          "title": "OpenAI 公布让 AGI 造福所有人的计划",
+          "url": "https://openai.com/index/built-to-benefit-everyone-our-plan",
+          "source": "aihot",
+          "source_name": "OpenAI：官网动态（RSS · 排除企业/客户案例）",
+          "category": "tip",
+          "published_at": "2026-06-08T01:30:00.000Z",
+          "summary": "OpenAI 发布计划，阐述让 AGI 造福所有人的愿景。该计划聚焦于 AI 的可及性、安全性和共享繁荣，确保技术进步惠及每个人。"
+        },
+        {
           "id": "8f3bc1a463e1",
           "title": "苹果秘密会议内幕：它终于认真对待AI",
           "url": "https://www.bloomberg.com/news/newsletters/2026-06-07/wwdc-2026-apple-s-secret-meeting-that-led-it-to-take-ai-seriously-ios-27",
@@ -635,46 +658,61 @@
           "category": "tip",
           "published_at": "2026-06-07T00:00:00.000Z",
           "summary": "三大力量重塑 AI 成本：前沿闭源模型持续涨价，开源模型在多数场景已足够好，买家开始替代。Coinbase 将提示词路由至更便宜模型，成本持平但 token 用量指数增长。Lindy 全切至 DeepSeek v4，节省数百万美元且多项核心性能提升。Harvey 在 Legal Agent Benchmark 上通过 SFT 使 Kimi 2.6 all-pass 率达 15%，超越 Opus 的 14%，同一 100 任务成本 $84 vs $954（约 11 倍价差）。Cursor 后训练 Kimi K2.5 得到 Composer 2.5，称其\"性能优异且效率高达同类模型 10 倍\"。闭源越来越贵，开源平价且性能接近，选择决定企业单位经济学的斜率。"
+        }
+      ]
+    },
+    "industry": {
+      "label": "industry",
+      "items": [
+        {
+          "id": "cc88ce12ecab",
+          "title": "苹果揭晓基于谷歌 Gemini 模型构建的新 AI 架构",
+          "url": "https://www.macrumors.com/2026/06/08/apple-reveals-new-ai-architecture",
+          "source": "aihot",
+          "source_name": "Hacker News 热门（buzzing.cc 中文翻译）",
+          "category": "industry",
+          "published_at": "2026-06-08T20:41:12.244Z",
+          "summary": "苹果推出新 AI 架构，核心基于谷歌 Gemini 模型构建。该架构由苹果研发，旨在整合 Gemini 的模型能力至苹果生态系统中，具体细节尚未披露。"
         },
         {
-          "id": "ff56c103bd14",
-          "title": "M3与Opus代码审计13个bug：$0.07 vs $1.30",
-          "url": "https://x.com/MiniMax_AI/status/2063397618034844135",
+          "id": "aa91c1b46b64",
+          "title": "苹果 WWDC 2026 直播",
+          "url": "https://www.apple.com/apple-events/event-stream",
           "source": "aihot",
-          "source_name": "X：MiniMax (@MiniMax_AI)",
-          "category": "tip",
-          "published_at": "2026-06-06T23:08:22.000Z",
-          "summary": "对 Claude Opus 4.8 和 MiniMax M3 进行相同的代码审计：同一代码库、同一提示词，预先植入 17 个已知 bug。MiniMax M3 以 $0.07 抓到 13 个；最便宜的 Claude 运行同样抓到 13 个，花费 $1.30。MiniMax 表示这一对比非常有趣，绝对值得一读。"
+          "source_name": "Hacker News 热门（buzzing.cc 中文翻译）",
+          "category": "industry",
+          "published_at": "2026-06-08T18:17:22.096Z",
+          "summary": "苹果 WWDC 2026 主题演讲通过官网进行直播，Hacker News 用户讨论热度达到 110 点。"
         },
         {
-          "id": "ff6ce7a10f6f",
-          "title": "五个实验室，五个心智：用小模型构建多模型金融剧情游戏",
-          "url": "https://huggingface.co/blog/build-small-hackathon/thousand-token-wood-sim-v2",
+          "id": "eef3bc4a2995",
+          "title": "受 DMA 影响，Siri AI 在欧盟将随 iOS 27 和 iPadOS 27 延迟上线",
+          "url": "https://www.apple.com/newsroom/2026/06/due-to-dma-siri-ai-delayed-in-eu-for-ios-27-and-ipados-27",
           "source": "aihot",
-          "source_name": "Hugging Face：Blog（RSS）",
-          "category": "tip",
-          "published_at": "2026-06-06T19:02:33.000Z",
-          "summary": "Thousand Token Wood v2使用四个不同实验室的小模型（gpt-oss-20b、MiniCPM3-4B、Nemotron-Mini-4B及微调Qwen 0.5B）驱动金融模拟游戏的智能体。核心发现是异构服务层摩擦在于vLLM 0.22.1需CUDA工具包，而非模型本身。通过容忍性JSON解析层，添加模型只需一条配置。信息隔离确保内幕标志不在提示词中，扫描测试验证无泄露。记忆用情绪摘要截断避免淹没。微调0.5B模型实现0%自成交、100%有效报价，真相防火墙零泄露。小模型是可靠格式生成器但不可靠推理器，可通过结构化、提示词和微调弥补。"
+          "source_name": "Apple：Newsroom（RSS）",
+          "category": "industry",
+          "published_at": "2026-06-08T18:13:26.639Z",
+          "summary": "由于欧盟《数字市场法案》（DMA），Apple 无法在 iOS 27 和 iPadOS 27 发布时于欧盟地区推出 Siri AI。该功能在欧盟的上线时间将晚于其他地区，具体时间未公布。"
         },
         {
-          "id": "319832b33117",
-          "title": "AI 的黑色星期五",
-          "url": "https://garymarcus.substack.com/p/ais-black-friday",
+          "id": "ebc11f7e2bae",
+          "title": "生数科技与华策影视达成战略合作，共建AI视听创制中心",
+          "url": "https://mp.weixin.qq.com/s?__biz=MzkzMDQ5NTQwMQ%3D%3D&mid=2247488842&idx=1&sn=3dab63189fa60b3b78c5ad72e3358791",
           "source": "aihot",
-          "source_name": "Gary Marcus：The Road to AI We Can Trust（RSS）",
-          "category": "tip",
-          "published_at": "2026-06-06T16:24:04.000Z",
-          "summary": "Gary Marcus 在文章中分享了对 AI 领域刚刚发生事件的看法，表达了对当前 AI 发展方向的思考。"
+          "source_name": "公众号：生数科技（Vidu·视频）",
+          "category": "industry",
+          "published_at": "2026-06-08T09:30:33.000Z",
+          "summary": "6月7日，生数科技与华策影视签署战略合作协议，共同推动AI与影视产业融合。双方将以华策影视科技产教示范区为载体、生数科技Vidu视频生成大模型为技术底座，设立\"AI视听创制中心\"，探索AI虚拟制作与实拍结合。同时在浙江华策影视学校设立\"华策&生数AI影视创制专业\"，课程覆盖传统编导剪与AI视频制作技术。内容生产层面推广\"实拍+AI\"融合方案并优先在华策项目中试点，创作者生态层面引导Vidu社区超级创作者到产教基地注册。"
         },
         {
-          "id": "a5d0fdf4e45d",
-          "title": "Job Searcher",
-          "url": "https://huggingface.co/blog/build-small-hackathon/job-search-blog",
+          "id": "96956b3e682c",
+          "title": "Nvidia 与 SK Hynix 签署多年协议，共同开发下一代 AI 存储芯片",
+          "url": "https://www.bloomberg.com/news/articles/2026-06-07/nvidia-sk-hynix-sign-multi-year-pact-to-develop-next-gen-chips",
           "source": "aihot",
-          "source_name": "Hugging Face：Blog（RSS）",
-          "category": "tip",
-          "published_at": "2026-06-06T15:36:51.000Z",
-          "summary": "Hugging Face 发布 Job Searcher，一个基于 AI 的求职搜索工具。用户上传简历并设定偏好后，系统使用教师模型 DeepSeek V4 Pro 生成 LinkedIn 搜索查询，通过 JobSpy 抓取职位，再对学生模型 Qwen3-8B（8B 参数）进行 LoRA 微调，对每个职位从技能匹配、经验相关性、教育背景、行业领域契合度和资历对齐五个维度给出评分和推理。训练在 Modal 平台单张 A100 上完成。推理部署于 Hugging Face ZeroGPU Space，使用 llama.cpp 实现流式输出。项目开源。"
+          "source_name": "Bloomberg：Technology（RSS）",
+          "category": "industry",
+          "published_at": "2026-06-07T23:26:02.000Z",
+          "summary": "Nvidia 与 SK Hynix 达成合作，将共同设计面向 AI 应用的未来几代存储芯片。此举巩固了 SK Hynix 在高端半导体领域的领先地位。"
         }
       ]
     },
@@ -710,41 +748,6 @@
           "category": "paper",
           "published_at": "2026-06-08T05:54:42.000Z",
           "summary": "腾讯混元联合上海交大、南洋理工等机构推出MMAE（Massive Multitask Audio Editing Benchmark），这是首个全面评估AI语音/音频编辑能力的基准。MMAE要求模型理解现有音频并按自然语言指令精确修改，而非简单生成。当前模型在该基准上的精确匹配率（EMR）低于5%，暴露了可靠音频编辑的短板。MMAE包含2000个真实场景高保真样本、17741条细粒度评估项，覆盖声音/音乐/语音及混合共7种模态、6种任务复杂度（基础修改到多跳推理及多轮编辑）、8种操作类型（局部到全局）。论文、代码、数据集和演示已公开。"
-        }
-      ]
-    },
-    "industry": {
-      "label": "industry",
-      "items": [
-        {
-          "id": "ebc11f7e2bae",
-          "title": "生数科技与华策影视达成战略合作，共建AI视听创制中心",
-          "url": "https://mp.weixin.qq.com/s?__biz=MzkzMDQ5NTQwMQ%3D%3D&mid=2247488842&idx=1&sn=3dab63189fa60b3b78c5ad72e3358791",
-          "source": "aihot",
-          "source_name": "公众号：生数科技（Vidu·视频）",
-          "category": "industry",
-          "published_at": "2026-06-08T09:30:33.000Z",
-          "summary": "6月7日，生数科技与华策影视签署战略合作协议，共同推动AI与影视产业融合。双方将以华策影视科技产教示范区为载体、生数科技Vidu视频生成大模型为技术底座，设立\"AI视听创制中心\"，探索AI虚拟制作与实拍结合。同时在浙江华策影视学校设立\"华策&生数AI影视创制专业\"，课程覆盖传统编导剪与AI视频制作技术。内容生产层面推广\"实拍+AI\"融合方案并优先在华策项目中试点，创作者生态层面引导Vidu社区超级创作者到产教基地注册。"
-        },
-        {
-          "id": "96956b3e682c",
-          "title": "Nvidia 与 SK Hynix 签署多年协议，共同开发下一代 AI 存储芯片",
-          "url": "https://www.bloomberg.com/news/articles/2026-06-07/nvidia-sk-hynix-sign-multi-year-pact-to-develop-next-gen-chips",
-          "source": "aihot",
-          "source_name": "Bloomberg：Technology（RSS）",
-          "category": "industry",
-          "published_at": "2026-06-07T23:26:02.000Z",
-          "summary": "Nvidia 与 SK Hynix 达成合作，将共同设计面向 AI 应用的未来几代存储芯片。此举巩固了 SK Hynix 在高端半导体领域的领先地位。"
-        },
-        {
-          "id": "66f984e7ef4e",
-          "title": "美国众议院议员发布法案草案，旨在禁止各州制定人工智能相关法规",
-          "url": "https://www.reuters.com/business/us-house-lawmakers-release-draft-bill-regulate-ai-2026-06-04",
-          "source": "aihot",
-          "source_name": "Hacker News 热门（buzzing.cc 中文翻译）",
-          "category": "industry",
-          "published_at": "2026-06-06T21:47:39.887Z",
-          "summary": "美国众议院议员发布一项法案草案，旨在禁止各州自行制定人工智能相关法规，将AI监管权力集中到联邦层面。"
         }
       ]
     }
