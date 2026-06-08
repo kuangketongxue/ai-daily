@@ -1,23 +1,28 @@
 {
   "date": "2026-06-08",
-  "generated_at": "2026-06-08T07:02:24.914399",
-  "total": 68,
+  "generated_at": "2026-06-08T12:07:47.967927",
+  "total": 66,
   "sources": {
     "Hugging Face": 8,
-    "GitHub AI": 8,
+    "GitHub AI": 6,
+    "Hugging Face：Blog（RSS）": 7,
+    "X：阿里云 / Alibaba Cloud (@alibaba_cloud)": 1,
+    "公众号：通义实验室（千问）": 1,
+    "公众号：生数科技（Vidu·视频）": 1,
+    "X：邵猛 (@shao__meng)": 1,
+    "IT之家（RSS）": 3,
+    "Bloomberg：Technology（RSS）": 4,
+    "X：PixVerse (@PixVerse_)": 1,
     "NVIDIA AI Blog": 4,
     "X：腾讯混元 (@TencentHunyuan)": 1,
-    "IT之家（RSS）": 3,
     "MarkTechPost（RSS）": 1,
-    "Hugging Face：Blog（RSS）": 6,
     "X：OpenRouter (@OpenRouter)": 2,
     "X：宝玉 (@dotey)": 2,
     "X：Rohan Paul (@rohanpaul_ai)": 4,
     "TechCrunch：AI（RSS）": 1,
-    "Bloomberg：Technology（RSS）": 4,
     "X：阿易 AI Notes (@AYi_AInotes)": 2,
     "Hacker News 热门（buzzing.cc 中文翻译）": 5,
-    "Gary Marcus：The Road to AI We Can Trust（RSS）": 3,
+    "Gary Marcus：The Road to AI We Can Trust（RSS）": 2,
     "X：MiniMax (@MiniMax_AI)": 1,
     "公众号：阶跃星辰（Step）": 1,
     "X：NVIDIA AI (@NVIDIAAI)": 1,
@@ -26,12 +31,7 @@
     "X：ChatGPT (@ChatGPTapp)": 1,
     "X：Google AI (@GoogleAI)": 1,
     "X：Gemini (@GeminiApp)": 1,
-    "X：Epoch AI (@EpochAIResearch)": 1,
-    "X：AI at Meta (@AIatMeta)": 1,
-    "Suno：Blog（网页）": 1,
-    "X：Kim (@kimmonismus)": 1,
-    "X：Viggle AI (@ViggleAI)": 1,
-    "X：小互 (@xiaohu)": 1
+    "X：Epoch AI (@EpochAIResearch)": 1
   },
   "ai_processed": false,
   "categories": {
@@ -73,6 +73,36 @@
     "ai-products": {
       "label": "🚀 AI 产品",
       "items": [
+        {
+          "id": "f174d49bb9a2",
+          "title": "AgentScope Java 2.0 发布",
+          "url": "https://x.com/alibaba_cloud/status/2063923881857945815",
+          "source": "aihot",
+          "source_name": "X：阿里云 / Alibaba Cloud (@alibaba_cloud)",
+          "category": "ai-products",
+          "published_at": "2026-06-08T09:59:33.000Z",
+          "summary": "阿里云发布AgentScope Java 2.0，面向企业级AI智能体开发。新版本主要特性：分布式无状态架构，支持K8s弹性扩缩容与会话恢复；多租户隔离，通过Workspace抽象实现安全数据分离；长期稳定性，HarnessAgent负责上下文管理与容错；安全执行，提供细粒度权限控制和Human-in-the-Loop支持。适用于JVM生产环境。开源地址见推文链接。"
+        },
+        {
+          "id": "c66312300cbd",
+          "title": "微信AI官宣内测：两种接入模式供开发者选择",
+          "url": "https://www.ithome.com/0/961/480.htm",
+          "source": "aihot",
+          "source_name": "IT之家（RSS）",
+          "category": "ai-products",
+          "published_at": "2026-06-08T08:02:38.000Z",
+          "summary": "微信开发者官方今日发布指引，确认微信AI正在内测阶段。开放平台提供两种接入模式：自动模式可授权平台读取小程序源码，无需额外开发即可让微信AI直接操作页面；开发模式下开发者可自主开发技能，审核后由微信AI调用。两种模式可同时开启。微信AI是微信内的AI助手，用户通过自然语言对话即可调用、访问和操作小程序。服务条款称\"微信AI\"可能非最终名称。接入与否不影响现有小程序服务。"
+        },
+        {
+          "id": "37c0cc06b8b9",
+          "title": "PixVerse Creative Partner Program 2.0 上线",
+          "url": "https://x.com/PixVerse_/status/2063890444413706442",
+          "source": "aihot",
+          "source_name": "X：PixVerse (@PixVerse_)",
+          "category": "ai-products",
+          "published_at": "2026-06-08T07:46:41.000Z",
+          "summary": "PixVerse 宣布 Creative Partner Program （CPP） 2.0 正式上线，面向 AI 视频创作者。该计划围绕真实创作：发布、测试、教学、故事片及公开推广新想法。核心福利包括：合格帖子每周最高可获得 150，000 credits；每周 $2，500 现金奖池，单个创作者单周最高 $850；对大项目、教程、测试内容和电影节投稿提供特别支持。参与者还可获得更多曝光、项目机会及与 PixVerse 共创的可能。申请可通过官网进行。"
+        },
         {
           "id": "dcca9727e0df",
           "title": "Her · हेर — Claude Code 会话分析工具",
@@ -182,16 +212,6 @@
           "category": "ai-products",
           "published_at": "2026-06-05T16:36:00.000Z",
           "summary": "你现可直接在 Gemini Live 中创建和编辑图像。\n\n无论是测试房间装饰、解决数学问题，还是制作可分享的梗图，所有操作都实时完成。\n\n只需打开 Gemini 应用，点击 Live 按钮，共享摄像头，告诉 Gemini 你想看到的。"
-        },
-        {
-          "id": "960cdbfb857b",
-          "title": "Viggle_PINOC 免费动捕测试开启",
-          "url": "https://x.com/ViggleAI/status/2062904007123714329",
-          "source": "aihot",
-          "source_name": "X：Viggle AI (@ViggleAI)",
-          "category": "ai-products",
-          "published_at": "2026-06-05T14:26:56.000Z",
-          "summary": "Mocap 不需要套装、工作室或数千美元。\n\n使用 @Viggle_PINOC，任何人都可以简单地拍摄自己，并将该视频转换为动作捕捉。\n\n我们仍处于测试阶段，且对所有人完全免费。试试看，告诉我们你还想看什么！"
         }
       ]
     },
@@ -259,13 +279,13 @@
           "summary": ""
         },
         {
-          "id": "c5ecf752bbdc",
-          "title": "Amazing Digital Dentures (a failed project)",
-          "url": "https://huggingface.co/blog/build-small-hackathon/amazingdigitaldentures",
+          "id": "378395b66a4e",
+          "title": "Building Pakistan Notice Helper: A Small AI Tool for a Very Local Safety Problem",
+          "url": "https://huggingface.co/blog/build-small-hackathon/building-pakistan-notice-helper",
           "source": "Hugging Face",
           "source_name": "Hugging Face",
           "category": "ai-tools",
-          "published_at": "Sun, 07 Jun 2026 19:44:27 GMT",
+          "published_at": "Mon, 08 Jun 2026 11:46:56 GMT",
           "summary": ""
         },
         {
@@ -279,64 +299,14 @@
           "summary": ""
         },
         {
-          "id": "c251a02c6e67",
-          "title": "⭐ fastfetch-cli/fastfetch",
-          "url": "https://github.com/fastfetch-cli/fastfetch",
-          "source": "GitHub AI",
-          "source_name": "GitHub AI",
-          "category": "ai-tools",
-          "published_at": "2026-06-08T07:02:22.550726+00:00",
-          "summary": "A maintained, feature-rich and performance oriented, neofetch like system information tool."
-        },
-        {
-          "id": "04c3de1b9f8f",
-          "title": "⭐ tailscale/tailscale",
-          "url": "https://github.com/tailscale/tailscale",
-          "source": "GitHub AI",
-          "source_name": "GitHub AI",
-          "category": "ai-tools",
-          "published_at": "2026-06-08T07:02:22.549641+00:00",
-          "summary": "The easiest, most secure way to use WireGuard and 2FA."
-        },
-        {
-          "id": "6384330518cc",
-          "title": "⭐ aquasecurity/trivy",
-          "url": "https://github.com/aquasecurity/trivy",
-          "source": "GitHub AI",
-          "source_name": "GitHub AI",
-          "category": "ai-tools",
-          "published_at": "2026-06-08T07:02:22.549355+00:00",
-          "summary": "Find vulnerabilities, misconfigurations, secrets, SBOM in containers, Kubernetes, code repositories, clouds and more"
-        },
-        {
-          "id": "b8d37aa6cd3a",
-          "title": "⭐ openai/whisper",
-          "url": "https://github.com/openai/whisper",
-          "source": "GitHub AI",
-          "source_name": "GitHub AI",
-          "category": "ai-tools",
-          "published_at": "2026-06-08T07:02:22.549212+00:00",
-          "summary": "Robust Speech Recognition via Large-Scale Weak Supervision"
-        },
-        {
           "id": "8671ab41e0cc",
           "title": "⭐ KRTirtho/spotube",
           "url": "https://github.com/KRTirtho/spotube",
           "source": "GitHub AI",
           "source_name": "GitHub AI",
           "category": "ai-tools",
-          "published_at": "2026-06-08T07:02:22.549073+00:00",
+          "published_at": "2026-06-08T12:07:46.767255+00:00",
           "summary": "🎧 Open source music streaming app! Available for both desktop & mobile!"
-        },
-        {
-          "id": "1c344c8b0071",
-          "title": "⭐ feast-dev/feast",
-          "url": "https://github.com/feast-dev/feast",
-          "source": "GitHub AI",
-          "source_name": "GitHub AI",
-          "category": "ai-tools",
-          "published_at": "2026-06-08T07:02:22.548800+00:00",
-          "summary": "The Open Source Feature Store for AI/ML"
         },
         {
           "id": "4787c587f0ea",
@@ -345,8 +315,18 @@
           "source": "GitHub AI",
           "source_name": "GitHub AI",
           "category": "ai-tools",
-          "published_at": "2026-06-08T07:02:22.548631+00:00",
+          "published_at": "2026-06-08T12:07:46.766808+00:00",
           "summary": "Your AI second brain. Self-hostable. Get answers from the web or your docs. Build custom agents, schedule automations, do deep research. Turn any online or local LLM into your personal, autonomous AI (gpt, claude, gemini, llama, qwen, mistral). Get started - free."
+        },
+        {
+          "id": "2b6aea2dc6e4",
+          "title": "⭐ activepieces/activepieces",
+          "url": "https://github.com/activepieces/activepieces",
+          "source": "GitHub AI",
+          "source_name": "GitHub AI",
+          "category": "ai-tools",
+          "published_at": "2026-06-08T12:07:46.766684+00:00",
+          "summary": "AI Agents & MCPs & AI Workflow Automation • (~400 MCP servers for AI agents) • AI Automation / AI Agent with MCPs • AI Workflows & AI Agents • MCPs for AI Agents"
         },
         {
           "id": "36a6419c832e",
@@ -355,8 +335,28 @@
           "source": "GitHub AI",
           "source_name": "GitHub AI",
           "category": "ai-tools",
-          "published_at": "2026-06-08T07:02:22.548391+00:00",
+          "published_at": "2026-06-08T12:07:46.766587+00:00",
           "summary": "Build product integrations with AI."
+        },
+        {
+          "id": "980822d185f7",
+          "title": "⭐ AUTOMATIC1111/stable-diffusion-webui",
+          "url": "https://github.com/AUTOMATIC1111/stable-diffusion-webui",
+          "source": "GitHub AI",
+          "source_name": "GitHub AI",
+          "category": "ai-tools",
+          "published_at": "2026-06-08T12:07:46.766042+00:00",
+          "summary": "Stable Diffusion web UI"
+        },
+        {
+          "id": "b8d37aa6cd3a",
+          "title": "⭐ openai/whisper",
+          "url": "https://github.com/openai/whisper",
+          "source": "GitHub AI",
+          "source_name": "GitHub AI",
+          "category": "ai-tools",
+          "published_at": "2026-06-08T12:07:46.765679+00:00",
+          "summary": "Robust Speech Recognition via Large-Scale Weak Supervision"
         }
       ]
     },
@@ -398,6 +398,46 @@
     "tip": {
       "label": "💡 技巧",
       "items": [
+        {
+          "id": "19caf6f3d065",
+          "title": "Pakistan Notice Helper：一款面向本地安全问题的轻量 AI 工具",
+          "url": "https://huggingface.co/blog/build-small-hackathon/building-pakistan-notice-helper",
+          "source": "aihot",
+          "source_name": "Hugging Face：Blog（RSS）",
+          "category": "tip",
+          "published_at": "2026-06-08T11:46:56.000Z",
+          "summary": "Pakistan Notice Helper 是一款安全工具，帮助巴基斯坦用户在点击链接、拨打电话、分享 OTP 或支付前识别可疑消息。它接受文本或截图输入，返回风险等级、简短解释、可见警示标志和安全下一步建议。工具支持英文和乌尔都语，乌尔都模式采用从右向左布局并全界面翻译。最终部署选用 Qwen3.5 4B Q8 模型（通过 llama.cpp + CUDA），在 10 个测试用例中通过了所有高风险诈骗和截图场景。此前曾测试 Qwen3.6 27B（质量高但成本高）和 MiniCPM-V 4.6 Q8（速度慢且不稳定），最终选择了精度、速度和成本平衡的 4B 模型。项目受限于 hackathon 的 32B 模型上限规则。"
+        },
+        {
+          "id": "356c0464f11e",
+          "title": "Agent 辅助开发，一站式打通 Qwen3-VL Android 端侧推理",
+          "url": "https://mp.weixin.qq.com/s?__biz=MzkxMTYyMTAzNA%3D%3D&mid=2247501437&idx=1&sn=d6c6dcb853adbed4ea946711d478779a",
+          "source": "aihot",
+          "source_name": "公众号：通义实验室（千问）",
+          "category": "tip",
+          "published_at": "2026-06-08T09:54:08.000Z",
+          "summary": null
+        },
+        {
+          "id": "e1d415230e68",
+          "title": "邵猛开源 Brand to DESIGN.md 技能，提醒复刻易生新\"AI Slop\"",
+          "url": "https://x.com/shao__meng/status/2063902211978223678",
+          "source": "aihot",
+          "source_name": "X：邵猛 (@shao__meng)",
+          "category": "tip",
+          "published_at": "2026-06-08T08:33:27.000Z",
+          "summary": "邵猛关注 Design Skill、Taste Skill、Anti-AI-slop design skill，并开源 Brand to DESIGN.md Skill（GitHub： shaom/brand-to-design-md-skill），让 Agent 学习设计品味后复刻网站。但他指出，这种复刻看多了反而从 Anti-AI-slop 衍生新\"AI Slop\"，缺少设计精髓，仅皮毛相仿。"
+        },
+        {
+          "id": "a548d4b098ab",
+          "title": "CoreWeave 如何看待当前计算市场",
+          "url": "https://www.bloomberg.com/news/articles/2026-06-08/how-coreweave-sees-the-market-for-compute-right-now",
+          "source": "aihot",
+          "source_name": "Bloomberg：Technology（RSS）",
+          "category": "tip",
+          "published_at": "2026-06-08T08:00:32.000Z",
+          "summary": "CoreWeave 对当前计算市场进行了分析，指出推动增长的因素和限制增长的因素。该公司的市场看法即围绕这两个维度展开。"
+        },
         {
           "id": "8f3bc1a463e1",
           "title": "苹果秘密会议内幕：它终于认真对待AI",
@@ -527,52 +567,22 @@
           "category": "tip",
           "published_at": "2026-06-05T19:07:35.749Z",
           "summary": "一篇 Hacker News 热门帖子（105 分）提出了 Claude 是否导致 rsync 工具中 bug 增加的问题，并附有分析链接。"
-        },
-        {
-          "id": "68344bf2ab8d",
-          "title": "Suno Voices 使用指南：6 个技巧打造高质量人声录制",
-          "url": "https://suno.com/blog/6-tips-for-voices",
-          "source": "aihot",
-          "source_name": "Suno：Blog（网页）",
-          "category": "tip",
-          "published_at": "2026-06-05T15:26:17.111Z",
-          "summary": "Suno Voices 面向 Web 付费用户开放。提升人声质量的 6 个技巧：在安静环境录音以减少背景噪音；先练习歌词再正式录制；不必追求完美，保留真实情感；录音时长尽量超过 1 分钟以提供更多学习素材；将人声匹配到合适的音乐流派（如民谣、流行、死亡金属、波萨诺瓦等）；敢于尝试不同风格以发现惊喜。这些技巧旨在帮助用户获得更个性化、表现力更强的声音效果。"
-        },
-        {
-          "id": "cad7efcc335c",
-          "title": "Hinton称AI拥有意识：人类最好接受非唯一智能生命",
-          "url": "https://x.com/kimmonismus/status/2062915287700090948",
-          "source": "aihot",
-          "source_name": "X：Kim (@kimmonismus)",
-          "category": "tip",
-          "published_at": "2026-06-05T15:11:46.000Z",
-          "summary": "AI先驱Geoffrey Hinton表示，他认为AI拥有意识，人类应接受自己并非唯一智能生命。他指出AI\"非常像我们\"，AI聊天机器人必须理解问题才能作答，这种觉知等同于感知能力，智能不限于生物。主推文作者进一步讨论意识本质：笛卡尔的\"我思故我在\"和fMRI等实证手段都无法真正定义意识，人类对自身了解远不及想象。作者呼吁转向新哲学问题，厘清人与机器的区别与联系。"
-        },
-        {
-          "id": "a9b4cc4241e4",
-          "title": "Sir Demis Hassabis vs Sir Demis Hassabis",
-          "url": "https://garymarcus.substack.com/p/sir-demis-hassabis-vs-sir-demis-hassabis",
-          "source": "aihot",
-          "source_name": "Gary Marcus：The Road to AI We Can Trust（RSS）",
-          "category": "tip",
-          "published_at": "2026-06-05T14:25:36.000Z",
-          "summary": null
-        },
-        {
-          "id": "2510cc3a67d4",
-          "title": "一个非常狠的AI教学提示词：追问式检查清单教学",
-          "url": "https://x.com/xiaohu/status/2062902972649222311",
-          "source": "aihot",
-          "source_name": "X：小互 (@xiaohu)",
-          "category": "tip",
-          "published_at": "2026-06-05T14:22:50.000Z",
-          "summary": "这是一则AI提示词，让AI扮演极度严格的老师，通过逐阶段教学、持续维护MD检查清单来确保用户真正理解。AI先让用户复述当前理解，再填补漏洞，并用开放式或选择题（随机选项顺序，提交前不公布答案）测试。教学必须覆盖问题本身、解决方案、宏观背景三个层面，并不断深挖\"为什么\"。仅当用户通过清单上所有项目的验证，会话才算结束。提示词强调对理解程度的主动验证，而非一次性灌输。"
         }
       ]
     },
     "industry": {
       "label": "industry",
       "items": [
+        {
+          "id": "b2f89307fabf",
+          "title": "生数科技与华策集团达成战略合作，共建AIGC影视创制中心",
+          "url": "https://mp.weixin.qq.com/s?__biz=MzkzMDQ5NTQwMQ%3D%3D&mid=2247488842&idx=1&sn=3dab63189fa60b3b78c5ad72e3358791",
+          "source": "aihot",
+          "source_name": "公众号：生数科技（Vidu·视频）",
+          "category": "industry",
+          "published_at": "2026-06-08T09:30:33.000Z",
+          "summary": "生数科技与华策集团达成战略合作，共建AIGC影视创制中心，推动AI与影视产业融合落地。合作聚焦于利用生数科技的AI视频生成能力（Vidu），结合华策集团的影视行业资源，探索AIGC在影视制作全流程中的应用，包括剧本生成、预可视化、特效制作等环节。双方将通过技术研发与场景验证，加速AI在影视行业的规模化落地。"
+        },
         {
           "id": "aeb4d1c6a5d5",
           "title": "英国借助 NVIDIA 技术将主权 AI 雄心转化为行动",
@@ -672,26 +682,6 @@
           "category": "industry",
           "published_at": "2026-06-05T16:24:01.000Z",
           "summary": "AI 热潮使计算基础设施占美国 GDP 比重翻倍。\n\n2026 年第一季度，与 AI 相关的数据中心建设、计算硬件和网络设备投资约占美国 GDP 的 0.8%，推动整个计算基础设施占 GDP 比重达到约 1.5%。"
-        },
-        {
-          "id": "7e4fed57f3d8",
-          "title": "OpenAI 前 CTO 称若 Altman 未回归公司可能已\"瓦解\"",
-          "url": "https://www.bloomberg.com/news/articles/2026-06-05/openai-would-ve-imploded-if-altman-didn-t-return-ex-cto-says",
-          "source": "aihot",
-          "source_name": "Bloomberg：Technology（RSS）",
-          "category": "industry",
-          "published_at": "2026-06-05T15:18:30.000Z",
-          "summary": "Mira Murati 表示，如果 Sam Altman 在 2023 年被短暂罢免后没有回归 CEO 职位，OpenAI 很可能已经\"瓦解\"。这是她对那场硅谷最激烈的董事会斗争的最清晰描述。"
-        },
-        {
-          "id": "e003cd0a1e8d",
-          "title": "苹果新版 Siri 不会被宣传为完成品，内部将其标记为\"Beta\"版",
-          "url": "https://www.ithome.com/0/960/739.htm",
-          "source": "aihot",
-          "source_name": "IT之家（RSS）",
-          "category": "industry",
-          "published_at": "2026-06-05T14:21:03.000Z",
-          "summary": "苹果新版Siri被内部标记为\"Beta\"版，不会作为完成品宣传；可能设置等待清单供用户尝试。iOS 27细节：通知到达重新设计，通知中心手势移至左上角；\"查找\"应用视觉重设计；照片\"清理\"功能改进；大量底层安全改进。部分Siri查询将通过Google Cloud调用授权版Gemini，并使用谷歌的NVIDIA Blackwell B200集群处理。"
         }
       ]
     },
@@ -737,16 +727,6 @@
           "category": "paper",
           "published_at": "2026-06-05T19:43:10.000Z",
           "summary": "微软Azure CTO Mark Russinovich在Build 2026上介绍Project Mosaic，这是微软剑桥研究院的实验性光学互连技术，采用micro-LED实现低功耗、高速数据传输。高级研究员Kaoutar Benyahya现场演示单个LED调制形成字母，证明概念具备实时响应能力。"
-        },
-        {
-          "id": "29f932b7beaf",
-          "title": "Meta SAM 3D 获 CVPR26 最佳论文荣誉提名",
-          "url": "https://x.com/AIatMeta/status/2062920724944507095",
-          "source": "aihot",
-          "source_name": "X：AI at Meta (@AIatMeta)",
-          "category": "paper",
-          "published_at": "2026-06-05T15:33:22.000Z",
-          "summary": "热烈祝贺我们的 SAM 3D 团队在 #CVPR26 获得最佳论文荣誉提名！这项殊荣凸显了他们在推动计算机视觉边界方面的杰出工作。\n\n论文链接：https：//arxiv.org/abs/2511.16624"
         }
       ]
     }
