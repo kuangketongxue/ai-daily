@@ -1,25 +1,24 @@
 {
-  "date": "2026-06-07",
-  "generated_at": "2026-06-07T23:18:54.857683",
-  "total": 70,
+  "date": "2026-06-08",
+  "generated_at": "2026-06-08T01:59:44.548809",
+  "total": 68,
   "sources": {
     "Hugging Face": 8,
     "GitHub AI": 8,
+    "MarkTechPost（RSS）": 1,
+    "Hugging Face：Blog（RSS）": 6,
+    "X：OpenRouter (@OpenRouter)": 2,
+    "NVIDIA AI Blog": 2,
     "X：宝玉 (@dotey)": 2,
     "X：Rohan Paul (@rohanpaul_ai)": 4,
     "TechCrunch：AI（RSS）": 1,
-    "Gary Marcus：The Road to AI We Can Trust（RSS）": 4,
-    "Bloomberg：Technology（RSS）": 3,
-    "Hacker News 热门（buzzing.cc 中文翻译）": 6,
-    "X：阿易 AI Notes (@AYi_AInotes)": 1,
-    "Hugging Face：Blog（RSS）": 5,
-    "NVIDIA AI Blog": 1,
-    "MarkTechPost（RSS）": 1,
-    "X：OpenRouter (@OpenRouter)": 2,
-    "IT之家（RSS）": 4,
-    "公众号：阶跃星辰（Step）": 2,
-    "公众号：MiniMax（稀宇科技）": 1,
+    "Bloomberg：Technology（RSS）": 4,
+    "X：阿易 AI Notes (@AYi_AInotes)": 2,
+    "Hacker News 热门（buzzing.cc 中文翻译）": 5,
+    "Gary Marcus：The Road to AI We Can Trust（RSS）": 3,
     "X：MiniMax (@MiniMax_AI)": 1,
+    "IT之家（RSS）": 4,
+    "公众号：阶跃星辰（Step）": 1,
     "X：NVIDIA AI (@NVIDIAAI)": 1,
     "X：Microsoft Research (@MSFTResearch)": 1,
     "X：Michael Truell (@mntruell)": 1,
@@ -33,9 +32,7 @@
     "X：Viggle AI (@ViggleAI)": 1,
     "X：小互 (@xiaohu)": 1,
     "X：面壁智能 OpenBMB (@OpenBMB)": 1,
-    "Cloudflare Blog": 1,
-    "公众号：腾讯混元": 1,
-    "公众号：火山引擎": 1
+    "Cloudflare Blog": 1
   },
   "ai_processed": false,
   "categories": {
@@ -43,13 +40,13 @@
       "label": "🧠 AI 模型",
       "items": [
         {
-          "id": "bf8740541b39",
+          "id": "a1294081c450",
           "title": "Harness-1：基于强化学习训练的有状态搜索20B检索子智能体",
           "url": "https://www.marktechpost.com/2026/06/06/meet-harness-1-a-20b-retrieval-subagent-trained-with-reinforcement-learning-inside-a-stateful-search-harness-on-gpt-oss-20b",
           "source": "aihot",
           "source_name": "MarkTechPost（RSS）",
           "category": "ai-models",
-          "published_at": "2026-06-07T06:25:18.000Z",
+          "published_at": "2026-06-08T00:03:37.849Z",
           "summary": "UIUC与Chroma联合推出Harness-1，一个20B参数的检索子智能体。它通过强化学习在一个有状态搜索框架中训练，该框架维护候选池、重要性标注集、证据图和验证记录，由策略决定搜索、筛选、验证及停止的时机。Harness-1在8个基准测试上达到0.730平均curated recall，比下一个最佳开源子智能体高出11.4个百分点，仅落后于Opus-4.6。模型权重和框架代码均已公开。"
         },
         {
@@ -68,6 +65,36 @@
       "label": "🚀 AI 产品",
       "items": [
         {
+          "id": "dcca9727e0df",
+          "title": "Her · हेर — Claude Code 会话分析工具",
+          "url": "https://huggingface.co/blog/build-small-hackathon/her-blog",
+          "source": "aihot",
+          "source_name": "Hugging Face：Blog（RSS）",
+          "category": "ai-products",
+          "published_at": "2026-06-08T00:03:37.849Z",
+          "summary": "Her（हेर）是专为 Claude Code 设计的会话分析工具。用户上传 `.jsonl` 文件后，Her 用自然语言重建每轮交互，标记部署、配置变更、秘密等高风险操作并定位到具体轮次。它展示 token 消耗、所用工具、子智能体、技能和 MCP 服务器，并结合 Anthropic 与社区最佳实践给出改进建议（仅在有明确可修复模式时）。内置“Ask Her”问答功能，支持单会话与跨会话项目分析。工具不调用第三方 AI API，使用 Nemotron-Mini-4B-Instruct 模型在 Hugging Face ZeroGPU 上运行，评估引擎完全确定，模型仅负责文本生成与建议。Her 内置 Homebrew、npm、PyP…"
+        },
+        {
+          "id": "d6590df2d3e4",
+          "title": "Opus 4.8 缓存命中率与有效价格可实时查看",
+          "url": "https://x.com/OpenRouter/status/2063504950429147376",
+          "source": "aihot",
+          "source_name": "X：OpenRouter (@OpenRouter)",
+          "category": "ai-products",
+          "published_at": "2026-06-08T00:03:37.849Z",
+          "summary": "不同模型提供商在缓存命中率和有效价格上有什么差异？ 现在你可以从 Pricing 标签查看实时缓存命中率和历史流量。这里是 Opus 4.8：https://openrouter.ai/anthropic/claude-opus-4.8/pricing"
+        },
+        {
+          "id": "1f2d07030500",
+          "title": "NVIDIA 与 KRAFTON、NC、T1 在韩国 PC 房庆祝 RTX Spark 发布",
+          "url": "https://blogs.nvidia.com/blog/krafton-nc-t1-korea-gaming-pc-bang-rtx-spark",
+          "source": "aihot",
+          "source_name": "NVIDIA AI Blog",
+          "category": "ai-products",
+          "published_at": "2026-06-08T00:03:37.849Z",
+          "summary": "继上周 GTC Taipei 发布后，NVIDIA CEO Jensen Huang 前往韩国，向当地游戏社区正式介绍 RTX Spark 超芯片。该芯片集成 30 年 NVIDIA 技术，可在 Windows 笔记本上实现全天续航，并以 1440p 分辨率、超过 100fps 运行 AAA 游戏，支持包括 DLSS 4.5 Ray Reconstruction（基于第二代 Transformer 模型）在内的全套 RTX 技术。KRAFTON、NC 与 Riot Games 正合作将旗下游戏适配 RTX Spark。周五，Huang 在 T1 电竞场馆与 Faker 共同亮相，并突袭江南区网吧，演示《PUBG: BATTLEGRO…"
+        },
+        {
           "id": "7520ca336ad6",
           "title": "Her · हेर - Claude Code 会话分析工具",
           "url": "https://huggingface.co/blog/build-small-hackathon/her-blog",
@@ -78,53 +105,33 @@
           "summary": "Her（हेर）是专为 Claude Code 设计的会话分析工具。用户上传 `.jsonl` 文件后，Her 用自然语言重建每轮交互，标记部署、配置变更、秘密等高风险操作并定位到具体轮次。它展示 token 消耗、所用工具、子智能体、技能和 MCP 服务器，并结合 Anthropic 与社区最佳实践给出改进建议（仅在有明确可修复模式时）。内置\"Ask Her\"问答功能，支持单会话与跨会话项目分析。工具不调用第三方 AI API，使用 Nemotron-Mini-4B-Instruct 模型在 Hugging Face ZeroGPU 上运行，评估引擎完全确定，模型仅负责文本生成与建议。Her 内置 Homebrew、npm、PyPI 主流 CLI 工具数据库，自动识别会话中使用的工具，并对部署工具、数据库客户端等执行活动进行标记提醒。"
         },
         {
-          "id": "c5e3fe7ebc6e",
-          "title": "NVIDIA 与 KRAFTON、NC、T1 在韩国 PC 房庆祝 RTX Spark 发布",
-          "url": "https://blogs.nvidia.com/blog/krafton-nc-t1-korea-gaming-pc-bang-rtx-spark",
-          "source": "aihot",
-          "source_name": "NVIDIA AI Blog",
-          "category": "ai-products",
-          "published_at": "2026-06-07T07:00:15.000Z",
-          "summary": "继上周 GTC Taipei 发布后，NVIDIA CEO Jensen Huang 前往韩国，向当地游戏社区正式介绍 RTX Spark 超芯片。该芯片集成 30 年 NVIDIA 技术，可在 Windows 笔记本上实现全天续航，并以 1440p 分辨率、超过 100fps 运行 AAA 游戏，支持包括 DLSS 4.5 Ray Reconstruction（基于第二代 Transformer 模型）在内的全套 RTX 技术。KRAFTON、NC 与 Riot Games 正合作将旗下游戏适配 RTX Spark。周五，Huang 在 T1 电竞场馆与 Faker 共同亮相，并突袭江南区网吧，演示《PUBG： BATTLEGROUNDS》及基于 NVIDIA ACE 的\"PUBG Ally\"AI 队友、《CINDER CITY》《AION 2》等作品。《CINDER CITY》首发支持 DLSS 4.5 动态多帧生成与超分辨率。已有超过 100 家 Windows 软件与游戏开发商采纳 RTX Spark。"
-        },
-        {
-          "id": "d950f91aaffc",
-          "title": "Opus 4.8 缓存命中率与有效价格可实时查看",
-          "url": "https://x.com/OpenRouter/status/2063504950429147376",
-          "source": "aihot",
-          "source_name": "X：OpenRouter (@OpenRouter)",
-          "category": "ai-products",
-          "published_at": "2026-06-07T06:14:52.000Z",
-          "summary": "不同模型提供商在缓存命中率和有效价格上有什么差异？\n\n现在你可以从 Pricing 标签查看实时缓存命中率和历史流量。这里是 Opus 4.8：https：//openrouter.ai/anthropic/claude-opus-4.8/pricing"
-        },
-        {
-          "id": "8b10abb5c1ee",
+          "id": "46f27436e6d5",
           "title": "GitHub 开源 Spec Kit 工具包，用产品规范引导 AI 编码",
           "url": "https://x.com/rohanpaul_ai/status/2063246343842501091",
           "source": "aihot",
           "source_name": "X：Rohan Paul (@rohanpaul_ai)",
           "category": "ai-products",
-          "published_at": "2026-06-07T00:00:00.498Z",
-          "summary": "GitHub 发布开源工具包 Spec Kit，旨在解决 \"vibe coding\" 的最大弱点——AI 常在规则未明确时就开始编码。它把流程从 \"让 AI 直接构建\" 改为 \"先写产品规范，再让 AI 根据规范实现\"。当前 AI 编码模式常因松散提示直接跳入代码，导致需求薄弱、边界遗漏和反复返工。Spec Kit 推动反向流程：先定义产品功能，再澄清差距、制订技术计划、分解任务，最后让 agent 执行。规范成为可执行的开发合约，支持 Copilot、Claude Code、Codex、Gemini、Cursor、Qwen 等 30+ agent 集成。项目已获 109K+ 星标。"
+          "published_at": "2026-06-06T13:07:16.000Z",
+          "summary": "GitHub 发布开源工具包 Spec Kit，旨在解决 \"vibe coding\" 的最大弱点--AI 常在规则未明确时就开始编码。它把流程从 \"让 AI 直接构建\" 改为 \"先写产品规范，再让 AI 根据规范实现\"。当前 AI 编码模式常因松散提示直接跳入代码，导致需求薄弱、边界遗漏和反复返工。Spec Kit 推动反向流程：先定义产品功能，再澄清差距、制订技术计划、分解任务，最后让 agent 执行。规范成为可执行的开发合约，支持 Copilot、Claude Code、Codex、Gemini、Cursor、Qwen 等 30+ agent 集成。项目已获 109K+ 星标。"
         },
         {
-          "id": "b93ee78296e7",
+          "id": "95404538b7ab",
           "title": "OpenCV 5 发布：升级全新 DNN 引擎、原生支持大模型",
           "url": "https://www.ithome.com/0/960/969.htm",
           "source": "aihot",
           "source_name": "IT之家（RSS）",
           "category": "ai-products",
-          "published_at": "2026-06-07T00:00:00.498Z",
-          "summary": "OpenCV 5 正式发布，采用基于图的 DNN 引擎，ONNX 算子覆盖率从 4.x 的不到 23% 提升至超 80%，原生支持 Transformer、视觉语言模型（VLM）和大语言模型（LLM）。其他更新包括：更好的 Python 集成与命名参数、更紧凑核心代码、清晰硬件加速层、原生 FP16/BF16、规范化 0D/1D 张量、扩展 3D 视觉及现代化文档。该库 GitHub 拥有超 86,000 stars，每日安装量超一百万次。"
+          "published_at": "2026-06-06T12:48:12.000Z",
+          "summary": "OpenCV 5 正式发布，采用基于图的 DNN 引擎，ONNX 算子覆盖率从 4.x 的不到 23% 提升至超 80%，原生支持 Transformer、视觉语言模型（VLM）和大语言模型（LLM）。其他更新包括：更好的 Python 集成与命名参数、更紧凑核心代码、清晰硬件加速层、原生 FP16/BF16、规范化 0D/1D 张量、扩展 3D 视觉及现代化文档。该库 GitHub 拥有超 86，000 stars，每日安装量超一百万次。"
         },
         {
-          "id": "7354aaf306c5",
+          "id": "9d4ca6bb8148",
           "title": "Persona Atlas：Hugging Face 上的开源人物思维映射工具",
           "url": "https://huggingface.co/blog/build-small-hackathon/persona-atlas",
           "source": "aihot",
           "source_name": "Hugging Face：Blog（RSS）",
           "category": "ai-products",
-          "published_at": "2026-06-07T00:00:00.498Z",
+          "published_at": "2026-06-06T11:42:01.000Z",
           "summary": "Persona Atlas 是一个运行在 Hugging Face Inference Providers 上的开源项目。它通过工具调用代理执行真实网络搜索，生成公众人物的资料、事实清单和风格假设，然后让该人物回答十个关于身份、伦理等开放式问题。每个回答被转化为嵌入向量，从而在向量空间中对不同人物进行距离比较，并基于十个特质锚点绘制热力图。前端采用 Gradio，提供研究、比较和检查代理完整追溯三个标签页，预设多个人物角色，无需 token 即可直接体验。"
         },
         {
@@ -206,16 +213,6 @@
           "category": "ai-products",
           "published_at": "2026-06-05T13:00:00.000Z",
           "summary": "Cloudflare AI Gateway新增实时消费限制功能，防止跨多个AI提供商的token账单失控。通过与Cloudflare Access集成，企业可以使用基于身份的预算和策略管理AI使用成本。"
-        },
-        {
-          "id": "efa16a6b8e51",
-          "title": "从品牌TVC到效果素材量产，Seedance 2.0进入广告核心生产流程",
-          "url": "https://mp.weixin.qq.com/s/uvasI0EYNtv1Q8bMd96CzQ",
-          "source": "aihot",
-          "source_name": "公众号：火山引擎",
-          "category": "ai-products",
-          "published_at": "2026-06-05T11:17:53.000Z",
-          "summary": "Seedance 2.0进入广告核心生产流程，旨在同时应对品牌TVC的高质感、叙事统一需求与效果素材的快速迭代、量产压力。传统广告制作中，品牌广告与效果广告依赖两套不同的生产体系，前者周期长、重视觉统一，后者需高频更新。Seedance 2.0试图融合两种模式，提升内容上新速度和项目交付效率。"
         }
       ]
     },
@@ -309,7 +306,7 @@
           "source": "GitHub AI",
           "source_name": "GitHub AI",
           "category": "ai-tools",
-          "published_at": "2026-06-07T23:18:53.689018+00:00",
+          "published_at": "2026-06-08T01:59:41.311756+00:00",
           "summary": "A maintained, feature-rich and performance oriented, neofetch like system information tool."
         },
         {
@@ -319,7 +316,7 @@
           "source": "GitHub AI",
           "source_name": "GitHub AI",
           "category": "ai-tools",
-          "published_at": "2026-06-07T23:18:53.688074+00:00",
+          "published_at": "2026-06-08T01:59:41.311017+00:00",
           "summary": "The easiest, most secure way to use WireGuard and 2FA."
         },
         {
@@ -329,7 +326,7 @@
           "source": "GitHub AI",
           "source_name": "GitHub AI",
           "category": "ai-tools",
-          "published_at": "2026-06-07T23:18:53.687840+00:00",
+          "published_at": "2026-06-08T01:59:41.310812+00:00",
           "summary": "Find vulnerabilities, misconfigurations, secrets, SBOM in containers, Kubernetes, code repositories, clouds and more"
         },
         {
@@ -339,7 +336,7 @@
           "source": "GitHub AI",
           "source_name": "GitHub AI",
           "category": "ai-tools",
-          "published_at": "2026-06-07T23:18:53.687702+00:00",
+          "published_at": "2026-06-08T01:59:41.310720+00:00",
           "summary": "Robust Speech Recognition via Large-Scale Weak Supervision"
         },
         {
@@ -349,7 +346,7 @@
           "source": "GitHub AI",
           "source_name": "GitHub AI",
           "category": "ai-tools",
-          "published_at": "2026-06-07T23:18:53.687586+00:00",
+          "published_at": "2026-06-08T01:59:41.310629+00:00",
           "summary": "🎧 Open source music streaming app! Available for both desktop & mobile!"
         },
         {
@@ -359,7 +356,7 @@
           "source": "GitHub AI",
           "source_name": "GitHub AI",
           "category": "ai-tools",
-          "published_at": "2026-06-07T23:18:53.687343+00:00",
+          "published_at": "2026-06-08T01:59:41.310435+00:00",
           "summary": "The Open Source Feature Store for AI/ML"
         },
         {
@@ -369,7 +366,7 @@
           "source": "GitHub AI",
           "source_name": "GitHub AI",
           "category": "ai-tools",
-          "published_at": "2026-06-07T23:18:53.687197+00:00",
+          "published_at": "2026-06-08T01:59:41.310319+00:00",
           "summary": "Your AI second brain. Self-hostable. Get answers from the web or your docs. Build custom agents, schedule automations, do deep research. Turn any online or local LLM into your personal, autonomous AI (gpt, claude, gemini, llama, qwen, mistral). Get started - free."
         },
         {
@@ -379,7 +376,7 @@
           "source": "GitHub AI",
           "source_name": "GitHub AI",
           "category": "ai-tools",
-          "published_at": "2026-06-07T23:18:53.687000+00:00",
+          "published_at": "2026-06-08T01:59:41.310158+00:00",
           "summary": "Build product integrations with AI."
         }
       ]
@@ -388,54 +385,34 @@
       "label": "📰 行业动态",
       "items": [
         {
-          "id": "b53788734abc",
-          "title": "美国众议院议员发布法案草案，旨在禁止各州制定人工智能相关法规",
-          "url": "https://www.reuters.com/business/us-house-lawmakers-release-draft-bill-regulate-ai-2026-06-04",
+          "id": "4c6a0d552848",
+          "title": "ChatGPT 要变 AgentGPT 了",
+          "url": "https://x.com/dotey/status/2063686036895478162",
           "source": "aihot",
-          "source_name": "Hacker News 热门（buzzing.cc 中文翻译）",
+          "source_name": "X：宝玉 (@dotey)",
           "category": "ai-industry",
-          "published_at": "2026-06-07T00:00:00.498Z",
-          "summary": "美国众议院议员发布一项法案草案，旨在禁止各州自行制定人工智能相关法规，将AI监管权力集中到联邦层面。"
+          "published_at": "2026-06-08T00:03:37.849Z",
+          "summary": "OpenAI 正筹备 ChatGPT 自 2022 年上线以来最大规模改版，从聊天机器人转向超级应用/Agent 平台，整合编程工具 Codex、图像生成及第三方应用（Canva、Booking）。高管称“聊天已死”，目标成为跨平台个人 AI 助手，未来甚至省去用户输入提示词。改版预计未来几周在网页和手机端上线。商业压力：ChatGPT 有 9 亿周活用户、5000 万付费用户、月收入 20 亿美元但未盈利；企业客户贡献约 40% 收入，目标年底达 50%；Codex 桌面版周活超 500 万。竞争对手 Anthropic 估值已达 9650 亿美元。OpenAI 刚完成 1220 亿美元融资，估值 8520 亿美元，IPO 目标估…"
         },
         {
-          "id": "a48042ba34e1",
-          "title": "谷歌将每月向SpaceX支付9.2亿美元，以获取xAI数据中心的计算能力",
-          "url": "https://www.cnbc.com/2026/06/05/google-to-pay-spacex-920-million-a-month-for-xai-compute-capacity.html",
+          "id": "7f3ed297ae75",
+          "title": "特朗普政府与OpenAI讨论通过公共财富基金入股AI初创公司",
+          "url": "https://x.com/rohanpaul_ai/status/2063662672835703126",
           "source": "aihot",
-          "source_name": "Hacker News 热门（buzzing.cc 中文翻译）",
+          "source_name": "X：Rohan Paul (@rohanpaul_ai)",
           "category": "ai-industry",
-          "published_at": "2026-06-07T00:00:00.498Z",
-          "summary": "谷歌与SpaceX达成协议，每月支付9.2亿美元，获得位于xAI数据中心的计算能力。该交易的具体金额和合作细节于本周披露，将极大扩充谷歌的算力资源。"
+          "published_at": "2026-06-08T00:03:37.849Z",
+          "summary": "据FT报道，特朗普政府正与OpenAI探讨通过公共财富基金机制让政府入股AI初创公司。方案是AI企业捐赠小部分股权至该基金，基金通过账户或分红将收益返还美国公民，而非政府直接运营公司。这不同于特朗普去年对Intel的90亿美元直接持股。OpenAI此前已提出公共财富基金概念，持有长期资产，让公民分享AI增长红利。政治背景方面，选民担忧失业、数据中心成本与企业控制，而AI公司需要华盛顿在基建、采购和监管上的支持。"
         },
         {
-          "id": "4faaa1bf1ac7",
-          "title": "阶跃首席科学家张祥雨合著论文 ResNet 获 CVPR 2026 「时间检验奖」",
-          "url": "https://mp.weixin.qq.com/s?__biz=MzkyNTYxNzg5Mg%3D%3D&mid=2247487873&idx=1&sn=48534d3e883573c603a58e114cbe8709",
+          "id": "a5a5d12aa844",
+          "title": "OpenAI 仍推进超级应用计划",
+          "url": "https://techcrunch.com/2026/06/07/openai-is-still-working-on-that-super-app",
           "source": "aihot",
-          "source_name": "公众号：阶跃星辰（Step）",
+          "source_name": "TechCrunch：AI（RSS）",
           "category": "ai-industry",
-          "published_at": "2026-06-07T00:00:00.498Z",
-          "summary": ""
-        },
-        {
-          "id": "02bf7cd10b57",
-          "title": "阶跃首席科学家张祥雨合著论文 ResNet 获 CVPR 2026 「时间检验奖」",
-          "url": "https://mp.weixin.qq.com/s/ZVgqdH_fE42jO4kcI-lF3g",
-          "source": "aihot",
-          "source_name": "公众号：阶跃星辰（Step）",
-          "category": "ai-industry",
-          "published_at": "2026-06-07T00:00:00.498Z",
-          "summary": ""
-        },
-        {
-          "id": "27bd575bbdfd",
-          "title": "海螺AI×上影节活动日历｜请收下邀请函！",
-          "url": "https://mp.weixin.qq.com/s?__biz=MzkzNDUzMzEzNw%3D%3D&mid=2247487793&idx=1&sn=b5649b5c9c4204135b4914d89f71cb41",
-          "source": "aihot",
-          "source_name": "公众号：MiniMax（稀宇科技）",
-          "category": "ai-industry",
-          "published_at": "2026-06-07T00:00:00.498Z",
-          "summary": "MiniMax 海螺AI作为第28届上影节独家AI影像战略合作伙伴，将于6.14-6.15举办开放日活动，设AI片场专属Booth，展出四对“影视从业者+AI创作者”1+1组合的AI作品与创作过程，并设立创作体验区供现场交流。"
+          "published_at": "2026-06-08T00:03:37.849Z",
+          "summary": "OpenAI 一位高级员工表示“聊天已死”，同时公司仍在继续推进超级应用计划。"
         }
       ]
     },
@@ -443,34 +420,64 @@
       "label": "💡 技巧",
       "items": [
         {
-          "id": "da1b36d5d74f",
-          "title": "Slop、生产力，以及为何AI驱动的世界进展甚微",
-          "url": "https://garymarcus.substack.com/p/slop-productivity-and-why-the-ai",
-          "source": "aihot",
-          "source_name": "Gary Marcus：The Road to AI We Can Trust（RSS）",
-          "category": "tip",
-          "published_at": "2026-06-07T15:31:43.000Z",
-          "summary": "Gary Marcus在金融时报上看到John Burn-Murdoch的一张图表，认为它精准提炼了自己一直试图表达的观点。"
-        },
-        {
-          "id": "f2dd3134a7a2",
+          "id": "8f3bc1a463e1",
           "title": "苹果秘密会议内幕：它终于认真对待AI",
           "url": "https://www.bloomberg.com/news/newsletters/2026-06-07/wwdc-2026-apple-s-secret-meeting-that-led-it-to-take-ai-seriously-ios-27",
           "source": "aihot",
           "source_name": "Bloomberg：Technology（RSS）",
           "category": "tip",
-          "published_at": "2026-06-07T14:00:01.000Z",
+          "published_at": "2026-06-08T00:03:37.849Z",
           "summary": "苹果在一次内部秘密会议后，终于决定将AI作为核心战略。这场会议促使公司全面转向AI领域，相关进展预计将在WWDC 2026上公布。"
         },
         {
-          "id": "a9560e151bb8",
+          "id": "8c6debb5b79b",
+          "title": "“我在田里雇了一名工程师，它叫 Codex” —— 北海道一个西兰花农的 8 个真实 AI 用法",
+          "url": "https://x.com/AYi_AInotes/status/2063573709672104286",
+          "source": "aihot",
+          "source_name": "X：阿易 AI Notes (@AYi_AInotes)",
+          "category": "tip",
+          "published_at": "2026-06-08T00:03:37.849Z",
+          "summary": "日本北海道农民富安弘毅用 ChatGPT 和 Codex 解决农场实际问题，涵盖 8 个用法：拍照识别西兰花病害、卫星监测获取 NDVI 数据、用 ESP32 和 LINE 机器人远程控制温室卷帘、为农场群聊开发机器人管理温度与排期、从聊天记录追踪播种数量、学习 RTK-GPS 自动转向原理并评估自建成本、设计基于 Airtable 的农场管理数据库。他说 AI 让传统昂贵的自动化变得低成本可及，“如同身边有一位超级工程师”。"
+        },
+        {
+          "id": "e86f604885f2",
+          "title": "对比一下 GPT-5.5 的设计效果和 Opus 4.8 的设计效果",
+          "url": "https://x.com/dotey/status/2063464057647075379",
+          "source": "aihot",
+          "source_name": "X：宝玉 (@dotey)",
+          "category": "tip",
+          "published_at": "2026-06-08T00:03:37.849Z",
+          "summary": "宝玉对比了GPT-5.5与Opus 4.8的设计能力，认为Opus 4.8效果远优于GPT-5.5。他使用了基于Cursor浏览器和元素标注的baoyu-design Skill，该Skill通过npx skills add JimLiu/baoyu-design安装，可在本地运行：描述屏幕需求即可生成精良HTML，点击预览中任意元素即可发出修改指令。官方推荐搭配Opus 4.8以获得最佳效果。工具GitHub仓库：https://github.com/JimLiu/baoyu-design。"
+        },
+        {
+          "id": "d8c913f82e61",
           "title": "Symbolica 2.0：适用于 Python 和 Rust 的可编程符号系统",
           "url": "https://symbolica.io/posts/symbolica_2_0_release",
           "source": "aihot",
           "source_name": "Hacker News 热门（buzzing.cc 中文翻译）",
           "category": "tip",
-          "published_at": "2026-06-07T12:59:12.136Z",
+          "published_at": "2026-06-08T00:03:37.849Z",
           "summary": "Symbolica 2.0 发布，这是一款可编程符号系统，支持 Python 和 Rust 语言。该版本在 Hacker News 上获得 100 点热度。"
+        },
+        {
+          "id": "e2605fb6b194",
+          "title": "Harness 工程：在智能体优先的世界中运用 Codex",
+          "url": "https://openai.com/index/harness-engineering",
+          "source": "aihot",
+          "source_name": "Hacker News 热门（buzzing.cc 中文翻译）",
+          "category": "tip",
+          "published_at": "2026-06-08T00:03:37.849Z",
+          "summary": "Harness 工程在智能体优先的世界中利用 OpenAI Codex 的实践文章，6月6日发布于 openai.com，在 Hacker News 上获得 102 点热度。"
+        },
+        {
+          "id": "d48b2961f702",
+          "title": "Slop、生产力，以及为何AI驱动的世界进展甚微",
+          "url": "https://garymarcus.substack.com/p/slop-productivity-and-why-the-ai",
+          "source": "aihot",
+          "source_name": "Gary Marcus：The Road to AI We Can Trust（RSS）",
+          "category": "tip",
+          "published_at": "2026-06-08T00:03:37.849Z",
+          "summary": "Gary Marcus在金融时报上看到John Burn-Murdoch的一张图表，认为它精准提炼了自己一直试图表达的观点。"
         },
         {
           "id": "bc95550e4bf0",
@@ -483,74 +490,44 @@
           "summary": "日本北海道农民富安弘毅用 ChatGPT 和 Codex 解决农场实际问题，涵盖 8 个用法：拍照识别西兰花病害、卫星监测获取 NDVI 数据、用 ESP32 和 LINE 机器人远程控制温室卷帘、为农场群聊开发机器人管理温度与排期、从聊天记录追踪播种数量、学习 RTK-GPS 自动转向原理并评估自建成本、设计基于 Airtable 的农场管理数据库。他说 AI 让传统昂贵的自动化变得低成本可及，\"如同身边有一位超级工程师\"。"
         },
         {
-          "id": "6f3bda83a297",
-          "title": "Harness 工程：在智能体优先的世界中运用 Codex",
-          "url": "https://openai.com/index/harness-engineering",
-          "source": "aihot",
-          "source_name": "Hacker News 热门（buzzing.cc 中文翻译）",
-          "category": "tip",
-          "published_at": "2026-06-07T03:39:37.239Z",
-          "summary": "Harness 工程在智能体优先的世界中利用 OpenAI Codex 的实践文章，6月6日发布于 openai.com，在 Hacker News 上获得 102 点热度。"
-        },
-        {
-          "id": "cf4ac47ee3aa",
-          "title": "对比一下 GPT-5.5 的设计效果和 Opus 4.8 的设计效果",
-          "url": "https://x.com/dotey/status/2063464057647075379",
-          "source": "aihot",
-          "source_name": "X：宝玉 (@dotey)",
-          "category": "tip",
-          "published_at": "2026-06-07T03:32:23.000Z",
-          "summary": "宝玉对比了GPT-5.5与Opus 4.8的设计能力，认为Opus 4.8效果远优于GPT-5.5。他使用了基于Cursor浏览器和元素标注的baoyu-design Skill，该Skill通过npx skills add JimLiu/baoyu-design安装，可在本地运行：描述屏幕需求即可生成精良HTML，点击预览中任意元素即可发出修改指令。官方推荐搭配Opus 4.8以获得最佳效果。工具GitHub仓库：https：//github.com/JimLiu/baoyu-design。"
-        },
-        {
-          "id": "705820132098",
-          "title": "AI 的黑色星期五",
-          "url": "https://garymarcus.substack.com/p/ais-black-friday",
-          "source": "aihot",
-          "source_name": "Gary Marcus：The Road to AI We Can Trust（RSS）",
-          "category": "tip",
-          "published_at": "2026-06-07T00:00:00.498Z",
-          "summary": "Gary Marcus 在文章中分享了对 AI 领域刚刚发生事件的看法，表达了对当前 AI 发展方向的思考。"
-        },
-        {
-          "id": "369af6ed3972",
-          "title": "五个实验室，五个心智：用小模型构建多模型金融剧情游戏",
-          "url": "https://huggingface.co/blog/build-small-hackathon/thousand-token-wood-sim-v2",
-          "source": "aihot",
-          "source_name": "Hugging Face：Blog（RSS）",
-          "category": "tip",
-          "published_at": "2026-06-07T00:00:00.498Z",
-          "summary": "Thousand Token Wood v2使用四个不同实验室的小模型（gpt-oss-20b、MiniCPM3-4B、Nemotron-Mini-4B及微调Qwen 0.5B）驱动金融模拟游戏的智能体。核心发现是异构服务层摩擦在于vLLM 0.22.1需CUDA工具包，而非模型本身。通过容忍性JSON解析层，添加模型只需一条配置。信息隔离确保内幕标志不在提示词中，扫描测试验证无泄露。记忆用情绪摘要截断避免淹没。微调0.5B模型实现0%自成交、100%有效报价，真相防火墙零泄露。小模型是可靠格式生成器但不可靠推理器，可通过结构化、提示词和微调弥补。"
-        },
-        {
-          "id": "77640894eb46",
-          "title": "Job Searcher",
-          "url": "https://huggingface.co/blog/build-small-hackathon/job-search-blog",
-          "source": "aihot",
-          "source_name": "Hugging Face：Blog（RSS）",
-          "category": "tip",
-          "published_at": "2026-06-07T00:00:00.498Z",
-          "summary": "Hugging Face 发布 Job Searcher，一个基于 AI 的求职搜索工具。用户上传简历并设定偏好后，系统使用教师模型 DeepSeek V4 Pro 生成 LinkedIn 搜索查询，通过 JobSpy 抓取职位，再对学生模型 Qwen3-8B（8B 参数）进行 LoRA 微调，对每个职位从技能匹配、经验相关性、教育背景、行业领域契合度和资历对齐五个维度给出评分和推理。训练在 Modal 平台单张 A100 上完成。推理部署于 Hugging Face ZeroGPU Space，使用 llama.cpp 实现流式输出。项目开源。"
-        },
-        {
-          "id": "98940ceeed7b",
+          "id": "ff56c103bd14",
           "title": "M3与Opus代码审计13个bug：$0.07 vs $1.30",
           "url": "https://x.com/MiniMax_AI/status/2063397618034844135",
           "source": "aihot",
           "source_name": "X：MiniMax (@MiniMax_AI)",
           "category": "tip",
-          "published_at": "2026-06-07T00:00:00.498Z",
+          "published_at": "2026-06-06T23:08:22.000Z",
           "summary": "对 Claude Opus 4.8 和 MiniMax M3 进行相同的代码审计：同一代码库、同一提示词，预先植入 17 个已知 bug。MiniMax M3 以 $0.07 抓到 13 个；最便宜的 Claude 运行同样抓到 13 个，花费 $1.30。MiniMax 表示这一对比非常有趣，绝对值得一读。"
         },
         {
-          "id": "bb376b9bee3f",
-          "title": "No, Anthropic did not call for a pause on AI development",
-          "url": "https://garymarcus.substack.com/p/no-anthropic-did-not-call-for-a-pause",
+          "id": "ff6ce7a10f6f",
+          "title": "五个实验室，五个心智：用小模型构建多模型金融剧情游戏",
+          "url": "https://huggingface.co/blog/build-small-hackathon/thousand-token-wood-sim-v2",
+          "source": "aihot",
+          "source_name": "Hugging Face：Blog（RSS）",
+          "category": "tip",
+          "published_at": "2026-06-06T19:02:33.000Z",
+          "summary": "Thousand Token Wood v2使用四个不同实验室的小模型（gpt-oss-20b、MiniCPM3-4B、Nemotron-Mini-4B及微调Qwen 0.5B）驱动金融模拟游戏的智能体。核心发现是异构服务层摩擦在于vLLM 0.22.1需CUDA工具包，而非模型本身。通过容忍性JSON解析层，添加模型只需一条配置。信息隔离确保内幕标志不在提示词中，扫描测试验证无泄露。记忆用情绪摘要截断避免淹没。微调0.5B模型实现0%自成交、100%有效报价，真相防火墙零泄露。小模型是可靠格式生成器但不可靠推理器，可通过结构化、提示词和微调弥补。"
+        },
+        {
+          "id": "319832b33117",
+          "title": "AI 的黑色星期五",
+          "url": "https://garymarcus.substack.com/p/ais-black-friday",
           "source": "aihot",
           "source_name": "Gary Marcus：The Road to AI We Can Trust（RSS）",
           "category": "tip",
-          "published_at": "2026-06-07T00:00:00.498Z",
-          "summary": ""
+          "published_at": "2026-06-06T16:24:04.000Z",
+          "summary": "Gary Marcus 在文章中分享了对 AI 领域刚刚发生事件的看法，表达了对当前 AI 发展方向的思考。"
+        },
+        {
+          "id": "a5d0fdf4e45d",
+          "title": "Job Searcher",
+          "url": "https://huggingface.co/blog/build-small-hackathon/job-search-blog",
+          "source": "aihot",
+          "source_name": "Hugging Face：Blog（RSS）",
+          "category": "tip",
+          "published_at": "2026-06-06T15:36:51.000Z",
+          "summary": "Hugging Face 发布 Job Searcher，一个基于 AI 的求职搜索工具。用户上传简历并设定偏好后，系统使用教师模型 DeepSeek V4 Pro 生成 LinkedIn 搜索查询，通过 JobSpy 抓取职位，再对学生模型 Qwen3-8B（8B 参数）进行 LoRA 微调，对每个职位从技能匹配、经验相关性、教育背景、行业领域契合度和资历对齐五个维度给出评分和推理。训练在 Modal 平台单张 A100 上完成。推理部署于 Hugging Face ZeroGPU Space，使用 llama.cpp 实现流式输出。项目开源。"
         },
         {
           "id": "e8379c00c5ed",
@@ -618,34 +595,44 @@
       "label": "industry",
       "items": [
         {
-          "id": "e9f252e1c50b",
-          "title": "ChatGPT 要变 AgentGPT 了",
-          "url": "https://x.com/dotey/status/2063686036895478162",
+          "id": "96956b3e682c",
+          "title": "Nvidia 与 SK Hynix 签署多年协议，共同开发下一代 AI 存储芯片",
+          "url": "https://www.bloomberg.com/news/articles/2026-06-07/nvidia-sk-hynix-sign-multi-year-pact-to-develop-next-gen-chips",
           "source": "aihot",
-          "source_name": "X：宝玉 (@dotey)",
+          "source_name": "Bloomberg：Technology（RSS）",
           "category": "industry",
-          "published_at": "2026-06-07T18:14:27.000Z",
-          "summary": "OpenAI 正筹备 ChatGPT 自 2022 年上线以来最大规模改版，从聊天机器人转向超级应用/Agent 平台，整合编程工具 Codex、图像生成及第三方应用（Canva、Booking）。高管称\"聊天已死\"，目标成为跨平台个人 AI 助手，未来甚至省去用户输入提示词。改版预计未来几周在网页和手机端上线。商业压力：ChatGPT 有 9 亿周活用户、5000 万付费用户、月收入 20 亿美元但未盈利；企业客户贡献约 40% 收入，目标年底达 50%；Codex 桌面版周活超 500 万。竞争对手 Anthropic 估值已达 9650 亿美元。OpenAI 刚完成 1220 亿美元融资，估值 8520 亿美元，IPO 目标估值可能超 1 万亿美元。"
+          "published_at": "2026-06-07T23:26:02.000Z",
+          "summary": "Nvidia 与 SK Hynix 达成合作，将共同设计面向 AI 应用的未来几代存储芯片。此举巩固了 SK Hynix 在高端半导体领域的领先地位。"
         },
         {
-          "id": "99f7a0e9f857",
-          "title": "特朗普政府与OpenAI讨论通过公共财富基金入股AI初创公司",
-          "url": "https://x.com/rohanpaul_ai/status/2063662672835703126",
+          "id": "fbed6965ed01",
+          "title": "英伟达与斗山集团合作推进物理AI及AI工厂基础设施",
+          "url": "https://blogs.nvidia.com/blog/nvidia-and-doosan-group-physical-ai",
           "source": "aihot",
-          "source_name": "X：Rohan Paul (@rohanpaul_ai)",
+          "source_name": "NVIDIA AI Blog",
           "category": "industry",
-          "published_at": "2026-06-07T16:41:36.000Z",
-          "summary": "据FT报道，特朗普政府正与OpenAI探讨通过公共财富基金机制让政府入股AI初创公司。方案是AI企业捐赠小部分股权至该基金，基金通过账户或分红将收益返还美国公民，而非政府直接运营公司。这不同于特朗普去年对Intel的90亿美元直接持股。OpenAI此前已提出公共财富基金概念，持有长期资产，让公民分享AI增长红利。政治背景方面，选民担忧失业、数据中心成本与企业控制，而AI公司需要华盛顿在基建、采购和监管上的支持。"
+          "published_at": "2026-06-07T23:00:36.000Z",
+          "summary": "英伟达与斗山集团扩大合作，覆盖斗山机器人、斗山山猫、斗山能源及斗山电子材料四大板块。斗山机器人将集成英伟达Isaac Sim、Isaac Lab、Cosmos世界基础模型、Newton物理引擎及Jetson Thor，推进Agentic Robot OS，探索卸垛、打磨等参考用例及双臂/人形机器人。斗山山猫计划将物理AI技术用于建筑、园林、农业设备，加速开发专用世界模型。斗山能源评估通过燃气轮机、汽轮机、小型模块化反应堆及氢燃料电池为AI工厂供电。斗山电子材料为英伟达MGX生态系统供应高性能铜箔基板（CCL），用于AI服务器PCB。"
         },
         {
-          "id": "a6b4b65762aa",
-          "title": "OpenAI 仍推进超级应用计划",
-          "url": "https://techcrunch.com/2026/06/07/openai-is-still-working-on-that-super-app",
+          "id": "66f984e7ef4e",
+          "title": "美国众议院议员发布法案草案，旨在禁止各州制定人工智能相关法规",
+          "url": "https://www.reuters.com/business/us-house-lawmakers-release-draft-bill-regulate-ai-2026-06-04",
           "source": "aihot",
-          "source_name": "TechCrunch：AI（RSS）",
+          "source_name": "Hacker News 热门（buzzing.cc 中文翻译）",
           "category": "industry",
-          "published_at": "2026-06-07T16:23:22.000Z",
-          "summary": "OpenAI 一位高级员工表示\"聊天已死\"，同时公司仍在继续推进超级应用计划。"
+          "published_at": "2026-06-06T21:47:39.887Z",
+          "summary": "美国众议院议员发布一项法案草案，旨在禁止各州自行制定人工智能相关法规，将AI监管权力集中到联邦层面。"
+        },
+        {
+          "id": "63f5290dd514",
+          "title": "阶跃首席科学家张祥雨合著论文 ResNet 获 CVPR 2026 「时间检验奖」",
+          "url": "https://mp.weixin.qq.com/s/ZVgqdH_fE42jO4kcI-lF3g",
+          "source": "aihot",
+          "source_name": "公众号：阶跃星辰（Step）",
+          "category": "industry",
+          "published_at": "2026-06-06T06:46:02.000Z",
+          "summary": null
         },
         {
           "id": "ca0ee8c59da8",
@@ -761,16 +748,6 @@
           "category": "paper",
           "published_at": "2026-06-05T15:33:22.000Z",
           "summary": "热烈祝贺我们的 SAM 3D 团队在 #CVPR26 获得最佳论文荣誉提名！这项殊荣凸显了他们在推动计算机视觉边界方面的杰出工作。\n\n论文链接：https：//arxiv.org/abs/2511.16624"
-        },
-        {
-          "id": "01975414218c",
-          "title": "首字延迟降低3.6倍，腾讯混元提出Stem稀疏注意力算法，长文推理加速新SOTA",
-          "url": "https://mp.weixin.qq.com/s/XneOSvjt-7A-DU546cGoZA",
-          "source": "aihot",
-          "source_name": "公众号：腾讯混元",
-          "category": "paper",
-          "published_at": "2026-06-05T11:22:41.000Z",
-          "summary": null
         }
       ]
     }
