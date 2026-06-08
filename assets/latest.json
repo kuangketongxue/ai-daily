@@ -1,10 +1,19 @@
 {
   "date": "2026-06-08",
-  "generated_at": "2026-06-08T16:21:27.454490",
-  "total": 66,
+  "generated_at": "2026-06-08T19:08:28.139622",
+  "total": 67,
   "sources": {
     "Hugging Face": 8,
     "GitHub AI": 6,
+    "Dwarkesh Patel：Podcast & Blog（RSS）": 1,
+    "X：Testing Catalog (@testingcatalog)": 1,
+    "Anthropic：Research（发表成果 · 网页）": 1,
+    "IT之家（RSS）": 4,
+    "The Verge：订阅版科技（RSS）": 1,
+    "X：Claude Devs (@ClaudeDevs)": 1,
+    "X：Perplexity (@perplexity_ai)": 1,
+    "X：ChatGPT (@ChatGPTapp)": 1,
+    "X：NotebookLM (@NotebookLM)": 1,
     "X：Runway (@runwayml)": 1,
     "X：OpenRouter (@OpenRouter)": 2,
     "X：Kim (@kimmonismus)": 1,
@@ -13,26 +22,24 @@
     "The Verge：AI（RSS）": 1,
     "公众号：月之暗面（Kimi）": 1,
     "X：小互 (@xiaohu)": 1,
-    "Hugging Face：Blog（RSS）": 9,
-    "X：阿里云 / Alibaba Cloud (@alibaba_cloud)": 1,
+    "Hugging Face：Blog（RSS）": 7,
     "公众号：通义实验室（千问）": 1,
+    "公众号：数字生命卡兹克": 1,
     "公众号：生数科技（Vidu·视频）": 1,
     "X：邵猛 (@shao__meng)": 1,
-    "IT之家（RSS）": 3,
-    "Bloomberg：Technology（RSS）": 4,
+    "Bloomberg：Technology（RSS）": 3,
     "X：PixVerse (@PixVerse_)": 1,
-    "NVIDIA AI Blog": 4,
     "X：腾讯混元 (@TencentHunyuan)": 1,
     "MarkTechPost（RSS）": 1,
+    "NVIDIA AI Blog": 1,
     "X：宝玉 (@dotey)": 2,
-    "X：Rohan Paul (@rohanpaul_ai)": 3,
+    "X：Rohan Paul (@rohanpaul_ai)": 2,
     "TechCrunch：AI（RSS）": 1,
     "X：阿易 AI Notes (@AYi_AInotes)": 2,
     "Hacker News 热门（buzzing.cc 中文翻译）": 3,
     "Gary Marcus：The Road to AI We Can Trust（RSS）": 2,
-    "X：MiniMax (@MiniMax_AI)": 1,
-    "公众号：阶跃星辰（Step）": 1,
-    "X：NVIDIA AI (@NVIDIAAI)": 1
+    "Tomer Tunguz 博客（VC 分析）": 1,
+    "X：MiniMax (@MiniMax_AI)": 1
   },
   "ai_processed": false,
   "categories": {
@@ -85,6 +92,56 @@
       "label": "🚀 AI 产品",
       "items": [
         {
+          "id": "9329e39ed8f7",
+          "title": "苹果发布全新Siri AI及专用App",
+          "url": "https://x.com/testingcatalog/status/2064041993454367102",
+          "source": "aihot",
+          "source_name": "X：Testing Catalog (@testingcatalog)",
+          "category": "ai-products",
+          "published_at": "2026-06-08T17:48:53.000Z",
+          "summary": "WWDC 🔥：苹果宣布推出全新Siri AI，以及专用App、可定制语音、屏幕和视觉理解等功能！\n\nSiri App支持大多数平台，包括VisionOS！"
+        },
+        {
+          "id": "1abb46cde89f",
+          "title": "苹果推出 Siri AI：独立 App，为灵动岛优化",
+          "url": "https://www.ithome.com/0/961/669.htm",
+          "source": "aihot",
+          "source_name": "IT之家（RSS）",
+          "category": "ai-products",
+          "published_at": "2026-06-08T17:38:14.000Z",
+          "summary": "苹果在 2026 年全球开发者大会（WWDC）上发布 Siri AI，称为\"全新版本的 Siri\"，具备更强的对话能力和表现力，用户可自定义语速、语气和口音。Siri AI 支持系统范围内读取屏幕内容并与应用互动，配有独立 App，灵动岛会显示大气泡。苹果强调每一步以隐私为重。语音优化同时适用于 CarPlay 和 AirPods，可用于查询演唱会信息、提醒报名抽奖、搜索照片等场景。"
+        },
+        {
+          "id": "86332f7fa707",
+          "title": "苹果发布 Siri AI 及下一代 Apple Intelligence",
+          "url": "https://www.theverge.com/tech/942416/apple-siri-ai-update-wwdc",
+          "source": "aihot",
+          "source_name": "The Verge：订阅版科技（RSS）",
+          "category": "ai-products",
+          "published_at": "2026-06-08T17:34:24.000Z",
+          "summary": "苹果宣布推出 Siri AI 和下一代 Apple Intelligence，旨在提升苹果设备的能力。"
+        },
+        {
+          "id": "7012486309e0",
+          "title": "ChatGPT 新增数据图表生成功能",
+          "url": "https://x.com/ChatGPTapp/status/2064018770839113769",
+          "source": "aihot",
+          "source_name": "X：ChatGPT (@ChatGPTapp)",
+          "category": "ai-products",
+          "published_at": "2026-06-08T16:16:37.000Z",
+          "summary": "将数据和比较转化为图表，直接在 ChatGPT 中完成。\n\n现已支持移动端和网页端。"
+        },
+        {
+          "id": "430fa6570348",
+          "title": "NotebookLM重大升级：智能体能力与高级推理",
+          "url": "https://x.com/NotebookLM/status/2064016460964585549",
+          "source": "aihot",
+          "source_name": "X：NotebookLM (@NotebookLM)",
+          "category": "ai-products",
+          "published_at": "2026-06-08T16:07:26.000Z",
+          "summary": "推出更强大的 NotebookLM 🚀\n\n重大升级带来了对话中的智能体能力、更高级的推理以及一系列新的输出格式。处理复杂的多步骤研究问题从未如此简单。\n\n现已面向 Google AI Ultra 订阅者推出。"
+        },
+        {
           "id": "d4e9aa8f1813",
           "title": "Runway Aleph 2.0 编辑模型：一键适配任意视频格式",
           "url": "https://x.com/runwayml/status/2064012425884569627",
@@ -102,17 +159,7 @@
           "source_name": "公众号：月之暗面（Kimi）",
           "category": "ai-products",
           "published_at": "2026-06-08T13:44:16.000Z",
-          "summary": null
-        },
-        {
-          "id": "f174d49bb9a2",
-          "title": "AgentScope Java 2.0 发布",
-          "url": "https://x.com/alibaba_cloud/status/2063923881857945815",
-          "source": "aihot",
-          "source_name": "X：阿里云 / Alibaba Cloud (@alibaba_cloud)",
-          "category": "ai-products",
-          "published_at": "2026-06-08T09:59:33.000Z",
-          "summary": "阿里云发布AgentScope Java 2.0，面向企业级AI智能体开发。新版本主要特性：分布式无状态架构，支持K8s弹性扩缩容与会话恢复；多租户隔离，通过Workspace抽象实现安全数据分离；长期稳定性，HarnessAgent负责上下文管理与容错；安全执行，提供细粒度权限控制和Human-in-the-Loop支持。适用于JVM生产环境。开源地址见推文链接。"
+          "summary": "Kimi Code 开源 Coding Agent 迎来大版本升级：一行命令安装，毫秒级启动；新增视频理解能力，支持提取视频风格生成 LUT 文件、长视频切片、根据录屏生成代码；集成同花顺、天眼查等权威数据源，可查询股票价格、财报、学术论文；支持 ACP 协议，可在 JetBrains、Zed 中使用；丰富 hook 生态方便集成其他工具。底层视觉推理由 Kimi K2.6 模型提供。"
         },
         {
           "id": "c66312300cbd",
@@ -203,16 +250,6 @@
           "category": "ai-products",
           "published_at": "2026-06-06T12:48:12.000Z",
           "summary": "OpenCV 5 正式发布，采用基于图的 DNN 引擎，ONNX 算子覆盖率从 4.x 的不到 23% 提升至超 80%，原生支持 Transformer、视觉语言模型（VLM）和大语言模型（LLM）。其他更新包括：更好的 Python 集成与命名参数、更紧凑核心代码、清晰硬件加速层、原生 FP16/BF16、规范化 0D/1D 张量、扩展 3D 视觉及现代化文档。该库 GitHub 拥有超 86，000 stars，每日安装量超一百万次。"
-        },
-        {
-          "id": "9d4ca6bb8148",
-          "title": "Persona Atlas：Hugging Face 上的开源人物思维映射工具",
-          "url": "https://huggingface.co/blog/build-small-hackathon/persona-atlas",
-          "source": "aihot",
-          "source_name": "Hugging Face：Blog（RSS）",
-          "category": "ai-products",
-          "published_at": "2026-06-06T11:42:01.000Z",
-          "summary": "Persona Atlas 是一个运行在 Hugging Face Inference Providers 上的开源项目。它通过工具调用代理执行真实网络搜索，生成公众人物的资料、事实清单和风格假设，然后让该人物回答十个关于身份、伦理等开放式问题。每个回答被转化为嵌入向量，从而在向量空间中对不同人物进行距离比较，并基于十个特质锚点绘制热力图。前端采用 Gradio，提供研究、比较和检查代理完整追溯三个标签页，预设多个人物角色，无需 token 即可直接体验。"
         }
       ]
     },
@@ -280,16 +317,6 @@
           "summary": ""
         },
         {
-          "id": "896fc552133a",
-          "title": "The crash that vanished: control and emergence in a five-model economy",
-          "url": "https://huggingface.co/blog/build-small-hackathon/thousand-token-wood-sim-v3",
-          "source": "Hugging Face",
-          "source_name": "Hugging Face",
-          "category": "ai-tools",
-          "published_at": "Mon, 08 Jun 2026 13:10:48 GMT",
-          "summary": ""
-        },
-        {
           "id": "c3d19709585c",
           "title": "The Open Source Community is backing OpenEnv for Agentic RL",
           "url": "https://huggingface.co/blog/openenv-agentic-rl",
@@ -300,13 +327,23 @@
           "summary": ""
         },
         {
+          "id": "d218e9053d92",
+          "title": "Introducing Mellum2: A 12B Mixture-of-Experts Model by JetBrains",
+          "url": "https://huggingface.co/blog/JetBrains/mellum2-launch",
+          "source": "Hugging Face",
+          "source_name": "Hugging Face",
+          "category": "ai-tools",
+          "published_at": "Mon, 01 Jun 2026 15:45:17 GMT",
+          "summary": ""
+        },
+        {
           "id": "8671ab41e0cc",
           "title": "⭐ KRTirtho/spotube",
           "url": "https://github.com/KRTirtho/spotube",
           "source": "GitHub AI",
           "source_name": "GitHub AI",
           "category": "ai-tools",
-          "published_at": "2026-06-08T16:21:26.202859+00:00",
+          "published_at": "2026-06-08T19:08:26.825184+00:00",
           "summary": "🎧 Open source music streaming app! Available for both desktop & mobile!"
         },
         {
@@ -316,7 +353,7 @@
           "source": "GitHub AI",
           "source_name": "GitHub AI",
           "category": "ai-tools",
-          "published_at": "2026-06-08T16:21:26.202170+00:00",
+          "published_at": "2026-06-08T19:08:26.824575+00:00",
           "summary": "Your AI second brain. Self-hostable. Get answers from the web or your docs. Build custom agents, schedule automations, do deep research. Turn any online or local LLM into your personal, autonomous AI (gpt, claude, gemini, llama, qwen, mistral). Get started - free."
         },
         {
@@ -326,7 +363,7 @@
           "source": "GitHub AI",
           "source_name": "GitHub AI",
           "category": "ai-tools",
-          "published_at": "2026-06-08T16:21:26.201960+00:00",
+          "published_at": "2026-06-08T19:08:26.824406+00:00",
           "summary": "AI Agents & MCPs & AI Workflow Automation • (~400 MCP servers for AI agents) • AI Automation / AI Agent with MCPs • AI Workflows & AI Agents • MCPs for AI Agents"
         },
         {
@@ -336,7 +373,7 @@
           "source": "GitHub AI",
           "source_name": "GitHub AI",
           "category": "ai-tools",
-          "published_at": "2026-06-08T16:21:26.201808+00:00",
+          "published_at": "2026-06-08T19:08:26.824263+00:00",
           "summary": "Build product integrations with AI."
         },
         {
@@ -346,7 +383,7 @@
           "source": "GitHub AI",
           "source_name": "GitHub AI",
           "category": "ai-tools",
-          "published_at": "2026-06-08T16:21:26.201005+00:00",
+          "published_at": "2026-06-08T19:08:26.823550+00:00",
           "summary": "Stable Diffusion web UI"
         },
         {
@@ -356,7 +393,7 @@
           "source": "GitHub AI",
           "source_name": "GitHub AI",
           "category": "ai-tools",
-          "published_at": "2026-06-08T16:21:26.200508+00:00",
+          "published_at": "2026-06-08T19:08:26.823094+00:00",
           "summary": "Robust Speech Recognition via Large-Scale Weak Supervision"
         }
       ]
@@ -399,6 +436,26 @@
     "tip": {
       "label": "💡 技巧",
       "items": [
+        {
+          "id": "c3d31b5b9722",
+          "title": "样本效率黑洞：AI能力背后隐藏的数据需求深渊",
+          "url": "https://www.dwarkesh.com/p/the-sample-efficiency-black-hole",
+          "source": "aihot",
+          "source_name": "Dwarkesh Patel：Podcast & Blog（RSS）",
+          "category": "tip",
+          "published_at": "2026-06-08T18:09:37.000Z",
+          "summary": "将AI比作一个闪耀着能力的星系，其核心存在一个肉眼不可见的巨大黑洞--数据。这个比喻揭示了AI模型惊人能力背后对海量数据的依赖，样本效率的瓶颈如同引力中心，将各色能力凝聚在一起。"
+        },
+        {
+          "id": "4747e25b12e7",
+          "title": "Claude Code GA一周年回顾：验证与自动模式",
+          "url": "https://x.com/ClaudeDevs/status/2064032814392352816",
+          "source": "aihot",
+          "source_name": "X：Claude Devs (@ClaudeDevs)",
+          "category": "tip",
+          "published_at": "2026-06-08T17:12:25.000Z",
+          "summary": "Claude Code 的第一个演示收到了两个 Slack 反应。\n\nGA 一周年之际，@bcherny 和 @_catwu 回顾：验证最佳实践、为何构建自动模式、例程和循环，以及下一步计划。\n\nhttps：//www.youtube.com/watch？v=Hth_tLaC2j8"
+        },
         {
           "id": "be6527d75641",
           "title": "OpenRouter Advisor 助小模型问高级模型",
@@ -467,7 +524,17 @@
           "source_name": "公众号：通义实验室（千问）",
           "category": "tip",
           "published_at": "2026-06-08T09:54:08.000Z",
-          "summary": null
+          "summary": "通义实验室教程演示了如何用 Agent（Qoder）辅助完成 Qwen3-VL-2B 模型在 Android 端侧的全流程部署。操作包括：检查 JDK 21、NDK 27、CMake 3.18.1 等环境；创建 arm64-v8a 的 Native C++ 工程（minSdk 29、compileSdk 35）；通过 ModelScope CLI 下载约 1.4GB 的 MNN/Qwen3-VL-2B-Instruct-MNN 模型；编译开启 LLM 视觉支持（MNN_BUILD_LLM、LLM_SUPPORT_VISION）的 libMNN.so；构建 APK 并推送模型至手机私有目录。最终 App 提供图文推理页面，输出 MNN 版本（v3.5.0）、ABI 及推理指标。所有繁琐步骤均可由 Agent 自动执行。"
+        },
+        {
+          "id": "86fbce45830c",
+          "title": "微信AI Agent生态曝光：嵌入小程序调用与手机厂商合作",
+          "url": "https://mp.weixin.qq.com/s?__biz=MzIyMzA5NjEyMA%3D%3D&mid=2647683054&idx=1&sn=dcaa25bd4fdfc9bd5c0211532021bf7c",
+          "source": "aihot",
+          "source_name": "公众号：数字生命卡兹克",
+          "category": "tip",
+          "published_at": "2026-06-08T09:38:30.000Z",
+          "summary": "腾讯正测试嵌入微信的AI Agent，用户右滑唤出对话窗口，通过自然语言指令调用数百万小程序完成点咖啡等任务。微信还与华为、荣耀、小米、OPPO、vivo合作推出A2A助手能力，可通过手机语音助理发起微信音视频通话或发送消息。6月8日，微信官方发布《关于开发者接入微信AI生态的指引》，提供自动接入模式，利用微信沙箱全自动改造小程序，使其可被AI直接调用。这一布局被视为Agentic Commerce（代理式交易）的雏形。"
         },
         {
           "id": "e1d415230e68",
@@ -560,6 +627,16 @@
           "summary": "日本北海道农民富安弘毅用 ChatGPT 和 Codex 解决农场实际问题，涵盖 8 个用法：拍照识别西兰花病害、卫星监测获取 NDVI 数据、用 ESP32 和 LINE 机器人远程控制温室卷帘、为农场群聊开发机器人管理温度与排期、从聊天记录追踪播种数量、学习 RTK-GPS 自动转向原理并评估自建成本、设计基于 Airtable 的农场管理数据库。他说 AI 让传统昂贵的自动化变得低成本可及，\"如同身边有一位超级工程师\"。"
         },
         {
+          "id": "2cceebb74a6d",
+          "title": "AI 替代浪潮：三大力量重塑成本结构",
+          "url": "https://www.tomtunguz.com/inflation-deflation-ai",
+          "source": "aihot",
+          "source_name": "Tomer Tunguz 博客（VC 分析）",
+          "category": "tip",
+          "published_at": "2026-06-07T00:00:00.000Z",
+          "summary": "三大力量重塑 AI 成本：前沿闭源模型持续涨价，开源模型在多数场景已足够好，买家开始替代。Coinbase 将提示词路由至更便宜模型，成本持平但 token 用量指数增长。Lindy 全切至 DeepSeek v4，节省数百万美元且多项核心性能提升。Harvey 在 Legal Agent Benchmark 上通过 SFT 使 Kimi 2.6 all-pass 率达 15%，超越 Opus 的 14%，同一 100 任务成本 $84 vs $954（约 11 倍价差）。Cursor 后训练 Kimi K2.5 得到 Composer 2.5，称其\"性能优异且效率高达同类模型 10 倍\"。闭源越来越贵，开源平价且性能接近，选择决定企业单位经济学的斜率。"
+        },
+        {
           "id": "ff56c103bd14",
           "title": "M3与Opus代码审计13个bug：$0.07 vs $1.30",
           "url": "https://x.com/MiniMax_AI/status/2063397618034844135",
@@ -598,16 +675,41 @@
           "category": "tip",
           "published_at": "2026-06-06T15:36:51.000Z",
           "summary": "Hugging Face 发布 Job Searcher，一个基于 AI 的求职搜索工具。用户上传简历并设定偏好后，系统使用教师模型 DeepSeek V4 Pro 生成 LinkedIn 搜索查询，通过 JobSpy 抓取职位，再对学生模型 Qwen3-8B（8B 参数）进行 LoRA 微调，对每个职位从技能匹配、经验相关性、教育背景、行业领域契合度和资历对齐五个维度给出评分和推理。训练在 Modal 平台单张 A100 上完成。推理部署于 Hugging Face ZeroGPU Space，使用 llama.cpp 实现流式输出。项目开源。"
+        }
+      ]
+    },
+    "paper": {
+      "label": "paper",
+      "items": [
+        {
+          "id": "b599e146d124",
+          "title": "为生物学AI智能体铺路",
+          "url": "https://www.anthropic.com/research/agents-in-biology",
+          "source": "aihot",
+          "source_name": "Anthropic：Research（发表成果 · 网页）",
+          "category": "paper",
+          "published_at": "2026-06-08T17:46:10.323Z",
+          "summary": "一项实验让Claude、Biomni、Edison Analysis、GPT等科研智能体从病毒学数据库NCBI Virus中检索序列数据，即使最强模型也无法稳定达到可靠数据集构建所需的准确率。加入确定性检索层gget virus后，准确率接近100%。研究指出，当前生物学数据基础设施存在碎片化、格式特殊、接口不统一等问题，导致AI智能体难以像在软件领域那样高效工作。确定性检索工具是实现可靠智能体工作流的关键，生物学数据库需为智能体作为规模化用户而设计。"
         },
         {
-          "id": "e8379c00c5ed",
-          "title": "用Qwen2.5-3B构建多智能体经济体：工程报告",
-          "url": "https://huggingface.co/blog/build-small-hackathon/thousand-token-wood-sim",
+          "id": "8be3ce7bb592",
+          "title": "Perplexity与哈佛：AI智能体提效87%降本94%",
+          "url": "https://x.com/perplexity_ai/status/2064023455453110286",
           "source": "aihot",
-          "source_name": "Hugging Face：Blog（RSS）",
-          "category": "tip",
-          "published_at": "2026-06-05T22:18:46.000Z",
-          "summary": "开发者用Qwen2.5-3B构建了五人森林生物多智能体经济体，每个智能体独立运行，通过vLLM部署在Modal，以Gradio为交互窗口。3B模型在100%调用中输出有效JSON，但经济判断能力弱。通过设计稀缺性（食物品种限制、易腐坏、冬季燃料危机）和优化提示词（禁止买入自产物品、给出示例）提升决策质量。15轮模拟中，蜜价从10跌至3、柴价从4涨至7、财富基尼系数从0.14扩至0.38。项目展示了小模型可靠格式化与不可靠推理之间的工程填补。"
+          "source_name": "X：Perplexity (@perplexity_ai)",
+          "category": "paper",
+          "published_at": "2026-06-08T16:35:14.000Z",
+          "summary": "我们与哈佛大学发表新研究，关于从聊天界面转向像Computer这样的自主智能体的转变。\n\n超过3个月的研究结果表明，使用Computer的工人在完成任务上比仅使用搜索快87%，成本低94%，且满意度更高。\n\nhttps：//research.perplexity.ai/articles/how-ai-agents-reshape-knowledge-work"
+        },
+        {
+          "id": "c79a5ad58dbb",
+          "title": "腾讯混元联合多家机构发布首个音频编辑基准MMAE",
+          "url": "https://x.com/TencentHunyuan/status/2063862263434613237",
+          "source": "aihot",
+          "source_name": "X：腾讯混元 (@TencentHunyuan)",
+          "category": "paper",
+          "published_at": "2026-06-08T05:54:42.000Z",
+          "summary": "腾讯混元联合上海交大、南洋理工等机构推出MMAE（Massive Multitask Audio Editing Benchmark），这是首个全面评估AI语音/音频编辑能力的基准。MMAE要求模型理解现有音频并按自然语言指令精确修改，而非简单生成。当前模型在该基准上的精确匹配率（EMR）低于5%，暴露了可靠音频编辑的短板。MMAE包含2000个真实场景高保真样本、17741条细粒度评估项，覆盖声音/音乐/语音及混合共7种模态、6种任务复杂度（基础修改到多跳推理及多轮编辑）、8种操作类型（局部到全局）。论文、代码、数据集和演示已公开。"
         }
       ]
     },
@@ -615,34 +717,14 @@
       "label": "industry",
       "items": [
         {
-          "id": "b2f89307fabf",
-          "title": "生数科技与华策集团达成战略合作，共建AIGC影视创制中心",
+          "id": "ebc11f7e2bae",
+          "title": "生数科技与华策影视达成战略合作，共建AI视听创制中心",
           "url": "https://mp.weixin.qq.com/s?__biz=MzkzMDQ5NTQwMQ%3D%3D&mid=2247488842&idx=1&sn=3dab63189fa60b3b78c5ad72e3358791",
           "source": "aihot",
           "source_name": "公众号：生数科技（Vidu·视频）",
           "category": "industry",
           "published_at": "2026-06-08T09:30:33.000Z",
-          "summary": "生数科技与华策集团达成战略合作，共建AIGC影视创制中心，推动AI与影视产业融合落地。合作聚焦于利用生数科技的AI视频生成能力（Vidu），结合华策集团的影视行业资源，探索AIGC在影视制作全流程中的应用，包括剧本生成、预可视化、特效制作等环节。双方将通过技术研发与场景验证，加速AI在影视行业的规模化落地。"
-        },
-        {
-          "id": "aeb4d1c6a5d5",
-          "title": "英国借助 NVIDIA 技术将主权 AI 雄心转化为行动",
-          "url": "https://blogs.nvidia.com/blog/uk-sovereign-ai-advancements",
-          "source": "aihot",
-          "source_name": "NVIDIA AI Blog",
-          "category": "industry",
-          "published_at": "2026-06-08T06:00:57.000Z",
-          "summary": "一年前英国宣布做\"AI 制造者\"，如今主权 AI 计划取得实质进展：AI 云提供商数量翻倍，Nebius 部署三套 NVIDIA AI 基础设施，预计 2027 年满负荷达 65 兆瓦；基于 5，400 个 NVIDIA GH200 的 Isambard-AI 超级计算机全由零碳电力驱动。主权 AI 基金资助四家 NVIDIA Inception 初创公司：Cosine 训练多模态 MoE 编码模型；Cursive 使用 Megatron-LM 开发自改进 AI 系统；Doubleword 基于 Dynamo 和 Nemotron 3 Super 120B 实现 70 倍冷启动加速、4 倍 KV 缓存压缩，推理成本降低 90-95%；Prima Mente 借助 Blackwell GPU 以近 3 倍训练加速开发生物基础模型。NVIDIA 对英国初创生态投资 20 亿英镑。"
-        },
-        {
-          "id": "31cde9b4915b",
-          "title": "NVIDIA与LG集团合作建设AI工厂，加速物理AI与自动驾驶",
-          "url": "https://blogs.nvidia.com/blog/nvidia-and-lg-group-ai-factory",
-          "source": "aihot",
-          "source_name": "NVIDIA AI Blog",
-          "category": "industry",
-          "published_at": "2026-06-08T03:00:50.000Z",
-          "summary": "NVIDIA与LG集团合作建设AI工厂，为LG的机器人、自动驾驶、数据中心和GPU云服务提供加速计算基础设施。双方整合NVIDIA AI工厂平台与LG的消费电子、机器人技术，连接AI模型开发、物理AI数据生成、机器人仿真训练、边缘部署和工厂数字孪生。LG电子将利用NVIDIA Isaac Sim和Isaac Lab仿真训练CLOiD家用机器人，探索采用Isaac GR00T模型，并开发物理AI数据工厂。LG Innotek提供针对NVIDIA GPU优化的机器人传感组件，LG CNS集成NVIDIA机器人技术。双方还将基于NVIDIA DSX平台建设下一代AI工厂，涵盖冷却、模块化设计和800V直流能源方案。LG电子将基于NVIDIA DRIVE平台开发ADAS和车载AI系统。"
+          "summary": "6月7日，生数科技与华策影视签署战略合作协议，共同推动AI与影视产业融合。双方将以华策影视科技产教示范区为载体、生数科技Vidu视频生成大模型为技术底座，设立\"AI视听创制中心\"，探索AI虚拟制作与实拍结合。同时在浙江华策影视学校设立\"华策&生数AI影视创制专业\"，课程覆盖传统编导剪与AI视频制作技术。内容生产层面推广\"实拍+AI\"融合方案并优先在华策项目中试点，创作者生态层面引导Vidu社区超级创作者到产教基地注册。"
         },
         {
           "id": "96956b3e682c",
@@ -655,16 +737,6 @@
           "summary": "Nvidia 与 SK Hynix 达成合作，将共同设计面向 AI 应用的未来几代存储芯片。此举巩固了 SK Hynix 在高端半导体领域的领先地位。"
         },
         {
-          "id": "fbed6965ed01",
-          "title": "英伟达与斗山集团合作推进物理AI及AI工厂基础设施",
-          "url": "https://blogs.nvidia.com/blog/nvidia-and-doosan-group-physical-ai",
-          "source": "aihot",
-          "source_name": "NVIDIA AI Blog",
-          "category": "industry",
-          "published_at": "2026-06-07T23:00:36.000Z",
-          "summary": "英伟达与斗山集团扩大合作，覆盖斗山机器人、斗山山猫、斗山能源及斗山电子材料四大板块。斗山机器人将集成英伟达Isaac Sim、Isaac Lab、Cosmos世界基础模型、Newton物理引擎及Jetson Thor，推进Agentic Robot OS，探索卸垛、打磨等参考用例及双臂/人形机器人。斗山山猫计划将物理AI技术用于建筑、园林、农业设备，加速开发专用世界模型。斗山能源评估通过燃气轮机、汽轮机、小型模块化反应堆及氢燃料电池为AI工厂供电。斗山电子材料为英伟达MGX生态系统供应高性能铜箔基板（CCL），用于AI服务器PCB。"
-        },
-        {
           "id": "66f984e7ef4e",
           "title": "美国众议院议员发布法案草案，旨在禁止各州制定人工智能相关法规",
           "url": "https://www.reuters.com/business/us-house-lawmakers-release-draft-bill-regulate-ai-2026-06-04",
@@ -673,61 +745,6 @@
           "category": "industry",
           "published_at": "2026-06-06T21:47:39.887Z",
           "summary": "美国众议院议员发布一项法案草案，旨在禁止各州自行制定人工智能相关法规，将AI监管权力集中到联邦层面。"
-        },
-        {
-          "id": "63f5290dd514",
-          "title": "阶跃首席科学家张祥雨合著论文 ResNet 获 CVPR 2026 「时间检验奖」",
-          "url": "https://mp.weixin.qq.com/s/ZVgqdH_fE42jO4kcI-lF3g",
-          "source": "aihot",
-          "source_name": "公众号：阶跃星辰（Step）",
-          "category": "industry",
-          "published_at": "2026-06-06T06:46:02.000Z",
-          "summary": null
-        },
-        {
-          "id": "ca0ee8c59da8",
-          "title": "Apollo 敲定 350 亿美元债务融资，为 Anthropic 采购 AI 芯片",
-          "url": "https://www.bloomberg.com/news/articles/2026-06-05/apollo-wraps-up-35-billion-debt-to-buy-ai-chips-for-anthropic",
-          "source": "aihot",
-          "source_name": "Bloomberg：Technology（RSS）",
-          "category": "industry",
-          "published_at": "2026-06-05T21:02:29.000Z",
-          "summary": "Apollo Global Management 和 Blackstone 已为 Anthropic 敲定 350 亿美元融资方案，用于扩充其 AI 基础设施。这是人工智能竞赛中最新的一笔巨额交易。"
-        }
-      ]
-    },
-    "paper": {
-      "label": "paper",
-      "items": [
-        {
-          "id": "c79a5ad58dbb",
-          "title": "腾讯混元联合多家机构发布首个音频编辑基准MMAE",
-          "url": "https://x.com/TencentHunyuan/status/2063862263434613237",
-          "source": "aihot",
-          "source_name": "X：腾讯混元 (@TencentHunyuan)",
-          "category": "paper",
-          "published_at": "2026-06-08T05:54:42.000Z",
-          "summary": "腾讯混元联合上海交大、南洋理工等机构推出MMAE（Massive Multitask Audio Editing Benchmark），这是首个全面评估AI语音/音频编辑能力的基准。MMAE要求模型理解现有音频并按自然语言指令精确修改，而非简单生成。当前模型在该基准上的精确匹配率（EMR）低于5%，暴露了可靠音频编辑的短板。MMAE包含2000个真实场景高保真样本、17741条细粒度评估项，覆盖声音/音乐/语音及混合共7种模态、6种任务复杂度（基础修改到多跳推理及多轮编辑）、8种操作类型（局部到全局）。论文、代码、数据集和演示已公开。"
-        },
-        {
-          "id": "737ba002e9ee",
-          "title": "PixelDiT入选CVPR2026最佳论文决赛",
-          "url": "https://x.com/NVIDIAAI/status/2063034422698389625",
-          "source": "aihot",
-          "source_name": "X：NVIDIA AI (@NVIDIAAI)",
-          "category": "paper",
-          "published_at": "2026-06-05T23:05:10.000Z",
-          "summary": "被选为 #CVPR2026 最佳论文决赛作品：来自 NVIDIA Research 的 PixelDiT\n\n在大多数图像生成模型中，预训练的自编码器会在任何扩散发生前压缩图像，导致质量损失在整个流程中累积。\n\nPixelDiT，即像素扩散变换器，完全去掉了这一步骤。它是一个单阶段模型，直接在像素空间中端到端地学习扩散过程。"
-        },
-        {
-          "id": "64203e436f6d",
-          "title": "Arena 发布真实世界 AI 智能体排行榜 Agent Arena",
-          "url": "https://x.com/rohanpaul_ai/status/2063018358795300982",
-          "source": "aihot",
-          "source_name": "X：Rohan Paul (@rohanpaul_ai)",
-          "category": "paper",
-          "published_at": "2026-06-05T22:01:20.000Z",
-          "summary": "Arena 推出基于真实用户任务的智能体排行榜，评估模型在代码编写、应用构建、文档分析等工作中的表现，而非孤立基准。排行榜基于30万+任务、200万+工具调用和4000万行代码，综合任务成功、纠正遵从性、错误恢复、用户表扬与抱怨、工具幻觉等信号。前三名：GPT-5.5 High（+10.7%）、Claude Opus 4.7 Thinking（+9.5%）、GPT-5.4 High（+8.9%）。"
         }
       ]
     }
