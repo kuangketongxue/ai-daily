@@ -1,14 +1,16 @@
 {
   "date": "2026-06-08",
-  "generated_at": "2026-06-08T01:59:44.548809",
+  "generated_at": "2026-06-08T07:02:24.914399",
   "total": 68,
   "sources": {
     "Hugging Face": 8,
     "GitHub AI": 8,
+    "NVIDIA AI Blog": 4,
+    "X：腾讯混元 (@TencentHunyuan)": 1,
+    "IT之家（RSS）": 3,
     "MarkTechPost（RSS）": 1,
     "Hugging Face：Blog（RSS）": 6,
     "X：OpenRouter (@OpenRouter)": 2,
-    "NVIDIA AI Blog": 2,
     "X：宝玉 (@dotey)": 2,
     "X：Rohan Paul (@rohanpaul_ai)": 4,
     "TechCrunch：AI（RSS）": 1,
@@ -17,7 +19,6 @@
     "Hacker News 热门（buzzing.cc 中文翻译）": 5,
     "Gary Marcus：The Road to AI We Can Trust（RSS）": 3,
     "X：MiniMax (@MiniMax_AI)": 1,
-    "IT之家（RSS）": 4,
     "公众号：阶跃星辰（Step）": 1,
     "X：NVIDIA AI (@NVIDIAAI)": 1,
     "X：Microsoft Research (@MSFTResearch)": 1,
@@ -30,15 +31,23 @@
     "Suno：Blog（网页）": 1,
     "X：Kim (@kimmonismus)": 1,
     "X：Viggle AI (@ViggleAI)": 1,
-    "X：小互 (@xiaohu)": 1,
-    "X：面壁智能 OpenBMB (@OpenBMB)": 1,
-    "Cloudflare Blog": 1
+    "X：小互 (@xiaohu)": 1
   },
   "ai_processed": false,
   "categories": {
     "ai-models": {
       "label": "🧠 AI 模型",
       "items": [
+        {
+          "id": "bd02feadf0b5",
+          "title": "全球首个：高德发布3D原生城市世界模型ABot-Earth0.5",
+          "url": "https://www.ithome.com/0/961/378.htm",
+          "source": "aihot",
+          "source_name": "IT之家（RSS）",
+          "category": "ai-models",
+          "published_at": "2026-06-08T05:53:46.000Z",
+          "summary": "阿里巴巴旗下高德发布全球首个3D原生城市世界模型ABot-Earth0.5，已建成覆盖190多个国家和地区的3D地图。用户输入卫星图或文字描述，10分钟即可在消费级GPU上生成公里级3D城市，输出可编辑3DGS格式，可直接导入Unity等引擎。制图成本为传统百分之一，效率提升约千倍，可为具身智能、低空经济、应急救援等提供支撑。目前已开放内测，可前往abot-earth.amap.com提交申请。"
+        },
         {
           "id": "a1294081c450",
           "title": "Harness-1：基于强化学习训练的有状态搜索20B检索子智能体",
@@ -183,36 +192,6 @@
           "category": "ai-products",
           "published_at": "2026-06-05T14:26:56.000Z",
           "summary": "Mocap 不需要套装、工作室或数千美元。\n\n使用 @Viggle_PINOC，任何人都可以简单地拍摄自己，并将该视频转换为动作捕捉。\n\n我们仍处于测试阶段，且对所有人完全免费。试试看，告诉我们你还想看什么！"
-        },
-        {
-          "id": "df0cae6c32e4",
-          "title": "开源鸿蒙 OpenHarmony 具身智能版本 EmbodiedAI 1.0.1 发布",
-          "url": "https://www.ithome.com/0/960/722.htm",
-          "source": "aihot",
-          "source_name": "IT之家（RSS）",
-          "category": "ai-products",
-          "published_at": "2026-06-05T13:31:13.000Z",
-          "summary": "6月5日，开源鸿蒙具身智能PMC（筹）发布EmbodiedAI 1.0.1版本。该版本聚焦机器人控制与智能体应用，升级导航规划、运动控制、仿真开发、硬件适配等核心能力，兼容ROS生态、机器人模拟器及多种本体形态。集成开源鸿蒙原生模拟器、MuJoCo、Gazebo三大仿真环境，打通从代码开发到真机验证的全流程链路。人形机器人、四足机器狗、商用服务机器人等已完成适配验证。目前具身智能方向已组建18个专项SIG工作组，版本源码已正式开放。"
-        },
-        {
-          "id": "86b8881ac2d0",
-          "title": "社区基于MiniCPM-V 4.6打造财务分析工具AccountingLLM",
-          "url": "https://x.com/OpenBMB/status/2062889699056984281",
-          "source": "aihot",
-          "source_name": "X：面壁智能 OpenBMB (@OpenBMB)",
-          "category": "ai-products",
-          "published_at": "2026-06-05T13:30:05.000Z",
-          "summary": "社区开发者使用面壁智能MiniCPM-V 4.6构建了AccountingLLM（quaesto.com），用于自动化财务文档分析。该工具可上传IPO招股书、年报或审计文件，自动从复杂PDF中提取财务表格、重建跨页表格、对照会计等式检查关键数据，并标记可疑条目供人工审核。开发者已将其商业化，成为实际可用的产品。"
-        },
-        {
-          "id": "b75ea1f88589",
-          "title": "你的AI账单失控了。Cloudflare现在可以解决这个问题。",
-          "url": "https://blog.cloudflare.com/ai-gateway-spend-limits",
-          "source": "aihot",
-          "source_name": "Cloudflare Blog",
-          "category": "ai-products",
-          "published_at": "2026-06-05T13:00:00.000Z",
-          "summary": "Cloudflare AI Gateway新增实时消费限制功能，防止跨多个AI提供商的token账单失控。通过与Cloudflare Access集成，企业可以使用基于身份的预算和策略管理AI使用成本。"
         }
       ]
     },
@@ -306,7 +285,7 @@
           "source": "GitHub AI",
           "source_name": "GitHub AI",
           "category": "ai-tools",
-          "published_at": "2026-06-08T01:59:41.311756+00:00",
+          "published_at": "2026-06-08T07:02:22.550726+00:00",
           "summary": "A maintained, feature-rich and performance oriented, neofetch like system information tool."
         },
         {
@@ -316,7 +295,7 @@
           "source": "GitHub AI",
           "source_name": "GitHub AI",
           "category": "ai-tools",
-          "published_at": "2026-06-08T01:59:41.311017+00:00",
+          "published_at": "2026-06-08T07:02:22.549641+00:00",
           "summary": "The easiest, most secure way to use WireGuard and 2FA."
         },
         {
@@ -326,7 +305,7 @@
           "source": "GitHub AI",
           "source_name": "GitHub AI",
           "category": "ai-tools",
-          "published_at": "2026-06-08T01:59:41.310812+00:00",
+          "published_at": "2026-06-08T07:02:22.549355+00:00",
           "summary": "Find vulnerabilities, misconfigurations, secrets, SBOM in containers, Kubernetes, code repositories, clouds and more"
         },
         {
@@ -336,7 +315,7 @@
           "source": "GitHub AI",
           "source_name": "GitHub AI",
           "category": "ai-tools",
-          "published_at": "2026-06-08T01:59:41.310720+00:00",
+          "published_at": "2026-06-08T07:02:22.549212+00:00",
           "summary": "Robust Speech Recognition via Large-Scale Weak Supervision"
         },
         {
@@ -346,7 +325,7 @@
           "source": "GitHub AI",
           "source_name": "GitHub AI",
           "category": "ai-tools",
-          "published_at": "2026-06-08T01:59:41.310629+00:00",
+          "published_at": "2026-06-08T07:02:22.549073+00:00",
           "summary": "🎧 Open source music streaming app! Available for both desktop & mobile!"
         },
         {
@@ -356,7 +335,7 @@
           "source": "GitHub AI",
           "source_name": "GitHub AI",
           "category": "ai-tools",
-          "published_at": "2026-06-08T01:59:41.310435+00:00",
+          "published_at": "2026-06-08T07:02:22.548800+00:00",
           "summary": "The Open Source Feature Store for AI/ML"
         },
         {
@@ -366,7 +345,7 @@
           "source": "GitHub AI",
           "source_name": "GitHub AI",
           "category": "ai-tools",
-          "published_at": "2026-06-08T01:59:41.310319+00:00",
+          "published_at": "2026-06-08T07:02:22.548631+00:00",
           "summary": "Your AI second brain. Self-hostable. Get answers from the web or your docs. Build custom agents, schedule automations, do deep research. Turn any online or local LLM into your personal, autonomous AI (gpt, claude, gemini, llama, qwen, mistral). Get started - free."
         },
         {
@@ -376,7 +355,7 @@
           "source": "GitHub AI",
           "source_name": "GitHub AI",
           "category": "ai-tools",
-          "published_at": "2026-06-08T01:59:41.310158+00:00",
+          "published_at": "2026-06-08T07:02:22.548391+00:00",
           "summary": "Build product integrations with AI."
         }
       ]
@@ -595,6 +574,26 @@
       "label": "industry",
       "items": [
         {
+          "id": "aeb4d1c6a5d5",
+          "title": "英国借助 NVIDIA 技术将主权 AI 雄心转化为行动",
+          "url": "https://blogs.nvidia.com/blog/uk-sovereign-ai-advancements",
+          "source": "aihot",
+          "source_name": "NVIDIA AI Blog",
+          "category": "industry",
+          "published_at": "2026-06-08T06:00:57.000Z",
+          "summary": "一年前英国宣布做\"AI 制造者\"，如今主权 AI 计划取得实质进展：AI 云提供商数量翻倍，Nebius 部署三套 NVIDIA AI 基础设施，预计 2027 年满负荷达 65 兆瓦；基于 5，400 个 NVIDIA GH200 的 Isambard-AI 超级计算机全由零碳电力驱动。主权 AI 基金资助四家 NVIDIA Inception 初创公司：Cosine 训练多模态 MoE 编码模型；Cursive 使用 Megatron-LM 开发自改进 AI 系统；Doubleword 基于 Dynamo 和 Nemotron 3 Super 120B 实现 70 倍冷启动加速、4 倍 KV 缓存压缩，推理成本降低 90-95%；Prima Mente 借助 Blackwell GPU 以近 3 倍训练加速开发生物基础模型。NVIDIA 对英国初创生态投资 20 亿英镑。"
+        },
+        {
+          "id": "31cde9b4915b",
+          "title": "NVIDIA与LG集团合作建设AI工厂，加速物理AI与自动驾驶",
+          "url": "https://blogs.nvidia.com/blog/nvidia-and-lg-group-ai-factory",
+          "source": "aihot",
+          "source_name": "NVIDIA AI Blog",
+          "category": "industry",
+          "published_at": "2026-06-08T03:00:50.000Z",
+          "summary": "NVIDIA与LG集团合作建设AI工厂，为LG的机器人、自动驾驶、数据中心和GPU云服务提供加速计算基础设施。双方整合NVIDIA AI工厂平台与LG的消费电子、机器人技术，连接AI模型开发、物理AI数据生成、机器人仿真训练、边缘部署和工厂数字孪生。LG电子将利用NVIDIA Isaac Sim和Isaac Lab仿真训练CLOiD家用机器人，探索采用Isaac GR00T模型，并开发物理AI数据工厂。LG Innotek提供针对NVIDIA GPU优化的机器人传感组件，LG CNS集成NVIDIA机器人技术。双方还将基于NVIDIA DSX平台建设下一代AI工厂，涵盖冷却、模块化设计和800V直流能源方案。LG电子将基于NVIDIA DRIVE平台开发ADAS和车载AI系统。"
+        },
+        {
           "id": "96956b3e682c",
           "title": "Nvidia 与 SK Hynix 签署多年协议，共同开发下一代 AI 存储芯片",
           "url": "https://www.bloomberg.com/news/articles/2026-06-07/nvidia-sk-hynix-sign-multi-year-pact-to-develop-next-gen-chips",
@@ -693,22 +692,22 @@
           "category": "industry",
           "published_at": "2026-06-05T14:21:03.000Z",
           "summary": "苹果新版Siri被内部标记为\"Beta\"版，不会作为完成品宣传；可能设置等待清单供用户尝试。iOS 27细节：通知到达重新设计，通知中心手势移至左上角；\"查找\"应用视觉重设计；照片\"清理\"功能改进；大量底层安全改进。部分Siri查询将通过Google Cloud调用授权版Gemini，并使用谷歌的NVIDIA Blackwell B200集群处理。"
-        },
-        {
-          "id": "e3023e371c68",
-          "title": "Meta 智能眼镜 App 暗藏人脸识别代码，NameTag 功能已推送至超 5000 万设备",
-          "url": "https://www.ithome.com/0/960/735.htm",
-          "source": "aihot",
-          "source_name": "IT之家（RSS）",
-          "category": "industry",
-          "published_at": "2026-06-05T13:59:37.000Z",
-          "summary": "据《连线》今日报道，Meta 通过多次应用更新将人脸识别代码推送到智能眼镜配套 App 中，代号\"NameTag\"。该功能利用已部署的三个 AI 模型将人脸转换为\"人脸特征模板\"，与手机本地数据库匹配，识别成功后向佩戴者发送通知。App 下载量超 5000 万次。Meta 回应称代码仅为探索，尚未决定推出，且不会建立中央人脸数据库。此前 Meta 曾因人脸识别问题在伊利诺伊州和得克萨斯州分别达成 6.5 亿美元和 14 亿美元和解。"
         }
       ]
     },
     "paper": {
       "label": "paper",
       "items": [
+        {
+          "id": "c79a5ad58dbb",
+          "title": "腾讯混元联合多家机构发布首个音频编辑基准MMAE",
+          "url": "https://x.com/TencentHunyuan/status/2063862263434613237",
+          "source": "aihot",
+          "source_name": "X：腾讯混元 (@TencentHunyuan)",
+          "category": "paper",
+          "published_at": "2026-06-08T05:54:42.000Z",
+          "summary": "腾讯混元联合上海交大、南洋理工等机构推出MMAE（Massive Multitask Audio Editing Benchmark），这是首个全面评估AI语音/音频编辑能力的基准。MMAE要求模型理解现有音频并按自然语言指令精确修改，而非简单生成。当前模型在该基准上的精确匹配率（EMR）低于5%，暴露了可靠音频编辑的短板。MMAE包含2000个真实场景高保真样本、17741条细粒度评估项，覆盖声音/音乐/语音及混合共7种模态、6种任务复杂度（基础修改到多跳推理及多轮编辑）、8种操作类型（局部到全局）。论文、代码、数据集和演示已公开。"
+        },
         {
           "id": "737ba002e9ee",
           "title": "PixelDiT入选CVPR2026最佳论文决赛",
