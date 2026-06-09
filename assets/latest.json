@@ -1,16 +1,22 @@
 {
   "date": "2026-06-09",
-  "generated_at": "2026-06-09T00:15:31.061093",
-  "total": 67,
+  "generated_at": "2026-06-09T04:51:03.523066",
+  "total": 68,
   "sources": {
     "Hugging Face": 8,
     "GitHub AI": 6,
+    "公众号：小米 MiMo": 1,
+    "IT之家（RSS）": 5,
+    "X：Rohan Paul (@rohanpaul_ai)": 2,
+    "X：Berry Xia (@berryxia)": 1,
+    "X：阿易 AI Notes (@AYi_AInotes)": 1,
+    "X：邵猛 (@shao__meng)": 2,
+    "X：Claude (@claudeai)": 1,
     "X：小米 MiMo (@XiaomiMiMo)": 1,
     "Apple Machine Learning Research（RSS）": 1,
     "X：面壁智能 OpenBMB (@OpenBMB)": 1,
-    "IT之家（RSS）": 3,
     "X：Runway (@runwayml)": 1,
-    "Hacker News 热门（buzzing.cc 中文翻译）": 3,
+    "Hacker News 热门（buzzing.cc 中文翻译）": 2,
     "公众号：月之暗面（Kimi）": 1,
     "Claude：Blog（网页）": 2,
     "Apple：Newsroom（RSS）": 3,
@@ -22,13 +28,11 @@
     "Anthropic：Research（发表成果 · 网页）": 1,
     "X：Perplexity (@perplexity_ai)": 1,
     "X：腾讯混元 (@TencentHunyuan)": 1,
-    "X：Rohan Paul (@rohanpaul_ai)": 2,
     "The Verge：AI（RSS）": 1,
     "X：小互 (@xiaohu)": 1,
     "X：Kim (@kimmonismus)": 1,
-    "X：邵猛 (@shao__meng)": 1,
     "X：Claude Devs (@ClaudeDevs)": 1,
-    "Hugging Face：Blog（RSS）": 4,
+    "Hugging Face：Blog（RSS）": 3,
     "X：OpenRouter (@OpenRouter)": 1,
     "X：Viggle AI (@ViggleAI)": 1,
     "X：Anthropic (@AnthropicAI)": 1,
@@ -36,18 +40,25 @@
     "OpenRouter：Announcements（RSS）": 1,
     "公众号：通义实验室（千问）": 1,
     "公众号：数字生命卡兹克": 1,
-    "Bloomberg：Technology（RSS）": 3,
+    "Bloomberg：Technology（RSS）": 2,
     "X：PixVerse (@PixVerse_)": 1,
-    "X：宝玉 (@dotey)": 1,
-    "TechCrunch：AI（RSS）": 1,
-    "Gary Marcus：The Road to AI We Can Trust（RSS）": 1,
-    "X：阿易 AI Notes (@AYi_AInotes)": 1
+    "X：宝玉 (@dotey)": 1
   },
   "ai_processed": false,
   "categories": {
     "ai-models": {
       "label": "🧠 AI 模型",
       "items": [
+        {
+          "id": "1ea4a1316637",
+          "title": "小米 MiMo 与 TileRT 联合发布 UltraSpeed 模式，1T 模型输出突破 1000 tokens/s",
+          "url": "https://mp.weixin.qq.com/s/EZvmrx8xfM9MZNCMDwImFQ",
+          "source": "aihot",
+          "source_name": "公众号：小米 MiMo",
+          "category": "ai-models",
+          "published_at": "2026-06-09T03:31:32.000Z",
+          "summary": "小米 MiMo 与 TileRT 联合发布 MiMo-V2.5-Pro-UltraSpeed 模式，使 1T 参数旗舰模型输出速度首次突破 1000 tokens/s。模型侧采用 FP4 混合量化（仅量化 MoE Expert）与 DFlash 块级 masked 并行推测解码（coding 场景平均接受长度 6.30 tokens）；系统侧 TileRT 引入常驻内核引擎与异构流水线协作。API 限时开放（2026 年 6 月 9 日至 23 日），定价为 MiMo-V2.5-Pro 的 3 倍，速度提升约 10 倍。FP4 权重与 DFlash 模型 checkpoint 已开源至 HuggingFace。"
+        },
         {
           "id": "544be5593a26",
           "title": "小米 MiMo-V2.5-Pro-UltraSpeed 突破 1,000 tokens/s，单台 8-GPGPU 节点运行 1T MoE 模型",
@@ -232,16 +243,6 @@
           "category": "ai-products",
           "published_at": "2026-06-08T00:00:00.000Z",
           "summary": "今日，Hugging Face 宣布 OpenEnv 项目进一步开放，由 Meta-PyTorch、Reflection、Unsloth 等组成的委员会协调，并获得 PyTorch Foundation、vLLM、SkyRL（UCB）等机构支持。OpenEnv 是创建终端、浏览器等智能体执行环境的工具，定位为训练器与环境间的互操作层，标准化环境的发布、部署和消费，但不定义奖励或训练循环。它基于客户端/服务器架构提供 Gymnasium 风格 API（`reset（）`、`step（）`、`state（）`），支持 HTTP、WebSocket、Docker 打包，并将 MCP 作为一等公民，使环境在模拟和生产模式下行为一致。未来将聚焦任务集对接数据集、外部奖励、Harness 集成及自动验证，以推动开源智能体 RL 基础建设。"
-        },
-        {
-          "id": "7520ca336ad6",
-          "title": "Her · हेर - Claude Code 会话分析工具",
-          "url": "https://huggingface.co/blog/build-small-hackathon/her-blog",
-          "source": "aihot",
-          "source_name": "Hugging Face：Blog（RSS）",
-          "category": "ai-products",
-          "published_at": "2026-06-07T10:13:41.000Z",
-          "summary": "Her（हेर）是专为 Claude Code 设计的会话分析工具。用户上传 `.jsonl` 文件后，Her 用自然语言重建每轮交互，标记部署、配置变更、秘密等高风险操作并定位到具体轮次。它展示 token 消耗、所用工具、子智能体、技能和 MCP 服务器，并结合 Anthropic 与社区最佳实践给出改进建议（仅在有明确可修复模式时）。内置\"Ask Her\"问答功能，支持单会话与跨会话项目分析。工具不调用第三方 AI API，使用 Nemotron-Mini-4B-Instruct 模型在 Hugging Face ZeroGPU 上运行，评估引擎完全确定，模型仅负责文本生成与建议。Her 内置 Homebrew、npm、PyPI 主流 CLI 工具数据库，自动识别会话中使用的工具，并对部署工具、数据库客户端等执行活动进行标记提醒。"
         }
       ]
     },
@@ -335,7 +336,7 @@
           "source": "GitHub AI",
           "source_name": "GitHub AI",
           "category": "ai-tools",
-          "published_at": "2026-06-09T00:15:26.634061+00:00",
+          "published_at": "2026-06-09T04:50:59.754291+00:00",
           "summary": "🎧 Open source music streaming app! Available for both desktop & mobile!"
         },
         {
@@ -345,7 +346,7 @@
           "source": "GitHub AI",
           "source_name": "GitHub AI",
           "category": "ai-tools",
-          "published_at": "2026-06-09T00:15:26.633494+00:00",
+          "published_at": "2026-06-09T04:50:59.753729+00:00",
           "summary": "Your AI second brain. Self-hostable. Get answers from the web or your docs. Build custom agents, schedule automations, do deep research. Turn any online or local LLM into your personal, autonomous AI (gpt, claude, gemini, llama, qwen, mistral). Get started - free."
         },
         {
@@ -355,7 +356,7 @@
           "source": "GitHub AI",
           "source_name": "GitHub AI",
           "category": "ai-tools",
-          "published_at": "2026-06-09T00:15:26.633315+00:00",
+          "published_at": "2026-06-09T04:50:59.753565+00:00",
           "summary": "AI Agents & MCPs & AI Workflow Automation • (~400 MCP servers for AI agents) • AI Automation / AI Agent with MCPs • AI Workflows & AI Agents • MCPs for AI Agents"
         },
         {
@@ -365,7 +366,7 @@
           "source": "GitHub AI",
           "source_name": "GitHub AI",
           "category": "ai-tools",
-          "published_at": "2026-06-09T00:15:26.633198+00:00",
+          "published_at": "2026-06-09T04:50:59.753445+00:00",
           "summary": "Build product integrations with AI."
         },
         {
@@ -375,7 +376,7 @@
           "source": "GitHub AI",
           "source_name": "GitHub AI",
           "category": "ai-tools",
-          "published_at": "2026-06-09T00:15:26.632529+00:00",
+          "published_at": "2026-06-09T04:50:59.752753+00:00",
           "summary": "Stable Diffusion web UI"
         },
         {
@@ -385,7 +386,7 @@
           "source": "GitHub AI",
           "source_name": "GitHub AI",
           "category": "ai-tools",
-          "published_at": "2026-06-09T00:15:26.632087+00:00",
+          "published_at": "2026-06-09T04:50:59.752321+00:00",
           "summary": "Robust Speech Recognition via Large-Scale Weak Supervision"
         }
       ]
@@ -513,6 +514,36 @@
     "tip": {
       "label": "💡 技巧",
       "items": [
+        {
+          "id": "82a6e84f2186",
+          "title": "开源工具 Tokei：在菜单栏实时监控 AI coding agent 的 token 用量与成本",
+          "url": "https://x.com/berryxia/status/2064155452934639718",
+          "source": "aihot",
+          "source_name": "X：Berry Xia (@berryxia)",
+          "category": "tip",
+          "published_at": "2026-06-09T01:19:44.000Z",
+          "summary": "Berry Xia 推荐开源工具 Tokei，这是一个 macOS 菜单栏小工具，只读本地日志、零网络调用，30 秒自动刷新，实时监控 Claude Code、Grok CLI、Aider、OpenCode 等 8 个主流 AI coding agent 的 token 用量、实时成本与性能数据，并附每日图表、周热力图和年度 Wrapped。支持私人 Git 多设备同步、价格表本地覆盖，闲置过久会提醒休息。引用推文指出，token 消耗情况可作为深度使用 AI 的面试亮点，数据全程私有，零侵入，无需任何认证。"
+        },
+        {
+          "id": "868387a1b0b1",
+          "title": "FrontierCode 基准测试：AI 编程评估新标准--维护者审核通过率最高仅 13.4%",
+          "url": "https://x.com/AYi_AInotes/status/2064146694774595646",
+          "source": "aihot",
+          "source_name": "X：阿易 AI Notes (@AYi_AInotes)",
+          "category": "tip",
+          "published_at": "2026-06-09T00:44:56.000Z",
+          "summary": "Cognition 发布 FrontierCode 基准测试，重新定义 AI 编程评估：由 20 多位顶级开源维护者手工制作 150 个任务（每个耗时 40+ 小时），依据 3000 多条规则判断维护者是否愿意合并代码。该基准指出 SWE-Bench 等超半数通过测试的代码实为不可维护的垃圾。结果中 Claude Opus 4.8 在最高难度档获 13.4%，GPT-5.5 为 6.3%，其余模型 1%-5%。这意味着即便最强模型，近九成代码仍无法通过有经验维护者审核。"
+        },
+        {
+          "id": "995720293584",
+          "title": "GitHub 122K⭐的Skills推出新技能「Teach」：把工作目录变有状态学习空间",
+          "url": "https://x.com/shao__meng/status/2064144978792878348",
+          "source": "aihot",
+          "source_name": "X：邵猛 (@shao__meng)",
+          "category": "tip",
+          "published_at": "2026-06-09T00:38:07.000Z",
+          "summary": "GitHub 122K⭐的Skills仓库推出新技能Teach，可将当前工作目录变为有状态学习空间。设计理念从Knowledge（概念事实）→Skills（动手操作）→Wisdom（真实判断）。工作区以文件即学习状态：MISSION.md定目标、lessons/提供课程、learning-records/记录已会内容、reference/生成速查手册。五个关键机制：Mission定方向、ZPD根据记录调整难度、Lesson一课一事+即时反馈、Learning Record记\"会了什么\"而非\"讲了什么\"、Reference形成长期可回看手册。可通过npx skills add mattpocock/skills --skill teach安装，适用于从魔方到软件基础等学习场景。"
+        },
         {
           "id": "891627b94405",
           "title": "OpenAI计划到2028年由AI主导研究",
@@ -662,52 +693,52 @@
           "category": "tip",
           "published_at": "2026-06-08T01:30:00.000Z",
           "summary": "OpenAI 发布计划，阐述让 AGI 造福所有人的愿景。该计划聚焦于 AI 的可及性、安全性和共享繁荣，确保技术进步惠及每个人。"
-        },
-        {
-          "id": "da1b36d5d74f",
-          "title": "Slop、生产力，以及为何AI驱动的世界进展甚微",
-          "url": "https://garymarcus.substack.com/p/slop-productivity-and-why-the-ai",
-          "source": "aihot",
-          "source_name": "Gary Marcus：The Road to AI We Can Trust（RSS）",
-          "category": "tip",
-          "published_at": "2026-06-07T15:31:43.000Z",
-          "summary": "Gary Marcus在金融时报上看到John Burn-Murdoch的一张图表，认为它精准提炼了自己一直试图表达的观点。"
-        },
-        {
-          "id": "f2dd3134a7a2",
-          "title": "苹果秘密会议内幕：它终于认真对待AI",
-          "url": "https://www.bloomberg.com/news/newsletters/2026-06-07/wwdc-2026-apple-s-secret-meeting-that-led-it-to-take-ai-seriously-ios-27",
-          "source": "aihot",
-          "source_name": "Bloomberg：Technology（RSS）",
-          "category": "tip",
-          "published_at": "2026-06-07T14:00:01.000Z",
-          "summary": "苹果在一次内部秘密会议后，终于决定将AI作为核心战略。这场会议促使公司全面转向AI领域，相关进展预计将在WWDC 2026上公布。"
-        },
-        {
-          "id": "a9560e151bb8",
-          "title": "Symbolica 2.0：适用于 Python 和 Rust 的可编程符号系统",
-          "url": "https://symbolica.io/posts/symbolica_2_0_release",
-          "source": "aihot",
-          "source_name": "Hacker News 热门（buzzing.cc 中文翻译）",
-          "category": "tip",
-          "published_at": "2026-06-07T12:59:12.136Z",
-          "summary": "Symbolica 2.0 发布，这是一款可编程符号系统，支持 Python 和 Rust 语言。该版本在 Hacker News 上获得 100 点热度。"
-        },
-        {
-          "id": "bc95550e4bf0",
-          "title": "\"我在田里雇了一名工程师，它叫 Codex\" -- 北海道一个西兰花农的 8 个真实 AI 用法",
-          "url": "https://x.com/AYi_AInotes/status/2063573709672104286",
-          "source": "aihot",
-          "source_name": "X：阿易 AI Notes (@AYi_AInotes)",
-          "category": "tip",
-          "published_at": "2026-06-07T10:48:06.000Z",
-          "summary": "日本北海道农民富安弘毅用 ChatGPT 和 Codex 解决农场实际问题，涵盖 8 个用法：拍照识别西兰花病害、卫星监测获取 NDVI 数据、用 ESP32 和 LINE 机器人远程控制温室卷帘、为农场群聊开发机器人管理温度与排期、从聊天记录追踪播种数量、学习 RTK-GPS 自动转向原理并评估自建成本、设计基于 Airtable 的农场管理数据库。他说 AI 让传统昂贵的自动化变得低成本可及，\"如同身边有一位超级工程师\"。"
         }
       ]
     },
     "industry": {
       "label": "industry",
       "items": [
+        {
+          "id": "0739b39d7546",
+          "title": "OpenAI 秘密提交 IPO 申请，奥特曼旗下 Tools for Humanity 裁员",
+          "url": "https://www.ithome.com/0/961/792.htm",
+          "source": "aihot",
+          "source_name": "IT之家（RSS）",
+          "category": "industry",
+          "published_at": "2026-06-09T02:19:48.000Z",
+          "summary": "OpenAI 近日秘密提交 IPO 申请。其 CEO 山姆·奥特曼旗下的 Tools for Humanity 公司正裁员，该公司因虹膜扫描项目 World 及加密货币 Worldcoin 知名，投后估值 25 亿美元，获 Andreessen Horowitz 等投资。因营收困境，公司缩减规模。海外监管方面，肯尼亚以隐私和金融风险为由叫停运营，韩国因违反隐私法规罚款 83 万美元。"
+        },
+        {
+          "id": "dafd381a0a30",
+          "title": "Elon Musk 详解 SpaceX AI1 轨道 AI 数据中心卫星方案",
+          "url": "https://x.com/rohanpaul_ai/status/2064165951936094364",
+          "source": "aihot",
+          "source_name": "X：Rohan Paul (@rohanpaul_ai)",
+          "category": "industry",
+          "published_at": "2026-06-09T02:01:27.000Z",
+          "summary": "Elon Musk 首次详细解释 SpaceX 的 AI1 轨道 AI 数据中心卫星：峰值功率 150 kW，持续计算功率约 120 kW，相当于一个 NVIDIA GB300 机架；太阳能板效率 250 W/m2；双面散热器排热 1，400 W/m2。通过激光链路实现约 1 Tbps 互联，低轨 600-800 km 高度往返延迟 6-8 ms。由 Starship 发射，计划部署多达百万颗卫星，2027 年底前实现量产。近地目标为吉瓦级轨道 AI 算力，长期向太瓦级推进。"
+        },
+        {
+          "id": "66ae4f2b85b4",
+          "title": "两部门：到2026年底人形机器人等重点产品完成应用验证并常态部署",
+          "url": "https://www.ithome.com/0/961/749.htm",
+          "source": "aihot",
+          "source_name": "IT之家（RSS）",
+          "category": "industry",
+          "published_at": "2026-06-09T01:15:30.000Z",
+          "summary": "工信部、国资委6月8日联合发布通知，目标到2026年底，人形机器人等重点产品在代表性场景完成应用验证并开启常态部署，形成百个以上高价值场景，万台级规模落地。要求各省级地区选取不少于20个场景单元（覆盖两类领域），央企不少于10个。围绕打造实景实训空间、组建创新应用联合体、攻关作业技能、加强验证部署、强化要素保障、凝练经验等六大任务展开，鼓励\"人形机器人即服务\"等商业创新。"
+        },
+        {
+          "id": "10c8e6f05e53",
+          "title": "Claude 东京站活动开放注册",
+          "url": "https://x.com/claudeai/status/2064139073590104402",
+          "source": "aihot",
+          "source_name": "X：Claude (@claudeai)",
+          "category": "industry",
+          "published_at": "2026-06-09T00:14:39.000Z",
+          "summary": "最终站：东京。\n快来注册，直接聆听 Claude 团队分享：http：//claude.com/code-with-claude/tokyo"
+        },
         {
           "id": "96956b3e682c",
           "title": "Nvidia 与 SK Hynix 签署多年协议，共同开发下一代 AI 存储芯片",
@@ -727,26 +758,6 @@
           "category": "industry",
           "published_at": "2026-06-07T18:14:27.000Z",
           "summary": "OpenAI 正筹备 ChatGPT 自 2022 年上线以来最大规模改版，从聊天机器人转向超级应用/Agent 平台，整合编程工具 Codex、图像生成及第三方应用（Canva、Booking）。高管称\"聊天已死\"，目标成为跨平台个人 AI 助手，未来甚至省去用户输入提示词。改版预计未来几周在网页和手机端上线。商业压力：ChatGPT 有 9 亿周活用户、5000 万付费用户、月收入 20 亿美元但未盈利；企业客户贡献约 40% 收入，目标年底达 50%；Codex 桌面版周活超 500 万。竞争对手 Anthropic 估值已达 9650 亿美元。OpenAI 刚完成 1220 亿美元融资，估值 8520 亿美元，IPO 目标估值可能超 1 万亿美元。"
-        },
-        {
-          "id": "99f7a0e9f857",
-          "title": "特朗普政府与OpenAI讨论通过公共财富基金入股AI初创公司",
-          "url": "https://x.com/rohanpaul_ai/status/2063662672835703126",
-          "source": "aihot",
-          "source_name": "X：Rohan Paul (@rohanpaul_ai)",
-          "category": "industry",
-          "published_at": "2026-06-07T16:41:36.000Z",
-          "summary": "据FT报道，特朗普政府正与OpenAI探讨通过公共财富基金机制让政府入股AI初创公司。方案是AI企业捐赠小部分股权至该基金，基金通过账户或分红将收益返还美国公民，而非政府直接运营公司。这不同于特朗普去年对Intel的90亿美元直接持股。OpenAI此前已提出公共财富基金概念，持有长期资产，让公民分享AI增长红利。政治背景方面，选民担忧失业、数据中心成本与企业控制，而AI公司需要华盛顿在基建、采购和监管上的支持。"
-        },
-        {
-          "id": "a6b4b65762aa",
-          "title": "OpenAI 仍推进超级应用计划",
-          "url": "https://techcrunch.com/2026/06/07/openai-is-still-working-on-that-super-app",
-          "source": "aihot",
-          "source_name": "TechCrunch：AI（RSS）",
-          "category": "industry",
-          "published_at": "2026-06-07T16:23:22.000Z",
-          "summary": "OpenAI 一位高级员工表示\"聊天已死\"，同时公司仍在继续推进超级应用计划。"
         }
       ]
     }
