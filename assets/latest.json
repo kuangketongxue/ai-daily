@@ -1,15 +1,19 @@
 {
   "date": "2026-06-09",
-  "generated_at": "2026-06-09T11:44:24.612695",
-  "total": 74,
+  "generated_at": "2026-06-09T14:06:32.778652",
+  "total": 77,
   "sources": {
     "Hugging Face": 8,
     "GitHub AI": 8,
+    "公众号：火山引擎": 2,
+    "公众号：百度智能云（文心）": 1,
+    "X：腾讯混元 (@TencentHunyuan)": 2,
+    "X：Kimi.ai (@Kimi_Moonshot)": 1,
     "公众号：可灵AI（快手·视频）": 1,
+    "Hugging Face：Blog（RSS）": 4,
     "X：阿里云 / Alibaba Cloud (@alibaba_cloud)": 1,
     "Bloomberg：Technology（RSS）": 2,
-    "公众号：通义实验室（千问）": 2,
-    "Hugging Face：Blog（RSS）": 3,
+    "公众号：通义实验室（千问）": 1,
     "MarkTechPost（RSS）": 1,
     "X：硅基流动 SiliconFlow (@SiliconFlowAI)": 1,
     "IT之家（RSS）": 6,
@@ -34,7 +38,6 @@
     "公众号：生数科技（Vidu·视频）": 1,
     "Anthropic：Research（发表成果 · 网页）": 1,
     "X：Perplexity (@perplexity_ai)": 1,
-    "X：腾讯混元 (@TencentHunyuan)": 1,
     "The Verge：AI（RSS）": 1,
     "X：小互 (@xiaohu)": 1,
     "X：Kim (@kimmonismus)": 1,
@@ -43,9 +46,7 @@
     "X：Viggle AI (@ViggleAI)": 1,
     "X：Anthropic (@AnthropicAI)": 1,
     "Dwarkesh Patel：Podcast & Blog（RSS）": 1,
-    "OpenRouter：Announcements（RSS）": 1,
-    "HuggingFace Daily Papers（社区热门论文）": 1,
-    "公众号：数字生命卡兹克": 1
+    "Google DeepMind：Blog（RSS）": 1
   },
   "ai_processed": false,
   "categories": {
@@ -107,6 +108,26 @@
     "ai-products": {
       "label": "🚀 AI 产品",
       "items": [
+        {
+          "id": "774c238cecc9",
+          "title": "火山引擎TRAE Work企业版正式上线，面向全员提供AI办公平台",
+          "url": "https://mp.weixin.qq.com/s/f7QzLzwHPHHv3tWT1Wrnkw",
+          "source": "aihot",
+          "source_name": "公众号：火山引擎",
+          "category": "ai-products",
+          "published_at": "2026-06-09T11:45:02.000Z",
+          "summary": "火山引擎将TRAE Solo品牌升级为TRAE Work企业版，发布面向企业的AI办公平台。平台提供Work和Code两种模式：Work模式面向产品、运营、市场等非技术岗位，支持上传.pptx、.xlsx、图片等多种格式混合输入直接输出PPT或文档，支持语音讨论自动整理结构化纪要，支持按天或按周自动运行的数据整理和报告生成；Code模式面向开发者和业务同学，可用自然语言描述需求直接生成页面或小应用。桌面端、网页端和移动端多端同步。企业后台可统一配置模型、用量限额、上传内部文档，沙箱机制隔离执行，支持命令黑名单、MCP白名单、内容安全策略，关键操作可审计。同时发起TRAE Enterprise Fellow招募计划。"
+        },
+        {
+          "id": "3b075609e588",
+          "title": "Kimi 预测全部104场世界杯比赛：德国或被低估",
+          "url": "https://x.com/Kimi_Moonshot/status/2064311212243120459",
+          "source": "aihot",
+          "source_name": "X：Kimi.ai (@Kimi_Moonshot)",
+          "category": "ai-products",
+          "published_at": "2026-06-09T11:38:40.000Z",
+          "summary": "Kimi 利用 Agent Swarm 系统并行协调300个子智能体，分析战术、球员状态、伤病、赛程、天气、赔率等因素，预测2026年美加墨世界杯全部104场比赛，并发布每轮赛前预测和赛后回顾。模型层融合了 Elo/FIFA 强度、Poisson 进球分布、xG/xT 指标、蒙特卡洛模拟等方法。预测结果显示西班牙和法国为头号热门，但德国夺冠概率可能被市场低估：模型基线估计约11.0%，校准估计约11.3%，而部分市场隐含概率仅约7.4%，正向偏差约+3.6个百分点。该判断基于多分析链交叉验证，可能源于对德国近两届小组出局的近因偏差以及纳格尔斯曼高位压迫体系与穆西亚拉/维尔茨新创造轴的复苏信号。"
+        },
         {
           "id": "f925de1e2b2a",
           "title": "可灵AI×候鸟300发起AI主义新浪潮AIGC影像大赛",
@@ -236,16 +257,6 @@
           "category": "ai-products",
           "published_at": "2026-06-08T18:18:43.157Z",
           "summary": "今天Apple预览了即将推出的软件版本，将带来新一代Apple Intelligence和Siri AI。"
-        },
-        {
-          "id": "1115fd650054",
-          "title": "EU AI Act 合规：面向 AI 智能体的人工监督",
-          "url": "https://openrouter.ai/blog/human-oversight-eu-ai-act-compliance-agent-sdk",
-          "source": "aihot",
-          "source_name": "OpenRouter：Announcements（RSS）",
-          "category": "ai-products",
-          "published_at": "2026-06-08T12:00:00.000Z",
-          "summary": "使用智能体 SDK 的人机协作（HITL）工具，可满足 EU AI Act、Colorado AI Act 和 NIST AI RMF 对 AI 智能体的合规要求。"
         }
       ]
     },
@@ -339,7 +350,7 @@
           "source": "GitHub AI",
           "source_name": "GitHub AI",
           "category": "ai-tools",
-          "published_at": "2026-06-09T11:44:23.481493+00:00",
+          "published_at": "2026-06-09T14:06:29.810899+00:00",
           "summary": "Convert documents to structured data effortlessly. Unstructured is open-source ETL solution for transforming complex documents into clean, structured formats for language models. Visit our website to learn more about our enterprise grade Platform product for production grade workflows, partitioning, enrichments, chunking and embedding."
         },
         {
@@ -349,7 +360,7 @@
           "source": "GitHub AI",
           "source_name": "GitHub AI",
           "category": "ai-tools",
-          "published_at": "2026-06-09T11:44:23.481356+00:00",
+          "published_at": "2026-06-09T14:06:29.810783+00:00",
           "summary": "A lightning-fast search engine API bringing AI-powered hybrid search to your sites and applications."
         },
         {
@@ -359,7 +370,7 @@
           "source": "GitHub AI",
           "source_name": "GitHub AI",
           "category": "ai-tools",
-          "published_at": "2026-06-09T11:44:23.481234+00:00",
+          "published_at": "2026-06-09T14:06:29.810665+00:00",
           "summary": "Qdrant - High-performance, massive-scale Vector Database and Vector Search Engine for the next generation of AI. Also available in the cloudhttps://cloud.qdrant.io/"
         },
         {
@@ -369,7 +380,7 @@
           "source": "GitHub AI",
           "source_name": "GitHub AI",
           "category": "ai-tools",
-          "published_at": "2026-06-09T11:44:23.480906+00:00",
+          "published_at": "2026-06-09T14:06:29.810357+00:00",
           "summary": "Search infrastructure for AI"
         },
         {
@@ -379,7 +390,7 @@
           "source": "GitHub AI",
           "source_name": "GitHub AI",
           "category": "ai-tools",
-          "published_at": "2026-06-09T11:44:23.480622+00:00",
+          "published_at": "2026-06-09T14:06:29.810094+00:00",
           "summary": "General-purpose AI designed for knowledge workers — creators, strategists, and operators — and individuals seeking AI systems they can truly control to help them get work done, with full flexibility to extend and deploy anywhere (VPC, on-prem, or cloud)."
         },
         {
@@ -389,7 +400,7 @@
           "source": "GitHub AI",
           "source_name": "GitHub AI",
           "category": "ai-tools",
-          "published_at": "2026-06-09T11:44:23.480493+00:00",
+          "published_at": "2026-06-09T14:06:29.809978+00:00",
           "summary": "Summer 2026 software engineering, data science, AI, quant, product management, and hardware internship postings. Updated daily by Simplify and Pitt CSC."
         },
         {
@@ -399,7 +410,7 @@
           "source": "GitHub AI",
           "source_name": "GitHub AI",
           "category": "ai-tools",
-          "published_at": "2026-06-09T11:44:23.480352+00:00",
+          "published_at": "2026-06-09T14:06:29.809860+00:00",
           "summary": "Computer Vision Annotation Tool (CVAT) is a leading platform for building high-quality visual datasets for vision AI. It offers open-source, cloud, and enterprise products, as well as labeling services, for image, video, and 3D annotation with AI-assisted labeling, quality assurance, team collaboration, analytics, and developer APIs."
         },
         {
@@ -409,7 +420,7 @@
           "source": "GitHub AI",
           "source_name": "GitHub AI",
           "category": "ai-tools",
-          "published_at": "2026-06-09T11:44:23.479594+00:00",
+          "published_at": "2026-06-09T14:06:29.809134+00:00",
           "summary": "A library for efficient similarity search and clustering of dense vectors."
         }
       ]
@@ -537,6 +548,26 @@
     "tip": {
       "label": "💡 技巧",
       "items": [
+        {
+          "id": "ccd8d032c50f",
+          "title": "腾讯混元发布UniRL：统一多模态强化学习基础设施",
+          "url": "https://x.com/TencentHunyuan/status/2064312869827809702",
+          "source": "aihot",
+          "source_name": "X：腾讯混元 (@TencentHunyuan)",
+          "category": "tip",
+          "published_at": "2026-06-09T11:45:15.000Z",
+          "summary": "腾讯混元推出UniRL，一个支持统一多模态模型的强化学习基础设施，并发布两个新算法DRPO和Flow-DPPO。UniRL通过单个后训练循环（生成→评分→优势→更新→同步）覆盖扩散/流匹配模型、LLM/VLM及统一多模态模型（如Hunyuan-Image 3和Bagel）。模型与算法作为独立轴，可实现模型×算法的组合覆盖。框架支持可插拔rollout引擎（训练侧/SGLang/vLLM-Omni）、FSDP2分片和三种部署模式。FlowDPPO针对流/扩散模型引入基于精确散度的信任域策略优化；DRPO为LLM RL提供平滑的优势加权二次正则化方法。代码已开源。"
+        },
+        {
+          "id": "a56e268da286",
+          "title": "一个Agent如何通过链式调用两个HuggingFace Space构建3D巴黎画廊",
+          "url": "https://huggingface.co/blog/mishig/spaces-agents-md",
+          "source": "aihot",
+          "source_name": "Hugging Face：Blog（RSS）",
+          "category": "tip",
+          "published_at": "2026-06-09T10:46:19.000Z",
+          "summary": "一个编码Agent调用HuggingFace上的两个Space，从零构建了展示巴黎地标3D高斯散点图的交互式画廊。Agent先用ideogram-ai/ideogram4生成每个纪念碑的黑色背景图像，再通过VAST-AI/TripoSplat从单张图像重建3D高斯散点（.ply），自动完成坐标系校正、取景、压缩为.ksplat（体积缩小约3倍），并构建基于Three.js的滚动切换、拖拽旋转查看器，最终部署为静态Space。整个过程无需客户端库，每个Space通过`agents.md`暴露可调用API。"
+        },
         {
           "id": "0290d51a28f9",
           "title": "仅凭一份文档，Qwen3.7-Max 从 0 交付双端应用",
@@ -706,32 +737,32 @@
           "category": "tip",
           "published_at": "2026-06-08T13:10:48.000Z",
           "summary": "用五个不同实验室的AI模型（OpenAI、NVIDIA、OpenBMB及一个自微调的5亿参数模型）各自驱动一个智能体构建经济市场，试图复现此前单一模型下出现的银行挤兑式价格崩溃。结果同一场景下模型不仅不抛售反而囤积，导致价格不跌反涨。通过纯谣言、库存泛滥、加大做空三种方式均无法重现崩溃。最终在结算环节直接覆盖价格，使崩溃成为设计事实。实验表明，AI智能体的涌现行为是偶然的而非稳健的，有效系统需在涌现纹理与确定性控制之间找到精确接缝。"
-        },
-        {
-          "id": "356c0464f11e",
-          "title": "Agent 辅助开发，一站式打通 Qwen3-VL Android 端侧推理",
-          "url": "https://mp.weixin.qq.com/s?__biz=MzkxMTYyMTAzNA%3D%3D&mid=2247501437&idx=1&sn=d6c6dcb853adbed4ea946711d478779a",
-          "source": "aihot",
-          "source_name": "公众号：通义实验室（千问）",
-          "category": "tip",
-          "published_at": "2026-06-08T09:54:08.000Z",
-          "summary": "通义实验室教程演示了如何用 Agent（Qoder）辅助完成 Qwen3-VL-2B 模型在 Android 端侧的全流程部署。操作包括：检查 JDK 21、NDK 27、CMake 3.18.1 等环境；创建 arm64-v8a 的 Native C++ 工程（minSdk 29、compileSdk 35）；通过 ModelScope CLI 下载约 1.4GB 的 MNN/Qwen3-VL-2B-Instruct-MNN 模型；编译开启 LLM 视觉支持（MNN_BUILD_LLM、LLM_SUPPORT_VISION）的 libMNN.so；构建 APK 并推送模型至手机私有目录。最终 App 提供图文推理页面，输出 MNN 版本（v3.5.0）、ABI 及推理指标。所有繁琐步骤均可由 Agent 自动执行。"
-        },
-        {
-          "id": "86fbce45830c",
-          "title": "微信AI Agent生态曝光：嵌入小程序调用与手机厂商合作",
-          "url": "https://mp.weixin.qq.com/s?__biz=MzIyMzA5NjEyMA%3D%3D&mid=2647683054&idx=1&sn=dcaa25bd4fdfc9bd5c0211532021bf7c",
-          "source": "aihot",
-          "source_name": "公众号：数字生命卡兹克",
-          "category": "tip",
-          "published_at": "2026-06-08T09:38:30.000Z",
-          "summary": "腾讯正测试嵌入微信的AI Agent，用户右滑唤出对话窗口，通过自然语言指令调用数百万小程序完成点咖啡等任务。微信还与华为、荣耀、小米、OPPO、vivo合作推出A2A助手能力，可通过手机语音助理发起微信音视频通话或发送消息。6月8日，微信官方发布《关于开发者接入微信AI生态的指引》，提供自动接入模式，利用微信沙箱全自动改造小程序，使其可被AI直接调用。这一布局被视为Agentic Commerce（代理式交易）的雏形。"
         }
       ]
     },
     "industry": {
       "label": "industry",
       "items": [
+        {
+          "id": "4c9b925da502",
+          "title": "全新汽车品牌AIVA发布，火山引擎助力打造AI汽车新体验",
+          "url": "https://mp.weixin.qq.com/s/toK_uIB9ECFHVaoCgK-w9Q",
+          "source": "aihot",
+          "source_name": "公众号：火山引擎",
+          "category": "industry",
+          "published_at": "2026-06-09T13:00:21.000Z",
+          "summary": "由赛力斯、宁德时代等多方产业资本组建的AI出行品牌AIVA正式发布。火山引擎提供豆包大模型、智能座舱等技术服务。概念车AIVA Origin Concept亮相，首款量产车AIVA ME7将于2026年内亮相，全系覆盖20万元以上市场。AIVA提出\"AI定义汽车\"路径，让汽车成为具身AI生命体。火山引擎副总裁表示，人与汽车的关系将实现交互、智能、感受三方面根本转变。未来双方将围绕AI交互、智能体验、情感陪伴深度共创。"
+        },
+        {
+          "id": "c3ad81cc5ef3",
+          "title": "百度搭子DuMate获中国信通院企业级Claw能力评估最高4+级",
+          "url": "https://mp.weixin.qq.com/s/lv99XfrRtMMgiOflcT67VA",
+          "source": "aihot",
+          "source_name": "公众号：百度智能云（文心）",
+          "category": "industry",
+          "published_at": "2026-06-09T12:03:00.000Z",
+          "summary": "2026年6月，百度智能云旗下百度搭子DuMate V3.4.0通过中国信通院「可信AI-企业级Claw能力评估」，获最高评级4+级，为国内首批。评估依据《智能助理智能体（Claw）技术和应用要求 第2部分 企业级Claw能力》（AIIA/T 0295-2026），覆盖智能体、工程化部署、服务、业务融合、运行管理五大能力域。百度搭子支持多智能体分工协作、容器化批量部署、多租户隔离与三级差异化授权、企业知识库接入、全链路日志审计等能力，企业级智能助手服务能力获国家级权威认可。"
+        },
         {
           "id": "75cb6333ac77",
           "title": "阿里云在马来西亚柔佛推新区域",
@@ -818,14 +849,14 @@
       "label": "paper",
       "items": [
         {
-          "id": "b36c1610c911",
-          "title": "Reasoning Arena：可验证奖励不足时的迹线锦标赛",
-          "url": "https://arxiv.org/abs/2606.09380",
+          "id": "30f30ccf7d56",
+          "title": "Gemini Guided Learning 随机对照试验：在塞拉利昂等地提升参与度并加速学习",
+          "url": "https://deepmind.google/blog/measuring-the-impact-of-learning-with-ai-in-sierra-leone-and-beyond",
           "source": "aihot",
-          "source_name": "HuggingFace Daily Papers（社区热门论文）",
+          "source_name": "Google DeepMind：Blog（RSS）",
           "category": "paper",
-          "published_at": "2026-06-08T11:57:17.000Z",
-          "summary": "针对基于可验证奖励的强化学习（RLVR）在组级别奖励无信息时无法提供梯度信号的问题，提出Reasoning Arena自适应训练框架。该框架将非多样化奖励组路由至评判系统，通过迹线锦标赛（trace tournaments）对推理迹线进行头对头比较，转化为相对奖励信号。每个新迹线仅与动态更新的少量锚点比较，然后在不完全比较图上拟合Bradley-Terry模型。在竞赛数学和编程基准上，平均超越RLVR基线7.6%，训练加速27%至41%，节省近50%生成计算量。"
+          "published_at": "2026-06-08T13:04:59.000Z",
+          "summary": "一项在塞拉利昂等地开展的随机对照试验显示，Gemini 的 Guided Learning 功能能够提升学生参与度并加速学习。"
         }
       ]
     }
