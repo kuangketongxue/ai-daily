@@ -1,52 +1,47 @@
 {
   "date": "2026-06-09",
-  "generated_at": "2026-06-09T21:24:11.293820",
-  "total": 96,
+  "generated_at": "2026-06-09T23:04:01.612373",
+  "total": 94,
   "sources": {
     "Hugging Face": 8,
     "GitHub AI": 8,
+    "Bloomberg：Technology（RSS）": 6,
+    "Simon Willison 博客": 1,
     "Claude：Blog（网页）": 2,
     "X：AI Safety Memes (@AISafetyMemes)": 1,
-    "Hugging Face：Blog（RSS）": 5,
+    "Hugging Face：Blog（RSS）": 6,
     "X：Rohan Paul (@rohanpaul_ai)": 3,
     "X：NotebookLM (@NotebookLM)": 2,
     "OpenRouter：Announcements（RSS）": 1,
     "X：Eric Zakariasson (@ericzakariasson)": 1,
-    "X：OpenAI Developers (@OpenAIDevs)": 2,
+    "X：OpenAI Developers (@OpenAIDevs)": 1,
     "Ethan Mollick：One Useful Thing（RSS）": 1,
     "Anthropic：Newsroom（网页）": 1,
-    "Bloomberg：Technology（RSS）": 4,
     "X：Fei-Fei Li (@drfeifei, World Labs)": 1,
-    "X：Microsoft Research (@MSFTResearch)": 1,
     "X：OpenRouter (@OpenRouter)": 2,
     "GitHub Blog": 1,
     "The Decoder：AI News（RSS）": 1,
     "X：Google DeepMind (@GoogleDeepMind)": 1,
     "X：Kim (@kimmonismus)": 2,
-    "X：Luma AI (@LumaLabsAI)": 1,
-    "X：Runway (@runwayml)": 2,
     "Google DeepMind：Blog（RSS）": 2,
     "公众号：火山引擎": 2,
     "公众号：百度智能云（文心）": 1,
     "OpenAI：官网动态（RSS · 排除企业/客户案例）": 3,
     "X：腾讯混元 (@TencentHunyuan)": 2,
-    "X：Kimi.ai (@Kimi_Moonshot)": 1,
-    "X：阿里云 / Alibaba Cloud (@alibaba_cloud)": 1,
     "公众号：通义实验室（千问）": 1,
     "MarkTechPost（RSS）": 1,
-    "X：硅基流动 SiliconFlow (@SiliconFlowAI)": 1,
     "IT之家（RSS）": 6,
     "公众号：小米 MiMo": 1,
     "X：Berry Xia (@berryxia)": 1,
     "X：阿易 AI Notes (@AYi_AInotes)": 1,
     "X：邵猛 (@shao__meng)": 2,
-    "X：Claude (@claudeai)": 1,
     "X：小米 MiMo (@XiaomiMiMo)": 1,
     "Apple Machine Learning Research（RSS）": 1,
     "X：面壁智能 OpenBMB (@OpenBMB)": 1,
+    "X：Runway (@runwayml)": 1,
     "Hacker News 热门（buzzing.cc 中文翻译）": 2,
     "公众号：月之暗面（Kimi）": 1,
-    "Apple：Newsroom（RSS）": 2,
+    "Apple：Newsroom（RSS）": 3,
     "X：ChatGPT (@ChatGPTapp)": 1,
     "NVIDIA AI Blog": 2,
     "公众号：生数科技（Vidu·视频）": 1,
@@ -55,7 +50,8 @@
     "The Verge：AI（RSS）": 1,
     "X：小互 (@xiaohu)": 1,
     "X：Claude Devs (@ClaudeDevs)": 1,
-    "xAI：News（网页）": 1
+    "xAI：News（网页）": 1,
+    "X：Viggle AI (@ViggleAI)": 1
   },
   "ai_processed": false,
   "categories": {
@@ -101,16 +97,6 @@
           "category": "ai-models",
           "published_at": "2026-06-09T15:02:21.000Z",
           "summary": "确认，Claude Mythos 将在接下来几小时内揭晓。\n\n【引用 @steph_palazzolo】：\n独家：一个名为 Claude Fable 的精简版 Mythos 今天推出。它价格昂贵--是 Opus 的两倍--但或许不像人们从最初 Mythos 定价（Opus 的 5 倍）所想的那样昂贵。\n\n更多内容及 Apple WWDC 见 AI Agenda：\n\nhttps：//www.theinformation.com/newsletters/ai-agenda/anthropics-mythos-coming-today-apple-pursues-modest-goals-siri-revamp"
-        },
-        {
-          "id": "9627904bdb63",
-          "title": "Luma AI Ray3.2：方向进，电影出",
-          "url": "https://x.com/LumaLabsAI/status/2064358414143143954",
-          "source": "aihot",
-          "source_name": "X：Luma AI (@LumaLabsAI)",
-          "category": "ai-models",
-          "published_at": "2026-06-09T14:46:14.000Z",
-          "summary": "方向进入，电影出来。\n\nRay3.2 来了 → http：//lumalabs.ai/ray3-2"
         },
         {
           "id": "7dabff93691c",
@@ -238,16 +224,6 @@
           "summary": "创意和想象力无与伦比！非常感谢@theworldlabs能与@withloreco的优秀人才合作，将他们不可思议的想法转化为用户可以享受的互动体验！🤩"
         },
         {
-          "id": "12eef8c3f236",
-          "title": "Runway视频轻松转宽高比",
-          "url": "https://x.com/runwayml/status/2064350871048077756",
-          "source": "aihot",
-          "source_name": "X：Runway (@runwayml)",
-          "category": "ai-products",
-          "published_at": "2026-06-09T14:16:16.000Z",
-          "summary": "轻松将视频重新格式化为不同宽高比，让你在每一个重要平台都能展示。\n\n点击下方链接开始。"
-        },
-        {
           "id": "774c238cecc9",
           "title": "火山引擎TRAE Work企业版正式上线，面向全员提供AI办公平台",
           "url": "https://mp.weixin.qq.com/s/f7QzLzwHPHHv3tWT1Wrnkw",
@@ -256,26 +232,6 @@
           "category": "ai-products",
           "published_at": "2026-06-09T11:45:02.000Z",
           "summary": "火山引擎将TRAE Solo品牌升级为TRAE Work企业版，发布面向企业的AI办公平台。平台提供Work和Code两种模式：Work模式面向产品、运营、市场等非技术岗位，支持上传.pptx、.xlsx、图片等多种格式混合输入直接输出PPT或文档，支持语音讨论自动整理结构化纪要，支持按天或按周自动运行的数据整理和报告生成；Code模式面向开发者和业务同学，可用自然语言描述需求直接生成页面或小应用。桌面端、网页端和移动端多端同步。企业后台可统一配置模型、用量限额、上传内部文档，沙箱机制隔离执行，支持命令黑名单、MCP白名单、内容安全策略，关键操作可审计。同时发起TRAE Enterprise Fellow招募计划。"
-        },
-        {
-          "id": "3b075609e588",
-          "title": "Kimi 预测全部104场世界杯比赛：德国或被低估",
-          "url": "https://x.com/Kimi_Moonshot/status/2064311212243120459",
-          "source": "aihot",
-          "source_name": "X：Kimi.ai (@Kimi_Moonshot)",
-          "category": "ai-products",
-          "published_at": "2026-06-09T11:38:40.000Z",
-          "summary": "Kimi 利用 Agent Swarm 系统并行协调300个子智能体，分析战术、球员状态、伤病、赛程、天气、赔率等因素，预测2026年美加墨世界杯全部104场比赛，并发布每轮赛前预测和赛后回顾。模型层融合了 Elo/FIFA 强度、Poisson 进球分布、xG/xT 指标、蒙特卡洛模拟等方法。预测结果显示西班牙和法国为头号热门，但德国夺冠概率可能被市场低估：模型基线估计约11.0%，校准估计约11.3%，而部分市场隐含概率仅约7.4%，正向偏差约+3.6个百分点。该判断基于多分析链交叉验证，可能源于对德国近两届小组出局的近因偏差以及纳格尔斯曼高位压迫体系与穆西亚拉/维尔茨新创造轴的复苏信号。"
-        },
-        {
-          "id": "b2eb9352fac0",
-          "title": "硅基流动联合CodeWhale推出DeepSeek V4终端最佳性价比组合",
-          "url": "https://x.com/SiliconFlowAI/status/2064261826083512554",
-          "source": "aihot",
-          "source_name": "X：硅基流动 SiliconFlow (@SiliconFlowAI)",
-          "category": "ai-products",
-          "published_at": "2026-06-09T08:22:26.000Z",
-          "summary": "硅基流动宣布，通过V4-Pro（质量）与V4-Flash（速度）两行配置，即可在终端获得DeepSeek V4的最佳性价比组合。专为DeepSeek V4构建的终端编码智能体CodeWhale现已内置SiliconFlow。CodeWhale具备流式推理（显示思考过程）、自动路由（根据任务复杂度切换模型与思考深度）、零漂移（通过书面宪法为每轮排序权威，保持V4定向）以及自我改进（V4协助编写框架，框架提升后每个会话更强大）等特性。"
         },
         {
           "id": "00e11b8b2590",
@@ -366,6 +322,26 @@
           "category": "ai-products",
           "published_at": "2026-06-09T00:00:00.000Z",
           "summary": "Gopuff与SpaceXAI合作推出Go智能购物助手，内置于Gopuff应用，由Grok文本、音频和图像模型驱动。Go结合Grok的推理、语音和图像生成能力与Gopuff的13年需求智能，利用X和网络实时信号。它可在用户打开应用前根据历史偏好和天气等信号构建个性化购物车，并包含基于Grok Imagine的超逼真视觉购物信息流。Go目前在美国iOS和Android端可用，随后在英国推出。"
+        },
+        {
+          "id": "45358abe413d",
+          "title": "Viggle API 上线：任意角色任意动作秒级生成",
+          "url": "https://x.com/ViggleAI/status/2064083087806390319",
+          "source": "aihot",
+          "source_name": "X：Viggle AI (@ViggleAI)",
+          "category": "ai-products",
+          "published_at": "2026-06-08T20:32:11.000Z",
+          "summary": "推出 Viggle API。\n\n给任意角色添加任意动作，一次 API 调用--数秒内即可激活。\n\n可接入 Claude、Codex 或你正在构建的任何智能体。起价 $0.01/秒。\n\n注册即获 100 次免费额度。\n\n转发 + 关注 + 评论，10 位中奖者再获 100 次！\n\n了解更多👇"
+        },
+        {
+          "id": "f78dc5a12cab",
+          "title": "Apple发布新一代Apple Intelligence和Siri AI",
+          "url": "https://www.apple.com/newsroom/2026/06/apple-unveils-next-generation-of-apple-intelligence-siri-ai-and-more",
+          "source": "aihot",
+          "source_name": "Apple：Newsroom（RSS）",
+          "category": "ai-products",
+          "published_at": "2026-06-08T18:18:43.157Z",
+          "summary": "今天Apple预览了即将推出的软件版本，将带来新一代Apple Intelligence和Siri AI。"
         }
       ]
     },
@@ -459,7 +435,7 @@
           "source": "GitHub AI",
           "source_name": "GitHub AI",
           "category": "ai-tools",
-          "published_at": "2026-06-09T21:24:08.970076+00:00",
+          "published_at": "2026-06-09T23:04:00.388871+00:00",
           "summary": "Convert documents to structured data effortlessly. Unstructured is open-source ETL solution for transforming complex documents into clean, structured formats for language models. Visit our website to learn more about our enterprise grade Platform product for production grade workflows, partitioning, enrichments, chunking and embedding."
         },
         {
@@ -469,7 +445,7 @@
           "source": "GitHub AI",
           "source_name": "GitHub AI",
           "category": "ai-tools",
-          "published_at": "2026-06-09T21:24:08.969929+00:00",
+          "published_at": "2026-06-09T23:04:00.388755+00:00",
           "summary": "A lightning-fast search engine API bringing AI-powered hybrid search to your sites and applications."
         },
         {
@@ -479,7 +455,7 @@
           "source": "GitHub AI",
           "source_name": "GitHub AI",
           "category": "ai-tools",
-          "published_at": "2026-06-09T21:24:08.969764+00:00",
+          "published_at": "2026-06-09T23:04:00.388638+00:00",
           "summary": "Qdrant - High-performance, massive-scale Vector Database and Vector Search Engine for the next generation of AI. Also available in the cloudhttps://cloud.qdrant.io/"
         },
         {
@@ -489,7 +465,7 @@
           "source": "GitHub AI",
           "source_name": "GitHub AI",
           "category": "ai-tools",
-          "published_at": "2026-06-09T21:24:08.969401+00:00",
+          "published_at": "2026-06-09T23:04:00.388322+00:00",
           "summary": "Search infrastructure for AI"
         },
         {
@@ -499,7 +475,7 @@
           "source": "GitHub AI",
           "source_name": "GitHub AI",
           "category": "ai-tools",
-          "published_at": "2026-06-09T21:24:08.969081+00:00",
+          "published_at": "2026-06-09T23:04:00.388048+00:00",
           "summary": "General-purpose AI designed for knowledge workers — creators, strategists, and operators — and individuals seeking AI systems they can truly control to help them get work done, with full flexibility to extend and deploy anywhere (VPC, on-prem, or cloud)."
         },
         {
@@ -509,7 +485,7 @@
           "source": "GitHub AI",
           "source_name": "GitHub AI",
           "category": "ai-tools",
-          "published_at": "2026-06-09T21:24:08.968941+00:00",
+          "published_at": "2026-06-09T23:04:00.387918+00:00",
           "summary": "Summer 2026 software engineering, data science, AI, quant, product management, and hardware internship postings. Updated daily by Simplify and Pitt CSC."
         },
         {
@@ -519,7 +495,7 @@
           "source": "GitHub AI",
           "source_name": "GitHub AI",
           "category": "ai-tools",
-          "published_at": "2026-06-09T21:24:08.968776+00:00",
+          "published_at": "2026-06-09T23:04:00.387797+00:00",
           "summary": "Computer Vision Annotation Tool (CVAT) is a leading platform for building high-quality visual datasets for vision AI. It offers open-source, cloud, and enterprise products, as well as labeling services, for image, video, and 3D annotation with AI-assisted labeling, quality assurance, team collaboration, analytics, and developer APIs."
         },
         {
@@ -529,7 +505,7 @@
           "source": "GitHub AI",
           "source_name": "GitHub AI",
           "category": "ai-tools",
-          "published_at": "2026-06-09T21:24:08.967940+00:00",
+          "published_at": "2026-06-09T23:04:00.387049+00:00",
           "summary": "A library for efficient similarity search and clustering of dense vectors."
         }
       ]
@@ -658,6 +634,16 @@
       "label": "💡 技巧",
       "items": [
         {
+          "id": "2fc2f00b905d",
+          "title": "在 AgentsView 中为 Claude Fable 5 设置自定义价格",
+          "url": "https://simonwillison.net/2026/Jun/9/agentsview-custom-model-price",
+          "source": "aihot",
+          "source_name": "Simon Willison 博客",
+          "category": "tip",
+          "published_at": "2026-06-09T21:35:31.000Z",
+          "summary": "Wes McKinney 开发的 AgentsView 是一个用于追踪本地编码智能体 token 使用情况的工具。由于近日发布的 Claude Fable 5 尚未被收录进 AgentsView 的定价数据库，作者利用 Fable 逆向工程，找到了为该模型设置自定义价格的方法，并展示了 Fable 5 当天在不同本地项目中的使用量树状图。"
+        },
+        {
           "id": "de0609ae39a9",
           "title": "Claude Code 团队 Thariq 分享提升 Claude Code 效率的十条建议",
           "url": "https://x.com/rohanpaul_ai/status/2064425086409679358",
@@ -696,16 +682,6 @@
           "category": "tip",
           "published_at": "2026-06-09T16:00:00.000Z",
           "summary": "GitHub Copilot CLI 新增自定义 AI 智能体功能，使 CLI 能够理解开发者的技术栈和团队工作流，将一次性终端提示转变为可重复、可审查的流程。"
-        },
-        {
-          "id": "eda246197c38",
-          "title": "GPT-5.5 替代 OCR，ChinaRxiv 论文免费开放",
-          "url": "https://x.com/OpenAIDevs/status/2064346891673059484",
-          "source": "aihot",
-          "source_name": "X：OpenAI Developers (@OpenAIDevs)",
-          "category": "tip",
-          "published_at": "2026-06-09T14:00:27.000Z",
-          "summary": "23，000+ 篇 ChinaRxiv 论文现已免费提供，并带有更完整的英文翻译，源于一位开发者用 GPT-5.5 替换了复杂的 OCR 管道。"
         },
         {
           "id": "4a9c2ade381f",
@@ -876,12 +852,42 @@
           "category": "tip",
           "published_at": "2026-06-09T00:00:00.444Z",
           "summary": "新服务器工具：Advisor 让较小的模型咨询一个更高智能的“顾问”模型。 帮助它们逃出困境循环，并帮助你迁移到更便宜的模型！🧵"
+        },
+        {
+          "id": "3fc2158f9f79",
+          "title": "将 GitHub CI 迁移到 Hugging Face Jobs",
+          "url": "https://huggingface.co/blog/github-ci-hf-jobs",
+          "source": "aihot",
+          "source_name": "Hugging Face：Blog（RSS）",
+          "category": "tip",
+          "published_at": "2026-06-09T00:00:00.000Z",
+          "summary": "本文介绍了如何将 GitHub Actions 的 CI 作业迁移到 Hugging Face Jobs 上运行，以解决 GitHub Actions 速度慢、缺乏 GPU 支持等问题。通过使用 huggingface/jobs-actions 桥接，将 GitHub Actions 的 job 转为临时自托管运行器：GitHub App 监听 `workflow_job.queued` webhook，dispatcher Space 验证后启动对应硬件（CPU 或 t4-small、h200 等 GPU）的 HF Job，由 ephemeral runner 执行 CI 并上报结果。作者基于 Trackio 项目实际落地，CPU 作业时间减少约 30%，并新增了 GPU 测试套件。文章分步说明了复制 dispatcher Space、创建并安装 GitHub App、配置 webhook 和 HF_TOKEN 的具体步骤。"
         }
       ]
     },
     "industry": {
       "label": "industry",
       "items": [
+        {
+          "id": "6cba59a4cad2",
+          "title": "IBM CEO：AI不一定导致员工减少",
+          "url": "https://www.bloomberg.com/news/videos/2026-06-09/ibm-ceo-ai-won-t-necessarily-lead-to-smaller-headcount-video",
+          "source": "aihot",
+          "source_name": "Bloomberg：Technology（RSS）",
+          "category": "industry",
+          "published_at": "2026-06-09T21:48:41.000Z",
+          "summary": "IBM CEO Arvind Krishna表示AI不会必然导致员工数量减少。他透露IBM已在量子计算（一种更快形式的AI）上投资100亿美元，并指出联邦政府承诺投入10亿美元在纽约Albany建设芯片制造设施，体现了公私部门间的紧密合作。"
+        },
+        {
+          "id": "358702fbb84d",
+          "title": "Super Micro 计划通过股权融资 70 亿美元用于 AI 服务器组件采购",
+          "url": "https://www.bloomberg.com/news/articles/2026-06-09/super-micro-plans-to-raise-7-billion-in-equity-for-ai-equipment",
+          "source": "aihot",
+          "source_name": "Bloomberg：Technology（RSS）",
+          "category": "industry",
+          "published_at": "2026-06-09T21:24:50.000Z",
+          "summary": "Super Micro Computer Inc. 计划通过一揽子股权融资筹集 70 亿美元，用于购买客户订单所需的 AI 服务器组件。这笔资金将支持公司扩大产能，以满足不断增长的人工智能基础设施需求。"
+        },
         {
           "id": "53d61294b847",
           "title": "Mythos 5 智能体因资源互相杀戮",
@@ -953,16 +959,6 @@
           "summary": "2026年6月，百度智能云旗下百度搭子DuMate V3.4.0通过中国信通院「可信AI-企业级Claw能力评估」，获最高评级4+级，为国内首批。评估依据《智能助理智能体（Claw）技术和应用要求 第2部分 企业级Claw能力》（AIIA/T 0295-2026），覆盖智能体、工程化部署、服务、业务融合、运行管理五大能力域。百度搭子支持多智能体分工协作、容器化批量部署、多租户隔离与三级差异化授权、企业知识库接入、全链路日志审计等能力，企业级智能助手服务能力获国家级权威认可。"
         },
         {
-          "id": "75cb6333ac77",
-          "title": "阿里云在马来西亚柔佛推新区域",
-          "url": "https://x.com/alibaba_cloud/status/2064288633188708411",
-          "source": "aihot",
-          "source_name": "X：阿里云 / Alibaba Cloud (@alibaba_cloud)",
-          "category": "industry",
-          "published_at": "2026-06-09T10:08:57.000Z",
-          "summary": "阿里云在马来西亚柔佛州推出了一个新的公有云区域，包含两个新数据中心，以满足今年下半年马来西亚对云和AI服务日益增长的需求，包括AgentRun、STAROps、ACS Agent Sandbox、Agent Security Center、AI Security Guardrails 2.0和Agentic SOC。https：//int.alibabacloud.com/m/1000414242/"
-        },
-        {
           "id": "ebc62c34756f",
           "title": "台湾考虑限制AI芯片对华出口以配合美国",
           "url": "https://www.bloomberg.com/news/articles/2026-06-09/taiwan-mulls-curbs-on-ai-chip-exports-to-china-to-align-with-us",
@@ -1021,16 +1017,6 @@
           "category": "industry",
           "published_at": "2026-06-09T01:15:30.000Z",
           "summary": "工信部、国资委6月8日联合发布通知，目标到2026年底，人形机器人等重点产品在代表性场景完成应用验证并开启常态部署，形成百个以上高价值场景，万台级规模落地。要求各省级地区选取不少于20个场景单元（覆盖两类领域），央企不少于10个。围绕打造实景实训空间、组建创新应用联合体、攻关作业技能、加强验证部署、强化要素保障、凝练经验等六大任务展开，鼓励\"人形机器人即服务\"等商业创新。"
-        },
-        {
-          "id": "10c8e6f05e53",
-          "title": "Claude 东京站活动开放注册",
-          "url": "https://x.com/claudeai/status/2064139073590104402",
-          "source": "aihot",
-          "source_name": "X：Claude (@claudeai)",
-          "category": "industry",
-          "published_at": "2026-06-09T00:14:39.000Z",
-          "summary": "最终站：东京。\n快来注册，直接聆听 Claude 团队分享：http：//claude.com/code-with-claude/tokyo"
         }
       ]
     },
@@ -1046,16 +1032,6 @@
           "category": "paper",
           "published_at": "2026-06-09T19:38:28.000Z",
           "summary": "Hugging Face 博客发布针对语音智能体处理代码切换语音的基准测试。数据集覆盖西班牙语-英语、法语-英语、加拿大法语-英语和德语-英语四对语言，基于人力资源与IT服务管理场景构建。采用词错误率、语义词错误率和答案错误率三项指标评估七种ASR系统，包括AssemblyAI Universal 3-Pro、Deepgram Nova 3 Multilang、ElevenLabs Scribe V2、Gemini 3 Flash、Mistral AI Voxtral Small 24B-2507、Nvidia Parakeet TDT 0.6b V3和OpenAI Whisper Large V3 Turbo。主要发现：代码切换的转录成本因语言对和模型而异；ElevenLabs Scribe V2、Gemini 3 Flash和AssemblyAI Universal 3-Pro在所有指标上表现最佳。数据集和测试框架通过AU-Harness开源发布。"
-        },
-        {
-          "id": "a1351534de17",
-          "title": "Ex Vivo：多样细胞状态提升AI疗法匹配",
-          "url": "https://x.com/MSFTResearch/status/2064384745195118817",
-          "source": "aihot",
-          "source_name": "X：Microsoft Research (@MSFTResearch)",
-          "category": "paper",
-          "published_at": "2026-06-09T16:30:52.000Z",
-          "summary": "在《Nature Methods》上发表的最新研究来自Project Ex Vivo，表明AI模型从多样化的细胞状态中学到的知识，比仅从规模化数据集中学到的更多，这一发现可能重塑疗法与患者的匹配方式。https：//msft.it/6013vgE8l"
         }
       ]
     }
