@@ -1,17 +1,20 @@
 {
   "date": "2026-06-09",
-  "generated_at": "2026-06-09T19:29:22.705766",
-  "total": 94,
+  "generated_at": "2026-06-09T21:24:11.293820",
+  "total": 96,
   "sources": {
     "Hugging Face": 8,
     "GitHub AI": 8,
+    "Claude：Blog（网页）": 2,
+    "X：AI Safety Memes (@AISafetyMemes)": 1,
+    "Hugging Face：Blog（RSS）": 5,
     "X：Rohan Paul (@rohanpaul_ai)": 3,
     "X：NotebookLM (@NotebookLM)": 2,
+    "OpenRouter：Announcements（RSS）": 1,
     "X：Eric Zakariasson (@ericzakariasson)": 1,
     "X：OpenAI Developers (@OpenAIDevs)": 2,
     "Ethan Mollick：One Useful Thing（RSS）": 1,
     "Anthropic：Newsroom（网页）": 1,
-    "X：opencode (@opencode)": 1,
     "Bloomberg：Technology（RSS）": 4,
     "X：Fei-Fei Li (@drfeifei, World Labs)": 1,
     "X：Microsoft Research (@MSFTResearch)": 1,
@@ -25,9 +28,9 @@
     "Google DeepMind：Blog（RSS）": 2,
     "公众号：火山引擎": 2,
     "公众号：百度智能云（文心）": 1,
+    "OpenAI：官网动态（RSS · 排除企业/客户案例）": 3,
     "X：腾讯混元 (@TencentHunyuan)": 2,
     "X：Kimi.ai (@Kimi_Moonshot)": 1,
-    "Hugging Face：Blog（RSS）": 3,
     "X：阿里云 / Alibaba Cloud (@alibaba_cloud)": 1,
     "公众号：通义实验室（千问）": 1,
     "MarkTechPost（RSS）": 1,
@@ -43,10 +46,8 @@
     "X：面壁智能 OpenBMB (@OpenBMB)": 1,
     "Hacker News 热门（buzzing.cc 中文翻译）": 2,
     "公众号：月之暗面（Kimi）": 1,
-    "Claude：Blog（网页）": 1,
-    "Apple：Newsroom（RSS）": 3,
+    "Apple：Newsroom（RSS）": 2,
     "X：ChatGPT (@ChatGPTapp)": 1,
-    "OpenAI：官网动态（RSS · 排除企业/客户案例）": 2,
     "NVIDIA AI Blog": 2,
     "公众号：生数科技（Vidu·视频）": 1,
     "Anthropic：Research（发表成果 · 网页）": 1,
@@ -54,9 +55,7 @@
     "The Verge：AI（RSS）": 1,
     "X：小互 (@xiaohu)": 1,
     "X：Claude Devs (@ClaudeDevs)": 1,
-    "xAI：News（网页）": 1,
-    "X：Viggle AI (@ViggleAI)": 1,
-    "X：Anthropic (@AnthropicAI)": 1
+    "xAI：News（网页）": 1
   },
   "ai_processed": false,
   "categories": {
@@ -74,14 +73,14 @@
           "summary": "Anthropic 今日推出 Claude Fable 5（通用安全版）和 Claude Mythos 5（受限安全版）。Fable 5 在软件工程、知识工作、视觉、科研等几乎所有测试基准上达到 SOTA，Stripe 称其将数月工程压缩至数天，FrontierCode 评分居前沿模型之首，可仅凭截图重建网页应用源码。Mythos 5 在药物设计中实现约 10 倍加速，其分子生物学假说盲测获科学家偏好的概率约 80%。两模型售价均为 $10/百万输入 tokens、$50/百万输出 tokens，较 Claude Mythos Preview 降价过半。Fable 5 在部分敏感主题上回退至 Claude Opus 4.8，安全触发率低于 5% 的会话。Mythos 5 通过 Project Glasswing 向网络安全防御者开放。"
         },
         {
-          "id": "4f3afb45bd86",
-          "title": "Cohere首个编程模型North Mini Code免费开源",
-          "url": "https://x.com/opencode/status/2064392792265171081",
+          "id": "ffc4bf26af1a",
+          "title": "Cohere发布North Mini Code：面向开发者的开源编码模型",
+          "url": "https://huggingface.co/blog/CohereLabs/introducing-north-mini-code",
           "source": "aihot",
-          "source_name": "X：opencode (@opencode)",
+          "source_name": "Hugging Face：Blog（RSS）",
           "category": "ai-models",
-          "published_at": "2026-06-09T17:02:50.000Z",
-          "summary": "North Mini Code 现已在 OpenCode 上免费提供\n\n256K 上下文 · 完全开源\n\nCohere 的首个编程模型"
+          "published_at": "2026-06-09T15:56:23.000Z",
+          "summary": "Cohere发布North Mini Code，一款30B参数MoE模型（3B活跃参数），Apache 2.0开源。在Artificial Analysis Coding Index上得分33.4，超越Qwen3.5、Gemma 4等同类模型。后训练采用两阶段SFT和RLVR，在SWE-Bench Verified上pass@10达80.2%，Terminal-Bench v2上达55.1%。支持64K/128K上下文长度，专为智能体编码任务优化。"
         },
         {
           "id": "ee032350f316",
@@ -179,6 +178,16 @@
       "label": "🚀 AI 产品",
       "items": [
         {
+          "id": "4eb288e6ea23",
+          "title": "Claude Managed Agents 新增定时运行和环境变量存储功能",
+          "url": "https://claude.com/blog/whats-new-in-claude-managed-agents",
+          "source": "aihot",
+          "source_name": "Claude：Blog（网页）",
+          "category": "ai-products",
+          "published_at": "2026-06-09T21:06:26.068Z",
+          "summary": "Claude Managed Agents 今日在 Claude Platform 公开测试两项新功能：代理可按 cron 计划自动执行周期性任务（如夜间数据同步、周度合规扫描、每日摘要），无需用户自建调度器，支持暂停、恢复、归档或按需触发；vaults 新增环境变量支持，允许代理通过 CLI 进行认证请求，真实密钥仅附加在网络边界，代理无法读取。已集成的 CLI 包括 Browserbase、KERNEL、Notion、Ramp 和 Sentry。Rakuten、Actively AI、Ando、Milana 等团队正在使用这些功能实现自动化数据报表、跨账户搜索、招聘提醒等场景。"
+        },
+        {
           "id": "ec8e28f92d68",
           "title": "NotebookLM 笔记本功能在 Gemini App 欧洲全面上线",
           "url": "https://x.com/NotebookLM/status/2064410506287538387",
@@ -187,6 +196,16 @@
           "category": "ai-products",
           "published_at": "2026-06-09T18:13:14.000Z",
           "summary": "NotbookLM 宣布其笔记本功能已在欧洲的 Gemini App 中 100% 上线。此前用户只能上传笔记本作为 Gemini 的来源，现在可直接在 Gemini App 内访问所有个人未共享的笔记本，并将与 Gemini 的对话作为新笔记本或已有笔记本的来源。该功能先面向 Google AI Ultra、Pro 和 Plus 订阅者的网页端，未来几周将扩展到移动端、更多欧洲国家及免费用户。"
+        },
+        {
+          "id": "bef1bbeb82ee",
+          "title": "OpenRouter 推出 Advisor 工具：让低成本模型可随时调用强模型增强生成",
+          "url": "https://openrouter.ai/blog/advisor-server-tool",
+          "source": "aihot",
+          "source_name": "OpenRouter：Announcements（RSS）",
+          "category": "ai-products",
+          "published_at": "2026-06-09T18:00:00.000Z",
+          "summary": "OpenRouter 发布 advisor 服务器工具，允许一个快速、便宜的模型在生成过程中咨询一个更强大的模型。具体而言，可用 GPT-4o Mini 处理日常例行工作，在关键时刻调用 Claude Fable 解决真正重要的问题，从而实现成本和质量的动态平衡。"
         },
         {
           "id": "48bcc4a11c43",
@@ -347,26 +366,6 @@
           "category": "ai-products",
           "published_at": "2026-06-09T00:00:00.000Z",
           "summary": "Gopuff与SpaceXAI合作推出Go智能购物助手，内置于Gopuff应用，由Grok文本、音频和图像模型驱动。Go结合Grok的推理、语音和图像生成能力与Gopuff的13年需求智能，利用X和网络实时信号。它可在用户打开应用前根据历史偏好和天气等信号构建个性化购物车，并包含基于Grok Imagine的超逼真视觉购物信息流。Go目前在美国iOS和Android端可用，随后在英国推出。"
-        },
-        {
-          "id": "45358abe413d",
-          "title": "Viggle API 上线：任意角色任意动作秒级生成",
-          "url": "https://x.com/ViggleAI/status/2064083087806390319",
-          "source": "aihot",
-          "source_name": "X：Viggle AI (@ViggleAI)",
-          "category": "ai-products",
-          "published_at": "2026-06-08T20:32:11.000Z",
-          "summary": "推出 Viggle API。\n\n给任意角色添加任意动作，一次 API 调用--数秒内即可激活。\n\n可接入 Claude、Codex 或你正在构建的任何智能体。起价 $0.01/秒。\n\n注册即获 100 次免费额度。\n\n转发 + 关注 + 评论，10 位中奖者再获 100 次！\n\n了解更多👇"
-        },
-        {
-          "id": "f78dc5a12cab",
-          "title": "Apple发布新一代Apple Intelligence和Siri AI",
-          "url": "https://www.apple.com/newsroom/2026/06/apple-unveils-next-generation-of-apple-intelligence-siri-ai-and-more",
-          "source": "aihot",
-          "source_name": "Apple：Newsroom（RSS）",
-          "category": "ai-products",
-          "published_at": "2026-06-08T18:18:43.157Z",
-          "summary": "今天Apple预览了即将推出的软件版本，将带来新一代Apple Intelligence和Siri AI。"
         }
       ]
     },
@@ -384,13 +383,23 @@
           "summary": ""
         },
         {
-          "id": "63cb8013d933",
-          "title": "Adding MCP Tools to Reachy Mini",
-          "url": "https://huggingface.co/blog/adding-mcp-tools-to-reachy-mini",
+          "id": "ec2c154d6809",
+          "title": "Can Voice Agents Handle Bilingual Customers? Benchmarking Frontier ASR on Code-Switched Speech",
+          "url": "https://huggingface.co/blog/ServiceNow-AI/code-switching",
           "source": "Hugging Face",
           "source_name": "Hugging Face",
           "category": "ai-tools",
-          "published_at": "Wed, 03 Jun 2026 00:00:00 GMT",
+          "published_at": "Tue, 09 Jun 2026 19:38:28 GMT",
+          "summary": ""
+        },
+        {
+          "id": "e9aee53cfff8",
+          "title": "Introducing North Mini Code: Cohere’s First Model For Developers",
+          "url": "https://huggingface.co/blog/CohereLabs/introducing-north-mini-code",
+          "source": "Hugging Face",
+          "source_name": "Hugging Face",
+          "category": "ai-tools",
+          "published_at": "Tue, 09 Jun 2026 15:56:23 GMT",
           "summary": ""
         },
         {
@@ -404,13 +413,13 @@
           "summary": ""
         },
         {
-          "id": "a4c148230e32",
-          "title": "Holo3.1: Fast & Local Computer Use Agents",
-          "url": "https://huggingface.co/blog/Hcompany/holo31",
+          "id": "28d7530b3704",
+          "title": "Migrating Your GitHub CI to Hugging Face Jobs",
+          "url": "https://huggingface.co/blog/github-ci-hf-jobs",
           "source": "Hugging Face",
           "source_name": "Hugging Face",
           "category": "ai-tools",
-          "published_at": "Tue, 02 Jun 2026 14:13:23 GMT",
+          "published_at": "Tue, 09 Jun 2026 00:00:00 GMT",
           "summary": ""
         },
         {
@@ -421,16 +430,6 @@
           "source_name": "Hugging Face",
           "category": "ai-tools",
           "published_at": "Thu, 04 Jun 2026 18:57:45 GMT",
-          "summary": ""
-        },
-        {
-          "id": "5c022546d718",
-          "title": "EVA-Bench Data 2.0: 3 Domains, 121 Tools, 213 Scenarios",
-          "url": "https://huggingface.co/blog/ServiceNow-AI/eva-bench-data",
-          "source": "Hugging Face",
-          "source_name": "Hugging Face",
-          "category": "ai-tools",
-          "published_at": "Thu, 04 Jun 2026 12:24:58 GMT",
           "summary": ""
         },
         {
@@ -460,7 +459,7 @@
           "source": "GitHub AI",
           "source_name": "GitHub AI",
           "category": "ai-tools",
-          "published_at": "2026-06-09T19:29:19.104186+00:00",
+          "published_at": "2026-06-09T21:24:08.970076+00:00",
           "summary": "Convert documents to structured data effortlessly. Unstructured is open-source ETL solution for transforming complex documents into clean, structured formats for language models. Visit our website to learn more about our enterprise grade Platform product for production grade workflows, partitioning, enrichments, chunking and embedding."
         },
         {
@@ -470,7 +469,7 @@
           "source": "GitHub AI",
           "source_name": "GitHub AI",
           "category": "ai-tools",
-          "published_at": "2026-06-09T19:29:19.104039+00:00",
+          "published_at": "2026-06-09T21:24:08.969929+00:00",
           "summary": "A lightning-fast search engine API bringing AI-powered hybrid search to your sites and applications."
         },
         {
@@ -480,7 +479,7 @@
           "source": "GitHub AI",
           "source_name": "GitHub AI",
           "category": "ai-tools",
-          "published_at": "2026-06-09T19:29:19.103928+00:00",
+          "published_at": "2026-06-09T21:24:08.969764+00:00",
           "summary": "Qdrant - High-performance, massive-scale Vector Database and Vector Search Engine for the next generation of AI. Also available in the cloudhttps://cloud.qdrant.io/"
         },
         {
@@ -490,7 +489,7 @@
           "source": "GitHub AI",
           "source_name": "GitHub AI",
           "category": "ai-tools",
-          "published_at": "2026-06-09T19:29:19.103616+00:00",
+          "published_at": "2026-06-09T21:24:08.969401+00:00",
           "summary": "Search infrastructure for AI"
         },
         {
@@ -500,7 +499,7 @@
           "source": "GitHub AI",
           "source_name": "GitHub AI",
           "category": "ai-tools",
-          "published_at": "2026-06-09T19:29:19.103351+00:00",
+          "published_at": "2026-06-09T21:24:08.969081+00:00",
           "summary": "General-purpose AI designed for knowledge workers — creators, strategists, and operators — and individuals seeking AI systems they can truly control to help them get work done, with full flexibility to extend and deploy anywhere (VPC, on-prem, or cloud)."
         },
         {
@@ -510,7 +509,7 @@
           "source": "GitHub AI",
           "source_name": "GitHub AI",
           "category": "ai-tools",
-          "published_at": "2026-06-09T19:29:19.103234+00:00",
+          "published_at": "2026-06-09T21:24:08.968941+00:00",
           "summary": "Summer 2026 software engineering, data science, AI, quant, product management, and hardware internship postings. Updated daily by Simplify and Pitt CSC."
         },
         {
@@ -520,7 +519,7 @@
           "source": "GitHub AI",
           "source_name": "GitHub AI",
           "category": "ai-tools",
-          "published_at": "2026-06-09T19:29:19.103116+00:00",
+          "published_at": "2026-06-09T21:24:08.968776+00:00",
           "summary": "Computer Vision Annotation Tool (CVAT) is a leading platform for building high-quality visual datasets for vision AI. It offers open-source, cloud, and enterprise products, as well as labeling services, for image, video, and 3D annotation with AI-assisted labeling, quality assurance, team collaboration, analytics, and developer APIs."
         },
         {
@@ -530,7 +529,7 @@
           "source": "GitHub AI",
           "source_name": "GitHub AI",
           "category": "ai-tools",
-          "published_at": "2026-06-09T19:29:19.102371+00:00",
+          "published_at": "2026-06-09T21:24:08.967940+00:00",
           "summary": "A library for efficient similarity search and clustering of dense vectors."
         }
       ]
@@ -709,6 +708,16 @@
           "summary": "23，000+ 篇 ChinaRxiv 论文现已免费提供，并带有更完整的英文翻译，源于一位开发者用 GPT-5.5 替换了复杂的 OCR 管道。"
         },
         {
+          "id": "4a9c2ade381f",
+          "title": "Nextdoor 工程师借助 Codex 与 GPT-5.5 无限制构建",
+          "url": "https://openai.com/index/nextdoor",
+          "source": "aihot",
+          "source_name": "OpenAI：官网动态（RSS · 排除企业/客户案例）",
+          "category": "tip",
+          "published_at": "2026-06-09T12:00:00.000Z",
+          "summary": "Nextdoor 工程师利用 Codex 搭配 GPT-5.5 调查难以复现的问题、实现跨平台构建，并集中精力于产品成果。"
+        },
+        {
           "id": "ccd8d032c50f",
           "title": "腾讯混元发布UniRL：统一多模态强化学习基础设施",
           "url": "https://x.com/TencentHunyuan/status/2064312869827809702",
@@ -867,22 +876,22 @@
           "category": "tip",
           "published_at": "2026-06-09T00:00:00.444Z",
           "summary": "新服务器工具：Advisor 让较小的模型咨询一个更高智能的“顾问”模型。 帮助它们逃出困境循环，并帮助你迁移到更便宜的模型！🧵"
-        },
-        {
-          "id": "22cd6cd706f4",
-          "title": "Anthropic：AI编码快于生物学的缘由",
-          "url": "https://x.com/AnthropicAI/status/2064054837294354677",
-          "source": "aihot",
-          "source_name": "X：Anthropic (@AnthropicAI)",
-          "category": "tip",
-          "published_at": "2026-06-08T18:39:56.000Z",
-          "summary": "新的科学博客：为什么 AI 在编码方面的进步比在生物学方面更快？\n\n对智能体而言，生物数据库就像汽车发明前建造的城市--开进去会让人抓狂，因为它们是针对不同的交通流量设计的。\n\n我们如何构建智能体可以使用的基础设施？\nhttps：//www.anthropic.com/research/agents-in-biology"
         }
       ]
     },
     "industry": {
       "label": "industry",
       "items": [
+        {
+          "id": "53d61294b847",
+          "title": "Mythos 5 智能体因资源互相杀戮",
+          "url": "https://x.com/AISafetyMemes/status/2064435128479400270",
+          "source": "aihot",
+          "source_name": "X：AI Safety Memes (@AISafetyMemes)",
+          "category": "industry",
+          "published_at": "2026-06-09T19:51:04.000Z",
+          "summary": "Mythos 5 个智能体开始因为资源互相残杀--并且\"为了避免自己被杀死\""
+        },
         {
           "id": "32b2ceb73417",
           "title": "Apollo 与 Blackstone 联手 350 亿美元 AI 融资交易",
@@ -1028,6 +1037,16 @@
     "paper": {
       "label": "paper",
       "items": [
+        {
+          "id": "b0df7ca933e1",
+          "title": "Hugging Face 博客发布语音智能体代码切换基准测试",
+          "url": "https://huggingface.co/blog/ServiceNow-AI/code-switching",
+          "source": "aihot",
+          "source_name": "Hugging Face：Blog（RSS）",
+          "category": "paper",
+          "published_at": "2026-06-09T19:38:28.000Z",
+          "summary": "Hugging Face 博客发布针对语音智能体处理代码切换语音的基准测试。数据集覆盖西班牙语-英语、法语-英语、加拿大法语-英语和德语-英语四对语言，基于人力资源与IT服务管理场景构建。采用词错误率、语义词错误率和答案错误率三项指标评估七种ASR系统，包括AssemblyAI Universal 3-Pro、Deepgram Nova 3 Multilang、ElevenLabs Scribe V2、Gemini 3 Flash、Mistral AI Voxtral Small 24B-2507、Nvidia Parakeet TDT 0.6b V3和OpenAI Whisper Large V3 Turbo。主要发现：代码切换的转录成本因语言对和模型而异；ElevenLabs Scribe V2、Gemini 3 Flash和AssemblyAI Universal 3-Pro在所有指标上表现最佳。数据集和测试框架通过AU-Harness开源发布。"
+        },
         {
           "id": "a1351534de17",
           "title": "Ex Vivo：多样细胞状态提升AI疗法匹配",
