@@ -1,18 +1,28 @@
 {
   "date": "2026-06-09",
-  "generated_at": "2026-06-09T14:06:32.778652",
-  "total": 77,
+  "generated_at": "2026-06-09T16:46:39.981739",
+  "total": 86,
   "sources": {
     "Hugging Face": 8,
     "GitHub AI": 8,
+    "X：Microsoft Research (@MSFTResearch)": 1,
+    "X：OpenRouter (@OpenRouter)": 2,
+    "GitHub Blog": 1,
+    "The Decoder：AI News（RSS）": 1,
+    "Bloomberg：Technology（RSS）": 3,
+    "X：Google DeepMind (@GoogleDeepMind)": 1,
+    "X：Kim (@kimmonismus)": 2,
+    "X：Luma AI (@LumaLabsAI)": 1,
+    "X：Runway (@runwayml)": 2,
+    "Google DeepMind：Blog（RSS）": 2,
+    "X：OpenAI Developers (@OpenAIDevs)": 1,
     "公众号：火山引擎": 2,
     "公众号：百度智能云（文心）": 1,
     "X：腾讯混元 (@TencentHunyuan)": 2,
     "X：Kimi.ai (@Kimi_Moonshot)": 1,
     "公众号：可灵AI（快手·视频）": 1,
-    "Hugging Face：Blog（RSS）": 4,
+    "Hugging Face：Blog（RSS）": 3,
     "X：阿里云 / Alibaba Cloud (@alibaba_cloud)": 1,
-    "Bloomberg：Technology（RSS）": 2,
     "公众号：通义实验室（千问）": 1,
     "MarkTechPost（RSS）": 1,
     "X：硅基流动 SiliconFlow (@SiliconFlowAI)": 1,
@@ -26,10 +36,9 @@
     "X：小米 MiMo (@XiaomiMiMo)": 1,
     "Apple Machine Learning Research（RSS）": 1,
     "X：面壁智能 OpenBMB (@OpenBMB)": 1,
-    "X：Runway (@runwayml)": 1,
     "Hacker News 热门（buzzing.cc 中文翻译）": 2,
     "公众号：月之暗面（Kimi）": 1,
-    "Claude：Blog（网页）": 2,
+    "Claude：Blog（网页）": 1,
     "Apple：Newsroom（RSS）": 3,
     "X：NotebookLM (@NotebookLM)": 1,
     "X：ChatGPT (@ChatGPTapp)": 1,
@@ -40,19 +49,56 @@
     "X：Perplexity (@perplexity_ai)": 1,
     "The Verge：AI（RSS）": 1,
     "X：小互 (@xiaohu)": 1,
-    "X：Kim (@kimmonismus)": 1,
     "X：Claude Devs (@ClaudeDevs)": 1,
-    "X：OpenRouter (@OpenRouter)": 1,
     "X：Viggle AI (@ViggleAI)": 1,
     "X：Anthropic (@AnthropicAI)": 1,
-    "Dwarkesh Patel：Podcast & Blog（RSS）": 1,
-    "Google DeepMind：Blog（RSS）": 1
+    "Dwarkesh Patel：Podcast & Blog（RSS）": 1
   },
   "ai_processed": false,
   "categories": {
     "ai-models": {
       "label": "🧠 AI 模型",
       "items": [
+        {
+          "id": "ee032350f316",
+          "title": "Gemini 3.5 Live Translate 发布",
+          "url": "https://x.com/GoogleDeepMind/status/2064366504745828689",
+          "source": "aihot",
+          "source_name": "X：Google DeepMind (@GoogleDeepMind)",
+          "category": "ai-models",
+          "published_at": "2026-06-09T15:18:23.000Z",
+          "summary": "说 hello， hola， 你好--欢迎 Gemini 3.5 Live Translate：我们最新的音频模型，专为快速跨语言交流而构建。🌐"
+        },
+        {
+          "id": "339edc24e2c8",
+          "title": "Claude Mythos 即将发布，Fable 精简版同日登场",
+          "url": "https://x.com/kimmonismus/status/2064362469632405807",
+          "source": "aihot",
+          "source_name": "X：Kim (@kimmonismus)",
+          "category": "ai-models",
+          "published_at": "2026-06-09T15:02:21.000Z",
+          "summary": "确认，Claude Mythos 将在接下来几小时内揭晓。\n\n【引用 @steph_palazzolo】：\n独家：一个名为 Claude Fable 的精简版 Mythos 今天推出。它价格昂贵--是 Opus 的两倍--但或许不像人们从最初 Mythos 定价（Opus 的 5 倍）所想的那样昂贵。\n\n更多内容及 Apple WWDC 见 AI Agenda：\n\nhttps：//www.theinformation.com/newsletters/ai-agenda/anthropics-mythos-coming-today-apple-pursues-modest-goals-siri-revamp"
+        },
+        {
+          "id": "9627904bdb63",
+          "title": "Luma AI Ray3.2：方向进，电影出",
+          "url": "https://x.com/LumaLabsAI/status/2064358414143143954",
+          "source": "aihot",
+          "source_name": "X：Luma AI (@LumaLabsAI)",
+          "category": "ai-models",
+          "published_at": "2026-06-09T14:46:14.000Z",
+          "summary": "方向进入，电影出来。\n\nRay3.2 来了 → http：//lumalabs.ai/ray3-2"
+        },
+        {
+          "id": "7dabff93691c",
+          "title": "Google DeepMind 发布 Gemma 4 12B：统一的无编码器多模态模型",
+          "url": "https://deepmind.google/blog/introducing-gemma-4-12b-a-unified-encoder-free-multimodal-model",
+          "source": "aihot",
+          "source_name": "Google DeepMind：Blog（RSS）",
+          "category": "ai-models",
+          "published_at": "2026-06-09T14:10:19.000Z",
+          "summary": "Gemma 4 12B 是 Google DeepMind 最新推出的中等规模多模态模型，采用无编码器统一架构，原生支持音频输入。其基准测试性能接近 26B MoE 模型，但内存占用不到一半，仅需 16GB 显存或统一内存即可在消费级笔记本上本地运行。模型内置多 token 预测（MTP）drafter 以降低延迟，基于 Apache 2.0 开源许可发布，已累计超过 1.5 亿次下载。"
+        },
         {
           "id": "1ea4a1316637",
           "title": "小米 MiMo 与 TileRT 联合发布 UltraSpeed 模式，1T 模型输出突破 1000 tokens/s",
@@ -108,6 +154,16 @@
     "ai-products": {
       "label": "🚀 AI 产品",
       "items": [
+        {
+          "id": "12eef8c3f236",
+          "title": "Runway视频轻松转宽高比",
+          "url": "https://x.com/runwayml/status/2064350871048077756",
+          "source": "aihot",
+          "source_name": "X：Runway (@runwayml)",
+          "category": "ai-products",
+          "published_at": "2026-06-09T14:16:16.000Z",
+          "summary": "轻松将视频重新格式化为不同宽高比，让你在每一个重要平台都能展示。\n\n点击下方链接开始。"
+        },
         {
           "id": "774c238cecc9",
           "title": "火山引擎TRAE Work企业版正式上线，面向全员提供AI办公平台",
@@ -229,16 +285,6 @@
           "summary": "将数据和比较转化为图表，直接在 ChatGPT 中完成。 现已支持移动端和网页端。"
         },
         {
-          "id": "244edfb2fb74",
-          "title": "Claude 支持 Apple Foundation Models 框架，推出新 Swift 包",
-          "url": "https://claude.com/blog/claude-for-foundation-models",
-          "source": "aihot",
-          "source_name": "Claude：Blog（网页）",
-          "category": "ai-products",
-          "published_at": "2026-06-08T22:24:02.356Z",
-          "summary": "Anthropic 通过一个新 Swift 包，让 Apple 开发者能在 Foundation Models 框架中直接调用 Claude。开发者用 Apple 框架以原生 Swift 方式，仅需三行代码即可通过引导生成返回类型化 Swift 值。当请求涉及多步推理、代码生成、联网搜索或数据分析时，Claude 可接手处理，并将流式响应传回同一视图。该支持可在 iOS 27、iPadOS 27、macOS 27、visionOS 27 和 watchOS 27 上使用，开发者需添加包并配置 Anthropic API 密钥。"
-        },
-        {
           "id": "45358abe413d",
           "title": "Viggle API 上线：任意角色任意动作秒级生成",
           "url": "https://x.com/ViggleAI/status/2064083087806390319",
@@ -350,7 +396,7 @@
           "source": "GitHub AI",
           "source_name": "GitHub AI",
           "category": "ai-tools",
-          "published_at": "2026-06-09T14:06:29.810899+00:00",
+          "published_at": "2026-06-09T16:46:38.658503+00:00",
           "summary": "Convert documents to structured data effortlessly. Unstructured is open-source ETL solution for transforming complex documents into clean, structured formats for language models. Visit our website to learn more about our enterprise grade Platform product for production grade workflows, partitioning, enrichments, chunking and embedding."
         },
         {
@@ -360,7 +406,7 @@
           "source": "GitHub AI",
           "source_name": "GitHub AI",
           "category": "ai-tools",
-          "published_at": "2026-06-09T14:06:29.810783+00:00",
+          "published_at": "2026-06-09T16:46:38.658371+00:00",
           "summary": "A lightning-fast search engine API bringing AI-powered hybrid search to your sites and applications."
         },
         {
@@ -370,7 +416,7 @@
           "source": "GitHub AI",
           "source_name": "GitHub AI",
           "category": "ai-tools",
-          "published_at": "2026-06-09T14:06:29.810665+00:00",
+          "published_at": "2026-06-09T16:46:38.658240+00:00",
           "summary": "Qdrant - High-performance, massive-scale Vector Database and Vector Search Engine for the next generation of AI. Also available in the cloudhttps://cloud.qdrant.io/"
         },
         {
@@ -380,7 +426,7 @@
           "source": "GitHub AI",
           "source_name": "GitHub AI",
           "category": "ai-tools",
-          "published_at": "2026-06-09T14:06:29.810357+00:00",
+          "published_at": "2026-06-09T16:46:38.657894+00:00",
           "summary": "Search infrastructure for AI"
         },
         {
@@ -390,7 +436,7 @@
           "source": "GitHub AI",
           "source_name": "GitHub AI",
           "category": "ai-tools",
-          "published_at": "2026-06-09T14:06:29.810094+00:00",
+          "published_at": "2026-06-09T16:46:38.657562+00:00",
           "summary": "General-purpose AI designed for knowledge workers — creators, strategists, and operators — and individuals seeking AI systems they can truly control to help them get work done, with full flexibility to extend and deploy anywhere (VPC, on-prem, or cloud)."
         },
         {
@@ -400,7 +446,7 @@
           "source": "GitHub AI",
           "source_name": "GitHub AI",
           "category": "ai-tools",
-          "published_at": "2026-06-09T14:06:29.809978+00:00",
+          "published_at": "2026-06-09T16:46:38.657389+00:00",
           "summary": "Summer 2026 software engineering, data science, AI, quant, product management, and hardware internship postings. Updated daily by Simplify and Pitt CSC."
         },
         {
@@ -410,7 +456,7 @@
           "source": "GitHub AI",
           "source_name": "GitHub AI",
           "category": "ai-tools",
-          "published_at": "2026-06-09T14:06:29.809860+00:00",
+          "published_at": "2026-06-09T16:46:38.657250+00:00",
           "summary": "Computer Vision Annotation Tool (CVAT) is a leading platform for building high-quality visual datasets for vision AI. It offers open-source, cloud, and enterprise products, as well as labeling services, for image, video, and 3D annotation with AI-assisted labeling, quality assurance, team collaboration, analytics, and developer APIs."
         },
         {
@@ -420,7 +466,7 @@
           "source": "GitHub AI",
           "source_name": "GitHub AI",
           "category": "ai-tools",
-          "published_at": "2026-06-09T14:06:29.809134+00:00",
+          "published_at": "2026-06-09T16:46:38.656411+00:00",
           "summary": "A library for efficient similarity search and clustering of dense vectors."
         }
       ]
@@ -548,6 +594,36 @@
     "tip": {
       "label": "💡 技巧",
       "items": [
+        {
+          "id": "f0783119f700",
+          "title": "OpenRouter与Cursor集成指南",
+          "url": "https://x.com/OpenRouter/status/2064384545256833209",
+          "source": "aihot",
+          "source_name": "X：OpenRouter (@OpenRouter)",
+          "category": "tip",
+          "published_at": "2026-06-09T16:30:04.000Z",
+          "summary": "想要在Cursor中使用OpenRouter吗？\n\n这里有一份集成指南：https：//openrouter.ai/docs/cookbook/coding-agents/cursor-integration"
+        },
+        {
+          "id": "a645a40db647",
+          "title": "GitHub Copilot CLI 推出自定义 AI 智能体，将一次性终端提示转化为可重复工作流",
+          "url": "https://github.blog/ai-and-ml/github-copilot/from-one-off-prompts-to-workflows-how-to-use-custom-agents-in-github-copilot-cli",
+          "source": "aihot",
+          "source_name": "GitHub Blog",
+          "category": "tip",
+          "published_at": "2026-06-09T16:00:00.000Z",
+          "summary": "GitHub Copilot CLI 新增自定义 AI 智能体功能，使 CLI 能够理解开发者的技术栈和团队工作流，将一次性终端提示转变为可重复、可审查的流程。"
+        },
+        {
+          "id": "eda246197c38",
+          "title": "GPT-5.5 替代 OCR，ChinaRxiv 论文免费开放",
+          "url": "https://x.com/OpenAIDevs/status/2064346891673059484",
+          "source": "aihot",
+          "source_name": "X：OpenAI Developers (@OpenAIDevs)",
+          "category": "tip",
+          "published_at": "2026-06-09T14:00:27.000Z",
+          "summary": "23，000+ 篇 ChinaRxiv 论文现已免费提供，并带有更完整的英文翻译，源于一位开发者用 GPT-5.5 替换了复杂的 OCR 管道。"
+        },
         {
           "id": "ccd8d032c50f",
           "title": "腾讯混元发布UniRL：统一多模态强化学习基础设施",
@@ -727,22 +803,57 @@
           "category": "tip",
           "published_at": "2026-06-08T18:09:37.000Z",
           "summary": "将AI比作一个闪耀着能力的星系，其核心存在一个肉眼不可见的巨大黑洞--数据。这个比喻揭示了AI模型惊人能力背后对海量数据的依赖，样本效率的瓶颈如同引力中心，将各色能力凝聚在一起。"
-        },
+        }
+      ]
+    },
+    "paper": {
+      "label": "paper",
+      "items": [
         {
-          "id": "895bbe364bff",
-          "title": "五个模型经济体中消失的崩溃：控制与涌现",
-          "url": "https://huggingface.co/blog/build-small-hackathon/thousand-token-wood-sim-v3",
+          "id": "a1351534de17",
+          "title": "Ex Vivo：多样细胞状态提升AI疗法匹配",
+          "url": "https://x.com/MSFTResearch/status/2064384745195118817",
           "source": "aihot",
-          "source_name": "Hugging Face：Blog（RSS）",
-          "category": "tip",
-          "published_at": "2026-06-08T13:10:48.000Z",
-          "summary": "用五个不同实验室的AI模型（OpenAI、NVIDIA、OpenBMB及一个自微调的5亿参数模型）各自驱动一个智能体构建经济市场，试图复现此前单一模型下出现的银行挤兑式价格崩溃。结果同一场景下模型不仅不抛售反而囤积，导致价格不跌反涨。通过纯谣言、库存泛滥、加大做空三种方式均无法重现崩溃。最终在结算环节直接覆盖价格，使崩溃成为设计事实。实验表明，AI智能体的涌现行为是偶然的而非稳健的，有效系统需在涌现纹理与确定性控制之间找到精确接缝。"
+          "source_name": "X：Microsoft Research (@MSFTResearch)",
+          "category": "paper",
+          "published_at": "2026-06-09T16:30:52.000Z",
+          "summary": "在《Nature Methods》上发表的最新研究来自Project Ex Vivo，表明AI模型从多样化的细胞状态中学到的知识，比仅从规模化数据集中学到的更多，这一发现可能重塑疗法与患者的匹配方式。https：//msft.it/6013vgE8l"
         }
       ]
     },
     "industry": {
       "label": "industry",
       "items": [
+        {
+          "id": "70560f3baf73",
+          "title": "里程碑式德国裁决：Google AI Overviews 被视为谷歌自身言论，需为错误回答承担责任",
+          "url": "https://the-decoder.com/landmark-german-ruling-declares-googles-ai-overviews-are-googles-own-words-and-makes-it-liable-for-false-answers",
+          "source": "aihot",
+          "source_name": "The Decoder：AI News（RSS）",
+          "category": "industry",
+          "published_at": "2026-06-09T15:55:53.000Z",
+          "summary": "德国地方法院裁定，Google 对其 AI 概览生成的内容直接承担法律责任，不能援引搜索引擎运营商原有的有限责任保护。涉案 AI 概览错误地将两家出版商与欺诈行为关联，且相关声明未出现在任何链接来源中。该裁决可能为全球 AI 生成内容责任认定树立先例。"
+        },
+        {
+          "id": "c7cedb1f00ee",
+          "title": "塔塔咨询服务将因AI智能体应用放缓招聘，亚洲外包业迎来转折",
+          "url": "https://www.bloomberg.com/news/articles/2026-06-09/asia-s-largest-outsourcer-to-slow-hiring-as-ai-reshapes-industry",
+          "source": "aihot",
+          "source_name": "Bloomberg：Technology（RSS）",
+          "category": "industry",
+          "published_at": "2026-06-09T15:32:09.000Z",
+          "summary": "亚洲最大外包商塔塔咨询服务（Tata Consultancy Services）将减少未来招聘规模，同时加大对AI智能体的使用。这一变化标志着印度劳动密集型外包产业正经历关键性转变。"
+        },
+        {
+          "id": "cf2a5cac085f",
+          "title": "Google DeepMind 欧洲机器人加速器启动，15家初创公司入选",
+          "url": "https://deepmind.google/blog/powering-the-future-of-robotics-in-europe",
+          "source": "aihot",
+          "source_name": "Google DeepMind：Blog（RSS）",
+          "category": "industry",
+          "published_at": "2026-06-09T14:02:33.000Z",
+          "summary": "Google DeepMind 加速器从欧洲选出15家机器人初创公司，提供为期3个月的密集指导和AI技术整合支持，帮助公司将AI融入核心产品。"
+        },
         {
           "id": "4c9b925da502",
           "title": "全新汽车品牌AIVA发布，火山引擎助力打造AI汽车新体验",
@@ -842,21 +953,6 @@
           "category": "industry",
           "published_at": "2026-06-09T00:14:39.000Z",
           "summary": "最终站：东京。\n快来注册，直接聆听 Claude 团队分享：http：//claude.com/code-with-claude/tokyo"
-        }
-      ]
-    },
-    "paper": {
-      "label": "paper",
-      "items": [
-        {
-          "id": "30f30ccf7d56",
-          "title": "Gemini Guided Learning 随机对照试验：在塞拉利昂等地提升参与度并加速学习",
-          "url": "https://deepmind.google/blog/measuring-the-impact-of-learning-with-ai-in-sierra-leone-and-beyond",
-          "source": "aihot",
-          "source_name": "Google DeepMind：Blog（RSS）",
-          "category": "paper",
-          "published_at": "2026-06-08T13:04:59.000Z",
-          "summary": "一项在塞拉利昂等地开展的随机对照试验显示，Gemini 的 Guided Learning 功能能够提升学生参与度并加速学习。"
         }
       ]
     }
