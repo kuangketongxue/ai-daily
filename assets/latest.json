@@ -1,7 +1,7 @@
 {
   "date": "2026-06-10",
-  "generated_at": "2026-06-10T19:57:10.727069",
-  "total": 81,
+  "generated_at": "2026-06-10T22:20:17.489062",
+  "total": 82,
   "sources": {
     "Hugging Face": 8,
     "GitHub AI": 5,
@@ -21,7 +21,8 @@
     "X：OpenRouter (@OpenRouter)": 2,
     "IT之家（RSS）": 7,
     "X：ChatGPT (@ChatGPTapp)": 1,
-    "Bloomberg：Technology（RSS）": 8,
+    "Bloomberg：Technology（RSS）": 7,
+    "Cursor Blog": 1,
     "公众号：百度智能云（文心）": 1,
     "X：华为云 (@HuaweiCloud1)": 1,
     "X：宝玉 (@dotey)": 1,
@@ -38,7 +39,7 @@
     "X：Fei-Fei Li (@drfeifei, World Labs)": 1,
     "X：OpenAI Developers (@OpenAIDevs)": 1,
     "Claude：Blog（网页）": 1,
-    "OpenRouter：Announcements（RSS）": 1,
+    "OpenRouter：Announcements（RSS）": 2,
     "X：Eric Zakariasson (@ericzakariasson)": 1,
     "X：NotebookLM (@NotebookLM)": 1,
     "X：AI Safety Memes (@AISafetyMemes)": 1,
@@ -207,6 +208,16 @@
           "category": "ai-products",
           "published_at": "2026-06-10T15:22:47.000Z",
           "summary": "今天，我们在 OpenRouter 上推出了新的 Activity explorer。\n\n这是查看你和团队在每个模型上花费了多少的最佳方式，还包括 token、缓存命中率、智能体以及趋势。所有数据实时更新。\n\n看看我们的团队如何使用 Fable 和其他模型 👇"
+        },
+        {
+          "id": "86a9a8dd18b1",
+          "title": "Cursor Bugbot 更新：速度提升超 3 倍、成本降低 22%、发现更多 Bug",
+          "url": "https://cursor.com/blog/bugbot-updates-june-2026",
+          "source": "aihot",
+          "source_name": "Cursor Blog",
+          "category": "ai-products",
+          "published_at": "2026-06-10T12:00:00.000Z",
+          "summary": "Cursor 的代码审查工具 Bugbot 迎来重大更新：运行速度提升超 3 倍，成本降低 22%，每轮审查多发现 10% 的 bug，90% 的运行在三分钟内完成。新增 `/review` 命令，可在推送代码前运行 Bugbot 和安全审查，并与 GitHub/GitLab 同步--若已通过 `/review` 审查过同一 diff，打开 PR 时 Bugbot 会自动跳过并备注。支持配置仅审查 PR 中新增内容。性能提升源于驱动 Bugbot 的 Composer 2.5 模型训练改进。Bugbot 遵循模型阻止列表，若组织禁用 Composer 2.5 则自动回退。该功能已在 Cursor 3.7+ 和 cursor.com/agents 上线，CLI 支持即将推出。"
         },
         {
           "id": "b960b3b91f02",
@@ -410,7 +421,7 @@
           "source": "GitHub AI",
           "source_name": "GitHub AI",
           "category": "ai-tools",
-          "published_at": "2026-06-10T19:57:08.365730+00:00",
+          "published_at": "2026-06-10T22:20:16.037749+00:00",
           "summary": "RealSense SDK"
         },
         {
@@ -420,7 +431,7 @@
           "source": "GitHub AI",
           "source_name": "GitHub AI",
           "category": "ai-tools",
-          "published_at": "2026-06-10T19:57:08.365605+00:00",
+          "published_at": "2026-06-10T22:20:16.037583+00:00",
           "summary": "ONNX Runtime: cross-platform, high performance ML inferencing and training accelerator"
         },
         {
@@ -430,7 +441,7 @@
           "source": "GitHub AI",
           "source_name": "GitHub AI",
           "category": "ai-tools",
-          "published_at": "2026-06-10T19:57:08.364629+00:00",
+          "published_at": "2026-06-10T22:20:16.036440+00:00",
           "summary": "🥑 Language focused docker images, minus the operating system."
         },
         {
@@ -440,7 +451,7 @@
           "source": "GitHub AI",
           "source_name": "GitHub AI",
           "category": "ai-tools",
-          "published_at": "2026-06-10T19:57:08.364504+00:00",
+          "published_at": "2026-06-10T22:20:16.036292+00:00",
           "summary": "Search infrastructure for AI"
         },
         {
@@ -450,7 +461,7 @@
           "source": "GitHub AI",
           "source_name": "GitHub AI",
           "category": "ai-tools",
-          "published_at": "2026-06-10T19:57:08.364366+00:00",
+          "published_at": "2026-06-10T22:20:16.036132+00:00",
           "summary": "GTSAM is a library of C++ classes that implement smoothing and mapping (SAM) in robotics and vision, using factor graphs and Bayes networks as the underlying computing paradigm rather than sparse matrices."
         }
       ]
@@ -744,6 +755,16 @@
           "summary": "Anthropic 发布 Claude Fable，这是一款提供截然不同推理体验的 AI 模型。它擅长规划与生成复杂代码库，在需要精确构建代码结构或理解程序员深层需求的场景中，其表现相比 Claude Sonnet 有了大幅提升。用户描述与它协作更像与一位直觉敏锐的资深工程师合作，其对代码意图的捕捉和方案生成能力令人惊叹，但并非通用型 AI。"
         },
         {
+          "id": "9ce592f80f80",
+          "title": "Gemini 2.5 Flash API - 定价、快速入门与提供商比较",
+          "url": "https://openrouter.ai/blog/gemini-25-flash-api-pricing-quickstart-provider-comparison",
+          "source": "aihot",
+          "source_name": "OpenRouter：Announcements（RSS）",
+          "category": "tip",
+          "published_at": "2026-06-09T16:00:00.000Z",
+          "summary": "Gemini 2.5 Flash API 支持配置思考预算（thinking budgets），用户可跨提供商进行比较，并在5分钟内完成首次API调用。"
+        },
+        {
           "id": "a645a40db647",
           "title": "GitHub Copilot CLI 推出自定义 AI 智能体，将一次性终端提示转化为可重复工作流",
           "url": "https://github.blog/ai-and-ml/github-copilot/from-one-off-prompts-to-workflows-how-to-use-custom-agents-in-github-copilot-cli",
@@ -882,16 +903,6 @@
           "category": "industry",
           "published_at": "2026-06-09T21:24:50.000Z",
           "summary": "Super Micro Computer Inc. 计划通过一揽子股权融资筹集 70 亿美元，用于购买客户订单所需的 AI 服务器组件。这笔资金将支持公司扩大产能，以满足不断增长的人工智能基础设施需求。"
-        },
-        {
-          "id": "c7cedb1f00ee",
-          "title": "塔塔咨询服务将因AI智能体应用放缓招聘，亚洲外包业迎来转折",
-          "url": "https://www.bloomberg.com/news/articles/2026-06-09/asia-s-largest-outsourcer-to-slow-hiring-as-ai-reshapes-industry",
-          "source": "aihot",
-          "source_name": "Bloomberg：Technology（RSS）",
-          "category": "industry",
-          "published_at": "2026-06-09T15:32:09.000Z",
-          "summary": "亚洲最大外包商塔塔咨询服务（Tata Consultancy Services）将减少未来招聘规模，同时加大对AI智能体的使用。这一变化标志着印度劳动密集型外包产业正经历关键性转变。"
         }
       ]
     }
