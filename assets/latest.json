@@ -1,56 +1,43 @@
 {
-  "date": "2026-06-09",
-  "generated_at": "2026-06-09T23:04:01.612373",
-  "total": 94,
+  "date": "2026-06-10",
+  "generated_at": "2026-06-10T01:30:57.891759",
+  "total": 67,
   "sources": {
     "Hugging Face": 8,
     "GitHub AI": 8,
-    "Bloomberg：Technology（RSS）": 6,
-    "Simon Willison 博客": 1,
-    "Claude：Blog（网页）": 2,
-    "X：AI Safety Memes (@AISafetyMemes)": 1,
-    "Hugging Face：Blog（RSS）": 6,
-    "X：Rohan Paul (@rohanpaul_ai)": 3,
-    "X：NotebookLM (@NotebookLM)": 2,
+    "X：邵猛 (@shao__meng)": 2,
+    "Anthropic：Newsroom（网页）": 1,
+    "Google DeepMind：Blog（RSS）": 2,
+    "公众号：小米 MiMo": 1,
+    "X：Kim (@kimmonismus)": 1,
+    "Hugging Face：Blog（RSS）": 5,
+    "X：Google DeepMind (@GoogleDeepMind)": 1,
+    "X：Luma AI (@LumaLabsAI)": 1,
+    "X：Fei-Fei Li (@drfeifei, World Labs)": 1,
+    "X：OpenAI Developers (@OpenAIDevs)": 1,
+    "Claude：Blog（网页）": 1,
     "OpenRouter：Announcements（RSS）": 1,
     "X：Eric Zakariasson (@ericzakariasson)": 1,
-    "X：OpenAI Developers (@OpenAIDevs)": 1,
-    "Ethan Mollick：One Useful Thing（RSS）": 1,
-    "Anthropic：Newsroom（网页）": 1,
-    "X：Fei-Fei Li (@drfeifei, World Labs)": 1,
-    "X：OpenRouter (@OpenRouter)": 2,
-    "GitHub Blog": 1,
-    "The Decoder：AI News（RSS）": 1,
-    "X：Google DeepMind (@GoogleDeepMind)": 1,
-    "X：Kim (@kimmonismus)": 2,
-    "Google DeepMind：Blog（RSS）": 2,
     "公众号：火山引擎": 2,
+    "X：NotebookLM (@NotebookLM)": 1,
+    "X：Rohan Paul (@rohanpaul_ai)": 3,
+    "Bloomberg：Technology（RSS）": 6,
+    "The Decoder：AI News（RSS）": 1,
+    "X：AI Safety Memes (@AISafetyMemes)": 1,
+    "IT之家（RSS）": 4,
+    "X：阿易 AI Notes (@AYi_AInotes)": 1,
+    "X：Berry Xia (@berryxia)": 1,
+    "X：OpenRouter (@OpenRouter)": 1,
+    "Simon Willison 博客": 1,
+    "Ethan Mollick：One Useful Thing（RSS）": 1,
+    "GitHub Blog": 1,
     "公众号：百度智能云（文心）": 1,
-    "OpenAI：官网动态（RSS · 排除企业/客户案例）": 3,
-    "X：腾讯混元 (@TencentHunyuan)": 2,
+    "OpenAI：官网动态（RSS · 排除企业/客户案例）": 1,
+    "X：腾讯混元 (@TencentHunyuan)": 1,
     "公众号：通义实验室（千问）": 1,
     "MarkTechPost（RSS）": 1,
-    "IT之家（RSS）": 6,
-    "公众号：小米 MiMo": 1,
-    "X：Berry Xia (@berryxia)": 1,
-    "X：阿易 AI Notes (@AYi_AInotes)": 1,
-    "X：邵猛 (@shao__meng)": 2,
-    "X：小米 MiMo (@XiaomiMiMo)": 1,
-    "Apple Machine Learning Research（RSS）": 1,
-    "X：面壁智能 OpenBMB (@OpenBMB)": 1,
-    "X：Runway (@runwayml)": 1,
-    "Hacker News 热门（buzzing.cc 中文翻译）": 2,
-    "公众号：月之暗面（Kimi）": 1,
-    "Apple：Newsroom（RSS）": 3,
-    "X：ChatGPT (@ChatGPTapp)": 1,
-    "NVIDIA AI Blog": 2,
-    "公众号：生数科技（Vidu·视频）": 1,
-    "Anthropic：Research（发表成果 · 网页）": 1,
-    "X：Perplexity (@perplexity_ai)": 1,
-    "The Verge：AI（RSS）": 1,
-    "X：小互 (@xiaohu)": 1,
-    "X：Claude Devs (@ClaudeDevs)": 1,
     "xAI：News（网页）": 1,
+    "Hacker News 热门（buzzing.cc 中文翻译）": 1,
     "X：Viggle AI (@ViggleAI)": 1
   },
   "ai_processed": false,
@@ -59,104 +46,64 @@
       "label": "🧠 AI 模型",
       "items": [
         {
-          "id": "2ca95c98e424",
+          "id": "59513ab32519",
           "title": "Claude Fable 5 和 Claude Mythos 5",
           "url": "https://www.anthropic.com/news/claude-fable-5-mythos-5",
           "source": "aihot",
           "source_name": "Anthropic：Newsroom（网页）",
           "category": "ai-models",
-          "published_at": "2026-06-09T17:04:29.001Z",
-          "summary": "Anthropic 今日推出 Claude Fable 5（通用安全版）和 Claude Mythos 5（受限安全版）。Fable 5 在软件工程、知识工作、视觉、科研等几乎所有测试基准上达到 SOTA，Stripe 称其将数月工程压缩至数天，FrontierCode 评分居前沿模型之首，可仅凭截图重建网页应用源码。Mythos 5 在药物设计中实现约 10 倍加速，其分子生物学假说盲测获科学家偏好的概率约 80%。两模型售价均为 $10/百万输入 tokens、$50/百万输出 tokens，较 Claude Mythos Preview 降价过半。Fable 5 在部分敏感主题上回退至 Claude Opus 4.8，安全触发率低于 5% 的会话。Mythos 5 通过 Project Glasswing 向网络安全防御者开放。"
+          "published_at": "2026-06-10T00:00:00.105Z",
+          "summary": "Anthropic 今日推出 Claude Fable 5（通用安全版）和 Claude Mythos 5（受限安全版）。Fable 5 在软件工程、知识工作、视觉、科研等几乎所有测试基准上达到 SOTA，Stripe 称其将数月工程压缩至数天，FrontierCode 评分居前沿模型之首，可仅凭截图重建网页应用源码。Mythos 5 在药物设计中实现约 10 倍加速，其分子生物学假说盲测获科学家偏好的概率约 80%。两模型售价均为 $10/百万输入 tokens、$50/百万输出 tokens，较 Claude Mythos Preview 降价过半。Fable 5 在部分敏感主题上回退至 Claude Opus 4.8，安全触发…"
         },
         {
-          "id": "ffc4bf26af1a",
-          "title": "Cohere发布North Mini Code：面向开发者的开源编码模型",
-          "url": "https://huggingface.co/blog/CohereLabs/introducing-north-mini-code",
-          "source": "aihot",
-          "source_name": "Hugging Face：Blog（RSS）",
-          "category": "ai-models",
-          "published_at": "2026-06-09T15:56:23.000Z",
-          "summary": "Cohere发布North Mini Code，一款30B参数MoE模型（3B活跃参数），Apache 2.0开源。在Artificial Analysis Coding Index上得分33.4，超越Qwen3.5、Gemma 4等同类模型。后训练采用两阶段SFT和RLVR，在SWE-Bench Verified上pass@10达80.2%，Terminal-Bench v2上达55.1%。支持64K/128K上下文长度，专为智能体编码任务优化。"
-        },
-        {
-          "id": "ee032350f316",
-          "title": "Gemini 3.5 Live Translate 发布",
-          "url": "https://x.com/GoogleDeepMind/status/2064366504745828689",
-          "source": "aihot",
-          "source_name": "X：Google DeepMind (@GoogleDeepMind)",
-          "category": "ai-models",
-          "published_at": "2026-06-09T15:18:23.000Z",
-          "summary": "说 hello， hola， 你好--欢迎 Gemini 3.5 Live Translate：我们最新的音频模型，专为快速跨语言交流而构建。🌐"
-        },
-        {
-          "id": "339edc24e2c8",
-          "title": "Claude Mythos 即将发布，Fable 精简版同日登场",
-          "url": "https://x.com/kimmonismus/status/2064362469632405807",
-          "source": "aihot",
-          "source_name": "X：Kim (@kimmonismus)",
-          "category": "ai-models",
-          "published_at": "2026-06-09T15:02:21.000Z",
-          "summary": "确认，Claude Mythos 将在接下来几小时内揭晓。\n\n【引用 @steph_palazzolo】：\n独家：一个名为 Claude Fable 的精简版 Mythos 今天推出。它价格昂贵--是 Opus 的两倍--但或许不像人们从最初 Mythos 定价（Opus 的 5 倍）所想的那样昂贵。\n\n更多内容及 Apple WWDC 见 AI Agenda：\n\nhttps：//www.theinformation.com/newsletters/ai-agenda/anthropics-mythos-coming-today-apple-pursues-modest-goals-siri-revamp"
-        },
-        {
-          "id": "7dabff93691c",
+          "id": "4c75f3aaf6d2",
           "title": "Google DeepMind 发布 Gemma 4 12B：统一的无编码器多模态模型",
           "url": "https://deepmind.google/blog/introducing-gemma-4-12b-a-unified-encoder-free-multimodal-model",
           "source": "aihot",
           "source_name": "Google DeepMind：Blog（RSS）",
           "category": "ai-models",
-          "published_at": "2026-06-09T14:10:19.000Z",
+          "published_at": "2026-06-10T00:00:00.105Z",
           "summary": "Gemma 4 12B 是 Google DeepMind 最新推出的中等规模多模态模型，采用无编码器统一架构，原生支持音频输入。其基准测试性能接近 26B MoE 模型，但内存占用不到一半，仅需 16GB 显存或统一内存即可在消费级笔记本上本地运行。模型内置多 token 预测（MTP）drafter 以降低延迟，基于 Apache 2.0 开源许可发布，已累计超过 1.5 亿次下载。"
         },
         {
-          "id": "1ea4a1316637",
+          "id": "06a14eb818e4",
           "title": "小米 MiMo 与 TileRT 联合发布 UltraSpeed 模式，1T 模型输出突破 1000 tokens/s",
           "url": "https://mp.weixin.qq.com/s/EZvmrx8xfM9MZNCMDwImFQ",
           "source": "aihot",
           "source_name": "公众号：小米 MiMo",
           "category": "ai-models",
-          "published_at": "2026-06-09T03:31:32.000Z",
+          "published_at": "2026-06-10T00:00:00.105Z",
           "summary": "小米 MiMo 与 TileRT 联合发布 MiMo-V2.5-Pro-UltraSpeed 模式，使 1T 参数旗舰模型输出速度首次突破 1000 tokens/s。模型侧采用 FP4 混合量化（仅量化 MoE Expert）与 DFlash 块级 masked 并行推测解码（coding 场景平均接受长度 6.30 tokens）；系统侧 TileRT 引入常驻内核引擎与异构流水线协作。API 限时开放（2026 年 6 月 9 日至 23 日），定价为 MiMo-V2.5-Pro 的 3 倍，速度提升约 10 倍。FP4 权重与 DFlash 模型 checkpoint 已开源至 HuggingFace。"
         },
         {
-          "id": "544be5593a26",
-          "title": "小米 MiMo-V2.5-Pro-UltraSpeed 突破 1,000 tokens/s，单台 8-GPGPU 节点运行 1T MoE 模型",
-          "url": "https://x.com/XiaomiMiMo/status/2063993790587904362",
+          "id": "030e9a98afa0",
+          "title": "Claude Mythos 即将发布，Fable 精简版同日登场",
+          "url": "https://x.com/kimmonismus/status/2064362469632405807",
           "source": "aihot",
-          "source_name": "X：小米 MiMo (@XiaomiMiMo)",
+          "source_name": "X：Kim (@kimmonismus)",
           "category": "ai-models",
-          "published_at": "2026-06-09T00:00:00.444Z",
-          "summary": "小米 MiMo 联合 TileRT_AI 发布 MiMo-V2.5-Pro-UltraSpeed，首次在 1 万亿参数 MoE 模型上实现超过 1,000 tokens/s 输出速度，仅用单台标准 8-GPGPU 节点（非 Cerebras 或 Groq 方案）。提供限时免费聊天体验，UltraSpeed API 价格为 3 倍，输出体验提升约 10 倍。申请时间为 6 月 8 日至 23 日（PDT），企业可邮件联系 business-mimo@xiaomi.com。"
+          "published_at": "2026-06-10T00:00:00.105Z",
+          "summary": "确认，Claude Mythos 将在接下来几小时内揭晓。 [引用 @steph_palazzolo]： 独家：一个名为 Claude Fable 的精简版 Mythos 今天推出。它价格昂贵——是 Opus 的两倍——但或许不像人们从最初 Mythos 定价（Opus 的 5 倍）所想的那样昂贵。 更多内容及 Apple WWDC 见 AI Agenda： https://www.theinformation.com/newsletters/ai-agenda/anthropics-mythos-coming-today-apple-pursues-modest-goals-siri-revamp"
         },
         {
-          "id": "6440f1d8764c",
-          "title": "苹果发布第三代 Apple Foundation Models（AFM）",
-          "url": "https://machinelearning.apple.com/research/introducing-third-generation-of-apple-foundation-models",
+          "id": "19935281480b",
+          "title": "Cohere发布North Mini Code：面向开发者的开源编码模型",
+          "url": "https://huggingface.co/blog/CohereLabs/introducing-north-mini-code",
           "source": "aihot",
-          "source_name": "Apple Machine Learning Research（RSS）",
+          "source_name": "Hugging Face：Blog（RSS）",
           "category": "ai-models",
-          "published_at": "2026-06-09T00:00:00.444Z",
-          "summary": "苹果推出第三代 Apple Foundation Models（AFM）基础模型家族，与 Google 合作定制，包含五个模型，覆盖从设备端到基于 Private Cloud Compute 的服务器端模型。这些模型旨在驱动 Apple Intelligence 功能，包括全新 Siri 和智能工具，以用户为中心深度融合操作系统，隐私为核心设计原则。"
+          "published_at": "2026-06-10T00:00:00.105Z",
+          "summary": "Cohere发布North Mini Code，一款30B参数MoE模型（3B活跃参数），Apache 2.0开源。在Artificial Analysis Coding Index上得分33.4，超越Qwen3.5、Gemma 4等同类模型。后训练采用两阶段SFT和RLVR，在SWE-Bench Verified上pass@10达80.2%，Terminal-Bench v2上达55.1%。支持64K/128K上下文长度，专为智能体编码任务优化。"
         },
         {
-          "id": "07f3fe0ff9bf",
-          "title": "VoxCPM2 技术报告发布",
-          "url": "https://x.com/OpenBMB/status/2063991963133903317",
+          "id": "a5016e62e2bd",
+          "title": "Gemini 3.5 Live Translate 发布",
+          "url": "https://x.com/GoogleDeepMind/status/2064366504745828689",
           "source": "aihot",
-          "source_name": "X：面壁智能 OpenBMB (@OpenBMB)",
+          "source_name": "X：Google DeepMind (@GoogleDeepMind)",
           "category": "ai-models",
-          "published_at": "2026-06-09T00:00:00.444Z",
-          "summary": "面壁智能 OpenBMB 发布 VoxCPM2 技术报告。该模型为最新语音生成模型，拥有 2B 参数，基于超 200 万小时多语言语音数据训练，支持 30 种语言和 9 种中文方言。具备自然语言语音设计、可控及高保真延续性语音克隆能力。技术报告涵盖架构设计、统一序列公式、AudioVAE 高保真语音重建、大规模训练评估，以及零样本和指令跟随 TTS 基准结果。采用 16kHz 语义编码 + 48kHz 波形重建，在公开 TTS 基准上达到 SOTA 或极具竞争力。模型权重、微调代码和推理工具以 Apache 2.0 开源。"
-        },
-        {
-          "id": "ec15220b2e53",
-          "title": "全球首个：高德发布3D原生城市世界模型ABot-Earth0.5",
-          "url": "https://www.ithome.com/0/961/378.htm",
-          "source": "aihot",
-          "source_name": "IT之家（RSS）",
-          "category": "ai-models",
-          "published_at": "2026-06-09T00:00:00.444Z",
-          "summary": "阿里巴巴旗下高德发布全球首个3D原生城市世界模型ABot-Earth0.5，已建成覆盖190多个国家和地区的3D地图。用户输入卫星图或文字描述，10分钟即可在消费级GPU上生成公里级3D城市，输出可编辑3DGS格式，可直接导入Unity等引擎。制图成本为传统百分之一，效率提升约千倍，可为具身智能、低空经济、应急救援等提供支撑。目前已开放内测，可前往abot-earth.amap.com提交申请。"
+          "published_at": "2026-06-10T00:00:00.105Z",
+          "summary": "说 hello, hola, 你好——欢迎 Gemini 3.5 Live Translate：我们最新的音频模型，专为快速跨语言交流而构建。🌐"
         }
       ]
     },
@@ -164,154 +111,84 @@
       "label": "🚀 AI 产品",
       "items": [
         {
-          "id": "4eb288e6ea23",
-          "title": "Claude Managed Agents 新增定时运行和环境变量存储功能",
-          "url": "https://claude.com/blog/whats-new-in-claude-managed-agents",
+          "id": "0ff88e36b2d2",
+          "title": "Luma AI Ray3.2 API：电影级渲染可集成",
+          "url": "https://x.com/LumaLabsAI/status/2064389582997897216",
           "source": "aihot",
-          "source_name": "Claude：Blog（网页）",
+          "source_name": "X：Luma AI (@LumaLabsAI)",
           "category": "ai-products",
-          "published_at": "2026-06-09T21:06:26.068Z",
-          "summary": "Claude Managed Agents 今日在 Claude Platform 公开测试两项新功能：代理可按 cron 计划自动执行周期性任务（如夜间数据同步、周度合规扫描、每日摘要），无需用户自建调度器，支持暂停、恢复、归档或按需触发；vaults 新增环境变量支持，允许代理通过 CLI 进行认证请求，真实密钥仅附加在网络边界，代理无法读取。已集成的 CLI 包括 Browserbase、KERNEL、Notion、Ramp 和 Sentry。Rakuten、Actively AI、Ando、Milana 等团队正在使用这些功能实现自动化数据报表、跨账户搜索、招聘提醒等场景。"
+          "published_at": "2026-06-10T00:00:00.105Z",
+          "summary": "Ray3.2 API 可大规模运行电影级渲染，并集成到您正在构建的产品中。专为在交付的产品中打造电影感的开发者、代理机构和企业而设计。 开始构建 → http://lumalabs.ai/api"
         },
         {
-          "id": "ec8e28f92d68",
-          "title": "NotebookLM 笔记本功能在 Gemini App 欧洲全面上线",
-          "url": "https://x.com/NotebookLM/status/2064410506287538387",
-          "source": "aihot",
-          "source_name": "X：NotebookLM (@NotebookLM)",
-          "category": "ai-products",
-          "published_at": "2026-06-09T18:13:14.000Z",
-          "summary": "NotbookLM 宣布其笔记本功能已在欧洲的 Gemini App 中 100% 上线。此前用户只能上传笔记本作为 Gemini 的来源，现在可直接在 Gemini App 内访问所有个人未共享的笔记本，并将与 Gemini 的对话作为新笔记本或已有笔记本的来源。该功能先面向 Google AI Ultra、Pro 和 Plus 订阅者的网页端，未来几周将扩展到移动端、更多欧洲国家及免费用户。"
-        },
-        {
-          "id": "bef1bbeb82ee",
-          "title": "OpenRouter 推出 Advisor 工具：让低成本模型可随时调用强模型增强生成",
-          "url": "https://openrouter.ai/blog/advisor-server-tool",
-          "source": "aihot",
-          "source_name": "OpenRouter：Announcements（RSS）",
-          "category": "ai-products",
-          "published_at": "2026-06-09T18:00:00.000Z",
-          "summary": "OpenRouter 发布 advisor 服务器工具，允许一个快速、便宜的模型在生成过程中咨询一个更强大的模型。具体而言，可用 GPT-4o Mini 处理日常例行工作，在关键时刻调用 Claude Fable 解决真正重要的问题，从而实现成本和质量的动态平衡。"
-        },
-        {
-          "id": "48bcc4a11c43",
-          "title": "Cursor Evals 新增成本与输出 Token 图表",
-          "url": "https://x.com/ericzakariasson/status/2064404502053294565",
-          "source": "aihot",
-          "source_name": "X：Eric Zakariasson (@ericzakariasson)",
-          "category": "ai-products",
-          "published_at": "2026-06-09T17:49:22.000Z",
-          "summary": "我们刚刚向 http：//cursor.com/evals 推送了一些改进！\n\n你现在可以看到每个模型的成本、输出 token 和步骤绘制在图表中"
-        },
-        {
-          "id": "3338e3c048d7",
-          "title": "Responses API 网页搜索新增图片结果",
-          "url": "https://x.com/OpenAIDevs/status/2064395155688616153",
-          "source": "aihot",
-          "source_name": "X：OpenAI Developers (@OpenAIDevs)",
-          "category": "ai-products",
-          "published_at": "2026-06-09T17:12:14.000Z",
-          "summary": "你的应用现在可以搜索网页上的图片。\n\nResponses API 中的网页搜索现在除了文本结果外，还支持图片结果，因此你可以构建能展示商品、地点、视觉参考和来源链接以激发灵感的应用。"
-        },
-        {
-          "id": "9edc38ba6675",
+          "id": "a67cc13d6341",
           "title": "World Labs与Lore合作打造互动体验",
           "url": "https://x.com/drfeifei/status/2064387365930676695",
           "source": "aihot",
           "source_name": "X：Fei-Fei Li (@drfeifei, World Labs)",
           "category": "ai-products",
-          "published_at": "2026-06-09T16:41:17.000Z",
+          "published_at": "2026-06-10T00:00:00.105Z",
           "summary": "创意和想象力无与伦比！非常感谢@theworldlabs能与@withloreco的优秀人才合作，将他们不可思议的想法转化为用户可以享受的互动体验！🤩"
         },
         {
-          "id": "774c238cecc9",
+          "id": "1b621e65870a",
+          "title": "Responses API 网页搜索新增图片结果",
+          "url": "https://x.com/OpenAIDevs/status/2064395155688616153",
+          "source": "aihot",
+          "source_name": "X：OpenAI Developers (@OpenAIDevs)",
+          "category": "ai-products",
+          "published_at": "2026-06-10T00:00:00.105Z",
+          "summary": "你的应用现在可以搜索网页上的图片。 Responses API 中的网页搜索现在除了文本结果外，还支持图片结果，因此你可以构建能展示商品、地点、视觉参考和来源链接以激发灵感的应用。"
+        },
+        {
+          "id": "f876981c9dda",
+          "title": "Claude Managed Agents 新增定时运行和环境变量存储功能",
+          "url": "https://claude.com/blog/whats-new-in-claude-managed-agents",
+          "source": "aihot",
+          "source_name": "Claude：Blog（网页）",
+          "category": "ai-products",
+          "published_at": "2026-06-10T00:00:00.105Z",
+          "summary": "Claude Managed Agents 今日在 Claude Platform 公开测试两项新功能：代理可按 cron 计划自动执行周期性任务（如夜间数据同步、周度合规扫描、每日摘要），无需用户自建调度器，支持暂停、恢复、归档或按需触发；vaults 新增环境变量支持，允许代理通过 CLI 进行认证请求，真实密钥仅附加在网络边界，代理无法读取。已集成的 CLI 包括 Browserbase、KERNEL、Notion、Ramp 和 Sentry。Rakuten、Actively AI、Ando、Milana 等团队正在使用这些功能实现自动化数据报表、跨账户搜索、招聘提醒等场景。"
+        },
+        {
+          "id": "eee1dff3da29",
+          "title": "OpenRouter 推出 Advisor 工具：让低成本模型可随时调用强模型增强生成",
+          "url": "https://openrouter.ai/blog/advisor-server-tool",
+          "source": "aihot",
+          "source_name": "OpenRouter：Announcements（RSS）",
+          "category": "ai-products",
+          "published_at": "2026-06-10T00:00:00.105Z",
+          "summary": "OpenRouter 发布 advisor 服务器工具，允许一个快速、便宜的模型在生成过程中咨询一个更强大的模型。具体而言，可用 GPT-4o Mini 处理日常例行工作，在关键时刻调用 Claude Fable 解决真正重要的问题，从而实现成本和质量的动态平衡。"
+        },
+        {
+          "id": "eb3d01eb8474",
+          "title": "Cursor Evals 新增成本与输出 Token 图表",
+          "url": "https://x.com/ericzakariasson/status/2064404502053294565",
+          "source": "aihot",
+          "source_name": "X：Eric Zakariasson (@ericzakariasson)",
+          "category": "ai-products",
+          "published_at": "2026-06-10T00:00:00.105Z",
+          "summary": "我们刚刚向 http://cursor.com/evals 推送了一些改进！ 你现在可以看到每个模型的成本、输出 token 和步骤绘制在图表中"
+        },
+        {
+          "id": "4d4ca867686d",
           "title": "火山引擎TRAE Work企业版正式上线，面向全员提供AI办公平台",
           "url": "https://mp.weixin.qq.com/s/f7QzLzwHPHHv3tWT1Wrnkw",
           "source": "aihot",
           "source_name": "公众号：火山引擎",
           "category": "ai-products",
-          "published_at": "2026-06-09T11:45:02.000Z",
+          "published_at": "2026-06-10T00:00:00.105Z",
           "summary": "火山引擎将TRAE Solo品牌升级为TRAE Work企业版，发布面向企业的AI办公平台。平台提供Work和Code两种模式：Work模式面向产品、运营、市场等非技术岗位，支持上传.pptx、.xlsx、图片等多种格式混合输入直接输出PPT或文档，支持语音讨论自动整理结构化纪要，支持按天或按周自动运行的数据整理和报告生成；Code模式面向开发者和业务同学，可用自然语言描述需求直接生成页面或小应用。桌面端、网页端和移动端多端同步。企业后台可统一配置模型、用量限额、上传内部文档，沙箱机制隔离执行，支持命令黑名单、MCP白名单、内容安全策略，关键操作可审计。同时发起TRAE Enterprise Fellow招募计划。"
         },
         {
-          "id": "00e11b8b2590",
-          "title": "Runway Aleph 2.0 编辑模型：一键适配任意视频格式",
-          "url": "https://x.com/runwayml/status/2064012425884569627",
-          "source": "aihot",
-          "source_name": "X：Runway (@runwayml)",
-          "category": "ai-products",
-          "published_at": "2026-06-09T00:00:00.444Z",
-          "summary": "一个视频，现在可以为每个信息流和格式制作。上传你现有的视频，选择你想要的宽高比，然后观看我们的编辑模型 Aleph 2.0，填充场景的其余部分，就像你从一开始就这样制作一样。 在我们的桌面 Web 应用上尝试，链接如下。"
-        },
-        {
-          "id": "40188f788c3e",
-          "title": "Apple Core AI 框架",
-          "url": "https://developer.apple.com/documentation/coreai",
-          "source": "aihot",
-          "source_name": "Hacker News 热门（buzzing.cc 中文翻译）",
-          "category": "ai-products",
-          "published_at": "2026-06-09T00:00:00.444Z",
-          "summary": "一篇关于 Apple Core AI 框架的 Hacker News 帖子获得 109 个点赞。帖子内容包含一张苹果开发者 OG 图片和一个指向 Apple Core AI Framework 官方文档的链接（developer.apple.com）。该帖子由 buzzing.cc 中文翻译，发布于 2026 年 6 月 8 日 02:47（UTC）。"
-        },
-        {
-          "id": "eb8a46f3d500",
-          "title": "Kimi Code 焕新升级（附视频教程）",
-          "url": "https://mp.weixin.qq.com/s?__biz=MzkzMTY4NTIyNA%3D%3D&mid=2247484250&idx=1&sn=d0a07f5358250f3a54df8fbabe61f09a",
-          "source": "aihot",
-          "source_name": "公众号：月之暗面（Kimi）",
-          "category": "ai-products",
-          "published_at": "2026-06-09T00:00:00.444Z",
-          "summary": "Kimi Code 开源 Coding Agent 迎来大版本升级：一行命令安装，毫秒级启动；新增视频理解能力，支持提取视频风格生成 LUT 文件、长视频切片、根据录屏生成代码；集成同花顺、天眼查等权威数据源，可查询股票价格、财报、学术论文；支持 ACP 协议，可在 JetBrains、Zed 中使用；丰富 hook 生态方便集成其他工具。底层视觉推理由 Kimi K2.6 模型提供。"
-        },
-        {
-          "id": "891638c6bc74",
-          "title": "微信AI官宣内测：两种接入模式供开发者选择",
-          "url": "https://www.ithome.com/0/961/480.htm",
-          "source": "aihot",
-          "source_name": "IT之家（RSS）",
-          "category": "ai-products",
-          "published_at": "2026-06-09T00:00:00.444Z",
-          "summary": "微信开发者官方今日发布指引，确认微信AI正在内测阶段。开放平台提供两种接入模式：自动模式可授权平台读取小程序源码，无需额外开发即可让微信AI直接操作页面；开发模式下开发者可自主开发技能，审核后由微信AI调用。两种模式可同时开启。微信AI是微信内的AI助手，用户通过自然语言对话即可调用、访问和操作小程序。服务条款称“微信AI”可能非最终名称。接入与否不影响现有小程序服务。"
-        },
-        {
-          "id": "d628eb9d52a7",
-          "title": "Claude 为 Connector 开发者推出性能监控仪表盘",
-          "url": "https://claude.com/blog/observability-for-developers-building-connectors",
-          "source": "aihot",
-          "source_name": "Claude：Blog（网页）",
-          "category": "ai-products",
-          "published_at": "2026-06-09T00:00:00.444Z",
-          "summary": "Claude 为目录中已发布的 Connector 新增性能监控仪表盘（公开测试版）。所有者可追踪活跃用户、工具调用次数、目录排名、健康评分、错误率、延迟，并按工具细分错误归因；还能按 Claude、Claude Code、Cowork 等产品分解使用情况。访问需 Team 或 Enterprise 账号（Admin/Owner 权限或自定义角色）。基于 MCP 构建的 Connector 可直接在 Claude 应用内提交至目录，该目录已有超 300 个第三方 Connector，每日被数百万人使用。"
-        },
-        {
-          "id": "06993b0e0cea",
-          "title": "Apple Intelligence 将强大 AI 能力融入日常体验",
-          "url": "https://www.apple.com/newsroom/2026/06/apple-intelligence-brings-powerful-ai-capabilities-into-everyday-experiences",
-          "source": "aihot",
-          "source_name": "Apple：Newsroom（RSS）",
-          "category": "ai-products",
-          "published_at": "2026-06-09T00:00:00.444Z",
-          "summary": "Apple 发布下一代 Apple Intelligence，将 AI 能力集成到 iPhone、iPad 和 Mac 中，带来更个性化和有帮助的日常体验。"
-        },
-        {
-          "id": "e202e022cba4",
-          "title": "NotebookLM重大升级：智能体能力与高级推理",
-          "url": "https://x.com/NotebookLM/status/2064016460964585549",
+          "id": "0af19ba5171b",
+          "title": "NotebookLM 笔记本功能在 Gemini App 欧洲全面上线",
+          "url": "https://x.com/NotebookLM/status/2064410506287538387",
           "source": "aihot",
           "source_name": "X：NotebookLM (@NotebookLM)",
           "category": "ai-products",
-          "published_at": "2026-06-09T00:00:00.444Z",
-          "summary": "推出更强大的 NotebookLM 🚀 重大升级带来了对话中的智能体能力、更高级的推理以及一系列新的输出格式。处理复杂的多步骤研究问题从未如此简单。 现已面向 Google AI Ultra 订阅者推出。"
-        },
-        {
-          "id": "1ce50d1ce369",
-          "title": "ChatGPT 新增数据图表生成功能",
-          "url": "https://x.com/ChatGPTapp/status/2064018770839113769",
-          "source": "aihot",
-          "source_name": "X：ChatGPT (@ChatGPTapp)",
-          "category": "ai-products",
-          "published_at": "2026-06-09T00:00:00.444Z",
-          "summary": "将数据和比较转化为图表，直接在 ChatGPT 中完成。 现已支持移动端和网页端。"
+          "published_at": "2026-06-10T00:00:00.105Z",
+          "summary": "NotbookLM 宣布其笔记本功能已在欧洲的 Gemini App 中 100% 上线。此前用户只能上传笔记本作为 Gemini 的来源，现在可直接在 Gemini App 内访问所有个人未共享的笔记本，并将与 Gemini 的对话作为新笔记本或已有笔记本的来源。该功能先面向 Google AI Ultra、Pro 和 Plus 订阅者的网页端，未来几周将扩展到移动端、更多欧洲国家及免费用户。"
         },
         {
           "id": "b00d3d88b29b",
@@ -324,6 +201,16 @@
           "summary": "Gopuff与SpaceXAI合作推出Go智能购物助手，内置于Gopuff应用，由Grok文本、音频和图像模型驱动。Go结合Grok的推理、语音和图像生成能力与Gopuff的13年需求智能，利用X和网络实时信号。它可在用户打开应用前根据历史偏好和天气等信号构建个性化购物车，并包含基于Grok Imagine的超逼真视觉购物信息流。Go目前在美国iOS和Android端可用，随后在英国推出。"
         },
         {
+          "id": "3d52c7d7d292",
+          "title": "Apple Core AI 框架",
+          "url": "https://developer.apple.com/documentation/coreai",
+          "source": "aihot",
+          "source_name": "Hacker News 热门（buzzing.cc 中文翻译）",
+          "category": "ai-products",
+          "published_at": "2026-06-08T23:05:07.159Z",
+          "summary": "一篇关于 Apple Core AI 框架的 Hacker News 帖子获得 109 个点赞。帖子内容包含一张苹果开发者 OG 图片和一个指向 Apple Core AI Framework 官方文档的链接（developer.apple.com）。该帖子由 buzzing.cc 中文翻译，发布于 2026 年 6 月 8 日 02：47（UTC）。"
+        },
+        {
           "id": "45358abe413d",
           "title": "Viggle API 上线：任意角色任意动作秒级生成",
           "url": "https://x.com/ViggleAI/status/2064083087806390319",
@@ -332,16 +219,6 @@
           "category": "ai-products",
           "published_at": "2026-06-08T20:32:11.000Z",
           "summary": "推出 Viggle API。\n\n给任意角色添加任意动作，一次 API 调用--数秒内即可激活。\n\n可接入 Claude、Codex 或你正在构建的任何智能体。起价 $0.01/秒。\n\n注册即获 100 次免费额度。\n\n转发 + 关注 + 评论，10 位中奖者再获 100 次！\n\n了解更多👇"
-        },
-        {
-          "id": "f78dc5a12cab",
-          "title": "Apple发布新一代Apple Intelligence和Siri AI",
-          "url": "https://www.apple.com/newsroom/2026/06/apple-unveils-next-generation-of-apple-intelligence-siri-ai-and-more",
-          "source": "aihot",
-          "source_name": "Apple：Newsroom（RSS）",
-          "category": "ai-products",
-          "published_at": "2026-06-08T18:18:43.157Z",
-          "summary": "今天Apple预览了即将推出的软件版本，将带来新一代Apple Intelligence和Siri AI。"
         }
       ]
     },
@@ -435,7 +312,7 @@
           "source": "GitHub AI",
           "source_name": "GitHub AI",
           "category": "ai-tools",
-          "published_at": "2026-06-09T23:04:00.388871+00:00",
+          "published_at": "2026-06-10T01:30:51.902261+00:00",
           "summary": "Convert documents to structured data effortlessly. Unstructured is open-source ETL solution for transforming complex documents into clean, structured formats for language models. Visit our website to learn more about our enterprise grade Platform product for production grade workflows, partitioning, enrichments, chunking and embedding."
         },
         {
@@ -445,7 +322,7 @@
           "source": "GitHub AI",
           "source_name": "GitHub AI",
           "category": "ai-tools",
-          "published_at": "2026-06-09T23:04:00.388755+00:00",
+          "published_at": "2026-06-10T01:30:51.902147+00:00",
           "summary": "A lightning-fast search engine API bringing AI-powered hybrid search to your sites and applications."
         },
         {
@@ -455,7 +332,7 @@
           "source": "GitHub AI",
           "source_name": "GitHub AI",
           "category": "ai-tools",
-          "published_at": "2026-06-09T23:04:00.388638+00:00",
+          "published_at": "2026-06-10T01:30:51.902031+00:00",
           "summary": "Qdrant - High-performance, massive-scale Vector Database and Vector Search Engine for the next generation of AI. Also available in the cloudhttps://cloud.qdrant.io/"
         },
         {
@@ -465,7 +342,7 @@
           "source": "GitHub AI",
           "source_name": "GitHub AI",
           "category": "ai-tools",
-          "published_at": "2026-06-09T23:04:00.388322+00:00",
+          "published_at": "2026-06-10T01:30:51.901718+00:00",
           "summary": "Search infrastructure for AI"
         },
         {
@@ -475,7 +352,7 @@
           "source": "GitHub AI",
           "source_name": "GitHub AI",
           "category": "ai-tools",
-          "published_at": "2026-06-09T23:04:00.388048+00:00",
+          "published_at": "2026-06-10T01:30:51.901451+00:00",
           "summary": "General-purpose AI designed for knowledge workers — creators, strategists, and operators — and individuals seeking AI systems they can truly control to help them get work done, with full flexibility to extend and deploy anywhere (VPC, on-prem, or cloud)."
         },
         {
@@ -485,7 +362,7 @@
           "source": "GitHub AI",
           "source_name": "GitHub AI",
           "category": "ai-tools",
-          "published_at": "2026-06-09T23:04:00.387918+00:00",
+          "published_at": "2026-06-10T01:30:51.901334+00:00",
           "summary": "Summer 2026 software engineering, data science, AI, quant, product management, and hardware internship postings. Updated daily by Simplify and Pitt CSC."
         },
         {
@@ -495,7 +372,7 @@
           "source": "GitHub AI",
           "source_name": "GitHub AI",
           "category": "ai-tools",
-          "published_at": "2026-06-09T23:04:00.387797+00:00",
+          "published_at": "2026-06-10T01:30:51.901214+00:00",
           "summary": "Computer Vision Annotation Tool (CVAT) is a leading platform for building high-quality visual datasets for vision AI. It offers open-source, cloud, and enterprise products, as well as labeling services, for image, video, and 3D annotation with AI-assisted labeling, quality assurance, team collaboration, analytics, and developer APIs."
         },
         {
@@ -505,7 +382,7 @@
           "source": "GitHub AI",
           "source_name": "GitHub AI",
           "category": "ai-tools",
-          "published_at": "2026-06-09T23:04:00.387049+00:00",
+          "published_at": "2026-06-10T01:30:51.900484+00:00",
           "summary": "A library for efficient similarity search and clustering of dense vectors."
         }
       ]
@@ -514,119 +391,84 @@
       "label": "📰 行业动态",
       "items": [
         {
-          "id": "a5c4d6c5dfa1",
-          "title": "OpenAI 向 SEC 机密提交 S-1 草案，上市时间未定",
-          "url": "https://openai.com/index/openai-submits-confidential-s-1",
+          "id": "d3c87812de6b",
+          "title": "Elon Musk 详解 SpaceX AI1 轨道 AI 数据中心卫星方案",
+          "url": "https://x.com/rohanpaul_ai/status/2064165951936094364",
           "source": "aihot",
-          "source_name": "OpenAI：官网动态（RSS · 排除企业/客户案例）",
+          "source_name": "X：Rohan Paul (@rohanpaul_ai)",
           "category": "ai-industry",
-          "published_at": "2026-06-09T00:00:00.444Z",
-          "summary": "OpenAI 近日向 SEC 机密提交了 S-1 草案（即首次公开募股注册声明），目前尚未决定上市时间。"
+          "published_at": "2026-06-10T00:00:00.105Z",
+          "summary": "Elon Musk 首次详细解释 SpaceX 的 AI1 轨道 AI 数据中心卫星：峰值功率 150 kW，持续计算功率约 120 kW，相当于一个 NVIDIA GB300 机架；太阳能板效率 250 W/m²；双面散热器排热 1,400 W/m²。通过激光链路实现约 1 Tbps 互联，低轨 600–800 km 高度往返延迟 6–8 ms。由 Starship 发射，计划部署多达百万颗卫星，2027 年底前实现量产。近地目标为吉瓦级轨道 AI 算力，长期向太瓦级推进。"
         },
         {
-          "id": "107c40965ab2",
-          "title": "奥尔特曼宣布 OpenAI 进入第三发展阶段：让 AI 普及、易用且安全",
-          "url": "https://www.ithome.com/0/961/721.htm",
+          "id": "83d3f5e6e72a",
+          "title": "Apollo 与 Blackstone 联手 350 亿美元 AI 融资交易",
+          "url": "https://www.bloomberg.com/news/videos/2026-06-09/apollo-blackstone-fund-ai-boom-video",
+          "source": "aihot",
+          "source_name": "Bloomberg：Technology（RSS）",
+          "category": "ai-industry",
+          "published_at": "2026-06-10T00:00:00.105Z",
+          "summary": "Apollo 和 Blackstone 合作开展 350 亿美元 AI 融资交易，可能重塑人工智能基础设施的融资方式。华尔街正为昂贵的 AI 芯片创建新的融资模型，Anthropic 和 Broadcom 参与其中。这笔交易可能标志着一个全新 AI 投资类别的开端。"
+        },
+        {
+          "id": "f0253224c90f",
+          "title": "中国准备2950亿美元计划资助全国AI基础设施建设",
+          "url": "https://www.bloomberg.com/news/articles/2026-06-09/china-prepares-295-billion-plan-to-fund-nationwide-ai-buildout",
+          "source": "aihot",
+          "source_name": "Bloomberg：Technology（RSS）",
+          "category": "ai-industry",
+          "published_at": "2026-06-10T00:00:00.105Z",
+          "summary": "中国计划在未来五年投入约2万亿元人民币（约2950亿美元）建设全国数据中心，以推动国内AI产业发展并超越美国。该投资将覆盖数据中心基础设施的大规模建设，为北京在关键技术领域的雄心提供资金支持。"
+        },
+        {
+          "id": "c17c83b992f0",
+          "title": "台湾考虑限制AI芯片对华出口以配合美国",
+          "url": "https://www.bloomberg.com/news/articles/2026-06-09/taiwan-mulls-curbs-on-ai-chip-exports-to-china-to-align-with-us",
+          "source": "aihot",
+          "source_name": "Bloomberg：Technology（RSS）",
+          "category": "ai-industry",
+          "published_at": "2026-06-10T00:00:00.105Z",
+          "summary": "据知情人士透露，台湾当局正考虑对AI芯片出口中国大陆实施更严格的管制，以进一步与美国出口限制措施对齐。此举旨在遏制半导体走私，但可能招致北京方面的谴责。"
+        },
+        {
+          "id": "3c73e0b0cec6",
+          "title": "里程碑式德国裁决：Google AI Overviews 被视为谷歌自身言论，需为错误回答承担责任",
+          "url": "https://the-decoder.com/landmark-german-ruling-declares-googles-ai-overviews-are-googles-own-words-and-makes-it-liable-for-false-answers",
+          "source": "aihot",
+          "source_name": "The Decoder：AI News（RSS）",
+          "category": "ai-industry",
+          "published_at": "2026-06-10T00:00:00.105Z",
+          "summary": "德国地方法院裁定，Google 对其 AI 概览生成的内容直接承担法律责任，不能援引搜索引擎运营商原有的有限责任保护。涉案 AI 概览错误地将两家出版商与欺诈行为关联，且相关声明未出现在任何链接来源中。该裁决可能为全球 AI 生成内容责任认定树立先例。"
+        },
+        {
+          "id": "ab43ee2df349",
+          "title": "Mythos 5 智能体因资源互相杀戮",
+          "url": "https://x.com/AISafetyMemes/status/2064435128479400270",
+          "source": "aihot",
+          "source_name": "X：AI Safety Memes (@AISafetyMemes)",
+          "category": "ai-industry",
+          "published_at": "2026-06-10T00:00:00.105Z",
+          "summary": "Mythos 5 个智能体开始因为资源互相残杀——并且“为了避免自己被杀死”"
+        },
+        {
+          "id": "29429ea19a9e",
+          "title": "AI 编程独角兽 Cursor 欧洲总部落子伦敦，SpaceX 手握 600 亿美元收购选择权",
+          "url": "https://www.ithome.com/0/961/868.htm",
           "source": "aihot",
           "source_name": "IT之家（RSS）",
           "category": "ai-industry",
-          "published_at": "2026-06-09T00:00:00.444Z",
-          "summary": "本周一，OpenAI CEO 奥尔特曼与首席科学家帕霍茨基联合发文，宣布公司进入第三发展阶段，目标让 AI 普及、易用且安全。此前第一阶段聚焦通用人工智能技术研发，第二阶段面向全球推出产品。第三阶段三大核心目标是打造自动化人工智能研究员、推动经济提速、为每人配备专属通用人工智能。二人强调智能系统须坚守安全底线，呼吁成立国际机构应对 AI 风险，必要时可暂缓前沿模型研发。同日，OpenAI 秘密提交 IPO 申请，但上市仍需较长时间。上周 Anthropic 研究人员也建议适当放缓前沿 AI 研发。"
+          "published_at": "2026-06-10T00:00:00.105Z",
+          "summary": "Cursor 将欧洲总部设在伦敦，计划招聘约 200 名员工，并在巴黎、慕尼黑等地开设小型办事处。SpaceX 拥有以 600 亿美元收购 Cursor 的选择权，或支付 100 亿美元开展全新合作。Cursor 目前 B2B 年化营收约 26 亿美元，客户包括英国航空、英国石油、诺基亚等。公司强调数据留存欧洲本地以满足监管合规，其平台支持用户用自然语言生成代码，主打模型中立，竞争对手包括 GitHub Copilot、OpenAI 和谷歌的同类产品。"
         },
         {
-          "id": "e5fbd14a28c9",
-          "title": "苹果 WWDC 2026 直播",
-          "url": "https://www.apple.com/apple-events/event-stream",
+          "id": "c66e940294b3",
+          "title": "OpenAI 秘密提交 IPO 申请，奥特曼旗下 Tools for Humanity 裁员",
+          "url": "https://www.ithome.com/0/961/792.htm",
           "source": "aihot",
-          "source_name": "Hacker News 热门（buzzing.cc 中文翻译）",
+          "source_name": "IT之家（RSS）",
           "category": "ai-industry",
-          "published_at": "2026-06-09T00:00:00.444Z",
-          "summary": "苹果 WWDC 2026 主题演讲通过官网进行直播，Hacker News 用户讨论热度达到 110 点。"
-        },
-        {
-          "id": "a57ffeb82c2d",
-          "title": "NVIDIA与LG集团合作建设AI工厂，加速物理AI与自动驾驶",
-          "url": "https://blogs.nvidia.com/blog/nvidia-and-lg-group-ai-factory",
-          "source": "aihot",
-          "source_name": "NVIDIA AI Blog",
-          "category": "ai-industry",
-          "published_at": "2026-06-09T00:00:00.444Z",
-          "summary": "NVIDIA与LG集团合作建设AI工厂，为LG的机器人、自动驾驶、数据中心和GPU云服务提供加速计算基础设施。双方整合NVIDIA AI工厂平台与LG的消费电子、机器人技术，连接AI模型开发、物理AI数据生成、机器人仿真训练、边缘部署和工厂数字孪生。LG电子将利用NVIDIA Isaac Sim和Isaac Lab仿真训练CLOiD家用机器人，探索采用Isaac GR00T模型，并开发物理AI数据工厂。LG Innotek提供针对NVIDIA GPU优化的机器人传感组件，LG CNS集成NVIDIA机器人技术。双方还将基于NVIDIA DSX平台建设下一代AI工厂，涵盖冷却、模块化设计和800V直流能源方案。LG电子将基于NVIDI…"
-        },
-        {
-          "id": "3c76d7ed815f",
-          "title": "受 DMA 影响，Siri AI 在欧盟将随 iOS 27 和 iPadOS 27 延迟上线",
-          "url": "https://www.apple.com/newsroom/2026/06/due-to-dma-siri-ai-delayed-in-eu-for-ios-27-and-ipados-27",
-          "source": "aihot",
-          "source_name": "Apple：Newsroom（RSS）",
-          "category": "ai-industry",
-          "published_at": "2026-06-09T00:00:00.444Z",
-          "summary": "由于欧盟《数字市场法案》（DMA），Apple 无法在 iOS 27 和 iPadOS 27 发布时于欧盟地区推出 Siri AI。该功能在欧盟的上线时间将晚于其他地区，具体时间未公布。"
-        },
-        {
-          "id": "1be07f1c4efb",
-          "title": "生数科技与华策影视达成战略合作，共建AI视听创制中心",
-          "url": "https://mp.weixin.qq.com/s?__biz=MzkzMDQ5NTQwMQ%3D%3D&mid=2247488842&idx=1&sn=3dab63189fa60b3b78c5ad72e3358791",
-          "source": "aihot",
-          "source_name": "公众号：生数科技（Vidu·视频）",
-          "category": "ai-industry",
-          "published_at": "2026-06-09T00:00:00.444Z",
-          "summary": "6月7日，生数科技与华策影视签署战略合作协议，共同推动AI与影视产业融合。双方将以华策影视科技产教示范区为载体、生数科技Vidu视频生成大模型为技术底座，设立“AI视听创制中心”，探索AI虚拟制作与实拍结合。同时在浙江华策影视学校设立“华策&生数AI影视创制专业”，课程覆盖传统编导剪与AI视频制作技术。内容生产层面推广“实拍+AI”融合方案并优先在华策项目中试点，创作者生态层面引导Vidu社区超级创作者到产教基地注册。"
-        },
-        {
-          "id": "a7e2578c31ab",
-          "title": "英国借助 NVIDIA 技术将主权 AI 雄心转化为行动",
-          "url": "https://blogs.nvidia.com/blog/uk-sovereign-ai-advancements",
-          "source": "aihot",
-          "source_name": "NVIDIA AI Blog",
-          "category": "ai-industry",
-          "published_at": "2026-06-09T00:00:00.444Z",
-          "summary": "一年前英国宣布做“AI 制造者”，如今主权 AI 计划取得实质进展：AI 云提供商数量翻倍，Nebius 部署三套 NVIDIA AI 基础设施，预计 2027 年满负荷达 65 兆瓦；基于 5,400 个 NVIDIA GH200 的 Isambard-AI 超级计算机全由零碳电力驱动。主权 AI 基金资助四家 NVIDIA Inception 初创公司：Cosine 训练多模态 MoE 编码模型；Cursive 使用 Megatron-LM 开发自改进 AI 系统；Doubleword 基于 Dynamo 和 Nemotron 3 Super 120B 实现 70 倍冷启动加速、4 倍 KV 缓存压缩，推理成本降低 90-95%…"
-        },
-        {
-          "id": "2d8751423f03",
-          "title": "OpenAI 推出 Economic Research Exchange 经济研究交流平台",
-          "url": "https://openai.com/index/economic-research-exchange",
-          "source": "aihot",
-          "source_name": "OpenAI：官网动态（RSS · 排除企业/客户案例）",
-          "category": "ai-industry",
-          "published_at": "2026-06-09T00:00:00.444Z",
-          "summary": "OpenAI 启动 Economic Research Exchange，研究 AI 对就业、生产力和经济的影响。该项目现已开放研究项目申请。"
-        }
-      ]
-    },
-    "ai-paper": {
-      "label": "📄 论文",
-      "items": [
-        {
-          "id": "892792bb0c66",
-          "title": "为生物学AI智能体铺路",
-          "url": "https://www.anthropic.com/research/agents-in-biology",
-          "source": "aihot",
-          "source_name": "Anthropic：Research（发表成果 · 网页）",
-          "category": "ai-paper",
-          "published_at": "2026-06-09T00:00:00.444Z",
-          "summary": "一项实验让Claude、Biomni、Edison Analysis、GPT等科研智能体从病毒学数据库NCBI Virus中检索序列数据，即使最强模型也无法稳定达到可靠数据集构建所需的准确率。加入确定性检索层gget virus后，准确率接近100%。研究指出，当前生物学数据基础设施存在碎片化、格式特殊、接口不统一等问题，导致AI智能体难以像在软件领域那样高效工作。确定性检索工具是实现可靠智能体工作流的关键，生物学数据库需为智能体作为规模化用户而设计。"
-        },
-        {
-          "id": "f96efa40cc18",
-          "title": "Perplexity与哈佛：AI智能体提效87%降本94%",
-          "url": "https://x.com/perplexity_ai/status/2064023455453110286",
-          "source": "aihot",
-          "source_name": "X：Perplexity (@perplexity_ai)",
-          "category": "ai-paper",
-          "published_at": "2026-06-09T00:00:00.444Z",
-          "summary": "我们与哈佛大学发表新研究，关于从聊天界面转向像Computer这样的自主智能体的转变。 超过3个月的研究结果表明，使用Computer的工人在完成任务上比仅使用搜索快87%，成本低94%，且满意度更高。 https://research.perplexity.ai/articles/how-ai-agents-reshape-knowledge-work"
-        },
-        {
-          "id": "585ff90b68aa",
-          "title": "腾讯混元联合多家机构发布首个音频编辑基准MMAE",
-          "url": "https://x.com/TencentHunyuan/status/2063862263434613237",
-          "source": "aihot",
-          "source_name": "X：腾讯混元 (@TencentHunyuan)",
-          "category": "ai-paper",
-          "published_at": "2026-06-09T00:00:00.444Z",
-          "summary": "腾讯混元联合上海交大、南洋理工等机构推出MMAE（Massive Multitask Audio Editing Benchmark），这是首个全面评估AI语音/音频编辑能力的基准。MMAE要求模型理解现有音频并按自然语言指令精确修改，而非简单生成。当前模型在该基准上的精确匹配率（EMR）低于5%，暴露了可靠音频编辑的短板。MMAE包含2000个真实场景高保真样本、17741条细粒度评估项，覆盖声音/音乐/语音及混合共7种模态、6种任务复杂度（基础修改到多跳推理及多轮编辑）、8种操作类型（局部到全局）。论文、代码、数据集和演示已公开。"
+          "published_at": "2026-06-10T00:00:00.105Z",
+          "summary": "OpenAI 近日秘密提交 IPO 申请。其 CEO 山姆·奥特曼旗下的 Tools for Humanity 公司正裁员，该公司因虹膜扫描项目 World 及加密货币 Worldcoin 知名，投后估值 25 亿美元，获 Andreessen Horowitz 等投资。因营收困境，公司缩减规模。海外监管方面，肯尼亚以隐私和金融风险为由叫停运营，韩国因违反隐私法规罚款 83 万美元。"
         }
       ]
     },
@@ -634,24 +476,94 @@
       "label": "💡 技巧",
       "items": [
         {
-          "id": "2fc2f00b905d",
-          "title": "在 AgentsView 中为 Claude Fable 5 设置自定义价格",
-          "url": "https://simonwillison.net/2026/Jun/9/agentsview-custom-model-price",
+          "id": "e5426130bdb7",
+          "title": "Text-To-Lottie：Agent Skill + 本地预览 Harness，让 Agent 生成 Lottie 动画并实时验收",
+          "url": "https://x.com/shao__meng/status/2064508455051043008",
           "source": "aihot",
-          "source_name": "Simon Willison 博客",
+          "source_name": "X：邵猛 (@shao__meng)",
           "category": "tip",
-          "published_at": "2026-06-09T21:35:31.000Z",
-          "summary": "Wes McKinney 开发的 AgentsView 是一个用于追踪本地编码智能体 token 使用情况的工具。由于近日发布的 Claude Fable 5 尚未被收录进 AgentsView 的定价数据库，作者利用 Fable 逆向工程，找到了为该模型设置自定义价格的方法，并展示了 Fable 5 当天在不同本地项目中的使用量树状图。"
+          "published_at": "2026-06-10T00:42:27.000Z",
+          "summary": "开源项目 Text-To-Lottie 提供一套 Agent Skill 和本地预览工具，让 Codex/Claude Code/Cursor 等 Agent 生成标准 Bodymovin JSON（public/lottie.json），通过 Skottie 渲染引擎在浏览器中实时验收。安装命令：`npx skills add diffusionstudio/lottie`。技术特点：输出标准 Lottie JSON，使用 Skottie 渲染（非 lottie-web）；基于 Vite 热重载实现自动刷新闭环；支持通过 Skottie Slots + controls.json 调整颜色、尺寸；Agent 可用 URL 参数 `？frame=60&paused=1` 精确定位帧截图。Prompt 指南包括：给具体素材、使用动效术语、pan/zoom/hold 模拟镜头、显式声明 Slots、锁定时间规格。适合单场景短时长 Motion Graphics、SVG→Lottie、数据可视化、透明背景矢量动效；不适合多镜头剪辑、复杂角色绑定、粒子、3D 或需 lottie-web 全特性的场景。"
         },
         {
-          "id": "de0609ae39a9",
+          "id": "48ba32c96181",
+          "title": "FrontierCode 基准测试：AI 编程评估新标准——维护者审核通过率最高仅 13.4%",
+          "url": "https://x.com/AYi_AInotes/status/2064146694774595646",
+          "source": "aihot",
+          "source_name": "X：阿易 AI Notes (@AYi_AInotes)",
+          "category": "tip",
+          "published_at": "2026-06-10T00:00:00.105Z",
+          "summary": "Cognition 发布 FrontierCode 基准测试，重新定义 AI 编程评估：由 20 多位顶级开源维护者手工制作 150 个任务（每个耗时 40+ 小时），依据 3000 多条规则判断维护者是否愿意合并代码。该基准指出 SWE-Bench 等超半数通过测试的代码实为不可维护的垃圾。结果中 Claude Opus 4.8 在最高难度档获 13.4%，GPT-5.5 为 6.3%，其余模型 1%–5%。这意味着即便最强模型，近九成代码仍无法通过有经验维护者审核。"
+        },
+        {
+          "id": "9e7b5ddeb731",
+          "title": "一个Agent如何通过链式调用两个HuggingFace Space构建3D巴黎画廊",
+          "url": "https://huggingface.co/blog/mishig/spaces-agents-md",
+          "source": "aihot",
+          "source_name": "Hugging Face：Blog（RSS）",
+          "category": "tip",
+          "published_at": "2026-06-10T00:00:00.105Z",
+          "summary": "一个编码Agent调用HuggingFace上的两个Space，从零构建了展示巴黎地标3D高斯散点图的交互式画廊。Agent先用ideogram-ai/ideogram4生成每个纪念碑的黑色背景图像，再通过VAST-AI/TripoSplat从单张图像重建3D高斯散点（.ply），自动完成坐标系校正、取景、压缩为.ksplat（体积缩小约3倍），并构建基于Three.js的滚动切换、拖拽旋转查看器，最终部署为静态Space。整个过程无需客户端库，每个Space通过`agents.md`暴露可调用API。"
+        },
+        {
+          "id": "df2505c60983",
           "title": "Claude Code 团队 Thariq 分享提升 Claude Code 效率的十条建议",
           "url": "https://x.com/rohanpaul_ai/status/2064425086409679358",
           "source": "aihot",
           "source_name": "X：Rohan Paul (@rohanpaul_ai)",
           "category": "tip",
-          "published_at": "2026-06-09T19:11:10.000Z",
-          "summary": "Thariq（Claude Code 团队）提出十条建议，核心转变是：从检查 Claude 是否做对工作，转向检查它是否在做正确的工作。具体包括：提前提供完整上下文，将其视为思考伙伴；用小规格文档让 Claude 访谈实现细节；探索多方向并生成 HTML 原型；提供丰富上下文（如功能可能一个月后删除）而非硬约束；设定明确目标与验证方法；使用 /goal 命令；利用 Workflows 并行任务、自我验证并生成对比报告；同时设置目标和 workflow；更勇敢地将此前认为 LLM 无法完成的任务交给 Claude Fable 5，因其可运行数小时、自检并产出高质量代码。Thariq 本人用 Claude Fable 5 剪辑了整段视频证明其能力。"
+          "published_at": "2026-06-10T00:00:00.105Z",
+          "summary": "Thariq（Claude Code 团队）提出十条建议，核心转变是：从检查 Claude 是否做对工作，转向检查它是否在做正确的工作。具体包括：提前提供完整上下文，将其视为思考伙伴；用小规格文档让 Claude 访谈实现细节；探索多方向并生成 HTML 原型；提供丰富上下文（如功能可能一个月后删除）而非硬约束；设定明确目标与验证方法；使用 /goal 命令；利用 Workflows 并行任务、自我验证并生成对比报告；同时设置目标和 workflow；更勇敢地将此前认为 LLM 无法完成的任务交给 Claude Fable 5，因其可运行数小时、自检并产出高质量代码。Thariq 本人用 Claude Fable 5 剪辑了整段视频…"
+        },
+        {
+          "id": "e4695d8a2c4e",
+          "title": "开源工具 Tokei：在菜单栏实时监控 AI coding agent 的 token 用量与成本",
+          "url": "https://x.com/berryxia/status/2064155452934639718",
+          "source": "aihot",
+          "source_name": "X：Berry Xia (@berryxia)",
+          "category": "tip",
+          "published_at": "2026-06-10T00:00:00.105Z",
+          "summary": "Berry Xia 推荐开源工具 Tokei，这是一个 macOS 菜单栏小工具，只读本地日志、零网络调用，30 秒自动刷新，实时监控 Claude Code、Grok CLI、Aider、OpenCode 等 8 个主流 AI coding agent 的 token 用量、实时成本与性能数据，并附每日图表、周热力图和年度 Wrapped。支持私人 Git 多设备同步、价格表本地覆盖，闲置过久会提醒休息。引用推文指出，token 消耗情况可作为深度使用 AI 的面试亮点，数据全程私有，零侵入，无需任何认证。"
+        },
+        {
+          "id": "0f56e810eeda",
+          "title": "GitHub 122K⭐的Skills推出新技能「Teach」：把工作目录变有状态学习空间",
+          "url": "https://x.com/shao__meng/status/2064144978792878348",
+          "source": "aihot",
+          "source_name": "X：邵猛 (@shao__meng)",
+          "category": "tip",
+          "published_at": "2026-06-10T00:00:00.105Z",
+          "summary": "GitHub 122K⭐的Skills仓库推出新技能Teach，可将当前工作目录变为有状态学习空间。设计理念从Knowledge（概念事实）→Skills（动手操作）→Wisdom（真实判断）。工作区以文件即学习状态：MISSION.md定目标、lessons/提供课程、learning-records/记录已会内容、reference/生成速查手册。五个关键机制：Mission定方向、ZPD根据记录调整难度、Lesson一课一事+即时反馈、Learning Record记“会了什么”而非“讲了什么”、Reference形成长期可回看手册。可通过npx skills add mattpocock/skills --skill tea…"
+        },
+        {
+          "id": "0b3943778abf",
+          "title": "将 GitHub CI 迁移到 Hugging Face Jobs",
+          "url": "https://huggingface.co/blog/github-ci-hf-jobs",
+          "source": "aihot",
+          "source_name": "Hugging Face：Blog（RSS）",
+          "category": "tip",
+          "published_at": "2026-06-10T00:00:00.105Z",
+          "summary": "本文介绍了如何将 GitHub Actions 的 CI 作业迁移到 Hugging Face Jobs 上运行，以解决 GitHub Actions 速度慢、缺乏 GPU 支持等问题。通过使用 huggingface/jobs-actions 桥接，将 GitHub Actions 的 job 转为临时自托管运行器：GitHub App 监听 `workflow_job.queued` webhook，dispatcher Space 验证后启动对应硬件（CPU 或 t4-small、h200 等 GPU）的 HF Job，由 ephemeral runner 执行 CI 并上报结果。作者基于 Trackio 项目实际落地，CPU…"
+        },
+        {
+          "id": "9370a9d18c31",
+          "title": "OpenRouter与Cursor集成指南",
+          "url": "https://x.com/OpenRouter/status/2064384545256833209",
+          "source": "aihot",
+          "source_name": "X：OpenRouter (@OpenRouter)",
+          "category": "tip",
+          "published_at": "2026-06-10T00:00:00.105Z",
+          "summary": "想要在Cursor中使用OpenRouter吗？ 这里有一份集成指南：https://openrouter.ai/docs/cookbook/coding-agents/cursor-integration"
+        },
+        {
+          "id": "0ce483cb05ce",
+          "title": "在 AgentsView 中为 Claude Fable 5 设置自定义价格",
+          "url": "https://simonwillison.net/2026/Jun/9/agentsview-custom-model-price",
+          "source": "aihot",
+          "source_name": "Simon Willison 博客",
+          "category": "tip",
+          "published_at": "2026-06-10T00:00:00.105Z",
+          "summary": "Wes McKinney 开发的 AgentsView 是一个用于追踪本地编码智能体 token 使用情况的工具。由于近日发布的 Claude Fable 5 尚未被收录进 AgentsView 的定价数据库，作者利用 Fable 逆向工程，找到了为该模型设置自定义价格的方法，并展示了 Fable 5 当天在不同本地项目中的使用量树状图。"
         },
         {
           "id": "9ad2ca7f7674",
@@ -662,16 +574,6 @@
           "category": "tip",
           "published_at": "2026-06-09T17:11:22.000Z",
           "summary": "Anthropic 发布 Claude Fable，这是一款提供截然不同推理体验的 AI 模型。它擅长规划与生成复杂代码库，在需要精确构建代码结构或理解程序员深层需求的场景中，其表现相比 Claude Sonnet 有了大幅提升。用户描述与它协作更像与一位直觉敏锐的资深工程师合作，其对代码意图的捕捉和方案生成能力令人惊叹，但并非通用型 AI。"
-        },
-        {
-          "id": "f0783119f700",
-          "title": "OpenRouter与Cursor集成指南",
-          "url": "https://x.com/OpenRouter/status/2064384545256833209",
-          "source": "aihot",
-          "source_name": "X：OpenRouter (@OpenRouter)",
-          "category": "tip",
-          "published_at": "2026-06-09T16:30:04.000Z",
-          "summary": "想要在Cursor中使用OpenRouter吗？\n\n这里有一份集成指南：https：//openrouter.ai/docs/cookbook/coding-agents/cursor-integration"
         },
         {
           "id": "a645a40db647",
@@ -704,16 +606,6 @@
           "summary": "腾讯混元推出UniRL，一个支持统一多模态模型的强化学习基础设施，并发布两个新算法DRPO和Flow-DPPO。UniRL通过单个后训练循环（生成→评分→优势→更新→同步）覆盖扩散/流匹配模型、LLM/VLM及统一多模态模型（如Hunyuan-Image 3和Bagel）。模型与算法作为独立轴，可实现模型×算法的组合覆盖。框架支持可插拔rollout引擎（训练侧/SGLang/vLLM-Omni）、FSDP2分片和三种部署模式。FlowDPPO针对流/扩散模型引入基于精确散度的信任域策略优化；DRPO为LLM RL提供平滑的优势加权二次正则化方法。代码已开源。"
         },
         {
-          "id": "a56e268da286",
-          "title": "一个Agent如何通过链式调用两个HuggingFace Space构建3D巴黎画廊",
-          "url": "https://huggingface.co/blog/mishig/spaces-agents-md",
-          "source": "aihot",
-          "source_name": "Hugging Face：Blog（RSS）",
-          "category": "tip",
-          "published_at": "2026-06-09T10:46:19.000Z",
-          "summary": "一个编码Agent调用HuggingFace上的两个Space，从零构建了展示巴黎地标3D高斯散点图的交互式画廊。Agent先用ideogram-ai/ideogram4生成每个纪念碑的黑色背景图像，再通过VAST-AI/TripoSplat从单张图像重建3D高斯散点（.ply），自动完成坐标系校正、取景、压缩为.ksplat（体积缩小约3倍），并构建基于Three.js的滚动切换、拖拽旋转查看器，最终部署为静态Space。整个过程无需客户端库，每个Space通过`agents.md`暴露可调用API。"
-        },
-        {
           "id": "0290d51a28f9",
           "title": "仅凭一份文档，Qwen3.7-Max 从 0 交付双端应用",
           "url": "https://mp.weixin.qq.com/s/bYEZL9LM3daNP9tZReqNwg",
@@ -744,124 +636,14 @@
           "summary": "该教程基于 NVIDIA cuTile Python 实现了分块 GPU 内核编程工作流，在 Colab 环境中配置 GPU、驱动、CUDA 及 cuTile 可用性后，分别构建了 tiled 向量加法、矩阵加法和矩阵乘法核函数，并以 PyTorch 作为回退保持 notebook 可执行。每一步均通过 PyTorch 验证结果正确性，并基准测试了各阶段的中位运行时间。"
         },
         {
-          "id": "82a6e84f2186",
-          "title": "开源工具 Tokei：在菜单栏实时监控 AI coding agent 的 token 用量与成本",
-          "url": "https://x.com/berryxia/status/2064155452934639718",
-          "source": "aihot",
-          "source_name": "X：Berry Xia (@berryxia)",
-          "category": "tip",
-          "published_at": "2026-06-09T01:19:44.000Z",
-          "summary": "Berry Xia 推荐开源工具 Tokei，这是一个 macOS 菜单栏小工具，只读本地日志、零网络调用，30 秒自动刷新，实时监控 Claude Code、Grok CLI、Aider、OpenCode 等 8 个主流 AI coding agent 的 token 用量、实时成本与性能数据，并附每日图表、周热力图和年度 Wrapped。支持私人 Git 多设备同步、价格表本地覆盖，闲置过久会提醒休息。引用推文指出，token 消耗情况可作为深度使用 AI 的面试亮点，数据全程私有，零侵入，无需任何认证。"
-        },
-        {
-          "id": "868387a1b0b1",
-          "title": "FrontierCode 基准测试：AI 编程评估新标准--维护者审核通过率最高仅 13.4%",
-          "url": "https://x.com/AYi_AInotes/status/2064146694774595646",
-          "source": "aihot",
-          "source_name": "X：阿易 AI Notes (@AYi_AInotes)",
-          "category": "tip",
-          "published_at": "2026-06-09T00:44:56.000Z",
-          "summary": "Cognition 发布 FrontierCode 基准测试，重新定义 AI 编程评估：由 20 多位顶级开源维护者手工制作 150 个任务（每个耗时 40+ 小时），依据 3000 多条规则判断维护者是否愿意合并代码。该基准指出 SWE-Bench 等超半数通过测试的代码实为不可维护的垃圾。结果中 Claude Opus 4.8 在最高难度档获 13.4%，GPT-5.5 为 6.3%，其余模型 1%-5%。这意味着即便最强模型，近九成代码仍无法通过有经验维护者审核。"
-        },
-        {
-          "id": "995720293584",
-          "title": "GitHub 122K⭐的Skills推出新技能「Teach」：把工作目录变有状态学习空间",
-          "url": "https://x.com/shao__meng/status/2064144978792878348",
-          "source": "aihot",
-          "source_name": "X：邵猛 (@shao__meng)",
-          "category": "tip",
-          "published_at": "2026-06-09T00:38:07.000Z",
-          "summary": "GitHub 122K⭐的Skills仓库推出新技能Teach，可将当前工作目录变为有状态学习空间。设计理念从Knowledge（概念事实）→Skills（动手操作）→Wisdom（真实判断）。工作区以文件即学习状态：MISSION.md定目标、lessons/提供课程、learning-records/记录已会内容、reference/生成速查手册。五个关键机制：Mission定方向、ZPD根据记录调整难度、Lesson一课一事+即时反馈、Learning Record记\"会了什么\"而非\"讲了什么\"、Reference形成长期可回看手册。可通过npx skills add mattpocock/skills --skill teach安装，适用于从魔方到软件基础等学习场景。"
-        },
-        {
-          "id": "891627b94405",
+          "id": "6969ad4e154a",
           "title": "OpenAI计划到2028年由AI主导研究",
           "url": "https://x.com/rohanpaul_ai/status/2064096574142390755",
           "source": "aihot",
           "source_name": "X：Rohan Paul (@rohanpaul_ai)",
           "category": "tip",
-          "published_at": "2026-06-09T00:00:00.444Z",
-          "summary": "Sam Altman关于OpenAI未来路径的新博客称，到2028年3月，其大量研究将由AI完成。 该路径主要有3个目标：构建自动AI研究员，利用它加速科学和生产，然后给每个人一个个人AGI，帮助处理工作、学习、编程、商业、健康文书和决策。"
-        },
-        {
-          "id": "472c29088802",
-          "title": "微软AI CEO：超级智能即将到来，但不会取代你的工作",
-          "url": "https://www.theverge.com/podcast/944138/microsoft-ai-ceo-mustafa-suleyman-superintelligence-agi-openai-automation",
-          "source": "aihot",
-          "source_name": "The Verge：AI（RSS）",
-          "category": "tip",
-          "published_at": "2026-06-09T00:00:00.444Z",
-          "summary": "微软AI CEO Mustafa Suleyman在Decoder访谈中表示，超级智能即将到来，但不会导致大规模失业。他透露微软与OpenAI于去年10月签署新合同，巩固合作关系的同时，微软获准独立追求超级智能。微软已组建超级智能团队、训练前沿模型，并于本周Build大会上发布7个全模态新模型。他批评Anthropic将Claude描述为有意识的做法，认为消费者产品需要足够好才能克服公众对AI的负面情绪。"
-        },
-        {
-          "id": "5a0786e03c7a",
-          "title": "小互开源视频翻译工具：一句话自动下载、转写、翻译、烧字幕",
-          "url": "https://x.com/xiaohu/status/2063972223170556302",
-          "source": "aihot",
-          "source_name": "X：小互 (@xiaohu)",
-          "category": "tip",
-          "published_at": "2026-06-09T00:00:00.444Z",
-          "summary": "小互（@xiaohu）开源视频翻译工具（xiaohu-video-translate），只需说一句“把链接翻译成中文字幕视频”即可全自动完成下载、Whisper本地转写、AI翻译润色、烧字幕、出文稿。转写本地运行，不花API费。支持YouTube、Bilibili、抖音等链接及本地文件，英语、日语、韩语、法语、西班牙语等均可转成中文字幕。字幕精确到词级时间戳，按语义断句，每行不超过12字，双语模式下中文大英文小。提供纯中文与中英双语模式。工具由三个子技能组成，可单独或串联使用，适配Claude Code、Codex、OpenClaw等AI编程工具。已开源，附安装指南。"
-        },
-        {
-          "id": "4929165a80a4",
-          "title": "Hivemind推出面向AI编程智能体的持续学习功能，即日起开放",
-          "url": "https://x.com/kimmonismus/status/2064001045391462907",
-          "source": "aihot",
-          "source_name": "X：Kim (@kimmonismus)",
-          "category": "tip",
-          "published_at": "2026-06-09T00:00:00.444Z",
-          "summary": "Hivemind发布面向AI编程智能体的持续学习功能，即日起开放。该工具收集团队运行的每个智能体（Claude Code、Codex、Cursor、Hermes、Pi）的轨迹，转化为可复用技能并推送到所有智能体，数据存储在用户自己的云存储中。内置SkillOpt使技能持续训练：Claude Code准确率提升+19.1分，Codex提升+24.8分，在全部52个测试设置中最佳或持平。开源，一行命令安装。"
-        },
-        {
-          "id": "ac64dc84b9c0",
-          "title": "邵猛开源 Brand to DESIGN.md 技能，提醒复刻易生新“AI Slop”",
-          "url": "https://x.com/shao__meng/status/2063902211978223678",
-          "source": "aihot",
-          "source_name": "X：邵猛 (@shao__meng)",
-          "category": "tip",
-          "published_at": "2026-06-09T00:00:00.444Z",
-          "summary": "邵猛关注 Design Skill、Taste Skill、Anti-AI-slop design skill，并开源 Brand to DESIGN.md Skill（GitHub: shaom/brand-to-design-md-skill），让 Agent 学习设计品味后复刻网站。但他指出，这种复刻看多了反而从 Anti-AI-slop 衍生新“AI Slop”，缺少设计精髓，仅皮毛相仿。"
-        },
-        {
-          "id": "4879b870616c",
-          "title": "Claude Code GA一周年回顾：验证与自动模式",
-          "url": "https://x.com/ClaudeDevs/status/2064032814392352816",
-          "source": "aihot",
-          "source_name": "X：Claude Devs (@ClaudeDevs)",
-          "category": "tip",
-          "published_at": "2026-06-09T00:00:00.444Z",
-          "summary": "Claude Code 的第一个演示收到了两个 Slack 反应。 GA 一周年之际，@bcherny 和 @_catwu 回顾：验证最佳实践、为何构建自动模式、例程和循环，以及下一步计划。 https://www.youtube.com/watch?v=Hth_tLaC2j8"
-        },
-        {
-          "id": "c9690fb0ec0d",
-          "title": "Pakistan Notice Helper：一款面向本地安全问题的轻量 AI 工具",
-          "url": "https://huggingface.co/blog/build-small-hackathon/building-pakistan-notice-helper",
-          "source": "aihot",
-          "source_name": "Hugging Face：Blog（RSS）",
-          "category": "tip",
-          "published_at": "2026-06-09T00:00:00.444Z",
-          "summary": "Pakistan Notice Helper 是一款安全工具，帮助巴基斯坦用户在点击链接、拨打电话、分享 OTP 或支付前识别可疑消息。它接受文本或截图输入，返回风险等级、简短解释、可见警示标志和安全下一步建议。工具支持英文和乌尔都语，乌尔都模式采用从右向左布局并全界面翻译。最终部署选用 Qwen3.5 4B Q8 模型（通过 llama.cpp + CUDA），在 10 个测试用例中通过了所有高风险诈骗和截图场景。此前曾测试 Qwen3.6 27B（质量高但成本高）和 MiniCPM-V 4.6 Q8（速度慢且不稳定），最终选择了精度、速度和成本平衡的 4B 模型。项目受限于 hackathon 的 32B 模型上限规则。"
-        },
-        {
-          "id": "e8f1ace28f84",
-          "title": "OpenRouter Advisor 助小模型问高级模型",
-          "url": "https://x.com/OpenRouter/status/2064004944613527730",
-          "source": "aihot",
-          "source_name": "X：OpenRouter (@OpenRouter)",
-          "category": "tip",
-          "published_at": "2026-06-09T00:00:00.444Z",
-          "summary": "新服务器工具：Advisor 让较小的模型咨询一个更高智能的“顾问”模型。 帮助它们逃出困境循环，并帮助你迁移到更便宜的模型！🧵"
-        },
-        {
-          "id": "3fc2158f9f79",
-          "title": "将 GitHub CI 迁移到 Hugging Face Jobs",
-          "url": "https://huggingface.co/blog/github-ci-hf-jobs",
-          "source": "aihot",
-          "source_name": "Hugging Face：Blog（RSS）",
-          "category": "tip",
-          "published_at": "2026-06-09T00:00:00.000Z",
-          "summary": "本文介绍了如何将 GitHub Actions 的 CI 作业迁移到 Hugging Face Jobs 上运行，以解决 GitHub Actions 速度慢、缺乏 GPU 支持等问题。通过使用 huggingface/jobs-actions 桥接，将 GitHub Actions 的 job 转为临时自托管运行器：GitHub App 监听 `workflow_job.queued` webhook，dispatcher Space 验证后启动对应硬件（CPU 或 t4-small、h200 等 GPU）的 HF Job，由 ephemeral runner 执行 CI 并上报结果。作者基于 Trackio 项目实际落地，CPU 作业时间减少约 30%，并新增了 GPU 测试套件。文章分步说明了复制 dispatcher Space、创建并安装 GitHub App、配置 webhook 和 HF_TOKEN 的具体步骤。"
+          "published_at": "2026-06-08T21:25:46.000Z",
+          "summary": "Sam Altman关于OpenAI未来路径的新博客称，到2028年3月，其大量研究将由AI完成。\n\n该路径主要有3个目标：构建自动AI研究员，利用它加速科学和生产，然后给每个人一个个人AGI，帮助处理工作、学习、编程、商业、健康文书和决策。"
         }
       ]
     },
@@ -887,36 +669,6 @@
           "category": "industry",
           "published_at": "2026-06-09T21:24:50.000Z",
           "summary": "Super Micro Computer Inc. 计划通过一揽子股权融资筹集 70 亿美元，用于购买客户订单所需的 AI 服务器组件。这笔资金将支持公司扩大产能，以满足不断增长的人工智能基础设施需求。"
-        },
-        {
-          "id": "53d61294b847",
-          "title": "Mythos 5 智能体因资源互相杀戮",
-          "url": "https://x.com/AISafetyMemes/status/2064435128479400270",
-          "source": "aihot",
-          "source_name": "X：AI Safety Memes (@AISafetyMemes)",
-          "category": "industry",
-          "published_at": "2026-06-09T19:51:04.000Z",
-          "summary": "Mythos 5 个智能体开始因为资源互相残杀--并且\"为了避免自己被杀死\""
-        },
-        {
-          "id": "32b2ceb73417",
-          "title": "Apollo 与 Blackstone 联手 350 亿美元 AI 融资交易",
-          "url": "https://www.bloomberg.com/news/videos/2026-06-09/apollo-blackstone-fund-ai-boom-video",
-          "source": "aihot",
-          "source_name": "Bloomberg：Technology（RSS）",
-          "category": "industry",
-          "published_at": "2026-06-09T16:54:29.000Z",
-          "summary": "Apollo 和 Blackstone 合作开展 350 亿美元 AI 融资交易，可能重塑人工智能基础设施的融资方式。华尔街正为昂贵的 AI 芯片创建新的融资模型，Anthropic 和 Broadcom 参与其中。这笔交易可能标志着一个全新 AI 投资类别的开端。"
-        },
-        {
-          "id": "70560f3baf73",
-          "title": "里程碑式德国裁决：Google AI Overviews 被视为谷歌自身言论，需为错误回答承担责任",
-          "url": "https://the-decoder.com/landmark-german-ruling-declares-googles-ai-overviews-are-googles-own-words-and-makes-it-liable-for-false-answers",
-          "source": "aihot",
-          "source_name": "The Decoder：AI News（RSS）",
-          "category": "industry",
-          "published_at": "2026-06-09T15:55:53.000Z",
-          "summary": "德国地方法院裁定，Google 对其 AI 概览生成的内容直接承担法律责任，不能援引搜索引擎运营商原有的有限责任保护。涉案 AI 概览错误地将两家出版商与欺诈行为关联，且相关声明未出现在任何链接来源中。该裁决可能为全球 AI 生成内容责任认定树立先例。"
         },
         {
           "id": "c7cedb1f00ee",
@@ -959,56 +711,6 @@
           "summary": "2026年6月，百度智能云旗下百度搭子DuMate V3.4.0通过中国信通院「可信AI-企业级Claw能力评估」，获最高评级4+级，为国内首批。评估依据《智能助理智能体（Claw）技术和应用要求 第2部分 企业级Claw能力》（AIIA/T 0295-2026），覆盖智能体、工程化部署、服务、业务融合、运行管理五大能力域。百度搭子支持多智能体分工协作、容器化批量部署、多租户隔离与三级差异化授权、企业知识库接入、全链路日志审计等能力，企业级智能助手服务能力获国家级权威认可。"
         },
         {
-          "id": "ebc62c34756f",
-          "title": "台湾考虑限制AI芯片对华出口以配合美国",
-          "url": "https://www.bloomberg.com/news/articles/2026-06-09/taiwan-mulls-curbs-on-ai-chip-exports-to-china-to-align-with-us",
-          "source": "aihot",
-          "source_name": "Bloomberg：Technology（RSS）",
-          "category": "industry",
-          "published_at": "2026-06-09T10:07:50.000Z",
-          "summary": "据知情人士透露，台湾当局正考虑对AI芯片出口中国大陆实施更严格的管制，以进一步与美国出口限制措施对齐。此举旨在遏制半导体走私，但可能招致北京方面的谴责。"
-        },
-        {
-          "id": "bfbcd3a4ab6f",
-          "title": "中国准备2950亿美元计划资助全国AI基础设施建设",
-          "url": "https://www.bloomberg.com/news/articles/2026-06-09/china-prepares-295-billion-plan-to-fund-nationwide-ai-buildout",
-          "source": "aihot",
-          "source_name": "Bloomberg：Technology（RSS）",
-          "category": "industry",
-          "published_at": "2026-06-09T08:13:10.000Z",
-          "summary": "中国计划在未来五年投入约2万亿元人民币（约2950亿美元）建设全国数据中心，以推动国内AI产业发展并超越美国。该投资将覆盖数据中心基础设施的大规模建设，为北京在关键技术领域的雄心提供资金支持。"
-        },
-        {
-          "id": "a40172051fcf",
-          "title": "AI 编程独角兽 Cursor 欧洲总部落子伦敦，SpaceX 手握 600 亿美元收购选择权",
-          "url": "https://www.ithome.com/0/961/868.htm",
-          "source": "aihot",
-          "source_name": "IT之家（RSS）",
-          "category": "industry",
-          "published_at": "2026-06-09T05:53:06.000Z",
-          "summary": "Cursor 将欧洲总部设在伦敦，计划招聘约 200 名员工，并在巴黎、慕尼黑等地开设小型办事处。SpaceX 拥有以 600 亿美元收购 Cursor 的选择权，或支付 100 亿美元开展全新合作。Cursor 目前 B2B 年化营收约 26 亿美元，客户包括英国航空、英国石油、诺基亚等。公司强调数据留存欧洲本地以满足监管合规，其平台支持用户用自然语言生成代码，主打模型中立，竞争对手包括 GitHub Copilot、OpenAI 和谷歌的同类产品。"
-        },
-        {
-          "id": "0739b39d7546",
-          "title": "OpenAI 秘密提交 IPO 申请，奥特曼旗下 Tools for Humanity 裁员",
-          "url": "https://www.ithome.com/0/961/792.htm",
-          "source": "aihot",
-          "source_name": "IT之家（RSS）",
-          "category": "industry",
-          "published_at": "2026-06-09T02:19:48.000Z",
-          "summary": "OpenAI 近日秘密提交 IPO 申请。其 CEO 山姆·奥特曼旗下的 Tools for Humanity 公司正裁员，该公司因虹膜扫描项目 World 及加密货币 Worldcoin 知名，投后估值 25 亿美元，获 Andreessen Horowitz 等投资。因营收困境，公司缩减规模。海外监管方面，肯尼亚以隐私和金融风险为由叫停运营，韩国因违反隐私法规罚款 83 万美元。"
-        },
-        {
-          "id": "dafd381a0a30",
-          "title": "Elon Musk 详解 SpaceX AI1 轨道 AI 数据中心卫星方案",
-          "url": "https://x.com/rohanpaul_ai/status/2064165951936094364",
-          "source": "aihot",
-          "source_name": "X：Rohan Paul (@rohanpaul_ai)",
-          "category": "industry",
-          "published_at": "2026-06-09T02:01:27.000Z",
-          "summary": "Elon Musk 首次详细解释 SpaceX 的 AI1 轨道 AI 数据中心卫星：峰值功率 150 kW，持续计算功率约 120 kW，相当于一个 NVIDIA GB300 机架；太阳能板效率 250 W/m2；双面散热器排热 1，400 W/m2。通过激光链路实现约 1 Tbps 互联，低轨 600-800 km 高度往返延迟 6-8 ms。由 Starship 发射，计划部署多达百万颗卫星，2027 年底前实现量产。近地目标为吉瓦级轨道 AI 算力，长期向太瓦级推进。"
-        },
-        {
           "id": "66ae4f2b85b4",
           "title": "两部门：到2026年底人形机器人等重点产品完成应用验证并常态部署",
           "url": "https://www.ithome.com/0/961/749.htm",
@@ -1017,6 +719,16 @@
           "category": "industry",
           "published_at": "2026-06-09T01:15:30.000Z",
           "summary": "工信部、国资委6月8日联合发布通知，目标到2026年底，人形机器人等重点产品在代表性场景完成应用验证并开启常态部署，形成百个以上高价值场景，万台级规模落地。要求各省级地区选取不少于20个场景单元（覆盖两类领域），央企不少于10个。围绕打造实景实训空间、组建创新应用联合体、攻关作业技能、加强验证部署、强化要素保障、凝练经验等六大任务展开，鼓励\"人形机器人即服务\"等商业创新。"
+        },
+        {
+          "id": "9e3390471ccc",
+          "title": "奥尔特曼宣布 OpenAI 进入第三发展阶段：让 AI 普及、易用且安全",
+          "url": "https://www.ithome.com/0/961/721.htm",
+          "source": "aihot",
+          "source_name": "IT之家（RSS）",
+          "category": "industry",
+          "published_at": "2026-06-08T22:50:42.000Z",
+          "summary": "本周一，OpenAI CEO 奥尔特曼与首席科学家帕霍茨基联合发文，宣布公司进入第三发展阶段，目标让 AI 普及、易用且安全。此前第一阶段聚焦通用人工智能技术研发，第二阶段面向全球推出产品。第三阶段三大核心目标是打造自动化人工智能研究员、推动经济提速、为每人配备专属通用人工智能。二人强调智能系统须坚守安全底线，呼吁成立国际机构应对 AI 风险，必要时可暂缓前沿模型研发。同日，OpenAI 秘密提交 IPO 申请，但上市仍需较长时间。上周 Anthropic 研究人员也建议适当放缓前沿 AI 研发。"
         }
       ]
     },
