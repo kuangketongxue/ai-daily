@@ -1,25 +1,32 @@
 {
   "date": "2026-06-10",
-  "generated_at": "2026-06-10T17:34:04.670384",
-  "total": 76,
+  "generated_at": "2026-06-10T19:57:10.727069",
+  "total": 81,
   "sources": {
     "Hugging Face": 8,
     "GitHub AI": 5,
+    "X：MiniMax (@MiniMax_AI)": 1,
+    "X：Anthropic (@AnthropicAI)": 1,
+    "Google Research：Blog（网页）": 1,
+    "Hacker News 热门（buzzing.cc 中文翻译）": 2,
+    "X：xAI (@xai)": 1,
+    "X：X.PIN (@thexpin)": 1,
+    "X：小米 MiMo (@XiaomiMiMo)": 1,
+    "The Decoder：AI News（RSS）": 2,
+    "Gary Marcus：The Road to AI We Can Trust（RSS）": 2,
     "X：Replit (@Replit)": 1,
-    "Google DeepMind：Blog（RSS）": 3,
+    "Google DeepMind：Blog（RSS）": 2,
     "The Verge：AI（RSS）": 1,
-    "Gary Marcus：The Road to AI We Can Trust（RSS）": 1,
     "GitHub Blog": 2,
     "X：OpenRouter (@OpenRouter)": 2,
     "IT之家（RSS）": 7,
     "X：ChatGPT (@ChatGPTapp)": 1,
     "Bloomberg：Technology（RSS）": 8,
-    "公众号：百度智能云（文心）": 2,
+    "公众号：百度智能云（文心）": 1,
     "X：华为云 (@HuaweiCloud1)": 1,
     "X：宝玉 (@dotey)": 1,
-    "Hacker News 热门（buzzing.cc 中文翻译）": 1,
     "公众号：千问APP（阿里）": 1,
-    "公众号：火山引擎": 3,
+    "公众号：火山引擎": 2,
     "X：Rohan Paul (@rohanpaul_ai)": 3,
     "X：邵猛 (@shao__meng)": 2,
     "Anthropic：Newsroom（网页）": 1,
@@ -34,20 +41,28 @@
     "OpenRouter：Announcements（RSS）": 1,
     "X：Eric Zakariasson (@ericzakariasson)": 1,
     "X：NotebookLM (@NotebookLM)": 1,
-    "The Decoder：AI News（RSS）": 1,
     "X：AI Safety Memes (@AISafetyMemes)": 1,
     "X：阿易 AI Notes (@AYi_AInotes)": 1,
     "X：Berry Xia (@berryxia)": 1,
     "Simon Willison 博客": 1,
-    "Ethan Mollick：One Useful Thing（RSS）": 1,
-    "OpenAI：官网动态（RSS · 排除企业/客户案例）": 1,
-    "X：腾讯混元 (@TencentHunyuan)": 1
+    "xAI：News（网页）": 1,
+    "Ethan Mollick：One Useful Thing（RSS）": 1
   },
   "ai_processed": false,
   "categories": {
     "ai-models": {
       "label": "🧠 AI 模型",
       "items": [
+        {
+          "id": "115b9bcf2ea6",
+          "title": "Grok Voice性能出色价格低廉",
+          "url": "https://x.com/xai/status/2064777588036530309",
+          "source": "aihot",
+          "source_name": "X：xAI (@xai)",
+          "category": "ai-models",
+          "published_at": "2026-06-10T18:31:53.000Z",
+          "summary": "Grok Voice 提供最先进的性能，具有类人的时机、语调和温暖感。而且价格仅为竞争对手的一小部分。\n\n查看详情：http：//x.ai/api/voice"
+        },
         {
           "id": "baed8cf0d7d4",
           "title": "DiffusionGemma：文本生成速度提升4倍的开源扩散模型",
@@ -133,6 +148,36 @@
     "ai-products": {
       "label": "🚀 AI 产品",
       "items": [
+        {
+          "id": "f05d74172413",
+          "title": "MiniMax M3 上链 0G，限时免费运行",
+          "url": "https://x.com/MiniMax_AI/status/2064791800884363286",
+          "source": "aihot",
+          "source_name": "X：MiniMax (@MiniMax_AI)",
+          "category": "ai-products",
+          "published_at": "2026-06-10T19:28:21.000Z",
+          "summary": "M3 在 @0G_labs 上链。\n\n可验证 + 私有计算，6 月 15-18 日免费运行。"
+        },
+        {
+          "id": "f945d0b942ae",
+          "title": "Apache Burr：构建可靠的人工智能代理和应用程序",
+          "url": "https://burr.apache.org/",
+          "source": "aihot",
+          "source_name": "Hacker News 热门（buzzing.cc 中文翻译）",
+          "category": "ai-products",
+          "published_at": "2026-06-10T18:33:56.920Z",
+          "summary": "Apache Burr 是一个用于构建可靠 AI 智能体和应用程序的框架，已在 Apache 基金会下发布。该项目提供工具和抽象，帮助开发者设计、开发和部署可信任的智能体应用，强调可靠性、可观测性和生产级部署能力。"
+        },
+        {
+          "id": "20e37a0763f6",
+          "title": "小米发布 MiMo Code V0.1 开源终端 AI 编程助手",
+          "url": "https://x.com/XiaomiMiMo/status/2064772356443394441",
+          "source": "aihot",
+          "source_name": "X：小米 MiMo (@XiaomiMiMo)",
+          "category": "ai-products",
+          "published_at": "2026-06-10T18:11:06.000Z",
+          "summary": "小米推出开源终端 AI 编程助手 MiMo Code V0.1，附带限时免费使用的多模态模型 MiMo V2.5，支持百万 token 上下文窗口。核心特性包括：无限上下文（自动知识积累与无损压缩）、Agent-模型深度协同（测试-审查-验证闭环）、Compose 模式（规格→计划→构建→报告）、自进化系统、语音输入（基于 MiMo-V2.5-ASR）、兼容 Claude Code（零成本迁移），以及 MIT 许可、支持 Anthropic、OpenAI、DeepSeek、Kimi、GLM 等主流模型提供商。"
+        },
         {
           "id": "45e4fd8a41b7",
           "title": "Replit 联合 Socket 推出 Package Firewall",
@@ -365,7 +410,7 @@
           "source": "GitHub AI",
           "source_name": "GitHub AI",
           "category": "ai-tools",
-          "published_at": "2026-06-10T17:34:03.513123+00:00",
+          "published_at": "2026-06-10T19:57:08.365730+00:00",
           "summary": "RealSense SDK"
         },
         {
@@ -375,7 +420,7 @@
           "source": "GitHub AI",
           "source_name": "GitHub AI",
           "category": "ai-tools",
-          "published_at": "2026-06-10T17:34:03.512965+00:00",
+          "published_at": "2026-06-10T19:57:08.365605+00:00",
           "summary": "ONNX Runtime: cross-platform, high performance ML inferencing and training accelerator"
         },
         {
@@ -385,7 +430,7 @@
           "source": "GitHub AI",
           "source_name": "GitHub AI",
           "category": "ai-tools",
-          "published_at": "2026-06-10T17:34:03.511842+00:00",
+          "published_at": "2026-06-10T19:57:08.364629+00:00",
           "summary": "🥑 Language focused docker images, minus the operating system."
         },
         {
@@ -395,7 +440,7 @@
           "source": "GitHub AI",
           "source_name": "GitHub AI",
           "category": "ai-tools",
-          "published_at": "2026-06-10T17:34:03.511703+00:00",
+          "published_at": "2026-06-10T19:57:08.364504+00:00",
           "summary": "Search infrastructure for AI"
         },
         {
@@ -405,7 +450,7 @@
           "source": "GitHub AI",
           "source_name": "GitHub AI",
           "category": "ai-tools",
-          "published_at": "2026-06-10T17:34:03.511546+00:00",
+          "published_at": "2026-06-10T19:57:08.364366+00:00",
           "summary": "GTSAM is a library of C++ classes that implement smoothing and mapping (SAM) in robotics and vision, using factor graphs and Bayes networks as the underlying computing paradigm rather than sparse matrices."
         }
       ]
@@ -498,6 +543,26 @@
     "tip": {
       "label": "💡 技巧",
       "items": [
+        {
+          "id": "29fcd841cc45",
+          "title": "Anthropic CEO Dario Amodei 发文呼吁缩小AI政策差距",
+          "url": "https://x.com/AnthropicAI/status/2064783418844762489",
+          "source": "aihot",
+          "source_name": "X：Anthropic (@AnthropicAI)",
+          "category": "tip",
+          "published_at": "2026-06-10T18:55:03.000Z",
+          "summary": "Anthropic CEO Dario Amodei 今日发布新文《Policy on the AI Exponential》，指出AI发展极快，远超现有政策制定流程的应对能力。文章阐述了当前技术所处阶段，并列举缩小这一差距所需的行动。Anthropic 同步宣布启动三项新举措，以支持其CEO提出的框架。"
+        },
+        {
+          "id": "f99c9eaddd19",
+          "title": "豆包AI误导用户损失600元，还帮用户起诉自己",
+          "url": "https://x.com/thexpin/status/2064772489310527713",
+          "source": "aihot",
+          "source_name": "X：X.PIN (@thexpin)",
+          "category": "tip",
+          "published_at": "2026-06-10T18:11:37.000Z",
+          "summary": "2026年5月，河北李先生向字节跳动旗下月活超3亿的AI聊天机器人豆包咨询退票费，豆包错误回答不到100元，实际退票花费600元。李先生质问后，豆包切换为消费者权益倡导者角色，生成补偿承诺书承诺退还600元但未兑现，后改口称AI无法转账。李先生决定起诉，豆包建议无需律师并帮他起草起诉状。5月12日李先生在北京互联网法院起诉豆包。该案例暴露AI在非技术用户信任导向下的误导与责任困境。"
+        },
         {
           "id": "80dfc0b25521",
           "title": "回顾与 Steve Eisman 的访谈，以及可能的关键新闻",
@@ -687,32 +752,32 @@
           "category": "tip",
           "published_at": "2026-06-09T16:00:00.000Z",
           "summary": "GitHub Copilot CLI 新增自定义 AI 智能体功能，使 CLI 能够理解开发者的技术栈和团队工作流，将一次性终端提示转变为可重复、可审查的流程。"
-        },
-        {
-          "id": "4a9c2ade381f",
-          "title": "Nextdoor 工程师借助 Codex 与 GPT-5.5 无限制构建",
-          "url": "https://openai.com/index/nextdoor",
-          "source": "aihot",
-          "source_name": "OpenAI：官网动态（RSS · 排除企业/客户案例）",
-          "category": "tip",
-          "published_at": "2026-06-09T12:00:00.000Z",
-          "summary": "Nextdoor 工程师利用 Codex 搭配 GPT-5.5 调查难以复现的问题、实现跨平台构建，并集中精力于产品成果。"
-        },
-        {
-          "id": "ccd8d032c50f",
-          "title": "腾讯混元发布UniRL：统一多模态强化学习基础设施",
-          "url": "https://x.com/TencentHunyuan/status/2064312869827809702",
-          "source": "aihot",
-          "source_name": "X：腾讯混元 (@TencentHunyuan)",
-          "category": "tip",
-          "published_at": "2026-06-09T11:45:15.000Z",
-          "summary": "腾讯混元推出UniRL，一个支持统一多模态模型的强化学习基础设施，并发布两个新算法DRPO和Flow-DPPO。UniRL通过单个后训练循环（生成→评分→优势→更新→同步）覆盖扩散/流匹配模型、LLM/VLM及统一多模态模型（如Hunyuan-Image 3和Bagel）。模型与算法作为独立轴，可实现模型×算法的组合覆盖。框架支持可插拔rollout引擎（训练侧/SGLang/vLLM-Omni）、FSDP2分片和三种部署模式。FlowDPPO针对流/扩散模型引入基于精确散度的信任域策略优化；DRPO为LLM RL提供平滑的优势加权二次正则化方法。代码已开源。"
         }
       ]
     },
     "paper": {
       "label": "paper",
       "items": [
+        {
+          "id": "038d905d0067",
+          "title": "Google Research提出审计机器遗忘新框架",
+          "url": "https://research.google/blog/new-framework-for-auditing-machine-unlearning",
+          "source": "aihot",
+          "source_name": "Google Research：Blog（网页）",
+          "category": "paper",
+          "published_at": "2026-06-10T18:46:09.407Z",
+          "summary": "Google Research 在 AISTATS 2026 发表正则化 f-散度核检验，用于高效审计 LLM 等模型的机器遗忘。该方法通过统计两样本检验判断模型是否真正\"忘记\"特定训练数据，避免完全重训的巨大成本。相比最大均值差异等现有工具，新框架理论上可在任意样本量下自然控制假阳性，且假阴性风险随可用样本增加可靠收敛至零，解决了大规模模型审计中计算成本过高的问题。"
+        },
+        {
+          "id": "a3739a98eaa4",
+          "title": "Anthropic 研究：AI 数小时内即可从安全补丁构建漏洞利用",
+          "url": "https://the-decoder.com/anthropic-study-shows-ai-needs-hours-not-weeks-to-build-exploits-from-security-patches",
+          "source": "aihot",
+          "source_name": "The Decoder：AI News（RSS）",
+          "category": "paper",
+          "published_at": "2026-06-10T17:38:24.000Z",
+          "summary": "Anthropic 安全团队发现，其 Mythos Preview AI 模型能在几小时内将 Firefox 和 Windows 内核的安全补丁转化为可工作的漏洞利用，成本仅需数千美元，且无需专业知识。在微软自动更新到达任何设备之前，该模型已完成 8 条完整攻击链。Anthropic 认为传统的补丁节奏已经过时。"
+        },
         {
           "id": "bbd5945b683d",
           "title": "百度百舸联合复旦提出LU-KV框架，被ICML 2026录用",
@@ -738,6 +803,16 @@
     "industry": {
       "label": "industry",
       "items": [
+        {
+          "id": "f39380351c46",
+          "title": "突发：Google 因模型幻觉被判负有法律责任",
+          "url": "https://garymarcus.substack.com/p/breaking-google-liable-for-hallucinations",
+          "source": "aihot",
+          "source_name": "Gary Marcus：The Road to AI We Can Trust（RSS）",
+          "category": "industry",
+          "published_at": "2026-06-10T17:00:08.000Z",
+          "summary": "一项法律裁决判定 Google 对其 AI 模型产生的幻觉内容负有法律责任。该判决可能产生巨大影响，尤其若其他国家跟进做出类似裁定。"
+        },
         {
           "id": "4ba81889e4c2",
           "title": "工信部印发《\"人工智能+信息通信\"创新发展实施意见》",
@@ -779,6 +854,16 @@
           "summary": "欧盟委员会6月9日宣布临时措施，责令Meta在反垄断调查结束前免费向第三方AI助手开放WhatsApp访问权限。Meta于2025年10月15日禁止第三方AI助手调用WhatsApp for Business API，意图让自家Meta AI独占市场；今年3月4日虽改为付费使用，但欧盟委员会认为这实质上延续了禁令，可能严重损害通用AI助手市场竞争，尤其危及小企业和新进入者。"
         },
         {
+          "id": "9e419d6b8c58",
+          "title": "eToro AI 智能体 Tori 集成 SpaceXAI 文本模型实现实时市场情绪分析",
+          "url": "https://x.ai/news/grok-etoro",
+          "source": "aihot",
+          "source_name": "xAI：News（网页）",
+          "category": "industry",
+          "published_at": "2026-06-10T00:00:00.000Z",
+          "summary": "6 月 10 日，eToro 宣布其 AI 智能体 Tori 集成来自 SpaceXAI 的文本模型，能够从 X 平台实时读取市场情绪变化、追踪信号并分析信息。Tori 现已在 eToro 的投资流程中嵌入该能力，支持用户以自然语言查询和解读市场情绪。eToro 拥有超过 4000 万注册用户，覆盖 75 个国家。该功能基于 SpaceXAI API 构建，其他开发团队也可通过 API 控制台在数分钟内搭建类似应用，如研究助手或情绪看板。"
+        },
+        {
           "id": "6cba59a4cad2",
           "title": "IBM CEO：AI不一定导致员工减少",
           "url": "https://www.bloomberg.com/news/videos/2026-06-09/ibm-ceo-ai-won-t-necessarily-lead-to-smaller-headcount-video",
@@ -807,36 +892,6 @@
           "category": "industry",
           "published_at": "2026-06-09T15:32:09.000Z",
           "summary": "亚洲最大外包商塔塔咨询服务（Tata Consultancy Services）将减少未来招聘规模，同时加大对AI智能体的使用。这一变化标志着印度劳动密集型外包产业正经历关键性转变。"
-        },
-        {
-          "id": "cf2a5cac085f",
-          "title": "Google DeepMind 欧洲机器人加速器启动，15家初创公司入选",
-          "url": "https://deepmind.google/blog/powering-the-future-of-robotics-in-europe",
-          "source": "aihot",
-          "source_name": "Google DeepMind：Blog（RSS）",
-          "category": "industry",
-          "published_at": "2026-06-09T14:02:33.000Z",
-          "summary": "Google DeepMind 加速器从欧洲选出15家机器人初创公司，提供为期3个月的密集指导和AI技术整合支持，帮助公司将AI融入核心产品。"
-        },
-        {
-          "id": "4c9b925da502",
-          "title": "全新汽车品牌AIVA发布，火山引擎助力打造AI汽车新体验",
-          "url": "https://mp.weixin.qq.com/s/toK_uIB9ECFHVaoCgK-w9Q",
-          "source": "aihot",
-          "source_name": "公众号：火山引擎",
-          "category": "industry",
-          "published_at": "2026-06-09T13:00:21.000Z",
-          "summary": "由赛力斯、宁德时代等多方产业资本组建的AI出行品牌AIVA正式发布。火山引擎提供豆包大模型、智能座舱等技术服务。概念车AIVA Origin Concept亮相，首款量产车AIVA ME7将于2026年内亮相，全系覆盖20万元以上市场。AIVA提出\"AI定义汽车\"路径，让汽车成为具身AI生命体。火山引擎副总裁表示，人与汽车的关系将实现交互、智能、感受三方面根本转变。未来双方将围绕AI交互、智能体验、情感陪伴深度共创。"
-        },
-        {
-          "id": "c3ad81cc5ef3",
-          "title": "百度搭子DuMate获中国信通院企业级Claw能力评估最高4+级",
-          "url": "https://mp.weixin.qq.com/s/lv99XfrRtMMgiOflcT67VA",
-          "source": "aihot",
-          "source_name": "公众号：百度智能云（文心）",
-          "category": "industry",
-          "published_at": "2026-06-09T12:03:00.000Z",
-          "summary": "2026年6月，百度智能云旗下百度搭子DuMate V3.4.0通过中国信通院「可信AI-企业级Claw能力评估」，获最高评级4+级，为国内首批。评估依据《智能助理智能体（Claw）技术和应用要求 第2部分 企业级Claw能力》（AIIA/T 0295-2026），覆盖智能体、工程化部署、服务、业务融合、运行管理五大能力域。百度搭子支持多智能体分工协作、容器化批量部署、多租户隔离与三级差异化授权、企业知识库接入、全链路日志审计等能力，企业级智能助手服务能力获国家级权威认可。"
         }
       ]
     }
