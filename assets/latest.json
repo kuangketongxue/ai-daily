@@ -1,14 +1,21 @@
 {
   "date": "2026-06-10",
-  "generated_at": "2026-06-10T14:00:50.012788",
-  "total": 71,
+  "generated_at": "2026-06-10T17:34:04.670384",
+  "total": 76,
   "sources": {
     "Hugging Face": 8,
     "GitHub AI": 5,
+    "X：Replit (@Replit)": 1,
+    "Google DeepMind：Blog（RSS）": 3,
+    "The Verge：AI（RSS）": 1,
+    "Gary Marcus：The Road to AI We Can Trust（RSS）": 1,
+    "GitHub Blog": 2,
+    "X：OpenRouter (@OpenRouter)": 2,
+    "IT之家（RSS）": 7,
+    "X：ChatGPT (@ChatGPTapp)": 1,
     "Bloomberg：Technology（RSS）": 8,
     "公众号：百度智能云（文心）": 2,
     "X：华为云 (@HuaweiCloud1)": 1,
-    "IT之家（RSS）": 6,
     "X：宝玉 (@dotey)": 1,
     "Hacker News 热门（buzzing.cc 中文翻译）": 1,
     "公众号：千问APP（阿里）": 1,
@@ -16,10 +23,9 @@
     "X：Rohan Paul (@rohanpaul_ai)": 3,
     "X：邵猛 (@shao__meng)": 2,
     "Anthropic：Newsroom（网页）": 1,
-    "Google DeepMind：Blog（RSS）": 2,
     "公众号：小米 MiMo": 1,
     "X：Kim (@kimmonismus)": 1,
-    "Hugging Face：Blog（RSS）": 5,
+    "Hugging Face：Blog（RSS）": 4,
     "X：Google DeepMind (@GoogleDeepMind)": 1,
     "X：Luma AI (@LumaLabsAI)": 1,
     "X：Fei-Fei Li (@drfeifei, World Labs)": 1,
@@ -32,20 +38,26 @@
     "X：AI Safety Memes (@AISafetyMemes)": 1,
     "X：阿易 AI Notes (@AYi_AInotes)": 1,
     "X：Berry Xia (@berryxia)": 1,
-    "X：OpenRouter (@OpenRouter)": 1,
     "Simon Willison 博客": 1,
     "Ethan Mollick：One Useful Thing（RSS）": 1,
-    "GitHub Blog": 1,
     "OpenAI：官网动态（RSS · 排除企业/客户案例）": 1,
-    "X：腾讯混元 (@TencentHunyuan)": 1,
-    "公众号：通义实验室（千问）": 1,
-    "MarkTechPost（RSS）": 1
+    "X：腾讯混元 (@TencentHunyuan)": 1
   },
   "ai_processed": false,
   "categories": {
     "ai-models": {
       "label": "🧠 AI 模型",
       "items": [
+        {
+          "id": "baed8cf0d7d4",
+          "title": "DiffusionGemma：文本生成速度提升4倍的开源扩散模型",
+          "url": "https://deepmind.google/blog/diffusiongemma-4x-faster-text-generation",
+          "source": "aihot",
+          "source_name": "Google DeepMind：Blog（RSS）",
+          "category": "ai-models",
+          "published_at": "2026-06-10T16:24:11.000Z",
+          "summary": "Google DeepMind 发布开源实验模型 DiffusionGemma，采用文本扩散技术，突破自回归逐 token 生成方式，每次前向并行生成 256 个 token。该 26B MoE 模型推理时仅激活 3.8B 参数，量化后适配 18GB 显存消费级 GPU。在 H100 上达 1000+ tokens/s，RTX 5090 上 700+ tokens/s，速度提升 4 倍。具备双向注意力和自我修正能力，面向内联编辑、代码填充等本地交互工作流，以 Apache 2.0 许可证开放。"
+        },
         {
           "id": "613237adc002",
           "title": "摩尔线程开源 MusaCoder 代码大模型，9B/27B 参数基于国产 GPU 全链路训练",
@@ -121,6 +133,36 @@
     "ai-products": {
       "label": "🚀 AI 产品",
       "items": [
+        {
+          "id": "45e4fd8a41b7",
+          "title": "Replit 联合 Socket 推出 Package Firewall",
+          "url": "https://x.com/Replit/status/2064750235193417828",
+          "source": "aihot",
+          "source_name": "X：Replit (@Replit)",
+          "category": "ai-products",
+          "published_at": "2026-06-10T16:43:11.000Z",
+          "summary": "大多数人在发布项目前会运行安全扫描以检测恶意包\n\n但风险从安装的那一刻就已开始\n\n今天，我们正式推出 Package Firewall，与 Socket 合作构建\n\n它在恶意软件到达你的应用之前就将其拦截"
+        },
+        {
+          "id": "4b52edda7dca",
+          "title": "Google将保存用户的Lens图片、Search Live录音和Translate音频用于AI训练",
+          "url": "https://www.theverge.com/tech/947836/google-search-privacy-settings-images-audio",
+          "source": "aihot",
+          "source_name": "The Verge：AI（RSS）",
+          "category": "ai-products",
+          "published_at": "2026-06-10T16:18:45.000Z",
+          "summary": "Google更新搜索交互数据保存方式，新增\"Search Services History\"设置，用于保存用户搜索时使用的图片、文件、音频和视频，包括Google Lens搜索的图片、实时搜索工具Search Live的录音、语音搜索和Translate中的语音片段。这些数据将被用于\"提供、改进和开发AI模型\"。用户可关闭该设置并禁用\"Save Media\"选项以避免保存。"
+        },
+        {
+          "id": "77dbc2f9aa5d",
+          "title": "OpenRouter 推出 Activity explorer 活动探索器",
+          "url": "https://x.com/OpenRouter/status/2064730000956489889",
+          "source": "aihot",
+          "source_name": "X：OpenRouter (@OpenRouter)",
+          "category": "ai-products",
+          "published_at": "2026-06-10T15:22:47.000Z",
+          "summary": "今天，我们在 OpenRouter 上推出了新的 Activity explorer。\n\n这是查看你和团队在每个模型上花费了多少的最佳方式，还包括 token、缓存命中率、智能体以及趋势。所有数据实时更新。\n\n看看我们的团队如何使用 Fable 和其他模型 👇"
+        },
         {
           "id": "b960b3b91f02",
           "title": "华为云发布全球首个端到端具身AI平台CloudRobo",
@@ -323,7 +365,7 @@
           "source": "GitHub AI",
           "source_name": "GitHub AI",
           "category": "ai-tools",
-          "published_at": "2026-06-10T14:00:48.880752+00:00",
+          "published_at": "2026-06-10T17:34:03.513123+00:00",
           "summary": "RealSense SDK"
         },
         {
@@ -333,7 +375,7 @@
           "source": "GitHub AI",
           "source_name": "GitHub AI",
           "category": "ai-tools",
-          "published_at": "2026-06-10T14:00:48.880632+00:00",
+          "published_at": "2026-06-10T17:34:03.512965+00:00",
           "summary": "ONNX Runtime: cross-platform, high performance ML inferencing and training accelerator"
         },
         {
@@ -343,7 +385,7 @@
           "source": "GitHub AI",
           "source_name": "GitHub AI",
           "category": "ai-tools",
-          "published_at": "2026-06-10T14:00:48.879670+00:00",
+          "published_at": "2026-06-10T17:34:03.511842+00:00",
           "summary": "🥑 Language focused docker images, minus the operating system."
         },
         {
@@ -353,7 +395,7 @@
           "source": "GitHub AI",
           "source_name": "GitHub AI",
           "category": "ai-tools",
-          "published_at": "2026-06-10T14:00:48.879527+00:00",
+          "published_at": "2026-06-10T17:34:03.511703+00:00",
           "summary": "Search infrastructure for AI"
         },
         {
@@ -363,7 +405,7 @@
           "source": "GitHub AI",
           "source_name": "GitHub AI",
           "category": "ai-tools",
-          "published_at": "2026-06-10T14:00:48.879387+00:00",
+          "published_at": "2026-06-10T17:34:03.511546+00:00",
           "summary": "GTSAM is a library of C++ classes that implement smoothing and mapping (SAM) in robotics and vision, using factor graphs and Bayes networks as the underlying computing paradigm rather than sparse matrices."
         }
       ]
@@ -456,6 +498,46 @@
     "tip": {
       "label": "💡 技巧",
       "items": [
+        {
+          "id": "80dfc0b25521",
+          "title": "回顾与 Steve Eisman 的访谈，以及可能的关键新闻",
+          "url": "https://garymarcus.substack.com/p/breaking-news-and-how-the-end-might",
+          "source": "aihot",
+          "source_name": "Gary Marcus：The Road to AI We Can Trust（RSS）",
+          "category": "tip",
+          "published_at": "2026-06-10T16:16:05.000Z",
+          "summary": "原文回顾了与 Steve Eisman 的最新访谈，并指出一些可能具有关键意义的新闻，未提供具体细节。"
+        },
+        {
+          "id": "e0d1a8d4bd0f",
+          "title": "通过语言服务器为 GitHub Copilot CLI 提供真正的代码智能",
+          "url": "https://github.blog/ai-and-ml/github-copilot/give-github-copilot-cli-real-code-intelligence-with-language-servers",
+          "source": "aihot",
+          "source_name": "GitHub Blog",
+          "category": "tip",
+          "published_at": "2026-06-10T16:00:00.000Z",
+          "summary": "GitHub Copilot CLI 现在可以通过安装和配置 LSP（Language Server Protocol）服务器来替代原始的暴力 grep 或反编译方式，从而获得真正的代码智能。"
+        },
+        {
+          "id": "826ff42905d9",
+          "title": "毕业典礼频现\"谈 AI 色变\"，微软总裁史密斯呼吁行业必须回应公众担忧",
+          "url": "https://www.ithome.com/0/962/680.htm",
+          "source": "aihot",
+          "source_name": "IT之家（RSS）",
+          "category": "tip",
+          "published_at": "2026-06-10T15:22:02.000Z",
+          "summary": "近几周多场毕业典礼上，演讲者宣传AI技术时遭学生嘘声。普林斯顿应届毕业生曾否决一款疑似借助AI设计的毕业典礼夹克。微软总裁布拉德·史密斯回应称，行业必须严肃可信地回答问题。史密斯主张AI应增强人而非取代人，认为实用AI渗透经济的速度可能比行业乐观预期更慢。微软今年计划投入约1900亿美元资本支出，主要用于数据中心。微软AI负责人穆斯塔法·苏莱曼修正此前\"大多数白领工作18个月内自动化\"的说法，表示仅指AI执行单项任务的能力。上月微软CFO艾米·胡德在杜克大学演讲全程未提AI，未遭嘘声。"
+        },
+        {
+          "id": "bb3b7583727d",
+          "title": "ChatGPT 推头发变国旗颜色功能",
+          "url": "https://x.com/ChatGPTapp/status/2064728793785450526",
+          "source": "aihot",
+          "source_name": "X：ChatGPT (@ChatGPTapp)",
+          "category": "tip",
+          "published_at": "2026-06-10T15:17:59.000Z",
+          "summary": "Go #MessiMode\n\n上传一张你的照片并尝试这个提示词：\"将我的头发变成本国国旗的颜色，但要看起来自然。如果没有提供国家或图片，请询问。\""
+        },
         {
           "id": "8bba0566e1b7",
           "title": "走进 Anthropic：这家估值 9650 亿美元的 AI 巨头",
@@ -625,36 +707,6 @@
           "category": "tip",
           "published_at": "2026-06-09T11:45:15.000Z",
           "summary": "腾讯混元推出UniRL，一个支持统一多模态模型的强化学习基础设施，并发布两个新算法DRPO和Flow-DPPO。UniRL通过单个后训练循环（生成→评分→优势→更新→同步）覆盖扩散/流匹配模型、LLM/VLM及统一多模态模型（如Hunyuan-Image 3和Bagel）。模型与算法作为独立轴，可实现模型×算法的组合覆盖。框架支持可插拔rollout引擎（训练侧/SGLang/vLLM-Omni）、FSDP2分片和三种部署模式。FlowDPPO针对流/扩散模型引入基于精确散度的信任域策略优化；DRPO为LLM RL提供平滑的优势加权二次正则化方法。代码已开源。"
-        },
-        {
-          "id": "0290d51a28f9",
-          "title": "仅凭一份文档，Qwen3.7-Max 从 0 交付双端应用",
-          "url": "https://mp.weixin.qq.com/s/bYEZL9LM3daNP9tZReqNwg",
-          "source": "aihot",
-          "source_name": "公众号：通义实验室（千问）",
-          "category": "tip",
-          "published_at": "2026-06-09T09:27:47.000Z",
-          "summary": "在无设计稿和后端代码的条件下，Qwen3.7-Max 仅凭一份约 15 万字的产品调研文档，于隔离环境中全自动完成移动端与 Web 端两套真实应用从 0 到 1 交付，单端耗时约 4 小时，中途无人工接管。模型不具备图像理解能力，通过像素坐标反推布局约束实现界面还原。实验采用\"分阶段注入约束→逐层验收→带错纠正\"的闭环控制系统：任务拆分为规划、架构、编码等阶段，验收覆盖静态检查、编译自检（0 error）、路由完整性（Web 端 34 条路由全部可达）、功能扫描及真机冷启动冒烟。失败时错误文本自动注入下一轮重试，使模型数小时内收敛。移动端产出可安装 APK，Web 端 typecheck 与构建均通过。"
-        },
-        {
-          "id": "944b61e69b02",
-          "title": "NeuroBait：微调AI助手，为ADHD大脑点燃多巴胺火花",
-          "url": "https://huggingface.co/blog/build-small-hackathon/neurobait-adhd",
-          "source": "aihot",
-          "source_name": "Hugging Face：Blog（RSS）",
-          "category": "tip",
-          "published_at": "2026-06-09T09:04:58.000Z",
-          "summary": "NeuroBait是基于Google gemma-3-12b-it微调的AI对话助手，旨在帮助ADHD患者克服\"知道该做什么但无法开始\"的执行功能障碍。采用16-bit LoRA（r=16， alpha=16）在Unsloth上训练3个epoch，学习率2e-4，最大序列长度2048，使用单张H100 80GB GPU。数据集为基于真实ADHD场景手工合成的少量数据。部署于Hugging Face Space（ZeroGPU），使用Gradio和标准transformers+peft，运行时以4-bit NF4加载基础模型并应用LoRA适配器。NeuroBait不生成待办清单，而是根据用户上下文给出3-6句温暖流畅的回复，引导用户找到一件微小可立即执行的动作，从而激发多巴胺、降低启动阻力。"
-        },
-        {
-          "id": "875b29d3c6e0",
-          "title": "NVIDIA cuTile Python 教程：在 Colab 中构建用于向量加法、矩阵加法和矩阵乘法的 Tiled GPU 内核",
-          "url": "https://www.marktechpost.com/2026/06/09/nvidia-cutile-python-tutorial-building-tiled-gpu-kernels-for-vector-addition-matrix-addition-and-matrix-multiplication-in-colab",
-          "source": "aihot",
-          "source_name": "MarkTechPost（RSS）",
-          "category": "tip",
-          "published_at": "2026-06-09T08:37:48.000Z",
-          "summary": "该教程基于 NVIDIA cuTile Python 实现了分块 GPU 内核编程工作流，在 Colab 环境中配置 GPU、驱动、CUDA 及 cuTile 可用性后，分别构建了 tiled 向量加法、矩阵加法和矩阵乘法核函数，并以 PyTorch 作为回退保持 notebook 可执行。每一步均通过 PyTorch 验证结果正确性，并基准测试了各阶段的中位运行时间。"
         }
       ]
     },
