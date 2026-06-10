@@ -1,10 +1,13 @@
 {
   "date": "2026-06-10",
-  "generated_at": "2026-06-10T01:30:57.891759",
+  "generated_at": "2026-06-10T06:06:15.122806",
   "total": 67,
   "sources": {
     "Hugging Face": 8,
     "GitHub AI": 8,
+    "公众号：火山引擎": 3,
+    "X：Rohan Paul (@rohanpaul_ai)": 3,
+    "IT之家（RSS）": 4,
     "X：邵猛 (@shao__meng)": 2,
     "Anthropic：Newsroom（网页）": 1,
     "Google DeepMind：Blog（RSS）": 2,
@@ -18,13 +21,10 @@
     "Claude：Blog（网页）": 1,
     "OpenRouter：Announcements（RSS）": 1,
     "X：Eric Zakariasson (@ericzakariasson)": 1,
-    "公众号：火山引擎": 2,
     "X：NotebookLM (@NotebookLM)": 1,
-    "X：Rohan Paul (@rohanpaul_ai)": 3,
     "Bloomberg：Technology（RSS）": 6,
     "The Decoder：AI News（RSS）": 1,
     "X：AI Safety Memes (@AISafetyMemes)": 1,
-    "IT之家（RSS）": 4,
     "X：阿易 AI Notes (@AYi_AInotes)": 1,
     "X：Berry Xia (@berryxia)": 1,
     "X：OpenRouter (@OpenRouter)": 1,
@@ -36,9 +36,7 @@
     "X：腾讯混元 (@TencentHunyuan)": 1,
     "公众号：通义实验室（千问）": 1,
     "MarkTechPost（RSS）": 1,
-    "xAI：News（网页）": 1,
-    "Hacker News 热门（buzzing.cc 中文翻译）": 1,
-    "X：Viggle AI (@ViggleAI)": 1
+    "HuggingFace Daily Papers（社区热门论文）": 2
   },
   "ai_processed": false,
   "categories": {
@@ -110,6 +108,16 @@
     "ai-products": {
       "label": "🚀 AI 产品",
       "items": [
+        {
+          "id": "5e2e91c41458",
+          "title": "火山方舟版权商业化平台上线，周星驰比高集团三大电影IP首批入驻",
+          "url": "https://mp.weixin.qq.com/s/g3DxNO_3aYI4g26gQ2Yvig",
+          "source": "aihot",
+          "source_name": "公众号：火山引擎",
+          "category": "ai-products",
+          "published_at": "2026-06-10T04:30:00.000Z",
+          "summary": "火山引擎今日上线火山方舟版权商业化平台，推出行业首个覆盖\"授权-保护-审核-分发-变现\"全链路的版权合作机制。平台搭载视频生成模型Seedance 2.0及版权治理体系，已获周星驰旗下比高集团《喜剧之王》《食神》《长江七号》三部影片在AI视频创作场景下的版权使用权，并基于Seedance 2.0打造经典桥段AI创作模板。模板已在火山方舟体验中心、火山引擎Kickart上线，同步开放给LibTV、筷子科技丽帧引擎等工具合作伙伴。平台面向UGC和商业广告场景提供分润制、项目制等变现路径，未来还将提供版权管理后台，实现授权可见、使用可查、收入透明。"
+        },
         {
           "id": "0ff88e36b2d2",
           "title": "Luma AI Ray3.2 API：电影级渲染可集成",
@@ -189,36 +197,6 @@
           "category": "ai-products",
           "published_at": "2026-06-10T00:00:00.105Z",
           "summary": "NotbookLM 宣布其笔记本功能已在欧洲的 Gemini App 中 100% 上线。此前用户只能上传笔记本作为 Gemini 的来源，现在可直接在 Gemini App 内访问所有个人未共享的笔记本，并将与 Gemini 的对话作为新笔记本或已有笔记本的来源。该功能先面向 Google AI Ultra、Pro 和 Plus 订阅者的网页端，未来几周将扩展到移动端、更多欧洲国家及免费用户。"
-        },
-        {
-          "id": "b00d3d88b29b",
-          "title": "Gopuff与SpaceXAI推出Go AI购物助手",
-          "url": "https://x.ai/news/grok-gopuff",
-          "source": "aihot",
-          "source_name": "xAI：News（网页）",
-          "category": "ai-products",
-          "published_at": "2026-06-09T00:00:00.000Z",
-          "summary": "Gopuff与SpaceXAI合作推出Go智能购物助手，内置于Gopuff应用，由Grok文本、音频和图像模型驱动。Go结合Grok的推理、语音和图像生成能力与Gopuff的13年需求智能，利用X和网络实时信号。它可在用户打开应用前根据历史偏好和天气等信号构建个性化购物车，并包含基于Grok Imagine的超逼真视觉购物信息流。Go目前在美国iOS和Android端可用，随后在英国推出。"
-        },
-        {
-          "id": "3d52c7d7d292",
-          "title": "Apple Core AI 框架",
-          "url": "https://developer.apple.com/documentation/coreai",
-          "source": "aihot",
-          "source_name": "Hacker News 热门（buzzing.cc 中文翻译）",
-          "category": "ai-products",
-          "published_at": "2026-06-08T23:05:07.159Z",
-          "summary": "一篇关于 Apple Core AI 框架的 Hacker News 帖子获得 109 个点赞。帖子内容包含一张苹果开发者 OG 图片和一个指向 Apple Core AI Framework 官方文档的链接（developer.apple.com）。该帖子由 buzzing.cc 中文翻译，发布于 2026 年 6 月 8 日 02：47（UTC）。"
-        },
-        {
-          "id": "45358abe413d",
-          "title": "Viggle API 上线：任意角色任意动作秒级生成",
-          "url": "https://x.com/ViggleAI/status/2064083087806390319",
-          "source": "aihot",
-          "source_name": "X：Viggle AI (@ViggleAI)",
-          "category": "ai-products",
-          "published_at": "2026-06-08T20:32:11.000Z",
-          "summary": "推出 Viggle API。\n\n给任意角色添加任意动作，一次 API 调用--数秒内即可激活。\n\n可接入 Claude、Codex 或你正在构建的任何智能体。起价 $0.01/秒。\n\n注册即获 100 次免费额度。\n\n转发 + 关注 + 评论，10 位中奖者再获 100 次！\n\n了解更多👇"
         }
       ]
     },
@@ -312,7 +290,7 @@
           "source": "GitHub AI",
           "source_name": "GitHub AI",
           "category": "ai-tools",
-          "published_at": "2026-06-10T01:30:51.902261+00:00",
+          "published_at": "2026-06-10T06:06:13.973071+00:00",
           "summary": "Convert documents to structured data effortlessly. Unstructured is open-source ETL solution for transforming complex documents into clean, structured formats for language models. Visit our website to learn more about our enterprise grade Platform product for production grade workflows, partitioning, enrichments, chunking and embedding."
         },
         {
@@ -322,7 +300,7 @@
           "source": "GitHub AI",
           "source_name": "GitHub AI",
           "category": "ai-tools",
-          "published_at": "2026-06-10T01:30:51.902147+00:00",
+          "published_at": "2026-06-10T06:06:13.972955+00:00",
           "summary": "A lightning-fast search engine API bringing AI-powered hybrid search to your sites and applications."
         },
         {
@@ -332,7 +310,7 @@
           "source": "GitHub AI",
           "source_name": "GitHub AI",
           "category": "ai-tools",
-          "published_at": "2026-06-10T01:30:51.902031+00:00",
+          "published_at": "2026-06-10T06:06:13.972840+00:00",
           "summary": "Qdrant - High-performance, massive-scale Vector Database and Vector Search Engine for the next generation of AI. Also available in the cloudhttps://cloud.qdrant.io/"
         },
         {
@@ -342,7 +320,7 @@
           "source": "GitHub AI",
           "source_name": "GitHub AI",
           "category": "ai-tools",
-          "published_at": "2026-06-10T01:30:51.901718+00:00",
+          "published_at": "2026-06-10T06:06:13.972506+00:00",
           "summary": "Search infrastructure for AI"
         },
         {
@@ -352,7 +330,7 @@
           "source": "GitHub AI",
           "source_name": "GitHub AI",
           "category": "ai-tools",
-          "published_at": "2026-06-10T01:30:51.901451+00:00",
+          "published_at": "2026-06-10T06:06:13.972230+00:00",
           "summary": "General-purpose AI designed for knowledge workers — creators, strategists, and operators — and individuals seeking AI systems they can truly control to help them get work done, with full flexibility to extend and deploy anywhere (VPC, on-prem, or cloud)."
         },
         {
@@ -362,7 +340,7 @@
           "source": "GitHub AI",
           "source_name": "GitHub AI",
           "category": "ai-tools",
-          "published_at": "2026-06-10T01:30:51.901334+00:00",
+          "published_at": "2026-06-10T06:06:13.972110+00:00",
           "summary": "Summer 2026 software engineering, data science, AI, quant, product management, and hardware internship postings. Updated daily by Simplify and Pitt CSC."
         },
         {
@@ -372,7 +350,7 @@
           "source": "GitHub AI",
           "source_name": "GitHub AI",
           "category": "ai-tools",
-          "published_at": "2026-06-10T01:30:51.901214+00:00",
+          "published_at": "2026-06-10T06:06:13.971989+00:00",
           "summary": "Computer Vision Annotation Tool (CVAT) is a leading platform for building high-quality visual datasets for vision AI. It offers open-source, cloud, and enterprise products, as well as labeling services, for image, video, and 3D annotation with AI-assisted labeling, quality assurance, team collaboration, analytics, and developer APIs."
         },
         {
@@ -382,7 +360,7 @@
           "source": "GitHub AI",
           "source_name": "GitHub AI",
           "category": "ai-tools",
-          "published_at": "2026-06-10T01:30:51.900484+00:00",
+          "published_at": "2026-06-10T06:06:13.971222+00:00",
           "summary": "A library for efficient similarity search and clustering of dense vectors."
         }
       ]
@@ -634,22 +612,32 @@
           "category": "tip",
           "published_at": "2026-06-09T08:37:48.000Z",
           "summary": "该教程基于 NVIDIA cuTile Python 实现了分块 GPU 内核编程工作流，在 Colab 环境中配置 GPU、驱动、CUDA 及 cuTile 可用性后，分别构建了 tiled 向量加法、矩阵加法和矩阵乘法核函数，并以 PyTorch 作为回退保持 notebook 可执行。每一步均通过 PyTorch 验证结果正确性，并基准测试了各阶段的中位运行时间。"
-        },
-        {
-          "id": "6969ad4e154a",
-          "title": "OpenAI计划到2028年由AI主导研究",
-          "url": "https://x.com/rohanpaul_ai/status/2064096574142390755",
-          "source": "aihot",
-          "source_name": "X：Rohan Paul (@rohanpaul_ai)",
-          "category": "tip",
-          "published_at": "2026-06-08T21:25:46.000Z",
-          "summary": "Sam Altman关于OpenAI未来路径的新博客称，到2028年3月，其大量研究将由AI完成。\n\n该路径主要有3个目标：构建自动AI研究员，利用它加速科学和生产，然后给每个人一个个人AGI，帮助处理工作、学习、编程、商业、健康文书和决策。"
         }
       ]
     },
     "industry": {
       "label": "industry",
       "items": [
+        {
+          "id": "d8137db35d49",
+          "title": "Magnetar用数百AI智能体替代分析师",
+          "url": "https://x.com/rohanpaul_ai/status/2064524448582267047",
+          "source": "aihot",
+          "source_name": "X：Rohan Paul (@rohanpaul_ai)",
+          "category": "industry",
+          "published_at": "2026-06-10T01:46:00.000Z",
+          "summary": "Bloomberg：Magnetar Capital，这家 180 亿美元的对冲基金公司，将在其最新产品中避免使用人类分析师，转而依靠数百个 AI 智能体进行股票研究。\n\n这家 180 亿美元的对冲基金公司希望 AI 搜索投资想法、研究公司、推荐头寸并预测趋势，而人类仍负责批准交易。"
+        },
+        {
+          "id": "c73d83869aa1",
+          "title": "欧盟发布临时措施，要求 Meta 向第三方 AI 助手免费开放 WhatsApp",
+          "url": "https://www.ithome.com/0/962/206.htm",
+          "source": "aihot",
+          "source_name": "IT之家（RSS）",
+          "category": "industry",
+          "published_at": "2026-06-10T01:41:12.000Z",
+          "summary": "欧盟委员会6月9日宣布临时措施，责令Meta在反垄断调查结束前免费向第三方AI助手开放WhatsApp访问权限。Meta于2025年10月15日禁止第三方AI助手调用WhatsApp for Business API，意图让自家Meta AI独占市场；今年3月4日虽改为付费使用，但欧盟委员会认为这实质上延续了禁令，可能严重损害通用AI助手市场竞争，尤其危及小企业和新进入者。"
+        },
         {
           "id": "6cba59a4cad2",
           "title": "IBM CEO：AI不一定导致员工减少",
@@ -719,16 +707,6 @@
           "category": "industry",
           "published_at": "2026-06-09T01:15:30.000Z",
           "summary": "工信部、国资委6月8日联合发布通知，目标到2026年底，人形机器人等重点产品在代表性场景完成应用验证并开启常态部署，形成百个以上高价值场景，万台级规模落地。要求各省级地区选取不少于20个场景单元（覆盖两类领域），央企不少于10个。围绕打造实景实训空间、组建创新应用联合体、攻关作业技能、加强验证部署、强化要素保障、凝练经验等六大任务展开，鼓励\"人形机器人即服务\"等商业创新。"
-        },
-        {
-          "id": "9e3390471ccc",
-          "title": "奥尔特曼宣布 OpenAI 进入第三发展阶段：让 AI 普及、易用且安全",
-          "url": "https://www.ithome.com/0/961/721.htm",
-          "source": "aihot",
-          "source_name": "IT之家（RSS）",
-          "category": "industry",
-          "published_at": "2026-06-08T22:50:42.000Z",
-          "summary": "本周一，OpenAI CEO 奥尔特曼与首席科学家帕霍茨基联合发文，宣布公司进入第三发展阶段，目标让 AI 普及、易用且安全。此前第一阶段聚焦通用人工智能技术研发，第二阶段面向全球推出产品。第三阶段三大核心目标是打造自动化人工智能研究员、推动经济提速、为每人配备专属通用人工智能。二人强调智能系统须坚守安全底线，呼吁成立国际机构应对 AI 风险，必要时可暂缓前沿模型研发。同日，OpenAI 秘密提交 IPO 申请，但上市仍需较长时间。上周 Anthropic 研究人员也建议适当放缓前沿 AI 研发。"
         }
       ]
     },
@@ -744,6 +722,26 @@
           "category": "paper",
           "published_at": "2026-06-09T19:38:28.000Z",
           "summary": "Hugging Face 博客发布针对语音智能体处理代码切换语音的基准测试。数据集覆盖西班牙语-英语、法语-英语、加拿大法语-英语和德语-英语四对语言，基于人力资源与IT服务管理场景构建。采用词错误率、语义词错误率和答案错误率三项指标评估七种ASR系统，包括AssemblyAI Universal 3-Pro、Deepgram Nova 3 Multilang、ElevenLabs Scribe V2、Gemini 3 Flash、Mistral AI Voxtral Small 24B-2507、Nvidia Parakeet TDT 0.6b V3和OpenAI Whisper Large V3 Turbo。主要发现：代码切换的转录成本因语言对和模型而异；ElevenLabs Scribe V2、Gemini 3 Flash和AssemblyAI Universal 3-Pro在所有指标上表现最佳。数据集和测试框架通过AU-Harness开源发布。"
+        },
+        {
+          "id": "92851a45819c",
+          "title": "混合LLM中的注意力失忆：CoT微调破坏长距离召回及修复方法",
+          "url": "https://arxiv.org/abs/2606.11052",
+          "source": "aihot",
+          "source_name": "HuggingFace Daily Papers（社区热门论文）",
+          "category": "paper",
+          "published_at": "2026-06-09T00:00:00.000Z",
+          "summary": "CoT监督微调系统性地降低混合线性注意力模型（如HypeNet、Jet-Nemotron）的长上下文召回能力。在NIAH任务上，HypeNet-9B的S2@256K从67.2%降至9.4%，原因是CoT-SFT使注意力梯度偏向短程模式，破坏长程路由的W_Q和W_K投影。QK-Restore方法无需训练，从微调前检查点恢复W_Q和W_K，保留其余参数；Procrustes变体平衡路由保留与推理适应。在HypeNet-5B上，QK-Restore将S3@256K从65.4%提升至76.4%，推理性能不变。"
+        },
+        {
+          "id": "e3ce065409d0",
+          "title": "Flow-DPPO： 面向流匹配模型的散度近端策略优化",
+          "url": "https://arxiv.org/abs/2606.11025",
+          "source": "aihot",
+          "source_name": "HuggingFace Daily Papers（社区热门论文）",
+          "category": "paper",
+          "published_at": "2026-06-09T00:00:00.000Z",
+          "summary": "针对流匹配模型中在线强化学习比率裁剪策略约束不当的问题，Flow-DPPO 提出用散度近端约束替代。关键洞察是流模型每步策略为高斯分布，可精确计算新旧策略间的 KL 散度。Flow-DPPO 采用非对称散度掩码，仅在梯度更新偏离信任区域且超阈值时阻止更新。实验表明，Flow-DPPO 获得更高奖励，KL 近端效率更优，缓解了灾难性遗忘，促进多目标均衡，并能在比率裁剪失效时支持稳定的多轮训练。代码已开源。"
         }
       ]
     }
