@@ -1,13 +1,19 @@
 {
   "date": "2026-06-10",
-  "generated_at": "2026-06-10T06:06:15.122806",
-  "total": 67,
+  "generated_at": "2026-06-10T10:22:38.173136",
+  "total": 73,
   "sources": {
     "Hugging Face": 8,
     "GitHub AI": 8,
+    "公众号：百度智能云（文心）": 2,
+    "X：华为云 (@HuaweiCloud1)": 1,
+    "IT之家（RSS）": 6,
+    "X：宝玉 (@dotey)": 1,
+    "Hacker News 热门（buzzing.cc 中文翻译）": 1,
+    "公众号：千问APP（阿里）": 1,
+    "Bloomberg：Technology（RSS）": 7,
     "公众号：火山引擎": 3,
     "X：Rohan Paul (@rohanpaul_ai)": 3,
-    "IT之家（RSS）": 4,
     "X：邵猛 (@shao__meng)": 2,
     "Anthropic：Newsroom（网页）": 1,
     "Google DeepMind：Blog（RSS）": 2,
@@ -22,7 +28,6 @@
     "OpenRouter：Announcements（RSS）": 1,
     "X：Eric Zakariasson (@ericzakariasson)": 1,
     "X：NotebookLM (@NotebookLM)": 1,
-    "Bloomberg：Technology（RSS）": 6,
     "The Decoder：AI News（RSS）": 1,
     "X：AI Safety Memes (@AISafetyMemes)": 1,
     "X：阿易 AI Notes (@AYi_AInotes)": 1,
@@ -31,18 +36,26 @@
     "Simon Willison 博客": 1,
     "Ethan Mollick：One Useful Thing（RSS）": 1,
     "GitHub Blog": 1,
-    "公众号：百度智能云（文心）": 1,
     "OpenAI：官网动态（RSS · 排除企业/客户案例）": 1,
     "X：腾讯混元 (@TencentHunyuan)": 1,
     "公众号：通义实验室（千问）": 1,
-    "MarkTechPost（RSS）": 1,
-    "HuggingFace Daily Papers（社区热门论文）": 2
+    "MarkTechPost（RSS）": 1
   },
   "ai_processed": false,
   "categories": {
     "ai-models": {
       "label": "🧠 AI 模型",
       "items": [
+        {
+          "id": "613237adc002",
+          "title": "摩尔线程开源 MusaCoder 代码大模型，9B/27B 参数基于国产 GPU 全链路训练",
+          "url": "https://www.ithome.com/0/962/509.htm",
+          "source": "aihot",
+          "source_name": "IT之家（RSS）",
+          "category": "ai-models",
+          "published_at": "2026-06-10T08:21:45.000Z",
+          "summary": "摩尔线程发布并开源 MusaCoder 代码大模型，含 9B 和 27B 两个参数规模，是业内首个基于国产 GPU 算力底座完成全链路训练与验证的开源模型。后训练流程在基于 MTT S5000 的夸娥智算集群上完成，支持从 PyTorch 标准算子自动生成高性能 CUDA/MUSA 原生 Kernel 代码。在 KernelBench 评测中，MusaCoder-27B-RL 以 Overall Pass@8 93.2%、Avg.@8 88.60% 超越 Claude Opus、DeepSeek-V4 Pro、GLM-5.1、Kimi K2.6 等主流 SOTA 代码模型。"
+        },
         {
           "id": "59513ab32519",
           "title": "Claude Fable 5 和 Claude Mythos 5",
@@ -108,6 +121,26 @@
     "ai-products": {
       "label": "🚀 AI 产品",
       "items": [
+        {
+          "id": "b960b3b91f02",
+          "title": "华为云发布全球首个端到端具身AI平台CloudRobo",
+          "url": "https://x.com/HuaweiCloud1/status/2064637581652852831",
+          "source": "aihot",
+          "source_name": "X：华为云 (@HuaweiCloud1)",
+          "category": "ai-products",
+          "published_at": "2026-06-10T09:15:33.000Z",
+          "summary": "华为云推出全球首个端到端具身AI开发平台CloudRobo，覆盖从数据、模型到部署、集成的全生命周期，基于PB级可信数据底座。在INSPIRE2026上，国家地方共建人形机器人创新中心、Yijiahe Technology、上海交通大学展示了其核心能力：数据与模型双评估系统、主动力控模型快速组装、机器人小时级上云、模型分钟级部署。"
+        },
+        {
+          "id": "cac8a7400b46",
+          "title": "2026年高考，跟着千问，选好志愿！",
+          "url": "https://mp.weixin.qq.com/s/4fovMM29x8tJ2E25kidl1A",
+          "source": "aihot",
+          "source_name": "公众号：千问APP（阿里）",
+          "category": "ai-products",
+          "published_at": "2026-06-10T06:00:49.000Z",
+          "summary": "千问发布国内首个全周期高考志愿填报Agent，由数百位资深高报师参与训练。该智能体提供AI志愿报告，为考生量身定制深度全面的填报方案；AI志愿日历帮助制定专属填报计划；高考专业知识库整合夸克高考8年积累，并引入志愿专家顾问，数据权威可信赖，全程陪伴考生完成志愿填报。"
+        },
         {
           "id": "5e2e91c41458",
           "title": "火山方舟版权商业化平台上线，周星驰比高集团三大电影IP首批入驻",
@@ -290,7 +323,7 @@
           "source": "GitHub AI",
           "source_name": "GitHub AI",
           "category": "ai-tools",
-          "published_at": "2026-06-10T06:06:13.973071+00:00",
+          "published_at": "2026-06-10T10:22:36.783936+00:00",
           "summary": "Convert documents to structured data effortlessly. Unstructured is open-source ETL solution for transforming complex documents into clean, structured formats for language models. Visit our website to learn more about our enterprise grade Platform product for production grade workflows, partitioning, enrichments, chunking and embedding."
         },
         {
@@ -300,7 +333,7 @@
           "source": "GitHub AI",
           "source_name": "GitHub AI",
           "category": "ai-tools",
-          "published_at": "2026-06-10T06:06:13.972955+00:00",
+          "published_at": "2026-06-10T10:22:36.783800+00:00",
           "summary": "A lightning-fast search engine API bringing AI-powered hybrid search to your sites and applications."
         },
         {
@@ -310,7 +343,7 @@
           "source": "GitHub AI",
           "source_name": "GitHub AI",
           "category": "ai-tools",
-          "published_at": "2026-06-10T06:06:13.972840+00:00",
+          "published_at": "2026-06-10T10:22:36.783656+00:00",
           "summary": "Qdrant - High-performance, massive-scale Vector Database and Vector Search Engine for the next generation of AI. Also available in the cloudhttps://cloud.qdrant.io/"
         },
         {
@@ -320,7 +353,7 @@
           "source": "GitHub AI",
           "source_name": "GitHub AI",
           "category": "ai-tools",
-          "published_at": "2026-06-10T06:06:13.972506+00:00",
+          "published_at": "2026-06-10T10:22:36.783278+00:00",
           "summary": "Search infrastructure for AI"
         },
         {
@@ -330,7 +363,7 @@
           "source": "GitHub AI",
           "source_name": "GitHub AI",
           "category": "ai-tools",
-          "published_at": "2026-06-10T06:06:13.972230+00:00",
+          "published_at": "2026-06-10T10:22:36.782967+00:00",
           "summary": "General-purpose AI designed for knowledge workers — creators, strategists, and operators — and individuals seeking AI systems they can truly control to help them get work done, with full flexibility to extend and deploy anywhere (VPC, on-prem, or cloud)."
         },
         {
@@ -340,7 +373,7 @@
           "source": "GitHub AI",
           "source_name": "GitHub AI",
           "category": "ai-tools",
-          "published_at": "2026-06-10T06:06:13.972110+00:00",
+          "published_at": "2026-06-10T10:22:36.782827+00:00",
           "summary": "Summer 2026 software engineering, data science, AI, quant, product management, and hardware internship postings. Updated daily by Simplify and Pitt CSC."
         },
         {
@@ -350,7 +383,7 @@
           "source": "GitHub AI",
           "source_name": "GitHub AI",
           "category": "ai-tools",
-          "published_at": "2026-06-10T06:06:13.971989+00:00",
+          "published_at": "2026-06-10T10:22:36.782682+00:00",
           "summary": "Computer Vision Annotation Tool (CVAT) is a leading platform for building high-quality visual datasets for vision AI. It offers open-source, cloud, and enterprise products, as well as labeling services, for image, video, and 3D annotation with AI-assisted labeling, quality assurance, team collaboration, analytics, and developer APIs."
         },
         {
@@ -360,7 +393,7 @@
           "source": "GitHub AI",
           "source_name": "GitHub AI",
           "category": "ai-tools",
-          "published_at": "2026-06-10T06:06:13.971222+00:00",
+          "published_at": "2026-06-10T10:22:36.781848+00:00",
           "summary": "A library for efficient similarity search and clustering of dense vectors."
         }
       ]
@@ -453,6 +486,36 @@
     "tip": {
       "label": "💡 技巧",
       "items": [
+        {
+          "id": "47a6c8ed0857",
+          "title": "谷歌 DeepMind 经济学家伊马斯：尚未发现 AI 造成岗位流失的证据，跟风裁员恐适得其反",
+          "url": "https://www.ithome.com/0/962/515.htm",
+          "source": "aihot",
+          "source_name": "IT之家（RSS）",
+          "category": "tip",
+          "published_at": "2026-06-10T08:36:14.000Z",
+          "summary": "谷歌 DeepMind AGI 经济学负责人亚历克斯·伊马斯表示，目前没有看到白领岗位因 AI 大规模消失的证据。他强调，若企业因\"不裁员就等于 AI 转型慢\"的叙事而跟风裁员，可能适得其反。伊马斯认为，AI 更多是接手部分任务、提升生产力，让员工专注机器无法完成的工作，岗位冲击尚未真正出现。"
+        },
+        {
+          "id": "df55ae11661e",
+          "title": "用好 Claude Design 的一些经验",
+          "url": "https://x.com/dotey/status/2064601571397185639",
+          "source": "aihot",
+          "source_name": "X：宝玉 (@dotey)",
+          "category": "tip",
+          "published_at": "2026-06-10T06:52:27.000Z",
+          "summary": "宝玉分享了5点心得：1. 加入设计系统（如 Adobe Spectrum 2）可避免 AI 味，设为默认后可专注布局与交互。2. 先搭建少量功能，再通过左侧聊天框逐步调整。3. 用 Markup 框选局部评论，Edit 可手动调整元素树。4. 注意上下文管理，新任务创建新会话。5. 通过 Tweaks 面板调整主题、布局、加载状态，也可添加导航快速切换界面。"
+        },
+        {
+          "id": "9fe687879fc8",
+          "title": "亚马逊的大规模扁平化数据中心网络",
+          "url": "https://perspectives.mvdirona.com/2026/06/flat-datacenter-networks-at-scale",
+          "source": "aihot",
+          "source_name": "Hacker News 热门（buzzing.cc 中文翻译）",
+          "category": "tip",
+          "published_at": "2026-06-10T06:33:52.391Z",
+          "summary": "亚马逊分享了在大规模数据中心中实现扁平化网络架构的工程实践与设计考量，重点论述了如何通过简化拓扑和路由策略来支撑超大规模集群的高带宽、低延迟通信。文章未披露具体模型或评测数据。"
+        },
         {
           "id": "e5426130bdb7",
           "title": "Text-To-Lottie：Agent Skill + 本地预览 Harness，让 Agent 生成 Lottie 动画并实时验收",
@@ -615,9 +678,54 @@
         }
       ]
     },
+    "paper": {
+      "label": "paper",
+      "items": [
+        {
+          "id": "bbd5945b683d",
+          "title": "百度百舸联合复旦提出LU-KV框架，被ICML 2026录用",
+          "url": "https://mp.weixin.qq.com/s/oKhawmph49YYPR63T-ekaw",
+          "source": "aihot",
+          "source_name": "公众号：百度智能云（文心）",
+          "category": "paper",
+          "published_at": "2026-06-10T09:43:54.000Z",
+          "summary": "百度百舸团队与复旦大学合作提出Long-horizon Utility KV（LU-KV）框架，将头级KV Cache预算分配建模为面向长程边际效用的全局组合优化问题。LU-KV通过离线画像估计注意力头边际贡献曲线，结合凸包松弛与基于边际效用的贪心求解器，在较低开销下得到接近最优的预算配置，可适配SnapKV、KeyDiff等多类压缩方法。在LongBench和RULER基准上，80%压缩比下性能损失小，降低显存占用和推理延迟。相关论文被ICML 2026录用。"
+        },
+        {
+          "id": "b0df7ca933e1",
+          "title": "Hugging Face 博客发布语音智能体代码切换基准测试",
+          "url": "https://huggingface.co/blog/ServiceNow-AI/code-switching",
+          "source": "aihot",
+          "source_name": "Hugging Face：Blog（RSS）",
+          "category": "paper",
+          "published_at": "2026-06-09T19:38:28.000Z",
+          "summary": "Hugging Face 博客发布针对语音智能体处理代码切换语音的基准测试。数据集覆盖西班牙语-英语、法语-英语、加拿大法语-英语和德语-英语四对语言，基于人力资源与IT服务管理场景构建。采用词错误率、语义词错误率和答案错误率三项指标评估七种ASR系统，包括AssemblyAI Universal 3-Pro、Deepgram Nova 3 Multilang、ElevenLabs Scribe V2、Gemini 3 Flash、Mistral AI Voxtral Small 24B-2507、Nvidia Parakeet TDT 0.6b V3和OpenAI Whisper Large V3 Turbo。主要发现：代码切换的转录成本因语言对和模型而异；ElevenLabs Scribe V2、Gemini 3 Flash和AssemblyAI Universal 3-Pro在所有指标上表现最佳。数据集和测试框架通过AU-Harness开源发布。"
+        }
+      ]
+    },
     "industry": {
       "label": "industry",
       "items": [
+        {
+          "id": "4ba81889e4c2",
+          "title": "工信部印发《\"人工智能+信息通信\"创新发展实施意见》",
+          "url": "https://www.ithome.com/0/962/456.htm",
+          "source": "aihot",
+          "source_name": "IT之家（RSS）",
+          "category": "industry",
+          "published_at": "2026-06-10T07:07:13.000Z",
+          "summary": "工信部发文，要求加快建设400Gbps/800Gbps骨干传输网络，优化东中西部国家枢纽节点间通道；推进城域400Gbps及以上、全光交叉等高速光传输系统应用，构建城域毫秒级低时延入算能力。同时推动5G-A/6G、新一代光网络、\"IPv6+\"、工业互联网与AI融合发展，攻关空口智能化、网络高等级自智、智能体互联网等核心技术。鼓励基础电信企业用AI赋能传统业务，深化智慧个人助理、智慧管家、家庭看护、3D观影等新型应用。"
+        },
+        {
+          "id": "db7ae2e855d1",
+          "title": "谷歌财务担保支撑 Anthropic 350 亿美元芯片租赁交易",
+          "url": "https://www.bloomberg.com/news/videos/2026-06-10/google-s-backstops-underpin-35-bln-anthropic-chip-deal-video",
+          "source": "aihot",
+          "source_name": "Bloomberg：Technology（RSS）",
+          "category": "industry",
+          "published_at": "2026-06-10T05:57:28.000Z",
+          "summary": "Anthropic 在谷歌（其早期投资者之一）的帮助下，正在五个数据中心租赁高性能计算机芯片。谷歌同意为每个地点的租赁付款提供兜底担保，从而帮助 Anthropic 获得相当于 350 亿美元的融资。"
+        },
         {
           "id": "d8137db35d49",
           "title": "Magnetar用数百AI智能体替代分析师",
@@ -697,51 +805,6 @@
           "category": "industry",
           "published_at": "2026-06-09T12:03:00.000Z",
           "summary": "2026年6月，百度智能云旗下百度搭子DuMate V3.4.0通过中国信通院「可信AI-企业级Claw能力评估」，获最高评级4+级，为国内首批。评估依据《智能助理智能体（Claw）技术和应用要求 第2部分 企业级Claw能力》（AIIA/T 0295-2026），覆盖智能体、工程化部署、服务、业务融合、运行管理五大能力域。百度搭子支持多智能体分工协作、容器化批量部署、多租户隔离与三级差异化授权、企业知识库接入、全链路日志审计等能力，企业级智能助手服务能力获国家级权威认可。"
-        },
-        {
-          "id": "66ae4f2b85b4",
-          "title": "两部门：到2026年底人形机器人等重点产品完成应用验证并常态部署",
-          "url": "https://www.ithome.com/0/961/749.htm",
-          "source": "aihot",
-          "source_name": "IT之家（RSS）",
-          "category": "industry",
-          "published_at": "2026-06-09T01:15:30.000Z",
-          "summary": "工信部、国资委6月8日联合发布通知，目标到2026年底，人形机器人等重点产品在代表性场景完成应用验证并开启常态部署，形成百个以上高价值场景，万台级规模落地。要求各省级地区选取不少于20个场景单元（覆盖两类领域），央企不少于10个。围绕打造实景实训空间、组建创新应用联合体、攻关作业技能、加强验证部署、强化要素保障、凝练经验等六大任务展开，鼓励\"人形机器人即服务\"等商业创新。"
-        }
-      ]
-    },
-    "paper": {
-      "label": "paper",
-      "items": [
-        {
-          "id": "b0df7ca933e1",
-          "title": "Hugging Face 博客发布语音智能体代码切换基准测试",
-          "url": "https://huggingface.co/blog/ServiceNow-AI/code-switching",
-          "source": "aihot",
-          "source_name": "Hugging Face：Blog（RSS）",
-          "category": "paper",
-          "published_at": "2026-06-09T19:38:28.000Z",
-          "summary": "Hugging Face 博客发布针对语音智能体处理代码切换语音的基准测试。数据集覆盖西班牙语-英语、法语-英语、加拿大法语-英语和德语-英语四对语言，基于人力资源与IT服务管理场景构建。采用词错误率、语义词错误率和答案错误率三项指标评估七种ASR系统，包括AssemblyAI Universal 3-Pro、Deepgram Nova 3 Multilang、ElevenLabs Scribe V2、Gemini 3 Flash、Mistral AI Voxtral Small 24B-2507、Nvidia Parakeet TDT 0.6b V3和OpenAI Whisper Large V3 Turbo。主要发现：代码切换的转录成本因语言对和模型而异；ElevenLabs Scribe V2、Gemini 3 Flash和AssemblyAI Universal 3-Pro在所有指标上表现最佳。数据集和测试框架通过AU-Harness开源发布。"
-        },
-        {
-          "id": "92851a45819c",
-          "title": "混合LLM中的注意力失忆：CoT微调破坏长距离召回及修复方法",
-          "url": "https://arxiv.org/abs/2606.11052",
-          "source": "aihot",
-          "source_name": "HuggingFace Daily Papers（社区热门论文）",
-          "category": "paper",
-          "published_at": "2026-06-09T00:00:00.000Z",
-          "summary": "CoT监督微调系统性地降低混合线性注意力模型（如HypeNet、Jet-Nemotron）的长上下文召回能力。在NIAH任务上，HypeNet-9B的S2@256K从67.2%降至9.4%，原因是CoT-SFT使注意力梯度偏向短程模式，破坏长程路由的W_Q和W_K投影。QK-Restore方法无需训练，从微调前检查点恢复W_Q和W_K，保留其余参数；Procrustes变体平衡路由保留与推理适应。在HypeNet-5B上，QK-Restore将S3@256K从65.4%提升至76.4%，推理性能不变。"
-        },
-        {
-          "id": "e3ce065409d0",
-          "title": "Flow-DPPO： 面向流匹配模型的散度近端策略优化",
-          "url": "https://arxiv.org/abs/2606.11025",
-          "source": "aihot",
-          "source_name": "HuggingFace Daily Papers（社区热门论文）",
-          "category": "paper",
-          "published_at": "2026-06-09T00:00:00.000Z",
-          "summary": "针对流匹配模型中在线强化学习比率裁剪策略约束不当的问题，Flow-DPPO 提出用散度近端约束替代。关键洞察是流模型每步策略为高斯分布，可精确计算新旧策略间的 KL 散度。Flow-DPPO 采用非对称散度掩码，仅在梯度更新偏离信任区域且超阈值时阻止更新。实验表明，Flow-DPPO 获得更高奖励，KL 近端效率更优，缓解了灾难性遗忘，促进多目标均衡，并能在比率裁剪失效时支持稳定的多轮训练。代码已开源。"
         }
       ]
     }
