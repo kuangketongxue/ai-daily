@@ -1,17 +1,17 @@
 {
   "date": "2026-06-10",
-  "generated_at": "2026-06-10T10:22:38.173136",
-  "total": 73,
+  "generated_at": "2026-06-10T14:00:50.012788",
+  "total": 71,
   "sources": {
     "Hugging Face": 8,
-    "GitHub AI": 8,
+    "GitHub AI": 5,
+    "Bloomberg：Technology（RSS）": 8,
     "公众号：百度智能云（文心）": 2,
     "X：华为云 (@HuaweiCloud1)": 1,
     "IT之家（RSS）": 6,
     "X：宝玉 (@dotey)": 1,
     "Hacker News 热门（buzzing.cc 中文翻译）": 1,
     "公众号：千问APP（阿里）": 1,
-    "Bloomberg：Technology（RSS）": 7,
     "公众号：火山引擎": 3,
     "X：Rohan Paul (@rohanpaul_ai)": 3,
     "X：邵猛 (@shao__meng)": 2,
@@ -317,34 +317,34 @@
           "summary": ""
         },
         {
-          "id": "ad01033c878b",
-          "title": "⭐ Unstructured-IO/unstructured",
-          "url": "https://github.com/Unstructured-IO/unstructured",
+          "id": "b53776df8b5b",
+          "title": "⭐ realsenseai/librealsense",
+          "url": "https://github.com/realsenseai/librealsense",
           "source": "GitHub AI",
           "source_name": "GitHub AI",
           "category": "ai-tools",
-          "published_at": "2026-06-10T10:22:36.783936+00:00",
-          "summary": "Convert documents to structured data effortlessly. Unstructured is open-source ETL solution for transforming complex documents into clean, structured formats for language models. Visit our website to learn more about our enterprise grade Platform product for production grade workflows, partitioning, enrichments, chunking and embedding."
+          "published_at": "2026-06-10T14:00:48.880752+00:00",
+          "summary": "RealSense SDK"
         },
         {
-          "id": "95cdf36fac9c",
-          "title": "⭐ meilisearch/meilisearch",
-          "url": "https://github.com/meilisearch/meilisearch",
+          "id": "5ec529eeeebc",
+          "title": "⭐ microsoft/onnxruntime",
+          "url": "https://github.com/microsoft/onnxruntime",
           "source": "GitHub AI",
           "source_name": "GitHub AI",
           "category": "ai-tools",
-          "published_at": "2026-06-10T10:22:36.783800+00:00",
-          "summary": "A lightning-fast search engine API bringing AI-powered hybrid search to your sites and applications."
+          "published_at": "2026-06-10T14:00:48.880632+00:00",
+          "summary": "ONNX Runtime: cross-platform, high performance ML inferencing and training accelerator"
         },
         {
-          "id": "6a1dccc3e829",
-          "title": "⭐ qdrant/qdrant",
-          "url": "https://github.com/qdrant/qdrant",
+          "id": "0b8b8c6e68f2",
+          "title": "⭐ GoogleContainerTools/distroless",
+          "url": "https://github.com/GoogleContainerTools/distroless",
           "source": "GitHub AI",
           "source_name": "GitHub AI",
           "category": "ai-tools",
-          "published_at": "2026-06-10T10:22:36.783656+00:00",
-          "summary": "Qdrant - High-performance, massive-scale Vector Database and Vector Search Engine for the next generation of AI. Also available in the cloudhttps://cloud.qdrant.io/"
+          "published_at": "2026-06-10T14:00:48.879670+00:00",
+          "summary": "🥑 Language focused docker images, minus the operating system."
         },
         {
           "id": "35913c019a90",
@@ -353,48 +353,18 @@
           "source": "GitHub AI",
           "source_name": "GitHub AI",
           "category": "ai-tools",
-          "published_at": "2026-06-10T10:22:36.783278+00:00",
+          "published_at": "2026-06-10T14:00:48.879527+00:00",
           "summary": "Search infrastructure for AI"
         },
         {
-          "id": "863409ef43ad",
-          "title": "⭐ mindsdb/minds-platform",
-          "url": "https://github.com/mindsdb/minds-platform",
+          "id": "3337653754cd",
+          "title": "⭐ borglab/gtsam",
+          "url": "https://github.com/borglab/gtsam",
           "source": "GitHub AI",
           "source_name": "GitHub AI",
           "category": "ai-tools",
-          "published_at": "2026-06-10T10:22:36.782967+00:00",
-          "summary": "General-purpose AI designed for knowledge workers — creators, strategists, and operators — and individuals seeking AI systems they can truly control to help them get work done, with full flexibility to extend and deploy anywhere (VPC, on-prem, or cloud)."
-        },
-        {
-          "id": "c6c88cf76fd4",
-          "title": "⭐ SimplifyJobs/Summer2026-Internships",
-          "url": "https://github.com/SimplifyJobs/Summer2026-Internships",
-          "source": "GitHub AI",
-          "source_name": "GitHub AI",
-          "category": "ai-tools",
-          "published_at": "2026-06-10T10:22:36.782827+00:00",
-          "summary": "Summer 2026 software engineering, data science, AI, quant, product management, and hardware internship postings. Updated daily by Simplify and Pitt CSC."
-        },
-        {
-          "id": "9593a01fe94b",
-          "title": "⭐ cvat-ai/cvat",
-          "url": "https://github.com/cvat-ai/cvat",
-          "source": "GitHub AI",
-          "source_name": "GitHub AI",
-          "category": "ai-tools",
-          "published_at": "2026-06-10T10:22:36.782682+00:00",
-          "summary": "Computer Vision Annotation Tool (CVAT) is a leading platform for building high-quality visual datasets for vision AI. It offers open-source, cloud, and enterprise products, as well as labeling services, for image, video, and 3D annotation with AI-assisted labeling, quality assurance, team collaboration, analytics, and developer APIs."
-        },
-        {
-          "id": "ba0711ab56a7",
-          "title": "⭐ facebookresearch/faiss",
-          "url": "https://github.com/facebookresearch/faiss",
-          "source": "GitHub AI",
-          "source_name": "GitHub AI",
-          "category": "ai-tools",
-          "published_at": "2026-06-10T10:22:36.781848+00:00",
-          "summary": "A library for efficient similarity search and clustering of dense vectors."
+          "published_at": "2026-06-10T14:00:48.879387+00:00",
+          "summary": "GTSAM is a library of C++ classes that implement smoothing and mapping (SAM) in robotics and vision, using factor graphs and Bayes networks as the underlying computing paradigm rather than sparse matrices."
         }
       ]
     },
@@ -486,6 +456,16 @@
     "tip": {
       "label": "💡 技巧",
       "items": [
+        {
+          "id": "8bba0566e1b7",
+          "title": "走进 Anthropic：这家估值 9650 亿美元的 AI 巨头",
+          "url": "https://www.bloomberg.com/news/videos/2026-06-10/inside-anthropic-the-965-billion-ai-juggernaut-video",
+          "source": "aihot",
+          "source_name": "Bloomberg：Technology（RSS）",
+          "category": "tip",
+          "published_at": "2026-06-10T12:00:06.000Z",
+          "summary": "Emily Chang 与 Anthropic 联合创始人 Dario 和 Daniela Amodei 进行罕见深度对话，探讨创业起源、与五角大楼的摩擦，以及该公司如何在激烈的 AI 竞赛中将安全置于首位。"
+        },
         {
           "id": "47a6c8ed0857",
           "title": "谷歌 DeepMind 经济学家伊马斯：尚未发现 AI 造成岗位流失的证据，跟风裁员恐适得其反",
