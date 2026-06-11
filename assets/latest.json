@@ -1,15 +1,16 @@
 {
   "date": "2026-06-11",
-  "generated_at": "2026-06-11T19:44:31.513222",
-  "total": 78,
+  "generated_at": "2026-06-11T21:51:30.841958",
+  "total": 81,
   "sources": {
     "Hugging Face": 8,
     "GitHub AI": 6,
+    "Hacker News 热门（buzzing.cc 中文翻译）": 5,
     "X：Replit (@Replit)": 2,
     "Anthropic：Newsroom（网页）": 2,
     "X：Perplexity (@perplexity_ai)": 1,
-    "Hacker News 热门（buzzing.cc 中文翻译）": 3,
     "X：Logan Kilpatrick (@OfficialLoganK)": 1,
+    "OpenRouter：Announcements（RSS）": 1,
     "X：Kim (@kimmonismus)": 1,
     "X：OpenRouter (@OpenRouter)": 2,
     "X：Vista (@vista8)": 2,
@@ -324,13 +325,13 @@
       "label": "🛠️ 开发工具",
       "items": [
         {
-          "id": "ec2c154d6809",
-          "title": "Can Voice Agents Handle Bilingual Customers? Benchmarking Frontier ASR on Code-Switched Speech",
-          "url": "https://huggingface.co/blog/ServiceNow-AI/code-switching",
+          "id": "813b3f6ba430",
+          "title": "Direct Preference Optimization Beyond Chatbots",
+          "url": "https://huggingface.co/blog/Dharma-AI/direct-preference-optimization-beyond-chatbots",
           "source": "Hugging Face",
           "source_name": "Hugging Face",
           "category": "ai-tools",
-          "published_at": "Tue, 09 Jun 2026 19:38:28 GMT",
+          "published_at": "Wed, 03 Jun 2026 12:55:11 GMT",
           "summary": ""
         },
         {
@@ -410,7 +411,7 @@
           "source": "GitHub AI",
           "source_name": "GitHub AI",
           "category": "ai-tools",
-          "published_at": "2026-06-11T19:44:28.845644+00:00",
+          "published_at": "2026-06-11T21:51:26.973089+00:00",
           "summary": "Computer Vision Annotation Tool (CVAT) is a leading platform for building high-quality visual datasets for vision AI. It offers open-source, cloud, and enterprise products, as well as labeling services, for image, video, and 3D annotation with AI-assisted labeling, quality assurance, team collaboration, analytics, and developer APIs."
         },
         {
@@ -420,7 +421,7 @@
           "source": "GitHub AI",
           "source_name": "GitHub AI",
           "category": "ai-tools",
-          "published_at": "2026-06-11T19:44:28.845281+00:00",
+          "published_at": "2026-06-11T21:51:26.972682+00:00",
           "summary": "CrowdSec - the open-source and participative security solution offering crowdsourced protection against malicious IPs and access to the most advanced real-world CTI."
         },
         {
@@ -430,7 +431,7 @@
           "source": "GitHub AI",
           "source_name": "GitHub AI",
           "category": "ai-tools",
-          "published_at": "2026-06-11T19:44:28.845048+00:00",
+          "published_at": "2026-06-11T21:51:26.972414+00:00",
           "summary": "📦 The official Nextcloud installation method. Provides easy deployment and maintenance with most features included in this one Nextcloud instance."
         },
         {
@@ -440,7 +441,7 @@
           "source": "GitHub AI",
           "source_name": "GitHub AI",
           "category": "ai-tools",
-          "published_at": "2026-06-11T19:44:28.843914+00:00",
+          "published_at": "2026-06-11T21:51:26.971176+00:00",
           "summary": "Build databases, automations, apps & agents with AI — no code. Open source platform available on cloud and self-hosted. GDPR, HIPAA, SOC 2 compliant. Best Airtable alternative."
         },
         {
@@ -450,7 +451,7 @@
           "source": "GitHub AI",
           "source_name": "GitHub AI",
           "category": "ai-tools",
-          "published_at": "2026-06-11T19:44:28.843662+00:00",
+          "published_at": "2026-06-11T21:51:26.970895+00:00",
           "summary": "Secure environments for developers and their agents"
         },
         {
@@ -460,7 +461,7 @@
           "source": "GitHub AI",
           "source_name": "GitHub AI",
           "category": "ai-tools",
-          "published_at": "2026-06-11T19:44:28.843285+00:00",
+          "published_at": "2026-06-11T21:51:26.970498+00:00",
           "summary": "Industrial-grade speech recognition toolkit: 170x realtime, 50+ languages, speaker diarization, emotion detection, streaming, and OpenAI-compatible API."
         }
       ]
@@ -578,6 +579,16 @@
     "tip": {
       "label": "💡 技巧",
       "items": [
+        {
+          "id": "d7befe75d9ec",
+          "title": "什么是 LLM 网关？应用与 AI 模型之间缺失的一层",
+          "url": "https://openrouter.ai/blog/insights/llm-gateway",
+          "source": "aihot",
+          "source_name": "OpenRouter：Announcements（RSS）",
+          "category": "tip",
+          "published_at": "2026-06-11T16:00:00.000Z",
+          "summary": "缺少 LLM 网关时，供应商中断会直接变成用户可见的错误，AI 支出也难以追踪。文章从路由、合规性和设置时间三个维度比较了最佳方案。"
+        },
         {
           "id": "a5f1ed3c3d98",
           "title": "Codex Goal指令生成Skill发布：一句话需求转目标",
@@ -783,6 +794,26 @@
     "industry": {
       "label": "industry",
       "items": [
+        {
+          "id": "4eb229f67b01",
+          "title": "OpenAI 正考虑大幅降价，以与 Anthropic 争夺用户",
+          "url": "https://www.cnbc.com/2026/06/11/openai-mulls-slashing-prices-ahead-of-competition-from-anthropic-wsj.html",
+          "source": "aihot",
+          "source_name": "Hacker News 热门（buzzing.cc 中文翻译）",
+          "category": "industry",
+          "published_at": "2026-06-11T21:19:25.901Z",
+          "summary": "OpenAI 正在考虑大幅降低服务价格，以在与 Anthropic 的用户争夺战中占据优势。该消息由 CNBC 报道，来源为 WSJ。"
+        },
+        {
+          "id": "5ec99c0c635c",
+          "title": "全自主无人机首次击毙了人类士兵",
+          "url": "https://www.newscientist.com/article/2529849-fully-autonomous-drones-have-killed-human-soldiers-for-the-first-time",
+          "source": "aihot",
+          "source_name": "Hacker News 热门（buzzing.cc 中文翻译）",
+          "category": "industry",
+          "published_at": "2026-06-11T19:29:06.279Z",
+          "summary": "据《新科学家》6月10日报道，全自主无人机首次击毙了人类士兵。这是有记录以来第一次由完全自主运行的无人机执行致命攻击，标志着自主武器系统在实战中的新进展。该报道来自《新科学家》网站，目前尚无更多细节公布。"
+        },
         {
           "id": "f96ad0f3fc7b",
           "title": "Anthropic与DXC达成全球联盟，将Claude引入关键行业系统",
