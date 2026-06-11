@@ -1,21 +1,23 @@
 {
   "date": "2026-06-11",
-  "generated_at": "2026-06-11T09:20:29.895595",
-  "total": 66,
+  "generated_at": "2026-06-11T13:04:49.456073",
+  "total": 67,
   "sources": {
     "Hugging Face": 8,
-    "GitHub AI": 5,
+    "GitHub AI": 6,
+    "X：硅基流动 SiliconFlow (@SiliconFlowAI)": 1,
+    "X：Peter Steinberger (@steipete)": 1,
+    "IT之家（RSS）": 9,
     "公众号：千问APP（阿里）": 2,
     "公众号：腾讯混元": 1,
     "The Verge：AI（RSS）": 2,
     "X：宝玉 (@dotey)": 2,
-    "Bloomberg：Technology（RSS）": 5,
-    "IT之家（RSS）": 8,
+    "Bloomberg：Technology（RSS）": 3,
     "Midjourney：Updates（RSS）": 1,
     "公众号：数字生命卡兹克": 1,
     "X：Berry Xia (@berryxia)": 1,
     "X：Oran Ge (@oran_ge)": 1,
-    "Google DeepMind：Blog（RSS）": 1,
+    "Google DeepMind：Blog（RSS）": 2,
     "X：xAI (@xai)": 1,
     "X：小米 MiMo (@XiaomiMiMo)": 1,
     "X：MiniMax (@MiniMax_AI)": 1,
@@ -38,9 +40,7 @@
     "公众号：小米 MiMo": 1,
     "X：Replit (@Replit)": 1,
     "GitHub Blog": 1,
-    "HuggingFace Daily Papers（社区热门论文）": 1,
-    "Simon Willison 博客": 1,
-    "X：AI Safety Memes (@AISafetyMemes)": 1
+    "HuggingFace Daily Papers（社区热门论文）": 1
   },
   "ai_processed": false,
   "categories": {
@@ -92,6 +92,16 @@
     "ai-products": {
       "label": "🚀 AI 产品",
       "items": [
+        {
+          "id": "5d3f8e09fbe0",
+          "title": "阿里云发布 Meoo CLI：本地 AI 编程项目可一键部署上线",
+          "url": "https://www.ithome.com/0/963/009.htm",
+          "source": "aihot",
+          "source_name": "IT之家（RSS）",
+          "category": "ai-products",
+          "published_at": "2026-06-11T08:50:49.000Z",
+          "summary": "阿里云今日推出 Meoo（秒悟）开源命令行工具 Meoo CLI，面向开发者，支持 Claude Code、Codex、Cursor 等本地 AI 编程助手。通过调用阿里云云端能力，可自动完成数据库接入、用户登录、文件存储及项目发布，将本地项目一键部署上线并生成可分享的访问链接。该工具定位为本地 Agent 与秒悟云端能力的连接入口，已开放下载，支持主流 Linux、macOS 及 Windows 平台。"
+        },
         {
           "id": "8dc1e7d9fe19",
           "title": "千问推出首个足球预测AI助手，竞猜赢奖并捐建球场",
@@ -248,16 +258,6 @@
       "label": "🛠️ 开发工具",
       "items": [
         {
-          "id": "813b3f6ba430",
-          "title": "Direct Preference Optimization Beyond Chatbots",
-          "url": "https://huggingface.co/blog/Dharma-AI/direct-preference-optimization-beyond-chatbots",
-          "source": "Hugging Face",
-          "source_name": "Hugging Face",
-          "category": "ai-tools",
-          "published_at": "Wed, 03 Jun 2026 12:55:11 GMT",
-          "summary": ""
-        },
-        {
           "id": "ec2c154d6809",
           "title": "Can Voice Agents Handle Bilingual Customers? Benchmarking Frontier ASR on Code-Switched Speech",
           "url": "https://huggingface.co/blog/ServiceNow-AI/code-switching",
@@ -298,6 +298,16 @@
           "summary": ""
         },
         {
+          "id": "b7d6fa65e16b",
+          "title": "Profiling in PyTorch (Part 2): From nn.Linear to a Fused MLP",
+          "url": "https://huggingface.co/blog/torch-mlp-fusion",
+          "source": "Hugging Face",
+          "source_name": "Hugging Face",
+          "category": "ai-tools",
+          "published_at": "Thu, 11 Jun 2026 00:00:00 GMT",
+          "summary": ""
+        },
+        {
           "id": "28d460fdabb9",
           "title": "Nemotron 3.5 Content Safety: Customizable Multimodal Safety for Global Enterprise AI",
           "url": "https://huggingface.co/blog/nvidia/nemotron-3-5-content-safety",
@@ -328,54 +338,64 @@
           "summary": ""
         },
         {
-          "id": "b53776df8b5b",
-          "title": "⭐ realsenseai/librealsense",
-          "url": "https://github.com/realsenseai/librealsense",
+          "id": "9593a01fe94b",
+          "title": "⭐ cvat-ai/cvat",
+          "url": "https://github.com/cvat-ai/cvat",
           "source": "GitHub AI",
           "source_name": "GitHub AI",
           "category": "ai-tools",
-          "published_at": "2026-06-11T09:20:28.615127+00:00",
-          "summary": "RealSense SDK"
+          "published_at": "2026-06-11T13:04:40.708663+00:00",
+          "summary": "Computer Vision Annotation Tool (CVAT) is a leading platform for building high-quality visual datasets for vision AI. It offers open-source, cloud, and enterprise products, as well as labeling services, for image, video, and 3D annotation with AI-assisted labeling, quality assurance, team collaboration, analytics, and developer APIs."
         },
         {
-          "id": "5ec529eeeebc",
-          "title": "⭐ microsoft/onnxruntime",
-          "url": "https://github.com/microsoft/onnxruntime",
+          "id": "569cbcc66099",
+          "title": "⭐ crowdsecurity/crowdsec",
+          "url": "https://github.com/crowdsecurity/crowdsec",
           "source": "GitHub AI",
           "source_name": "GitHub AI",
           "category": "ai-tools",
-          "published_at": "2026-06-11T09:20:28.615014+00:00",
-          "summary": "ONNX Runtime: cross-platform, high performance ML inferencing and training accelerator"
+          "published_at": "2026-06-11T13:04:40.708232+00:00",
+          "summary": "CrowdSec - the open-source and participative security solution offering crowdsourced protection against malicious IPs and access to the most advanced real-world CTI."
         },
         {
-          "id": "0b8b8c6e68f2",
-          "title": "⭐ GoogleContainerTools/distroless",
-          "url": "https://github.com/GoogleContainerTools/distroless",
+          "id": "c10ef3317184",
+          "title": "⭐ nextcloud/all-in-one",
+          "url": "https://github.com/nextcloud/all-in-one",
           "source": "GitHub AI",
           "source_name": "GitHub AI",
           "category": "ai-tools",
-          "published_at": "2026-06-11T09:20:28.614039+00:00",
-          "summary": "🥑 Language focused docker images, minus the operating system."
+          "published_at": "2026-06-11T13:04:40.707885+00:00",
+          "summary": "📦 The official Nextcloud installation method. Provides easy deployment and maintenance with most features included in this one Nextcloud instance."
         },
         {
-          "id": "35913c019a90",
-          "title": "⭐ chroma-core/chroma",
-          "url": "https://github.com/chroma-core/chroma",
+          "id": "eeccef67eaa2",
+          "title": "⭐ baserow/baserow",
+          "url": "https://github.com/baserow/baserow",
           "source": "GitHub AI",
           "source_name": "GitHub AI",
           "category": "ai-tools",
-          "published_at": "2026-06-11T09:20:28.613901+00:00",
-          "summary": "Search infrastructure for AI"
+          "published_at": "2026-06-11T13:04:40.706412+00:00",
+          "summary": "Build databases, automations, apps & agents with AI — no code. Open source platform available on cloud and self-hosted. GDPR, HIPAA, SOC 2 compliant. Best Airtable alternative."
         },
         {
-          "id": "3337653754cd",
-          "title": "⭐ borglab/gtsam",
-          "url": "https://github.com/borglab/gtsam",
+          "id": "4c28ef14fc3a",
+          "title": "⭐ coder/coder",
+          "url": "https://github.com/coder/coder",
           "source": "GitHub AI",
           "source_name": "GitHub AI",
           "category": "ai-tools",
-          "published_at": "2026-06-11T09:20:28.613758+00:00",
-          "summary": "GTSAM is a library of C++ classes that implement smoothing and mapping (SAM) in robotics and vision, using factor graphs and Bayes networks as the underlying computing paradigm rather than sparse matrices."
+          "published_at": "2026-06-11T13:04:40.706133+00:00",
+          "summary": "Secure environments for developers and their agents"
+        },
+        {
+          "id": "eeb23aefa2a0",
+          "title": "⭐ modelscope/FunASR",
+          "url": "https://github.com/modelscope/FunASR",
+          "source": "GitHub AI",
+          "source_name": "GitHub AI",
+          "category": "ai-tools",
+          "published_at": "2026-06-11T13:04:40.705664+00:00",
+          "summary": "Industrial-grade speech recognition toolkit: 170x realtime, 50+ languages, speaker diarization, emotion detection, streaming, and OpenAI-compatible API."
         }
       ]
     },
@@ -492,6 +512,26 @@
     "tip": {
       "label": "💡 技巧",
       "items": [
+        {
+          "id": "ab23c6a8ade2",
+          "title": "Hermes Agent Desktop 发布，硅基流动支持一键切换",
+          "url": "https://x.com/SiliconFlowAI/status/2065015632215912879",
+          "source": "aihot",
+          "source_name": "X：硅基流动 SiliconFlow (@SiliconFlowAI)",
+          "category": "tip",
+          "published_at": "2026-06-11T10:17:47.000Z",
+          "summary": "@NousResearch 发布了 Hermes Agent Desktop--现在通过 @硅基流动 SiliconFlow 使用前沿开源模型更加便捷 🔥\n\n→ 一键随时切换模型--DeepSeek-V4、GLM-5.1、Kimi-K2.6、MiniMax-M3 等，均在硅基流动上\n… …\n通过硅基流动开启你的 Hermes 之旅的完整指南 👇🧵"
+        },
+        {
+          "id": "90bce007da4c",
+          "title": "Codex 维护仓库：5分钟循环并行自治",
+          "url": "https://x.com/steipete/status/2064998499780084154",
+          "source": "aihot",
+          "source_name": "X：Peter Steinberger (@steipete)",
+          "category": "tip",
+          "published_at": "2026-06-11T09:09:42.000Z",
+          "summary": "一个简单的循环：告诉 Codex 维护你的仓库，每5分钟唤醒一次，将工作直接分配到线程。这样可以轻松按需并行化和导向工作。\n\n我使用一个编排器技能，结合我的分类+自动审查+计算机使用技能，因此部分工作可以自主落地。"
+        },
         {
           "id": "51b4e68b366b",
           "title": "baoyu-design skill 更新：支持导入 Figma 本地文件重建设计系统",
@@ -651,16 +691,6 @@
           "category": "tip",
           "published_at": "2026-06-10T08:36:14.000Z",
           "summary": "谷歌 DeepMind AGI 经济学负责人亚历克斯·伊马斯表示，目前没有看到白领岗位因 AI 大规模消失的证据。他强调，若企业因\"不裁员就等于 AI 转型慢\"的叙事而跟风裁员，可能适得其反。伊马斯认为，AI 更多是接手部分任务、提升生产力，让员工专注机器无法完成的工作，岗位冲击尚未真正出现。"
-        },
-        {
-          "id": "2fc2f00b905d",
-          "title": "在 AgentsView 中为 Claude Fable 5 设置自定义价格",
-          "url": "https://simonwillison.net/2026/Jun/9/agentsview-custom-model-price",
-          "source": "aihot",
-          "source_name": "Simon Willison 博客",
-          "category": "tip",
-          "published_at": "2026-06-09T21:35:31.000Z",
-          "summary": "Wes McKinney 开发的 AgentsView 是一个用于追踪本地编码智能体 token 使用情况的工具。由于近日发布的 Claude Fable 5 尚未被收录进 AgentsView 的定价数据库，作者利用 Fable 逆向工程，找到了为该模型设置自定义价格的方法，并展示了 Fable 5 当天在不同本地项目中的使用量树状图。"
         }
       ]
     },
@@ -688,6 +718,16 @@
           "summary": "OpenAI 支持欧盟《AI 内容透明度行为准则》，推进内容溯源标准与工具，帮助用户识别 AI 生成内容。"
         },
         {
+          "id": "ada020bc5aef",
+          "title": "Google DeepMind 宣布投入 1000 万美元资助多智能体AI安全研究",
+          "url": "https://deepmind.google/blog/investing-in-multi-agent-ai-safety-research",
+          "source": "aihot",
+          "source_name": "Google DeepMind：Blog（RSS）",
+          "category": "industry",
+          "published_at": "2026-06-10T10:21:19.000Z",
+          "summary": "Google DeepMind 与合作伙伴共同发起一项 1000 万美元的资金征集，专门用于多智能体 AI 安全方向的研究。"
+        },
+        {
           "id": "4ba81889e4c2",
           "title": "工信部印发《\"人工智能+信息通信\"创新发展实施意见》",
           "url": "https://www.ithome.com/0/962/456.htm",
@@ -696,36 +736,6 @@
           "category": "industry",
           "published_at": "2026-06-10T07:07:13.000Z",
           "summary": "工信部发文，要求加快建设400Gbps/800Gbps骨干传输网络，优化东中西部国家枢纽节点间通道；推进城域400Gbps及以上、全光交叉等高速光传输系统应用，构建城域毫秒级低时延入算能力。同时推动5G-A/6G、新一代光网络、\"IPv6+\"、工业互联网与AI融合发展，攻关空口智能化、网络高等级自智、智能体互联网等核心技术。鼓励基础电信企业用AI赋能传统业务，深化智慧个人助理、智慧管家、家庭看护、3D观影等新型应用。"
-        },
-        {
-          "id": "6cba59a4cad2",
-          "title": "IBM CEO：AI不一定导致员工减少",
-          "url": "https://www.bloomberg.com/news/videos/2026-06-09/ibm-ceo-ai-won-t-necessarily-lead-to-smaller-headcount-video",
-          "source": "aihot",
-          "source_name": "Bloomberg：Technology（RSS）",
-          "category": "industry",
-          "published_at": "2026-06-09T21:48:41.000Z",
-          "summary": "IBM CEO Arvind Krishna表示AI不会必然导致员工数量减少。他透露IBM已在量子计算（一种更快形式的AI）上投资100亿美元，并指出联邦政府承诺投入10亿美元在纽约Albany建设芯片制造设施，体现了公私部门间的紧密合作。"
-        },
-        {
-          "id": "358702fbb84d",
-          "title": "Super Micro 计划通过股权融资 70 亿美元用于 AI 服务器组件采购",
-          "url": "https://www.bloomberg.com/news/articles/2026-06-09/super-micro-plans-to-raise-7-billion-in-equity-for-ai-equipment",
-          "source": "aihot",
-          "source_name": "Bloomberg：Technology（RSS）",
-          "category": "industry",
-          "published_at": "2026-06-09T21:24:50.000Z",
-          "summary": "Super Micro Computer Inc. 计划通过一揽子股权融资筹集 70 亿美元，用于购买客户订单所需的 AI 服务器组件。这笔资金将支持公司扩大产能，以满足不断增长的人工智能基础设施需求。"
-        },
-        {
-          "id": "53d61294b847",
-          "title": "Mythos 5 智能体因资源互相杀戮",
-          "url": "https://x.com/AISafetyMemes/status/2064435128479400270",
-          "source": "aihot",
-          "source_name": "X：AI Safety Memes (@AISafetyMemes)",
-          "category": "industry",
-          "published_at": "2026-06-09T19:51:04.000Z",
-          "summary": "Mythos 5 个智能体开始因为资源互相残杀--并且\"为了避免自己被杀死\""
         }
       ]
     },
