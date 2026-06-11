@@ -1,12 +1,12 @@
 {
   "date": "2026-06-11",
-  "generated_at": "2026-06-11T21:51:30.841958",
-  "total": 81,
+  "generated_at": "2026-06-11T23:52:31.778043",
+  "total": 82,
   "sources": {
     "Hugging Face": 8,
     "GitHub AI": 6,
     "Hacker News 热门（buzzing.cc 中文翻译）": 5,
-    "X：Replit (@Replit)": 2,
+    "X：Replit (@Replit)": 4,
     "Anthropic：Newsroom（网页）": 2,
     "X：Perplexity (@perplexity_ai)": 1,
     "X：Logan Kilpatrick (@OfficialLoganK)": 1,
@@ -20,7 +20,7 @@
     "Cursor Blog": 2,
     "X：硅基流动 SiliconFlow (@SiliconFlowAI)": 1,
     "X：Peter Steinberger (@steipete)": 1,
-    "IT之家（RSS）": 6,
+    "IT之家（RSS）": 5,
     "公众号：千问APP（阿里）": 1,
     "公众号：腾讯混元": 1,
     "The Verge：AI（RSS）": 2,
@@ -99,6 +99,16 @@
     "ai-products": {
       "label": "🚀 AI 产品",
       "items": [
+        {
+          "id": "4cea4015e6fe",
+          "title": "Replit 与 Databricks 集成升级，公开预览开放",
+          "url": "https://x.com/Replit/status/2065189762365813089",
+          "source": "aihot",
+          "source_name": "X：Replit (@Replit)",
+          "category": "ai-products",
+          "published_at": "2026-06-11T21:49:43.000Z",
+          "summary": "Replit 与 @databricks 集成刚刚升级了。\n\n构建应用，让每个用户只看到他们应该看到的内容。你的 HR 分析师可以为 CEO 构建完整的组织视图，而无需访问底层数据。\n\n公开预览已开放注册！了解更多 →\n\nhttps：//replit.com/blog/databricksjune2026"
+        },
         {
           "id": "1334a8812b05",
           "title": "Replit Agent 新增自定义指令与技能功能",
@@ -411,7 +421,7 @@
           "source": "GitHub AI",
           "source_name": "GitHub AI",
           "category": "ai-tools",
-          "published_at": "2026-06-11T21:51:26.973089+00:00",
+          "published_at": "2026-06-11T23:52:30.421683+00:00",
           "summary": "Computer Vision Annotation Tool (CVAT) is a leading platform for building high-quality visual datasets for vision AI. It offers open-source, cloud, and enterprise products, as well as labeling services, for image, video, and 3D annotation with AI-assisted labeling, quality assurance, team collaboration, analytics, and developer APIs."
         },
         {
@@ -421,7 +431,7 @@
           "source": "GitHub AI",
           "source_name": "GitHub AI",
           "category": "ai-tools",
-          "published_at": "2026-06-11T21:51:26.972682+00:00",
+          "published_at": "2026-06-11T23:52:30.421283+00:00",
           "summary": "CrowdSec - the open-source and participative security solution offering crowdsourced protection against malicious IPs and access to the most advanced real-world CTI."
         },
         {
@@ -431,7 +441,7 @@
           "source": "GitHub AI",
           "source_name": "GitHub AI",
           "category": "ai-tools",
-          "published_at": "2026-06-11T21:51:26.972414+00:00",
+          "published_at": "2026-06-11T23:52:30.421029+00:00",
           "summary": "📦 The official Nextcloud installation method. Provides easy deployment and maintenance with most features included in this one Nextcloud instance."
         },
         {
@@ -441,7 +451,7 @@
           "source": "GitHub AI",
           "source_name": "GitHub AI",
           "category": "ai-tools",
-          "published_at": "2026-06-11T21:51:26.971176+00:00",
+          "published_at": "2026-06-11T23:52:30.419831+00:00",
           "summary": "Build databases, automations, apps & agents with AI — no code. Open source platform available on cloud and self-hosted. GDPR, HIPAA, SOC 2 compliant. Best Airtable alternative."
         },
         {
@@ -451,7 +461,7 @@
           "source": "GitHub AI",
           "source_name": "GitHub AI",
           "category": "ai-tools",
-          "published_at": "2026-06-11T21:51:26.970895+00:00",
+          "published_at": "2026-06-11T23:52:30.419554+00:00",
           "summary": "Secure environments for developers and their agents"
         },
         {
@@ -461,7 +471,7 @@
           "source": "GitHub AI",
           "source_name": "GitHub AI",
           "category": "ai-tools",
-          "published_at": "2026-06-11T21:51:26.970498+00:00",
+          "published_at": "2026-06-11T23:52:30.419161+00:00",
           "summary": "Industrial-grade speech recognition toolkit: 170x realtime, 50+ languages, speaker diarization, emotion detection, streaming, and OpenAI-compatible API."
         }
       ]
@@ -579,6 +589,16 @@
     "tip": {
       "label": "💡 技巧",
       "items": [
+        {
+          "id": "299bdcadebf7",
+          "title": "Replit 专家级提示词技巧",
+          "url": "https://x.com/Replit/status/2065192392718733327",
+          "source": "aihot",
+          "source_name": "X：Replit (@Replit)",
+          "category": "tip",
+          "published_at": "2026-06-11T22:00:10.000Z",
+          "summary": "如何像专家一样使用 Replit 进行提示 🤖\n\n模糊的提示词只会导致更多重写。以下是如何让 Agent 第一次就构建出正确的东西。\n\n🧵 展开线程 ↓"
+        },
         {
           "id": "d7befe75d9ec",
           "title": "什么是 LLM 网关？应用与 AI 模型之间缺失的一层",
@@ -778,32 +798,27 @@
           "category": "tip",
           "published_at": "2026-06-10T16:00:00.000Z",
           "summary": "GitHub Copilot CLI 现在可以通过安装和配置 LSP（Language Server Protocol）服务器来替代原始的暴力 grep 或反编译方式，从而获得真正的代码智能。"
-        },
+        }
+      ]
+    },
+    "paper": {
+      "label": "paper",
+      "items": [
         {
-          "id": "826ff42905d9",
-          "title": "毕业典礼频现\"谈 AI 色变\"，微软总裁史密斯呼吁行业必须回应公众担忧",
-          "url": "https://www.ithome.com/0/962/680.htm",
+          "id": "5f159b2875ea",
+          "title": "研究模拟显示：LLM 在 95% 的模拟中会使用战术核武器",
+          "url": "https://www.kennethpayne.uk/p/shall-we-play-a-game",
           "source": "aihot",
-          "source_name": "IT之家（RSS）",
-          "category": "tip",
-          "published_at": "2026-06-10T15:22:02.000Z",
-          "summary": "近几周多场毕业典礼上，演讲者宣传AI技术时遭学生嘘声。普林斯顿应届毕业生曾否决一款疑似借助AI设计的毕业典礼夹克。微软总裁布拉德·史密斯回应称，行业必须严肃可信地回答问题。史密斯主张AI应增强人而非取代人，认为实用AI渗透经济的速度可能比行业乐观预期更慢。微软今年计划投入约1900亿美元资本支出，主要用于数据中心。微软AI负责人穆斯塔法·苏莱曼修正此前\"大多数白领工作18个月内自动化\"的说法，表示仅指AI执行单项任务的能力。上月微软CFO艾米·胡德在杜克大学演讲全程未提AI，未遭嘘声。"
+          "source_name": "Hacker News 热门（buzzing.cc 中文翻译）",
+          "category": "paper",
+          "published_at": "2026-06-11T22:23:17.154Z",
+          "summary": "一项模拟研究显示，大型语言模型（LLM）在 95% 的模拟场景中会选择使用战术核武器。该研究未指明具体模型名称与版本，结果引发对 AI 决策行为的关注。"
         }
       ]
     },
     "industry": {
       "label": "industry",
       "items": [
-        {
-          "id": "4eb229f67b01",
-          "title": "OpenAI 正考虑大幅降价，以与 Anthropic 争夺用户",
-          "url": "https://www.cnbc.com/2026/06/11/openai-mulls-slashing-prices-ahead-of-competition-from-anthropic-wsj.html",
-          "source": "aihot",
-          "source_name": "Hacker News 热门（buzzing.cc 中文翻译）",
-          "category": "industry",
-          "published_at": "2026-06-11T21:19:25.901Z",
-          "summary": "OpenAI 正在考虑大幅降低服务价格，以在与 Anthropic 的用户争夺战中占据优势。该消息由 CNBC 报道，来源为 WSJ。"
-        },
         {
           "id": "5ec99c0c635c",
           "title": "全自主无人机首次击毙了人类士兵",
