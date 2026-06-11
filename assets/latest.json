@@ -1,10 +1,14 @@
 {
   "date": "2026-06-11",
-  "generated_at": "2026-06-11T00:03:42.084562",
-  "total": 65,
+  "generated_at": "2026-06-11T04:58:04.460393",
+  "total": 66,
   "sources": {
     "Hugging Face": 8,
     "GitHub AI": 5,
+    "Midjourney：Updates（RSS）": 1,
+    "公众号：数字生命卡兹克": 1,
+    "X：Berry Xia (@berryxia)": 1,
+    "X：Oran Ge (@oran_ge)": 1,
     "Google DeepMind：Blog（RSS）": 1,
     "X：xAI (@xai)": 1,
     "X：小米 MiMo (@XiaomiMiMo)": 1,
@@ -14,10 +18,10 @@
     "Hacker News 热门（buzzing.cc 中文翻译）": 2,
     "X：华为云 (@HuaweiCloud1)": 1,
     "公众号：火山引擎": 1,
-    "X：OpenRouter (@OpenRouter)": 2,
+    "X：OpenRouter (@OpenRouter)": 1,
     "IT之家（RSS）": 7,
     "X：Rohan Paul (@rohanpaul_ai)": 2,
-    "Bloomberg：Technology（RSS）": 5,
+    "Bloomberg：Technology（RSS）": 4,
     "xAI：News（网页）": 1,
     "Gary Marcus：The Road to AI We Can Trust（RSS）": 2,
     "OpenAI：官网动态（RSS · 排除企业/客户案例）": 1,
@@ -29,25 +33,35 @@
     "X：X.PIN (@thexpin)": 1,
     "X：邵猛 (@shao__meng)": 1,
     "X：ChatGPT (@ChatGPTapp)": 1,
+    "公众号：小米 MiMo": 1,
     "X：Replit (@Replit)": 1,
     "GitHub Blog": 1,
     "公众号：千问APP（阿里）": 1,
+    "HuggingFace Daily Papers（社区热门论文）": 1,
     "Simon Willison 博客": 1,
     "X：AI Safety Memes (@AISafetyMemes)": 1,
     "Hugging Face：Blog（RSS）": 1,
     "X：NotebookLM (@NotebookLM)": 1,
-    "OpenRouter：Announcements（RSS）": 2,
+    "OpenRouter：Announcements（RSS）": 1,
     "X：Eric Zakariasson (@ericzakariasson)": 1,
     "X：OpenAI Developers (@OpenAIDevs)": 1,
-    "Ethan Mollick：One Useful Thing（RSS）": 1,
-    "X：Luma AI (@LumaLabsAI)": 1,
-    "X：Fei-Fei Li (@drfeifei, World Labs)": 1
+    "Ethan Mollick：One Useful Thing（RSS）": 1
   },
   "ai_processed": false,
   "categories": {
     "ai-models": {
       "label": "🧠 AI 模型",
       "items": [
+        {
+          "id": "0473c20869f0",
+          "title": "Midjourney V8.1 已成为默认模型",
+          "url": "https://updates.midjourney.com/v8-1-is-now-the-default-model",
+          "source": "aihot",
+          "source_name": "Midjourney：Updates（RSS）",
+          "category": "ai-models",
+          "published_at": "2026-06-11T04:08:51.000Z",
+          "summary": "Midjourney 已将默认模型从 V7 升级为 V8.1。V8.1 在智能性、连贯性、对详细提示的遵循度以及文本渲染效果上均有提升，HD 模式也已支持。"
+        },
         {
           "id": "38057e4644a9",
           "title": "DiffusionGemma：文本生成速度提升4倍的开源扩散模型",
@@ -83,6 +97,16 @@
     "ai-products": {
       "label": "🚀 AI 产品",
       "items": [
+        {
+          "id": "792cd0d28ed8",
+          "title": "mlx-vlm v0.6.3 发布，Day-0 支持 Google DeepMind DiffusionGemma 和 Cohere North Mini Code 1.0",
+          "url": "https://x.com/berryxia/status/2064875107278098769",
+          "source": "aihot",
+          "source_name": "X：Berry Xia (@berryxia)",
+          "category": "ai-products",
+          "published_at": "2026-06-11T00:59:23.000Z",
+          "summary": "mlx-vlm v0.6.3 上线，首发支持 DiffusionGemma 和 North Mini Code 1.0。DiffusionGemma 采用全新架构：以 256 token 块为单位并行生成、双向注意力、迭代自纠错；26B MoE 仅激活 3.8B，量化后 18GB 即可运行。North Mini Code 1.0 为 30B MoE，仅激活 3B，BF16 下约 66 tok/s。两款模型均通过深度合作实现 Day-0 MLX 支持，可在 Mac 本地运行。可通过 `uv pip install -U mlx-vlm` 安装体验。"
+        },
         {
           "id": "c7a615d3e4af",
           "title": "小米发布 MiMo Code V0.1 开源终端 AI 编程助手",
@@ -164,6 +188,16 @@
           "summary": "今天，我们在 OpenRouter 上推出了新的 Activity explorer。 这是查看你和团队在每个模型上花费了多少的最佳方式，还包括 token、缓存命中率、智能体以及趋势。所有数据实时更新。 看看我们的团队如何使用 Fable 和其他模型 👇"
         },
         {
+          "id": "142cffd7a0dd",
+          "title": "小米发布并开源终端AI编程助手MiMo Code V0.1.0，采用MIT协议",
+          "url": "https://mp.weixin.qq.com/s/WkMPz-eBK2Hz0ZTQEwtx6w",
+          "source": "aihot",
+          "source_name": "公众号：小米 MiMo",
+          "category": "ai-products",
+          "published_at": "2026-06-10T18:06:35.000Z",
+          "summary": "小米发布并开源终端AI编程助手MiMo Code V0.1.0，采用MIT协议。内置限时免费MiMo-V2.5多模态模型，性能比肩Claude Sonnet 4.6；支持接入DeepSeek、Kimi、GLM等模型。核心能力包括持久记忆系统（项目记忆、会话检查点、任务进度）和无限上下文--通过独立subagent自动保存状态解决长会话遗忘。独创Compose模式实现模型与Agent协同优化，SWE-Bench Pro达62%（Claude Code 57%），Terminal Bench 2达73%（68%）。内置语音输入和/dream命令，每7天自动合并记忆。终端输入`mimo`即可使用，所有设置中文汉化。"
+        },
+        {
           "id": "45e4fd8a41b7",
           "title": "Replit 联合 Socket 推出 Package Firewall",
           "url": "https://x.com/Replit/status/2064750235193417828",
@@ -222,26 +256,6 @@
           "category": "ai-products",
           "published_at": "2026-06-09T17:12:14.000Z",
           "summary": "你的应用现在可以搜索网页上的图片。\n\nResponses API 中的网页搜索现在除了文本结果外，还支持图片结果，因此你可以构建能展示商品、地点、视觉参考和来源链接以激发灵感的应用。"
-        },
-        {
-          "id": "b45bbe5f9fb1",
-          "title": "Luma AI Ray3.2 API：电影级渲染可集成",
-          "url": "https://x.com/LumaLabsAI/status/2064389582997897216",
-          "source": "aihot",
-          "source_name": "X：Luma AI (@LumaLabsAI)",
-          "category": "ai-products",
-          "published_at": "2026-06-09T16:50:05.000Z",
-          "summary": "Ray3.2 API 可大规模运行电影级渲染，并集成到您正在构建的产品中。专为在交付的产品中打造电影感的开发者、代理机构和企业而设计。\n\n开始构建 → http：//lumalabs.ai/api"
-        },
-        {
-          "id": "9edc38ba6675",
-          "title": "World Labs与Lore合作打造互动体验",
-          "url": "https://x.com/drfeifei/status/2064387365930676695",
-          "source": "aihot",
-          "source_name": "X：Fei-Fei Li (@drfeifei, World Labs)",
-          "category": "ai-products",
-          "published_at": "2026-06-09T16:41:17.000Z",
-          "summary": "创意和想象力无与伦比！非常感谢@theworldlabs能与@withloreco的优秀人才合作，将他们不可思议的想法转化为用户可以享受的互动体验！🤩"
         }
       ]
     },
@@ -335,7 +349,7 @@
           "source": "GitHub AI",
           "source_name": "GitHub AI",
           "category": "ai-tools",
-          "published_at": "2026-06-11T00:03:30.812799+00:00",
+          "published_at": "2026-06-11T04:58:03.232726+00:00",
           "summary": "RealSense SDK"
         },
         {
@@ -345,7 +359,7 @@
           "source": "GitHub AI",
           "source_name": "GitHub AI",
           "category": "ai-tools",
-          "published_at": "2026-06-11T00:03:30.812664+00:00",
+          "published_at": "2026-06-11T04:58:03.232611+00:00",
           "summary": "ONNX Runtime: cross-platform, high performance ML inferencing and training accelerator"
         },
         {
@@ -355,7 +369,7 @@
           "source": "GitHub AI",
           "source_name": "GitHub AI",
           "category": "ai-tools",
-          "published_at": "2026-06-11T00:03:30.811570+00:00",
+          "published_at": "2026-06-11T04:58:03.231633+00:00",
           "summary": "🥑 Language focused docker images, minus the operating system."
         },
         {
@@ -365,7 +379,7 @@
           "source": "GitHub AI",
           "source_name": "GitHub AI",
           "category": "ai-tools",
-          "published_at": "2026-06-11T00:03:30.811422+00:00",
+          "published_at": "2026-06-11T04:58:03.231507+00:00",
           "summary": "Search infrastructure for AI"
         },
         {
@@ -375,7 +389,7 @@
           "source": "GitHub AI",
           "source_name": "GitHub AI",
           "category": "ai-tools",
-          "published_at": "2026-06-11T00:03:30.811242+00:00",
+          "published_at": "2026-06-11T04:58:03.231366+00:00",
           "summary": "GTSAM is a library of C++ classes that implement smoothing and mapping (SAM) in robotics and vision, using factor graphs and Bayes networks as the underlying computing paradigm rather than sparse matrices."
         }
       ]
@@ -493,6 +507,26 @@
     "tip": {
       "label": "💡 技巧",
       "items": [
+        {
+          "id": "bb589fff006f",
+          "title": "从0到1速通WorkBuddy：国内通用Agent产品教程",
+          "url": "https://mp.weixin.qq.com/s/nFSSzluc57xPv50Zbh4owg",
+          "source": "aihot",
+          "source_name": "公众号：数字生命卡兹克",
+          "category": "tip",
+          "published_at": "2026-06-11T01:58:00.000Z",
+          "summary": "WorkBuddy是面向国内用户的通用Agent产品，支持Windows和Mac，提供免费版和58元/月个人专业版，企业版已推出。内置代码开发、日常办公、设计创意三种场景模式及100多个行业领域AI专家。模型集成腾讯混元、DeepSeek（推荐V4 Pro）、GLM、Kimi等国产大模型，也支持接入兼容OpenAI协议的外部API。拥有Skills市场和MCP连接器生态，可打通QQ邮箱、腾讯会议、腾讯文档等服务。教程通过公众号周报生成和功能网页开发两个案例演示实际用法。"
+        },
+        {
+          "id": "11d56f1ffccc",
+          "title": "在写完这篇文章后 我把配图过程蒸馏成了一个「橙线插画」Skill 免费开源 安装地址： https：//github.com/orange2ai/orange-line-illustration",
+          "url": "https://x.com/oran_ge/status/2064861625883222114",
+          "source": "aihot",
+          "source_name": "X：Oran Ge (@oran_ge)",
+          "category": "tip",
+          "published_at": "2026-06-11T00:05:49.000Z",
+          "summary": "在写完这篇文章后\n我把配图过程蒸馏成了一个「橙线插画」Skill\n\n免费开源\n安装地址：\nhttps：//github.com/orange2ai/orange-line-illustration\n\n【引用 @oran_ge】：http：//x.com/i/article/2064857003743391744"
+        },
         {
           "id": "ec873d0591a1",
           "title": "Anthropic CEO Dario Amodei 发文呼吁缩小AI政策差距",
@@ -642,26 +676,6 @@
           "category": "tip",
           "published_at": "2026-06-09T17:11:22.000Z",
           "summary": "Anthropic 发布 Claude Fable，这是一款提供截然不同推理体验的 AI 模型。它擅长规划与生成复杂代码库，在需要精确构建代码结构或理解程序员深层需求的场景中，其表现相比 Claude Sonnet 有了大幅提升。用户描述与它协作更像与一位直觉敏锐的资深工程师合作，其对代码意图的捕捉和方案生成能力令人惊叹，但并非通用型 AI。"
-        },
-        {
-          "id": "f0783119f700",
-          "title": "OpenRouter与Cursor集成指南",
-          "url": "https://x.com/OpenRouter/status/2064384545256833209",
-          "source": "aihot",
-          "source_name": "X：OpenRouter (@OpenRouter)",
-          "category": "tip",
-          "published_at": "2026-06-09T16:30:04.000Z",
-          "summary": "想要在Cursor中使用OpenRouter吗？\n\n这里有一份集成指南：https：//openrouter.ai/docs/cookbook/coding-agents/cursor-integration"
-        },
-        {
-          "id": "9ce592f80f80",
-          "title": "Gemini 2.5 Flash API - 定价、快速入门与提供商比较",
-          "url": "https://openrouter.ai/blog/gemini-25-flash-api-pricing-quickstart-provider-comparison",
-          "source": "aihot",
-          "source_name": "OpenRouter：Announcements（RSS）",
-          "category": "tip",
-          "published_at": "2026-06-09T16:00:00.000Z",
-          "summary": "Gemini 2.5 Flash API 支持配置思考预算（thinking budgets），用户可跨提供商进行比较，并在5分钟内完成首次API调用。"
         }
       ]
     },
@@ -707,22 +721,22 @@
           "category": "industry",
           "published_at": "2026-06-09T19:51:04.000Z",
           "summary": "Mythos 5 个智能体开始因为资源互相残杀--并且\"为了避免自己被杀死\""
-        },
-        {
-          "id": "32b2ceb73417",
-          "title": "Apollo 与 Blackstone 联手 350 亿美元 AI 融资交易",
-          "url": "https://www.bloomberg.com/news/videos/2026-06-09/apollo-blackstone-fund-ai-boom-video",
-          "source": "aihot",
-          "source_name": "Bloomberg：Technology（RSS）",
-          "category": "industry",
-          "published_at": "2026-06-09T16:54:29.000Z",
-          "summary": "Apollo 和 Blackstone 合作开展 350 亿美元 AI 融资交易，可能重塑人工智能基础设施的融资方式。华尔街正为昂贵的 AI 芯片创建新的融资模型，Anthropic 和 Broadcom 参与其中。这笔交易可能标志着一个全新 AI 投资类别的开端。"
         }
       ]
     },
     "paper": {
       "label": "paper",
       "items": [
+        {
+          "id": "a58fc00535af",
+          "title": "Bebop：通过带拒绝采样的多token预测加速RL训练",
+          "url": "https://arxiv.org/abs/2606.12370",
+          "source": "aihot",
+          "source_name": "HuggingFace Daily Papers（社区热门论文）",
+          "category": "paper",
+          "published_at": "2026-06-10T00:00:00.000Z",
+          "summary": "Bebop系统研究多token预测（MTP）在大语言模型RL后训练中的加速瓶颈。发现MTP接受率与模型熵波动呈负线性关系；概率拒绝采样相比贪婪草稿采样能缓解熵干扰。提出端到端TV损失直接优化多步拒绝采样接受率，带来约10%提升，最高达95%接受率，额外推理吞吐提升25%。在Qwen3.5、Qwen3.6和Qwen3.7上，异步RL训练实现1.8倍端到端加速。预RL阶段的MTP训练结合e2e TV损失和拒绝采样可保持全程一致的加速，无需在线更新。"
+        },
         {
           "id": "b0df7ca933e1",
           "title": "Hugging Face 博客发布语音智能体代码切换基准测试",
