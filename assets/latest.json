@@ -1,10 +1,16 @@
 {
   "date": "2026-06-11",
-  "generated_at": "2026-06-11T04:58:04.460393",
+  "generated_at": "2026-06-11T09:20:29.895595",
   "total": 66,
   "sources": {
     "Hugging Face": 8,
     "GitHub AI": 5,
+    "公众号：千问APP（阿里）": 2,
+    "公众号：腾讯混元": 1,
+    "The Verge：AI（RSS）": 2,
+    "X：宝玉 (@dotey)": 2,
+    "Bloomberg：Technology（RSS）": 5,
+    "IT之家（RSS）": 8,
     "Midjourney：Updates（RSS）": 1,
     "公众号：数字生命卡兹克": 1,
     "X：Berry Xia (@berryxia)": 1,
@@ -13,39 +19,28 @@
     "X：xAI (@xai)": 1,
     "X：小米 MiMo (@XiaomiMiMo)": 1,
     "X：MiniMax (@MiniMax_AI)": 1,
-    "The Verge：AI（RSS）": 1,
     "Cursor Blog": 1,
     "Hacker News 热门（buzzing.cc 中文翻译）": 2,
     "X：华为云 (@HuaweiCloud1)": 1,
     "公众号：火山引擎": 1,
     "X：OpenRouter (@OpenRouter)": 1,
-    "IT之家（RSS）": 7,
-    "X：Rohan Paul (@rohanpaul_ai)": 2,
-    "Bloomberg：Technology（RSS）": 4,
+    "X：Rohan Paul (@rohanpaul_ai)": 1,
     "xAI：News（网页）": 1,
     "Gary Marcus：The Road to AI We Can Trust（RSS）": 2,
-    "OpenAI：官网动态（RSS · 排除企业/客户案例）": 1,
+    "OpenAI：官网动态（RSS · 排除企业/客户案例）": 2,
     "The Decoder：AI News（RSS）": 1,
     "Google Research：Blog（网页）": 1,
     "公众号：百度智能云（文心）": 1,
     "X：Anthropic (@AnthropicAI)": 1,
-    "X：宝玉 (@dotey)": 1,
     "X：X.PIN (@thexpin)": 1,
     "X：邵猛 (@shao__meng)": 1,
     "X：ChatGPT (@ChatGPTapp)": 1,
     "公众号：小米 MiMo": 1,
     "X：Replit (@Replit)": 1,
     "GitHub Blog": 1,
-    "公众号：千问APP（阿里）": 1,
     "HuggingFace Daily Papers（社区热门论文）": 1,
     "Simon Willison 博客": 1,
-    "X：AI Safety Memes (@AISafetyMemes)": 1,
-    "Hugging Face：Blog（RSS）": 1,
-    "X：NotebookLM (@NotebookLM)": 1,
-    "OpenRouter：Announcements（RSS）": 1,
-    "X：Eric Zakariasson (@ericzakariasson)": 1,
-    "X：OpenAI Developers (@OpenAIDevs)": 1,
-    "Ethan Mollick：One Useful Thing（RSS）": 1
+    "X：AI Safety Memes (@AISafetyMemes)": 1
   },
   "ai_processed": false,
   "categories": {
@@ -97,6 +92,36 @@
     "ai-products": {
       "label": "🚀 AI 产品",
       "items": [
+        {
+          "id": "8dc1e7d9fe19",
+          "title": "千问推出首个足球预测AI助手，竞猜赢奖并捐建球场",
+          "url": "https://mp.weixin.qq.com/s/G36ugI8tuSLUkDzL_sJNkQ",
+          "source": "aihot",
+          "source_name": "公众号：千问APP（阿里）",
+          "category": "ai-products",
+          "published_at": "2026-06-11T08:40:14.000Z",
+          "summary": "千问上线首个足球预测AI助手，基于海量大数据（含历史比赛、球员数据、伤病、美加墨地貌及天气等）。以6月22日挪威对塞内加尔为例，预测\"1：1平局\"，理由为气候差异。活动：参与全部104场竞猜，预测超80场且准确率超千问可抽万元大奖（100个名额）；预测超32场可抽千问AI眼镜G1（1000副），该眼镜支持赛后分析、拍屏识球员及赛事结果订阅。累积积分将向乡村学校捐建足球场，目标至少50所。"
+        },
+        {
+          "id": "8378759717d6",
+          "title": "腾讯混元 AI Infra 新开源：HPC-Ops 推理核心算子全面升级",
+          "url": "https://mp.weixin.qq.com/s/y0vd1cpvWXLSssL1kXxguw",
+          "source": "aihot",
+          "source_name": "公众号：腾讯混元",
+          "category": "ai-products",
+          "published_at": "2026-06-11T08:34:59.000Z",
+          "summary": "腾讯混元 AI Infra 团队开源升级 HPC-Ops 推理算子库，推出五大核心算子。Attention 采用运行时动态负载调度，长文本最高加速 2.95x，端到端 QPM 提升 17%；Router GEMM 以双 BF16 组合实现 FP32 精度，对比 CuBLAS FP32 最高提速 3.22x；FusedMoE 相对 vLLM、SGLang 性能提升 1.2x~1.6x；Fused AllReduce+Norm 对比主流方案最高提速 1.68x；Sampler 将解码采样融合为 2 个 CUDA Kernel，相对 vLLM 提速 4.0x~7.5x。所有能力均来自生产实践并完全开源。"
+        },
+        {
+          "id": "65d8e9d8905a",
+          "title": "Deezer 推出面向其他流媒体服务的 AI 音乐检测器",
+          "url": "https://www.theverge.com/ai-artificial-intelligence/948153/deezer-ai-music-detector-spotify-apple",
+          "source": "aihot",
+          "source_name": "The Verge：AI（RSS）",
+          "category": "ai-products",
+          "published_at": "2026-06-11T08:00:00.000Z",
+          "summary": "Deezer 将扫描用户在其它流媒体平台的播放列表，检测其中的 AI 生成音乐。Deezer 是最早标记 AI 生成音乐的大型流媒体服务之一，曾向其他平台提供该技术但少有采纳。Deezer CEO Alexis Lanternier 表示，由于没有其他公司跟进，他们决定让用户无论使用哪个平台，都能检查自己的播放列表中是否包含合成音乐。"
+        },
         {
           "id": "792cd0d28ed8",
           "title": "mlx-vlm v0.6.3 发布，Day-0 支持 Google DeepMind DiffusionGemma 和 Cohere North Mini Code 1.0",
@@ -216,46 +241,6 @@
           "category": "ai-products",
           "published_at": "2026-06-10T06:00:49.000Z",
           "summary": "千问发布国内首个全周期高考志愿填报Agent，由数百位资深高报师参与训练。该智能体提供AI志愿报告，为考生量身定制深度全面的填报方案；AI志愿日历帮助制定专属填报计划；高考专业知识库整合夸克高考8年积累，并引入志愿专家顾问，数据权威可信赖，全程陪伴考生完成志愿填报。"
-        },
-        {
-          "id": "ec8e28f92d68",
-          "title": "NotebookLM 笔记本功能在 Gemini App 欧洲全面上线",
-          "url": "https://x.com/NotebookLM/status/2064410506287538387",
-          "source": "aihot",
-          "source_name": "X：NotebookLM (@NotebookLM)",
-          "category": "ai-products",
-          "published_at": "2026-06-09T18:13:14.000Z",
-          "summary": "NotbookLM 宣布其笔记本功能已在欧洲的 Gemini App 中 100% 上线。此前用户只能上传笔记本作为 Gemini 的来源，现在可直接在 Gemini App 内访问所有个人未共享的笔记本，并将与 Gemini 的对话作为新笔记本或已有笔记本的来源。该功能先面向 Google AI Ultra、Pro 和 Plus 订阅者的网页端，未来几周将扩展到移动端、更多欧洲国家及免费用户。"
-        },
-        {
-          "id": "bef1bbeb82ee",
-          "title": "OpenRouter 推出 Advisor 工具：让低成本模型可随时调用强模型增强生成",
-          "url": "https://openrouter.ai/blog/advisor-server-tool",
-          "source": "aihot",
-          "source_name": "OpenRouter：Announcements（RSS）",
-          "category": "ai-products",
-          "published_at": "2026-06-09T18:00:00.000Z",
-          "summary": "OpenRouter 发布 advisor 服务器工具，允许一个快速、便宜的模型在生成过程中咨询一个更强大的模型。具体而言，可用 GPT-4o Mini 处理日常例行工作，在关键时刻调用 Claude Fable 解决真正重要的问题，从而实现成本和质量的动态平衡。"
-        },
-        {
-          "id": "48bcc4a11c43",
-          "title": "Cursor Evals 新增成本与输出 Token 图表",
-          "url": "https://x.com/ericzakariasson/status/2064404502053294565",
-          "source": "aihot",
-          "source_name": "X：Eric Zakariasson (@ericzakariasson)",
-          "category": "ai-products",
-          "published_at": "2026-06-09T17:49:22.000Z",
-          "summary": "我们刚刚向 http：//cursor.com/evals 推送了一些改进！\n\n你现在可以看到每个模型的成本、输出 token 和步骤绘制在图表中"
-        },
-        {
-          "id": "3338e3c048d7",
-          "title": "Responses API 网页搜索新增图片结果",
-          "url": "https://x.com/OpenAIDevs/status/2064395155688616153",
-          "source": "aihot",
-          "source_name": "X：OpenAI Developers (@OpenAIDevs)",
-          "category": "ai-products",
-          "published_at": "2026-06-09T17:12:14.000Z",
-          "summary": "你的应用现在可以搜索网页上的图片。\n\nResponses API 中的网页搜索现在除了文本结果外，还支持图片结果，因此你可以构建能展示商品、地点、视觉参考和来源链接以激发灵感的应用。"
         }
       ]
     },
@@ -349,7 +334,7 @@
           "source": "GitHub AI",
           "source_name": "GitHub AI",
           "category": "ai-tools",
-          "published_at": "2026-06-11T04:58:03.232726+00:00",
+          "published_at": "2026-06-11T09:20:28.615127+00:00",
           "summary": "RealSense SDK"
         },
         {
@@ -359,7 +344,7 @@
           "source": "GitHub AI",
           "source_name": "GitHub AI",
           "category": "ai-tools",
-          "published_at": "2026-06-11T04:58:03.232611+00:00",
+          "published_at": "2026-06-11T09:20:28.615014+00:00",
           "summary": "ONNX Runtime: cross-platform, high performance ML inferencing and training accelerator"
         },
         {
@@ -369,7 +354,7 @@
           "source": "GitHub AI",
           "source_name": "GitHub AI",
           "category": "ai-tools",
-          "published_at": "2026-06-11T04:58:03.231633+00:00",
+          "published_at": "2026-06-11T09:20:28.614039+00:00",
           "summary": "🥑 Language focused docker images, minus the operating system."
         },
         {
@@ -379,7 +364,7 @@
           "source": "GitHub AI",
           "source_name": "GitHub AI",
           "category": "ai-tools",
-          "published_at": "2026-06-11T04:58:03.231507+00:00",
+          "published_at": "2026-06-11T09:20:28.613901+00:00",
           "summary": "Search infrastructure for AI"
         },
         {
@@ -389,7 +374,7 @@
           "source": "GitHub AI",
           "source_name": "GitHub AI",
           "category": "ai-tools",
-          "published_at": "2026-06-11T04:58:03.231366+00:00",
+          "published_at": "2026-06-11T09:20:28.613758+00:00",
           "summary": "GTSAM is a library of C++ classes that implement smoothing and mapping (SAM) in robotics and vision, using factor graphs and Bayes networks as the underlying computing paradigm rather than sparse matrices."
         }
       ]
@@ -507,6 +492,26 @@
     "tip": {
       "label": "💡 技巧",
       "items": [
+        {
+          "id": "51b4e68b366b",
+          "title": "baoyu-design skill 更新：支持导入 Figma 本地文件重建设计系统",
+          "url": "https://x.com/dotey/status/2064959133535658144",
+          "source": "aihot",
+          "source_name": "X：宝玉 (@dotey)",
+          "category": "tip",
+          "published_at": "2026-06-11T06:33:17.000Z",
+          "summary": "baoyu-design skill 更新，现已支持导入 Figma 本地文件（.fig），可在本地重建设计系统，效果与 Claude Design 在线版一致。该功能依赖 Claude Fable 5 辅助（Token 不够用）。安装后提供 Figma 文件路径即可导入为 Design System，后续新建设计项目可复用。同时支持在新建项目时添加已导入的 Design System，保留了 Claude Design 原始的导入和编译方式，用户可通过提问选择设计系统。安装命令：`npx skills add JimLiu/baoyu-design`。项目地址：https：//github.com/jimliu/baoyu-design。"
+        },
+        {
+          "id": "ab03f4e450c1",
+          "title": "Anthropic CEO 阿莫迪：AI 可能会造成大规模、长期性的岗位流失",
+          "url": "https://www.ithome.com/0/962/854.htm",
+          "source": "aihot",
+          "source_name": "IT之家（RSS）",
+          "category": "tip",
+          "published_at": "2026-06-11T05:53:41.000Z",
+          "summary": "Anthropic CEO 达里奥・阿莫迪警告，AI造成的大规模岗位流失是技术固有属性--AI系统旨在复刻人类认知，失业将成为结构性必然结果。他提出应对思路：完善劳动力市场监测、推行薪资保障与留岗税收优惠、发放培训补贴；若人力需求永久下降，则需通过征税推行全民基本收入等长期收入保障。Anthropic目标非削减人力成本，而是帮企业开拓新营收、盘活现有员工产能。"
+        },
         {
           "id": "bb589fff006f",
           "title": "从0到1速通WorkBuddy：国内通用Agent产品教程",
@@ -656,32 +661,32 @@
           "category": "tip",
           "published_at": "2026-06-09T21:35:31.000Z",
           "summary": "Wes McKinney 开发的 AgentsView 是一个用于追踪本地编码智能体 token 使用情况的工具。由于近日发布的 Claude Fable 5 尚未被收录进 AgentsView 的定价数据库，作者利用 Fable 逆向工程，找到了为该模型设置自定义价格的方法，并展示了 Fable 5 当天在不同本地项目中的使用量树状图。"
-        },
-        {
-          "id": "de0609ae39a9",
-          "title": "Claude Code 团队 Thariq 分享提升 Claude Code 效率的十条建议",
-          "url": "https://x.com/rohanpaul_ai/status/2064425086409679358",
-          "source": "aihot",
-          "source_name": "X：Rohan Paul (@rohanpaul_ai)",
-          "category": "tip",
-          "published_at": "2026-06-09T19:11:10.000Z",
-          "summary": "Thariq（Claude Code 团队）提出十条建议，核心转变是：从检查 Claude 是否做对工作，转向检查它是否在做正确的工作。具体包括：提前提供完整上下文，将其视为思考伙伴；用小规格文档让 Claude 访谈实现细节；探索多方向并生成 HTML 原型；提供丰富上下文（如功能可能一个月后删除）而非硬约束；设定明确目标与验证方法；使用 /goal 命令；利用 Workflows 并行任务、自我验证并生成对比报告；同时设置目标和 workflow；更勇敢地将此前认为 LLM 无法完成的任务交给 Claude Fable 5，因其可运行数小时、自检并产出高质量代码。Thariq 本人用 Claude Fable 5 剪辑了整段视频证明其能力。"
-        },
-        {
-          "id": "9ad2ca7f7674",
-          "title": "Claude Fable 发布：Anthropic 带来的另一种推理体验",
-          "url": "https://www.oneusefulthing.org/p/what-it-feels-like-to-work-with-mythos",
-          "source": "aihot",
-          "source_name": "Ethan Mollick：One Useful Thing（RSS）",
-          "category": "tip",
-          "published_at": "2026-06-09T17:11:22.000Z",
-          "summary": "Anthropic 发布 Claude Fable，这是一款提供截然不同推理体验的 AI 模型。它擅长规划与生成复杂代码库，在需要精确构建代码结构或理解程序员深层需求的场景中，其表现相比 Claude Sonnet 有了大幅提升。用户描述与它协作更像与一位直觉敏锐的资深工程师合作，其对代码意图的捕捉和方案生成能力令人惊叹，但并非通用型 AI。"
         }
       ]
     },
     "industry": {
       "label": "industry",
       "items": [
+        {
+          "id": "ca1163067c70",
+          "title": "AI浪潮引发中国担忧：官媒呼吁保护劳动者权益",
+          "url": "https://www.bloomberg.com/news/articles/2026-06-11/ai-wave-sparks-alarm-in-china-with-call-to-protect-worker-rights",
+          "source": "aihot",
+          "source_name": "Bloomberg：Technology（RSS）",
+          "category": "industry",
+          "published_at": "2026-06-11T06:19:13.000Z",
+          "summary": "中国工作场所快速采用人工智能，引发官媒异常直白地呼吁保护劳工权利。北京正在考虑如何控制这项新技术带来的风险。"
+        },
+        {
+          "id": "e6e4f7ea6fd8",
+          "title": "OpenAI 支持欧洲构建可信 AI 生态系统",
+          "url": "https://openai.com/index/supporting-eu-trustworthy-ai-ecosystem",
+          "source": "aihot",
+          "source_name": "OpenAI：官网动态（RSS · 排除企业/客户案例）",
+          "category": "industry",
+          "published_at": "2026-06-11T00:00:00.000Z",
+          "summary": "OpenAI 支持欧盟《AI 内容透明度行为准则》，推进内容溯源标准与工具，帮助用户识别 AI 生成内容。"
+        },
         {
           "id": "4ba81889e4c2",
           "title": "工信部印发《\"人工智能+信息通信\"创新发展实施意见》",
@@ -736,16 +741,6 @@
           "category": "paper",
           "published_at": "2026-06-10T00:00:00.000Z",
           "summary": "Bebop系统研究多token预测（MTP）在大语言模型RL后训练中的加速瓶颈。发现MTP接受率与模型熵波动呈负线性关系；概率拒绝采样相比贪婪草稿采样能缓解熵干扰。提出端到端TV损失直接优化多步拒绝采样接受率，带来约10%提升，最高达95%接受率，额外推理吞吐提升25%。在Qwen3.5、Qwen3.6和Qwen3.7上，异步RL训练实现1.8倍端到端加速。预RL阶段的MTP训练结合e2e TV损失和拒绝采样可保持全程一致的加速，无需在线更新。"
-        },
-        {
-          "id": "b0df7ca933e1",
-          "title": "Hugging Face 博客发布语音智能体代码切换基准测试",
-          "url": "https://huggingface.co/blog/ServiceNow-AI/code-switching",
-          "source": "aihot",
-          "source_name": "Hugging Face：Blog（RSS）",
-          "category": "paper",
-          "published_at": "2026-06-09T19:38:28.000Z",
-          "summary": "Hugging Face 博客发布针对语音智能体处理代码切换语音的基准测试。数据集覆盖西班牙语-英语、法语-英语、加拿大法语-英语和德语-英语四对语言，基于人力资源与IT服务管理场景构建。采用词错误率、语义词错误率和答案错误率三项指标评估七种ASR系统，包括AssemblyAI Universal 3-Pro、Deepgram Nova 3 Multilang、ElevenLabs Scribe V2、Gemini 3 Flash、Mistral AI Voxtral Small 24B-2507、Nvidia Parakeet TDT 0.6b V3和OpenAI Whisper Large V3 Turbo。主要发现：代码切换的转录成本因语言对和模型而异；ElevenLabs Scribe V2、Gemini 3 Flash和AssemblyAI Universal 3-Pro在所有指标上表现最佳。数据集和测试框架通过AU-Harness开源发布。"
         }
       ]
     }
