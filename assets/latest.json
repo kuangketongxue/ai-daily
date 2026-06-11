@@ -1,40 +1,43 @@
 {
   "date": "2026-06-11",
-  "generated_at": "2026-06-11T17:01:53.362280",
-  "total": 76,
+  "generated_at": "2026-06-11T19:44:31.513222",
+  "total": 78,
   "sources": {
     "Hugging Face": 8,
     "GitHub AI": 6,
-    "Bloomberg：Technology（RSS）": 4,
+    "X：Replit (@Replit)": 2,
+    "Anthropic：Newsroom（网页）": 2,
+    "X：Perplexity (@perplexity_ai)": 1,
+    "Hacker News 热门（buzzing.cc 中文翻译）": 3,
+    "X：Logan Kilpatrick (@OfficialLoganK)": 1,
     "X：Kim (@kimmonismus)": 1,
     "X：OpenRouter (@OpenRouter)": 2,
     "X：Vista (@vista8)": 2,
     "X：Krea AI (@krea_ai)": 1,
     "Runway：News（网页）": 1,
     "Gary Marcus：The Road to AI We Can Trust（RSS）": 3,
-    "Anthropic：Newsroom（网页）": 1,
+    "Cursor Blog": 2,
     "X：硅基流动 SiliconFlow (@SiliconFlowAI)": 1,
     "X：Peter Steinberger (@steipete)": 1,
-    "IT之家（RSS）": 9,
+    "IT之家（RSS）": 6,
     "公众号：千问APP（阿里）": 1,
     "公众号：腾讯混元": 1,
     "The Verge：AI（RSS）": 2,
     "X：宝玉 (@dotey)": 2,
+    "Bloomberg：Technology（RSS）": 3,
     "Midjourney：Updates（RSS）": 1,
     "公众号：数字生命卡兹克": 1,
     "X：Berry Xia (@berryxia)": 1,
     "X：Oran Ge (@oran_ge)": 1,
-    "Google DeepMind：Blog（RSS）": 2,
+    "Google DeepMind：Blog（RSS）": 1,
     "X：xAI (@xai)": 1,
     "X：小米 MiMo (@XiaomiMiMo)": 1,
     "X：MiniMax (@MiniMax_AI)": 1,
-    "Cursor Blog": 1,
-    "Hacker News 热门（buzzing.cc 中文翻译）": 2,
     "X：华为云 (@HuaweiCloud1)": 1,
     "公众号：火山引擎": 1,
     "X：Rohan Paul (@rohanpaul_ai)": 1,
     "xAI：News（网页）": 2,
-    "OpenAI：官网动态（RSS · 排除企业/客户案例）": 3,
+    "OpenAI：官网动态（RSS · 排除企业/客户案例）": 4,
     "The Decoder：AI News（RSS）": 1,
     "Google Research：Blog（网页）": 1,
     "公众号：百度智能云（文心）": 1,
@@ -43,7 +46,6 @@
     "X：邵猛 (@shao__meng)": 1,
     "X：ChatGPT (@ChatGPTapp)": 1,
     "公众号：小米 MiMo": 1,
-    "X：Replit (@Replit)": 1,
     "GitHub Blog": 1
   },
   "ai_processed": false,
@@ -51,6 +53,16 @@
     "ai-models": {
       "label": "🧠 AI 模型",
       "items": [
+        {
+          "id": "1c3b1bf502fe",
+          "title": "Gemini Omni Flash 视频任务达 SOTA",
+          "url": "https://x.com/OfficialLoganK/status/2065118111360303414",
+          "source": "aihot",
+          "source_name": "X：Logan Kilpatrick (@OfficialLoganK)",
+          "category": "ai-models",
+          "published_at": "2026-06-11T17:05:00.000Z",
+          "summary": "Gemini Omni Flash 在图像到视频、文本到视频和视频编辑方面达到了 SATA ： ）\n\n很高兴很快能将这一能力通过 API 提供给开发者！"
+        },
         {
           "id": "0473c20869f0",
           "title": "Midjourney V8.1 已成为默认模型",
@@ -80,22 +92,42 @@
           "category": "ai-models",
           "published_at": "2026-06-11T00:00:00.806Z",
           "summary": "Grok Voice 提供最先进的性能，具有类人的时机、语调和温暖感。而且价格仅为竞争对手的一小部分。 查看详情：http://x.ai/api/voice"
-        },
-        {
-          "id": "613237adc002",
-          "title": "摩尔线程开源 MusaCoder 代码大模型，9B/27B 参数基于国产 GPU 全链路训练",
-          "url": "https://www.ithome.com/0/962/509.htm",
-          "source": "aihot",
-          "source_name": "IT之家（RSS）",
-          "category": "ai-models",
-          "published_at": "2026-06-10T08:21:45.000Z",
-          "summary": "摩尔线程发布并开源 MusaCoder 代码大模型，含 9B 和 27B 两个参数规模，是业内首个基于国产 GPU 算力底座完成全链路训练与验证的开源模型。后训练流程在基于 MTT S5000 的夸娥智算集群上完成，支持从 PyTorch 标准算子自动生成高性能 CUDA/MUSA 原生 Kernel 代码。在 KernelBench 评测中，MusaCoder-27B-RL 以 Overall Pass@8 93.2%、Avg.@8 88.60% 超越 Claude Opus、DeepSeek-V4 Pro、GLM-5.1、Kimi K2.6 等主流 SOTA 代码模型。"
         }
       ]
     },
     "ai-products": {
       "label": "🚀 AI 产品",
       "items": [
+        {
+          "id": "1334a8812b05",
+          "title": "Replit Agent 新增自定义指令与技能功能",
+          "url": "https://x.com/Replit/status/2065146579326271883",
+          "source": "aihot",
+          "source_name": "X：Replit (@Replit)",
+          "category": "ai-products",
+          "published_at": "2026-06-11T18:58:07.000Z",
+          "summary": "AI 智能体很强大，但它们不记得你的偏好。\n\n所以你总是重复指令--如何组织项目、你的品牌指南。\n\n现在你可以通过自定义指令和技能让 Replit Agent 学会你的惯例。\n\n它会在每个项目中自动将这些考虑进去。"
+        },
+        {
+          "id": "c2d4e8aed407",
+          "title": "Perplexity Computer 集成 Deep Research",
+          "url": "https://x.com/perplexity_ai/status/2065124930463916317",
+          "source": "aihot",
+          "source_name": "X：Perplexity (@perplexity_ai)",
+          "category": "ai-products",
+          "published_at": "2026-06-11T17:32:06.000Z",
+          "summary": "我们正在将 Deep Research 作为原生技能集成到 Computer 中。\n\n它现在连接到驱动 Computer 的智能体框架，可访问搜索即代码生成、长运行沙箱、连接器、工具和授权数据。\n\nPro 和 Max 订阅者现已可用。"
+        },
+        {
+          "id": "155a3cfd177c",
+          "title": "DeepSeek-R1 的开源实现",
+          "url": "https://github.com/huggingface/open-r1",
+          "source": "aihot",
+          "source_name": "Hacker News 热门（buzzing.cc 中文翻译）",
+          "category": "ai-products",
+          "published_at": "2026-06-11T17:07:18.181Z",
+          "summary": "DeepSeek-R1 的开源复现项目已在 GitHub 发布，在 Hacker News 上获得 101 个积分。该项目旨在以开源方式复现 DeepSeek-R1 模型。"
+        },
         {
           "id": "2d9cd342b158",
           "title": "OpenRouter 基准探索器：10项帕累托曲线",
@@ -115,6 +147,16 @@
           "category": "ai-products",
           "published_at": "2026-06-11T15:00:02.000Z",
           "summary": "推出生成式滑块。\n现在您可以控制使用 Krea 2 生成的任何图像的强度、复杂度和运动。\n你希望看到哪些新控制？👇"
+        },
+        {
+          "id": "4f02ac085001",
+          "title": "Cursor 推出 Auto-review 机制：用分类器智能体动态管控智能体自主权限",
+          "url": "https://cursor.com/blog/auto-review",
+          "source": "aihot",
+          "source_name": "Cursor Blog",
+          "category": "ai-products",
+          "published_at": "2026-06-11T12:00:00.000Z",
+          "summary": "Cursor 近日推出 Auto-review，通过一个专门的分类器智能体在工具调用前审查动作风险。该分类器根据上下文判断动作是否与用户意图一致，高风险时阻止并返回解释给父智能体，低风险时放行。分类器采用小模型，运行在智能体循环内以避免额外延迟，并能读取工作区文件辅助判断。测试基于约12小时内部开发会话生成的6122条标签数据，以及针对读取密钥、操作生产数据等危险场景的合成数据。设计目标是在不频繁阻断日常开发的前提下，拦截风险动作。"
         },
         {
           "id": "5d3f8e09fbe0",
@@ -368,7 +410,7 @@
           "source": "GitHub AI",
           "source_name": "GitHub AI",
           "category": "ai-tools",
-          "published_at": "2026-06-11T17:01:47.752941+00:00",
+          "published_at": "2026-06-11T19:44:28.845644+00:00",
           "summary": "Computer Vision Annotation Tool (CVAT) is a leading platform for building high-quality visual datasets for vision AI. It offers open-source, cloud, and enterprise products, as well as labeling services, for image, video, and 3D annotation with AI-assisted labeling, quality assurance, team collaboration, analytics, and developer APIs."
         },
         {
@@ -378,7 +420,7 @@
           "source": "GitHub AI",
           "source_name": "GitHub AI",
           "category": "ai-tools",
-          "published_at": "2026-06-11T17:01:47.752561+00:00",
+          "published_at": "2026-06-11T19:44:28.845281+00:00",
           "summary": "CrowdSec - the open-source and participative security solution offering crowdsourced protection against malicious IPs and access to the most advanced real-world CTI."
         },
         {
@@ -388,7 +430,7 @@
           "source": "GitHub AI",
           "source_name": "GitHub AI",
           "category": "ai-tools",
-          "published_at": "2026-06-11T17:01:47.752299+00:00",
+          "published_at": "2026-06-11T19:44:28.845048+00:00",
           "summary": "📦 The official Nextcloud installation method. Provides easy deployment and maintenance with most features included in this one Nextcloud instance."
         },
         {
@@ -398,7 +440,7 @@
           "source": "GitHub AI",
           "source_name": "GitHub AI",
           "category": "ai-tools",
-          "published_at": "2026-06-11T17:01:47.751064+00:00",
+          "published_at": "2026-06-11T19:44:28.843914+00:00",
           "summary": "Build databases, automations, apps & agents with AI — no code. Open source platform available on cloud and self-hosted. GDPR, HIPAA, SOC 2 compliant. Best Airtable alternative."
         },
         {
@@ -408,7 +450,7 @@
           "source": "GitHub AI",
           "source_name": "GitHub AI",
           "category": "ai-tools",
-          "published_at": "2026-06-11T17:01:47.750796+00:00",
+          "published_at": "2026-06-11T19:44:28.843662+00:00",
           "summary": "Secure environments for developers and their agents"
         },
         {
@@ -418,7 +460,7 @@
           "source": "GitHub AI",
           "source_name": "GitHub AI",
           "category": "ai-tools",
-          "published_at": "2026-06-11T17:01:47.750428+00:00",
+          "published_at": "2026-06-11T19:44:28.843285+00:00",
           "summary": "Industrial-grade speech recognition toolkit: 170x realtime, 50+ languages, speaker diarization, emotion detection, streaming, and OpenAI-compatible API."
         }
       ]
@@ -735,16 +777,6 @@
           "category": "tip",
           "published_at": "2026-06-10T15:22:02.000Z",
           "summary": "近几周多场毕业典礼上，演讲者宣传AI技术时遭学生嘘声。普林斯顿应届毕业生曾否决一款疑似借助AI设计的毕业典礼夹克。微软总裁布拉德·史密斯回应称，行业必须严肃可信地回答问题。史密斯主张AI应增强人而非取代人，认为实用AI渗透经济的速度可能比行业乐观预期更慢。微软今年计划投入约1900亿美元资本支出，主要用于数据中心。微软AI负责人穆斯塔法·苏莱曼修正此前\"大多数白领工作18个月内自动化\"的说法，表示仅指AI执行单项任务的能力。上月微软CFO艾米·胡德在杜克大学演讲全程未提AI，未遭嘘声。"
-        },
-        {
-          "id": "47a6c8ed0857",
-          "title": "谷歌 DeepMind 经济学家伊马斯：尚未发现 AI 造成岗位流失的证据，跟风裁员恐适得其反",
-          "url": "https://www.ithome.com/0/962/515.htm",
-          "source": "aihot",
-          "source_name": "IT之家（RSS）",
-          "category": "tip",
-          "published_at": "2026-06-10T08:36:14.000Z",
-          "summary": "谷歌 DeepMind AGI 经济学负责人亚历克斯·伊马斯表示，目前没有看到白领岗位因 AI 大规模消失的证据。他强调，若企业因\"不裁员就等于 AI 转型慢\"的叙事而跟风裁员，可能适得其反。伊马斯认为，AI 更多是接手部分任务、提升生产力，让员工专注机器无法完成的工作，岗位冲击尚未真正出现。"
         }
       ]
     },
@@ -752,14 +784,14 @@
       "label": "industry",
       "items": [
         {
-          "id": "56263064dc9e",
-          "title": "贝佐斯 AI 初创公司 Prometheus 获融资，估值 410 亿美元",
-          "url": "https://www.bloomberg.com/news/articles/2026-06-11/jeff-bezos-ai-startup-valued-at-41-billion-in-funding-round",
+          "id": "f96ad0f3fc7b",
+          "title": "Anthropic与DXC达成全球联盟，将Claude引入关键行业系统",
+          "url": "https://www.anthropic.com/news/dxc-anthropic-alliance",
           "source": "aihot",
-          "source_name": "Bloomberg：Technology（RSS）",
+          "source_name": "Anthropic：Newsroom（网页）",
           "category": "industry",
-          "published_at": "2026-06-11T16:23:25.000Z",
-          "summary": "Jeff Bezos 领导的 AI 初创公司 Prometheus 完成新一轮融资，估值达到 410 亿美元。这笔融资进一步巩固了这位亚马逊创始人在 AI 热潮中的关键地位。"
+          "published_at": "2026-06-11T18:13:16.585Z",
+          "summary": "Anthropic与IT服务公司DXC Technology达成多年全球联盟。DXC将培训数万名获得Claude认证的前沿部署工程师（FDE），将Claude引入其为全球大型银行、航空公司、保险公司及政府机构运营的关键系统。内部部署中，Claude已成为DXC OASIS平台的默认基础模型，该平台超95%代码由Claude编写，开发速度提升10倍，已服务50多家客户。DXC加入Claude Partner Network，将在保险、现代化服务、网络安全及应用服务四个领域率先推出基于Claude的解决方案。"
         },
         {
           "id": "a499ee302904",
@@ -802,6 +834,16 @@
           "summary": "中国工作场所快速采用人工智能，引发官媒异常直白地呼吁保护劳工权利。北京正在考虑如何控制这项新技术带来的风险。"
         },
         {
+          "id": "0d0d8cc92e50",
+          "title": "BBVA 将 AI 置于银行业务核心，与 OpenAI 合作",
+          "url": "https://openai.com/index/bbva",
+          "source": "aihot",
+          "source_name": "OpenAI：官网动态（RSS · 排除企业/客户案例）",
+          "category": "industry",
+          "published_at": "2026-06-11T00:00:00.000Z",
+          "summary": "BBVA 将 ChatGPT Enterprise 推广至 10 万名员工，并与 OpenAI 达成合作，加速全球银行业 AI 驱动的转型。"
+        },
+        {
           "id": "65bcce2b4233",
           "title": "OpenAI 将收购 Ona",
           "url": "https://openai.com/index/openai-to-acquire-ona",
@@ -820,26 +862,6 @@
           "category": "industry",
           "published_at": "2026-06-11T00:00:00.000Z",
           "summary": "OpenAI 支持欧盟《AI 内容透明度行为准则》，推进内容溯源标准与工具，帮助用户识别 AI 生成内容。"
-        },
-        {
-          "id": "ada020bc5aef",
-          "title": "Google DeepMind 宣布投入 1000 万美元资助多智能体AI安全研究",
-          "url": "https://deepmind.google/blog/investing-in-multi-agent-ai-safety-research",
-          "source": "aihot",
-          "source_name": "Google DeepMind：Blog（RSS）",
-          "category": "industry",
-          "published_at": "2026-06-10T10:21:19.000Z",
-          "summary": "Google DeepMind 与合作伙伴共同发起一项 1000 万美元的资金征集，专门用于多智能体 AI 安全方向的研究。"
-        },
-        {
-          "id": "4ba81889e4c2",
-          "title": "工信部印发《\"人工智能+信息通信\"创新发展实施意见》",
-          "url": "https://www.ithome.com/0/962/456.htm",
-          "source": "aihot",
-          "source_name": "IT之家（RSS）",
-          "category": "industry",
-          "published_at": "2026-06-10T07:07:13.000Z",
-          "summary": "工信部发文，要求加快建设400Gbps/800Gbps骨干传输网络，优化东中西部国家枢纽节点间通道；推进城域400Gbps及以上、全光交叉等高速光传输系统应用，构建城域毫秒级低时延入算能力。同时推动5G-A/6G、新一代光网络、\"IPv6+\"、工业互联网与AI融合发展，攻关空口智能化、网络高等级自智、智能体互联网等核心技术。鼓励基础电信企业用AI赋能传统业务，深化智慧个人助理、智慧管家、家庭看护、3D观影等新型应用。"
         }
       ]
     }
