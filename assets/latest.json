@@ -1,6 +1,6 @@
 {
   "date": "2026-06-12",
-  "generated_at": "2026-06-12T18:19:21.881451",
+  "generated_at": "2026-06-12T20:55:37.952710",
   "total": 68,
   "sources": {
     "Hugging Face": 8,
@@ -363,7 +363,7 @@
           "source": "GitHub AI",
           "source_name": "GitHub AI",
           "category": "ai-tools",
-          "published_at": "2026-06-12T18:19:19.907832+00:00",
+          "published_at": "2026-06-12T20:55:28.675788+00:00",
           "summary": "📦 The official Nextcloud installation method. Provides easy deployment and maintenance with most features included in this one Nextcloud instance."
         },
         {
@@ -373,7 +373,7 @@
           "source": "GitHub AI",
           "source_name": "GitHub AI",
           "category": "ai-tools",
-          "published_at": "2026-06-12T18:19:19.907572+00:00",
+          "published_at": "2026-06-12T20:55:28.675549+00:00",
           "summary": "Computer Vision Annotation Tool (CVAT) is a leading platform for building high-quality visual datasets for vision AI. It offers open-source, cloud, and enterprise products, as well as labeling services, for image, video, and 3D annotation with AI-assisted labeling, quality assurance, team collaboration, analytics, and developer APIs."
         },
         {
@@ -383,7 +383,7 @@
           "source": "GitHub AI",
           "source_name": "GitHub AI",
           "category": "ai-tools",
-          "published_at": "2026-06-12T18:19:19.907136+00:00",
+          "published_at": "2026-06-12T20:55:28.675158+00:00",
           "summary": "TypeScript-first schema validation with static type inference"
         },
         {
@@ -393,7 +393,7 @@
           "source": "GitHub AI",
           "source_name": "GitHub AI",
           "category": "ai-tools",
-          "published_at": "2026-06-12T18:19:19.906907+00:00",
+          "published_at": "2026-06-12T20:55:28.674993+00:00",
           "summary": "The open-source communication infrastructure for agents and products"
         },
         {
@@ -403,7 +403,7 @@
           "source": "GitHub AI",
           "source_name": "GitHub AI",
           "category": "ai-tools",
-          "published_at": "2026-06-12T18:19:19.906371+00:00",
+          "published_at": "2026-06-12T20:55:28.674504+00:00",
           "summary": "Open-source developer platform to power your entire infra and turn scripts into webhooks, workflows and UIs. Fastest workflow engine (13x vs Airflow). Open-source alternative to Retool and Temporal."
         },
         {
@@ -413,7 +413,7 @@
           "source": "GitHub AI",
           "source_name": "GitHub AI",
           "category": "ai-tools",
-          "published_at": "2026-06-12T18:19:19.906234+00:00",
+          "published_at": "2026-06-12T20:55:28.674385+00:00",
           "summary": "The agent engineering platform."
         },
         {
@@ -423,7 +423,7 @@
           "source": "GitHub AI",
           "source_name": "GitHub AI",
           "category": "ai-tools",
-          "published_at": "2026-06-12T18:19:19.906089+00:00",
+          "published_at": "2026-06-12T20:55:28.674255+00:00",
           "summary": "Secure environments for developers and their agents"
         },
         {
@@ -433,7 +433,7 @@
           "source": "GitHub AI",
           "source_name": "GitHub AI",
           "category": "ai-tools",
-          "published_at": "2026-06-12T18:19:19.905726+00:00",
+          "published_at": "2026-06-12T20:55:28.673962+00:00",
           "summary": "Financial data platform for analysts, quants and AI agents."
         }
       ]
