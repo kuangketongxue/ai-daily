@@ -1,11 +1,12 @@
 {
   "date": "2026-06-12",
-  "generated_at": "2026-06-12T20:55:37.952710",
+  "generated_at": "2026-06-12T22:46:45.129541",
   "total": 68,
   "sources": {
     "Hugging Face": 8,
     "GitHub AI": 8,
     "Anthropic：Newsroom（网页）": 3,
+    "OpenRouter：Announcements（RSS）": 2,
     "Hugging Face：Blog（RSS）": 1,
     "IT之家（RSS）": 4,
     "X：MiniMax (@MiniMax_AI)": 1,
@@ -35,11 +36,9 @@
     "X：Oran Ge (@oran_ge)": 1,
     "X：Replit (@Replit)": 3,
     "X：硅基流动 SiliconFlow (@SiliconFlowAI)": 1,
-    "OpenRouter：Announcements（RSS）": 1,
     "Gary Marcus：The Road to AI We Can Trust（RSS）": 1,
     "公众号：数字生命卡兹克": 1,
-    "HuggingFace Daily Papers（社区热门论文）": 4,
-    "xAI：News（网页）": 1
+    "HuggingFace Daily Papers（社区热门论文）": 4
   },
   "ai_processed": false,
   "categories": {
@@ -260,16 +259,6 @@
           "category": "ai-products",
           "published_at": "2026-06-11T08:50:49.000Z",
           "summary": "阿里云今日推出 Meoo（秒悟）开源命令行工具 Meoo CLI，面向开发者，支持 Claude Code、Codex、Cursor 等本地 AI 编程助手。通过调用阿里云云端能力，可自动完成数据库接入、用户登录、文件存储及项目发布，将本地项目一键部署上线并生成可分享的访问链接。该工具定位为本地 Agent 与秒悟云端能力的连接入口，已开放下载，支持主流 Linux、macOS 及 Windows 平台。"
-        },
-        {
-          "id": "92baa1d77549",
-          "title": "xAI 推出 Grok Build Plugin Marketplace",
-          "url": "https://x.ai/news/grok-plugin-marketplace",
-          "source": "aihot",
-          "source_name": "xAI：News（网页）",
-          "category": "ai-products",
-          "published_at": "2026-06-11T00:00:00.000Z",
-          "summary": "xAI 今日发布 Grok Build 内置插件市场。插件将技能、斜杠命令、AI 智能体、钩子、MCP 服务器和 LSP 打包为可安装包，用户无需离开终端即可浏览、安装和更新。首发合作伙伴包括 MongoDB、Vercel、Sentry、Chrome DevTools、Cloudflare 和 Superpowers。在 Grok Build 中输入 `/marketplace` 或使用 CLI 即可安装，每个远程插件均固定到特定 commit SHA 并经过验证。开发者可提交 PR 到 xai-org/plugin-marketplace 发布自己的插件。"
         }
       ]
     },
@@ -363,7 +352,7 @@
           "source": "GitHub AI",
           "source_name": "GitHub AI",
           "category": "ai-tools",
-          "published_at": "2026-06-12T20:55:28.675788+00:00",
+          "published_at": "2026-06-12T22:46:40.630325+00:00",
           "summary": "📦 The official Nextcloud installation method. Provides easy deployment and maintenance with most features included in this one Nextcloud instance."
         },
         {
@@ -373,7 +362,7 @@
           "source": "GitHub AI",
           "source_name": "GitHub AI",
           "category": "ai-tools",
-          "published_at": "2026-06-12T20:55:28.675549+00:00",
+          "published_at": "2026-06-12T22:46:40.630056+00:00",
           "summary": "Computer Vision Annotation Tool (CVAT) is a leading platform for building high-quality visual datasets for vision AI. It offers open-source, cloud, and enterprise products, as well as labeling services, for image, video, and 3D annotation with AI-assisted labeling, quality assurance, team collaboration, analytics, and developer APIs."
         },
         {
@@ -383,7 +372,7 @@
           "source": "GitHub AI",
           "source_name": "GitHub AI",
           "category": "ai-tools",
-          "published_at": "2026-06-12T20:55:28.675158+00:00",
+          "published_at": "2026-06-12T22:46:40.629624+00:00",
           "summary": "TypeScript-first schema validation with static type inference"
         },
         {
@@ -393,7 +382,7 @@
           "source": "GitHub AI",
           "source_name": "GitHub AI",
           "category": "ai-tools",
-          "published_at": "2026-06-12T20:55:28.674993+00:00",
+          "published_at": "2026-06-12T22:46:40.629440+00:00",
           "summary": "The open-source communication infrastructure for agents and products"
         },
         {
@@ -403,7 +392,7 @@
           "source": "GitHub AI",
           "source_name": "GitHub AI",
           "category": "ai-tools",
-          "published_at": "2026-06-12T20:55:28.674504+00:00",
+          "published_at": "2026-06-12T22:46:40.628880+00:00",
           "summary": "Open-source developer platform to power your entire infra and turn scripts into webhooks, workflows and UIs. Fastest workflow engine (13x vs Airflow). Open-source alternative to Retool and Temporal."
         },
         {
@@ -413,7 +402,7 @@
           "source": "GitHub AI",
           "source_name": "GitHub AI",
           "category": "ai-tools",
-          "published_at": "2026-06-12T20:55:28.674385+00:00",
+          "published_at": "2026-06-12T22:46:40.628744+00:00",
           "summary": "The agent engineering platform."
         },
         {
@@ -423,7 +412,7 @@
           "source": "GitHub AI",
           "source_name": "GitHub AI",
           "category": "ai-tools",
-          "published_at": "2026-06-12T20:55:28.674255+00:00",
+          "published_at": "2026-06-12T22:46:40.628602+00:00",
           "summary": "Secure environments for developers and their agents"
         },
         {
@@ -433,7 +422,7 @@
           "source": "GitHub AI",
           "source_name": "GitHub AI",
           "category": "ai-tools",
-          "published_at": "2026-06-12T20:55:28.673962+00:00",
+          "published_at": "2026-06-12T22:46:40.628250+00:00",
           "summary": "Financial data platform for analysts, quants and AI agents."
         }
       ]
@@ -550,6 +539,16 @@
           "category": "tip",
           "published_at": "2026-06-12T16:14:59.887Z",
           "summary": "Anthropic对近5.2万美国人调查显示：48%将治愈癌症等疾病列为首要期望，36%希望AI帮助残障人士。64%担忧AI导致失业，56%担忧认知依赖，52%担忧信息误导。超70%支持政府监管，最关注隐私（56%）、儿童安全（52%）和责任归属（49%）。仅15%信任AI公司决策。多数议题上观点不因党派或地域严重分裂。调查于2025年11-12月由YouGov线上执行并加权至人口普查基准。"
+        },
+        {
+          "id": "e6daf5b9019d",
+          "title": "如何在OpenRouter上获得最低成本的LLM推理",
+          "url": "https://openrouter.ai/blog/tutorials/how-to-get-the-lowest-cost-llm-inference-on-openrouter",
+          "source": "aihot",
+          "source_name": "OpenRouter：Announcements（RSS）",
+          "category": "tip",
+          "published_at": "2026-06-12T16:00:00.000Z",
+          "summary": "在OpenRouter上追加`：floor`可获取最便宜提供商，通过`max_price`设定花费上限，并可免费使用20多个零成本模型。同时需注意避免计费陷阱。"
         },
         {
           "id": "bc60940fb53f",
