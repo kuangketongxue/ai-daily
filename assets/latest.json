@@ -1,10 +1,11 @@
 {
   "date": "2026-06-12",
-  "generated_at": "2026-06-12T09:11:08.357608",
+  "generated_at": "2026-06-12T12:30:28.970696",
   "total": 64,
   "sources": {
     "Hugging Face": 8,
     "GitHub AI": 6,
+    "X：Kimi.ai (@Kimi_Moonshot)": 1,
     "X：小互 (@xiaohu)": 1,
     "X：Vista (@vista8)": 3,
     "IT之家（RSS）": 3,
@@ -21,7 +22,7 @@
     "X：Krea AI (@krea_ai)": 1,
     "The Verge：AI（RSS）": 1,
     "公众号：千问APP（阿里）": 1,
-    "Hacker News 热门（buzzing.cc 中文翻译）": 4,
+    "Hacker News 热门（buzzing.cc 中文翻译）": 3,
     "X：Kim (@kimmonismus)": 1,
     "Anthropic：Newsroom（网页）": 2,
     "Runway：News（网页）": 1,
@@ -45,6 +46,16 @@
     "ai-models": {
       "label": "🧠 AI 模型",
       "items": [
+        {
+          "id": "158e5f136692",
+          "title": "Kimi 发布并开源最新代码模型 Kimi-K2.7-Code",
+          "url": "https://x.com/Kimi_Moonshot/status/2065377579130142937",
+          "source": "aihot",
+          "source_name": "X：Kimi.ai (@Kimi_Moonshot)",
+          "category": "ai-models",
+          "published_at": "2026-06-12T10:16:02.000Z",
+          "summary": "Kimi 发布并开源最新代码模型 Kimi-K2.7-Code。相比 K2.6，其在 Kimi Code Bench v2 上提升 +21.8%，Program Bench 提升 +11.0%，MLS Bench Lite 提升 +31.5%。推理效率改进，推理 token 使用量降低 30%，长时编码任务中指令遵循和端到端成功率均提升。6x 高速模式即将推出，即日起可通过 Kimi API 和 Kimi Code 使用。"
+        },
         {
           "id": "beb88c696161",
           "title": "Gemini Omni Flash 视频任务达 SOTA",
@@ -239,16 +250,6 @@
           "category": "ai-products",
           "published_at": "2026-06-10T19:28:21.000Z",
           "summary": "M3 在 @0G_labs 上链。\n\n可验证 + 私有计算，6 月 15-18 日免费运行。"
-        },
-        {
-          "id": "f945d0b942ae",
-          "title": "Apache Burr：构建可靠的人工智能代理和应用程序",
-          "url": "https://burr.apache.org/",
-          "source": "aihot",
-          "source_name": "Hacker News 热门（buzzing.cc 中文翻译）",
-          "category": "ai-products",
-          "published_at": "2026-06-10T18:33:56.920Z",
-          "summary": "Apache Burr 是一个用于构建可靠 AI 智能体和应用程序的框架，已在 Apache 基金会下发布。该项目提供工具和抽象，帮助开发者设计、开发和部署可信任的智能体应用，强调可靠性、可观测性和生产级部署能力。"
         }
       ]
     },
@@ -342,7 +343,7 @@
           "source": "GitHub AI",
           "source_name": "GitHub AI",
           "category": "ai-tools",
-          "published_at": "2026-06-12T09:11:06.905925+00:00",
+          "published_at": "2026-06-12T12:30:27.865208+00:00",
           "summary": "Computer Vision Annotation Tool (CVAT) is a leading platform for building high-quality visual datasets for vision AI. It offers open-source, cloud, and enterprise products, as well as labeling services, for image, video, and 3D annotation with AI-assisted labeling, quality assurance, team collaboration, analytics, and developer APIs."
         },
         {
@@ -352,7 +353,7 @@
           "source": "GitHub AI",
           "source_name": "GitHub AI",
           "category": "ai-tools",
-          "published_at": "2026-06-12T09:11:06.905501+00:00",
+          "published_at": "2026-06-12T12:30:27.864821+00:00",
           "summary": "CrowdSec - the open-source and participative security solution offering crowdsourced protection against malicious IPs and access to the most advanced real-world CTI."
         },
         {
@@ -362,7 +363,7 @@
           "source": "GitHub AI",
           "source_name": "GitHub AI",
           "category": "ai-tools",
-          "published_at": "2026-06-12T09:11:06.905180+00:00",
+          "published_at": "2026-06-12T12:30:27.864527+00:00",
           "summary": "📦 The official Nextcloud installation method. Provides easy deployment and maintenance with most features included in this one Nextcloud instance."
         },
         {
@@ -372,7 +373,7 @@
           "source": "GitHub AI",
           "source_name": "GitHub AI",
           "category": "ai-tools",
-          "published_at": "2026-06-12T09:11:06.903816+00:00",
+          "published_at": "2026-06-12T12:30:27.863288+00:00",
           "summary": "Build databases, automations, apps & agents with AI — no code. Open source platform available on cloud and self-hosted. GDPR, HIPAA, SOC 2 compliant. Best Airtable alternative."
         },
         {
@@ -382,7 +383,7 @@
           "source": "GitHub AI",
           "source_name": "GitHub AI",
           "category": "ai-tools",
-          "published_at": "2026-06-12T09:11:06.903517+00:00",
+          "published_at": "2026-06-12T12:30:27.863013+00:00",
           "summary": "Secure environments for developers and their agents"
         },
         {
@@ -392,7 +393,7 @@
           "source": "GitHub AI",
           "source_name": "GitHub AI",
           "category": "ai-tools",
-          "published_at": "2026-06-12T09:11:06.903053+00:00",
+          "published_at": "2026-06-12T12:30:27.862618+00:00",
           "summary": "Industrial-grade speech recognition toolkit: 170x realtime, 50+ languages, speaker diarization, emotion detection, streaming, and OpenAI-compatible API."
         }
       ]
