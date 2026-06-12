@@ -1,13 +1,16 @@
 {
   "date": "2026-06-12",
-  "generated_at": "2026-06-12T15:54:25.401738",
-  "total": 66,
+  "generated_at": "2026-06-12T18:19:21.881451",
+  "total": 68,
   "sources": {
     "Hugging Face": 8,
     "GitHub AI": 8,
+    "Anthropic：Newsroom（网页）": 3,
+    "Hugging Face：Blog（RSS）": 1,
     "IT之家（RSS）": 4,
     "X：MiniMax (@MiniMax_AI)": 1,
     "X：Kimi.ai (@Kimi_Moonshot)": 1,
+    "OpenAI：官网动态（RSS · 排除企业/客户案例）": 4,
     "X：小互 (@xiaohu)": 1,
     "X：Vista (@vista8)": 3,
     "X：邵猛 (@shao__meng)": 1,
@@ -25,10 +28,8 @@
     "公众号：千问APP（阿里）": 1,
     "Hacker News 热门（buzzing.cc 中文翻译）": 3,
     "X：Kim (@kimmonismus)": 1,
-    "Anthropic：Newsroom（网页）": 2,
     "Runway：News（网页）": 1,
     "Bloomberg：Technology（RSS）": 1,
-    "OpenAI：官网动态（RSS · 排除企业/客户案例）": 4,
     "X：Peter Steinberger (@steipete)": 1,
     "X：宝玉 (@dotey)": 1,
     "X：Oran Ge (@oran_ge)": 1,
@@ -90,6 +91,16 @@
     "ai-products": {
       "label": "🚀 AI 产品",
       "items": [
+        {
+          "id": "de3af8b34fcd",
+          "title": "olmo-eval：面向模型开发循环的评估工作台",
+          "url": "https://huggingface.co/blog/allenai/olmo-eval",
+          "source": "aihot",
+          "source_name": "Hugging Face：Blog（RSS）",
+          "category": "ai-products",
+          "published_at": "2026-06-12T15:56:10.000Z",
+          "summary": "olmo-eval 是基于 OLMES 标准构建的评估工作台，专为 LLM 持续开发中的反复评测场景设计。相比 OLMES，它减少了新增评测的实现工作量，支持 agentic 和多轮评测作为一等用例，并允许根据基准需求选择轻量直接运行或容器化隔离运行。采用模块化架构，模型、工具、容器环境、辅助模型均可独立替换。评测结果同时报告分数、标准误差和最小可检测效应。与 Harbor 侧重于发布不同，olmo-eval 聚焦开发阶段快速迭代，可逐问题对比检查点输出以区分真实改进与噪声。"
+        },
         {
           "id": "4425b9822551",
           "title": "字节豆包上线\"任务模式\"：支持定时执行与文件生成，\"思考模式\"升级为\"专家模式\"",
@@ -266,16 +277,6 @@
       "label": "🛠️ 开发工具",
       "items": [
         {
-          "id": "813b3f6ba430",
-          "title": "Direct Preference Optimization Beyond Chatbots",
-          "url": "https://huggingface.co/blog/Dharma-AI/direct-preference-optimization-beyond-chatbots",
-          "source": "Hugging Face",
-          "source_name": "Hugging Face",
-          "category": "ai-tools",
-          "published_at": "Wed, 03 Jun 2026 12:55:11 GMT",
-          "summary": ""
-        },
-        {
           "id": "e9aee53cfff8",
           "title": "Introducing North Mini Code: Cohere’s First Model For Developers",
           "url": "https://huggingface.co/blog/CohereLabs/introducing-north-mini-code",
@@ -346,13 +347,23 @@
           "summary": ""
         },
         {
+          "id": "4b5ad46ef429",
+          "title": "olmo-eval: An evaluation workbench for the model development loop",
+          "url": "https://huggingface.co/blog/allenai/olmo-eval",
+          "source": "Hugging Face",
+          "source_name": "Hugging Face",
+          "category": "ai-tools",
+          "published_at": "Fri, 12 Jun 2026 15:56:10 GMT",
+          "summary": ""
+        },
+        {
           "id": "c10ef3317184",
           "title": "⭐ nextcloud/all-in-one",
           "url": "https://github.com/nextcloud/all-in-one",
           "source": "GitHub AI",
           "source_name": "GitHub AI",
           "category": "ai-tools",
-          "published_at": "2026-06-12T15:54:23.170846+00:00",
+          "published_at": "2026-06-12T18:19:19.907832+00:00",
           "summary": "📦 The official Nextcloud installation method. Provides easy deployment and maintenance with most features included in this one Nextcloud instance."
         },
         {
@@ -362,7 +373,7 @@
           "source": "GitHub AI",
           "source_name": "GitHub AI",
           "category": "ai-tools",
-          "published_at": "2026-06-12T15:54:23.170588+00:00",
+          "published_at": "2026-06-12T18:19:19.907572+00:00",
           "summary": "Computer Vision Annotation Tool (CVAT) is a leading platform for building high-quality visual datasets for vision AI. It offers open-source, cloud, and enterprise products, as well as labeling services, for image, video, and 3D annotation with AI-assisted labeling, quality assurance, team collaboration, analytics, and developer APIs."
         },
         {
@@ -372,7 +383,7 @@
           "source": "GitHub AI",
           "source_name": "GitHub AI",
           "category": "ai-tools",
-          "published_at": "2026-06-12T15:54:23.170157+00:00",
+          "published_at": "2026-06-12T18:19:19.907136+00:00",
           "summary": "TypeScript-first schema validation with static type inference"
         },
         {
@@ -382,7 +393,7 @@
           "source": "GitHub AI",
           "source_name": "GitHub AI",
           "category": "ai-tools",
-          "published_at": "2026-06-12T15:54:23.169970+00:00",
+          "published_at": "2026-06-12T18:19:19.906907+00:00",
           "summary": "The open-source communication infrastructure for agents and products"
         },
         {
@@ -392,7 +403,7 @@
           "source": "GitHub AI",
           "source_name": "GitHub AI",
           "category": "ai-tools",
-          "published_at": "2026-06-12T15:54:23.169412+00:00",
+          "published_at": "2026-06-12T18:19:19.906371+00:00",
           "summary": "Open-source developer platform to power your entire infra and turn scripts into webhooks, workflows and UIs. Fastest workflow engine (13x vs Airflow). Open-source alternative to Retool and Temporal."
         },
         {
@@ -402,7 +413,7 @@
           "source": "GitHub AI",
           "source_name": "GitHub AI",
           "category": "ai-tools",
-          "published_at": "2026-06-12T15:54:23.169276+00:00",
+          "published_at": "2026-06-12T18:19:19.906234+00:00",
           "summary": "The agent engineering platform."
         },
         {
@@ -412,7 +423,7 @@
           "source": "GitHub AI",
           "source_name": "GitHub AI",
           "category": "ai-tools",
-          "published_at": "2026-06-12T15:54:23.169134+00:00",
+          "published_at": "2026-06-12T18:19:19.906089+00:00",
           "summary": "Secure environments for developers and their agents"
         },
         {
@@ -422,7 +433,7 @@
           "source": "GitHub AI",
           "source_name": "GitHub AI",
           "category": "ai-tools",
-          "published_at": "2026-06-12T15:54:23.168786+00:00",
+          "published_at": "2026-06-12T18:19:19.905726+00:00",
           "summary": "Financial data platform for analysts, quants and AI agents."
         }
       ]
@@ -530,6 +541,26 @@
     "tip": {
       "label": "💡 技巧",
       "items": [
+        {
+          "id": "a98db1c07188",
+          "title": "Anthropic首次公众调查：近半美国人盼AI治愈疾病，超六成担忧失业",
+          "url": "https://www.anthropic.com/news/anthropic-public-record",
+          "source": "aihot",
+          "source_name": "Anthropic：Newsroom（网页）",
+          "category": "tip",
+          "published_at": "2026-06-12T16:14:59.887Z",
+          "summary": "Anthropic对近5.2万美国人调查显示：48%将治愈癌症等疾病列为首要期望，36%希望AI帮助残障人士。64%担忧AI导致失业，56%担忧认知依赖，52%担忧信息误导。超70%支持政府监管，最关注隐私（56%）、儿童安全（52%）和责任归属（49%）。仅15%信任AI公司决策。多数议题上观点不因党派或地域严重分裂。调查于2025年11-12月由YouGov线上执行并加权至人口普查基准。"
+        },
+        {
+          "id": "bc60940fb53f",
+          "title": "OpenAI 推出面向新时代工作的新 Academy 课程",
+          "url": "https://openai.com/index/academy-courses-applying-ai-at-work",
+          "source": "aihot",
+          "source_name": "OpenAI：官网动态（RSS · 排除企业/客户案例）",
+          "category": "tip",
+          "published_at": "2026-06-12T10:00:00.000Z",
+          "summary": "OpenAI 发布三门 Academy 课程，帮助用户掌握实用 AI 技能、创建可重复工作流，并在日常工作中应用 AI 智能体。"
+        },
         {
           "id": "3865c2f9183e",
           "title": "小互开源公众号自动排版技能组合",
@@ -729,16 +760,6 @@
           "category": "industry",
           "published_at": "2026-06-11T00:00:00.000Z",
           "summary": "OpenAI 计划收购 Ona，以拓展 Codex 的功能，提供安全、持久的云端环境，从而支持企业工作流中长时间运行的 AI 智能体。"
-        },
-        {
-          "id": "7dcfbd08affa",
-          "title": "通过 Oracle 云承诺访问 OpenAI 模型和 Codex",
-          "url": "https://openai.com/index/openai-on-oracle-cloud",
-          "source": "aihot",
-          "source_name": "OpenAI：官网动态（RSS · 排除企业/客户案例）",
-          "category": "industry",
-          "published_at": "2026-06-10T20:00:00.000Z",
-          "summary": "OpenAI 与 Oracle 合作，用户可利用现有 Oracle 云服务承诺（commitment）额度，在 Oracle 云上访问 OpenAI 模型和 Codex，用于构建和部署 AI 应用，同时获得企业级安全与治理能力。"
         }
       ]
     }
