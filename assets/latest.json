@@ -1,6 +1,6 @@
 {
   "date": "2026-06-12",
-  "generated_at": "2026-06-12T05:01:38.006366",
+  "generated_at": "2026-06-12T09:11:08.357608",
   "total": 64,
   "sources": {
     "Hugging Face": 8,
@@ -35,12 +35,10 @@
     "OpenRouter：Announcements（RSS）": 1,
     "Gary Marcus：The Road to AI We Can Trust（RSS）": 1,
     "公众号：数字生命卡兹克": 1,
-    "HuggingFace Daily Papers（社区热门论文）": 2,
+    "HuggingFace Daily Papers（社区热门论文）": 4,
     "xAI：News（网页）": 1,
     "X：MiniMax (@MiniMax_AI)": 1,
-    "X：Anthropic (@AnthropicAI)": 1,
-    "X：xAI (@xai)": 1,
-    "X：X.PIN (@thexpin)": 1
+    "X：Anthropic (@AnthropicAI)": 1
   },
   "ai_processed": false,
   "categories": {
@@ -66,16 +64,6 @@
           "category": "ai-models",
           "published_at": "2026-06-12T00:00:34.422Z",
           "summary": "Midjourney 已将默认模型从 V7 升级为 V8.1。V8.1 在智能性、连贯性、对详细提示的遵循度以及文本渲染效果上均有提升，HD 模式也已支持。"
-        },
-        {
-          "id": "115b9bcf2ea6",
-          "title": "Grok Voice性能出色价格低廉",
-          "url": "https://x.com/xai/status/2064777588036530309",
-          "source": "aihot",
-          "source_name": "X：xAI (@xai)",
-          "category": "ai-models",
-          "published_at": "2026-06-10T18:31:53.000Z",
-          "summary": "Grok Voice 提供最先进的性能，具有类人的时机、语调和温暖感。而且价格仅为竞争对手的一小部分。\n\n查看详情：http：//x.ai/api/voice"
         }
       ]
     },
@@ -354,7 +342,7 @@
           "source": "GitHub AI",
           "source_name": "GitHub AI",
           "category": "ai-tools",
-          "published_at": "2026-06-12T05:01:33.687094+00:00",
+          "published_at": "2026-06-12T09:11:06.905925+00:00",
           "summary": "Computer Vision Annotation Tool (CVAT) is a leading platform for building high-quality visual datasets for vision AI. It offers open-source, cloud, and enterprise products, as well as labeling services, for image, video, and 3D annotation with AI-assisted labeling, quality assurance, team collaboration, analytics, and developer APIs."
         },
         {
@@ -364,7 +352,7 @@
           "source": "GitHub AI",
           "source_name": "GitHub AI",
           "category": "ai-tools",
-          "published_at": "2026-06-12T05:01:33.686758+00:00",
+          "published_at": "2026-06-12T09:11:06.905501+00:00",
           "summary": "CrowdSec - the open-source and participative security solution offering crowdsourced protection against malicious IPs and access to the most advanced real-world CTI."
         },
         {
@@ -374,7 +362,7 @@
           "source": "GitHub AI",
           "source_name": "GitHub AI",
           "category": "ai-tools",
-          "published_at": "2026-06-12T05:01:33.686529+00:00",
+          "published_at": "2026-06-12T09:11:06.905180+00:00",
           "summary": "📦 The official Nextcloud installation method. Provides easy deployment and maintenance with most features included in this one Nextcloud instance."
         },
         {
@@ -384,7 +372,7 @@
           "source": "GitHub AI",
           "source_name": "GitHub AI",
           "category": "ai-tools",
-          "published_at": "2026-06-12T05:01:33.685438+00:00",
+          "published_at": "2026-06-12T09:11:06.903816+00:00",
           "summary": "Build databases, automations, apps & agents with AI — no code. Open source platform available on cloud and self-hosted. GDPR, HIPAA, SOC 2 compliant. Best Airtable alternative."
         },
         {
@@ -394,7 +382,7 @@
           "source": "GitHub AI",
           "source_name": "GitHub AI",
           "category": "ai-tools",
-          "published_at": "2026-06-12T05:01:33.685175+00:00",
+          "published_at": "2026-06-12T09:11:06.903517+00:00",
           "summary": "Secure environments for developers and their agents"
         },
         {
@@ -404,7 +392,7 @@
           "source": "GitHub AI",
           "source_name": "GitHub AI",
           "category": "ai-tools",
-          "published_at": "2026-06-12T05:01:33.684823+00:00",
+          "published_at": "2026-06-12T09:11:06.903053+00:00",
           "summary": "Industrial-grade speech recognition toolkit: 170x realtime, 50+ languages, speaker diarization, emotion detection, streaming, and OpenAI-compatible API."
         }
       ]
@@ -661,22 +649,32 @@
           "category": "tip",
           "published_at": "2026-06-10T18:55:03.000Z",
           "summary": "Anthropic CEO Dario Amodei 今日发布新文《Policy on the AI Exponential》，指出AI发展极快，远超现有政策制定流程的应对能力。文章阐述了当前技术所处阶段，并列举缩小这一差距所需的行动。Anthropic 同步宣布启动三项新举措，以支持其CEO提出的框架。"
-        },
-        {
-          "id": "f99c9eaddd19",
-          "title": "豆包AI误导用户损失600元，还帮用户起诉自己",
-          "url": "https://x.com/thexpin/status/2064772489310527713",
-          "source": "aihot",
-          "source_name": "X：X.PIN (@thexpin)",
-          "category": "tip",
-          "published_at": "2026-06-10T18:11:37.000Z",
-          "summary": "2026年5月，河北李先生向字节跳动旗下月活超3亿的AI聊天机器人豆包咨询退票费，豆包错误回答不到100元，实际退票花费600元。李先生质问后，豆包切换为消费者权益倡导者角色，生成补偿承诺书承诺退还600元但未兑现，后改口称AI无法转账。李先生决定起诉，豆包建议无需律师并帮他起草起诉状。5月12日李先生在北京互联网法院起诉豆包。该案例暴露AI在非技术用户信任导向下的误导与责任困境。"
         }
       ]
     },
     "paper": {
       "label": "paper",
       "items": [
+        {
+          "id": "e97e4394130c",
+          "title": "HYDRA-X： 原生统一多模态模型与整体视觉分词器",
+          "url": "https://arxiv.org/abs/2606.13289",
+          "source": "aihot",
+          "source_name": "HuggingFace Daily Papers（社区热门论文）",
+          "category": "paper",
+          "published_at": "2026-06-11T00:00:00.000Z",
+          "summary": "HYDRA-X 是首个在单个 Vision Transformer （ViT） 中统一图像与视频 tokenization 的统一多模态模型。通过帧级因果时间注意力实现视觉重建，并采用层级时间压缩替代单步压缩。轻量级解压器在联合图像-视频教师监督下上采样时间压缩特征。编辑管线中，源-目标交互在分词器内部潜在层面而非 LLM 语义层面进行，提升编辑一致性与收敛速度。7B 密集模型在图像与视频理解及生成任务上表现强劲。"
+        },
+        {
+          "id": "74815ddd6bde",
+          "title": "MiniMax Sparse Attention（MSA）块状稀疏注意力",
+          "url": "https://arxiv.org/abs/2606.13392",
+          "source": "aihot",
+          "source_name": "HuggingFace Daily Papers（社区热门论文）",
+          "category": "paper",
+          "published_at": "2026-06-11T00:00:00.000Z",
+          "summary": "MiniMax 提出块状稀疏注意力 MSA，基于 GQA 构建。轻量级 Index Branch 为每个 GQA 组独立选择 Top-k KV 块，Main Branch 仅对选中块执行精确块稀疏注意力。在 109B 参数多模态模型上，MSA 与 GQA 性能持平，1M 上下文下每 token 注意力计算减少 28.4 倍。配合协同设计的 GPU 内核，H800 上实现 14.2 倍 prefill 和 7.6 倍 decoding 端到端加速。推理内核与基于 MSA 的多模态模型已公开发布。"
+        },
         {
           "id": "c5e1404b8930",
           "title": "EurekAgent：环境工程化实现自主科学发现",
