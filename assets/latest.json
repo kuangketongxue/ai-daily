@@ -1,14 +1,15 @@
 {
   "date": "2026-06-12",
-  "generated_at": "2026-06-12T12:30:28.970696",
-  "total": 64,
+  "generated_at": "2026-06-12T15:54:25.401738",
+  "total": 66,
   "sources": {
     "Hugging Face": 8,
-    "GitHub AI": 6,
+    "GitHub AI": 8,
+    "IT之家（RSS）": 4,
+    "X：MiniMax (@MiniMax_AI)": 1,
     "X：Kimi.ai (@Kimi_Moonshot)": 1,
     "X：小互 (@xiaohu)": 1,
     "X：Vista (@vista8)": 3,
-    "IT之家（RSS）": 3,
     "X：邵猛 (@shao__meng)": 1,
     "X：OpenAI Developers (@OpenAIDevs)": 1,
     "X：OpenAI (@OpenAI)": 1,
@@ -37,15 +38,23 @@
     "Gary Marcus：The Road to AI We Can Trust（RSS）": 1,
     "公众号：数字生命卡兹克": 1,
     "HuggingFace Daily Papers（社区热门论文）": 4,
-    "xAI：News（网页）": 1,
-    "X：MiniMax (@MiniMax_AI)": 1,
-    "X：Anthropic (@AnthropicAI)": 1
+    "xAI：News（网页）": 1
   },
   "ai_processed": false,
   "categories": {
     "ai-models": {
       "label": "🧠 AI 模型",
       "items": [
+        {
+          "id": "d5f7ddcd5f90",
+          "title": "MiniMax M3 开源权重模型发布，已上架 HuggingFace",
+          "url": "https://x.com/MiniMax_AI/status/2065436935188058208",
+          "source": "aihot",
+          "source_name": "X：MiniMax (@MiniMax_AI)",
+          "category": "ai-models",
+          "published_at": "2026-06-12T14:11:53.000Z",
+          "summary": "MiniMax 发布开源权重模型 M3，约 428B 总参数、23B 激活参数，已上传 HuggingFace。该模型融合三种前沿能力：编码与智能体方面达 59.0% SWE-Bench Pro、66.0% Terminal Bench 2.1、34.8% SWE-fficiency、28.8% KernelBench Hard、74.2% MCP Atlas；采用 MiniMax 稀疏注意力将上下文窗口扩展至 1M token；原生多模态。同步上线 MiniMax Code 工具及 API 平台。权重与技术报告预计约 10 天后发布。"
+        },
         {
           "id": "158e5f136692",
           "title": "Kimi 发布并开源最新代码模型 Kimi-K2.7-Code",
@@ -81,6 +90,16 @@
     "ai-products": {
       "label": "🚀 AI 产品",
       "items": [
+        {
+          "id": "4425b9822551",
+          "title": "字节豆包上线\"任务模式\"：支持定时执行与文件生成，\"思考模式\"升级为\"专家模式\"",
+          "url": "https://www.ithome.com/0/963/725.htm",
+          "source": "aihot",
+          "source_name": "IT之家（RSS）",
+          "category": "ai-products",
+          "published_at": "2026-06-12T15:33:19.000Z",
+          "summary": "6月12日，字节跳动旗下AI应用豆包大范围上线\"任务模式\"，支持定时执行、零代码网页生成、一键PPT生成、数据可视化分析等全链路Agent执行。原\"思考模式\"升级为\"专家模式\"，调用豆包大模型2.0 Pro版本，强化深度推理能力。App顶部模式切换改为\"快速、专家、任务\"。基础功能免费，高阶服务付费，专业版三档：标准版68元/月或688元/年，加强版200元/月或2048元/年，专业版500元/月或5088元/年。"
+        },
         {
           "id": "c1feba137701",
           "title": "苹果 iOS 27 健康 App 大改：卡片布局、营养识别、围绝经期追踪",
@@ -240,16 +259,6 @@
           "category": "ai-products",
           "published_at": "2026-06-11T00:00:00.000Z",
           "summary": "xAI 今日发布 Grok Build 内置插件市场。插件将技能、斜杠命令、AI 智能体、钩子、MCP 服务器和 LSP 打包为可安装包，用户无需离开终端即可浏览、安装和更新。首发合作伙伴包括 MongoDB、Vercel、Sentry、Chrome DevTools、Cloudflare 和 Superpowers。在 Grok Build 中输入 `/marketplace` 或使用 CLI 即可安装，每个远程插件均固定到特定 commit SHA 并经过验证。开发者可提交 PR 到 xai-org/plugin-marketplace 发布自己的插件。"
-        },
-        {
-          "id": "f05d74172413",
-          "title": "MiniMax M3 上链 0G，限时免费运行",
-          "url": "https://x.com/MiniMax_AI/status/2064791800884363286",
-          "source": "aihot",
-          "source_name": "X：MiniMax (@MiniMax_AI)",
-          "category": "ai-products",
-          "published_at": "2026-06-10T19:28:21.000Z",
-          "summary": "M3 在 @0G_labs 上链。\n\n可验证 + 私有计算，6 月 15-18 日免费运行。"
         }
       ]
     },
@@ -337,44 +346,64 @@
           "summary": ""
         },
         {
-          "id": "9593a01fe94b",
-          "title": "⭐ cvat-ai/cvat",
-          "url": "https://github.com/cvat-ai/cvat",
-          "source": "GitHub AI",
-          "source_name": "GitHub AI",
-          "category": "ai-tools",
-          "published_at": "2026-06-12T12:30:27.865208+00:00",
-          "summary": "Computer Vision Annotation Tool (CVAT) is a leading platform for building high-quality visual datasets for vision AI. It offers open-source, cloud, and enterprise products, as well as labeling services, for image, video, and 3D annotation with AI-assisted labeling, quality assurance, team collaboration, analytics, and developer APIs."
-        },
-        {
-          "id": "569cbcc66099",
-          "title": "⭐ crowdsecurity/crowdsec",
-          "url": "https://github.com/crowdsecurity/crowdsec",
-          "source": "GitHub AI",
-          "source_name": "GitHub AI",
-          "category": "ai-tools",
-          "published_at": "2026-06-12T12:30:27.864821+00:00",
-          "summary": "CrowdSec - the open-source and participative security solution offering crowdsourced protection against malicious IPs and access to the most advanced real-world CTI."
-        },
-        {
           "id": "c10ef3317184",
           "title": "⭐ nextcloud/all-in-one",
           "url": "https://github.com/nextcloud/all-in-one",
           "source": "GitHub AI",
           "source_name": "GitHub AI",
           "category": "ai-tools",
-          "published_at": "2026-06-12T12:30:27.864527+00:00",
+          "published_at": "2026-06-12T15:54:23.170846+00:00",
           "summary": "📦 The official Nextcloud installation method. Provides easy deployment and maintenance with most features included in this one Nextcloud instance."
         },
         {
-          "id": "eeccef67eaa2",
-          "title": "⭐ baserow/baserow",
-          "url": "https://github.com/baserow/baserow",
+          "id": "9593a01fe94b",
+          "title": "⭐ cvat-ai/cvat",
+          "url": "https://github.com/cvat-ai/cvat",
           "source": "GitHub AI",
           "source_name": "GitHub AI",
           "category": "ai-tools",
-          "published_at": "2026-06-12T12:30:27.863288+00:00",
-          "summary": "Build databases, automations, apps & agents with AI — no code. Open source platform available on cloud and self-hosted. GDPR, HIPAA, SOC 2 compliant. Best Airtable alternative."
+          "published_at": "2026-06-12T15:54:23.170588+00:00",
+          "summary": "Computer Vision Annotation Tool (CVAT) is a leading platform for building high-quality visual datasets for vision AI. It offers open-source, cloud, and enterprise products, as well as labeling services, for image, video, and 3D annotation with AI-assisted labeling, quality assurance, team collaboration, analytics, and developer APIs."
+        },
+        {
+          "id": "e7d7f2a70e07",
+          "title": "⭐ colinhacks/zod",
+          "url": "https://github.com/colinhacks/zod",
+          "source": "GitHub AI",
+          "source_name": "GitHub AI",
+          "category": "ai-tools",
+          "published_at": "2026-06-12T15:54:23.170157+00:00",
+          "summary": "TypeScript-first schema validation with static type inference"
+        },
+        {
+          "id": "0a6e170e3e17",
+          "title": "⭐ novuhq/novu",
+          "url": "https://github.com/novuhq/novu",
+          "source": "GitHub AI",
+          "source_name": "GitHub AI",
+          "category": "ai-tools",
+          "published_at": "2026-06-12T15:54:23.169970+00:00",
+          "summary": "The open-source communication infrastructure for agents and products"
+        },
+        {
+          "id": "04a62472eeac",
+          "title": "⭐ windmill-labs/windmill",
+          "url": "https://github.com/windmill-labs/windmill",
+          "source": "GitHub AI",
+          "source_name": "GitHub AI",
+          "category": "ai-tools",
+          "published_at": "2026-06-12T15:54:23.169412+00:00",
+          "summary": "Open-source developer platform to power your entire infra and turn scripts into webhooks, workflows and UIs. Fastest workflow engine (13x vs Airflow). Open-source alternative to Retool and Temporal."
+        },
+        {
+          "id": "1c944aadf370",
+          "title": "⭐ langchain-ai/langchain",
+          "url": "https://github.com/langchain-ai/langchain",
+          "source": "GitHub AI",
+          "source_name": "GitHub AI",
+          "category": "ai-tools",
+          "published_at": "2026-06-12T15:54:23.169276+00:00",
+          "summary": "The agent engineering platform."
         },
         {
           "id": "4c28ef14fc3a",
@@ -383,18 +412,18 @@
           "source": "GitHub AI",
           "source_name": "GitHub AI",
           "category": "ai-tools",
-          "published_at": "2026-06-12T12:30:27.863013+00:00",
+          "published_at": "2026-06-12T15:54:23.169134+00:00",
           "summary": "Secure environments for developers and their agents"
         },
         {
-          "id": "eeb23aefa2a0",
-          "title": "⭐ modelscope/FunASR",
-          "url": "https://github.com/modelscope/FunASR",
+          "id": "5428486be845",
+          "title": "⭐ OpenBB-finance/OpenBB",
+          "url": "https://github.com/OpenBB-finance/OpenBB",
           "source": "GitHub AI",
           "source_name": "GitHub AI",
           "category": "ai-tools",
-          "published_at": "2026-06-12T12:30:27.862618+00:00",
-          "summary": "Industrial-grade speech recognition toolkit: 170x realtime, 50+ languages, speaker diarization, emotion detection, streaming, and OpenAI-compatible API."
+          "published_at": "2026-06-12T15:54:23.168786+00:00",
+          "summary": "Financial data platform for analysts, quants and AI agents."
         }
       ]
     },
@@ -640,16 +669,6 @@
           "category": "tip",
           "published_at": "2026-06-11T01:58:00.000Z",
           "summary": "WorkBuddy是面向国内用户的通用Agent产品，支持Windows和Mac，提供免费版和58元/月个人专业版，企业版已推出。内置代码开发、日常办公、设计创意三种场景模式及100多个行业领域AI专家。模型集成腾讯混元、DeepSeek（推荐V4 Pro）、GLM、Kimi等国产大模型，也支持接入兼容OpenAI协议的外部API。拥有Skills市场和MCP连接器生态，可打通QQ邮箱、腾讯会议、腾讯文档等服务。教程通过公众号周报生成和功能网页开发两个案例演示实际用法。"
-        },
-        {
-          "id": "29fcd841cc45",
-          "title": "Anthropic CEO Dario Amodei 发文呼吁缩小AI政策差距",
-          "url": "https://x.com/AnthropicAI/status/2064783418844762489",
-          "source": "aihot",
-          "source_name": "X：Anthropic (@AnthropicAI)",
-          "category": "tip",
-          "published_at": "2026-06-10T18:55:03.000Z",
-          "summary": "Anthropic CEO Dario Amodei 今日发布新文《Policy on the AI Exponential》，指出AI发展极快，远超现有政策制定流程的应对能力。文章阐述了当前技术所处阶段，并列举缩小这一差距所需的行动。Anthropic 同步宣布启动三项新举措，以支持其CEO提出的框架。"
         }
       ]
     },
