@@ -1,10 +1,13 @@
 {
   "date": "2026-06-13",
-  "generated_at": "2026-06-13T16:45:33.402421",
+  "generated_at": "2026-06-13T18:43:05.411842",
   "total": 69,
   "sources": {
     "Hugging Face": 8,
     "GitHub AI": 5,
+    "X：Suno (@suno)": 1,
+    "X：OpenRouter (@OpenRouter)": 2,
+    "Hacker News 热门（buzzing.cc 中文翻译）": 4,
     "Bloomberg：Technology（RSS）": 2,
     "IT之家（RSS）": 7,
     "公众号：智谱（GLM）": 1,
@@ -25,12 +28,10 @@
     "OpenRouter：Announcements（RSS）": 3,
     "蚂蚁 inclusionAI：HuggingFace 新模型": 1,
     "公众号：数字生命卡兹克": 1,
-    "Hacker News 热门（buzzing.cc 中文翻译）": 3,
     "X：Replit (@Replit)": 3,
     "X：Perplexity (@perplexity_ai)": 1,
     "X：Logan Kilpatrick (@OfficialLoganK)": 1,
     "X：Kim (@kimmonismus)": 1,
-    "X：OpenRouter (@OpenRouter)": 1,
     "X：Krea AI (@krea_ai)": 1,
     "Runway：News（网页）": 1,
     "Gary Marcus：The Road to AI We Can Trust（RSS）": 1,
@@ -38,10 +39,7 @@
     "公众号：通义实验室（千问）": 1,
     "X：硅基流动 SiliconFlow (@SiliconFlowAI)": 1,
     "X：Peter Steinberger (@steipete)": 1,
-    "公众号：千问APP（阿里）": 1,
-    "公众号：腾讯混元": 1,
-    "The Verge：AI（RSS）": 1,
-    "X：宝玉 (@dotey)": 1
+    "公众号：千问APP（阿里）": 1
   },
   "ai_processed": false,
   "categories": {
@@ -103,6 +101,26 @@
     "ai-products": {
       "label": "🚀 AI 产品",
       "items": [
+        {
+          "id": "8c54a059efa5",
+          "title": "Suno 音轨分离：从零生成更纯净",
+          "url": "https://x.com/suno/status/2065862499765821916",
+          "source": "aihot",
+          "source_name": "X：Suno (@suno)",
+          "category": "ai-products",
+          "published_at": "2026-06-13T18:22:56.000Z",
+          "summary": "重大更新：Suno 的音轨分离刚刚大幅升级。🚀\n\n我们现在从零重新生成音轨，而非仅仅隔离频率。结果如何？纯净无伪影的音轨，可直接拖入你的 DAW。"
+        },
+        {
+          "id": "f2c6b778b6f8",
+          "title": "Fusion API：半价达Fable级智能",
+          "url": "https://x.com/OpenRouter/status/2065856853989270011",
+          "source": "aihot",
+          "source_name": "X：OpenRouter (@OpenRouter)",
+          "category": "ai-products",
+          "published_at": "2026-06-13T18:00:30.000Z",
+          "summary": "推出Fusion API，市场上最智能的复合模型。\n\nFusion以一半的价格实现Fable级别的智能。\n\n工作原理如下👇"
+        },
         {
           "id": "73c6269c0893",
           "title": "苹果 iOS 27 健康 App 大改：卡片布局、营养识别、围绝经期追踪",
@@ -282,26 +300,6 @@
           "category": "ai-products",
           "published_at": "2026-06-11T08:40:14.000Z",
           "summary": "千问上线首个足球预测AI助手，基于海量大数据（含历史比赛、球员数据、伤病、美加墨地貌及天气等）。以6月22日挪威对塞内加尔为例，预测\"1：1平局\"，理由为气候差异。活动：参与全部104场竞猜，预测超80场且准确率超千问可抽万元大奖（100个名额）；预测超32场可抽千问AI眼镜G1（1000副），该眼镜支持赛后分析、拍屏识球员及赛事结果订阅。累积积分将向乡村学校捐建足球场，目标至少50所。"
-        },
-        {
-          "id": "8378759717d6",
-          "title": "腾讯混元 AI Infra 新开源：HPC-Ops 推理核心算子全面升级",
-          "url": "https://mp.weixin.qq.com/s/y0vd1cpvWXLSssL1kXxguw",
-          "source": "aihot",
-          "source_name": "公众号：腾讯混元",
-          "category": "ai-products",
-          "published_at": "2026-06-11T08:34:59.000Z",
-          "summary": "腾讯混元 AI Infra 团队开源升级 HPC-Ops 推理算子库，推出五大核心算子。Attention 采用运行时动态负载调度，长文本最高加速 2.95x，端到端 QPM 提升 17%；Router GEMM 以双 BF16 组合实现 FP32 精度，对比 CuBLAS FP32 最高提速 3.22x；FusedMoE 相对 vLLM、SGLang 性能提升 1.2x~1.6x；Fused AllReduce+Norm 对比主流方案最高提速 1.68x；Sampler 将解码采样融合为 2 个 CUDA Kernel，相对 vLLM 提速 4.0x~7.5x。所有能力均来自生产实践并完全开源。"
-        },
-        {
-          "id": "65d8e9d8905a",
-          "title": "Deezer 推出面向其他流媒体服务的 AI 音乐检测器",
-          "url": "https://www.theverge.com/ai-artificial-intelligence/948153/deezer-ai-music-detector-spotify-apple",
-          "source": "aihot",
-          "source_name": "The Verge：AI（RSS）",
-          "category": "ai-products",
-          "published_at": "2026-06-11T08:00:00.000Z",
-          "summary": "Deezer 将扫描用户在其它流媒体平台的播放列表，检测其中的 AI 生成音乐。Deezer 是最早标记 AI 生成音乐的大型流媒体服务之一，曾向其他平台提供该技术但少有采纳。Deezer CEO Alexis Lanternier 表示，由于没有其他公司跟进，他们决定让用户无论使用哪个平台，都能检查自己的播放列表中是否包含合成音乐。"
         }
       ]
     },
@@ -395,7 +393,7 @@
           "source": "GitHub AI",
           "source_name": "GitHub AI",
           "category": "ai-tools",
-          "published_at": "2026-06-13T16:45:32.322848+00:00",
+          "published_at": "2026-06-13T18:43:02.890229+00:00",
           "summary": "📦 The official Nextcloud installation method. Provides easy deployment and maintenance with most features included in this one Nextcloud instance."
         },
         {
@@ -405,7 +403,7 @@
           "source": "GitHub AI",
           "source_name": "GitHub AI",
           "category": "ai-tools",
-          "published_at": "2026-06-13T16:45:32.322708+00:00",
+          "published_at": "2026-06-13T18:43:02.890112+00:00",
           "summary": "Run, manage, and scale AI workloads on any AI infrastructure. Use one system to access & manage all AI compute (Kubernetes, Slurm, 20+ clouds, on-prem)."
         },
         {
@@ -415,7 +413,7 @@
           "source": "GitHub AI",
           "source_name": "GitHub AI",
           "category": "ai-tools",
-          "published_at": "2026-06-13T16:45:32.322185+00:00",
+          "published_at": "2026-06-13T18:43:02.889654+00:00",
           "summary": "CLI tool and library for generating a Software Bill of Materials from container images and filesystems"
         },
         {
@@ -425,7 +423,7 @@
           "source": "GitHub AI",
           "source_name": "GitHub AI",
           "category": "ai-tools",
-          "published_at": "2026-06-13T16:45:32.321742+00:00",
+          "published_at": "2026-06-13T18:43:02.889238+00:00",
           "summary": "CloudNativePG is a comprehensive platform designed to seamlessly manage PostgreSQL databases within Kubernetes environments, covering the entire operational lifecycle from initial deployment to ongoing maintenance"
         },
         {
@@ -435,7 +433,7 @@
           "source": "GitHub AI",
           "source_name": "GitHub AI",
           "category": "ai-tools",
-          "published_at": "2026-06-13T16:45:32.320832+00:00",
+          "published_at": "2026-06-13T18:43:02.888419+00:00",
           "summary": "Secure environments for developers and their agents"
         }
       ]
@@ -473,6 +471,16 @@
     "tip": {
       "label": "💡 技巧",
       "items": [
+        {
+          "id": "7c839a735f2a",
+          "title": "/architect：减少80%的Fable token，Fable负责协调/审核，Codex负责构建",
+          "url": "https://github.com/DanMcInerney/architect-loop",
+          "source": "aihot",
+          "source_name": "Hacker News 热门（buzzing.cc 中文翻译）",
+          "category": "tip",
+          "published_at": "2026-06-13T16:46:05.572Z",
+          "summary": "/architect项目将Fable token减少80%，由Fable进行协调和审核，Codex负责构建任务。"
+        },
         {
           "id": "93a037a3f460",
           "title": "SemiAnalysis 洞察 Token 经济：200 美元 AI 订阅榨出 70 倍用量",
@@ -652,16 +660,6 @@
           "category": "tip",
           "published_at": "2026-06-11T09:09:42.000Z",
           "summary": "一个简单的循环：告诉 Codex 维护你的仓库，每5分钟唤醒一次，将工作直接分配到线程。这样可以轻松按需并行化和导向工作。\n\n我使用一个编排器技能，结合我的分类+自动审查+计算机使用技能，因此部分工作可以自主落地。"
-        },
-        {
-          "id": "51b4e68b366b",
-          "title": "baoyu-design skill 更新：支持导入 Figma 本地文件重建设计系统",
-          "url": "https://x.com/dotey/status/2064959133535658144",
-          "source": "aihot",
-          "source_name": "X：宝玉 (@dotey)",
-          "category": "tip",
-          "published_at": "2026-06-11T06:33:17.000Z",
-          "summary": "baoyu-design skill 更新，现已支持导入 Figma 本地文件（.fig），可在本地重建设计系统，效果与 Claude Design 在线版一致。该功能依赖 Claude Fable 5 辅助（Token 不够用）。安装后提供 Figma 文件路径即可导入为 Design System，后续新建设计项目可复用。同时支持在新建项目时添加已导入的 Design System，保留了 Claude Design 原始的导入和编译方式，用户可通过提问选择设计系统。安装命令：`npx skills add JimLiu/baoyu-design`。项目地址：https：//github.com/jimliu/baoyu-design。"
         }
       ]
     },
