@@ -1,6 +1,6 @@
 {
   "date": "2026-06-13",
-  "generated_at": "2026-06-13T20:07:20.457207",
+  "generated_at": "2026-06-13T21:37:29.297640",
   "total": 69,
   "sources": {
     "Hugging Face": 8,
@@ -382,7 +382,7 @@
           "source": "GitHub AI",
           "source_name": "GitHub AI",
           "category": "ai-tools",
-          "published_at": "2026-06-13T20:07:19.276796+00:00",
+          "published_at": "2026-06-13T21:37:28.195337+00:00",
           "summary": "📦 The official Nextcloud installation method. Provides easy deployment and maintenance with most features included in this one Nextcloud instance."
         },
         {
@@ -392,7 +392,7 @@
           "source": "GitHub AI",
           "source_name": "GitHub AI",
           "category": "ai-tools",
-          "published_at": "2026-06-13T20:07:19.276681+00:00",
+          "published_at": "2026-06-13T21:37:28.195206+00:00",
           "summary": "Run, manage, and scale AI workloads on any AI infrastructure. Use one system to access & manage all AI compute (Kubernetes, Slurm, 20+ clouds, on-prem)."
         },
         {
@@ -402,7 +402,7 @@
           "source": "GitHub AI",
           "source_name": "GitHub AI",
           "category": "ai-tools",
-          "published_at": "2026-06-13T20:07:19.276239+00:00",
+          "published_at": "2026-06-13T21:37:28.194701+00:00",
           "summary": "CLI tool and library for generating a Software Bill of Materials from container images and filesystems"
         },
         {
@@ -412,7 +412,7 @@
           "source": "GitHub AI",
           "source_name": "GitHub AI",
           "category": "ai-tools",
-          "published_at": "2026-06-13T20:07:19.275830+00:00",
+          "published_at": "2026-06-13T21:37:28.194235+00:00",
           "summary": "CloudNativePG is a comprehensive platform designed to seamlessly manage PostgreSQL databases within Kubernetes environments, covering the entire operational lifecycle from initial deployment to ongoing maintenance"
         },
         {
@@ -422,7 +422,7 @@
           "source": "GitHub AI",
           "source_name": "GitHub AI",
           "category": "ai-tools",
-          "published_at": "2026-06-13T20:07:19.275015+00:00",
+          "published_at": "2026-06-13T21:37:28.193318+00:00",
           "summary": "Secure environments for developers and their agents"
         }
       ]
