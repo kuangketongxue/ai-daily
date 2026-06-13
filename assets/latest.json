@@ -1,22 +1,23 @@
 {
   "date": "2026-06-13",
-  "generated_at": "2026-06-13T06:02:15.599033",
+  "generated_at": "2026-06-13T09:33:28.735322",
   "total": 72,
   "sources": {
     "Hugging Face": 8,
     "GitHub AI": 8,
+    "X：智谱 Z.ai (@Zai_org)": 1,
+    "IT之家（RSS）": 7,
     "TechCrunch：AI（RSS）": 1,
-    "Anthropic：Newsroom（网页）": 4,
     "Bloomberg：Technology（RSS）": 2,
     "X：MiniMax (@MiniMax_AI)": 1,
     "X：Kimi.ai (@Kimi_Moonshot)": 1,
-    "IT之家（RSS）": 5,
     "Hugging Face：Blog（RSS）": 1,
     "X：OpenAI (@OpenAI)": 1,
     "X：OpenAI Developers (@OpenAIDevs)": 1,
     "Claude Code：GitHub Releases（RSS）": 3,
+    "Anthropic：Newsroom（网页）": 3,
     "Google Research：Blog（网页）": 1,
-    "X：Oran Ge (@oran_ge)": 2,
+    "X：Oran Ge (@oran_ge)": 1,
     "X：小互 (@xiaohu)": 1,
     "X：Vista (@vista8)": 3,
     "X：邵猛 (@shao__meng)": 1,
@@ -40,14 +41,23 @@
     "The Verge：AI（RSS）": 1,
     "X：宝玉 (@dotey)": 1,
     "Midjourney：Updates（RSS）": 1,
-    "公众号：数字生命卡兹克": 1,
-    "X：Berry Xia (@berryxia)": 1
+    "公众号：数字生命卡兹克": 1
   },
   "ai_processed": false,
   "categories": {
     "ai-models": {
       "label": "🧠 AI 模型",
       "items": [
+        {
+          "id": "1abe95af7ad9",
+          "title": "智谱 GLM-5.2 旗舰模型发布：1M 上下文、下周开源",
+          "url": "https://x.com/Zai_org/status/2065704919299235870",
+          "source": "aihot",
+          "source_name": "X：智谱 Z.ai (@Zai_org)",
+          "category": "ai-models",
+          "published_at": "2026-06-13T07:56:46.000Z",
+          "summary": "智谱（Z.ai）发布新旗舰模型 GLM-5.2，现已对 GLM Coding Plan 用户（Lite/Pro/Max/Team 计划）开放。该模型具备强大编程能力、可用的 1M 上下文支持，并延续长程任务优势。API 和聊天机器人服务将于下周上线，模型也将于下周以 MIT 许可证正式开源。"
+        },
         {
           "id": "c93932532cc1",
           "title": "MiniMax M3 开源权重模型发布，已上架 HuggingFace",
@@ -302,16 +312,6 @@
           "category": "ai-products",
           "published_at": "2026-06-11T08:00:00.000Z",
           "summary": "Deezer 将扫描用户在其它流媒体平台的播放列表，检测其中的 AI 生成音乐。Deezer 是最早标记 AI 生成音乐的大型流媒体服务之一，曾向其他平台提供该技术但少有采纳。Deezer CEO Alexis Lanternier 表示，由于没有其他公司跟进，他们决定让用户无论使用哪个平台，都能检查自己的播放列表中是否包含合成音乐。"
-        },
-        {
-          "id": "792cd0d28ed8",
-          "title": "mlx-vlm v0.6.3 发布，Day-0 支持 Google DeepMind DiffusionGemma 和 Cohere North Mini Code 1.0",
-          "url": "https://x.com/berryxia/status/2064875107278098769",
-          "source": "aihot",
-          "source_name": "X：Berry Xia (@berryxia)",
-          "category": "ai-products",
-          "published_at": "2026-06-11T00:59:23.000Z",
-          "summary": "mlx-vlm v0.6.3 上线，首发支持 DiffusionGemma 和 North Mini Code 1.0。DiffusionGemma 采用全新架构：以 256 token 块为单位并行生成、双向注意力、迭代自纠错；26B MoE 仅激活 3.8B，量化后 18GB 即可运行。North Mini Code 1.0 为 30B MoE，仅激活 3B，BF16 下约 66 tok/s。两款模型均通过深度合作实现 Day-0 MLX 支持，可在 Mac 本地运行。可通过 `uv pip install -U mlx-vlm` 安装体验。"
         }
       ]
     },
@@ -405,7 +405,7 @@
           "source": "GitHub AI",
           "source_name": "GitHub AI",
           "category": "ai-tools",
-          "published_at": "2026-06-13T06:02:14.368027+00:00",
+          "published_at": "2026-06-13T09:33:26.589613+00:00",
           "summary": "📦 The official Nextcloud installation method. Provides easy deployment and maintenance with most features included in this one Nextcloud instance."
         },
         {
@@ -415,7 +415,7 @@
           "source": "GitHub AI",
           "source_name": "GitHub AI",
           "category": "ai-tools",
-          "published_at": "2026-06-13T06:02:14.367766+00:00",
+          "published_at": "2026-06-13T09:33:26.589349+00:00",
           "summary": "Computer Vision Annotation Tool (CVAT) is a leading platform for building high-quality visual datasets for vision AI. It offers open-source, cloud, and enterprise products, as well as labeling services, for image, video, and 3D annotation with AI-assisted labeling, quality assurance, team collaboration, analytics, and developer APIs."
         },
         {
@@ -425,7 +425,7 @@
           "source": "GitHub AI",
           "source_name": "GitHub AI",
           "category": "ai-tools",
-          "published_at": "2026-06-13T06:02:14.367320+00:00",
+          "published_at": "2026-06-13T09:33:26.588908+00:00",
           "summary": "TypeScript-first schema validation with static type inference"
         },
         {
@@ -435,7 +435,7 @@
           "source": "GitHub AI",
           "source_name": "GitHub AI",
           "category": "ai-tools",
-          "published_at": "2026-06-13T06:02:14.367138+00:00",
+          "published_at": "2026-06-13T09:33:26.588728+00:00",
           "summary": "The open-source communication infrastructure for agents and products"
         },
         {
@@ -445,7 +445,7 @@
           "source": "GitHub AI",
           "source_name": "GitHub AI",
           "category": "ai-tools",
-          "published_at": "2026-06-13T06:02:14.366610+00:00",
+          "published_at": "2026-06-13T09:33:26.588193+00:00",
           "summary": "Open-source developer platform to power your entire infra and turn scripts into webhooks, workflows and UIs. Fastest workflow engine (13x vs Airflow). Open-source alternative to Retool and Temporal."
         },
         {
@@ -455,7 +455,7 @@
           "source": "GitHub AI",
           "source_name": "GitHub AI",
           "category": "ai-tools",
-          "published_at": "2026-06-13T06:02:14.366450+00:00",
+          "published_at": "2026-06-13T09:33:26.588041+00:00",
           "summary": "The agent engineering platform."
         },
         {
@@ -465,7 +465,7 @@
           "source": "GitHub AI",
           "source_name": "GitHub AI",
           "category": "ai-tools",
-          "published_at": "2026-06-13T06:02:14.366309+00:00",
+          "published_at": "2026-06-13T09:33:26.587903+00:00",
           "summary": "Secure environments for developers and their agents"
         },
         {
@@ -475,7 +475,7 @@
           "source": "GitHub AI",
           "source_name": "GitHub AI",
           "category": "ai-tools",
-          "published_at": "2026-06-13T06:02:14.365966+00:00",
+          "published_at": "2026-06-13T09:33:26.587581+00:00",
           "summary": "Financial data platform for analysts, quants and AI agents."
         }
       ]
@@ -513,6 +513,16 @@
     "tip": {
       "label": "💡 技巧",
       "items": [
+        {
+          "id": "93a037a3f460",
+          "title": "SemiAnalysis 洞察 Token 经济：200 美元 AI 订阅榨出 70 倍用量",
+          "url": "https://www.ithome.com/0/963/834.htm",
+          "source": "aihot",
+          "source_name": "IT之家（RSS）",
+          "category": "tip",
+          "published_at": "2026-06-13T06:09:26.000Z",
+          "summary": "SemiAnalysis 购买了 Anthropic 和 OpenAI 的全部订阅方案，模拟高强度编码任务直至触及每周上限。月费 200 美元的 Claude Max 20x 方案，按 API 价格换算最高可消耗约值 8000 美元的 token；ChatGPT Pro 20x 方案对应最高约值 14000 美元的 token。用户通过订阅可获取 40 至 70 倍的 API 价值，该机构指出这种价格体系在重度用户持续榨满上限后可能难以长期维持。"
+        },
         {
           "id": "1bca96cb7d68",
           "title": "Oran Ge 开源《人味儿写作心法.skill》解决AI写作缺人味",
@@ -692,22 +702,22 @@
           "category": "tip",
           "published_at": "2026-06-11T01:58:00.000Z",
           "summary": "WorkBuddy是面向国内用户的通用Agent产品，支持Windows和Mac，提供免费版和58元/月个人专业版，企业版已推出。内置代码开发、日常办公、设计创意三种场景模式及100多个行业领域AI专家。模型集成腾讯混元、DeepSeek（推荐V4 Pro）、GLM、Kimi等国产大模型，也支持接入兼容OpenAI协议的外部API。拥有Skills市场和MCP连接器生态，可打通QQ邮箱、腾讯会议、腾讯文档等服务。教程通过公众号周报生成和功能网页开发两个案例演示实际用法。"
-        },
-        {
-          "id": "11d56f1ffccc",
-          "title": "在写完这篇文章后 我把配图过程蒸馏成了一个「橙线插画」Skill 免费开源 安装地址： https：//github.com/orange2ai/orange-line-illustration",
-          "url": "https://x.com/oran_ge/status/2064861625883222114",
-          "source": "aihot",
-          "source_name": "X：Oran Ge (@oran_ge)",
-          "category": "tip",
-          "published_at": "2026-06-11T00:05:49.000Z",
-          "summary": "在写完这篇文章后\n我把配图过程蒸馏成了一个「橙线插画」Skill\n\n免费开源\n安装地址：\nhttps：//github.com/orange2ai/orange-line-illustration\n\n【引用 @oran_ge】：http：//x.com/i/article/2064857003743391744"
         }
       ]
     },
     "industry": {
       "label": "industry",
       "items": [
+        {
+          "id": "70be6521844b",
+          "title": "扎克伯格承认 Meta AI 转型\"脱轨\"：裁员 10%、转岗 7000 人后组织调整过快",
+          "url": "https://www.ithome.com/0/963/858.htm",
+          "source": "aihot",
+          "source_name": "IT之家（RSS）",
+          "category": "industry",
+          "published_at": "2026-06-13T06:49:25.000Z",
+          "summary": "路透社披露的 Meta 内部备忘录显示，CEO 扎克伯格承认公司在 AI 转型中组织调整节奏过快，带来员工安置、管理跨度等问题，预计未来\"几乎肯定会犯更多错误\"。Meta 今年 5 月已裁减全球 10% 员工，并将 7000 人转入 AI 相关新项目。为缓解协作问题，公司将增加团队建设预算，7 月举办黑客松。新成立的应用 AI 工程部门个人贡献者与管理者比例最高达 50：1。扎克伯格重申今年不再全公司裁员。"
+        },
         {
           "id": "5f2a79e48911",
           "title": "Anthropic的安全警告可能适得其反--政府已撤回其最强大AI",
@@ -717,16 +727,6 @@
           "category": "industry",
           "published_at": "2026-06-13T02:26:30.000Z",
           "summary": "Anthropic对政府撤回其最强大AI模型表达不满，称仅基于一个狭窄的潜在越狱发现就召回已部署给数亿用户的商业模型不合理。"
-        },
-        {
-          "id": "1ee16192c685",
-          "title": "关于美国政府指令暂停访问Fable 5和Mythos 5的声明",
-          "url": "https://www.anthropic.com/news/fable-mythos-access",
-          "source": "aihot",
-          "source_name": "Anthropic：Newsroom（网页）",
-          "category": "industry",
-          "published_at": "2026-06-13T01:15:57.911Z",
-          "summary": "美国政府以国家安全为由，指令Anthropic暂停所有外国国民（含海外员工）对Fable 5和Mythos 5的访问。Anthropic当日5：21pm （ET）收到指令后立即向所有客户禁用这两个模型，其他模型不受影响。政府称发现一种越狱Fable 5的方法；Anthropic审核认为该技术仅能识别少量已知微小漏洞，且其他公开模型（如OpenAI的GPT-5.5）也能做到。Anthropic坚持深度防御策略，认为此次越狱不具普遍性，不同意以此标准召回已服务数亿人的商用模型，正与政府合作争取尽快恢复访问。"
         },
         {
           "id": "39ab8a5e2749",
