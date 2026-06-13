@@ -1,13 +1,13 @@
 {
   "date": "2026-06-13",
-  "generated_at": "2026-06-13T18:43:05.411842",
+  "generated_at": "2026-06-13T20:07:20.457207",
   "total": 69,
   "sources": {
     "Hugging Face": 8,
     "GitHub AI": 5,
     "X：Suno (@suno)": 1,
+    "Hacker News 热门（buzzing.cc 中文翻译）": 5,
     "X：OpenRouter (@OpenRouter)": 2,
-    "Hacker News 热门（buzzing.cc 中文翻译）": 4,
     "Bloomberg：Technology（RSS）": 2,
     "IT之家（RSS）": 7,
     "公众号：智谱（GLM）": 1,
@@ -38,8 +38,7 @@
     "Cursor Blog": 1,
     "公众号：通义实验室（千问）": 1,
     "X：硅基流动 SiliconFlow (@SiliconFlowAI)": 1,
-    "X：Peter Steinberger (@steipete)": 1,
-    "公众号：千问APP（阿里）": 1
+    "X：Peter Steinberger (@steipete)": 1
   },
   "ai_processed": false,
   "categories": {
@@ -290,16 +289,6 @@
           "category": "ai-products",
           "published_at": "2026-06-11T08:50:49.000Z",
           "summary": "阿里云今日推出 Meoo（秒悟）开源命令行工具 Meoo CLI，面向开发者，支持 Claude Code、Codex、Cursor 等本地 AI 编程助手。通过调用阿里云云端能力，可自动完成数据库接入、用户登录、文件存储及项目发布，将本地项目一键部署上线并生成可分享的访问链接。该工具定位为本地 Agent 与秒悟云端能力的连接入口，已开放下载，支持主流 Linux、macOS 及 Windows 平台。"
-        },
-        {
-          "id": "8dc1e7d9fe19",
-          "title": "千问推出首个足球预测AI助手，竞猜赢奖并捐建球场",
-          "url": "https://mp.weixin.qq.com/s/G36ugI8tuSLUkDzL_sJNkQ",
-          "source": "aihot",
-          "source_name": "公众号：千问APP（阿里）",
-          "category": "ai-products",
-          "published_at": "2026-06-11T08:40:14.000Z",
-          "summary": "千问上线首个足球预测AI助手，基于海量大数据（含历史比赛、球员数据、伤病、美加墨地貌及天气等）。以6月22日挪威对塞内加尔为例，预测\"1：1平局\"，理由为气候差异。活动：参与全部104场竞猜，预测超80场且准确率超千问可抽万元大奖（100个名额）；预测超32场可抽千问AI眼镜G1（1000副），该眼镜支持赛后分析、拍屏识球员及赛事结果订阅。累积积分将向乡村学校捐建足球场，目标至少50所。"
         }
       ]
     },
@@ -393,7 +382,7 @@
           "source": "GitHub AI",
           "source_name": "GitHub AI",
           "category": "ai-tools",
-          "published_at": "2026-06-13T18:43:02.890229+00:00",
+          "published_at": "2026-06-13T20:07:19.276796+00:00",
           "summary": "📦 The official Nextcloud installation method. Provides easy deployment and maintenance with most features included in this one Nextcloud instance."
         },
         {
@@ -403,7 +392,7 @@
           "source": "GitHub AI",
           "source_name": "GitHub AI",
           "category": "ai-tools",
-          "published_at": "2026-06-13T18:43:02.890112+00:00",
+          "published_at": "2026-06-13T20:07:19.276681+00:00",
           "summary": "Run, manage, and scale AI workloads on any AI infrastructure. Use one system to access & manage all AI compute (Kubernetes, Slurm, 20+ clouds, on-prem)."
         },
         {
@@ -413,7 +402,7 @@
           "source": "GitHub AI",
           "source_name": "GitHub AI",
           "category": "ai-tools",
-          "published_at": "2026-06-13T18:43:02.889654+00:00",
+          "published_at": "2026-06-13T20:07:19.276239+00:00",
           "summary": "CLI tool and library for generating a Software Bill of Materials from container images and filesystems"
         },
         {
@@ -423,7 +412,7 @@
           "source": "GitHub AI",
           "source_name": "GitHub AI",
           "category": "ai-tools",
-          "published_at": "2026-06-13T18:43:02.889238+00:00",
+          "published_at": "2026-06-13T20:07:19.275830+00:00",
           "summary": "CloudNativePG is a comprehensive platform designed to seamlessly manage PostgreSQL databases within Kubernetes environments, covering the entire operational lifecycle from initial deployment to ongoing maintenance"
         },
         {
@@ -433,7 +422,7 @@
           "source": "GitHub AI",
           "source_name": "GitHub AI",
           "category": "ai-tools",
-          "published_at": "2026-06-13T18:43:02.888419+00:00",
+          "published_at": "2026-06-13T20:07:19.275015+00:00",
           "summary": "Secure environments for developers and their agents"
         }
       ]
@@ -666,6 +655,16 @@
     "industry": {
       "label": "industry",
       "items": [
+        {
+          "id": "06a9e28394eb",
+          "title": "亚马逊首席执行官与美国官员会谈引发对 Anthropic 模型的整治",
+          "url": "https://www.wsj.com/tech/ai/amazon-ceos-talks-with-u-s-officials-triggered-crackdown-on-anthropic-models-dcc90578",
+          "source": "aihot",
+          "source_name": "Hacker News 热门（buzzing.cc 中文翻译）",
+          "category": "industry",
+          "published_at": "2026-06-13T18:22:19.626Z",
+          "summary": "亚马逊 CEO 与美国官员的会谈直接导致美国政府对 Anthropic 公司的 AI 模型采取整治行动。此次事件涉及对 Anthropic 旗下大语言模型的监管升级，具体措施及模型版本细节尚未披露。"
+        },
         {
           "id": "6e1b7e822287",
           "title": "Anthropic 秘密申请上市，估值 9650 亿美元",
