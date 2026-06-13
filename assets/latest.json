@@ -1,12 +1,12 @@
 {
   "date": "2026-06-13",
-  "generated_at": "2026-06-13T01:33:59.867555",
+  "generated_at": "2026-06-13T06:02:15.599033",
   "total": 72,
   "sources": {
     "Hugging Face": 8,
     "GitHub AI": 8,
+    "TechCrunch：AI（RSS）": 1,
     "Anthropic：Newsroom（网页）": 4,
-    "Simon Willison 博客": 1,
     "Bloomberg：Technology（RSS）": 2,
     "X：MiniMax (@MiniMax_AI)": 1,
     "X：Kimi.ai (@Kimi_Moonshot)": 1,
@@ -21,7 +21,8 @@
     "X：Vista (@vista8)": 3,
     "X：邵猛 (@shao__meng)": 1,
     "OpenAI：官网动态（RSS · 排除企业/客户案例）": 1,
-    "OpenRouter：Announcements（RSS）": 2,
+    "OpenRouter：Announcements（RSS）": 3,
+    "蚂蚁 inclusionAI：HuggingFace 新模型": 1,
     "Hacker News 热门（buzzing.cc 中文翻译）": 3,
     "X：Replit (@Replit)": 3,
     "X：Perplexity (@perplexity_ai)": 1,
@@ -40,8 +41,7 @@
     "X：宝玉 (@dotey)": 1,
     "Midjourney：Updates（RSS）": 1,
     "公众号：数字生命卡兹克": 1,
-    "X：Berry Xia (@berryxia)": 1,
-    "HuggingFace Daily Papers（社区热门论文）": 2
+    "X：Berry Xia (@berryxia)": 1
   },
   "ai_processed": false,
   "categories": {
@@ -67,6 +67,16 @@
           "category": "ai-models",
           "published_at": "2026-06-13T00:00:00.478Z",
           "summary": "Kimi 发布并开源最新代码模型 Kimi-K2.7-Code。相比 K2.6，其在 Kimi Code Bench v2 上提升 +21.8%，Program Bench 提升 +11.0%，MLS Bench Lite 提升 +31.5%。推理效率改进，推理 token 使用量降低 30%，长时编码任务中指令遵循和端到端成功率均提升。6x 高速模式即将推出，即日起可通过 Kimi API 和 Kimi Code 使用。"
+        },
+        {
+          "id": "d49b2f89196a",
+          "title": "inclusionAI 发布 VISTA-4B GUI 定位视觉语言模型",
+          "url": "https://huggingface.co/inclusionAI/VISTA-4B",
+          "source": "aihot",
+          "source_name": "蚂蚁 inclusionAI：HuggingFace 新模型",
+          "category": "ai-models",
+          "published_at": "2026-06-12T08:59:41.000Z",
+          "summary": "VISTA-4B 是基于 Qwen3.5-4B 骨干的 GUI 定位模型，输入截图与自然语言指令，输出归一化 0-1000 坐标。训练采用视图一致 GRPO 和自验证交叉视图锚定。在 GUI 定位基准上，SSPro 得分 64.2（相比 GRPO-4B 提升 2.0），SSV2 得分 93.8（下降 0.4），OSWorld-G 得分 61.2（提升 1.3），OSWorld-G-R 得分 69.7（提升 0.5）。模型已开源在 HuggingFace，推荐使用提示词并返回 【x，y】 格式坐标。"
         },
         {
           "id": "1c3b1bf502fe",
@@ -395,7 +405,7 @@
           "source": "GitHub AI",
           "source_name": "GitHub AI",
           "category": "ai-tools",
-          "published_at": "2026-06-13T01:33:54.282460+00:00",
+          "published_at": "2026-06-13T06:02:14.368027+00:00",
           "summary": "📦 The official Nextcloud installation method. Provides easy deployment and maintenance with most features included in this one Nextcloud instance."
         },
         {
@@ -405,7 +415,7 @@
           "source": "GitHub AI",
           "source_name": "GitHub AI",
           "category": "ai-tools",
-          "published_at": "2026-06-13T01:33:54.282185+00:00",
+          "published_at": "2026-06-13T06:02:14.367766+00:00",
           "summary": "Computer Vision Annotation Tool (CVAT) is a leading platform for building high-quality visual datasets for vision AI. It offers open-source, cloud, and enterprise products, as well as labeling services, for image, video, and 3D annotation with AI-assisted labeling, quality assurance, team collaboration, analytics, and developer APIs."
         },
         {
@@ -415,7 +425,7 @@
           "source": "GitHub AI",
           "source_name": "GitHub AI",
           "category": "ai-tools",
-          "published_at": "2026-06-13T01:33:54.281726+00:00",
+          "published_at": "2026-06-13T06:02:14.367320+00:00",
           "summary": "TypeScript-first schema validation with static type inference"
         },
         {
@@ -425,7 +435,7 @@
           "source": "GitHub AI",
           "source_name": "GitHub AI",
           "category": "ai-tools",
-          "published_at": "2026-06-13T01:33:54.281515+00:00",
+          "published_at": "2026-06-13T06:02:14.367138+00:00",
           "summary": "The open-source communication infrastructure for agents and products"
         },
         {
@@ -435,7 +445,7 @@
           "source": "GitHub AI",
           "source_name": "GitHub AI",
           "category": "ai-tools",
-          "published_at": "2026-06-13T01:33:54.280970+00:00",
+          "published_at": "2026-06-13T06:02:14.366610+00:00",
           "summary": "Open-source developer platform to power your entire infra and turn scripts into webhooks, workflows and UIs. Fastest workflow engine (13x vs Airflow). Open-source alternative to Retool and Temporal."
         },
         {
@@ -445,7 +455,7 @@
           "source": "GitHub AI",
           "source_name": "GitHub AI",
           "category": "ai-tools",
-          "published_at": "2026-06-13T01:33:54.280829+00:00",
+          "published_at": "2026-06-13T06:02:14.366450+00:00",
           "summary": "The agent engineering platform."
         },
         {
@@ -455,7 +465,7 @@
           "source": "GitHub AI",
           "source_name": "GitHub AI",
           "category": "ai-tools",
-          "published_at": "2026-06-13T01:33:54.280674+00:00",
+          "published_at": "2026-06-13T06:02:14.366309+00:00",
           "summary": "Secure environments for developers and their agents"
         },
         {
@@ -465,7 +475,7 @@
           "source": "GitHub AI",
           "source_name": "GitHub AI",
           "category": "ai-tools",
-          "published_at": "2026-06-13T01:33:54.280299+00:00",
+          "published_at": "2026-06-13T06:02:14.365966+00:00",
           "summary": "Financial data platform for analysts, quants and AI agents."
         }
       ]
@@ -572,6 +582,16 @@
           "category": "tip",
           "published_at": "2026-06-13T00:00:00.478Z",
           "summary": "在OpenRouter上追加`:floor`可获取最便宜提供商，通过`max_price`设定花费上限，并可免费使用20多个零成本模型。同时需注意避免计费陷阱。"
+        },
+        {
+          "id": "e93d2c3bc40a",
+          "title": "Hermes Agent 在 OpenRouter 上的使用指南：设置、模型与路由",
+          "url": "https://openrouter.ai/blog/tutorials/hermes-agent",
+          "source": "aihot",
+          "source_name": "OpenRouter：Announcements（RSS）",
+          "category": "tip",
+          "published_at": "2026-06-12T16:00:00.000Z",
+          "summary": "Hermes Agent 已通过 OpenRouter 处理超过 17 万亿 tokens。使用指南包括设置流程、选择支持 64K 上下文窗口的模型，以及调整路由策略以兼顾成本与可靠性。"
         },
         {
           "id": "299bdcadebf7",
@@ -689,6 +709,16 @@
       "label": "industry",
       "items": [
         {
+          "id": "5f2a79e48911",
+          "title": "Anthropic的安全警告可能适得其反--政府已撤回其最强大AI",
+          "url": "https://techcrunch.com/2026/06/12/anthropics-safety-warnings-may-have-just-backfired-the-government-has-pulled-the-plug-on-its-most-powerful-ai",
+          "source": "aihot",
+          "source_name": "TechCrunch：AI（RSS）",
+          "category": "industry",
+          "published_at": "2026-06-13T02:26:30.000Z",
+          "summary": "Anthropic对政府撤回其最强大AI模型表达不满，称仅基于一个狭窄的潜在越狱发现就召回已部署给数亿用户的商业模型不合理。"
+        },
+        {
           "id": "1ee16192c685",
           "title": "关于美国政府指令暂停访问Fable 5和Mythos 5的声明",
           "url": "https://www.anthropic.com/news/fable-mythos-access",
@@ -697,16 +727,6 @@
           "category": "industry",
           "published_at": "2026-06-13T01:15:57.911Z",
           "summary": "美国政府以国家安全为由，指令Anthropic暂停所有外国国民（含海外员工）对Fable 5和Mythos 5的访问。Anthropic当日5：21pm （ET）收到指令后立即向所有客户禁用这两个模型，其他模型不受影响。政府称发现一种越狱Fable 5的方法；Anthropic审核认为该技术仅能识别少量已知微小漏洞，且其他公开模型（如OpenAI的GPT-5.5）也能做到。Anthropic坚持深度防御策略，认为此次越狱不具普遍性，不同意以此标准召回已服务数亿人的商用模型，正与政府合作争取尽快恢复访问。"
-        },
-        {
-          "id": "4e15e6589490",
-          "title": "美国政府对 Anthropic Fable 5 和 Mythos 5 下达出口管制指令",
-          "url": "https://simonwillison.net/2026/Jun/13/us-government-directive-to-suspend-access",
-          "source": "aihot",
-          "source_name": "Simon Willison 博客",
-          "category": "industry",
-          "published_at": "2026-06-13T01:01:50.000Z",
-          "summary": "美国政府以国家安全为由，要求 Anthropic 暂停所有外国国民（包括外籍员工）对 Fable 5 和 Mythos 5 的访问。Anthropic 被迫全面禁用这两个模型，其他模型不受影响。政府声称发现了一种绕过 Fable 5 的方法，但 Anthropic 审查后确认该漏洞规模极小且非通用，其他公开模型（如 OpenAI GPT-5.5）也能发现相同漏洞，属于已知的次要缺陷。政府仅提供口头证据，未说明具体国家安全关切。Anthropic 表示将在24小时内公布更多细节。"
         },
         {
           "id": "39ab8a5e2749",
@@ -782,26 +802,6 @@
           "category": "paper",
           "published_at": "2026-06-11T22:23:17.154Z",
           "summary": "一项模拟研究显示，大型语言模型（LLM）在 95% 的模拟场景中会选择使用战术核武器。该研究未指明具体模型名称与版本，结果引发对 AI 决策行为的关注。"
-        },
-        {
-          "id": "e97e4394130c",
-          "title": "HYDRA-X： 原生统一多模态模型与整体视觉分词器",
-          "url": "https://arxiv.org/abs/2606.13289",
-          "source": "aihot",
-          "source_name": "HuggingFace Daily Papers（社区热门论文）",
-          "category": "paper",
-          "published_at": "2026-06-11T00:00:00.000Z",
-          "summary": "HYDRA-X 是首个在单个 Vision Transformer （ViT） 中统一图像与视频 tokenization 的统一多模态模型。通过帧级因果时间注意力实现视觉重建，并采用层级时间压缩替代单步压缩。轻量级解压器在联合图像-视频教师监督下上采样时间压缩特征。编辑管线中，源-目标交互在分词器内部潜在层面而非 LLM 语义层面进行，提升编辑一致性与收敛速度。7B 密集模型在图像与视频理解及生成任务上表现强劲。"
-        },
-        {
-          "id": "74815ddd6bde",
-          "title": "MiniMax Sparse Attention（MSA）块状稀疏注意力",
-          "url": "https://arxiv.org/abs/2606.13392",
-          "source": "aihot",
-          "source_name": "HuggingFace Daily Papers（社区热门论文）",
-          "category": "paper",
-          "published_at": "2026-06-11T00:00:00.000Z",
-          "summary": "MiniMax 提出块状稀疏注意力 MSA，基于 GQA 构建。轻量级 Index Branch 为每个 GQA 组独立选择 Top-k KV 块，Main Branch 仅对选中块执行精确块稀疏注意力。在 109B 参数多模态模型上，MSA 与 GQA 性能持平，1M 上下文下每 token 注意力计算减少 28.4 倍。配合协同设计的 GPU 内核，H800 上实现 14.2 倍 prefill 和 7.6 倍 decoding 端到端加速。推理内核与基于 MSA 的多模态模型已公开发布。"
         }
       ]
     }
