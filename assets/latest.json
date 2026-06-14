@@ -1,15 +1,16 @@
 {
   "date": "2026-06-14",
-  "generated_at": "2026-06-14T00:20:08.220817",
+  "generated_at": "2026-06-14T05:20:07.657374",
   "total": 64,
   "sources": {
     "Hugging Face": 8,
     "GitHub AI": 5,
+    "X：小互 (@xiaohu)": 2,
+    "TechCrunch：AI（RSS）": 2,
     "公众号：智谱（GLM）": 1,
     "X：Suno (@suno)": 1,
     "X：OpenRouter (@OpenRouter)": 2,
-    "TechCrunch：AI（RSS）": 1,
-    "IT之家（RSS）": 7,
+    "IT之家（RSS）": 6,
     "Bloomberg：Technology（RSS）": 2,
     "Hacker News 热门（buzzing.cc 中文翻译）": 5,
     "X：Oran Ge (@oran_ge)": 1,
@@ -19,7 +20,6 @@
     "X：Kimi.ai (@Kimi_Moonshot)": 1,
     "OpenAI：官网动态（RSS · 排除企业/客户案例）": 1,
     "蚂蚁 inclusionAI：HuggingFace 新模型": 1,
-    "X：小互 (@xiaohu)": 1,
     "X：Vista (@vista8)": 3,
     "公众号：数字生命卡兹克": 1,
     "X：邵猛 (@shao__meng)": 1,
@@ -35,8 +35,7 @@
     "Gary Marcus：The Road to AI We Can Trust（RSS）": 1,
     "Cursor Blog": 1,
     "公众号：通义实验室（千问）": 1,
-    "X：硅基流动 SiliconFlow (@SiliconFlowAI)": 1,
-    "X：Peter Steinberger (@steipete)": 1
+    "X：硅基流动 SiliconFlow (@SiliconFlowAI)": 1
   },
   "ai_processed": false,
   "categories": {
@@ -237,16 +236,6 @@
           "category": "ai-products",
           "published_at": "2026-06-11T12:00:00.000Z",
           "summary": "Cursor 近日推出 Auto-review，通过一个专门的分类器智能体在工具调用前审查动作风险。该分类器根据上下文判断动作是否与用户意图一致，高风险时阻止并返回解释给父智能体，低风险时放行。分类器采用小模型，运行在智能体循环内以避免额外延迟，并能读取工作区文件辅助判断。测试基于约12小时内部开发会话生成的6122条标签数据，以及针对读取密钥、操作生产数据等危险场景的合成数据。设计目标是在不频繁阻断日常开发的前提下，拦截风险动作。"
-        },
-        {
-          "id": "5d3f8e09fbe0",
-          "title": "阿里云发布 Meoo CLI：本地 AI 编程项目可一键部署上线",
-          "url": "https://www.ithome.com/0/963/009.htm",
-          "source": "aihot",
-          "source_name": "IT之家（RSS）",
-          "category": "ai-products",
-          "published_at": "2026-06-11T08:50:49.000Z",
-          "summary": "阿里云今日推出 Meoo（秒悟）开源命令行工具 Meoo CLI，面向开发者，支持 Claude Code、Codex、Cursor 等本地 AI 编程助手。通过调用阿里云云端能力，可自动完成数据库接入、用户登录、文件存储及项目发布，将本地项目一键部署上线并生成可分享的访问链接。该工具定位为本地 Agent 与秒悟云端能力的连接入口，已开放下载，支持主流 Linux、macOS 及 Windows 平台。"
         }
       ]
     },
@@ -340,7 +329,7 @@
           "source": "GitHub AI",
           "source_name": "GitHub AI",
           "category": "ai-tools",
-          "published_at": "2026-06-14T00:20:03.192795+00:00",
+          "published_at": "2026-06-14T05:20:03.308297+00:00",
           "summary": "📦 The official Nextcloud installation method. Provides easy deployment and maintenance with most features included in this one Nextcloud instance."
         },
         {
@@ -350,7 +339,7 @@
           "source": "GitHub AI",
           "source_name": "GitHub AI",
           "category": "ai-tools",
-          "published_at": "2026-06-14T00:20:03.192677+00:00",
+          "published_at": "2026-06-14T05:20:03.308184+00:00",
           "summary": "Run, manage, and scale AI workloads on any AI infrastructure. Use one system to access & manage all AI compute (Kubernetes, Slurm, 20+ clouds, on-prem)."
         },
         {
@@ -360,7 +349,7 @@
           "source": "GitHub AI",
           "source_name": "GitHub AI",
           "category": "ai-tools",
-          "published_at": "2026-06-14T00:20:03.192231+00:00",
+          "published_at": "2026-06-14T05:20:03.307733+00:00",
           "summary": "CLI tool and library for generating a Software Bill of Materials from container images and filesystems"
         },
         {
@@ -370,7 +359,7 @@
           "source": "GitHub AI",
           "source_name": "GitHub AI",
           "category": "ai-tools",
-          "published_at": "2026-06-14T00:20:03.191810+00:00",
+          "published_at": "2026-06-14T05:20:03.307324+00:00",
           "summary": "CloudNativePG is a comprehensive platform designed to seamlessly manage PostgreSQL databases within Kubernetes environments, covering the entire operational lifecycle from initial deployment to ongoing maintenance"
         },
         {
@@ -380,7 +369,7 @@
           "source": "GitHub AI",
           "source_name": "GitHub AI",
           "category": "ai-tools",
-          "published_at": "2026-06-14T00:20:03.190938+00:00",
+          "published_at": "2026-06-14T05:20:03.306489+00:00",
           "summary": "Secure environments for developers and their agents"
         }
       ]
@@ -453,6 +442,16 @@
     "tip": {
       "label": "💡 技巧",
       "items": [
+        {
+          "id": "47972c6c85ed",
+          "title": "Anthropic 上市前夕",
+          "url": "https://x.com/xiaohu/status/2065991805238497732",
+          "source": "aihot",
+          "source_name": "X：小互 (@xiaohu)",
+          "category": "tip",
+          "published_at": "2026-06-14T02:56:45.000Z",
+          "summary": "Anthropic CEO Dario Amodei透露内部模型Mythos有上千漏洞，能黑银行、窃取国家机密；预言AI一到五年内砍掉一半入门级白领工作；称Claude已被美军用于对伊朗战争，涉及女校150人死亡拷问；解释离开OpenAI因信任崩塌；回怼黄仁勋末日营销指控；给出文明崩溃概率10%-25%。"
+        },
         {
           "id": "45218f7c9b3b",
           "title": "SemiAnalysis 洞察 Token 经济：200 美元 AI 订阅榨出 70 倍用量",
@@ -632,22 +631,22 @@
           "category": "tip",
           "published_at": "2026-06-11T10:17:47.000Z",
           "summary": "@NousResearch 发布了 Hermes Agent Desktop--现在通过 @硅基流动 SiliconFlow 使用前沿开源模型更加便捷 🔥\n\n→ 一键随时切换模型--DeepSeek-V4、GLM-5.1、Kimi-K2.6、MiniMax-M3 等，均在硅基流动上\n… …\n通过硅基流动开启你的 Hermes 之旅的完整指南 👇🧵"
-        },
-        {
-          "id": "90bce007da4c",
-          "title": "Codex 维护仓库：5分钟循环并行自治",
-          "url": "https://x.com/steipete/status/2064998499780084154",
-          "source": "aihot",
-          "source_name": "X：Peter Steinberger (@steipete)",
-          "category": "tip",
-          "published_at": "2026-06-11T09:09:42.000Z",
-          "summary": "一个简单的循环：告诉 Codex 维护你的仓库，每5分钟唤醒一次，将工作直接分配到线程。这样可以轻松按需并行化和导向工作。\n\n我使用一个编排器技能，结合我的分类+自动审查+计算机使用技能，因此部分工作可以自主落地。"
         }
       ]
     },
     "industry": {
       "label": "industry",
       "items": [
+        {
+          "id": "7007516f9d93",
+          "title": "Meta 开始撤销 20 亿美元收购 Manus 的交易",
+          "url": "https://techcrunch.com/2026/06/13/meta-reportedly-moves-to-unwind-2b-manus-deal-after-beijings-demand",
+          "source": "aihot",
+          "source_name": "TechCrunch：AI（RSS）",
+          "category": "industry",
+          "published_at": "2026-06-14T00:03:49.000Z",
+          "summary": "据 TechCrunch 报道，Meta 已开始撤销对 Manus 的 20 亿美元收购交易，此前北京要求该交易必须反转。目前收购解除程序已启动。"
+        },
         {
           "id": "70be6521844b",
           "title": "扎克伯格承认 Meta AI 转型\"脱轨\"：裁员 10%、转岗 7000 人后组织调整过快",
