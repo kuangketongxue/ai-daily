@@ -1,12 +1,12 @@
 {
   "date": "2026-06-14",
-  "generated_at": "2026-06-14T08:55:41.666033",
-  "total": 64,
+  "generated_at": "2026-06-14T11:36:38.904018",
+  "total": 65,
   "sources": {
     "Hugging Face": 8,
-    "GitHub AI": 5,
+    "GitHub AI": 6,
+    "TechCrunch：AI（RSS）": 4,
     "X：小互 (@xiaohu)": 2,
-    "TechCrunch：AI（RSS）": 2,
     "公众号：智谱（GLM）": 1,
     "X：Suno (@suno)": 1,
     "X：OpenRouter (@OpenRouter)": 2,
@@ -14,7 +14,8 @@
     "Bloomberg：Technology（RSS）": 2,
     "Hacker News 热门（buzzing.cc 中文翻译）": 5,
     "X：Oran Ge (@oran_ge)": 1,
-    "OpenRouter：Announcements（RSS）": 3,
+    "Ars Technica：AI（RSS）": 2,
+    "OpenRouter：Announcements（RSS）": 4,
     "Hugging Face：Blog（RSS）": 1,
     "X：MiniMax (@MiniMax_AI)": 1,
     "X：Kimi.ai (@Kimi_Moonshot)": 1,
@@ -26,16 +27,12 @@
     "X：OpenAI Developers (@OpenAIDevs)": 1,
     "X：OpenAI (@OpenAI)": 1,
     "X：Replit (@Replit)": 3,
+    "X：Rohan Paul (@rohanpaul_ai)": 1,
     "X：Perplexity (@perplexity_ai)": 1,
     "X：Logan Kilpatrick (@OfficialLoganK)": 1,
-    "Anthropic：Newsroom（网页）": 2,
+    "Anthropic：Newsroom（网页）": 1,
     "X：Kim (@kimmonismus)": 1,
-    "X：Krea AI (@krea_ai)": 1,
-    "Runway：News（网页）": 1,
-    "Gary Marcus：The Road to AI We Can Trust（RSS）": 1,
-    "Cursor Blog": 1,
-    "公众号：通义实验室（千问）": 1,
-    "X：硅基流动 SiliconFlow (@SiliconFlowAI)": 1
+    "X：Krea AI (@krea_ai)": 1
   },
   "ai_processed": false,
   "categories": {
@@ -168,6 +165,16 @@
           "summary": "我们听说您希望能在自己方便的时候使用 Codex 速率限制重置。\n从今天起，我们开始推出将速率限制重置保留到以后使用的功能。\n我们从 Go、Plus、Pro 和 Business 用户开始，每人提供一次免费重置："
         },
         {
+          "id": "1d159981fdf9",
+          "title": "OpenRouter融合预算模型面板超越GPT-5.5和Claude Opus 4.8",
+          "url": "https://openrouter.ai/blog/announcements/fusion-beats-frontier",
+          "source": "aihot",
+          "source_name": "OpenRouter：Announcements（RSS）",
+          "category": "ai-products",
+          "published_at": "2026-06-12T00:00:00.000Z",
+          "summary": "通过OpenRouter融合的一组预算模型，在100个复杂研究任务上得分超过GPT-5.5和Claude Opus 4.8。"
+        },
+        {
           "id": "4cea4015e6fe",
           "title": "Replit 与 Databricks 集成升级，公开预览开放",
           "url": "https://x.com/Replit/status/2065189762365813089",
@@ -226,16 +233,6 @@
           "category": "ai-products",
           "published_at": "2026-06-11T15:00:02.000Z",
           "summary": "推出生成式滑块。\n现在您可以控制使用 Krea 2 生成的任何图像的强度、复杂度和运动。\n你希望看到哪些新控制？👇"
-        },
-        {
-          "id": "4f02ac085001",
-          "title": "Cursor 推出 Auto-review 机制：用分类器智能体动态管控智能体自主权限",
-          "url": "https://cursor.com/blog/auto-review",
-          "source": "aihot",
-          "source_name": "Cursor Blog",
-          "category": "ai-products",
-          "published_at": "2026-06-11T12:00:00.000Z",
-          "summary": "Cursor 近日推出 Auto-review，通过一个专门的分类器智能体在工具调用前审查动作风险。该分类器根据上下文判断动作是否与用户意图一致，高风险时阻止并返回解释给父智能体，低风险时放行。分类器采用小模型，运行在智能体循环内以避免额外延迟，并能读取工作区文件辅助判断。测试基于约12小时内部开发会话生成的6122条标签数据，以及针对读取密钥、操作生产数据等危险场景的合成数据。设计目标是在不频繁阻断日常开发的前提下，拦截风险动作。"
         }
       ]
     },
@@ -323,14 +320,54 @@
           "summary": ""
         },
         {
-          "id": "c10ef3317184",
-          "title": "⭐ nextcloud/all-in-one",
-          "url": "https://github.com/nextcloud/all-in-one",
+          "id": "99e85081c486",
+          "title": "⭐ mikeroyal/Self-Hosting-Guide",
+          "url": "https://github.com/mikeroyal/Self-Hosting-Guide",
           "source": "GitHub AI",
           "source_name": "GitHub AI",
           "category": "ai-tools",
-          "published_at": "2026-06-14T08:55:40.572733+00:00",
-          "summary": "📦 The official Nextcloud installation method. Provides easy deployment and maintenance with most features included in this one Nextcloud instance."
+          "published_at": "2026-06-14T11:36:35.037935+00:00",
+          "summary": "Self-Hosting Guide. Learn all about locally hosting (on premises & private web servers) and managing software applications by yourself or your organization. Including Cloud, LLMs, WireGuard, Automation, Home Assistant, and Networking."
+        },
+        {
+          "id": "6a1dccc3e829",
+          "title": "⭐ qdrant/qdrant",
+          "url": "https://github.com/qdrant/qdrant",
+          "source": "GitHub AI",
+          "source_name": "GitHub AI",
+          "category": "ai-tools",
+          "published_at": "2026-06-14T11:36:35.037710+00:00",
+          "summary": "Qdrant - High-performance, massive-scale Vector Database and Vector Search Engine for the next generation of AI. Also available in the cloudhttps://cloud.qdrant.io/"
+        },
+        {
+          "id": "980822d185f7",
+          "title": "⭐ AUTOMATIC1111/stable-diffusion-webui",
+          "url": "https://github.com/AUTOMATIC1111/stable-diffusion-webui",
+          "source": "GitHub AI",
+          "source_name": "GitHub AI",
+          "category": "ai-tools",
+          "published_at": "2026-06-14T11:36:35.037441+00:00",
+          "summary": "Stable Diffusion web UI"
+        },
+        {
+          "id": "815a7809715f",
+          "title": "⭐ servo/servo",
+          "url": "https://github.com/servo/servo",
+          "source": "GitHub AI",
+          "source_name": "GitHub AI",
+          "category": "ai-tools",
+          "published_at": "2026-06-14T11:36:35.037328+00:00",
+          "summary": "Servo aims to empower developers with a lightweight, high-performance alternative for embedding web technologies in applications."
+        },
+        {
+          "id": "97f598bce8c8",
+          "title": "⭐ carbon-language/carbon-lang",
+          "url": "https://github.com/carbon-language/carbon-lang",
+          "source": "GitHub AI",
+          "source_name": "GitHub AI",
+          "category": "ai-tools",
+          "published_at": "2026-06-14T11:36:35.037047+00:00",
+          "summary": "Carbon Language's main repository: documents, design, implementation, and related tools. (NOTE: Carbon Language is experimental; see README)"
         },
         {
           "id": "97d5364e0162",
@@ -339,38 +376,8 @@
           "source": "GitHub AI",
           "source_name": "GitHub AI",
           "category": "ai-tools",
-          "published_at": "2026-06-14T08:55:40.572615+00:00",
+          "published_at": "2026-06-14T11:36:35.036505+00:00",
           "summary": "Run, manage, and scale AI workloads on any AI infrastructure. Use one system to access & manage all AI compute (Kubernetes, Slurm, 20+ clouds, on-prem)."
-        },
-        {
-          "id": "1cda82d7afb4",
-          "title": "⭐ anchore/syft",
-          "url": "https://github.com/anchore/syft",
-          "source": "GitHub AI",
-          "source_name": "GitHub AI",
-          "category": "ai-tools",
-          "published_at": "2026-06-14T08:55:40.572130+00:00",
-          "summary": "CLI tool and library for generating a Software Bill of Materials from container images and filesystems"
-        },
-        {
-          "id": "07d2b9a79e3d",
-          "title": "⭐ cloudnative-pg/cloudnative-pg",
-          "url": "https://github.com/cloudnative-pg/cloudnative-pg",
-          "source": "GitHub AI",
-          "source_name": "GitHub AI",
-          "category": "ai-tools",
-          "published_at": "2026-06-14T08:55:40.571719+00:00",
-          "summary": "CloudNativePG is a comprehensive platform designed to seamlessly manage PostgreSQL databases within Kubernetes environments, covering the entire operational lifecycle from initial deployment to ongoing maintenance"
-        },
-        {
-          "id": "4c28ef14fc3a",
-          "title": "⭐ coder/coder",
-          "url": "https://github.com/coder/coder",
-          "source": "GitHub AI",
-          "source_name": "GitHub AI",
-          "category": "ai-tools",
-          "published_at": "2026-06-14T08:55:40.570864+00:00",
-          "summary": "Secure environments for developers and their agents"
         }
       ]
     },
@@ -483,6 +490,16 @@
           "summary": "Oran Ge 让 Claude Fable 5 打磨文案三遍，发现改稿越来越讲究却缺\"人味儿\"。他与 AI 讨论后得出结论：人写的文字背后有\"存在感\"--作者在具体位置付出过具体代价，而 AI 无法复现。为此他制作了《人味儿写作心法.skill》，专用于自写文章或口述后让 AI 改稿的场景，旨在保留文字的人味。该技能已开源免费发布在 GitHub。"
         },
         {
+          "id": "f88e6b50bb00",
+          "title": "OpenRouter 模型路由工作原理",
+          "url": "https://openrouter.ai/blog/insights/model-routing",
+          "source": "aihot",
+          "source_name": "OpenRouter：Announcements（RSS）",
+          "category": "tip",
+          "published_at": "2026-06-12T16:00:00.000Z",
+          "summary": "OpenRouter 将每个请求路由到 60 多家提供商，用户可自定义提供商顺序、价格上限和回退链，从而灵活控制路由策略。"
+        },
+        {
           "id": "e93d2c3bc40a",
           "title": "Hermes Agent 在 OpenRouter 上的使用指南：设置、模型与路由",
           "url": "https://openrouter.ai/blog/tutorials/hermes-agent",
@@ -573,16 +590,6 @@
           "summary": "Anthropic对近5.2万美国人调查显示：48%将治愈癌症等疾病列为首要期望，36%希望AI帮助残障人士。64%担忧AI导致失业，56%担忧认知依赖，52%担忧信息误导。超70%支持政府监管，最关注隐私（56%）、儿童安全（52%）和责任归属（49%）。仅15%信任AI公司决策。多数议题上观点不因党派或地域严重分裂。调查于2025年11-12月由YouGov线上执行并加权至人口普查基准。"
         },
         {
-          "id": "d7befe75d9ec",
-          "title": "什么是 LLM 网关？应用与 AI 模型之间缺失的一层",
-          "url": "https://openrouter.ai/blog/insights/llm-gateway",
-          "source": "aihot",
-          "source_name": "OpenRouter：Announcements（RSS）",
-          "category": "tip",
-          "published_at": "2026-06-11T16:00:00.000Z",
-          "summary": "缺少 LLM 网关时，供应商中断会直接变成用户可见的错误，AI 支出也难以追踪。文章从路由、合规性和设置时间三个维度比较了最佳方案。"
-        },
-        {
           "id": "a5f1ed3c3d98",
           "title": "Codex Goal指令生成Skill发布：一句话需求转目标",
           "url": "https://x.com/vista8/status/2065090494972174821",
@@ -601,42 +608,22 @@
           "category": "tip",
           "published_at": "2026-06-11T14:32:12.000Z",
           "summary": "Claude Fable 5 一句话生成的桌面台球！\n\n念念不忘的蝗虫群梗彻底终结。\n\n提示词：设计一个完整的能玩的3D桌球游戏，一个网页就能运行"
-        },
-        {
-          "id": "09f43ec008e0",
-          "title": "OpenAI 正酝酿\"大幅\"降价，Gary Marcus 视其为示弱信号",
-          "url": "https://garymarcus.substack.com/p/breaking-openai-is-pondering-drastic",
-          "source": "aihot",
-          "source_name": "Gary Marcus：The Road to AI We Can Trust（RSS）",
-          "category": "tip",
-          "published_at": "2026-06-11T13:34:49.000Z",
-          "summary": "OpenAI 正考虑大幅降价，Gary Marcus 认为这暴露了公司的疲软竞争力。"
-        },
-        {
-          "id": "fd7b7f8e3dfa",
-          "title": "MNN 适配 SME2 使 Qwen3-VL-4B 在端侧实时推理",
-          "url": "https://mp.weixin.qq.com/s/QNl4pn5JzxpEeFAEvq88ZA",
-          "source": "aihot",
-          "source_name": "公众号：通义实验室（千问）",
-          "category": "tip",
-          "published_at": "2026-06-11T11:43:49.000Z",
-          "summary": "MNN 推理引擎深度适配 Arm SME2 指令集，使 Qwen3-VL-4B-Instruct 在支持 SME2 的 vivo X300 上实现实时多模态推理。Prefill 阶段性能提升 81%，Decode 阶段提升 13%。MNN 采用编译时内建 + 运行时自动检测设计，默认开启 SME2 加速。该模型为 4B 参数视觉语言模型，支持图文理解和对话，通过 MNN 官方已转换量化的模型可直接下载部署，开发者可通过编译开关一键开启硬件加速。"
-        },
-        {
-          "id": "ab23c6a8ade2",
-          "title": "Hermes Agent Desktop 发布，硅基流动支持一键切换",
-          "url": "https://x.com/SiliconFlowAI/status/2065015632215912879",
-          "source": "aihot",
-          "source_name": "X：硅基流动 SiliconFlow (@SiliconFlowAI)",
-          "category": "tip",
-          "published_at": "2026-06-11T10:17:47.000Z",
-          "summary": "@NousResearch 发布了 Hermes Agent Desktop--现在通过 @硅基流动 SiliconFlow 使用前沿开源模型更加便捷 🔥\n\n→ 一键随时切换模型--DeepSeek-V4、GLM-5.1、Kimi-K2.6、MiniMax-M3 等，均在硅基流动上\n… …\n通过硅基流动开启你的 Hermes 之旅的完整指南 👇🧵"
         }
       ]
     },
     "industry": {
       "label": "industry",
       "items": [
+        {
+          "id": "e4b02ca71173",
+          "title": "Anthropic 暂停新模型访问，印度辩论 AI 未来",
+          "url": "https://techcrunch.com/2026/06/13/as-anthropic-suspends-access-to-new-models-india-debates-its-ai-future",
+          "source": "aihot",
+          "source_name": "TechCrunch：AI（RSS）",
+          "category": "industry",
+          "published_at": "2026-06-14T03:00:00.000Z",
+          "summary": "Anthropic 暂停了新模型的访问权限，印度科技领袖围绕这一事件展开辩论，探讨其是否是对该国 AI 雄心的警示。"
+        },
         {
           "id": "7007516f9d93",
           "title": "Meta 开始撤销 20 亿美元收购 Manus 的交易",
@@ -658,6 +645,36 @@
           "summary": "路透社披露的 Meta 内部备忘录显示，CEO 扎克伯格承认公司在 AI 转型中组织调整节奏过快，带来员工安置、管理跨度等问题，预计未来\"几乎肯定会犯更多错误\"。Meta 今年 5 月已裁减全球 10% 员工，并将 7000 人转入 AI 相关新项目。为缓解协作问题，公司将增加团队建设预算，7 月举办黑客松。新成立的应用 AI 工程部门个人贡献者与管理者比例最高达 50：1。扎克伯格重申今年不再全公司裁员。"
         },
         {
+          "id": "70617bccf54a",
+          "title": "Google 起诉被指使用 AI 发送诈骗短信的中国网络犯罪团伙\"Outsider Enterprise\"",
+          "url": "https://techcrunch.com/2026/06/12/google-sues-alleged-chinese-cybercrime-operation-that-used-ai-to-send-scam-texts",
+          "source": "aihot",
+          "source_name": "TechCrunch：AI（RSS）",
+          "category": "industry",
+          "published_at": "2026-06-12T17:26:08.000Z",
+          "summary": "Google 起诉一个名为\"Outsider Enterprise\"的组织，指控其利用人工智能在两周内发送了 250 万条诈骗短信，导致数十万受害者上当。该组织被描述为中国网络犯罪团伙。"
+        },
+        {
+          "id": "ab19510ba861",
+          "title": "今年价值1300亿美元的数据中心项目因抗议被叫停",
+          "url": "https://arstechnica.com/tech-policy/2026/06/130-billion-in-data-center-projects-blocked-by-protests-so-far-this-year",
+          "source": "aihot",
+          "source_name": "Ars Technica：AI（RSS）",
+          "category": "industry",
+          "published_at": "2026-06-12T17:18:49.000Z",
+          "summary": "截至今年，抗议活动已成功阻止价值约1300亿美元的AI数据中心项目。反对者通过组织行动阻碍了多地的开发计划，称这一胜利让参与者\"尝到了政治权力的滋味\"。抗议主要针对数据中心带来的能源消耗、水资源占用和环境影响，部分项目已被政府暂停或重新审查。"
+        },
+        {
+          "id": "af88e1b9aa99",
+          "title": "Pokémon Go玩家无意中为军用无人机技术贡献数据，引发持续审视",
+          "url": "https://arstechnica.com/ai/2026/06/pokemon-go-players-unwittingly-contributed-to-tech-with-military-drone-uses",
+          "source": "aihot",
+          "source_name": "Ars Technica：AI（RSS）",
+          "category": "industry",
+          "published_at": "2026-06-12T11:15:41.000Z",
+          "summary": "Pokémon Go玩家在游戏中收集的数据被重新用于AI训练，支持军用无人机技术。这一做法持续引发各方审视。"
+        },
+        {
           "id": "5ec99c0c635c",
           "title": "全自主无人机首次击毙了人类士兵",
           "url": "https://www.newscientist.com/article/2529849-fully-autonomous-drones-have-killed-human-soldiers-for-the-first-time",
@@ -668,6 +685,16 @@
           "summary": "据《新科学家》6月10日报道，全自主无人机首次击毙了人类士兵。这是有记录以来第一次由完全自主运行的无人机执行致命攻击，标志着自主武器系统在实战中的新进展。该报道来自《新科学家》网站，目前尚无更多细节公布。"
         },
         {
+          "id": "674a8f7c7838",
+          "title": "WSJ：OpenAI 考虑大幅降价，同准备 ChatGPT 史上最大改版备战 IPO",
+          "url": "https://x.com/rohanpaul_ai/status/2065150529068769357",
+          "source": "aihot",
+          "source_name": "X：Rohan Paul (@rohanpaul_ai)",
+          "category": "industry",
+          "published_at": "2026-06-11T19:13:49.000Z",
+          "summary": "WSJ 报道，OpenAI 正考虑大幅降价以应对与 Anthropic 的竞争。Anthropic 增长主要来自开发者和编码工作流，Claude Code 消耗大量 token，已让企业团队将其融入日常工作。OpenAI 虽在消费品牌上更大，但企业市场才是关键--企业为编码智能体、自动化等工具付费。同时，OpenAI 在 IPO 前准备对 ChatGPT 进行史上最大改版，将其打造成涵盖编码、AI 智能体、图像生成和商业软件的超级应用，改版将在未来几周陆续推出。OpenAI 将更多资源投入编码工具 Codex，目标实现 Codex 工程负责人所说的\"个人智能体\"。"
+        },
+        {
           "id": "a499ee302904",
           "title": "Prometheus 融资120亿美元，估值410亿美元，定位\"人工通用工程师\"",
           "url": "https://x.com/kimmonismus/status/2065097988859744503",
@@ -676,26 +703,6 @@
           "category": "industry",
           "published_at": "2026-06-11T15:45:02.000Z",
           "summary": "杰夫·贝佐斯旗下AI公司Prometheus在成立仅7个月、尚无任何产品交付的情况下，以410亿美元估值完成120亿美元融资（最初估值62亿美元）。该公司定位为\"人工通用工程师\"，目标是将设计到制造的循环压缩10倍以上。但物理经济无法像互联网数据那样抓取，缺乏制造业训练数据。为此，Prometheus计划斥资1000亿美元收购传统工业企业，通过获取工厂生成的数据构建护城河。"
-        },
-        {
-          "id": "1473d85bc9a2",
-          "title": "Runway与Lionsgate扩大战略合作",
-          "url": "https://runwayml.com/news/runway-and-lionsgate-expand-partnership",
-          "source": "aihot",
-          "source_name": "Runway：News（网页）",
-          "category": "industry",
-          "published_at": "2026-06-11T14:31:51.811Z",
-          "summary": "全球内容巨头Lionsgate与生成式AI研究公司Runway今日宣布扩大战略合作。Lionsgate已取得Runway股权，双方将启动联合开发项目，共同创作并制作新IP，首推一部基于Lionsgate现有IP和Runway生成模型的短剧系列。此外，Lionsgate将作为主持伙伴参与6月举行的Runway AI电影节。这是双方继2024年9月首次合作后的深化，Lionsgate此前已在预可视化、故事板及最终帧制作中应用Runway工具。"
-        },
-        {
-          "id": "a8aea6752c74",
-          "title": "Anthropic 启动 Claude Corps 全国奖学金项目",
-          "url": "https://www.anthropic.com/news/claude-corps",
-          "source": "aihot",
-          "source_name": "Anthropic：Newsroom（网页）",
-          "category": "industry",
-          "published_at": "2026-06-11T13:12:25.934Z",
-          "summary": "Anthropic 推出 Claude Corps 奖学金项目，面向早期职业生涯的年轻人，培训 1，000 名研究员使用 Claude，并匹配给美国非营利组织全职工作一年。研究员年薪 85，000 美元及福利，每周接受 5 小时持续培训。Anthropic 初始投入 1.5 亿美元，合作方为 CodePath 和 Social Finance。至少 400 家非营利组织将参与接待，包括 Braven、Code the Dream、Heartland Forward 等。"
         }
       ]
     },
