@@ -1,11 +1,13 @@
 {
   "date": "2026-06-14",
-  "generated_at": "2026-06-14T15:28:42.079007",
-  "total": 65,
+  "generated_at": "2026-06-14T17:02:02.108085",
+  "total": 66,
   "sources": {
     "Hugging Face": 8,
     "GitHub AI": 6,
-    "X：Vista (@vista8)": 3,
+    "Gary Marcus：The Road to AI We Can Trust（RSS）": 1,
+    "X：Satya Nadella (@satyanadella)": 1,
+    "X：Vista (@vista8)": 2,
     "TechCrunch：AI（RSS）": 4,
     "X：小互 (@xiaohu)": 2,
     "公众号：智谱（GLM）": 1,
@@ -316,7 +318,7 @@
           "source": "GitHub AI",
           "source_name": "GitHub AI",
           "category": "ai-tools",
-          "published_at": "2026-06-14T15:28:40.677522+00:00",
+          "published_at": "2026-06-14T17:02:00.808050+00:00",
           "summary": "Self-Hosting Guide. Learn all about locally hosting (on premises & private web servers) and managing software applications by yourself or your organization. Including Cloud, LLMs, WireGuard, Automation, Home Assistant, and Networking."
         },
         {
@@ -326,7 +328,7 @@
           "source": "GitHub AI",
           "source_name": "GitHub AI",
           "category": "ai-tools",
-          "published_at": "2026-06-14T15:28:40.677261+00:00",
+          "published_at": "2026-06-14T17:02:00.807784+00:00",
           "summary": "Qdrant - High-performance, massive-scale Vector Database and Vector Search Engine for the next generation of AI. Also available in the cloudhttps://cloud.qdrant.io/"
         },
         {
@@ -336,7 +338,7 @@
           "source": "GitHub AI",
           "source_name": "GitHub AI",
           "category": "ai-tools",
-          "published_at": "2026-06-14T15:28:40.676947+00:00",
+          "published_at": "2026-06-14T17:02:00.807456+00:00",
           "summary": "Stable Diffusion web UI"
         },
         {
@@ -346,7 +348,7 @@
           "source": "GitHub AI",
           "source_name": "GitHub AI",
           "category": "ai-tools",
-          "published_at": "2026-06-14T15:28:40.676810+00:00",
+          "published_at": "2026-06-14T17:02:00.807321+00:00",
           "summary": "Servo aims to empower developers with a lightweight, high-performance alternative for embedding web technologies in applications."
         },
         {
@@ -356,7 +358,7 @@
           "source": "GitHub AI",
           "source_name": "GitHub AI",
           "category": "ai-tools",
-          "published_at": "2026-06-14T15:28:40.676475+00:00",
+          "published_at": "2026-06-14T17:02:00.807011+00:00",
           "summary": "Carbon Language's main repository: documents, design, implementation, and related tools. (NOTE: Carbon Language is experimental; see README)"
         },
         {
@@ -366,7 +368,7 @@
           "source": "GitHub AI",
           "source_name": "GitHub AI",
           "category": "ai-tools",
-          "published_at": "2026-06-14T15:28:40.675881+00:00",
+          "published_at": "2026-06-14T17:02:00.806394+00:00",
           "summary": "Run, manage, and scale AI workloads on any AI infrastructure. Use one system to access & manage all AI compute (Kubernetes, Slurm, 20+ clouds, on-prem)."
         }
       ]
@@ -439,6 +441,26 @@
     "tip": {
       "label": "💡 技巧",
       "items": [
+        {
+          "id": "7de795a7d15d",
+          "title": "白宫AI监管决定被指偏袒OpenAI与亚马逊",
+          "url": "https://garymarcus.substack.com/p/what-washington-must-do",
+          "source": "aihot",
+          "source_name": "Gary Marcus：The Road to AI We Can Trust（RSS）",
+          "category": "tip",
+          "published_at": "2026-06-14T16:15:35.000Z",
+          "summary": "白宫周五做出的AI监管决定被指偏袒OpenAI、亚马逊等企业，同时对Anthropic施压不足24小时，缺乏透明度和事实依据。Gary Marcus、Dean W Ball及卡托研究所Kevin Frazier等专家指出，这种由少数人闭门快速决策的做法带有腐败嫌疑，可能促使其他国家加速发展\"主权AI\"甚至中国AI，并导致美国人才流失。Anthropic声明称政府应在法定程序中基于技术事实阻止不安全部署，而非当前方式。Marcus呼吁建立独立机构负责AI监管，确保公平、清晰、基于证据的执行。"
+        },
+        {
+          "id": "4c74270d7d11",
+          "title": "Satya Nadella：没有生态的前沿不稳定",
+          "url": "https://x.com/satyanadella/status/2066182223213293753",
+          "source": "aihot",
+          "source_name": "X：Satya Nadella (@satyanadella)",
+          "category": "tip",
+          "published_at": "2026-06-14T15:33:24.000Z",
+          "summary": "微软CEO Satya Nadella认为，AI驱动的平台转变首次实现人与数字系统间的认知循环。企业需同时构建人力资本（知识、判断、关系）与token资本（自有的AI能力），且人力资本不会贬值，反而随token资本增长而增值。真正的机会在于建立人力资本与token资本复合增长的学习循环--企业应能替换通用模型而不丢失已内化的专家知识，通过私有评估和强化学习让模型从内部真实轨迹中持续提升。他警告，若所有价值被少数模型吞噬，将重演全球化空心化悲剧，呼吁构建前沿生态系统，让每家企业、行业和国家拥有自己的学习循环。"
+        },
         {
           "id": "a8a212f764e7",
           "title": "乔木小说创作 Skill 开源发布",
@@ -588,16 +610,6 @@
           "category": "tip",
           "published_at": "2026-06-11T16:00:00.000Z",
           "summary": "Anthropic对近5.2万美国人调查显示：48%将治愈癌症等疾病列为首要期望，36%希望AI帮助残障人士。64%担忧AI导致失业，56%担忧认知依赖，52%担忧信息误导。超70%支持政府监管，最关注隐私（56%）、儿童安全（52%）和责任归属（49%）。仅15%信任AI公司决策。多数议题上观点不因党派或地域严重分裂。调查于2025年11-12月由YouGov线上执行并加权至人口普查基准。"
-        },
-        {
-          "id": "a5f1ed3c3d98",
-          "title": "Codex Goal指令生成Skill发布：一句话需求转目标",
-          "url": "https://x.com/vista8/status/2065090494972174821",
-          "source": "aihot",
-          "source_name": "X：Vista (@vista8)",
-          "category": "tip",
-          "published_at": "2026-06-11T15:15:16.000Z",
-          "summary": "针对如何给Codex写Goal指令的问题，作者发布了一个Skill，可将一句话需求自动转化为目标，实现\"睡前写指令、模型自动开发、第二天收菜\"。安装命令：`npx skills add joeseesun/qiaomu-goal-meta-skill`。源码免费开源（见评论区），旨在简化4w字文档的阅读负担。"
         }
       ]
     },
