@@ -1,10 +1,11 @@
 {
   "date": "2026-06-14",
-  "generated_at": "2026-06-14T13:18:48.043455",
+  "generated_at": "2026-06-14T15:28:42.079007",
   "total": 65,
   "sources": {
     "Hugging Face": 8,
     "GitHub AI": 6,
+    "X：Vista (@vista8)": 3,
     "TechCrunch：AI（RSS）": 4,
     "X：小互 (@xiaohu)": 2,
     "公众号：智谱（GLM）": 1,
@@ -18,10 +19,10 @@
     "OpenRouter：Announcements（RSS）": 4,
     "Hugging Face：Blog（RSS）": 1,
     "X：MiniMax (@MiniMax_AI)": 1,
+    "X：Google DeepMind (@GoogleDeepMind)": 1,
     "X：Kimi.ai (@Kimi_Moonshot)": 1,
     "OpenAI：官网动态（RSS · 排除企业/客户案例）": 1,
     "蚂蚁 inclusionAI：HuggingFace 新模型": 1,
-    "X：Vista (@vista8)": 3,
     "公众号：数字生命卡兹克": 1,
     "X：邵猛 (@shao__meng)": 1,
     "X：OpenAI Developers (@OpenAIDevs)": 1,
@@ -31,8 +32,7 @@
     "X：Perplexity (@perplexity_ai)": 1,
     "X：Logan Kilpatrick (@OfficialLoganK)": 1,
     "Anthropic：Newsroom（网页）": 1,
-    "X：Kim (@kimmonismus)": 1,
-    "X：Krea AI (@krea_ai)": 1
+    "X：Kim (@kimmonismus)": 1
   },
   "ai_processed": false,
   "categories": {
@@ -223,16 +223,6 @@
           "category": "ai-products",
           "published_at": "2026-06-11T15:32:17.000Z",
           "summary": "使用我们的基准探索器，为10个不同基准绘制帕累托曲线。\n\n更多功能即将推出！https：//openrouter.ai/rankings#benchmarks"
-        },
-        {
-          "id": "d50a5d30c721",
-          "title": "Krea 2 推出生成式滑块控制图像属性",
-          "url": "https://x.com/krea_ai/status/2065086662166901114",
-          "source": "aihot",
-          "source_name": "X：Krea AI (@krea_ai)",
-          "category": "ai-products",
-          "published_at": "2026-06-11T15:00:02.000Z",
-          "summary": "推出生成式滑块。\n现在您可以控制使用 Krea 2 生成的任何图像的强度、复杂度和运动。\n你希望看到哪些新控制？👇"
         }
       ]
     },
@@ -326,7 +316,7 @@
           "source": "GitHub AI",
           "source_name": "GitHub AI",
           "category": "ai-tools",
-          "published_at": "2026-06-14T13:18:43.657103+00:00",
+          "published_at": "2026-06-14T15:28:40.677522+00:00",
           "summary": "Self-Hosting Guide. Learn all about locally hosting (on premises & private web servers) and managing software applications by yourself or your organization. Including Cloud, LLMs, WireGuard, Automation, Home Assistant, and Networking."
         },
         {
@@ -336,7 +326,7 @@
           "source": "GitHub AI",
           "source_name": "GitHub AI",
           "category": "ai-tools",
-          "published_at": "2026-06-14T13:18:43.656850+00:00",
+          "published_at": "2026-06-14T15:28:40.677261+00:00",
           "summary": "Qdrant - High-performance, massive-scale Vector Database and Vector Search Engine for the next generation of AI. Also available in the cloudhttps://cloud.qdrant.io/"
         },
         {
@@ -346,7 +336,7 @@
           "source": "GitHub AI",
           "source_name": "GitHub AI",
           "category": "ai-tools",
-          "published_at": "2026-06-14T13:18:43.656560+00:00",
+          "published_at": "2026-06-14T15:28:40.676947+00:00",
           "summary": "Stable Diffusion web UI"
         },
         {
@@ -356,7 +346,7 @@
           "source": "GitHub AI",
           "source_name": "GitHub AI",
           "category": "ai-tools",
-          "published_at": "2026-06-14T13:18:43.656437+00:00",
+          "published_at": "2026-06-14T15:28:40.676810+00:00",
           "summary": "Servo aims to empower developers with a lightweight, high-performance alternative for embedding web technologies in applications."
         },
         {
@@ -366,7 +356,7 @@
           "source": "GitHub AI",
           "source_name": "GitHub AI",
           "category": "ai-tools",
-          "published_at": "2026-06-14T13:18:43.656146+00:00",
+          "published_at": "2026-06-14T15:28:40.676475+00:00",
           "summary": "Carbon Language's main repository: documents, design, implementation, and related tools. (NOTE: Carbon Language is experimental; see README)"
         },
         {
@@ -376,7 +366,7 @@
           "source": "GitHub AI",
           "source_name": "GitHub AI",
           "category": "ai-tools",
-          "published_at": "2026-06-14T13:18:43.655573+00:00",
+          "published_at": "2026-06-14T15:28:40.675881+00:00",
           "summary": "Run, manage, and scale AI workloads on any AI infrastructure. Use one system to access & manage all AI compute (Kubernetes, Slurm, 20+ clouds, on-prem)."
         }
       ]
@@ -449,6 +439,16 @@
     "tip": {
       "label": "💡 技巧",
       "items": [
+        {
+          "id": "a8a212f764e7",
+          "title": "乔木小说创作 Skill 开源发布",
+          "url": "https://x.com/vista8/status/2066165703443726749",
+          "source": "aihot",
+          "source_name": "X：Vista (@vista8)",
+          "category": "tip",
+          "published_at": "2026-06-14T14:27:45.000Z",
+          "summary": "开源乔木小说创作 Skill，用户只需说\"我想写一个小说\"或指定风格，AI 自动生成剧情梗概、人物设定、钩子、经典桥段、人物欲望、冲突升级和结尾。与 AI 讨论确认后，可生成完整、低 AI 味的小说。安装命令：npx skills add joeseesun/qiaomu-novel-generator，Github 开源地址见评论区。"
+        },
         {
           "id": "47972c6c85ed",
           "title": "Anthropic 上市前夕",
@@ -598,16 +598,6 @@
           "category": "tip",
           "published_at": "2026-06-11T15:15:16.000Z",
           "summary": "针对如何给Codex写Goal指令的问题，作者发布了一个Skill，可将一句话需求自动转化为目标，实现\"睡前写指令、模型自动开发、第二天收菜\"。安装命令：`npx skills add joeseesun/qiaomu-goal-meta-skill`。源码免费开源（见评论区），旨在简化4w字文档的阅读负担。"
-        },
-        {
-          "id": "7ef477c93597",
-          "title": "Claude Fable 5 一句话生成桌面台球游戏",
-          "url": "https://x.com/vista8/status/2065079656324407345",
-          "source": "aihot",
-          "source_name": "X：Vista (@vista8)",
-          "category": "tip",
-          "published_at": "2026-06-11T14:32:12.000Z",
-          "summary": "Claude Fable 5 一句话生成的桌面台球！\n\n念念不忘的蝗虫群梗彻底终结。\n\n提示词：设计一个完整的能玩的3D桌球游戏，一个网页就能运行"
         }
       ]
     },
@@ -673,6 +663,16 @@
           "category": "industry",
           "published_at": "2026-06-12T11:15:41.000Z",
           "summary": "Pokémon Go玩家在游戏中收集的数据被重新用于AI训练，支持军用无人机技术。这一做法持续引发各方审视。"
+        },
+        {
+          "id": "9f5ef3481361",
+          "title": "DeepMind机器人加速器启动15家初创公司",
+          "url": "https://x.com/GoogleDeepMind/status/2065388989146628563",
+          "source": "aihot",
+          "source_name": "X：Google DeepMind (@GoogleDeepMind)",
+          "category": "industry",
+          "published_at": "2026-06-12T11:01:22.000Z",
+          "summary": "我们的机器人加速器已启动，15家初创公司助力塑造欧洲的物理AI未来。🤖\n\n这个为期三个月的项目将为他们提供我们的AI堆栈、Gemini Robotics模型以及我们团队的实际支持。\n\n了解这些公司 → https：//goo.gle/4oeEk2K"
         },
         {
           "id": "5ec99c0c635c",
