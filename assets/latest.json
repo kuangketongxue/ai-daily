@@ -1,6 +1,6 @@
 {
   "date": "2026-06-14",
-  "generated_at": "2026-06-14T11:36:38.904018",
+  "generated_at": "2026-06-14T13:18:48.043455",
   "total": 65,
   "sources": {
     "Hugging Face": 8,
@@ -326,7 +326,7 @@
           "source": "GitHub AI",
           "source_name": "GitHub AI",
           "category": "ai-tools",
-          "published_at": "2026-06-14T11:36:35.037935+00:00",
+          "published_at": "2026-06-14T13:18:43.657103+00:00",
           "summary": "Self-Hosting Guide. Learn all about locally hosting (on premises & private web servers) and managing software applications by yourself or your organization. Including Cloud, LLMs, WireGuard, Automation, Home Assistant, and Networking."
         },
         {
@@ -336,7 +336,7 @@
           "source": "GitHub AI",
           "source_name": "GitHub AI",
           "category": "ai-tools",
-          "published_at": "2026-06-14T11:36:35.037710+00:00",
+          "published_at": "2026-06-14T13:18:43.656850+00:00",
           "summary": "Qdrant - High-performance, massive-scale Vector Database and Vector Search Engine for the next generation of AI. Also available in the cloudhttps://cloud.qdrant.io/"
         },
         {
@@ -346,7 +346,7 @@
           "source": "GitHub AI",
           "source_name": "GitHub AI",
           "category": "ai-tools",
-          "published_at": "2026-06-14T11:36:35.037441+00:00",
+          "published_at": "2026-06-14T13:18:43.656560+00:00",
           "summary": "Stable Diffusion web UI"
         },
         {
@@ -356,7 +356,7 @@
           "source": "GitHub AI",
           "source_name": "GitHub AI",
           "category": "ai-tools",
-          "published_at": "2026-06-14T11:36:35.037328+00:00",
+          "published_at": "2026-06-14T13:18:43.656437+00:00",
           "summary": "Servo aims to empower developers with a lightweight, high-performance alternative for embedding web technologies in applications."
         },
         {
@@ -366,7 +366,7 @@
           "source": "GitHub AI",
           "source_name": "GitHub AI",
           "category": "ai-tools",
-          "published_at": "2026-06-14T11:36:35.037047+00:00",
+          "published_at": "2026-06-14T13:18:43.656146+00:00",
           "summary": "Carbon Language's main repository: documents, design, implementation, and related tools. (NOTE: Carbon Language is experimental; see README)"
         },
         {
@@ -376,7 +376,7 @@
           "source": "GitHub AI",
           "source_name": "GitHub AI",
           "category": "ai-tools",
-          "published_at": "2026-06-14T11:36:35.036505+00:00",
+          "published_at": "2026-06-14T13:18:43.655573+00:00",
           "summary": "Run, manage, and scale AI workloads on any AI infrastructure. Use one system to access & manage all AI compute (Kubernetes, Slurm, 20+ clouds, on-prem)."
         }
       ]
