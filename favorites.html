@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>我的收藏夹 · 每日AI日报</title>
+<meta name="robots" content="noindex,nofollow">
+<link rel="icon" href="favicon.svg" type="image/svg+xml">
+<link rel="manifest" href="manifest.webmanifest">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<header class="topbar">
+  <div class="wrap topbar-in">
+    <a class="brand" href="index.html">每日<span class="dot">AI</span>日报</a>
+    <nav class="nav" aria-label="主导航">
+      <a href="index.html">今日</a>
+      <a href="archive.html">往期回顾</a>
+      <a class="is-on" href="favorites.html">☆ 收藏夹</a>
+      <a href="sync.html">同步设置</a>
+    </nav>
+    <div id="cloud-slot"></div>
+  </div>
+</header>
+
+<main class="wrap">
+  <h1 class="page-head">☆ 我的收藏夹</h1>
+  <p class="page-sub">收藏整期或单条新闻。先存在这台设备，填了令牌后自动同步到你的私有仓；换电脑或重装后能取回。</p>
+
+  <div class="fav-sync">
+    <button type="button" class="btn ghost fav-sync-btn" data-act="export">导出收藏</button>
+    <button type="button" class="btn ghost fav-sync-btn" data-act="import">导入收藏</button>
+    <span class="hint" style="margin-left:8px">短码只含日期与编号，不含任何个人信息。</span>
+    <div class="fav-sync-body" hidden></div>
+  </div>
+
+  <p class="fav-count" id="fav-count"></p>
+  <div id="fav-root"></div>
+</main>
+
+<footer class="foot"><div class="wrap foot-row">
+  <p>收藏先存本机 · 云端同步到 kuangketongxue 私有仓 · 每次改动都是一次 Git 提交</p>
+  <p class="credit"><a href="sync.html">同步设置</a> · <a href="archive.html">往期回顾</a></p>
+</div></footer>
+
+<script src="data/dates.js"></script>
+<script src="js/cloud-favorites.js"></script>
+<script src="js/md.js"></script>
+<script src="js/core.js"></script>
+<script src="js/favorites.js"></script>
+<script src="register-sw.js"></script>
+<script>
+(function(){
+  'use strict';
+  var F=window.FavUI;
+  F.mountStatusBar(document.getElementById('cloud-slot'));
+  F.initFavoritesPage(document.getElementById('fav-root'),document.getElementById('fav-count'));
+  F.initSyncPanel(document.querySelector('.fav-sync'),document.getElementById('fav-root'),document.getElementById('fav-count'));
+})();
+</script>
+</body>
+</html>

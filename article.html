@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>阅读全文 · 每日AI日报</title>
+<meta name="description" content="每日AI日报单期全文：按板块读完当天全部要闻，每条附原始出处链接。">
+<meta name="theme-color" content="#061a33">
+<link rel="icon" href="favicon.svg" type="image/svg+xml">
+<link rel="manifest" href="manifest.webmanifest">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<header class="topbar">
+  <div class="wrap topbar-in">
+    <a class="brand" href="index.html">每日<span class="dot">AI</span>日报</a>
+    <nav class="nav" aria-label="主导航">
+      <a href="index.html">今日</a>
+      <a class="is-on" href="archive.html">往期回顾</a>
+      <a href="favorites.html">☆ 收藏夹</a>
+      <a href="sync.html">同步设置</a>
+    </nav>
+    <div id="cloud-slot"></div>
+  </div>
+</header>
+
+<main class="wrap">
+  <div class="loading" id="loading" role="status">正在调出这一期的全文<span class="dots"></span></div>
+  <div class="empty" id="empty" hidden>
+    <p class="big" aria-hidden="true">☁</p>
+    <p id="empty-msg">这一期的全文暂时读不到。</p>
+    <p class="empty-hint">源站可能还没生成这一期，或网络不稳。<a href="index.html">回首页看今天的</a> · <a href="archive.html">往期回顾</a></p>
+  </div>
+
+  <div id="article-root"></div>
+
+  <div class="a-nav" id="a-nav" hidden></div>
+  <p class="desc-note">本站仅作阅读与检索，正文来自 <a href="https://daily.juya.uk/" target="_blank" rel="noopener noreferrer">橘鸦AI早报</a>，版权归原作者。</p>
+</main>
+
+<footer class="foot">
+  <div class="wrap foot-row">
+    <p>收藏整期或单条新闻，填了令牌后自动同步到你的私有仓</p>
+    <p class="credit"><a href="sync.html">同步设置</a> · <a href="favorites.html">收藏夹</a></p>
+  </div>
+</footer>
+
+<script src="data/dates.js"></script>
+<script src="js/cloud-favorites.js"></script>
+<script src="js/md.js"></script>
+<script src="js/core.js"></script>
+<script src="js/favorites.js"></script>
+<script src="register-sw.js"></script>
+<script>
+(function () {
+  'use strict';
+  var $ = function (id) { return document.getElementById(id); };
+  var D = window.AIData, M = window.IssueMD, FavUI = window.FavUI;
+  var raw = new URLSearchParams(location.search).get('d') || '';
+  var date = raw.trim();
+
+  if (FavUI) FavUI.mountStatusBar($('cloud-slot'));
+
+  function fail(msg) {
+    $('loading').hidden = true;
+    if (msg) $('empty-msg').textContent = msg;
+    $('empty').hidden = false;
+  }
+
+  if (!D.validDate(date)) { fail('日期不合法，或没有指定日期。'); return; }
+
+  D.issue(date).then(function (iss) {
+    $('loading').hidden = true;
+    var root = $('article-root');
+    root.innerHTML = M.renderIssue(iss, { favSlot: true });
+
+    // 整期收藏按钮插在标题下方
+    var head = root.querySelector('.a-head');
+    if (head && FavUI) {
+      var slot = document.createElement('div');
+      slot.id = 'issue-fav-slot';
+      slot.style.margin = '12px 0';
+      head.appendChild(slot);
+      FavUI.mountIssueButton(slot, date);
+      FavUI.mountAllItemButtons(root);
+    }
+
+    document.title = iss.title + ' · 每日AI日报';
+    renderNav(date);
+
+    // innerHTML 之后浏览器不会自动跳锚点，补一次
+    if (location.hash) {
+      var target = document.getElementById(location.hash.slice(1));
+      if (target) setTimeout(function () { target.scrollIntoView({ block: 'start' }); }, 60);
+    }
+  }).catch(function (e) {
+    fail('这一期的全文暂时读不到：' + (e && e.message ? e.message : '网络问题'));
+  });
+
+  function renderNav(d) {
+    return D.recent().then(function (list) {
+      var idx = -1;
+      for (var i = 0; i < list.length; i++) if (list[i].date === d) { idx = i; break; }
+      var box = $('a-nav');
+      box.textContent = '';
+      var newer = idx > 0 ? list[idx - 1] : null;   // 数组倒序，前一条更晚
+      var older = idx >= 0 && idx < list.length - 1 ? list[idx + 1] : null;
+      if (newer) box.appendChild(link('← 更晚一期 · ' + newer.date, newer.date));
+      else box.appendChild(link('← 回今日', list.length ? list[0].date : D.beijingToday()));
+      if (older) box.appendChild(link('更早一期 · ' + older.date + ' →', older.date));
+      else box.appendChild(link('到往期回顾 →', null));
+      box.hidden = false;
+    }).catch(function () {});
+  }
+
+  function link(text, d) {
+    var a = document.createElement('a');
+    a.textContent = text;
+    a.href = d ? 'article.html?d=' + encodeURIComponent(d) : 'archive.html';
+    return a;
+  }
+})();
+</script>
+</body>
+</html>

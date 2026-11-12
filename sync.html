@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>同步设置 · 每日AI日报</title>
+<meta name="robots" content="noindex,nofollow">
+<link rel="icon" href="favicon.svg" type="image/svg+xml">
+<link rel="manifest" href="manifest.webmanifest">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<header class="topbar">
+  <div class="wrap topbar-in">
+    <a class="brand" href="index.html">每日<span class="dot">AI</span>日报</a>
+    <nav class="nav" aria-label="主导航">
+      <a href="index.html">今日</a>
+      <a href="archive.html">往期回顾</a>
+      <a href="favorites.html">☆ 收藏夹</a>
+      <a class="is-on" href="sync.html">同步设置</a>
+    </nav>
+    <div id="cloud-slot"></div>
+  </div>
+</header>
+
+<main class="wrap">
+  <h1 class="page-head">同步设置</h1>
+  <p class="page-sub">把收藏存进你自己的 GitHub 私有仓，电脑重置后也能取回。令牌只在你这台浏览器里，本站代码与仓库不含任何密钥。</p>
+
+  <section class="card">
+    <h2>当前状态</h2>
+    <div class="sync-state" id="sync-state"></div>
+    <div class="btn-row">
+      <button class="btn" id="btn-sync-now" type="button">立即同步</button>
+      <button class="btn ghost" id="btn-pull-now" type="button">从私有仓取回</button>
+      <a class="btn ghost" href="favorites.html" style="text-decoration:none">打开收藏夹</a>
+    </div>
+    <p class="form-msg" id="token-msg"></p>
+  </section>
+
+  <section class="card">
+    <h2>第一步 · 生成一把只管这一个仓库的令牌</h2>
+    <p>GitHub 官方限制：访问令牌<strong>无法通过接口或命令行创建</strong>，只能你本人在网页生成。下面的链接已经预填好仓库与权限，点开确认即可。</p>
+    <ol>
+      <li>点这个按钮：<a id="token-setup-link" href="#" target="_blank" rel="noopener noreferrer" class="btn ghost" style="display:inline-block;text-decoration:none">打开 GitHub 令牌生成页 ↗</a></li>
+      <li>确认 <code class="inline">Repository access</code> 只选了 <code class="inline">kuangketongxue</code>，<code class="inline">Contents</code> 权限是 <code class="inline">Read and write</code>。</li>
+      <li>起个名字、选有效期，点 <code class="inline">Generate token</code>，复制生成的那串字符。</li>
+      <li>粘到下面的输入框，点「保存到本机」。</li>
+    </ol>
+    <p class="callout"><strong>不要</strong>把你命令行里已登录的那把令牌填进来 —— 它权限覆盖整个账号（含删库、组织管理），放进浏览器等于把账号交出去。这里只需要一把只管单个仓库的细粒度令牌。</p>
+  </section>
+
+  <section class="card">
+    <h2>第二步 · 粘贴令牌</h2>
+    <p class="token-state" id="token-state"></p>
+    <input class="token-input" id="token-input" type="password" autocomplete="off" spellcheck="false" placeholder="粘贴 github_pat_… 开头的令牌" aria-label="GitHub 访问令牌">
+    <div class="btn-row">
+      <button class="btn" id="btn-save-token" type="button">保存到本机</button>
+      <button class="btn danger" id="btn-clear-token" type="button">清除本机令牌</button>
+    </div>
+    <p class="hint">保存后会自动连一次私有仓并把云端收藏取回。令牌不会出现在页面、日志、代码或任何提交里。</p>
+  </section>
+
+  <section class="card">
+    <h2>第三步 · 电脑重置后怎么恢复</h2>
+    <ol>
+      <li>重新打开本站（或重新部署），进「同步设置」。</li>
+      <li>令牌若没存进密码管理器，就在 GitHub 重新生成一把，粘贴保存。</li>
+      <li>点「从私有仓取回」，收藏全部回来。</li>
+    </ol>
+    <p>收藏数据存在 <code class="inline">kuangketongxue/kuangketongxue</code> 的 <code class="inline">data/daily-favorites.json</code>，每次改动都是一次 Git 提交，误删可以回滚。</p>
+    <p>万星日报与本站同域名，<strong>令牌填一次，两个站都能用</strong>；两边收藏写在同一个文件里、按站分栏。</p>
+  </section>
+
+  <section class="card fav-sync" id="sync-shortcode" style="box-shadow:none">
+    <h2>不联网也能搬 · 短码导出 / 导入</h2>
+    <button type="button" class="btn ghost fav-sync-btn" data-act="export">导出收藏</button>
+    <button type="button" class="btn ghost fav-sync-btn" data-act="import">导入收藏</button>
+    <div class="fav-sync-body" hidden></div>
+  </section>
+
+  <section class="card">
+    <h2>安全边界</h2>
+    <ul>
+      <li>令牌只写进浏览器 localStorage，不下发到任何第三方，只用于向 <code class="inline">api.github.com</code> 发请求。</li>
+      <li>断网时收藏改动会排队，联网后自动补传；云端冲突按「未同步操作重放」合并，不会把已取消的收藏复活。</li>
+      <li>本站是公开静态页，其他访客打开只会看到空收藏夹，看不到你的令牌。</li>
+      <li>在公用电脑用完记得点「清除本机令牌」；令牌也能随时在 GitHub 设置里吊销。</li>
+    </ul>
+  </section>
+</main>
+
+<footer class="foot"><div class="wrap foot-row">
+  <p>纯静态站 · 无后端 · 无密钥入库 · 收藏数据只在你自己的私有仓</p>
+  <p class="credit"><a href="favorites.html">收藏夹</a> · <a href="index.html">回今日</a></p>
+</div></footer>
+
+<script src="data/dates.js"></script>
+<script src="js/cloud-favorites.js"></script>
+<script src="js/md.js"></script>
+<script src="js/core.js"></script>
+<script src="js/favorites.js"></script>
+<script src="js/sync-page.js"></script>
+<script src="register-sw.js"></script>
+<script>
+(function(){ if(window.FavUI) window.FavUI.mountStatusBar(document.getElementById('cloud-slot')); })();
+</script>
+</body>
+</html>

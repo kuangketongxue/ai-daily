@@ -1,0 +1,177 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>每日AI日报 · 一天一页，把 AI 圈的事读完</title>
+<meta name="description" content="每天汇总 AI 圈要闻：模型发布、开发生态、产品应用、行业动态。可按板块速览、全文检索、收藏整期或单条新闻，收藏自动同步到你的私有仓。">
+<meta name="theme-color" content="#061a33">
+<link rel="canonical" href="https://kuangketongxue.github.io/ai-daily/">
+<meta property="og:type" content="website">
+<meta property="og:site_name" content="每日AI日报">
+<meta property="og:title" content="每日AI日报 · 一天一页，把 AI 圈的事读完">
+<meta property="og:description" content="模型发布 / 开发生态 / 产品应用 / 行业动态，一天一页读完。">
+<meta property="og:url" content="https://kuangketongxue.github.io/ai-daily/">
+<meta name="twitter:card" content="summary">
+<link rel="icon" href="favicon.svg" type="image/svg+xml">
+<link rel="manifest" href="manifest.webmanifest">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<header class="topbar">
+  <div class="wrap topbar-in">
+    <a class="brand" href="index.html">每日<span class="dot">AI</span>日报</a>
+    <nav class="nav" aria-label="主导航">
+      <a class="is-on" href="index.html">今日</a>
+      <a href="archive.html">往期回顾</a>
+      <a href="favorites.html">☆ 收藏夹</a>
+      <a href="sync.html">同步设置</a>
+    </nav>
+    <div id="cloud-slot"></div>
+  </div>
+</header>
+
+<section class="hero">
+  <div class="wrap hero-in">
+    <p class="hero-kicker">AI Daily · 每天一期</p>
+    <h1 class="hero-title">每日AI日报<span class="en">Read the whole AI day, in one page</span></h1>
+    <p class="hero-sub">把当天 AI 圈的事一次读完：先有一张整期卡，下面按板块列出全部要闻。<br class="br-wide">点进去看每条的正文和原始出处，喜欢的可以收藏。</p>
+    <div class="hero-chips">
+      <span class="hero-chip">要闻</span><span class="hero-chip">模型发布</span>
+      <span class="hero-chip">开发生态</span><span class="hero-chip">产品应用</span>
+      <span class="hero-chip">技术与洞察</span><span class="hero-chip">行业动态</span>
+    </div>
+    <div class="hero-fav">
+      <a class="hero-fav-link" href="archive.html">往期回顾（最近 7 期）</a>
+      <a class="hero-fav-link" href="favorites.html">☆ 我的收藏夹</a>
+    </div>
+  </div>
+</section>
+
+<main class="wrap">
+  <div class="loading" id="loading" role="status">正在读取今天的日报<span class="dots"></span></div>
+  <noscript><style>#loading{display:none}</style><p class="empty">本站需要启用 JavaScript 才能读取日报。</p></noscript>
+  <div class="stale" id="stale" hidden></div>
+
+  <article class="today" id="today" hidden>
+    <div class="today-meta">
+      <span class="issue-date" id="t-date"></span>
+      <span class="issue-sep" aria-hidden="true"></span>
+      <span id="t-count">正在统计</span>
+    </div>
+    <h2 class="today-title" id="t-title"></h2>
+    <p class="today-oneliner" id="t-oneliner"></p>
+    <div class="today-tags" id="t-tags"></div>
+    <div class="today-actions">
+      <a class="read-btn" id="t-link" href="article.html">阅读全文<span class="go" aria-hidden="true">→</span></a>
+      <span id="t-fav"></span>
+    </div>
+  </article>
+
+  <div class="empty" id="empty" hidden>
+    <p class="big" aria-hidden="true">☁</p>
+    <p>暂时读不到日报，源站可能还没更新或网络不稳。</p>
+    <p class="empty-hint">稍后刷新重试；<a href="archive.html">到往期回顾</a>看最近 7 期。</p>
+  </div>
+
+  <div id="overview-slot"></div>
+
+  <section class="recent" id="recent" hidden aria-labelledby="recent-heading">
+    <div class="recent-head">
+      <h2 class="recent-title" id="recent-heading">最近往期</h2>
+      <a class="recent-all" id="recent-all" href="archive.html">查看全部 →</a>
+    </div>
+    <div class="recent-list" id="recent-list"></div>
+    <p class="recent-note">只列最近 7 期。更早的某一天若你收藏过，仍可从收藏夹按日期打开。</p>
+  </section>
+
+  <p class="desc-note">内容来自 <a href="https://daily.juya.uk/" target="_blank" rel="noopener noreferrer">橘鸦AI早报</a>，本站仅作阅读与检索，每期均标注原文出处；内容由 AI 辅助生成，请以原始信息出处和官方信息为准。</p>
+</main>
+
+<footer class="foot">
+  <div class="wrap foot-row">
+    <p>现场读取源站 RSS 与单期全文 · 不镜像正文 · 收藏可同步到你的 GitHub 私有仓</p>
+    <p class="credit"><a href="sync.html">同步设置</a> · <a href="https://daily.juya.uk/" target="_blank" rel="noopener noreferrer">原站 ↗</a></p>
+  </div>
+</footer>
+
+<script src="data/dates.js"></script>
+<script src="js/cloud-favorites.js"></script>
+<script src="js/md.js"></script>
+<script src="js/core.js"></script>
+<script src="js/favorites.js"></script>
+<script src="register-sw.js"></script>
+<script>
+(function () {
+  'use strict';
+  var $ = function (id) { return document.getElementById(id); };
+  var FavUI = window.FavUI, D = window.AIData, M = window.IssueMD;
+
+  if (FavUI) FavUI.mountStatusBar($('cloud-slot'));
+
+  function show(id) {
+    $('loading').hidden = true;
+    $(id).hidden = false;
+  }
+
+  D.recent().then(function (list) {
+    if (!list.length) { show('empty'); return; }
+    var latest = list[0];
+
+    $('t-date').textContent = latest.date;
+    $('t-title').textContent = 'AI 早报 ' + latest.date;
+    $('t-oneliner').textContent = latest.description || '正在读取本期正文…';
+    $('t-link').href = 'article.html?d=' + encodeURIComponent(latest.date);
+    if (FavUI) FavUI.mountIssueButton($('t-fav'), latest.date);
+
+    // 不能把旧一期冒充成今天的
+    var today = D.beijingToday();
+    if (latest.date !== today) {
+      $('stale').textContent = '今天（' + today + '）的日报还没生成，下面这期是 ' + latest.date + ' 的。';
+      $('stale').hidden = false;
+    }
+    show('today');
+    renderRecent(list.slice(1), list.length);
+
+    return D.issue(latest.date).then(function (iss) {
+      var tags = $('t-tags');
+      tags.textContent = '';
+      for (var i = 0; i < iss.sections.length; i++) {
+        var s = document.createElement('span');
+        s.className = 'tag';
+        s.textContent = iss.sections[i].name;
+        tags.appendChild(s);
+      }
+      $('t-count').textContent = M.itemCount(iss) + ' 条新闻 · ' + iss.sections.length + ' 个板块';
+      $('overview-slot').innerHTML = M.renderOverview(iss);
+    }).catch(function () {
+      $('t-count').textContent = '全文暂时读不到，速览未显示';
+    });
+  }).catch(function () {
+    $('loading').textContent = '日报读取失败，请检查网络后刷新重试。';
+  });
+
+  function renderRecent(past, total) {
+    if (!past.length) return;
+    var box = $('recent-list');
+    box.textContent = '';
+    past.forEach(function (p) {
+      var a = document.createElement('a');
+      a.className = 'recent-item';
+      a.href = 'article.html?d=' + encodeURIComponent(p.date);
+      var d = document.createElement('span');
+      d.className = 'recent-date';
+      d.textContent = p.date.slice(5);
+      var n = document.createElement('span');
+      n.className = 'recent-name';
+      n.textContent = p.description || ('AI 早报 ' + p.date);
+      a.append(d, n);
+      box.appendChild(a);
+    });
+    $('recent-all').textContent = '查看全部 ' + total + ' 期 →';
+    $('recent').hidden = false;
+  }
+})();
+</script>
+</body>
+</html>

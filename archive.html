@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>往期回顾 · 每日AI日报</title>
+<meta name="description" content="按日期、摘要与板块检索最近 7 期 AI 日报，也能搜到具体某一条新闻。">
+<meta name="robots" content="index,follow">
+<link rel="icon" href="favicon.svg" type="image/svg+xml">
+<link rel="manifest" href="manifest.webmanifest">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<header class="topbar">
+  <div class="wrap topbar-in">
+    <a class="brand" href="index.html">每日<span class="dot">AI</span>日报</a>
+    <nav class="nav" aria-label="主导航">
+      <a href="index.html">今日</a>
+      <a class="is-on" href="archive.html">往期回顾</a>
+      <a href="favorites.html">☆ 收藏夹</a>
+      <a href="sync.html">同步设置</a>
+    </nav>
+    <div id="cloud-slot"></div>
+  </div>
+</header>
+
+<main class="wrap">
+  <h1 class="page-head">往期回顾</h1>
+  <p class="page-sub">只列最近 7 期。搜索会同时查期次摘要与 7 期全文里的每一条新闻，多个词按「都要命中」处理。</p>
+
+  <div class="arc-tools">
+    <input class="arc-q" id="arc-q" type="search" placeholder="搜日期、摘要、板块，或某条新闻里的关键词…" aria-label="搜索往期">
+    <div class="arc-chips" id="arc-chips"></div>
+    <p class="arc-progress" id="arc-progress" hidden></p>
+  </div>
+
+  <p class="arc-count" id="arc-count">正在读取…</p>
+  <div class="hit-list" id="hits"></div>
+  <div id="arc-root"><div class="loading" role="status">正在读取往期<span class="dots"></span></div></div>
+  <p class="desc-note">内容来自 <a href="https://daily.juya.uk/" target="_blank" rel="noopener noreferrer">橘鸦AI早报</a>，本站仅作阅读与检索。</p>
+</main>
+
+<footer class="foot"><div class="wrap foot-row">
+  <p>最近 7 期 · 全文检索 · 收藏可同步到你的私有仓</p>
+  <p class="credit"><a href="index.html">回今日</a> · <a href="favorites.html">收藏夹</a></p>
+</div></footer>
+
+<script src="data/dates.js"></script>
+<script src="js/cloud-favorites.js"></script>
+<script src="js/md.js"></script>
+<script src="js/core.js"></script>
+<script src="js/favorites.js"></script>
+<script src="js/archive.js"></script>
+<script src="register-sw.js"></script>
+<script>
+(function(){
+  'use strict';
+  var $=function(id){return document.getElementById(id);};
+  var D=window.AIData, L=window.ArchiveLogic, M=window.IssueMD, F=window.FavUI;
+  if(F) F.mountStatusBar($('cloud-slot'));
+
+  var issues=[], parsed=[], issueMap={}, lens='', query='', timer=null;
+
+  function esc(s){return M.esc(s);}
+
+  function paint(){
+    var shown=L.filterIssues(issues,query,lens,issueMap);
+    var hasFilter=!!(query.trim()||lens);
+    $('arc-count').textContent=hasFilter?'匹配 '+shown.length+' / '+issues.length+' 期':'共 '+issues.length+' 期 · 最近 7 期';
+    var html='';
+    if(!shown.length){
+      html='<div class="empty"><p class="big" aria-hidden="true">☁</p><p>'+(hasFilter?'没有匹配的往期。':'还没有往期。')+'</p>'
+        +(hasFilter?'<p><button type="button" class="arc-reset">清除搜索与筛选</button></p>':'')+'</div>';
+    } else {
+      L.groupByMonth(shown).forEach(function(g){
+        html+='<section class="arc-month"><h2 class="arc-month-title">'+esc(g.label)+'<span class="arc-month-n">'+g.items.length+' 期</span></h2><div class="arc-list">';
+        g.items.forEach(function(it){
+          var d=issueMap[it.date];
+          html+='<article class="arc-item"><a class="arc-link" href="article.html?d='+encodeURIComponent(it.date)+'">'
+            +'<time class="arc-date" datetime="'+esc(it.date)+'">'+esc(it.date)+'</time>'
+            +'<h3 class="arc-title">AI 早报 '+esc(it.date)+'</h3>'
+            +(it.description?'<p class="arc-one">'+esc(it.description)+'</p>':'')
+            +'<div class="arc-tags">'+(d?d.sections.slice(0,4).map(function(s){return '<span class="tag">'+esc(s.name)+'</span>';}).join(''):'')+'</div>'
+            +'<span class="arc-go">阅读全文<span class="go" aria-hidden="true">→</span></span></a></article>';
+        });
+        html+='</div></section>';
+      });
+    }
+    var root=$('arc-root');root.innerHTML=html;
+    var reset=root.querySelector('.arc-reset');
+    if(reset)reset.addEventListener('click',function(){
+      query='';lens='';$('arc-q').value='';syncChips();paint();$('arc-q').focus();
+    });
+    paintHits();
+  }
+
+  function paintHits(){
+    var box=$('hits');
+    if(!query.trim()){box.innerHTML='';return;}
+    var found=L.searchItems(parsed,query,24);
+    if(!found.length){box.innerHTML='';return;}
+    box.innerHTML='<p class="arc-count">全文里搜到 '+found.length+' 条相关新闻</p>'+found.map(function(h){
+      return '<article class="hit"><div class="hit-top"><span>'+esc(h.date)+'</span><span>'+esc(h.section)+'</span><span>#'+esc(h.num)+'</span></div>'
+        +'<p class="hit-title"><a href="article.html?d='+encodeURIComponent(h.date)+'#item-'+esc(h.num)+'">'+esc(h.title)+'</a></p>'
+        +(h.snippet?'<p class="hit-snip">…'+esc(h.snippet)+'…</p>':'')+'</article>';
+    }).join('');
+  }
+
+  function syncChips(){
+    var chips=$('arc-chips').querySelectorAll('.arc-chip');
+    for(var i=0;i<chips.length;i++){
+      var on=chips[i].dataset.lens===lens;
+      chips[i].classList.toggle('is-on',on);
+      chips[i].setAttribute('aria-pressed',on?'true':'false');
+    }
+  }
+
+  D.recent().then(function(list){
+    issues=list;
+    var all=L.collectGroups([]);
+    $('arc-chips').innerHTML='<button type="button" class="arc-chip is-on" data-lens="" aria-pressed="true">全部板块<span class="arc-chip-n">'+list.length+'</span></button>';
+    paint();
+
+    // 7 期全文一次建完，之后「搜到某条新闻」才成立
+    $('arc-progress').hidden=false;
+    $('arc-progress').textContent='正在为 7 期全文建立检索索引…';
+    D.loadRecentIssues(list.map(function(x){return x.date;}),function(done,total){
+      $('arc-progress').textContent='已读取 '+done+' / '+total+' 期全文…';
+    }).then(function(ps){
+      parsed=ps;
+      for(var i=0;i<ps.length;i++)issueMap[ps[i].date]=ps[i];
+      var groups=L.collectGroups(ps);
+      $('arc-chips').innerHTML='<button type="button" class="arc-chip is-on" data-lens="" aria-pressed="true">全部板块<span class="arc-chip-n">'+list.length+'</span></button>'
+        +groups.map(function(g){return '<button type="button" class="arc-chip" data-lens="'+esc(g.label)+'" aria-pressed="false">'+esc(g.label)+'<span class="arc-chip-n">'+g.count+'</span></button>';}).join('');
+      $('arc-progress').hidden=true;
+      paint();
+    }).catch(function(){$('arc-progress').textContent='全文索引未建好，仍可按日期与摘要搜索。';});
+  }).catch(function(){
+    $('arc-root').innerHTML='<div class="empty"><p>往期读取失败。</p><p class="empty-hint">请检查网络后刷新重试。</p></div>';
+    $('arc-count').textContent='';
+  });
+
+  $('arc-chips').addEventListener('click',function(e){
+    var chip=e.target.closest('.arc-chip');if(!chip)return;
+    lens=chip.dataset.lens;syncChips();paint();
+  });
+  $('arc-q').addEventListener('input',function(){
+    clearTimeout(timer);
+    timer=setTimeout(function(){query=$('arc-q').value;paint();},130);
+  });
+})();
+</script>
+</body>
+</html>

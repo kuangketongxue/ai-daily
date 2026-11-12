@@ -1,0 +1,6 @@
+User-agent: *
+Allow: /ai-daily/
+Disallow: /ai-daily/favorites.html
+Disallow: /ai-daily/sync.html
+
+Sitemap: https://kuangketongxue.github.io/ai-daily/sitemap.xml
