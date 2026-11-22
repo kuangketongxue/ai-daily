@@ -1,0 +1,42 @@
+{
+  "generated": "2026-11-23",
+  "source": "https://daily.juya.uk/rss.xml",
+  "count": 7,
+  "items": [
+    {
+      "date": "2026-11-22",
+      "description": "Antigravity 重置全部用户的 Gemini 配额；Google Antigravity 更新 /btw：可另开支线且不丢进度；博主称 Cursor 即将更名为 Grok Build；OpenCode 宣布 GLM 5.3 和 DeepSeek Flash 降价 60%；OpenAI 语音团队成员宣布 Dots 通话结束后可查看文字转录；Gemin…",
+      "link": "https://daily.juya.uk/issues/2026-11-22/"
+    },
+    {
+      "date": "2026-11-21",
+      "description": "数学家称与 Claude 合作证明黎曼猜想；Thinking Machines 发布并开源 Inkling 2 Mini；Antigravity 扩大 cache pool，完成后重置配额；OpenAI 向 Plus 用户开放 Space 协作空间；腾讯混元开源旗舰模型 Hy4：总参数 770B；微信开源全模态模型系列WeMM Video；Codex 更新…",
+      "link": "https://daily.juya.uk/issues/2026-11-21/"
+    },
+    {
+      "date": "2026-11-20",
+      "description": "ChatGPT dots 向 Business Standard 用户以及部分 Plus 开放；ChatGPT 健康功能扩展至桌面端、Android 和 dots；Antigravity 桌面应用新增 SSH 连接功能；Mac 版 Gemini 应用上线 computer use 功能；Gemini API 预览推出工具按需加载功能；Qoder 免费用户不…",
+      "link": "https://daily.juya.uk/issues/2026-11-20/"
+    },
+    {
+      "date": "2026-11-19",
+      "description": "Google 发布 Gemini 4 Neon；谷歌新版 Project Genie 开放 Genie 4；DeepSeek：模型触发的搜索和抓取不再单独计费；Antigravity Pro 免费试用仅剩 3.8 Flash；OpenCode：10 美元购 500 美元 GLM 5.3；Perplexity 推出 Context API；ChatGPT 语…",
+      "link": "https://daily.juya.uk/issues/2026-11-19/"
+    },
+    {
+      "date": "2026-11-18",
+      "description": "OpenAI 发布 GPT 6.2 Astra 与 Sol，分别面向复杂任务和日常工作；微软在 Ignite 上公布七款新模型；Gemini Tasks 在美日韩加澳印六国免费开放；Antigravity 重置所有模型配额，Carbon 首词元响应提速；OpenCode Go GLM 5.3 额度升至 200 美元；可灵 AI 发布 Kling Image…",
+      "link": "https://daily.juya.uk/issues/2026-11-18/"
+    },
+    {
+      "date": "2026-11-17",
+      "description": "阿里巴巴发布 Qwen4 Max：官方称成本降 58%；腾讯混元推出 Hy4 flash，官方称迄今最高性价比；Antigravity 上下文窗口翻倍，压缩次数大减；OpenAI 启动嵌入式评估，引入外部机构审查安全；字节跳动 Seedance 2.5 4K API 全面开放；上海AI实验室开源书生 S2.1 Flash；Tibo：Codex 容量报错或已…",
+      "link": "https://daily.juya.uk/issues/2026-11-17/"
+    },
+    {
+      "date": "2026-11-16",
+      "description": "华为云上线 openPangu 2.1 Pro 模型；Agnes AI 开源 187.8B 多模态 MoE 模型；OpenCode Go 订阅现已支持微信支付付款；OpenAI 开设 science blog 并发布 Standard Model 研究解读；报道称 Jensen Huang 考虑重返 NVIDIA 担任 CEO",
+      "link": "https://daily.juya.uk/issues/2026-11-16/"
+    }
+  ]
+}

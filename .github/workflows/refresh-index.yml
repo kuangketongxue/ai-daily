@@ -1,0 +1,42 @@
+name: refresh-index
+
+# 每天北京时间 05:40（UTC 21:40）刷新一次索引。
+# 源站每天 00:54 更新，这一步保证「日期兜底索引」和「首屏轻量索引」不会停更
+# —— 上一次停更是因为完全依赖手动跑脚本，10 天没人跑，首页就老是回落到旧日期。
+
+on:
+  schedule:
+    - cron: '40 21 * * *'
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+concurrency:
+  group: refresh-index
+  cancel-in-progress: true
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+
+      - name: 生成日期索引与首屏轻量索引
+        run: python scripts/build-dates.py
+
+      - name: 有变化才提交
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add data/dates.js data/dates.json data/latest.json
+          if git diff --staged --quiet; then
+            echo "索引无变化，跳过提交"
+          else
+            git commit -m "chore: 刷新日报索引 $(date -u +%F)"
+            git push
+          fi

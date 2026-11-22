@@ -115,7 +115,7 @@
     }
   }
 
-  D.recent().then(function(list){
+  D.recentFast().then(function(list){
     issues=list;
     var all=L.collectGroups([]);
     $('arc-chips').innerHTML='<button type="button" class="arc-chip is-on" data-lens="" aria-pressed="true">全部板块<span class="arc-chip-n">'+list.length+'</span></button>';

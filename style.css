@@ -127,10 +127,12 @@ main.wrap{padding-top:34px;padding-bottom:56px;min-height:52vh}
 .recent-all{margin-left:auto;font-size:14px;font-weight:700}
 .recent-list{display:grid;gap:8px}
 .recent-item{display:flex;align-items:center;gap:14px;background:#fff;border:1px solid var(--line);
-  border-radius:11px;padding:12px 16px;color:var(--ink)}
+  border-radius:11px;padding:12px 16px;color:var(--ink);
+  /* grid 子项默认 min-width:auto，长标题会把整页撑出视口（实测 390px 屏被撑到 2224px） */
+  min-width:0}
 .recent-item:hover{border-color:var(--teal);text-decoration:none;background:#f9fdff}
 .recent-date{font-variant-numeric:tabular-nums;color:var(--accent);font-weight:800;font-size:14px}
-.recent-name{flex:1;overflow:hidden;text-overflow:ellipsis;white-space:nowrap}
+.recent-name{flex:1;min-width:0;overflow:hidden;text-overflow:ellipsis;white-space:nowrap}
 .recent-note{font-size:13px;color:var(--muted);margin-top:12px}
 
 /* ---------- 文章页 ---------- */
@@ -270,3 +272,173 @@ code.inline{background:#eef4f9;padding:1px 6px;border-radius:4px;font-size:.92em
   html{scroll-behavior:auto}
   *,*:before,*:after{animation-duration:.01ms!important;transition-duration:.01ms!important}
 }
+
+/* ==========================================================
+   2026-11-22 视觉升级 · 夜班通讯
+   ----------------------------------------------------------
+   改成刊物版面：新闻纸底色、衬线标题、极细分隔线、单一强调色。
+   去掉「白卡片 + 圆角 + 柔阴影」那一层模板感 —— 靠版式与留白分层，
+   不靠装饰分层。所有改动都在本段，删掉本段即回到旧视觉，便于回滚。
+   ========================================================== */
+:root{
+  --paper:#f6f4ef; --paper-2:#efece3; --card:#faf8f3;
+  --ink:#15171b; --ink-2:#454b53; --ink-3:#6b7178;
+  --line:rgba(21,23,27,.14); --line-2:rgba(21,23,27,.07);
+  --navy:#15171b; --navy2:#22303a; --bg:#f6f4ef;
+  --accent:#0e6470; --accent-d:#0a4b54; --teal:#0e6470; --cyan:#0e6470;
+  --muted:#6b7178; --soft:#eae5d9;
+  --gold:#8a6a34;
+  --shadow:none; --radius:2px;
+  --serif:"Source Han Serif SC","Noto Serif SC","Songti SC","STSong",Georgia,"Times New Roman",serif;
+  --sans:"PingFang SC","HarmonyOS Sans SC","Microsoft YaHei","Segoe UI",sans-serif;
+}
+
+body{
+  background:var(--paper);
+  color:var(--ink);
+  font-family:var(--sans);
+  font-size:16px; line-height:1.8;
+  letter-spacing:.005em;
+  /* 极淡的纸纹：横向 3px 一条 2% 的墨色，像凸版纸的纤维倾向 */
+  background-image:repeating-linear-gradient(180deg,rgba(21,23,27,.018) 0 1px,transparent 1px 4px);
+}
+
+/* ---- 顶栏：纸色 + 一条墨线，不做悬浮阴影 ---- */
+.topbar{background:rgba(246,244,239,.94);border-bottom:1px solid var(--ink);backdrop-filter:blur(8px)}
+.topbar-in{min-height:60px}
+.brand{font-family:var(--serif);font-weight:600;font-size:18px;letter-spacing:.06em;color:var(--ink)}
+.brand .dot{color:var(--accent)}
+.nav a{font-weight:500;font-size:13.5px;color:var(--ink-2);border-radius:0;padding:6px 10px;letter-spacing:.02em}
+.nav a:hover,.nav a.is-on{background:transparent;color:var(--ink);text-decoration:none;box-shadow:inset 0 -1px 0 var(--ink)}
+.cloud-bar{background:transparent;border:1px solid var(--line);border-radius:2px;font-size:12px;
+  letter-spacing:.02em;color:var(--ink-2)}
+.cloud-dot{border-radius:0;width:6px;height:6px}
+.cloud-link{color:var(--accent)}
+
+/* ---- 首屏：深墨 + 青色微光，标题交给衬线 ---- */
+.hero{color:#f3efe6;background:#0c1116}
+.hero:after{opacity:.28;filter:blur(10px)}
+.hero-in{padding:76px 22px 64px}
+.hero-kicker{
+  font-family:var(--sans);font-size:12px;font-weight:500;letter-spacing:.32em;
+  text-transform:none;color:rgba(243,239,230,.62);margin-bottom:18px;
+  display:inline-flex;align-items:center;gap:12px}
+.hero-kicker:before{content:"";width:36px;height:1px;background:rgba(243,239,230,.45)}
+.hero-title{font-family:var(--serif);font-weight:600;font-size:clamp(40px,6.2vw,68px);
+  line-height:1.06;letter-spacing:.01em;color:#f7f4ec}
+.hero-title .en{font-family:var(--sans);font-size:13px;font-weight:400;letter-spacing:.22em;
+  text-transform:none;color:rgba(243,239,230,.55);margin-top:18px}
+.hero-sub{font-size:16.5px;line-height:1.95;color:rgba(243,239,230,.8);max-width:600px;margin-top:22px}
+.hero-chips{gap:0;margin-top:28px;border-top:1px solid rgba(243,239,230,.16);padding-top:18px}
+.hero-chip{border:0;border-radius:0;background:transparent;padding:0 20px 0 0;
+  font-size:13px;letter-spacing:.06em;color:rgba(243,239,230,.68)}
+.hero-fav{margin-top:30px;gap:26px}
+.hero-fav-link{font-weight:500;font-size:14px;letter-spacing:.04em;border-bottom:1px solid rgba(243,239,230,.3);
+  padding-bottom:4px;color:#f3efe6}
+.hero-fav-link:hover{border-color:#7fc6cf;color:#a9dde3}
+
+/* ---- 今日整期：头版，不是卡片 ---- */
+main.wrap{padding-top:0;padding-bottom:72px;max-width:780px}
+.today{
+  background:transparent;border:0;border-radius:0;box-shadow:none;
+  padding:52px 0 34px;border-bottom:1px solid var(--ink);
+  animation:issueIn .55s cubic-bezier(.22,.7,.3,1) both;
+}
+@keyframes issueIn{from{opacity:0;transform:translateY(10px)}to{opacity:1;transform:none}}
+.today-meta{gap:0;font-size:12px;letter-spacing:.16em;color:var(--ink-3)}
+.issue-date{font-family:var(--serif);font-weight:600;font-size:26px;letter-spacing:.02em;color:var(--ink);
+  font-variant-numeric:lining-nums tabular-nums}
+.issue-sep{display:none}
+.today-meta #t-count{margin-left:14px;padding-left:14px;border-left:1px solid var(--line);letter-spacing:.08em}
+.today-title{font-family:var(--serif);font-weight:600;font-size:clamp(27px,4.2vw,40px);
+  line-height:1.24;letter-spacing:.005em;color:var(--ink);margin:16px 0 14px}
+.today-oneliner{font-size:17px;line-height:1.95;color:var(--ink-2);margin:0 0 22px;max-width:62ch}
+.today-tags{margin-bottom:24px}
+.today-actions{border-top:1px solid var(--line-2);padding-top:22px;gap:22px}
+
+/* 标签：细框小字，不用胶囊 */
+.tag{background:transparent;border:1px solid var(--line);border-radius:2px;
+  color:var(--ink-2);font-size:11.5px;font-weight:500;letter-spacing:.08em;padding:3px 9px}
+
+/* 主按钮：墨底、直角、字距 */
+.read-btn{background:var(--ink);color:var(--paper);border-radius:2px;
+  padding:12px 22px;font-size:14px;font-weight:500;letter-spacing:.1em}
+.read-btn:hover{background:#000;color:var(--paper)}
+.read-btn .go{font-weight:400;margin-left:2px}
+.fav-btn{background:transparent;border:1px solid var(--line);border-radius:2px;
+  color:var(--ink-2);font-size:13px;font-weight:500;letter-spacing:.04em}
+.fav-btn:hover{border-color:var(--ink);color:var(--ink)}
+.fav-btn.is-on{background:transparent;border-color:var(--accent);color:var(--accent)}
+
+/* ---- 今日速览：分组用小标题 + 极细线，不要边框 ---- */
+.ov{margin-top:44px;background:transparent;border:0;border-radius:0;padding:0;box-shadow:none}
+.ov-title{font-family:var(--serif);font-size:15px;font-weight:600;letter-spacing:.28em;
+  color:var(--ink-3);margin:0 0 26px;padding-bottom:14px;border-bottom:1px solid var(--ink)}
+.ov-group{margin-bottom:30px}
+.ov-group-title{font-family:var(--serif);font-size:19px;font-weight:600;letter-spacing:.02em;
+  color:var(--ink);margin:0 0 12px;padding:0;gap:10px}
+.ov-n{font-family:var(--sans);font-size:11px;font-weight:500;color:var(--ink-3);
+  background:transparent;border:0;border-radius:0;padding:0;letter-spacing:.1em}
+.ov-list{gap:0 26px}
+.ov-item{padding:9px 0;font-size:14.5px;line-height:1.72;color:var(--ink-2);
+  border-bottom:1px solid var(--line-2)}
+.ov-item:before{display:none}
+.ov-item a{color:var(--ink);border-bottom:1px solid transparent}
+.ov-item a:hover{border-bottom-color:var(--ink);text-decoration:none}
+.ov-src{font-size:11px;color:var(--accent);margin-left:6px;letter-spacing:.06em}
+
+/* ---- 最近往期：目录行 ---- */
+.recent{margin-top:56px}
+.recent-head{align-items:baseline;border-bottom:1px solid var(--ink);padding-bottom:12px;margin-bottom:0}
+.recent-title{font-family:var(--serif);font-size:15px;font-weight:600;letter-spacing:.28em;color:var(--ink-3)}
+.recent-all{font-size:12.5px;font-weight:500;letter-spacing:.06em;color:var(--accent)}
+.recent-list{display:block;gap:0}
+.recent-item{background:transparent;border:0;border-bottom:1px solid var(--line-2);border-radius:0;
+  padding:14px 4px;gap:20px;min-width:0}
+.recent-item:hover{background:rgba(21,23,27,.035);border-bottom-color:var(--ink);text-decoration:none}
+.recent-date{font-family:var(--serif);font-size:14px;font-weight:600;color:var(--ink-3);
+  letter-spacing:.04em;font-variant-numeric:lining-nums tabular-nums;flex:none;width:56px}
+.recent-name{font-size:15px;color:var(--ink);letter-spacing:.01em}
+.recent-note{font-size:12.5px;color:var(--ink-3);margin-top:18px;line-height:1.8}
+.desc-note{font-size:12px;color:var(--ink-3);text-align:left;border-top:1px solid var(--line-2);
+  padding-top:20px;margin-top:44px;line-height:1.85;letter-spacing:.01em}
+
+/* ---- 加载态：去掉卡片，一行细字 ---- */
+.loading,.empty,.stale{background:transparent;border:0;border-radius:0;box-shadow:none;
+  color:var(--ink-3);text-align:left;padding:56px 0;font-size:14px;letter-spacing:.1em}
+.loading{display:flex;align-items:center;gap:14px}
+.loading:before{content:"";width:28px;height:1px;background:var(--ink);animation:pull 1.4s ease-in-out infinite}
+@keyframes pull{0%,100%{width:16px;opacity:.35}50%{width:46px;opacity:1}}
+.stale{background:transparent;border-left:2px solid var(--gold);color:#6d531f;
+  padding:14px 0 14px 16px;font-size:13.5px;line-height:1.8;letter-spacing:.01em}
+.empty .big{font-size:0;height:1px;background:var(--line);margin:0 0 28px}
+.empty-hint{color:var(--ink-3);font-size:13px}
+
+/* ---- 页脚 ---- */
+.foot{border-top:1px solid var(--ink);background:transparent;color:var(--ink-3);
+  font-size:12px;letter-spacing:.03em;line-height:1.9}
+.foot-row{padding:26px 22px 34px;flex-direction:column;align-items:flex-start;gap:8px}
+.foot a{color:var(--ink-2)}
+
+/* ---- 窄屏收敛 ---- */
+@media(max-width:640px){
+  .hero-in{padding:52px 20px 44px}
+  .hero-title{font-size:34px}
+  .hero-sub{font-size:15.5px}
+  .today{padding:34px 0 26px}
+  .issue-date{font-size:22px}
+  .today-title{font-size:26px}
+  .today-oneliner{font-size:15.5px}
+  .ov-list{grid-template-columns:1fr}
+  .recent-date{width:48px;font-size:13px}
+  main.wrap{padding-left:20px;padding-right:20px}
+}
+
+/* 收敛第二轮：首屏只留一句副文 + 两个入口，板块名交给下面的速览，不重复罗列 */
+.hero-chips{display:none}
+.hero-sub{margin-top:26px;max-width:56ch}
+.hero-fav{margin-top:34px;border-top:1px solid rgba(243,239,230,.16);padding-top:20px;max-width:420px}
+/* 云端状态条只报状态；「同步设置」在导航里已有唯一入口，右侧不再重复一遍 */
+.cloud-link{display:none}
+main.wrap{padding-top:44px}
+.ov-title{letter-spacing:.2em}

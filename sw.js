@@ -9,14 +9,14 @@
      - 页面骨架 → 先用缓存，后台更新
      - 任何带 Authorization 的请求（GitHub API）一律不缓存、不拦截
    ========================================================================== */
-const SHELL_VER = 'v1';
+const SHELL_VER = 'v2';
 const SHELL = 'ai-daily-shell-' + SHELL_VER;
 const BODY = 'ai-daily-body-v1';
 const SHELL_FILES = [
   './', './index.html', './article.html', './archive.html',
   './favorites.html', './sync.html', './404.html',
   './style.css', './favicon.svg', './manifest.webmanifest',
-  './data/dates.js',
+  './data/dates.js', './data/latest.json',
   './js/md.js', './js/core.js', './js/favorites.js',
   './js/archive.js', './js/cloud-favorites.js', './js/sync-page.js',
   './img/hero-ai.jpg'
@@ -24,7 +24,13 @@ const SHELL_FILES = [
 const SOURCE_HOST = 'daily.juya.uk';
 
 self.addEventListener('install', e => {
-  e.waitUntil(caches.open(SHELL).then(c => c.addAll(SHELL_FILES).catch(() => {})).then(() => self.skipWaiting()));
+  // 逐个 add + allSettled：addAll 一旦有单个文件 404 就整批不入缓存
+  // （daily10k 那边踩过同样的坑），新增的 latest.json 更不该拖垮整个 shell。
+  e.waitUntil(
+    caches.open(SHELL)
+      .then(c => Promise.allSettled(SHELL_FILES.map(f => c.add(f))))
+      .then(() => self.skipWaiting())
+  );
 });
 
 self.addEventListener('activate', e => {

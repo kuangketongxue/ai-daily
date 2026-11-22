@@ -36,11 +36,6 @@
     <p class="hero-kicker">AI Daily · 每天一期</p>
     <h1 class="hero-title">每日AI日报<span class="en">Read the whole AI day, in one page</span></h1>
     <p class="hero-sub">把当天 AI 圈的事一次读完：先有一张整期卡，下面按板块列出全部要闻。<br class="br-wide">点进去看每条的正文和原始出处，喜欢的可以收藏。</p>
-    <div class="hero-chips">
-      <span class="hero-chip">要闻</span><span class="hero-chip">模型发布</span>
-      <span class="hero-chip">开发生态</span><span class="hero-chip">产品应用</span>
-      <span class="hero-chip">技术与洞察</span><span class="hero-chip">行业动态</span>
-    </div>
     <div class="hero-fav">
       <a class="hero-fav-link" href="archive.html">往期回顾（最近 7 期）</a>
       <a class="hero-fav-link" href="favorites.html">☆ 我的收藏夹</a>
@@ -114,7 +109,7 @@
     $(id).hidden = false;
   }
 
-  D.recent().then(function (list) {
+  function paint(list) {
     if (!list.length) { show('empty'); return; }
     var latest = list[0];
 
@@ -147,7 +142,12 @@
     }).catch(function () {
       $('t-count').textContent = '全文暂时读不到，速览未显示';
     });
-  }).catch(function () {
+  }
+
+  // 源站若有更新的一期，recentFast 会回调这里重绘（首屏已经用本地轻量索引先出来了）
+  D.onUpdate = function (fresh) { paint(fresh); };
+
+  D.recentFast().then(paint).catch(function () {
     $('loading').textContent = '日报读取失败，请检查网络后刷新重试。';
   });
 

@@ -123,6 +123,45 @@
     });
   }
 
+  function parseLatest(txt) {
+    var d = JSON.parse(txt);
+    var arr = d && Array.isArray(d.items) ? d.items : [];
+    var list = [];
+    for (var i = 0; i < arr.length; i++) {
+      var it = arr[i];
+      if (!it || !validDate(it.date)) continue;
+      list.push({
+        date: it.date,
+        description: it.description || '',
+        link: it.link || ISSUE_BASE + it.date + '/'
+      });
+    }
+    return list.slice(0, RECENT_LIMIT);
+  }
+
+  /* 首屏：先读同域轻量索引（约 3KB，CI 每天生成），源站 RSS 到达后再校正。
+     为什么不用 recent()：它要等 400KB+ 的 RSS 整个下完，跨境网络常 6~9 秒，
+     超时还会静默回落到旧索引 —— 用户看到的是长时间「正在读取」和过期内容。 */
+  function recentFast() {
+    return once('latest', function () {
+      return fetchText('data/latest.json').then(parseLatest);
+    }).then(function (list) {
+      if (!list || !list.length) return recent();
+      // 后台校正：源站若有更新的一期，通知调用方重绘（不阻塞首屏）
+      setTimeout(function () {
+        recent().then(function (fresh) {
+          if (fresh && fresh.length && list.length && fresh[0].date > list[0].date &&
+              typeof root.AIData.onUpdate === 'function') {
+            root.AIData.onUpdate(fresh);
+          }
+        }, function () { /* 校正失败保持现状 */ });
+      }, 0);
+      return list;
+    }, function () {
+      return recent();
+    });
+  }
+
   function summaries() {
     return recent().then(function (list) {
       var map = {};
@@ -184,7 +223,7 @@
   root.AIData = {
     RSS_URL: RSS_URL, MD_BASE: MD_BASE, ISSUE_BASE: ISSUE_BASE, RECENT_LIMIT: RECENT_LIMIT,
     validDate: validDate, beijingToday: beijingToday, fallbackDates: fallbackDates,
-    parseRss: parseRss, rss: rss, recent: recent, summaries: summaries,
+    parseRss: parseRss, rss: rss, recent: recent, recentFast: recentFast, summaries: summaries,
     markdown: markdown, issue: issue, loadRecentIssues: loadRecentIssues,
     originUrl: originUrl,
     _cache: cache
