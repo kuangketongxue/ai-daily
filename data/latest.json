@@ -4,6 +4,11 @@
   "count": 7,
   "items": [
     {
+      "date": "2026-11-23",
+      "description": "OpenAI 公开内部指标 Perplexity，提议设共同开发限制；蚂蚁集团开源医疗模型 LingSante 3.1 Flash 与 air VL；马斯克披露 Tesla Reality View 技术细节；Elon Musk 预警 AI 行业明年严重资金短缺；OpenRouter 终止 3 家供应商合作，移除 125 个端点的 ZDR 资格；甲骨文称与…",
+      "link": "https://daily.juya.uk/issues/2026-11-23/"
+    },
+    {
       "date": "2026-11-22",
       "description": "Antigravity 重置全部用户的 Gemini 配额；Google Antigravity 更新 /btw：可另开支线且不丢进度；博主称 Cursor 即将更名为 Grok Build；OpenCode 宣布 GLM 5.3 和 DeepSeek Flash 降价 60%；OpenAI 语音团队成员宣布 Dots 通话结束后可查看文字转录；Gemin…",
       "link": "https://daily.juya.uk/issues/2026-11-22/"
@@ -32,11 +37,6 @@
       "date": "2026-11-17",
       "description": "阿里巴巴发布 Qwen4 Max：官方称成本降 58%；腾讯混元推出 Hy4 flash，官方称迄今最高性价比；Antigravity 上下文窗口翻倍，压缩次数大减；OpenAI 启动嵌入式评估，引入外部机构审查安全；字节跳动 Seedance 2.5 4K API 全面开放；上海AI实验室开源书生 S2.1 Flash；Tibo：Codex 容量报错或已…",
       "link": "https://daily.juya.uk/issues/2026-11-17/"
-    },
-    {
-      "date": "2026-11-16",
-      "description": "华为云上线 openPangu 2.1 Pro 模型；Agnes AI 开源 187.8B 多模态 MoE 模型；OpenCode Go 订阅现已支持微信支付付款；OpenAI 开设 science blog 并发布 Standard Model 研究解读；报道称 Jensen Huang 考虑重返 NVIDIA 担任 CEO",
-      "link": "https://daily.juya.uk/issues/2026-11-16/"
     }
   ]
 }
