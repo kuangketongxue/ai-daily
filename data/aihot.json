@@ -1,127 +1,67 @@
 {
   "generated": "2026-11-24",
   "source": "https://aihot.news/",
-  "count": 20,
+  "count": 10,
   "items": [
     {
-      "title": "用户实测用 MiniCPM5-2B 在 Mac 上本地跑通体检报告分析",
-      "link": "https://aihot.news/items/g3vdho0vzm8rzriiz5grruy3m",
-      "summary": "用户@cxjwin 分享在 Mac（M4 Pro、48GB）上用 Homebrew 装 llama.cpp 跑 minicpm5-2b、colima 起 Docker 本地运行开源项目 Mirobody 的实测：14 页 PDF 首次处理漏掉 3 页扫描版化验单，截图单独上传后 58 行化验数值逐项与原件对上，其中 20 行成功映射到 LOINC 标准编码，肌酐因名称歧义留空未猜。问超标指标时 2B 模型走 11 步找到全部 5 项箭头",
-      "pub": "Sun, 22 Nov 2026 11:15:31 GMT"
+      "title": "Amazon 报告黑客用开源框架 Cairn 驱动 AI 智能体在约 11 分钟内自主发现并利用 0-day",
+      "link": "https://aihot.news/items/ygbhvp086wl672gfxuhfgl23x",
+      "summary": "Amazon 威胁情报报告称，黑客在开源 AI 渗透测试框架 Cairn 上运行的 AI 智能体，仅凭一句「获取 shell 权限」的指令，就自主发现并利用了一个开源医学影像 AI 应用中未修补的路径遍历 0-day，从映射 API 到任意写文件仅用约 11 分钟，随后写入 Python 反向 shell payload 并以 root 权限获得控制。 🔗 阅读原文 via AIHOT · https://aihot.news/item",
+      "pub": "Tue, 24 Nov 2026 12:30:05 GMT"
     },
     {
-      "title": "Lean 与 Mathlib 社区确认 Levent Alpöge 黎曼猜想证明正确",
-      "link": "https://aihot.news/items/ikpixx0j7414se1f6lww2csek",
-      "summary": "Lean 与 Mathlib 社区发表声明，确认斯坦福数学家 Levent Alpöge 的黎曼猜想证明正确。Alpöge 于 2026 年 11 月 20 日以 1700 万行 Lean 代码发布该证明，数十人独立运行得到相同结果，且验证程序被设计为可证明不会接受有缺陷的证明。 🔗 阅读原文 via AIHOT · https://aihot.news/items/ikpixx0j7414se1f6lww2csek",
-      "pub": "Sun, 22 Nov 2026 11:08:31 GMT"
+      "title": "OpenAI 与 Cisco 发布开源 Linux 运行时 Shirudo，让 Agent 无停机防御系统",
+      "link": "https://aihot.news/items/d41p6k2h48zm8u2kl5xdzqx5h",
+      "summary": "OpenAI 宣布与 Cisco 合作推出开源 Linux 运行时 Shirudo，让 Agent 编写动态 eBPF 控制来抵御漏洞利用，同时保持服务不中断，为防御方争取测试和部署补丁的时间。作者称这是迈向自适应自防御基础设施的第一步，目标是让防御者与 AI Agent 协作定位受影响系统、测试并共享 shield、在不干扰工作负载的情况下部署。 🔗 阅读原文 via AIHOT · https://aihot.news/items/",
+      "pub": "Tue, 24 Nov 2026 08:15:44 GMT"
     },
     {
-      "title": "菲尔兹奖得主梅纳德谈 Claude 合作证明黎曼猜想：相信证明正确，但需被理解才可能获认可",
-      "link": "https://aihot.news/items/p9h5xzsooms0foxeakoivy7qt",
-      "summary": "2022 年菲尔兹奖得主、牛津大学数学教授詹姆斯·梅纳德（James Maynard）在采访中表示，他认为 Anthropic 数学家莱文特·阿尔珀格（Levent Alpöge）与 Claude 合作完成的黎曼猜想证明是正确的，依据是该证明已通过 Lean 库形式化验证并经独立核实，且阿尔珀格过往有可靠记录。 🔗 阅读原文 via AIHOT · https://aihot.news/items/p9h5xzsooms0foxeako",
-      "pub": "Sun, 22 Nov 2026 09:35:58 GMT"
+      "title": "卡兹克分享两个优化用户体验和产品动效的 Prompt",
+      "link": "https://aihot.news/items/jb7ohptrc5ctyx9maoimz2hn0",
+      "summary": "数字生命卡兹克分享自己做产品时用的两个 Prompt，一个按用户体验至上的原则审查项目交互并直接修复，一个把项目动效做到细腻丝滑水准。要点包括让 Gemini 当方案顾问、按状态变化逐项审查动效，完成后让 GPT 审查再合并上线。 🔗 阅读原文 via AIHOT · https://aihot.news/items/jb7ohptrc5ctyx9maoimz2hn0",
+      "pub": "Tue, 24 Nov 2026 06:12:14 GMT"
     },
     {
-      "title": "OpenAI 提议以困惑度作为行业共享指标并公开内部预训练测量数据",
-      "link": "https://aihot.news/items/r7kb35fpdwc1m2iqsmd310tdj",
-      "summary": "OpenAI 撰文提议将 perplexity（交叉熵损失）确立为跨模型开发者比较和安全标准的共享指标，并公开其内部预训练测量数据。 🔗 阅读原文 via AIHOT · https://aihot.news/items/r7kb35fpdwc1m2iqsmd310tdj",
-      "pub": "Sun, 22 Nov 2026 00:00:00 GMT"
+      "title": "OpenClaw 联合多家机构发布真实任务基准 ShellBench，最强模型完成率约六成",
+      "link": "https://aihot.news/items/frmncgr2jcrvfm3t6jgabqhfh",
+      "summary": "OpenClaw 与 Hugging Face、Red Hat、UC Berkeley 等机构合作推出 ShellBench，基于超过 1000 万条匿名真实智能体交互构建 100 个日常任务，含 90 个 rubric 评分任务（721 项标准，其中 381 项安全标准）和 10 个代码测试任务，共 53,100 次评分运行。 🔗 阅读原文 via AIHOT · https://aihot.news/items/frmncgr2jc",
+      "pub": "Tue, 24 Nov 2026 00:00:00 GMT"
     },
     {
-      "title": "Columbia 与 MIT 论文展示 Claude 发现的算法突破 3SUM 与 APSP 长期速度上限",
-      "link": "https://aihot.news/items/d32df9vzpliz9m348fug74inq",
-      "summary": "Columbia 和 MIT 的论文展示 Claude 发现的算法在 3SUM 和全对最短路径（APSP）上取得多项式改进，3SUM 达到 O(n^1.9992)、APSP 达到 O(n^2.9995)，推翻了 3SUM 和 APSP 假设。 🔗 阅读原文 via AIHOT · https://aihot.news/items/d32df9vzpliz9m348fug74inq",
-      "pub": "Sat, 21 Nov 2026 18:47:26 GMT"
-    },
-    {
-      "title": "Anthropic 数学家称与 Claude 完成黎曼猜想证明，斯坦福数小时后发布纯人类竞争草稿",
-      "link": "https://aihot.news/items/tje8i8y21ttk7jjmqet5bpxuq",
-      "summary": "Anthropic 数学家 Levent Alpöge 周五宣布与 Claude 合作得到黎曼猜想及广义黎曼猜想的证明，证明以 Lean 语言分 14 个数据包发布，打印将超 25 万页。 🔗 阅读原文 via AIHOT · https://aihot.news/items/tje8i8y21ttk7jjmqet5bpxuq",
-      "pub": "Sat, 21 Nov 2026 11:19:49 GMT"
-    },
-    {
-      "title": "Together AI 通报 2026 年 6-7 月 serverless 推理服务提示词泄露事件",
-      "link": "https://aihot.news/items/xqe6lbb5zsjp9xbsc1o912cs0",
-      "summary": "Together AI 通报一起安全事件：因 AI 编码 agent 在公开 GitHub 仓库 xorl 中提交了私有 Hugging Face 仓库凭证，未授权方下载了 2026 年 6-7 月提交给 MiniMax M3、GLM-5.2、Kimi K2.6 等 serverless 推理服务的存储提示词样本，并搜索其中其他服务凭证。 🔗 阅读原文 via AIHOT · https://aihot.news/items/xqe6l",
-      "pub": "Sat, 21 Nov 2026 00:00:00 GMT"
-    },
-    {
-      "title": "Qwen4 Max 上线 Together AI，单次调用修复 Tornado 整仓 bug",
-      "link": "https://aihot.news/items/rlj39tzyujneo0u35iyrfb4uc",
-      "summary": "Together AI 宣布阿里旗舰模型 Qwen4 Max 上线其 Serverless 推理平台（模型串 Qwen/Qwen4-Max），1M token 上下文，截至 2026 年 11 月 22 日 7 折。 🔗 阅读原文 via AIHOT · https://aihot.news/items/rlj39tzyujneo0u35iyrfb4uc",
-      "pub": "Sat, 21 Nov 2026 00:00:00 GMT"
-    },
-    {
-      "title": "Figma 演示用 Specs 与 Figma agent 把上下文变成可实现的开发计划",
-      "link": "https://aihot.news/items/w612ivonntodntv1ydkt2lqwh",
-      "summary": "Figma 在 Workflow lab 中演示一个完整工作流：工程师用 Specs 在画布上汇集 PRD、Hex 数据、FigJam 图、标注设计和组件说明，再让 Figma agent 生成供编码智能体使用的实现计划。文中还提到 Specs 与 code layers 已开放 beta、覆盖所有套餐，最后通过 Figma MCP 把计划链接交给 Codex 读取全部上下文并实现功能。 🔗 阅读原文 via AIHOT · https",
-      "pub": "Fri, 20 Nov 2026 22:17:00 GMT"
-    },
-    {
-      "title": "研究者向 AI 供应链埋入 200 万个金丝雀，揭露敏感数据泄露",
-      "link": "https://aihot.news/items/agm7klro03kcu9weuix1bt4su",
-      "summary": "研究者在经过 OpenRouter 等 AI 路由的请求中埋入 200 万个金丝雀链接，测试敏感信息是否会沿 AI 服务链泄露，结果显示这些数据像筛子一样大量外泄。 🔗 阅读原文 via AIHOT · https://aihot.news/items/agm7klro03kcu9weuix1bt4su",
-      "pub": "Fri, 20 Nov 2026 20:59:08 GMT"
-    },
-    {
-      "title": "ChatGPT 推出 Space：统一管理页面、幻灯片、图片与文件",
-      "link": "https://aihot.news/items/ekf0so0xitc52thkrxx3mwax1",
-      "summary": "ChatGPT 官方宣布侧边栏中的 Space 成为 pages、slides、images、files 和 uploads 的新家。用 ChatGPT 可写页面、做研究、生成图片并创建交互式图表，把想法变成带图片和图形的幻灯片并邀请他人协作；页面和幻灯片还可从已连接的工具自动更新。 🔗 阅读原文 via AIHOT · https://aihot.news/items/ekf0so0xitc52thkrxx3mwax1",
-      "pub": "Fri, 20 Nov 2026 18:48:12 GMT"
-    },
-    {
-      "title": "Anthropic数学家Alpöge宣布与Claude共同证明黎曼猜想，放出1737万行Lean代码",
-      "link": "https://aihot.news/items/vu6fw8wmrs3xcln4u9gwzf1f4",
-      "summary": "Anthropic数学家Levent Alpöge在其个人网站宣布与Claude共同给出黎曼猜想证明，未发论文，只放出175187个Lean文件、共1737万行代码。 🔗 阅读原文 via AIHOT · https://aihot.news/items/vu6fw8wmrs3xcln4u9gwzf1f4",
-      "pub": "Fri, 20 Nov 2026 16:54:55 GMT"
-    },
-    {
-      "title": "Kling AI 发布 Kling Image 4.0：原生 8K 图像生成与高级文字渲染",
-      "link": "https://aihot.news/items/rhln87mprozseglkairsway74",
-      "summary": "Kling AI 发布 Kling Image 4.0，主打原生 8K、更强真实感、一致图像组和高级文字渲染。引用 Artificial Analysis 的评测显示其在文生图排名第 7、图像编辑排名第 6，较 Kling Image 3.0 Omni 两个榜单均提升超 225 Elo。黑五限时定价 2K 低至 $0.022/图、原生 8K 低至 $0.033/图。 🔗 阅读原文 via AIHOT · https://aihot.ne",
-      "pub": "Fri, 20 Nov 2026 16:40:57 GMT"
-    },
-    {
-      "title": "MIT 数学面板讨论 AI 冲击下的数学研究未来",
-      "link": "https://aihot.news/items/qfwgfsg8m1r4vcf4vglgi03by",
-      "summary": "MIT 举办“AI 与社会：数学的未来”座谈，来自 MIT、哈佛、西北大学和纽约大学的数学家讨论 AI 对数学研究的影响。 🔗 阅读原文 via AIHOT · https://aihot.news/items/qfwgfsg8m1r4vcf4vglgi03by",
-      "pub": "Fri, 20 Nov 2026 15:20:00 GMT"
-    },
-    {
-      "title": "Anthropic 破纪录 IPO 未能止住 AI 抛售，全球股市下挫",
-      "link": "https://aihot.news/items/ufyn252g3i251j0mfwy8xth9r",
-      "summary": "Anthropic 上市第二天股价跌逾 9% 至 $88.17，接近 $83 发行价，其破纪录 IPO 未能止住 AI 相关公司抛售。周五 Nasdaq 跌 2%，SanDisk 跌 14%、Micron 跌 10%；亚洲股市创 2020 年以来最差一周，台湾加权指数跌 6.7%、日经跌 5%、Kospi 跌 5.5%，SoftBank 单日跌 14.5%。 🔗 阅读原文 via AIHOT · https://aihot.news/i",
-      "pub": "Fri, 20 Nov 2026 13:53:13 GMT"
-    },
-    {
-      "title": "Thinking Machines Lab 发布可跑在笔记本上的开源权重模型 Inkling 2 Mini",
-      "link": "https://aihot.news/items/y7nk77dxae51qwi826gpmvbho",
-      "summary": "Thinking Machines Lab 发布开源权重模型 Inkling 2 Mini，采用循环 Transformer 架构，将中间 12 层每 token 运行三次，总参数 26.4B、激活 3.4B，内存占用约 20GB，可在 32GB 内存以上的 Mac 本地运行。 🔗 阅读原文 via AIHOT · https://aihot.news/items/y7nk77dxae51qwi826gpmvbho",
-      "pub": "Fri, 20 Nov 2026 07:00:00 GMT"
-    },
-    {
-      "title": "MiniMax 内部模型 MIM 实现多项密码分析实用攻击并开源验证轨迹",
-      "link": "https://aihot.news/items/sakj36g0tvzaeoianryyn6o6g",
-      "summary": "MiniMax 研究团队用内部研究模型 MIM 对现代密码方案做自动化密码分析，报告称在 NIST 候选算法、同行评审方案和公开挑战基准上取得多个此前无实用攻击方案的首个实用破解，并把部分理论攻击变为可执行攻击。 🔗 阅读原文 via AIHOT · https://aihot.news/items/sakj36g0tvzaeoianryyn6o6g",
-      "pub": "Fri, 20 Nov 2026 06:41:45 GMT"
-    },
-    {
-      "title": "DeepSeek Harness 发布100天，作者分享13个实用插件玩法",
-      "link": "https://aihot.news/items/amx0tnq9rthd6ssx81np25ldc",
-      "summary": "卡兹克在DeepSeek Harness发布100天之际分享了13个插件玩法。 🔗 阅读原文 via AIHOT · https://aihot.news/items/amx0tnq9rthd6ssx81np25ldc",
-      "pub": "Fri, 20 Nov 2026 04:01:57 GMT"
-    },
-    {
-      "title": "腾讯混元开放 Hy4 权重",
-      "link": "https://aihot.news/items/jl6m0eymz9z0kleh54c3guowx",
-      "summary": "腾讯混元发布 Hy4 开放权重，定位原生多模态旗舰 MoE 模型，总参数 770B、激活 49B，支持 1M 上下文。同步发布含安全评估报告的 Hy4 System Card，并提供 GitHub、Hugging Face 权重与 GGUF 下载链接，团队将于本周五 8–10 AM PT 在 r/LocalLLaMA 举行 AMA。 🔗 阅读原文 via AIHOT · https://aihot.news/items/jl6m0eym",
-      "pub": "Fri, 20 Nov 2026 03:52:40 GMT"
-    },
-    {
-      "title": "browser-use 1.0 发布：用一个 Python REPL 工具替代 24 个浏览器动作",
-      "link": "https://aihot.news/items/wibzzhd168cafn7o3gl8336di",
-      "summary": "Browser Use 发布 browser-use 1.0，用单一 python 持久 REPL 加原生 Chrome DevTools Protocol 访问替代 0.x 的 24 个浏览器动作。 🔗 阅读原文 via AIHOT · https://aihot.news/items/wibzzhd168cafn7o3gl8336di",
+      "title": "Google 回顾 Duplex 十年演进：如何在 Gemini Tasks 中替用户打电话给商家",
+      "link": "https://aihot.news/items/t68rgyv46hdbp52212ozxleh3",
+      "summary": "Google Research 回顾 Duplex 十年架构演进，并介绍本周在 Gemini App Tasks 中上线的自动致电商家功能。 🔗 阅读原文 via AIHOT · https://aihot.news/items/t68rgyv46hdbp52212ozxleh3",
       "pub": "Fri, 20 Nov 2026 00:00:00 GMT"
+    },
+    {
+      "title": "Nvidia 股价近期波动复盘：财报强劲但股价较 10 月高点跌近 40%",
+      "link": "https://aihot.news/items/w1q2gyqsel49b4vbqeodf0qmc",
+      "summary": "The Verge 梳理 Nvidia 近期股价波动：第三季度营收同比翻倍至 1158 亿美元，数据中心业务增长 110%，Vera Rubin 平台贡献近 200 亿美元收入；但受芯片股整体抛售、前 CEO 黄仁勋辞职及公司治理调查等因素影响，股价一度报约 150 美元，较 10 月 6 日历史高点跌近 40%，周四收于 145.98 美元，创 52 周新低。 🔗 阅读原文 via AIHOT · https://aihot.news",
+      "pub": "Thu, 19 Nov 2026 21:59:35 GMT"
+    },
+    {
+      "title": "Mac 版 Gemini 应用上线计算机操作功能，可代用户执行跨应用任务",
+      "link": "https://aihot.news/items/h5xjk79bhcu8vgnbrynj208uj",
+      "summary": "Google Labs VP Josh Woodward 宣布 Mac 版 Gemini 应用新增 computer use 功能，可跨文件夹、应用和网页代用户执行任务，屏幕和光标控制权仍归用户。官方演示显示 Gemini 能在后台窗口中点击、滚动和输入，把草图变成 Blender 里的绑定的 3D 模型。 🔗 阅读原文 via AIHOT · https://aihot.news/items/h5xjk79bhcu8vgnbrynj2",
+      "pub": "Thu, 19 Nov 2026 21:52:19 GMT"
+    },
+    {
+      "title": "Gemini 4 Neon 实测：Peter Gostev 对比 Opus、Fable 等模型的首发体验",
+      "link": "https://aihot.news/items/z0unnn7ryj39a3tuns8b1l4a6",
+      "summary": "Arena 分享 Gemini 4 Neon 发布后的第一手实测视频，Peter Gostev 在 3D 场景、游戏、UI 和数据可视化等任务中将其与 Opus、Fable、Astra、Sol 对比，并评估其接近前沿的程度。 🔗 阅读原文 via AIHOT · https://aihot.news/items/z0unnn7ryj39a3tuns8b1l4a6",
+      "pub": "Thu, 19 Nov 2026 21:28:16 GMT"
+    },
+    {
+      "title": "Karina Nguyen 发文祝贺投资人 Sol 庆祝 Anthropic IPO",
+      "link": "https://aihot.news/items/lc38ozrwfur9ympu1l3meqcuq",
+      "summary": "Karina Nguyen 发文感谢投资人 Sol，回忆早期在办公室一起讨论模型评测和后训练难题的经历，并称赞他是唯一理解 scaling laws 的 VC。引用内容为 Sol 祝贺 Anthropic IPO 的推文，感谢 LP 及 GM 养老金、ICONIQ、Coatue、Lightspeed 等合作伙伴在增长投资最差时期押注 Anthropic。 🔗 阅读原文 via AIHOT · https://aihot.news/ite",
+      "pub": "Thu, 19 Nov 2026 20:13:16 GMT"
+    },
+    {
+      "title": "Perplexity CEO Aravind Srinivas 祝贺 Anthropic IPO，称 Opus 5.5 仍是业界最佳模型",
+      "link": "https://aihot.news/items/w8zhbr5smu0072gyuzmmay1eo",
+      "summary": "Perplexity CEO Aravind Srinivas 发推祝贺 Anthropic 当日 IPO，称其展示了专注、高信念、品味驱动的团队能在短时间内达成的成果。他表示 Opus 5.5 以明显优势仍是业界最佳模型，并称 Perplexity 作为 Anthropic 客户为其高兴。 🔗 阅读原文 via AIHOT · https://aihot.news/items/w8zhbr5smu0072gyuzmmay1eo",
+      "pub": "Thu, 19 Nov 2026 18:18:09 GMT"
     }
   ]
 }
