@@ -1,8 +1,13 @@
 {
-  "generated": "2026-11-24",
+  "generated": "2026-11-25",
   "source": "https://daily.juya.uk/rss.xml",
   "count": 7,
   "items": [
+    {
+      "date": "2026-11-25",
+      "description": "ChatGPT 合并 Chat 和 Work，部分用户率先体验；OpenAI 员工宣布 Business 套餐 Fast mode 免费至年底；OpenAI 改进 Dots 审核，减少任务中的额外审批；Antigravity 新版非必要审批减半，Neon 任务快 17%；Anthropic 推出测试功能：artifacts 可装成桌面应用；Cognitio…",
+      "link": "https://daily.juya.uk/issues/2026-11-25/"
+    },
     {
       "date": "2026-11-24",
       "description": "智谱发布旗舰模型 GLM 5.4；OpenAI 在 ChatGPT 上线日常对话版 GPT 6.2 Sol；Antigravity 重置所有用户 Gemini 配额并向付费 Pro 开放 Carbon；Qoder 独家上线匿名模型 HungerG，免费试用 7 天；ChatGPT 宣布 12 月 23 日下线 GPT 5.6 Sol 与 Terra；Ope…",
@@ -32,11 +37,6 @@
       "date": "2026-11-19",
       "description": "Google 发布 Gemini 4 Neon；谷歌新版 Project Genie 开放 Genie 4；DeepSeek：模型触发的搜索和抓取不再单独计费；Antigravity Pro 免费试用仅剩 3.8 Flash；OpenCode：10 美元购 500 美元 GLM 5.3；Perplexity 推出 Context API；ChatGPT 语…",
       "link": "https://daily.juya.uk/issues/2026-11-19/"
-    },
-    {
-      "date": "2026-11-18",
-      "description": "OpenAI 发布 GPT 6.2 Astra 与 Sol，分别面向复杂任务和日常工作；微软在 Ignite 上公布七款新模型；Gemini Tasks 在美日韩加澳印六国免费开放；Antigravity 重置所有模型配额，Carbon 首词元响应提速；OpenCode Go GLM 5.3 额度升至 200 美元；可灵 AI 发布 Kling Image…",
-      "link": "https://daily.juya.uk/issues/2026-11-18/"
     }
   ]
 }
