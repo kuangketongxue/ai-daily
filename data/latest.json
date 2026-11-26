@@ -1,8 +1,13 @@
 {
-  "generated": "2026-11-25",
+  "generated": "2026-11-26",
   "source": "https://daily.juya.uk/rss.xml",
   "count": 7,
   "items": [
+    {
+      "date": "2026-11-26",
+      "description": "Antigravity 称再度提升 Neon 缓存命中率，额度内任务增 28%；OpenAI 邮件称部分 Codex 请求少扣额度已修正，用户或更快达限额；Sand.ai发布MAGI 2视频模型，独家上线Higgsfield；NVIDIA 开放 Nemotron Labs Image 30B A3B；PrismML 发布并开源 5.9 GB 三值模型 Bo…",
+      "link": "https://daily.juya.uk/issues/2026-11-26/"
+    },
     {
       "date": "2026-11-25",
       "description": "ChatGPT 合并 Chat 和 Work，部分用户率先体验；OpenAI 员工宣布 Business 套餐 Fast mode 免费至年底；OpenAI 改进 Dots 审核，减少任务中的额外审批；Antigravity 新版非必要审批减半，Neon 任务快 17%；Anthropic 推出测试功能：artifacts 可装成桌面应用；Cognitio…",
@@ -32,11 +37,6 @@
       "date": "2026-11-20",
       "description": "ChatGPT dots 向 Business Standard 用户以及部分 Plus 开放；ChatGPT 健康功能扩展至桌面端、Android 和 dots；Antigravity 桌面应用新增 SSH 连接功能；Mac 版 Gemini 应用上线 computer use 功能；Gemini API 预览推出工具按需加载功能；Qoder 免费用户不…",
       "link": "https://daily.juya.uk/issues/2026-11-20/"
-    },
-    {
-      "date": "2026-11-19",
-      "description": "Google 发布 Gemini 4 Neon；谷歌新版 Project Genie 开放 Genie 4；DeepSeek：模型触发的搜索和抓取不再单独计费；Antigravity Pro 免费试用仅剩 3.8 Flash；OpenCode：10 美元购 500 美元 GLM 5.3；Perplexity 推出 Context API；ChatGPT 语…",
-      "link": "https://daily.juya.uk/issues/2026-11-19/"
     }
   ]
 }
