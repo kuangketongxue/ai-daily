@@ -1,8 +1,13 @@
 {
-  "generated": "2026-11-26",
+  "generated": "2026-11-27",
   "source": "https://daily.juya.uk/rss.xml",
   "count": 7,
   "items": [
+    {
+      "date": "2026-11-27",
+      "description": "DeepSeek 网页端显示对话价格和额度消耗；Antigravity 为所有用户重置 Gemini 额度；OpenAI 修复 GPT 6.2 计费错误，补偿已上线；腾讯混元开源草稿模型 DFly2；蚂蚁百灵开源 Ming Image 0.2 Design，并预告图层分解版；Antigravity banked resets 开发中，被曝现身 CLI；报道…",
+      "link": "https://daily.juya.uk/issues/2026-11-27/"
+    },
     {
       "date": "2026-11-26",
       "description": "Antigravity 称再度提升 Neon 缓存命中率，额度内任务增 28%；OpenAI 邮件称部分 Codex 请求少扣额度已修正，用户或更快达限额；Sand.ai发布MAGI 2视频模型，独家上线Higgsfield；NVIDIA 开放 Nemotron Labs Image 30B A3B；PrismML 发布并开源 5.9 GB 三值模型 Bo…",
@@ -32,11 +37,6 @@
       "date": "2026-11-21",
       "description": "数学家称与 Claude 合作证明黎曼猜想；Thinking Machines 发布并开源 Inkling 2 Mini；Antigravity 扩大 cache pool，完成后重置配额；OpenAI 向 Plus 用户开放 Space 协作空间；腾讯混元开源旗舰模型 Hy4：总参数 770B；微信开源全模态模型系列WeMM Video；Codex 更新…",
       "link": "https://daily.juya.uk/issues/2026-11-21/"
-    },
-    {
-      "date": "2026-11-20",
-      "description": "ChatGPT dots 向 Business Standard 用户以及部分 Plus 开放；ChatGPT 健康功能扩展至桌面端、Android 和 dots；Antigravity 桌面应用新增 SSH 连接功能；Mac 版 Gemini 应用上线 computer use 功能；Gemini API 预览推出工具按需加载功能；Qoder 免费用户不…",
-      "link": "https://daily.juya.uk/issues/2026-11-20/"
     }
   ]
 }

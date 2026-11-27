@@ -1,25 +1,31 @@
 {
-  "generated": "2026-11-26",
+  "generated": "2026-11-27",
   "source": "https://aihot.news/",
-  "count": 3,
+  "count": 4,
   "items": [
     {
-      "title": "MiniMax 推出 H3 Family：旗舰与扩展视频图像模型",
-      "link": "https://aihot.news/items/cxodjj13xa8ey821rbnmumcrf",
-      "summary": "MiniMax 发布 H3 Family，包含旗舰 H3、H3-Highspeed、H3-Lite、H3-Image 系列及 fal、Suno、HeyGen、Pika 等第三方的扩展模型。H3 开源 100 天已衍生 1,472 个模型、累计下载超 1.48 亿次，旗舰 H3 支持 2K 输出、起价 $0.08/秒，H3-Image Highspeed 最快 10 秒内生成 4K 图像。 🔗 阅读原文 via AIHOT · https",
-      "pub": "Thu, 26 Nov 2026 12:00:09 GMT"
+      "title": "实测支付宝 SkillPay：手把手教你怎么把 Skill 挂上去卖钱",
+      "link": "https://aihot.news/items/cdkswjz368inpelrz3f52rekx",
+      "summary": "作者完整实测支付宝 SkillPay 平台的 Skill 变现流程，该平台7月上线，支持买断和订阅两种售卖模式。买断制将 Skill 完整内容交付本地，订阅制把 Skill 保留在云端沙盒中、Agent 看不到明文；买断定价 0.01-50 元，订阅按周月季度收费上限 50 元，免费试用最低 5 次。 🔗 阅读原文 via AIHOT · https://aihot.news/items/cdkswjz368inpelrz3f52rek",
+      "pub": "Thu, 26 Nov 2026 23:56:00 GMT"
     },
     {
-      "title": "Google 强制 AI Agent 走 Workspace MCP 服务器，Gmail 服务器不能发邮件",
-      "link": "https://aihot.news/items/vboh9u5yjfjgj1ha6rl804tkh",
-      "summary": "Google 于 11 月 24 日将八个 Workspace MCP 服务器正式开放，并在 API 条款中新增条款，要求自 2027 年 2 月 1 日起由 AI Agent 驱动的工具必须通过这些服务器访问 Gmail、Drive 等 Workspace 服务，直接调用 REST API 将按 Standard 级配额受限。 🔗 阅读原文 via AIHOT · https://aihot.news/items/vboh9u5yjf",
-      "pub": "Thu, 26 Nov 2026 00:00:00 GMT"
+      "title": "Karpathy 用 Claude Code 和 Opus 5.5 把美国真实数据做成文明风格游戏地图",
+      "link": "https://aihot.news/items/gc4qp85ij5qzhu53qzkg8quqj",
+      "summary": "Karpathy 分享用 Claude Code 桌面版加 Opus 5.5（开启 ultracode）构建的美国文明风格游戏地图，7 小时生成 45K 行代码，整合 Census、BEA、BLS、EIA、NOAA 等 31 个真实数据源，统一到 25 km 六边形网格。GDP 映射为金产量、城市按真实产业分化，含 19 个视图、524 个都市的 City View 和覆盖 3,100+ 县的 Explorer，已部署在 https:/",
+      "pub": "Thu, 26 Nov 2026 16:44:47 GMT"
     },
     {
-      "title": "蚂蚁 inclusionAI 开源 Ming-Image-0.2-Design 图像生成模型",
-      "link": "https://aihot.news/items/hdvt6wswzycj78wnr7r43xn6o",
-      "summary": "蚂蚁 inclusionAI 在 Hugging Face 发布并开源 Ming-Image-0.2-Design，改进复杂构图、光照和文字渲染，可用于电商主图、UI 设计稿和空间效果图。 🔗 阅读原文 via AIHOT · https://aihot.news/items/hdvt6wswzycj78wnr7r43xn6o",
-      "pub": "Wed, 25 Nov 2026 04:02:44 GMT"
+      "title": "Philipp Schmid 撰文解释为何在 Skills 与 CLI 兴起后仍更看好 MCP",
+      "link": "https://aihot.news/items/jcdfpftbam647yhc210dbace9",
+      "summary": "Philipp Schmid 撰文解释为何在 Skills 和 CLI 流行后依然看好 MCP：Linear 和 Notion 的 agent 每周创建约 240 万条 issue 和页面，Atlassian 每天 MCP 工具调用超 500 万次，其中 44% 用户来自软件团队之外，Notion 报告 60 倍 MCP 流量增长。 🔗 阅读原文 via AIHOT · https://aihot.news/items/jcdfpftb",
+      "pub": "Thu, 26 Nov 2026 13:30:28 GMT"
+    },
+    {
+      "title": "千问App免费开放打电话服务，可代用户拨号沟通需求",
+      "link": "https://aihot.news/items/cebavio3uyjwli5r3imsuq1si",
+      "summary": "千问App宣布千问Go打电话服务免费开放，用户告知打给谁、要办什么事并授权后，AI可代为拨打电话、沟通需求。文中举例称可帮用户联系酒店前台找回遗落行李并沟通寄回，还适用于订包间、催快递等场景。 🔗 阅读原文 via AIHOT · https://aihot.news/items/cebavio3uyjwli5r3imsuq1si",
+      "pub": "Wed, 25 Nov 2026 04:32:44 GMT"
     }
   ]
 }
