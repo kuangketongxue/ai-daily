@@ -110,6 +110,12 @@
   }
 
   function paint(list) {
+    // 每次重绘先清掉上一轮的过期提示：首屏用本地轻量索引可能只有旧一期，
+    // 会显示「今天还没生成」。后台 RSS 校正到新一期后 onUpdate 会二次重绘，
+    // 此时若不清除，就会出现「提示说没生成、正文却是今天」的自相矛盾
+    // （2026-11-27 实撞）。判定为旧期时下方会重新显示，无需担心误清。
+    $('stale').hidden = true;
+    $('stale').textContent = '';
     if (!list.length) { show('empty'); return; }
     var latest = list[0];
 
