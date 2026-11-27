@@ -4,10 +4,10 @@
   "count": 1,
   "items": [
     {
-      "title": "Dragos 调查称 MiniMax 在用户请求不存储的情况下仍打开提示词中的私有链接",
-      "link": "https://aihot.news/items/v5fxjqr2vapkk9vn1j9a8ke96",
-      "summary": "据美国安全公司 Dragos，MiniMax 收集并打开了用户提示词中的私有链接，即便用户要求不存储数据。 🔗 阅读原文 via AIHOT · https://aihot.news/items/v5fxjqr2vapkk9vn1j9a8ke96",
-      "pub": "Fri, 27 Nov 2026 07:21:40 GMT"
+      "title": "Antigravity 实用技巧：在 GEMINI.md 加一句话让模型边干活边汇报",
+      "link": "https://aihot.news/items/tiqf353lek6sib8ktn8uvc6nc",
+      "summary": "卡兹克分享一个 Antigravity 使用技巧，针对模型长时间闷头干活不输出信息的问题，只需在 GEMINI.md 中加一句话，要求动手前说要做什么、有发现、换方向、卡住或连干四五步时再说一句，即可获得类似 Claude 或 Codex 那种实时汇报进度的交互体验。 🔗 阅读原文 via AIHOT · https://aihot.news/items/tiqf353lek6sib8ktn8uvc6nc",
+      "pub": "Fri, 27 Nov 2026 12:38:45 GMT"
     }
   ]
 }
