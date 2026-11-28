@@ -1,13 +1,6 @@
 {
   "generated": "2026-11-28",
   "source": "https://aihot.news/",
-  "count": 1,
-  "items": [
-    {
-      "title": "OpenBMB 点评 InternLM 基于 MiniCPM-o 4.5 打造的 Sage-Interaction",
-      "link": "https://aihot.news/items/l9md8ugx8e2zlm5g1tuqthmaw",
-      "summary": "OpenBMB 转发并点评上海人工智能实验室 InternLM 团队发布的开源全双工语音视频模型 Sage-Interaction，该模型基于 MiniCPM-o 4.5 构建。OpenBMB 称赞其边说边听、在不打断对话的情况下把复杂任务交给后端模型，是迈向更自然 AI 交互的一步，并向 InternLM 团队致意。 🔗 阅读原文 via AIHOT · https://aihot.news/items/l9md8ugx8e2zlm5",
-      "pub": "Fri, 27 Nov 2026 13:32:15 GMT"
-    }
-  ]
+  "count": 0,
+  "items": []
 }
